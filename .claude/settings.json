@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:\\\\Users\\\\rodsa\\\\.claude\\\\projects\\\\c--Users-rodsa-OneDrive-Documentos-MED-PRECOS\\\\memory\\\\\" 2>/dev/null && echo \"---MEMORY.md---\" && cat \"C:\\\\Users\\\\rodsa\\\\.claude\\\\projects\\\\c--Users-rodsa-OneDrive-Documentos-MED-PRECOS\\\\memory\\\\MEMORY.md\" 2>/dev/null)",
+      "Read(//c/Users/rodsa/.claude/projects/c--Users-rodsa-OneDrive-Documentos-MED-PRECOS/memory\" 2>/dev/null && echo ---MEMORY.md--- && cat C:Usersrodsa.claudeprojectsc--Users-rodsa-OneDrive-Documentos-MED-PRECOSmemoryMEMORY.md 2>/dev/**)",
+      "Bash(ls -la \"C:/Users/rodsa/.claude/projects/c--Users-rodsa-OneDrive-Documentos-MED-PRECOS/memory/\" 2>&1)",
+      "Read(//c/Users/rodsa/.claude/projects/c--Users-rodsa-OneDrive-Documentos-MED-PRECOS/memory/**)"
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MED_PRECOS - Compare preços de medicamentos em farmácias próximas. Encontre genéricos, princípios ativos e economize na sua compra de remédios. Pesquise por cidade ou CEP.">
+    <meta name="keywords" content="preços de medicamentos, comparar preços remédios, farmácias próximas, genéricos, princípio ativo, economia medicamentos, pesquisa de preços farmácia, medicamentos baratos">
+    <meta name="author" content="MED_PRECOS">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0d6e6e">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="MED_PRECOS - Compare Preços de Medicamentos">
+    <meta property="og:description" content="Encontre os melhores preços de medicamentos em farmácias próximas. Compare genéricos e economize na sua compra.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MED_PRECOS - Compare Preços de Medicamentos">
+    <meta name="twitter:description" content="Encontre os melhores preços de medicamentos em farmácias próximas.">
+    
+    <title>MED_PRECOS - Compare Preços de Medicamentos e Encontre Farmácias Próximas</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💊</text></svg>">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "MED_PRECOS",
+        "description": "Plataforma de comparação de preços de medicamentos em farmácias",
+        "url": "https://medprecos.com.br",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://medprecos.com.br/?busca={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalOrganization",
+        "name": "MED_PRECOS",
+        "description": "Comparador de preços de medicamentos e localizador de farmácias",
+        "areaServed": "Brasil"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+    <!-- Header -->
+    <header class="cabecalho" role="banner">
+        <div class="container cabecalho-inner">
+            <a href="index.html" class="logo" aria-label="MED_PRECOS - Página inicial">
+                <span class="logo-icone" aria-hidden="true">💊</span>
+                <span class="logo-texto">MED<span class="logo-destaque">PRECOS</span></span>
+            </a>
+            <nav class="navegacao" role="navigation" aria-label="Navegação principal">
+                <ul class="navegacao-lista">
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="conteudo-principal" role="main">
+        
+        <!-- Hero Section with Search -->
+        <section class="hero" aria-labelledby="titulo-hero">
+            <div class="container">
+                <h1 id="titulo-hero">Compare Preços de Medicamentos<br>e Economize na Sua Compra</h1>
+                <p class="hero-subtitulo">Encontre os melhores preços de remédios em farmácias próximas de você. Pesquise por voz ou digite o nome do medicamento.</p>
+                
+                <!-- Search Form -->
+                <form id="form-busca" class="form-busca" role="search" aria-label="Buscar medicamentos">
+                    <div class="campo-busca">
+                        <label for="busca-medicamento" class="sr-only">Nome do medicamento</label>
+                        <input type="text" id="busca-medicamento" name="busca" placeholder="Digite o nome do medicamento (ex: Dipirona)" autocomplete="off" aria-describedby="dica-busca">
+                        <button type="button" id="btn-voz" class="btn-voz" aria-label="Buscar por voz" title="Clique para falar o nome do medicamento">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                                <line x1="12" y1="19" x2="12" y2="23"/>
+                                <line x1="8" y1="23" x2="16" y2="23"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <div class="campo-localizacao">
+                        <label for="busca-localizacao" class="sr-only">Cidade, bairro ou CEP</label>
+                        <input type="text" id="busca-localizacao" name="localizacao" placeholder="Cidade, bairro ou CEP (ex: Savassi, Belo Horizonte ou 01310-100)" autocomplete="off">
+                        <button type="button" id="btn-localizar" class="btn-localizar" aria-label="Usar minha localização atual" title="Usar minha localização">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="campo-raio">
+                        <label for="raio-busca">Buscar farmácias num raio de</label>
+                        <select id="raio-busca" name="raio">
+                            <option value="5">5 km</option>
+                            <option value="10">10 km</option>
+                            <option value="20">20 km</option>
+                            <option value="60" selected>60 km</option>
+                            <option value="100">100 km</option>
+                            <option value="qualquer">Qualquer distância</option>
+                            <option value="personalizado">Outro valor…</option>
+                        </select>
+                        <input type="number" id="raio-personalizado" class="raio-personalizado" min="1" max="5000" placeholder="km" aria-label="Raio personalizado em quilômetros" hidden>
+                    </div>
+
+                    <button type="submit" class="btn-buscar" id="btn-buscar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"/>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                        </svg>
+                        Buscar Preços
+                    </button>
+                </form>
+                
+                <p id="dica-busca" class="dica-busca">💡 Dica: Você pode digitar o nome comercial (ex: Tylenol) ou o princípio ativo (ex: Paracetamol).</p>
+                
+                <!-- Voice status indicator -->
+                <div id="status-voz" class="status-voz" role="status" aria-live="polite" hidden>
+                    <span class="status-voz-icone" aria-hidden="true">🎤</span>
+                    <span id="status-voz-texto">Ouvindo... Fale o nome do medicamento</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading indicator -->
+        <div id="carregando" class="carregando" role="status" aria-live="polite" hidden>
+            <div class="spinner" aria-hidden="true"></div>
+            <p>Buscando os melhores preços para você...</p>
+        </div>
+
+        <!-- Results Section -->
+        <section id="resultados" class="resultados" aria-labelledby="titulo-resultados" hidden>
+            <div class="container">
+                <h2 id="titulo-resultados" class="titulo-secao">Resultados da Busca</h2>
+                
+                <!-- Medicine Info Card -->
+                <div id="card-medicamento" class="card-medicamento" hidden>
+                    <div class="medicamento-info">
+                        <h3 id="medicamento-nome" class="medicamento-nome"></h3>
+                        <p id="medicamento-principio" class="medicamento-principio"></p>
+                        <p id="medicamento-descricao" class="medicamento-descricao"></p>
+                    </div>
+                </div>
+
+                <!-- Generic Alternatives -->
+                <div id="secao-genericos" class="secao-genericos" hidden>
+                    <h3 class="subtitulo-secao">💊 Alternativas Genéricas</h3>
+                    <p class="texto-ajuda">O genérico possui o mesmo princípio ativo e pode custar até 70% menos.</p>
+                    <div id="lista-genericos" class="lista-genericos"></div>
+                </div>
+
+                <!-- Pharmacy Price Comparison -->
+                <div id="secao-farmacias" class="secao-farmacias" hidden>
+                    <h3 class="subtitulo-secao">🏪 Farmácias Próximas com Melhores Preços</h3>
+                    <p id="localizacao-busca" class="localizacao-busca"></p>
+                    <p id="aviso-farmacias-distantes" class="aviso-farmacias-distantes" role="status" hidden></p>
+                    <div class="tabela-container">
+                        <table class="tabela-precos" role="table" aria-label="Comparação de preços entre farmácias">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Farmácia</th>
+                                    <th scope="col">Endereço</th>
+                                    <th scope="col">Distância</th>
+                                    <th scope="col">Preço</th>
+                                    <th scope="col">Horário</th>
+                                    <th scope="col">Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="corpo-tabela-precos"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Shopping Route (Premium) -->
+                <div id="secao-rota" class="secao-rota" hidden>
+                    <div class="rota-premium">
+                        <div class="rota-premium-header">
+                            <h3 class="subtitulo-secao">🗺️ Roteiro de Compras Inteligente</h3>
+                            <span class="badge-premium">PREMIUM</span>
+                        </div>
+                        <p class="texto-ajuda">Otimize sua rota para economizar tempo e dinheiro. Visite apenas as farmácias necessárias e compre cada medicamento pelo menor preço.</p>
+                        <div id="lista-rota" class="lista-rota"></div>
+                        <div class="rota-resumo">
+                            <p id="rota-economia" class="rota-economia"></p>
+                            <p id="rota-tempo" class="rota-tempo"></p>
+                        </div>
+                        <button id="btn-roteiro-voz" class="btn-roteiro-voz" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                                <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                                <line x1="12" y1="19" x2="12" y2="23"/>
+                                <line x1="8" y1="23" x2="16" y2="23"/>
+                            </svg>
+                            Ouvir Roteiro
+                        </button>
+                    </div>
+                </div>
+
+                <!-- No results message -->
+                <div id="sem-resultados" class="sem-resultados" hidden>
+                    <p>😕 Nenhum medicamento encontrado. Verifique o nome e tente novamente.</p>
+                    <p class="texto-ajuda">Tente buscar pelo nome comercial (ex: Tylenol) ou pelo princípio ativo (ex: Paracetamol).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section id="como-funciona" class="como-funciona" aria-labelledby="titulo-como-funciona">
+            <div class="container">
+                <h2 id="titulo-como-funciona" class="titulo-secao">Como Funciona</h2>
+                <div class="passos">
+                    <article class="passo">
+                        <div class="passo-numero" aria-hidden="true">1</div>
+                        <h3>Busque o Medicamento</h3>
+                        <p>Digite o nome do remédio ou use o microfone para falar. Aceitamos nome comercial ou princípio ativo.</p>
+                    </article>
+                    <article class="passo">
+                        <div class="passo-numero" aria-hidden="true">2</div>
+                        <h3>Compare os Preços</h3>
+                        <p>Veja os preços em farmácias próximas e descubra alternativas genéricas mais baratas.</p>
+                    </article>
+                    <article class="passo">
+                        <div class="passo-numero" aria-hidden="true">3</div>
+                        <h3>Economize</h3>
+                        <p>Escolha a farmácia com o melhor preço ou use o roteiro de compras premium para otimizar sua rota.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="sobre" class="sobre" aria-labelledby="titulo-sobre">
+            <div class="container">
+                <h2 id="titulo-sobre" class="titulo-secao">Sobre o MED_PRECOS</h2>
+                <div class="sobre-conteudo">
+                    <div class="sobre-texto">
+                        <p>O <strong>MED_PRECOS</strong> é uma plataforma criada para ajudar você a <strong>economizar na compra de medicamentos</strong>. Comparamos os preços em farmácias da sua região e mostramos as melhores opções de forma clara e simples.</p>
+                        <p>Nosso objetivo é tornar a busca por <strong>remédios mais baratos</strong> acessível para todos, especialmente para pessoas de média e alta idade que precisam de uma interface fácil de usar.</p>
+                        <p>Buscamos sempre o <strong>princípio ativo</strong> do medicamento para mostrar alternativas de <strong>genéricos</strong> que podem custar até 70% menos.</p>
+                    </div>
+                    <div class="sobre-beneficios">
+                        <h3>Benefícios</h3>
+                        <ul>
+                            <li>✅ Busca por voz ou digitação</li>
+                            <li>✅ Comparação de preços em tempo real</li>
+                            <li>✅ Alternativas genéricas mais baratas</li>
+                            <li>✅ Localização de farmácias próximas</li>
+                            <li>✅ Horários de funcionamento</li>
+                            <li>✅ Roteiro de compras otimizado (Premium)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contato" class="contato" aria-labelledby="titulo-contato">
+            <div class="container">
+                <h2 id="titulo-contato" class="titulo-secao">Fale Conosco</h2>
+                <p class="texto-ajuda">Tem dúvidas ou sugestões? Entre em contato conosco.</p>
+                <div class="contato-info">
+                    <p>📧 <a href="mailto:contato@medprecos.com.br">contato@medprecos.com.br</a></p>
+                    <p>📞 <a href="tel:+551140028922">(11) 4002-8922</a></p>
+                    <p>🕐 Atendimento: Segunda a Sexta, das 8h às 18h</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="rodape" role="contentinfo">
+        <div class="container">
+            <div class="rodape-conteudo">
+                <div class="rodape-info">
+                    <p class="rodape-logo">💊 MED<span>PRECOS</span></p>
+                    <p>Compare preços de medicamentos e economize na sua compra.</p>
+                </div>
+                <div class="rodape-links">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="rodape-aviso">
+                    <h3>Aviso Importante</h3>
+                    <p>Os preços exibidos são informativos e podem variar. Consulte sempre um profissional de saúde antes de iniciar qualquer tratamento. Não nos responsabilizamos por automedicação.</p>
+                </div>
+            </div>
+            <div class="rodape-copyright">
+                <p>&copy; 2026 MED_PRECOS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/speech.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
