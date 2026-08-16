@@ -6,18 +6,20 @@
 2026-08-16
 
 ## Estado atual
-- Projeto não está sob controlo de versão (sem git).
+- Projeto **agora sob git** (local, sem remoto). Commit inicial `19d515c`: "Estado inicial: MED_PRECOS com dados mock (pré integração API real)".
 - Estrutura: `index.html`, `css/style.css`, `js/app.js`, `js/data.js`, `js/speech.js`.
-- Últimos ficheiros alterados (por data de modificação): `js/app.js` (14:30), `js/data.js` (14:28), `js/speech.js` (14:29) — todos a 16/08.
-- Ainda não há histórico de sessões anteriores registado (esta é a primeira vez que este ficheiro é criado).
+- App é um comparador de preços de medicamentos (front-end puro): busca por nome/voz, localização por GPS/CEP, alternativas genéricas, comparação entre farmácias, roteiro de compras (Premium).
+- `data.js` é **100% mock** (`BANCO_MEDICAMENTOS` fictício) — comentário no código já indica que foi pensado para futura integração com API real.
+- `speech.js` usa Web Speech API nativa do navegador (já real, não mock).
 
 ## Últimos passos conhecidos
-- Sem registo detalhado disponível (arquivos foram editados fora desta sessão de chat, sem log associado).
+- Estrutura da UI e lógica de busca/pontuação/fuzzy-match em `app.js` já implementadas sobre dados mock.
+- Git iniciado nesta sessão para termos histórico real a partir daqui.
 
 ## Próximos passos sugeridos
-- [ ] Definir claramente o objetivo/funcionalidade em desenvolvimento em `app.js`, `data.js` e `speech.js`.
-- [ ] Considerar iniciar um repositório git (`git init`) para ter histórico real de alterações.
-- [ ] Confirmar se `index.html` e `css/style.css` estão sincronizados com as últimas mudanças de JS.
+- [ ] **PRIORIDADE ATUAL: sair do mock e ligar a dados reais** (decisão do usuário nesta sessão).
+- [ ] Decidir a fonte de dados reais — ver opções levantadas abaixo em "Decisões pendentes". Usuário pediu mais tempo para pensar/decidir direção.
+- [ ] Depois de decidida a fonte, planear integração incremental (ex: preço de referência primeiro, ou localização real primeiro — dependente da decisão).
 
 ## Notas / decisões pendentes
-- (a preencher conforme formos trabalhando)
+- **Fonte de dados reais (em aberto):** opções levantadas foram (1) CMED/ANVISA — preço de referência oficial, público, mas não é preço por farmácia; (2) OpenStreetMap/Overpass ou Google Places — localização real de farmácias (grátis/tier grátis), sem preço; (3) preço real por farmácia específica — não existe API pública gratuita no Brasil (Drogasil/Raia/Pacheco/Ultrafarma etc.), exigiria parceria paga ou scraping (não recomendado). Caminho sugerido foi CMED + Overpass com preço por farmácia como estimativa (com aviso na UI), mas usuário quer pensar melhor antes de decidir — **retomar esta conversa na próxima sessão**.
