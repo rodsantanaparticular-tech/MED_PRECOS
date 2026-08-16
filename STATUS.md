@@ -17,9 +17,11 @@
 - Git iniciado nesta sessão para termos histórico real a partir daqui.
 
 ## Próximos passos sugeridos
-- [ ] **PRIORIDADE ATUAL: sair do mock e ligar a dados reais** (decisão do usuário nesta sessão).
-- [ ] Decidir a fonte de dados reais — ver opções levantadas abaixo em "Decisões pendentes". Usuário pediu mais tempo para pensar/decidir direção.
-- [ ] Depois de decidida a fonte, planear integração incremental (ex: preço de referência primeiro, ou localização real primeiro — dependente da decisão).
+- [ ] **AGUARDANDO O USUÁRIO: revisar os rascunhos de e-mail** em `outreach/contatos-parcerias.md` antes de enviar (Brasíndice, Funcional Health Tech, Orizon). Nada foi enviado ainda.
+- [ ] Depois de enviados, registrar respostas recebidas em `outreach/contatos-parcerias.md` e decidir a fonte de dados reais com base no retorno.
+- [ ] Alternativa gratuita já mapeada, caso as parcerias pagas não avancem: CMED/ANVISA (preço de referência) + OpenStreetMap/Overpass (farmácias reais próximas), preço por farmácia como estimativa com aviso na UI.
+- [ ] Scraping foi descartado como primeira opção (risco legal/ToS + LGPD + fragilidade técnica) — ver detalhes na conversa registrada.
 
 ## Notas / decisões pendentes
-- **Fonte de dados reais (em aberto):** opções levantadas foram (1) CMED/ANVISA — preço de referência oficial, público, mas não é preço por farmácia; (2) OpenStreetMap/Overpass ou Google Places — localização real de farmácias (grátis/tier grátis), sem preço; (3) preço real por farmácia específica — não existe API pública gratuita no Brasil (Drogasil/Raia/Pacheco/Ultrafarma etc.), exigiria parceria paga ou scraping (não recomendado). Caminho sugerido foi CMED + Overpass com preço por farmácia como estimativa (com aviso na UI), mas usuário quer pensar melhor antes de decidir — **retomar esta conversa na próxima sessão**.
+- **Fonte de dados reais (em aberto):** aguardando resposta dos contatos comerciais (Brasíndice = preços de mercado reais; Funcional/Orizon = descontos PBM em farmácias credenciadas). Contatos e rascunhos prontos em `outreach/contatos-parcerias.md`.
+- **Retomar esta conversa** assim que o usuário tiver revisado/enviado os e-mails ou decidido não seguir por aí.
