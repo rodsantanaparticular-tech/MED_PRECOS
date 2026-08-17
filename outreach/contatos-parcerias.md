@@ -3,6 +3,8 @@
 > Levantado em 16/08/2026 via busca web. Confirma sempre o contato oficial no site antes de enviar,
 > pois esses dados podem mudar.
 
+**E-mail oficial do projeto (remetente sugerido para estes contatos):** `med.precosbr@gmail.com`
+
 ---
 
 ## 1. Brasíndice (Editora Andrei) — preços reais de mercado
@@ -39,7 +41,7 @@ Fico à disposição para fornecer mais detalhes sobre o projeto.
 
 Atenciosamente,
 Rod Santana
-rod.santana.particular@gmail.com
+med.precosbr@gmail.com
 ```
 
 ---
@@ -78,7 +80,7 @@ Fico à disposição para apresentar o projeto com mais detalhes.
 
 Atenciosamente,
 Rod Santana
-rod.santana.particular@gmail.com
+med.precosbr@gmail.com
 ```
 
 ---
