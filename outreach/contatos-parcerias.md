@@ -100,6 +100,9 @@ med.precosbr@gmail.com
 ---
 
 ## Próximo passo
-- [ ] Revisar e personalizar os rascunhos antes de enviar (nenhum foi enviado por mim).
-- [ ] Enviar para os 2-3 contatos.
+- [x] Revisar e personalizar os rascunhos antes de enviar.
+- [ ] **AGUARDANDO: reconectar corretamente o Gmail `med.precosbr@gmail.com`** nos conectores do
+      claude.ai — verificado em 16/08/2026 que a conexão ativa ainda estava na conta pessoal
+      (`rod.santana.particular@gmail.com`), apesar da conta nova já criada.
+- [ ] Depois de confirmado, enviar para os 2-3 contatos.
 - [ ] Registrar respostas recebidas aqui, e atualizar o `STATUS.md` do projeto com o resultado.
