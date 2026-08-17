@@ -34,8 +34,8 @@ dúvidas específicas:
 
 1. Existe algum formato de acesso a dados (API, arquivo/feed periódico) voltado para
    integração em aplicações de terceiros, e não apenas consulta manual?
-2. Quais são as condições comerciais e custo para um projeto nesta fase inicial?
-3. Há algum plano específico para startups/projetos em fase de MVP?
+2. Se sim, como funciona esse acesso tanto para uso em fase de MVP quanto,
+   posteriormente, para rodar em produção?
 
 Fico à disposição para fornecer mais detalhes sobre o projeto.
 
@@ -73,9 +73,8 @@ vocês. Perguntas específicas:
 
 1. Existe uma API ou canal de integração técnica para consulta desses descontos por
    aplicações de terceiros?
-2. Como funciona o processo de parceria/credenciamento para um projeto em fase de MVP?
-3. Há algum contato ou material técnico que possam compartilhar para avaliarmos a
-   viabilidade dessa integração?
+2. Se sim, como funciona esse acesso tanto para uso em fase de MVP quanto,
+   posteriormente, para rodar em produção?
 
 Fico à disposição para apresentar o projeto com mais detalhes.
 
