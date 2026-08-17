@@ -24,23 +24,24 @@ Assunto: Interesse em acesso à base Brasíndice — projeto MED_PRECOS
 
 Olá,
 
-Meu nome é Rod Santana e estou desenvolvendo o MED_PRECOS, uma plataforma que ajuda
-consumidores a comparar preços de medicamentos e encontrar farmácias próximas com os
-melhores valores, incluindo alternativas genéricas.
+Meu nome é Rodrigo Santana, sou fundador de uma startup e estou desenvolvendo o MED_PRECOS,
+uma plataforma que ajuda consumidores a comparar preços de medicamentos e encontrar
+farmácias próximas com os melhores valores, incluindo alternativas genéricas.
 
-Atualmente o projeto está em fase de desenvolvimento inicial, usando dados de exemplo,
-e gostaria de entender as opções para acesso à base Brasíndice como fonte de preços
-reais de mercado. Minhas dúvidas específicas:
+Atualmente o projeto está na fase de MVP, usando dados de exemplo, e gostaria de entender
+as opções para acesso à base Brasíndice como fonte de preços reais de mercado. Minhas
+dúvidas específicas:
 
 1. Existe algum formato de acesso a dados (API, arquivo/feed periódico) voltado para
    integração em aplicações de terceiros, e não apenas consulta manual?
 2. Quais são as condições comerciais e custo para um projeto nesta fase inicial?
-3. Há algum plano específico para startups/projetos pequenos?
+3. Há algum plano específico para startups/projetos em fase de MVP?
 
 Fico à disposição para fornecer mais detalhes sobre o projeto.
 
 Atenciosamente,
-Rod Santana
+Rodrigo Santana
+Fundador — MED_PRECOS
 med.precosbr@gmail.com
 ```
 
@@ -61,25 +62,26 @@ Assunto: Parceria/integração — programa de benefícios em medicamentos (PBM)
 
 Olá,
 
-Meu nome é Rod Santana e estou desenvolvendo o MED_PRECOS, uma plataforma de comparação
-de preços de medicamentos e localização de farmácias próximas, com foco em ajudar o
-consumidor a economizar — incluindo alternativas genéricas.
+Meu nome é Rodrigo Santana, sou fundador de uma startup e estou desenvolvendo o MED_PRECOS,
+uma plataforma de comparação de preços de medicamentos e localização de farmácias próximas,
+com foco em ajudar o consumidor a economizar — incluindo alternativas genéricas.
 
-Gostaria de entender como funciona a integração de um aplicativo como o nosso com o
-programa de benefícios (PBM) da Funcional, para exibirmos aos usuários os descontos
-disponíveis nas farmácias credenciadas à rede de vocês. Perguntas específicas:
+O projeto está atualmente na fase de MVP. Gostaria de entender como funciona a integração
+de um aplicativo como o nosso com o programa de benefícios (PBM) da Funcional, para
+exibirmos aos usuários os descontos disponíveis nas farmácias credenciadas à rede de
+vocês. Perguntas específicas:
 
 1. Existe uma API ou canal de integração técnica para consulta desses descontos por
    aplicações de terceiros?
-2. Como funciona o processo de parceria/credenciamento para um projeto ainda em fase
-   inicial de desenvolvimento?
+2. Como funciona o processo de parceria/credenciamento para um projeto em fase de MVP?
 3. Há algum contato ou material técnico que possam compartilhar para avaliarmos a
    viabilidade dessa integração?
 
 Fico à disposição para apresentar o projeto com mais detalhes.
 
 Atenciosamente,
-Rod Santana
+Rodrigo Santana
+Fundador — MED_PRECOS
 med.precosbr@gmail.com
 ```
 
