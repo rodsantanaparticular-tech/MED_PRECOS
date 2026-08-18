@@ -31,10 +31,12 @@ roteiro de compras (funcionalidade Premium).
 
 ## Estrutura
 - `index.html`, `css/style.css`
-- `js/app.js` — UI, busca/pontuação/fuzzy-match
+- `js/app.js` — UI, busca/pontuação/fuzzy-match, geocodificação (ViaCEP+Nominatim) e busca de
+  farmácias reais próximas ao vivo (Overpass/OpenStreetMap, com fallback pré-carregado)
 - `js/data.js` — `BANCO_MEDICAMENTOS` **real** (760 medicamentos, preços CMED/ANVISA oficiais,
-  gerado por `scripts/build_data_cmed.py` — ver `STATUS.md` para como reproduzir/atualizar
-  mensalmente). `BANCO_FARMACIAS` continua **mock** (geo-referenciamento real ainda pendente).
+  gerado por `scripts/build_data_cmed.py`). `BANCO_FARMACIAS` **real** (54 farmácias pré-carregadas
+  via OpenStreetMap, gerado por `scripts/build_farmacias_overpass.py` — usado só como fallback
+  quando a busca ao vivo falha). Ver `STATUS.md` para como reproduzir/atualizar cada um.
 - `js/speech.js` — Web Speech API nativa do navegador (já real, não mock)
 
 ## Estado
@@ -43,10 +45,13 @@ roteiro de compras (funcionalidade Premium).
 - **Preços de medicamentos:** resolvido em 18/08/2026 — `data.js` usa a lista oficial de preços
   CMED (ANVISA), gratuita e sem limite de requisição. Detalhes/limitações (aproximação de PMC por
   UF, campos que a base real não tem) em `STATUS.md`.
-- **Geo-referenciamento de farmácias:** ainda pendente. Overpass API (OpenStreetMap) pública
-  testada e instável (sobrecarregada) em 18/08/2026 — ver `STATUS.md` para o plano.
+- **Geo-referenciamento de farmácias:** resolvido em 18/08/2026 — busca ao vivo via Overpass
+  (OpenStreetMap) a cada busca do usuário, com fallback pré-carregado real (54 farmácias, 9
+  capitais) para quando a API pública estiver fora do ar (já visto acontecer). Testado ao vivo no
+  navegador. Detalhes em `STATUS.md`.
 - **Preço por farmácia específica** (a CMED só dá o teto legal nacional, não o preço praticado por
-  farmácia): ainda depende de parcerias comerciais em negociação — ver `outreach/contatos-parcerias.md`.
+  farmácia): ainda estimado, não real — depende de parcerias comerciais em negociação, ver
+  `outreach/contatos-parcerias.md`.
 
 ## Convenção de acompanhamento
 Manter o `STATUS.md` na raiz atualizado ao final de cada sessão de trabalho ou marco relevante, com:

@@ -20,6 +20,11 @@ const estado = {
 // Raio, em km, considerado "próximo" para exibir uma farmácia como resultado
 const RAIO_MAXIMO_KM = 60;
 
+// Número máximo de farmácias exibidas na tabela de resultados. A busca ao
+// vivo (Overpass) pode retornar centenas de farmácias reais num raio
+// grande em capitais grandes - sem esse limite a tabela fica inviável
+const MAX_FARMACIAS_EXIBIDAS = 20;
+
 // Pontuação mínima (em 100) para buscarMedicamento() aceitar uma correspondência.
 // pontuarCorrespondencia() usa essa mesma constante para calibrar seu limiar de
 // tolerância a erros de digitação, garantindo que as duas fiquem sempre em sincronia
@@ -27,6 +32,29 @@ const PONTUACAO_MINIMA_BUSCA = 55;
 
 // Chave usada para cachear no navegador as coordenadas já resolvidas por CEP
 const CEP_CACHE_KEY = 'medprecos_cep_cache';
+
+// Chave usada para cachear no navegador as farmácias reais já buscadas via
+// Overpass (OpenStreetMap) por região, evitando repetir a mesma consulta
+const FARMACIAS_CACHE_KEY = 'medprecos_farmacias_cache';
+const FARMACIAS_CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
+
+// Espelhos públicos do Overpass API, tentados em ordem - a instância
+// principal já foi vista fora do ar por sobrecarga, então sempre há um
+// segundo endpoint para tentar antes de desistir e cair no pré-carregado
+const OVERPASS_ENDPOINTS = [
+    'https://overpass-api.de/api/interpreter',
+    'https://overpass.kumi.systems/api/interpreter'
+];
+
+// Redes de farmácia conhecidas por terem delivery próprio - usado só para
+// estimar possuiDelivery/entregaEm de farmácias reais (OSM não tem esse
+// dado); não é uma informação confirmada por farmácia individual
+const REDES_COM_DELIVERY = [
+    'droga raia', 'drogasil', 'raia drogasil', 'pague menos', 'panvel',
+    'extrafarma', 'ultrafarma', 'drogaria são paulo', 'drogaria sao paulo',
+    'nissei', 'farmácias pacheco', 'farmacias pacheco', 'drogaria araujo',
+    'big ben', 'drogaria venancio'
+];
 
 // Aproximação por região do CEP (1º dígito), usada apenas quando a
 // geocodificação real falha (sem internet, CEP inexistente, etc.)
@@ -477,13 +505,136 @@ async function resolverPontoReferencia(termoLocalizacao) {
     return resolverLocalizacao('');
 }
 
+// ==========================================================================
+// Farmácias reais próximas (Overpass API / OpenStreetMap)
+// ==========================================================================
+
 /**
- * Obtém o preço de um medicamento em uma farmácia
+ * Deriva um "fator de preço" estável (aprox. 0.88-1.12) a partir do id da
+ * farmácia, só para dar variação realista entre farmácias reais que não
+ * têm preço próprio cadastrado - sempre o mesmo valor pro mesmo id, então
+ * o preço de uma farmácia não muda a cada busca.
  */
-function obterPrecoMedicamento(medicamentoId, farmaciaId) {
-    const precos = MAPA_PRECOS[medicamentoId];
-    if (!precos) return null;
-    return precos[farmaciaId] || null;
+function fatorPrecoDeterministico(id) {
+    let hash = 0;
+    for (let i = 0; i < id.length; i++) {
+        hash = (hash * 31 + id.charCodeAt(i)) >>> 0;
+    }
+    return 0.88 + (hash % 1000) / 1000 * 0.24;
+}
+
+/**
+ * Converte um elemento "node" do Overpass (farmácia do OpenStreetMap) para
+ * o mesmo formato usado em BANCO_FARMACIAS. Vários campos (horário exato,
+ * delivery) não existem no OSM para a maioria dos pontos - são estimados e
+ * marcados como tal via `dadosEstimados`, para a UI avisar o usuário.
+ */
+function converterFarmaciaOsm(node) {
+    const tags = node.tags || {};
+    const nome = tags.name;
+    if (!nome) return null; // sem nome não dá pra mostrar pro usuário com confiança
+
+    const id = 'osm-' + node.id;
+    const partesEndereco = [tags['addr:street'], tags['addr:housenumber']].filter(Boolean).join(', ');
+    const nomeRedeNormalizado = normalizarTexto(tags.brand || nome);
+    const temDelivery = REDES_COM_DELIVERY.some(rede => nomeRedeNormalizado.includes(normalizarTexto(rede)));
+
+    // opening_hours do OSM segue uma sintaxe própria (ex: "Mo-Sa 08:00-20:00").
+    // Só tratamos o caso comum "24/7"; fora isso, assumimos um horário comercial
+    // típico e marcamos como estimado, em vez de tentar parsear a sintaxe toda.
+    const aberto24h = (tags.opening_hours || '').includes('24/7');
+    const horario = aberto24h
+        ? { abertura: 0, fechamento: 24, domingoAberto: true, domingoAbertura: 0, domingoFechamento: 24 }
+        : { abertura: 8, fechamento: 20, domingoAberto: false };
+
+    return {
+        id,
+        nome,
+        endereco: partesEndereco || 'Endereço não informado pelo OpenStreetMap',
+        cidade: tags['addr:city'] || '',
+        cep: tags['addr:postcode'] || '',
+        bairro: tags['addr:suburb'] || '',
+        telefone: tags.phone || tags['contact:phone'] || null,
+        latitude: node.lat,
+        longitude: node.lon,
+        horario,
+        fatorPreco: fatorPrecoDeterministico(id),
+        possuiDelivery: temDelivery,
+        entregaEm: temDelivery ? '40 min' : null,
+        dadosEstimados: true // horário e preço são estimados; endereço/nome/telefone vêm do OSM
+    };
+}
+
+/**
+ * Busca farmácias reais próximas de uma coordenada via Overpass API
+ * (dados do OpenStreetMap), tentando os endpoints em ordem. Retorna:
+ * - um array (possivelmente vazio) se algum endpoint respondeu com sucesso;
+ * - null se todos os endpoints falharam/deram timeout - quem chama deve
+ *   cair para o pré-carregado (BANCO_FARMACIAS) nesse caso.
+ * Resultados são cacheados no navegador por 24h por região arredondada,
+ * para não martelar a API pública a cada busca no mesmo lugar.
+ */
+async function buscarFarmaciasReaisProximas(latitude, longitude, raioKm) {
+    const raioMetros = Math.min(Math.round(raioKm * 1000), 15000); // Overpass fica lento acima disso
+    const chaveCache = 'geo:' + latitude.toFixed(2) + ',' + longitude.toFixed(2) + ',' + raioMetros;
+
+    try {
+        const cache = JSON.parse(localStorage.getItem(FARMACIAS_CACHE_KEY) || '{}');
+        const emCache = cache[chaveCache];
+        if (emCache && (Date.now() - emCache.buscadoEm) < FARMACIAS_CACHE_TTL_MS) {
+            return emCache.farmacias;
+        }
+    } catch (erro) {
+        // localStorage indisponível - segue sem cache
+    }
+
+    const query = '[out:json][timeout:20];node["amenity"="pharmacy"](around:' +
+        raioMetros + ',' + latitude + ',' + longitude + ');out body;';
+
+    for (const endpoint of OVERPASS_ENDPOINTS) {
+        try {
+            const dados = await comTimeout(async (signal) => {
+                const resposta = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: 'data=' + encodeURIComponent(query),
+                    signal
+                });
+                if (!resposta.ok) throw new Error('Overpass respondeu ' + resposta.status);
+                return resposta.json();
+            }, 8000);
+
+            const farmacias = (dados.elements || [])
+                .map(converterFarmaciaOsm)
+                .filter(Boolean);
+
+            try {
+                const cache = JSON.parse(localStorage.getItem(FARMACIAS_CACHE_KEY) || '{}');
+                cache[chaveCache] = { farmacias, buscadoEm: Date.now() };
+                localStorage.setItem(FARMACIAS_CACHE_KEY, JSON.stringify(cache));
+            } catch (erro) {
+                // segue sem cache
+            }
+
+            return farmacias;
+        } catch (erro) {
+            console.warn('Overpass (' + endpoint + ') falhou, tentando próximo:', erro);
+        }
+    }
+
+    return null; // todos os endpoints falharam
+}
+
+/**
+ * Calcula o preço estimado de um medicamento em uma farmácia. Sem acordo
+ * comercial de preço real por farmácia (ver STATUS.md), o preço é uma
+ * estimativa a partir do preço de referência CMED e do fator de preço da
+ * farmácia - por isso a UI sempre deve deixar claro que é uma estimativa.
+ */
+function calcularPrecoFarmacia(medicamento, farmacia) {
+    if (!medicamento.precoReferencia || medicamento.precoReferencia <= 0) return null;
+    const precoBase = medicamento.precoReferencia * 0.85;
+    return Math.round(precoBase * farmacia.fatorPreco * 100) / 100;
 }
 
 /**
@@ -820,11 +971,22 @@ async function executarBusca() {
         longitude: estado.localizacaoUsuario.longitude
     };
 
+    const raioSelecionadoKm = obterRaioSelecionado();
+
+    // Tenta buscar farmácias reais próximas (Overpass/OpenStreetMap) para o
+    // raio escolhido; se todos os endpoints falharem (API pública fora do
+    // ar, sem internet, etc.), cai para a lista pré-carregada das capitais
+    const farmaciasReais = await buscarFarmaciasReaisProximas(
+        estado.localizacaoUsuario.latitude, estado.localizacaoUsuario.longitude, raioSelecionadoKm
+    );
+    const usandoFarmaciasReais = farmaciasReais !== null && farmaciasReais.length > 0;
+    const bancoFarmacias = usandoFarmaciasReais ? farmaciasReais : BANCO_FARMACIAS;
+
     // Obtém preços e distância em todas as farmácias que têm o medicamento
-    const farmaciasComPreco = BANCO_FARMACIAS
+    const farmaciasComPreco = bancoFarmacias
         .map(farmacia => ({
             dados: farmacia,
-            preco: obterPrecoMedicamento(medicamento.id, farmacia.id),
+            preco: calcularPrecoFarmacia(medicamento, farmacia),
             distanciaKm: calcularDistanciaKm(
                 estado.localizacaoUsuario.latitude, estado.localizacaoUsuario.longitude,
                 farmacia.latitude, farmacia.longitude
@@ -835,7 +997,6 @@ async function executarBusca() {
     // Mantém só as farmácias dentro do raio escolhido pelo usuário; se nenhuma
     // estiver dentro dele (região sem farmácia cadastrada), mostra as mais
     // próximas disponíveis e avisa o usuário
-    const raioSelecionadoKm = obterRaioSelecionado();
     let precosFarmas = farmaciasComPreco.filter(item => item.distanciaKm <= raioSelecionadoKm);
     const mostrandoFallback = precosFarmas.length === 0;
 
@@ -843,6 +1004,13 @@ async function executarBusca() {
         precosFarmas = [...farmaciasComPreco]
             .sort((a, b) => a.distanciaKm - b.distanciaKm)
             .slice(0, 5);
+    } else if (precosFarmas.length > MAX_FARMACIAS_EXIBIDAS) {
+        // Overpass pode retornar centenas de farmácias reais num raio grande
+        // (ex: 60km em São Paulo) - mostra só as mais próximas pra manter a
+        // tabela usável; o usuário pode reduzir o raio pra ver as demais
+        precosFarmas = [...precosFarmas]
+            .sort((a, b) => a.distanciaKm - b.distanciaKm)
+            .slice(0, MAX_FARMACIAS_EXIBIDAS);
     }
 
     estado.medicamentoSelecionado = medicamento;

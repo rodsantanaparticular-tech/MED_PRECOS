@@ -20759,201 +20759,69 @@ const BANCO_MEDICAMENTOS = [
 ];
 
 // ==========================================================================
-// Banco de Farmácias
-// Inclui localização, horários, coordenadas e preços
+// Banco de Farmácias (pré-carregado)
+// Farmácias REAIS (OpenStreetMap/Overpass), usadas como fallback quando a
+// busca em tempo real (ver buscarFarmaciasReaisProximas em app.js) falhar.
+// Cobre as capitais abaixo; endereço/nome/telefone/coordenadas são reais,
+// horário e preço são estimados (ver dadosEstimados / STATUS.md).
+// Gerado por scripts/build_farmacias_overpass.py
 // ==========================================================================
 const BANCO_FARMACIAS = [
-    {
-        id: 'far-001',
-        nome: 'Farmácia São Paulo',
-        endereco: 'Rua das Flores, 123 - Centro',
-        cidade: 'São Paulo',
-        cep: '01310-100',
-        bairro: 'Centro',
-        telefone: '(11) 3333-0001',
-        latitude: -23.5505,
-        longitude: -46.6333,
-        horario: {
-            abertura: 7,
-            fechamento: 22,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 14
-        },
-        fatorPreco: 1.0,
-        possuiDelivery: true,
-        entregaEm: '30 min'
-    },
-    {
-        id: 'far-002',
-        nome: 'Droga Raia',
-        endereco: 'Av. Paulista, 1578 - Bela Vista',
-        cidade: 'São Paulo',
-        cep: '01310-200',
-        bairro: 'Bela Vista',
-        telefone: '(11) 3333-0002',
-        latitude: -23.5620,
-        longitude: -46.6540,
-        horario: {
-            abertura: 8,
-            fechamento: 23,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 20
-        },
-        fatorPreco: 1.15,
-        possuiDelivery: true,
-        entregaEm: '45 min'
-    },
-    {
-        id: 'far-003',
-        nome: 'Pague Menos',
-        endereco: 'Rua Augusta, 2000 - Cerqueira César',
-        cidade: 'São Paulo',
-        cep: '01413-000',
-        bairro: 'Cerqueira César',
-        telefone: '(11) 3333-0003',
-        latitude: -23.5580,
-        longitude: -46.6620,
-        horario: {
-            abertura: 7,
-            fechamento: 23,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 20
-        },
-        fatorPreco: 0.95,
-        possuiDelivery: true,
-        entregaEm: '35 min'
-    },
-    {
-        id: 'far-004',
-        nome: 'Drogaria São Paulo',
-        endereco: 'Av. Brigadeiro Faria Lima, 3477 - Itaim Bibi',
-        cidade: 'São Paulo',
-        cep: '04538-133',
-        bairro: 'Itaim Bibi',
-        telefone: '(11) 3333-0004',
-        latitude: -23.5800,
-        longitude: -46.6820,
-        horario: {
-            abertura: 8,
-            fechamento: 22,
-            domingoAberto: true,
-            domingoAbertura: 9,
-            domingoFechamento: 18
-        },
-        fatorPreco: 1.08,
-        possuiDelivery: true,
-        entregaEm: '50 min'
-    },
-    {
-        id: 'far-005',
-        nome: 'Drogaria Venancio',
-        endereco: 'Rua Vergueiro, 1500 - Vila Mariana',
-        cidade: 'São Paulo',
-        cep: '04101-000',
-        bairro: 'Vila Mariana',
-        telefone: '(11) 3333-0005',
-        latitude: -23.5900,
-        longitude: -46.6330,
-        horario: {
-            abertura: 8,
-            fechamento: 22,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 18
-        },
-        fatorPreco: 1.12,
-        possuiDelivery: true,
-        entregaEm: '40 min'
-    },
-    {
-        id: 'far-006',
-        nome: 'Farmácia Popular',
-        endereco: 'Rua 25 de Março, 500 - Centro',
-        cidade: 'São Paulo',
-        cep: '01021-000',
-        bairro: 'Centro',
-        telefone: '(11) 3333-0006',
-        latitude: -23.5450,
-        longitude: -46.6310,
-        horario: {
-            abertura: 8,
-            fechamento: 18,
-            domingoAberto: false
-        },
-        fatorPreco: 0.90,
-        possuiDelivery: false,
-        entregaEm: null
-    },
-    {
-        id: 'far-007',
-        nome: 'Drogal',
-        endereco: 'Av. Rebouças, 2500 - Pinheiros',
-        cidade: 'São Paulo',
-        cep: '05402-000',
-        bairro: 'Pinheiros',
-        telefone: '(11) 3333-0007',
-        latitude: -23.5660,
-        longitude: -46.6840,
-        horario: {
-            abertura: 7,
-            fechamento: 23,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 22
-        },
-        fatorPreco: 1.05,
-        possuiDelivery: true,
-        entregaEm: '25 min'
-    },
-    {
-        id: 'far-008',
-        nome: 'Rede Economia',
-        endereco: 'Rua do Gasômetro, 120 - Brás',
-        cidade: 'São Paulo',
-        cep: '03014-000',
-        bairro: 'Brás',
-        telefone: '(11) 3333-0008',
-        latitude: -23.5410,
-        longitude: -46.6200,
-        horario: {
-            abertura: 8,
-            fechamento: 20,
-            domingoAberto: true,
-            domingoAbertura: 8,
-            domingoFechamento: 14
-        },
-        fatorPreco: 0.88,
-        possuiDelivery: true,
-        entregaEm: '45 min'
-    }
+    { id: "osm-745723014", nome: "Drogaria São Paulo", endereco: "Avenida da Liberdade, 840", cidade: "São Paulo", cep: "01502-001", bairro: "", telefone: "+55 11 3207-4168", latitude: -23.5599368, longitude: -46.6381129, horario: { abertura: 0, fechamento: 24, domingoAberto: true, domingoAbertura: 0, domingoFechamento: 24 }, fatorPreco: 0.9335, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-840709498", nome: "Drogaria São Paulo", endereco: "Rua Pedro de Toledo, 763", cidade: "São Paulo", cep: "04039-032", bairro: "", telefone: "+55 11 5549-9647;+55 11 5571-5663;0800 779 8767", latitude: -23.5984324, longitude: -46.6442291, horario: { abertura: 0, fechamento: 24, domingoAberto: true, domingoAbertura: 0, domingoFechamento: 24 }, fatorPreco: 0.9882, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-884742670", nome: "Drogasil", endereco: "Avenida Sumaré, 1152", cidade: "São Paulo", cep: "05016-110", bairro: "", telefone: "+55 11 3672-3885;+55 11 3862-3089", latitude: -23.5392935, longitude: -46.6752459, horario: { abertura: 0, fechamento: 24, domingoAberto: true, domingoAbertura: 0, domingoFechamento: 24 }, fatorPreco: 0.9573, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-1065872138", nome: "Drogaria Tio Luiz", endereco: "Rua José Maria Lisboa, 261", cidade: "São Paulo", cep: "", bairro: "", telefone: null, latitude: -23.5704075, longitude: -46.6554145, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9599, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-1066859189", nome: "Farmácio Orthomolecular", endereco: "Rua José Maria Lisboa, 77", cidade: "São Paulo", cep: "01423-000", bairro: "", telefone: null, latitude: -23.5718417, longitude: -46.6539957, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0396, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-1671277694", nome: "Drogasil", endereco: "Avenida Prefeito Fábio Prado, 32;38;42", cidade: "São Paulo", cep: "04116-000", bairro: "", telefone: "+55 11 5081-4417;+55 11 5081-3579", latitude: -23.5903205, longitude: -46.630429, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9016, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-332153100", nome: "Drogaria Venâncio", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Rio de Janeiro", cep: "", bairro: "", telefone: null, latitude: -22.9311959, longitude: -43.1783233, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.1162, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-332516627", nome: "Pacheco", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Rio de Janeiro", cep: "", bairro: "", telefone: null, latitude: -22.929342, longitude: -43.1775384, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0602, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-340473535", nome: "Drogaria Riofarma", endereco: "Rua do Catete", cidade: "Rio de Janeiro", cep: "22220-000", bairro: "Catete", telefone: null, latitude: -22.9263853, longitude: -43.1767601, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9746, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-345947047", nome: "Cristal", endereco: "Rua das Laranjeiras, 387A", cidade: "Rio de Janeiro", cep: "", bairro: "Laranjeiras", telefone: "+55 21 2265 9780", latitude: -22.9367668, longitude: -43.1900586, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9009, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-346243972", nome: "Droga Raia", endereco: "Rua das Laranjeiras, 211", cidade: "Rio de Janeiro", cep: "", bairro: "Laranjeiras", telefone: null, latitude: -22.9335801, longitude: -43.1857341, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9482, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-346245038", nome: "Venâncio", endereco: "Rua das Laranjeiras, 183A", cidade: "Rio de Janeiro", cep: "", bairro: "Laranjeiras", telefone: null, latitude: -22.9334589, longitude: -43.1852616, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9038, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-319258498", nome: "Araújo", endereco: "Rua do Ouro, 870", cidade: "Belo Horizonte", cep: "", bairro: "Serra", telefone: null, latitude: -19.9388039, longitude: -43.9202123, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9657, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-324384209", nome: "Araújo", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Belo Horizonte", cep: "", bairro: "", telefone: null, latitude: -19.9351301, longitude: -43.9288871, horario: { abertura: 0, fechamento: 24, domingoAberto: true, domingoAbertura: 0, domingoFechamento: 24 }, fatorPreco: 1.0329, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-357661389", nome: "Araújo", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Belo Horizonte", cep: "", bairro: "", telefone: null, latitude: -19.9426767, longitude: -43.9219772, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0326, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-456322669", nome: "Droga Raia", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Belo Horizonte", cep: "", bairro: "", telefone: null, latitude: -19.9331331, longitude: -43.9568003, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0161, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-456322674", nome: "Drogaria Araújo", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Belo Horizonte", cep: "", bairro: "", telefone: null, latitude: -19.9362522, longitude: -43.9593672, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0223, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-504709867", nome: "Araújo", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Belo Horizonte", cep: "", bairro: "", telefone: null, latitude: -19.9490255, longitude: -43.9204779, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.1138, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-270357431", nome: "Farmácia Jardim Botânico", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.4387527, longitude: -49.2377298, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0173, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-603015490", nome: "Mais Popular", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.42207, longitude: -49.2915988, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0403, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-603015496", nome: "Callfarma", endereco: "Avenida Manoel Ribas", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.4223268, longitude: -49.2912716, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0418, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-668990430", nome: "Farmacia Minerva", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.4586537, longitude: -49.270667, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9484, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-994602741", nome: "Nissei Shopping Palladium", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.4776887, longitude: -49.2914231, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0787, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-1148140455", nome: "Callfarma", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Curitiba", cep: "", bairro: "", telefone: null, latitude: -25.4373511, longitude: -49.2744888, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.947, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-442752778", nome: "Panvel", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0287749, longitude: -51.2087253, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.1109, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-606189116", nome: "Panvel", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0447715, longitude: -51.1975225, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9405, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-606189341", nome: "Panvel", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0437287, longitude: -51.2022464, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9429, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-747463971", nome: "Farmácia Forum", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0441728, longitude: -51.2297549, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.8915, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-853556541", nome: "São João", endereco: "Rua dos Andradas", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0309994, longitude: -51.2324354, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9429, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-853556633", nome: "Panvel", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Porto Alegre", cep: "", bairro: "", telefone: null, latitude: -30.0316022, longitude: -51.2342804, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9266, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-566435510", nome: "Pague Menos", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -13.006095, longitude: -38.5270823, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9662, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-612570303", nome: "Ida Linnah", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -13.0093037, longitude: -38.5293746, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0516, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-619006493", nome: "DPM Bahia", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -13.0118229, longitude: -38.4720392, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0648, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-626795989", nome: "Manu", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -12.9793817, longitude: -38.499896, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0713, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-740234371", nome: "Pague Menos", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -13.0083381, longitude: -38.4641641, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0569, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-898928145", nome: "Multimais", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Salvador", cep: "", bairro: "", telefone: null, latitude: -12.9855821, longitude: -38.4611895, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9275, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-479233880", nome: "Pague Menos", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Fortaleza", cep: "", bairro: "", telefone: null, latitude: -3.7392969, longitude: -38.5479362, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9088, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-482168663", nome: "Extrafarma", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Fortaleza", cep: "", bairro: "", telefone: null, latitude: -3.7311626, longitude: -38.5145948, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9688, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-482168667", nome: "Pague Menos", endereco: "Avenida Santos Dumont, 1256", cidade: "Fortaleza", cep: "60150-161", bairro: "Aldeota", telefone: "+55 85 3454 1929", latitude: -3.7318221, longitude: -38.5125263, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9698, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-571728169", nome: "Pague Menos", endereco: "Avenida Antônio Sales, 3700", cidade: "Fortaleza", cep: "60192-165", bairro: "", telefone: "4002 8282", latitude: -3.7498967, longitude: -38.4906255, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9304, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-571728171", nome: "Pague Menos", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Fortaleza", cep: "", bairro: "", telefone: null, latitude: -3.743632, longitude: -38.4951641, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9359, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-623732998", nome: "Pague Menos", endereco: "Rua Pereira Filgueiras, 1931", cidade: "Fortaleza", cep: "60160-045", bairro: "Meireles", telefone: "4002 8282", latitude: -3.7306677, longitude: -38.5054737, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0194, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-1655878223", nome: "Farmácia Pague Menos", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Recife", cep: "", bairro: "", telefone: null, latitude: -8.0475359, longitude: -34.9063983, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.067, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-2380713967", nome: "Farmácia Parceria", endereco: "Avenida Caxangá", cidade: "Recife", cep: "", bairro: "Madalena", telefone: "+55 81 3227.9498", latitude: -8.0566505, longitude: -34.9095907, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0216, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2380713977", nome: "Farmácia Popular do Brasil", endereco: "Avenida Caxangá, 188", cidade: "Recife", cep: "", bairro: "", telefone: null, latitude: -8.055914, longitude: -34.9108202, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.029, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2418401653", nome: "Drogaria Madalena", endereco: "Avenida Visconde de Albuquerque", cidade: "Recife", cep: "", bairro: "", telefone: null, latitude: -8.0515076, longitude: -34.9064762, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.8925, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2532661494", nome: "Extrafarma", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Recife", cep: "", bairro: "", telefone: null, latitude: -8.0531943, longitude: -34.9069681, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.904, possuiDelivery: true, entregaEm: "40 min", dadosEstimados: true },
+    { id: "osm-2532661495", nome: "Farmácia do Trabalhador", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Recife", cep: "", bairro: "", telefone: null, latitude: -8.0531894, longitude: -34.9070475, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9042, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-1166810570", nome: "Drogaria Popular", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Brasília", cep: "", bairro: "", telefone: null, latitude: -15.8182465, longitude: -47.8957528, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0727, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2103033867", nome: "Fuji", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Brasília", cep: "", bairro: "", telefone: null, latitude: -15.8267762, longitude: -47.929132, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9988, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2306638198", nome: "Drogaria Brasil", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Brasília", cep: "", bairro: "", telefone: null, latitude: -15.8082009, longitude: -47.935243, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0816, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2461631879", nome: "Drogaria Brasil", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Brasília", cep: "", bairro: "", telefone: null, latitude: -15.8097181, longitude: -47.9428853, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0756, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2678905976", nome: "Drogaria Rosário", endereco: "QI 31 Bloco A, 14", cidade: "Brasília", cep: "", bairro: "", telefone: "+55 61 33837828", latitude: -15.840314, longitude: -47.9757538, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 1.0497, possuiDelivery: false, entregaEm: null, dadosEstimados: true },
+    { id: "osm-2691215106", nome: "Drogaria Candanga", endereco: "Endereço não informado pelo OpenStreetMap", cidade: "Brasília", cep: "", bairro: "", telefone: "+55 61 3301 1116", latitude: -15.8562792, longitude: -47.9526238, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.9206, possuiDelivery: false, entregaEm: null, dadosEstimados: true }
 ];
-
-// ==========================================================================
-// Farmácias em outras capitais
-// Expande a cobertura para além de São Paulo, para que buscas por CEP de
-// outras cidades retornem farmácias realmente próximas ao usuário
-// ==========================================================================
-BANCO_FARMACIAS.push(
-    { id: 'far-009', nome: 'Farmácia Copacabana', endereco: 'Av. Nossa Senhora de Copacabana, 500 - Copacabana', cidade: 'Rio de Janeiro', cep: '22020-000', bairro: 'Copacabana', telefone: '(21) 3333-0009', latitude: -22.9711, longitude: -43.1822, horario: { abertura: 7, fechamento: 23, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 20 }, fatorPreco: 1.05, possuiDelivery: true, entregaEm: '35 min' },
-    { id: 'far-010', nome: 'Drogaria Tijuca', endereco: 'Rua Conde de Bonfim, 300 - Tijuca', cidade: 'Rio de Janeiro', cep: '20520-000', bairro: 'Tijuca', telefone: '(21) 3333-0010', latitude: -22.9249, longitude: -43.2277, horario: { abertura: 8, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 14 }, fatorPreco: 0.97, possuiDelivery: true, entregaEm: '40 min' },
-    { id: 'far-011', nome: 'Farmácia Savassi', endereco: 'Rua Pernambuco, 1000 - Savassi', cidade: 'Belo Horizonte', cep: '30130-151', bairro: 'Savassi', telefone: '(31) 3333-0011', latitude: -19.9370, longitude: -43.9375, horario: { abertura: 7, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 18 }, fatorPreco: 1.02, possuiDelivery: true, entregaEm: '30 min' },
-    { id: 'far-012', nome: 'Drogaria Contorno', endereco: 'Av. do Contorno, 5000 - Funcionários', cidade: 'Belo Horizonte', cep: '30110-017', bairro: 'Funcionários', telefone: '(31) 3333-0012', latitude: -19.9245, longitude: -43.9352, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.92, possuiDelivery: false, entregaEm: null },
-    { id: 'far-013', nome: 'Farmácia Batel', endereco: 'Av. do Batel, 1400 - Batel', cidade: 'Curitiba', cep: '80420-090', bairro: 'Batel', telefone: '(41) 3333-0013', latitude: -25.4383, longitude: -49.2932, horario: { abertura: 7, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 18 }, fatorPreco: 1.03, possuiDelivery: true, entregaEm: '35 min' },
-    { id: 'far-014', nome: 'Drogaria Centro Cívico', endereco: 'Rua Bento Viana, 300 - Centro Cívico', cidade: 'Curitiba', cep: '80530-000', bairro: 'Centro Cívico', telefone: '(41) 3333-0014', latitude: -25.4185, longitude: -49.2696, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.94, possuiDelivery: false, entregaEm: null },
-    { id: 'far-015', nome: 'Farmácia Moinhos', endereco: 'Rua Padre Chagas, 200 - Moinhos de Vento', cidade: 'Porto Alegre', cep: '90570-080', bairro: 'Moinhos de Vento', telefone: '(51) 3333-0015', latitude: -30.0240, longitude: -51.2050, horario: { abertura: 7, fechamento: 23, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 20 }, fatorPreco: 1.06, possuiDelivery: true, entregaEm: '30 min' },
-    { id: 'far-016', nome: 'Drogaria Cidade Baixa', endereco: 'Av. João Pessoa, 1000 - Cidade Baixa', cidade: 'Porto Alegre', cep: '90040-000', bairro: 'Cidade Baixa', telefone: '(51) 3333-0016', latitude: -30.0424, longitude: -51.2189, horario: { abertura: 8, fechamento: 21, domingoAberto: true, domingoAbertura: 9, domingoFechamento: 14 }, fatorPreco: 0.91, possuiDelivery: true, entregaEm: '45 min' },
-    { id: 'far-017', nome: 'Farmácia Barra', endereco: 'Av. Oceânica, 500 - Barra', cidade: 'Salvador', cep: '40140-130', bairro: 'Barra', telefone: '(71) 3333-0017', latitude: -13.0100, longitude: -38.5300, horario: { abertura: 7, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 18 }, fatorPreco: 0.98, possuiDelivery: true, entregaEm: '35 min' },
-    { id: 'far-018', nome: 'Drogaria Pituba', endereco: 'Av. Paulo VI, 300 - Pituba', cidade: 'Salvador', cep: '41810-000', bairro: 'Pituba', telefone: '(71) 3333-0018', latitude: -12.9950, longitude: -38.4550, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.89, possuiDelivery: false, entregaEm: null },
-    { id: 'far-019', nome: 'Farmácia Aldeota', endereco: 'Av. Santos Dumont, 1500 - Aldeota', cidade: 'Fortaleza', cep: '60150-160', bairro: 'Aldeota', telefone: '(85) 3333-0019', latitude: -3.7400, longitude: -38.4980, horario: { abertura: 7, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 18 }, fatorPreco: 0.96, possuiDelivery: true, entregaEm: '30 min' },
-    { id: 'far-020', nome: 'Drogaria Meireles', endereco: 'Av. Beira Mar, 3000 - Meireles', cidade: 'Fortaleza', cep: '60165-121', bairro: 'Meireles', telefone: '(85) 3333-0020', latitude: -3.7250, longitude: -38.4900, horario: { abertura: 8, fechamento: 22, domingoAberto: true, domingoAbertura: 9, domingoFechamento: 15 }, fatorPreco: 1.01, possuiDelivery: true, entregaEm: '40 min' },
-    { id: 'far-021', nome: 'Farmácia Boa Viagem', endereco: 'Av. Boa Viagem, 2000 - Boa Viagem', cidade: 'Recife', cep: '51020-000', bairro: 'Boa Viagem', telefone: '(81) 3333-0021', latitude: -8.1180, longitude: -34.9010, horario: { abertura: 7, fechamento: 23, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 20 }, fatorPreco: 0.99, possuiDelivery: true, entregaEm: '30 min' },
-    { id: 'far-022', nome: 'Drogaria Casa Forte', endereco: 'Rua Real da Torre, 300 - Casa Forte', cidade: 'Recife', cep: '52061-030', bairro: 'Casa Forte', telefone: '(81) 3333-0022', latitude: -8.0330, longitude: -34.9130, horario: { abertura: 8, fechamento: 20, domingoAberto: false }, fatorPreco: 0.90, possuiDelivery: false, entregaEm: null },
-    { id: 'far-023', nome: 'Farmácia Asa Sul', endereco: 'SQS 300 Bloco A - Asa Sul', cidade: 'Brasília', cep: '70330-500', bairro: 'Asa Sul', telefone: '(61) 3333-0023', latitude: -15.8100, longitude: -47.8950, horario: { abertura: 7, fechamento: 22, domingoAberto: true, domingoAbertura: 8, domingoFechamento: 18 }, fatorPreco: 1.07, possuiDelivery: true, entregaEm: '35 min' },
-    { id: 'far-024', nome: 'Drogaria Asa Norte', endereco: 'SQN 200 Bloco B - Asa Norte', cidade: 'Brasília', cep: '70850-200', bairro: 'Asa Norte', telefone: '(61) 3333-0024', latitude: -15.7700, longitude: -47.8850, horario: { abertura: 8, fechamento: 21, domingoAberto: true, domingoAbertura: 9, domingoFechamento: 14 }, fatorPreco: 0.93, possuiDelivery: true, entregaEm: '40 min' }
-);
 
 // ==========================================================================
 // Banco de Localidades
@@ -20974,45 +20842,11 @@ const BANCO_LOCALIDADES = [
 ];
 
 // ==========================================================================
-// Mapa de Preços por Farmácia
-// Preços simulados por medicamento e farmácia
+// Preço por farmácia
+// Não há (ainda) acordo comercial de preço real por farmácia (ver
+// STATUS.md), então o preço de cada farmácia é estimado a partir do preço
+// de referência CMED do medicamento e do fatorPreco da farmácia - ver
+// calcularPrecoFarmacia() em app.js. Essa função funciona tanto para as
+// farmácias pré-carregadas abaixo quanto para farmácias reais buscadas ao
+// vivo via Overpass (OpenStreetMap).
 // ==========================================================================
-const MAPA_PRECOS = {
-    'med-001': { 'far-001': 13.99, 'far-002': 15.90, 'far-003': 12.90, 'far-004': 14.50, 'far-005': 15.20, 'far-006': 11.99, 'far-007': 13.50, 'far-008': 11.79 },
-    'med-002': { 'far-001': 16.90, 'far-002': 18.90, 'far-003': 15.80, 'far-004': 17.50, 'far-005': 18.20, 'far-006': 14.99, 'far-007': 16.50, 'far-008': 14.79 },
-    'med-003': { 'far-001': 17.90, 'far-002': 19.90, 'far-003': 16.80, 'far-004': 18.50, 'far-005': 19.20, 'far-006': 15.99, 'far-007': 17.50, 'far-008': 15.79 },
-    'med-004': { 'far-001': 23.90, 'far-002': 25.90, 'far-003': 22.50, 'far-004': 24.50, 'far-005': 25.20, 'far-006': 21.99, 'far-007': 23.50, 'far-008': 21.79 },
-    'med-005': { 'far-001': 38.90, 'far-002': 42.50, 'far-003': 36.80, 'far-004': 40.50, 'far-005': 41.20, 'far-006': 35.99, 'far-007': 38.50, 'far-008': 35.79 },
-    'med-006': { 'far-001': 35.90, 'far-002': 38.90, 'far-003': 33.80, 'far-004': 37.50, 'far-005': 38.20, 'far-006': 32.99, 'far-007': 35.50, 'far-008': 32.79 },
-    'med-007': { 'far-001': 19.50, 'far-002': 21.50, 'far-003': 18.80, 'far-004': 20.50, 'far-005': 21.20, 'far-006': 17.99, 'far-007': 19.50, 'far-008': 17.79 },
-    'med-008': { 'far-001': 12.50, 'far-002': 13.90, 'far-003': 11.80, 'far-004': 13.50, 'far-005': 14.20, 'far-006': 10.99, 'far-007': 12.50, 'far-008': 10.79 },
-    'med-009': { 'far-001': 15.50, 'far-002': 16.80, 'far-003': 14.50, 'far-004': 15.80, 'far-005': 16.20, 'far-006': 13.99, 'far-007': 15.00, 'far-008': 13.79 },
-    'med-010': { 'far-001': 29.90, 'far-002': 32.90, 'far-003': 28.50, 'far-004': 31.50, 'far-005': 32.20, 'far-006': 27.99, 'far-007': 29.50, 'far-008': 27.79 },
-    'med-011': { 'far-001': 14.50, 'far-002': 15.50, 'far-003': 13.80, 'far-004': 15.00, 'far-005': 15.50, 'far-006': 12.99, 'far-007': 14.00, 'far-008': 12.79 },
-    'med-012': { 'far-001': 44.90, 'far-002': 48.90, 'far-003': 42.50, 'far-004': 46.50, 'far-005': 47.20, 'far-006': 41.99, 'far-007': 44.50, 'far-008': 41.79 },
-    'med-013': { 'far-001': 62.90, 'far-002': 68.90, 'far-003': 60.50, 'far-004': 65.50, 'far-005': 66.20, 'far-006': 59.99, 'far-007': 62.50, 'far-008': 59.79 },
-    'med-014': { 'far-001': 18.50, 'far-002': 19.90, 'far-003': 17.50, 'far-004': 19.00, 'far-005': 19.50, 'far-006': 16.99, 'far-007': 18.00, 'far-008': 16.79 },
-    'med-015': { 'far-001': 19.90, 'far-002': 21.90, 'far-003': 18.50, 'far-004': 20.50, 'far-005': 21.20, 'far-006': 17.99, 'far-007': 19.50, 'far-008': 17.79 },
-    'med-016': { 'far-001': 32.90, 'far-002': 35.90, 'far-003': 31.50, 'far-004': 34.50, 'far-005': 35.20, 'far-006': 30.99, 'far-007': 32.50, 'far-008': 30.79 },
-    'med-017': { 'far-001': 38.50, 'far-002': 42.50, 'far-003': 36.50, 'far-004': 40.50, 'far-005': 41.20, 'far-006': 35.99, 'far-007': 38.50, 'far-008': 35.79 },
-    'med-018': { 'far-001': 41.90, 'far-002': 45.90, 'far-003': 39.50, 'far-004': 43.50, 'far-005': 44.20, 'far-006': 38.99, 'far-007': 41.50, 'far-008': 38.79 },
-    'med-019': { 'far-001': 38.90, 'far-002': 42.90, 'far-003': 36.50, 'far-004': 40.50, 'far-005': 41.20, 'far-006': 35.99, 'far-007': 38.50, 'far-008': 35.79 },
-    'med-020': { 'far-001': 62.90, 'far-002': 68.90, 'far-003': 59.50, 'far-004': 65.50, 'far-005': 66.20, 'far-006': 58.99, 'far-007': 62.50, 'far-008': 58.79 }
-};
-
-// Gera preços simulados para qualquer combinação medicamento × farmácia que
-// ainda não tenha um preço cadastrado manualmente (novas farmácias, novos
-// medicamentos), usando o preço de referência do medicamento e o
-// multiplicador de preço (fatorPreco) de cada farmácia
-BANCO_MEDICAMENTOS.forEach(medicamento => {
-    if (!MAPA_PRECOS[medicamento.id]) MAPA_PRECOS[medicamento.id] = {};
-
-    BANCO_FARMACIAS.forEach(farmacia => {
-        if (MAPA_PRECOS[medicamento.id][farmacia.id] !== undefined) return; // já cadastrado
-
-        // O preço de referência representa a marca; farmácias com
-        // fatorPreco < 1 tendem a vender um pouco abaixo dele
-        const precoBase = medicamento.precoReferencia * 0.85;
-        MAPA_PRECOS[medicamento.id][farmacia.id] = Math.round(precoBase * farmacia.fatorPreco * 100) / 100;
-    });
-});
