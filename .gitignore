@@ -1,0 +1,8 @@
+# Dumps intermediários de raspagem/geo - grandes e 100% regeneráveis via os
+# scripts em scripts/ (ver STATUS.md para o passo a passo de cada um).
+scripts/precos_vtex.json
+scripts/precos_panvel.json
+scripts/farmacias_osm.json
+
+__pycache__/
+*.pyc

@@ -31,27 +31,31 @@ roteiro de compras (funcionalidade Premium).
 
 ## Estrutura
 - `index.html`, `css/style.css`
-- `js/app.js` — UI, busca/pontuação/fuzzy-match, geocodificação (ViaCEP+Nominatim) e busca de
-  farmácias reais próximas ao vivo (Overpass/OpenStreetMap, com fallback pré-carregado)
-- `js/data.js` — `BANCO_MEDICAMENTOS` **real** (760 medicamentos, preços CMED/ANVISA oficiais,
-  gerado por `scripts/build_data_cmed.py`). `BANCO_FARMACIAS` **real** (54 farmácias pré-carregadas
-  via OpenStreetMap, gerado por `scripts/build_farmacias_overpass.py` — usado só como fallback
-  quando a busca ao vivo falha). Ver `STATUS.md` para como reproduzir/atualizar cada um.
+- `js/app.js` — UI, busca/pontuação/fuzzy-match, geocodificação (ViaCEP+Nominatim), busca de
+  farmácias reais próximas ao vivo (Overpass/OpenStreetMap, com fallback pré-carregado) e preço
+  real por farmácia (`PRECOS_REDES`, com fallback pra estimativa CMED)
+- `js/data.js` — `BANCO_MEDICAMENTOS` **real** (760 medicamentos, preços CMED/ANVISA oficiais +
+  registro ANVISA por produto, gerado por `scripts/build_data_cmed.py`). `BANCO_FARMACIAS` **real**
+  (54 farmácias pré-carregadas via OpenStreetMap, gerado por `scripts/build_farmacias_overpass.py`
+  — usado só como fallback quando a busca ao vivo falha).
+- `js/precos-redes.js` — `PRECOS_REDES`, preços **reais raspados** de 6 redes de farmácia (Pague
+  Menos, Extrafarma, Panvel, Drogaria São Paulo, Pacheco, Venancio), gerado por
+  `scripts/build_precos_redes.js`. Cobre 93% dos 760 medicamentos.
 - `js/speech.js` — Web Speech API nativa do navegador (já real, não mock)
+- Ver `STATUS.md` para como reproduzir/atualizar cada fonte de dado.
 
 ## Estado
 - Projeto sob Git local (sem remoto). Commit inicial `19d515c`: "Estado inicial: MED_PRECOS com
   dados mock (pré integração API real)".
-- **Preços de medicamentos:** resolvido em 18/08/2026 — `data.js` usa a lista oficial de preços
-  CMED (ANVISA), gratuita e sem limite de requisição. Detalhes/limitações (aproximação de PMC por
-  UF, campos que a base real não tem) em `STATUS.md`.
+- **Preços de medicamentos (referência CMED):** resolvido em 18/08/2026 — `data.js` usa a lista
+  oficial de preços CMED (ANVISA), gratuita e sem limite de requisição.
 - **Geo-referenciamento de farmácias:** resolvido em 18/08/2026 — busca ao vivo via Overpass
-  (OpenStreetMap) a cada busca do usuário, com fallback pré-carregado real (54 farmácias, 9
-  capitais) para quando a API pública estiver fora do ar (já visto acontecer). Testado ao vivo no
-  navegador. Detalhes em `STATUS.md`.
-- **Preço por farmácia específica** (a CMED só dá o teto legal nacional, não o preço praticado por
-  farmácia): ainda estimado, não real — depende de parcerias comerciais em negociação, ver
-  `outreach/contatos-parcerias.md`.
+  (OpenStreetMap) com escalonamento de raio, fallback pré-carregado real (54 farmácias, 9 capitais).
+- **Preço real por farmácia:** resolvido em 18/08/2026 para 6 redes (raspagem periódica, ToS/robots.txt
+  checados rede por rede antes de implementar — Droga Raia/Drogasil/Ultrafarma/Araújo ficam de fora
+  por proibição contratual ou bloqueio ativo, essas duas primeiras têm rascunho de e-mail pra via
+  oficial em `outreach/contatos-parcerias.md`). Demais farmácias continuam com preço estimado a
+  partir do teto CMED. Detalhes completos em `STATUS.md`.
 
 ## Convenção de acompanhamento
 Manter o `STATUS.md` na raiz atualizado ao final de cada sessão de trabalho ou marco relevante, com:

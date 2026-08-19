@@ -85,6 +85,7 @@ for i, row in enumerate(ws.iter_rows(min_row=HEADER_ROW, values_only=True), star
     apresentacao = row[col['APRESENTAÇÃO']] or ''
     classe = row[col['CLASSE TERAPÊUTICA']] or ''
     laboratorio = row[col['LABORATÓRIO']] or ''
+    registro = row[col['REGISTRO']] or ''
 
     pmc_col = 'PMC 12 %' if tipo == 'Genérico' else 'PMC 18 %'
     preco = to_float(row[col[pmc_col]])
@@ -92,10 +93,12 @@ for i, row in enumerate(ws.iter_rows(min_row=HEADER_ROW, values_only=True), star
         continue
 
     g = groups.setdefault(substancia, {})
-    p = g.setdefault(produto, {'tipo': tipo, 'precos': [], 'apresentacoes': set(), 'classe': classe, 'laboratorio': laboratorio})
+    p = g.setdefault(produto, {'tipo': tipo, 'precos': [], 'apresentacoes': set(), 'classe': classe, 'laboratorio': laboratorio, 'registros': set()})
     p['precos'].append(preco)
     if apresentacao:
         p['apresentacoes'].add(apresentacao)
+    if registro:
+        p['registros'].add(str(registro))
 
 medicamentos = []
 seq = 0
@@ -110,6 +113,7 @@ for substancia, produtos in groups.items():
             'preco': preco_min,
             'apresentacoes': sorted(info['apresentacoes'])[:MAX_APRESENTACOES],
             'classe': info['classe'],
+            'registros': sorted(info['registros']),
         })
     if not items:
         continue
@@ -139,8 +143,13 @@ for substancia, produtos in groups.items():
         'principioAtivo': titlecase_pt(substancia),
         'descricao': descricao,
         'apresentacoes': referencia['apresentacoes'] or (alternativas[0]['apresentacoes'] if alternativas else []),
+        'registrosAnvisa': referencia['registros'],  # p/ casar com preço real raspado (ver scripts/scrape_precos_vtex.py)
         'genericos': [
-            {'nome': titlecase_pt(a['nome']), 'precoBase': round(a['preco'], 2)}
+            {
+                'nome': titlecase_pt(a['nome']),
+                'precoBase': round(a['preco'], 2),
+                'registrosAnvisa': a['registros'],
+            }
             for a in alternativas
         ],
         'precoReferencia': round(referencia['preco'], 2),

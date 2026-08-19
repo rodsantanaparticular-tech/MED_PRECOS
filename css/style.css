@@ -639,6 +639,13 @@ a:focus {
     margin-top: 0.25rem;
 }
 
+.tabela-precos .preco-real {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--cor-texto-claro);
+    margin-top: 0.15rem;
+}
+
 .farmacia-nome {
     font-weight: 600;
 }

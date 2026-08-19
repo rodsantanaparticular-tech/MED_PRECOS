@@ -63,6 +63,33 @@ const REDES_COM_DELIVERY = [
     'big ben', 'drogaria venancio'
 ];
 
+// Redes com preço real raspado (ver PRECOS_REDES em js/precos-redes.js e
+// scripts/scrape_precos_*.py/js). Cada entrada casa um trecho do nome/marca
+// da farmácia (normalizado) com a chave usada em PRECOS_REDES. Droga Raia/
+// Drogasil/Ultrafarma/Araújo não têm raspagem (ver STATUS.md) - de propósito
+// fora desta lista, mesmo aparecendo em REDES_COM_DELIVERY acima.
+const REDES_COM_PRECO_REAL = [
+    { trecho: 'pague menos', rede: 'paguemenos' },
+    { trecho: 'extrafarma', rede: 'extrafarma' },
+    { trecho: 'drogaria são paulo', rede: 'drogariasaopaulo' },
+    { trecho: 'drogaria sao paulo', rede: 'drogariasaopaulo' },
+    { trecho: 'pacheco', rede: 'pacheco' },
+    { trecho: 'venancio', rede: 'venancio' },
+    { trecho: 'venâncio', rede: 'venancio' },
+    { trecho: 'panvel', rede: 'panvel' }
+];
+
+/**
+ * Identifica a que rede (com preço real raspado) uma farmácia pertence,
+ * pelo nome/marca normalizados. Retorna null se não for uma rede raspada
+ * (nesse caso o preço segue sendo estimado via calcularPrecoFarmacia).
+ */
+function identificarRedeComPrecoReal(farmacia) {
+    const nomeNormalizado = normalizarTexto(farmacia.nome || '');
+    const encontrada = REDES_COM_PRECO_REAL.find(r => nomeNormalizado.includes(r.trecho));
+    return encontrada ? encontrada.rede : null;
+}
+
 // Aproximação por região do CEP (1º dígito), usada apenas quando a
 // geocodificação real falha (sem internet, CEP inexistente, etc.)
 const REGIAO_CEP_FALLBACK = {
@@ -669,15 +696,32 @@ async function buscarFarmaciasReaisProximas(latitude, longitude, raioMaximoKm) {
 }
 
 /**
- * Calcula o preço estimado de um medicamento em uma farmácia. Sem acordo
- * comercial de preço real por farmácia (ver STATUS.md), o preço é uma
- * estimativa a partir do preço de referência CMED e do fator de preço da
- * farmácia - por isso a UI sempre deve deixar claro que é uma estimativa.
+ * Calcula o preço de um medicamento em uma farmácia. Prioridade:
+ * 1) Preço REAL raspado do site da rede (PRECOS_REDES, ver js/precos-redes.js
+ *    e STATUS.md) - quando a farmácia é de uma rede raspada e o medicamento
+ *    foi encontrado lá;
+ * 2) Estimativa a partir do preço de referência CMED e do fator de preço da
+ *    farmácia - fallback pra quando não há preço real (a maioria dos casos:
+ *    Droga Raia/Drogasil/Ultrafarma/Araújo não são raspadas, farmácias fora
+ *    das 6 redes cobertas, ou medicamento não encontrado na raspagem).
+ * Retorna { preco, real }: `real` diz se veio de raspagem (pra UI não colocar
+ * o aviso de "estimado" em cima de um preço de verdade).
  */
 function calcularPrecoFarmacia(medicamento, farmacia) {
-    if (!medicamento.precoReferencia || medicamento.precoReferencia <= 0) return null;
+    if (typeof PRECOS_REDES !== 'undefined') {
+        const rede = identificarRedeComPrecoReal(farmacia);
+        if (rede) {
+            const precosDoMedicamento = PRECOS_REDES[medicamento.id];
+            const precoNaRede = precosDoMedicamento && precosDoMedicamento[rede];
+            if (precoNaRede && precoNaRede.disponivel !== false) {
+                return { preco: precoNaRede.preco, real: true };
+            }
+        }
+    }
+
+    if (!medicamento.precoReferencia || medicamento.precoReferencia <= 0) return { preco: null, real: false };
     const precoBase = medicamento.precoReferencia * 0.85;
-    return Math.round(precoBase * farmacia.fatorPreco * 100) / 100;
+    return { preco: Math.round(precoBase * farmacia.fatorPreco * 100) / 100, real: false };
 }
 
 /**
@@ -807,7 +851,12 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
         precoSpan.className = 'preco-destaque';
         precoSpan.textContent = formatarMoeda(farmacia.preco);
         celulaPreco.appendChild(precoSpan);
-        
+
+        const precoOrigemEl = document.createElement('span');
+        precoOrigemEl.className = 'preco-real';
+        precoOrigemEl.textContent = farmacia.precoReal ? '✅ preço real do site da rede' : '≈ preço estimado';
+        celulaPreco.appendChild(precoOrigemEl);
+
         if (eMenorPreco) {
             const badge = document.createElement('span');
             badge.className = 'preco-menor';
@@ -1027,14 +1076,18 @@ async function executarBusca() {
 
     // Obtém preços e distância em todas as farmácias que têm o medicamento
     const farmaciasComPreco = bancoFarmacias
-        .map(farmacia => ({
-            dados: farmacia,
-            preco: calcularPrecoFarmacia(medicamento, farmacia),
-            distanciaKm: calcularDistanciaKm(
-                estado.localizacaoUsuario.latitude, estado.localizacaoUsuario.longitude,
-                farmacia.latitude, farmacia.longitude
-            )
-        }))
+        .map(farmacia => {
+            const { preco, real } = calcularPrecoFarmacia(medicamento, farmacia);
+            return {
+                dados: farmacia,
+                preco,
+                precoReal: real,
+                distanciaKm: calcularDistanciaKm(
+                    estado.localizacaoUsuario.latitude, estado.localizacaoUsuario.longitude,
+                    farmacia.latitude, farmacia.longitude
+                )
+            };
+        })
         .filter(item => item.preco !== null);
 
     // Mantém só as farmácias dentro do raio escolhido pelo usuário; se nenhuma
