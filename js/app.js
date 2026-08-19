@@ -23,7 +23,14 @@ const RAIO_MAXIMO_KM = 60;
 // Número máximo de farmácias exibidas na tabela de resultados. A busca ao
 // vivo (Overpass) pode retornar centenas de farmácias reais num raio
 // grande em capitais grandes - sem esse limite a tabela fica inviável
-const MAX_FARMACIAS_EXIBIDAS = 20;
+const MAX_FARMACIAS_EXIBIDAS = 15;
+
+// Escalonamento de raio da busca ao vivo (buscarFarmaciasReaisProximas):
+// começa em 10km (rápido, leve pra API pública) e só amplia se o resultado
+// não tiver farmácias/redes suficientes pra uma comparação de preço útil
+const ESCALONAMENTO_RAIO_KM = [10, 20, 35, 60];
+const META_LOJAS = 15;
+const META_REDES_DISTINTAS = 5;
 
 // Pontuação mínima (em 100) para buscarMedicamento() aceitar uma correspondência.
 // pontuarCorrespondencia() usa essa mesma constante para calibrar seu limiar de
@@ -566,16 +573,15 @@ function converterFarmaciaOsm(node) {
 }
 
 /**
- * Busca farmácias reais próximas de uma coordenada via Overpass API
- * (dados do OpenStreetMap), tentando os endpoints em ordem. Retorna:
+ * Busca farmácias num único raio via Overpass API (dados do OpenStreetMap),
+ * tentando os endpoints em ordem. Retorna:
  * - um array (possivelmente vazio) se algum endpoint respondeu com sucesso;
- * - null se todos os endpoints falharam/deram timeout - quem chama deve
- *   cair para o pré-carregado (BANCO_FARMACIAS) nesse caso.
- * Resultados são cacheados no navegador por 24h por região arredondada,
+ * - null se todos os endpoints falharam/deram timeout.
+ * Resultados são cacheados no navegador por 24h por região+raio arredondados,
  * para não martelar a API pública a cada busca no mesmo lugar.
  */
-async function buscarFarmaciasReaisProximas(latitude, longitude, raioKm) {
-    const raioMetros = Math.min(Math.round(raioKm * 1000), 15000); // Overpass fica lento acima disso
+async function buscarFarmaciasNoRaio(latitude, longitude, raioKm) {
+    const raioMetros = Math.round(raioKm * 1000);
     const chaveCache = 'geo:' + latitude.toFixed(2) + ',' + longitude.toFixed(2) + ',' + raioMetros;
 
     try {
@@ -623,6 +629,43 @@ async function buscarFarmaciasReaisProximas(latitude, longitude, raioKm) {
     }
 
     return null; // todos os endpoints falharam
+}
+
+/**
+ * Busca farmácias reais próximas de uma coordenada, começando num raio
+ * pequeno (rápido, leve pra API pública) e só ampliando se o resultado for
+ * pobre demais pra comparar preço: menos de META_LOJAS farmácias ou menos
+ * de META_REDES_DISTINTAS redes diferentes. Nunca ultrapassa o raio máximo
+ * escolhido pelo usuário na busca (raioMaximoKm).
+ *
+ * Retorna null somente se a PRIMEIRA tentativa falhar completamente (todos
+ * os endpoints do Overpass fora do ar) - nesse caso quem chama deve cair
+ * para o pré-carregado (BANCO_FARMACIAS). Se uma tentativa posterior falhar
+ * mas uma anterior já tinha resultado, devolve o melhor resultado obtido.
+ */
+async function buscarFarmaciasReaisProximas(latitude, longitude, raioMaximoKm) {
+    let melhorResultado = null;
+
+    for (const raioTentativa of ESCALONAMENTO_RAIO_KM) {
+        if (raioTentativa > raioMaximoKm) break;
+
+        const farmacias = await buscarFarmaciasNoRaio(latitude, longitude, raioTentativa);
+
+        if (farmacias === null) {
+            // Essa tentativa falhou (Overpass fora do ar); se já tínhamos
+            // achado algo num raio menor, fica com isso em vez de desistir
+            if (melhorResultado !== null) return melhorResultado;
+            continue;
+        }
+
+        melhorResultado = farmacias;
+        const redesDistintas = new Set(farmacias.map(f => normalizarTexto(f.nome))).size;
+        if (farmacias.length >= META_LOJAS || redesDistintas >= META_REDES_DISTINTAS) {
+            return farmacias; // já achou o suficiente pra comparar preço, não precisa ampliar mais
+        }
+    }
+
+    return melhorResultado; // null só se TODAS as tentativas (até o raio máximo) falharem
 }
 
 /**

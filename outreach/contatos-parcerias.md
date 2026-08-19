@@ -99,10 +99,81 @@ med.precosbr@gmail.com
 
 ---
 
+## 4. RD (Raia Drogasil / Drogasil) — maior rede do Brasil
+
+> Adicionado em 18/08/2026. Droga Raia/Drogasil têm proibição explícita de web scraping nos Termos
+> de Uso e no robots.txt (bloqueiam justamente a página de produto/preço) — por isso a via de acesso
+> aos preços dela no MED_PRECOS **precisa ser parceria oficial**, não raspagem.
+
+**Contato:**
+- Não existe canal dedicado a parcerias de dados/API — verificado na página `rdsaude.com.br/parceiros-comerciais/`, que só trata de cadastro de fornecedores tradicionais (materiais/serviços indiretos), não dados/tecnologia.
+- Melhor porta de entrada encontrada: assessoria de imprensa/institucional — **rd@ovocom.com.br** (agência Ovo Comunicação, atende RD) — pedir para encaminhar ao time certo (novos negócios/parcerias).
+- Alternativa: DPO (Encarregado de Dados) — **dpo@rd.com.br** — não é o canal certo pra isso, mas pode redirecionar internamente se o primeiro não responder.
+- Telefone geral: (11) 3769-5678.
+
+**Rascunho de e-mail:**
+
+```
+Para: rd@ovocom.com.br
+Assunto: Parceria de dados — comparador de preços de medicamentos (MED_PRECOS)
+
+Olá,
+
+Meu nome é Rodrigo Santana, sou fundador de uma startup e estou desenvolvendo o MED_PRECOS,
+uma plataforma que ajuda consumidores a comparar preços de medicamentos e encontrar
+farmácias próximas com os melhores valores, incluindo alternativas genéricas.
+
+O projeto está atualmente na fase de MVP. A Droga Raia/Drogasil é uma das redes mais
+relevantes pro projeto, e gostaria de entender se existe algum canal oficial (API, feed de
+dados, ou parceria comercial) para acesso a preços de produtos para uso em uma aplicação de
+comparação de preços de terceiros. Não encontrei um canal dedicado a esse tipo de parceria no
+site institucional, por isso escrevo à assessoria para ser direcionado à equipe correta.
+
+Minhas dúvidas específicas:
+1. Existe uma API ou feed de dados de preços disponível para parceiros/aplicações de terceiros?
+2. Se sim, como funciona esse acesso tanto para uso em fase de MVP quanto, posteriormente,
+   para rodar em produção?
+
+Fico à disposição para fornecer mais detalhes sobre o projeto.
+
+Atenciosamente,
+Rodrigo Santana
+Fundador — MED_PRECOS
+med.precosbr@gmail.com
+```
+
+---
+
+## 5. Drogaria Araújo — líder em Minas Gerais
+
+> Adicionado em 18/08/2026. Site bloqueia acesso automatizado de forma ampla (até a busca de
+> conteúdo institucional básico retornou 403) — não só a página de produto. Não deu pra confirmar
+> e-mail comercial direto por essa mesma razão (não consegui abrir as páginas institucionais via
+> ferramenta automatizada). Contato abaixo veio de busca externa, confirmar no site antes de usar.
+
+**Contato:**
+- Site: https://www.araujo.com.br/ — usar o "Fale Conosco" geral do site diretamente (acesso manual
+  no navegador, não automatizado).
+- Canal institucional adicional: "Fale com o Presidente" (`araujo.com.br/fale-com-o-presidente`) —
+  citado como canal para parceiros, não só clientes; pode ser uma via de escalonamento se o "Fale
+  Conosco" comum não direcionar certo.
+- Telefone: (31) 3270-5000 / 0300 313 1010.
+
+**Mesmo texto do rascunho da RD acima serve, adaptado** trocando "Droga Raia/Drogasil" por
+"Drogaria Araújo" — usar via formulário do site (mais confiável que tentar achar um e-mail direto).
+
+---
+
 ## Próximo passo
 - [x] Revisar e personalizar os rascunhos antes de enviar.
-- [ ] **AGUARDANDO: reconectar corretamente o Gmail `med.precosbr@gmail.com`** nos conectores do
-      claude.ai — verificado em 16/08/2026 que a conexão ativa ainda estava na conta pessoal
-      (`rod.santana.particular@gmail.com`), apesar da conta nova já criada.
-- [ ] Depois de confirmado, enviar para os 2-3 contatos.
-- [ ] Registrar respostas recebidas aqui, e atualizar o `STATUS.md` do projeto com o resultado.
+- [x] ~~Reconectar Gmail do conector claude.ai~~ — não foi possível nesta sessão (ficou preso na
+      conta pessoal em várias tentativas). Contornado: usuário copiou os textos manualmente e
+      enviou pela própria conta `med.precosbr@gmail.com` direto no Gmail.
+- [x] **Enviados em 18/08/2026** os 3 e-mails (Brasíndice, Funcional Health Tech, Orizon).
+- [ ] **AGUARDANDO RESPOSTA** dos 3 contatos. Registrar aqui assim que responderem.
+- [ ] **NOVOS RASCUNHOS 18/08/2026** — RD (Raia Drogasil/Drogasil) e Drogaria Araújo, adicionados
+      acima (itens 4 e 5). Ainda não enviados — revisar e enviar quando puder.
+- [ ] Enquanto isso, decisão tomada: seguir com raspagem de preços dos sites das próprias redes de
+      farmácia como fonte interina de preço por farmácia, mas **só para as redes sem proibição de
+      ToS/bloqueio ativo**: Pague Menos, Extrafarma, Panvel, Drogaria São Paulo, Pacheco, Venancio
+      (ver `STATUS.md`). Droga Raia/Drogasil/Araújo ficam de fora da raspagem — via oficial acima.
