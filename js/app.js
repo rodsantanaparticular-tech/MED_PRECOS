@@ -129,6 +129,7 @@ const elementos = {
     medicamentoNome: document.getElementById('medicamento-nome'),
     medicamentoPrincipio: document.getElementById('medicamento-principio'),
     medicamentoDescricao: document.getElementById('medicamento-descricao'),
+    medicamentoClasse: document.getElementById('medicamento-classe'),
     
     // Genéricos
     secaoGenericos: document.getElementById('secao-genericos'),
@@ -317,8 +318,17 @@ function buscarMedicamento(termo) {
     let melhorPontuacao = 0;
 
     BANCO_MEDICAMENTOS.forEach(med => {
-        const candidatos = [med.nome, med.principioAtivo, ...med.sinonimias].map(normalizarTexto);
-        const pontuacao = Math.max(...candidatos.map(candidato => pontuarCorrespondencia(termoNormalizado, candidato)));
+        // Nome comercial e princípio ativo são correspondências "de primeira classe".
+        // Sinônimos (marcas alternativas, componentes de combinações) valem um pouco
+        // menos, para que uma busca por "losartana" prefira o medicamento puro a uma
+        // combinação que só tem "losartana" como um dos componentes.
+        const principais = [med.nome, med.principioAtivo].map(normalizarTexto);
+        const sinonimos = (med.sinonimias || []).map(normalizarTexto);
+
+        const pontuacao = Math.max(
+            ...principais.map(c => pontuarCorrespondencia(termoNormalizado, c)),
+            ...sinonimos.map(c => pontuarCorrespondencia(termoNormalizado, c) * 0.9)
+        );
 
         if (pontuacao > melhorPontuacao) {
             melhorPontuacao = pontuacao;
@@ -746,6 +756,13 @@ function renderizarMedicamento(medicamento) {
     elementos.medicamentoNome.textContent = medicamento.nome;
     elementos.medicamentoPrincipio.textContent = 'Princípio ativo: ' + medicamento.principioAtivo;
     elementos.medicamentoDescricao.textContent = medicamento.descricao;
+
+    // Classe terapêutica oficial (CMED) - informação secundária, escondida quando ausente
+    const classe = medicamento.classeTerapeutica;
+    elementos.medicamentoClasse.hidden = !classe;
+    if (classe) {
+        elementos.medicamentoClasse.textContent = 'Classe terapêutica: ' + classe;
+    }
 }
 
 /**

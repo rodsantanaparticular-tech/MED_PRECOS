@@ -35,12 +35,16 @@ roteiro de compras (funcionalidade Premium).
   farmácias reais próximas ao vivo (Overpass/OpenStreetMap, com fallback pré-carregado) e preço
   real por farmácia (`PRECOS_REDES`, com fallback pra estimativa CMED)
 - `js/data.js` — `BANCO_MEDICAMENTOS` **real** (760 medicamentos, preços CMED/ANVISA oficiais +
-  registro ANVISA por produto, gerado por `scripts/build_data_cmed.py`). `BANCO_FARMACIAS` **real**
+  registro ANVISA por produto, gerado por `scripts/build_data_cmed.py`; `descricao` amigável,
+  `classeTerapeutica` e `sinonimias` acrescentados por `scripts/enriquecimento-medicamentos.js` via
+  `scripts/aplicar-enriquecimento.js`). `BANCO_FARMACIAS` **real**
   (54 farmácias pré-carregadas via OpenStreetMap, gerado por `scripts/build_farmacias_overpass.py`
   — usado só como fallback quando a busca ao vivo falha).
 - `js/precos-redes.js` — `PRECOS_REDES`, preços **reais raspados** de 6 redes de farmácia (Pague
   Menos, Extrafarma, Panvel, Drogaria São Paulo, Pacheco, Venancio), gerado por
-  `scripts/build_precos_redes.js`. Cobre 93% dos 760 medicamentos.
+  `scripts/build_precos_redes.js`. Cobre 93% dos 760 medicamentos. Raspagem completa via
+  `scripts/atualizar-precos.ps1` (orquestra os 3 passos; ver `STATUS.md`).
+  Nissei e Big Ben foram avaliados e **ficam de fora** da raspagem (ver `STATUS.md`).
 - `js/speech.js` — Web Speech API nativa do navegador (já real, não mock)
 - Ver `STATUS.md` para como reproduzir/atualizar cada fonte de dado.
 

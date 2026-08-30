@@ -6,3 +6,6 @@ scripts/farmacias_osm.json
 
 __pycache__/
 *.pyc
+
+# Logs da orquestração de atualização de preços (scripts/atualizar-precos.ps1)
+scripts/logs/

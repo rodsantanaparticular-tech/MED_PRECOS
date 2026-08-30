@@ -3,6 +3,10 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-08-30 — **Enriquecimento do banco de medicamentos + orquestração da raspagem + avaliação
+Nissei/Big Ben.** Sessão focada nos itens que não dependiam de resposta de e-mail (contatos RD/Araújo
+seguem sem retorno — usuário vai tentar telefone em dia útil). Detalhes nas seções abaixo.
+
 2026-08-18 — **Preço real por farmácia implementado** (raspagem em 6 redes) e funcionando de ponta a
 ponta. Os três blocos de dados do app (medicamentos, farmácias, preço por farmácia) agora são reais
 ou têm caminho oficial de dado real — só falta preencher as redes fora do escopo de raspagem via
@@ -25,9 +29,15 @@ parceria (RD/Araújo, aguardando resposta).
 ## Medicamentos (CMED/ANVISA)
 1. Fonte: `gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos` — arquivo **"site"** (PF + **PMC**; existe um "gov" com PMVG, para compras públicas — não é esse).
 2. URL do mês: `curl -s -H "Accept: application/json" "https://www.gov.br/anvisa/++api++/pt-br/assuntos/medicamentos/cmed/precos"` e procurar `xls_conformidade_site_*.xlsx/@@download/file`.
-3. `python scripts/build_data_cmed.py caminho/para/arquivo.xlsx` regenera `js/data.js` (inclui `registrosAnvisa` por produto, usado pro casamento de preço real — ver abaixo).
+3. `python scripts/build_data_cmed.py caminho/para/arquivo.xlsx` regenera `js/data.js` (inclui `registrosAnvisa` por produto, usado pro casamento de preço real — ver abaixo). **No fim, chama automaticamente `node scripts/aplicar-enriquecimento.js`** (passo 6). Se `node` não estiver no PATH, avisa e pula — rodar manualmente depois.
 4. **Aproximação assumida:** PMC varia por UF (ICMS). Fixada uma referência nacional única: "Genérico" → coluna PMC 12% (SP/MG), demais → PMC 18% (padrão SP).
 5. **Nuance:** CMED registra `SUBSTÂNCIA` de forma literal — "Dipirona" e "Dipirona Monoidratada" viram grupos separados. Não normalizado ainda.
+6. **Enriquecimento (added 2026-08-30):** o `.xlsx` da CMED só traz a CLASSE TERAPÊUTICA crua ("Inibidores da bomba de prótons") e zero sinônimos. `scripts/enriquecimento-medicamentos.js` deriva, por cima do `data.js` gerado:
+   - `descricao` → frase em português simples ("Reduz a produção de ácido no estômago...") via ~110 regras por palavra-chave na classe. **736/760 (97%)** com frase específica; os 24 restantes (classes "Todos os outros...") caem num texto genérico com aviso de "consulte a bula".
+   - `classeTerapeutica` → a classe CMED original, **preservada** (mostrada como linha secundária no card, `#medicamento-classe`). O enriquecimento é idempotente porque relê a classe daqui.
+   - `sinonimias` → marcas/nomes populares (dicionário curado de ~150 princípios ativos: dipirona→novalgina/anador, paracetamol→tylenol, losartana→aradois...) + derivados automáticos (componentes de combinações + nomes das alternativas genéricas do próprio item). **742/760** com ≥1 sinônimo.
+   - `js/app.js` `buscarMedicamento()` agora pontua sinônimo a **0,9×** do nome/princípio ativo, pra uma busca por "losartana" preferir o medicamento puro a uma combinação que só tem losartana como um dos componentes.
+   - Rodar sozinho: `node scripts/aplicar-enriquecimento.js` (ou `--dry-run` pro relatório sem gravar).
 
 ## Preço real por farmácia — raspagem (implementada em 18/08/2026)
 
@@ -80,6 +90,17 @@ rede:
   rodando os scripts de novo.
 
 ### Como reproduzir/atualizar a raspagem
+**Jeito novo (2026-08-30) — um comando:**
+```
+powershell -File scripts/atualizar-precos.ps1            # completo (~1-2h)
+powershell -File scripts/atualizar-precos.ps1 -Rapido    # teste rápido (40 termos)
+```
+Roda os 3 passos em sequência, loga com timestamp em `scripts/logs/atualizacao-<data>.log` (git-ignorado),
+falha da raspagem VTEX/Panvel não aborta (a outra fonte + o build seguem), só o build é fatal.
+Flags: `-PularVtex`, `-PularPanvel`, `-Limite N`. Agendamento mensal no Windows: comando `schtasks`
+no cabeçalho do `.ps1` (rodar uma vez).
+
+**Jeito manual (os 3 passos por baixo):**
 ```
 python scripts/scrape_precos_vtex.py          # gera scripts/precos_vtex.json (5 redes VTEX)
 node scripts/scrape_precos_panvel.js           # gera scripts/precos_panvel.json (Panvel)
@@ -95,13 +116,25 @@ adicionados em `outreach/contatos-parcerias.md` (itens 4 e 5) — RD via assesso
 (rd@ovocom.com.br, não há canal melhor confirmado), Araújo via formulário do site (não consegui
 confirmar e-mail direto, site bloqueia até fetch de página institucional).
 
+## Nissei / Big Ben — avaliados em 2026-08-30, NÃO entram na raspagem
+Mesmo critério das outras redes (robots.txt + ToS antes de qualquer coisa):
+- **Farmácias Nissei** (`farmaciasnissei.com.br`, plataforma "RetailON"): tem loja online real, mas o
+  `robots.txt` **desautoriza para todos os bots exceto o Google** justamente os caminhos que um
+  raspador de preço precisa — `/catalog`, `/*:price`, `/searchanise`, `/catalogsearch`, `/pesquisa`.
+  Tratamento igual ao da Droga Raia: **fora da raspagem, só via canal oficial.** (Sem canal de
+  parceria de dados achado — se for atrás, mesmo esquema de outreach da RD.)
+- **Drogarias Big Ben** (líder no Norte): **não tem loja web pública com preço** — vende por app
+  próprio / WhatsApp. `bigben.com.br` é uma joalheria, sem relação. Nada a raspar; app-only ficaria
+  para engenharia reversa de API mobile (mais invasivo/cinza, fora de escopo agora).
+
 ## Próximos passos sugeridos
-- [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 novos rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`, mesmo esquema dos 3 já enviados (copiar/colar manualmente).
+- [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.
 - [ ] Registrar respostas de todos os 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md` assim que chegarem.
-- [ ] Reavaliar Nissei/Big Ben pra raspagem (domínio não confirmado ainda) se fizer sentido ampliar cobertura.
-- [ ] Repetir a raspagem periodicamente (preços mudam) — não há agendamento automático ainda, é manual rodando os 3 comandos acima.
-- [ ] Campos que a base real de medicamentos não tem: `descricao` mais amigável e `sinonimias` pra busca por voz — melhoria futura, não bloqueante.
+- [x] ~~Reavaliar Nissei/Big Ben pra raspagem~~ — feito 2026-08-30, ambos ficam de fora (ver seção acima).
+- [x] ~~Repetir a raspagem periodicamente sem agendamento automático~~ — `scripts/atualizar-precos.ps1` junta os 3 passos num comando + `schtasks` documentado. Ainda é o usuário que dispara / agenda (não há CI).
+- [x] ~~`descricao` mais amigável e `sinonimias` pra busca por voz~~ — feito 2026-08-30 (`scripts/enriquecimento-medicamentos.js`, ver seção "Medicamentos" acima). Refino futuro possível: aumentar o dicionário curado de sinônimos e criar regra pras ~24 classes "Todos os outros...".
 - [ ] Cobertura do pré-carregado de farmácias é só 9 capitais — fora delas, sem internet/Overpass fora do ar, busca fica sem resultado (limitação conhecida, comportamento correto).
+- [ ] **Conector Gmail** — ainda preso na conta pessoal. Passo a passo de reconexão passado ao usuário nesta sessão (desconectar em claude.ai → Conectores, logar `med.precosbr@gmail.com` no navegador, reconectar escolhendo essa conta, reiniciar sessão). Validar quando o usuário fizer.
 
 ## Notas / decisões pendentes
 - **Conector Gmail nunca migrou para `med.precosbr@gmail.com` nesta sessão** (ficou preso na conta pessoal em várias tentativas). Contornado enviando os e-mails manualmente pelo usuário, copiando o texto dos rascunhos.

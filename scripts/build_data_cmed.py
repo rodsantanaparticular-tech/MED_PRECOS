@@ -197,3 +197,23 @@ with open(OUT, 'w', encoding='utf-8') as f:
 
 print('Escrito em', OUT)
 print('Tamanho do novo arquivo (bytes):', len(novo_conteudo.encode('utf-8')))
+
+# Camada de enriquecimento (descricao amigavel + sinonimias) - roda por cima do
+# data.js recem-gerado. Fica em JS pra ter uma unica fonte das regras; ver
+# scripts/enriquecimento-medicamentos.js. Sem 'node' no PATH, so avisa.
+import shutil
+import subprocess
+
+if shutil.which('node'):
+    print('\nAplicando enriquecimento (node scripts/aplicar-enriquecimento.js)...')
+    r = subprocess.run(
+        ['node', str(Path(__file__).resolve().parent / 'aplicar-enriquecimento.js')],
+        capture_output=True, text=True,
+    )
+    print(r.stdout, end='')
+    if r.returncode != 0:
+        print(r.stderr, end='')
+        print('AVISO: enriquecimento falhou; data.js ficou so com a classe CMED crua.')
+else:
+    print('\nAVISO: "node" nao encontrado no PATH - pulei o enriquecimento.')
+    print('Rode manualmente depois: node scripts/aplicar-enriquecimento.js')

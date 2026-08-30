@@ -510,6 +510,12 @@ a:focus {
     color: var(--cor-texto);
 }
 
+.medicamento-classe {
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+    color: var(--cor-texto-claro);
+}
+
 /* Seção de genéricos */
 .secao-genericos {
     background: white;

@@ -18,7 +18,7 @@ const BANCO_MEDICAMENTOS = [
         "id": "med-00001",
         "nome": "Filinar g",
         "principioAtivo": "Acebrofilina",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "5 MG/ML GEL OR CT FR PLAS TRANS X 120ML + COL"
         ],
@@ -106,13 +106,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.32,
-        "sinonimias": []
+        "sinonimias": [
+            "Melysse",
+            "Brondilat",
+            "Broncomucol",
+            "Lisomuc",
+            "Filinar"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00002",
         "nome": "Proflam",
         "principioAtivo": "Aceclofenaco",
-        "descricao": "Antirreumáticos e analgésicos tópicos",
+        "descricao": "Anti-inflamatório de uso na pele, para dores musculares e nas articulações.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL / AL X 6",
             "100 MG COM REV CT BL AL/AL X 12",
@@ -165,13 +172,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 40.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Aceflor",
+            "Aceclo-gran"
+        ],
+        "classeTerapeutica": "Antirreumáticos e analgésicos tópicos"
     },
     {
         "id": "med-00003",
         "nome": "Zytiga",
         "principioAtivo": "Acetato de Abiraterona",
-        "descricao": "Hormônios antiandrogênicos citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "250 MG COM CT FR PLAS PEAD OPC X 120"
         ],
@@ -230,13 +241,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20982.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Abiraterona",
+            "Balefio",
+            "Spylglen",
+            "Abmetha",
+            "Rarija",
+            "Zostide"
+        ],
+        "classeTerapeutica": "Hormônios antiandrogênicos citostáticos"
     },
     {
         "id": "med-00004",
         "nome": "Celestone Soluspan",
         "principioAtivo": "Acetato de Betametasona;fosfato Dissódico de Betametasona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "3,0 MG/ML + 3,945 MG/ML SUS INJ CT 1 AMP VD TRANS X 1 ML "
         ],
@@ -253,13 +272,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 35.47,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetato de Betametasona",
+            "fosfato Dissódico de Betametasona",
+            "Beta-long"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00005",
         "nome": "Androcur",
         "principioAtivo": "Acetato de Ciproterona",
-        "descricao": "Hormônios antiandrogênicos citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS TRANS X 20",
             "50 MG COM CT BL AL PLAS TRANS X 20"
@@ -278,13 +302,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 253.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciproterona"
+        ],
+        "classeTerapeutica": "Hormônios antiandrogênicos citostáticos"
     },
     {
         "id": "med-00006",
         "nome": "Ddavp",
         "principioAtivo": "Acetato de Desmopressina",
-        "descricao": "Hormônios antidiuréticos",
+        "descricao": "Reduz a produção de urina. Usado para diabetes insípido e enurese (xixi na cama).",
         "apresentacoes": [
             "0,1 MG COM CT FR PLAS PEAD OPC X 30",
             "0,1 MG/ML SOL SPR NAS CT FR SPR VD AMB 2,5ML",
@@ -315,13 +342,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 299.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Desmopressina",
+            "Dosyx"
+        ],
+        "classeTerapeutica": "Hormônios antidiuréticos"
     },
     {
         "id": "med-00007",
         "nome": "Cortitop",
         "principioAtivo": "Acetato de Dexametasona",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "1 MG/G CREM DERM CT BG AL X 10 G  ",
             "1 MG/G CREM DERM CT BG AL X 20 G",
@@ -392,13 +423,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Dexametasona",
+            "Dexametrat",
+            "Dexamex",
+            "Dexagreen",
+            "Dexadermil",
+            "Metadex"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00008",
         "nome": "Florate",
         "principioAtivo": "Acetato de Fluormetolona",
-        "descricao": "Corticosteróides oftalmológicos",
+        "descricao": "Colírio com corticoide, para inflamação e alergia mais intensas nos olhos.",
         "apresentacoes": [
             "1,0 MG/ML SUS OFT CT FR GOT PLAS OPC X 5 ML"
         ],
@@ -415,13 +454,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 41.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluormetolona",
+            "Flutinol"
+        ],
+        "classeTerapeutica": "Corticosteróides oftalmológicos"
     },
     {
         "id": "med-00009",
         "nome": "Copaxone",
         "principioAtivo": "Acetato de Glatirâmer",
-        "descricao": "Produtos para esclerose múltipla",
+        "descricao": "Usado para reduzir surtos e a progressão da esclerose múltipla.",
         "apresentacoes": [
             "40 MG/ML SOL INJ SC CT 12 SER PREENC VD TRANS X 1 ML"
         ],
@@ -438,13 +481,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 8607.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Glatirâmer",
+            "Glametix"
+        ],
+        "classeTerapeutica": "Produtos para esclerose múltipla"
     },
     {
         "id": "med-00010",
         "nome": "Acetato de Hidrocortisona",
         "principioAtivo": "Acetato de Hidrocortisona",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "10 MG/G CREM DERM CT BG AL X 15 G ",
             "10 MG/G CREM DERM CT BG AL X 20 G",
@@ -466,13 +513,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.19,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidrocortisona",
+            "Cortigen"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00011",
         "nome": "Firazyr",
         "principioAtivo": "Acetato de Icatibanto",
-        "descricao": "Produtos para angiodema hereditário",
+        "descricao": "Usado para prevenir ou tratar crises de angioedema hereditário (inchaços graves).",
         "apresentacoes": [
             "10 MG/ML CT 1 SER X 3 ML + AGULHA"
         ],
@@ -496,13 +547,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12415.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Icatibanto",
+            "Gulandaripa"
+        ],
+        "classeTerapeutica": "Produtos para angiodema hereditário"
     },
     {
         "id": "med-00012",
         "nome": "Lupron",
         "principioAtivo": "Acetato de Leuprorrelina",
-        "descricao": "Análogos hormonais de liberação de gonadotrofinas citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "11,25 MG PO LIOF SUS INJ CT FA VD TRANS +  SOL DIL AMP VD TRANS X 2 ML + SER + 2 AGU+ 2 SACHETS DE ÁLCOOL"
         ],
@@ -529,13 +584,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3658.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Leuprorrelina",
+            "Lectrum",
+            "Eligard"
+        ],
+        "classeTerapeutica": "Análogos hormonais de liberação de gonadotrofinas citostáticos"
     },
     {
         "id": "med-00013",
         "nome": "Depo-provera",
         "principioAtivo": "Acetato de Medroxiprogesterona",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "150 MG/ML SUS INJ CT BL PLAS PLAS TRANS X SER VD TRANS PREENC X 1 ML + AG DESC",
             "150 MG/ML SUS INJ CT FA VD TRANS X 1 ML"
@@ -570,13 +630,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.05,
-        "sinonimias": []
+        "sinonimias": [
+            "Medroxiprogesterona",
+            "Contracep",
+            "Provera",
+            "Demedrox"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00014",
         "nome": "Cyclofemina",
         "principioAtivo": "Acetato de Medroxiprogesterona;cipionato de Estradiol",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "25 MG + 5 MG SUS INJ CX 50 AMP VD INC X 0,5 ML",
             "25 MG+ 5 MG SUS INJ CX 2 AMP VD INC X 0,5 ML",
@@ -617,13 +683,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 92.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetato de Medroxiprogesterona",
+            "cipionato de Estradiol",
+            "Acetato de Medroxiprogesterona +cipionato de Estradiol",
+            "Naomi",
+            "Lyndaveluno"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00015",
         "nome": "Depo-medrol",
         "principioAtivo": "Acetato de Metilprednisolona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "40 MG/ML SUS INJ CT FA VD TRANS X 2 ML "
         ],
@@ -640,13 +713,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Metilprednisolona",
+            "Predi-medrol"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00016",
         "nome": "Estalis",
         "principioAtivo": "Acetato de Noretisterona;estradiol",
-        "descricao": "Associações de estrógenos e progestógenos",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "50 MCG + 140 MCG STT CT 8 ENV X 1"
         ],
@@ -670,13 +747,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 176.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetato de Noretisterona",
+            "estradiol",
+            "Estradiol+acetato de Noretisterona",
+            "Suprema"
+        ],
+        "classeTerapeutica": "Associações de estrógenos e progestógenos"
     },
     {
         "id": "med-00017",
         "nome": "Natifa Pro Ubd",
         "principioAtivo": "Acetato de Noretisterona;estradiol Hemi-hidratado",
-        "descricao": "Associações de estrógenos e progestógenos",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "(0,5 + 0,1) MG COM REV CT BL AL PLAS PCTFE TRANS X 28",
             "(0,5 + 0,1) MG COM REV CT BL AL PLAS PCTFE TRANS X 84"
@@ -717,13 +800,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 100.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetato de Noretisterona",
+            "estradiol Hemi-hidratado",
+            "Estradiol + Acetato de Noretisterona",
+            "Natifa Pro",
+            "Systen Sequi",
+            "Systen Conti"
+        ],
+        "classeTerapeutica": "Associações de estrógenos e progestógenos"
     },
     {
         "id": "med-00018",
         "nome": "Pred",
         "principioAtivo": "Acetato de Prednisolona",
-        "descricao": "Corticosteróides oftalmológicos",
+        "descricao": "Colírio com corticoide, para inflamação e alergia mais intensas nos olhos.",
         "apresentacoes": [
             "1,2 MG/ML SUS OC  FR PLAS OPC GOT X 10 ML",
             "1,2 MG/ML SUS OFT  FR PLAS OPC GOT X 5 ML",
@@ -745,7 +836,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Acetato de Prednisolona",
-                "precoBase": 35.0,
+                "precoBase": 35,
                 "registrosAnvisa": [
                     "1542301900011"
                 ]
@@ -773,13 +864,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Prednisolona",
+            "Ster",
+            "Visiopred",
+            "Predoptic",
+            "Oftpred"
+        ],
+        "classeTerapeutica": "Corticosteróides oftalmológicos"
     },
     {
         "id": "med-00019",
         "nome": "Emama",
         "principioAtivo": "Acetato de Racealfatocoferol",
-        "descricao": "Vitamina e pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "400 MG CAP MOLE CT BL AL PLAS TRANS X 30 "
         ],
@@ -825,13 +923,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 83.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Racealfatocoferol",
+            "Vitamina e",
+            "Teutovit e",
+            "Vita e",
+            "Ephynal",
+            "Vitamin e"
+        ],
+        "classeTerapeutica": "Vitamina e pura"
     },
     {
         "id": "med-00020",
         "nome": "Ad-vitam",
         "principioAtivo": "Acetato de Retinol;colecalciferol",
-        "descricao": "Associações vitaminas a com d",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "(50000 + 10000) UI/ML SOL OR CT FR GOT PLAS AMB X 20 ML"
         ],
@@ -850,13 +956,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetato de Retinol",
+            "colecalciferol",
+            "Ad-til"
+        ],
+        "classeTerapeutica": "Associações vitaminas a com d"
     },
     {
         "id": "med-00021",
         "nome": "Fluimucil",
         "principioAtivo": "Acetilcisteína",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "100 MG/ML SOL INJ CT 5 AMP VD AMB X 3 ML",
             "11,50 MG/ML SOL NAS CT FR VD AMB X 20 ML + MICRONEBULIZADOR",
@@ -955,13 +1066,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Cisteil",
+            "Bromuc",
+            "Aires",
+            "Flucistein"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00022",
         "nome": "Nasacort",
         "principioAtivo": "Acetonida de Triancinolona",
-        "descricao": "Corticosteróides nasais sem antiinfecciosos",
+        "descricao": "Corticoide de uso nasal. Usado para rinite alérgica e congestão persistente.",
         "apresentacoes": [
             "550 MCG/ML SUS NAS CT FR PLAS OPC SPRAY X 16,5 ML"
         ],
@@ -978,13 +1095,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 105.96,
-        "sinonimias": []
+        "sinonimias": [
+            "Triancinolona",
+            "Allenasal"
+        ],
+        "classeTerapeutica": "Corticosteróides nasais sem antiinfecciosos"
     },
     {
         "id": "med-00023",
         "nome": "Zovirax",
         "principioAtivo": "Aciclovir",
-        "descricao": "Antivirais para herpes",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "200 MG COM CT BL AL/PAP PLAS PVC /PVDC OPC X 25",
             "50 MG/G CREM DERM CT BG AL X 10 G"
@@ -1116,13 +1237,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 75.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Acivirax",
+            "Ezopen",
+            "Hervirax",
+            "Antivirax",
+            "Aciclor"
+        ],
+        "classeTerapeutica": "Antivirais para herpes"
     },
     {
         "id": "med-00024",
         "nome": "Dormec",
         "principioAtivo": "Acido Acetilsalicilico",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "100 MG COM CT 50 STR X 10"
         ],
@@ -1144,13 +1272,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.22,
-        "sinonimias": []
+        "sinonimias": [
+            "aspirina",
+            "aas",
+            "melhoral",
+            "Acetilsalicilico"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00025",
         "nome": "Neotigason",
         "principioAtivo": "Acitretina",
-        "descricao": "Antipsoríase sistêmicos",
+        "descricao": "Usado no tratamento da psoríase.",
         "apresentacoes": [
             "10 MG CAP DURA CT BL AL PLAS AMB X 100",
             "10 MG CAP DURA CT BL AL PLAS AMB X 30",
@@ -1174,13 +1308,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 274.74,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Antipsoríase sistêmicos"
     },
     {
         "id": "med-00026",
         "nome": "Tepemen",
         "principioAtivo": "Actaea Racemosa l.",
-        "descricao": "Outros ginecológicos",
+        "descricao": "Medicamento da classe \"Outros ginecológicos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "80 MG CAP GEL DURA CT BL AL PLAS INC X 30"
         ],
@@ -1207,13 +1342,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 103.13,
-        "sinonimias": []
+        "sinonimias": [
+            "Aplause",
+            "Clifemin"
+        ],
+        "classeTerapeutica": "Outros ginecológicos"
     },
     {
         "id": "med-00027",
         "nome": "Hyrimoz",
         "principioAtivo": "Adalimumabe",
-        "descricao": "Produtos anti-tnf( fator de necrose tumoral)",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "40 MG SOL INJ CT 2 CANETA PREENCH X 0,4 ML",
             "40 MG SOL INJ CT 2 CANETA PREENCH X 0,8ML",
@@ -1301,13 +1440,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16300.3,
-        "sinonimias": []
+        "sinonimias": [
+            "Amgevita",
+            "Yuflyma",
+            "Atenfe",
+            "Hadlima",
+            "Hulio",
+            "Idacio"
+        ],
+        "classeTerapeutica": "Produtos anti-tnf( fator de necrose tumoral)"
     },
     {
         "id": "med-00028",
         "nome": "Differin",
         "principioAtivo": "Adapaleno",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "3 MG/G GEL DERM CT BG PLAS LAM X 30 G"
         ],
@@ -1348,13 +1495,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 130.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Belpele",
+            "Adacne",
+            "Deriva Micro"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00029",
         "nome": "Adacne Clin",
         "principioAtivo": "Adapaleno;fosfato de Clindamicina",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "1 MG/G + 10 MG/G GEL DERM CT BG AL REV PLAS X 45 G"
         ],
@@ -1371,13 +1523,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 81.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Adapaleno",
+            "fosfato de Clindamicina",
+            "Deriva c Micro"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00030",
         "nome": "Adapaleno + Peróxido de Benzoíla",
         "principioAtivo": "Adapaleno;peroxido de Benzoila",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "(1 + 25) MG/G GEL DERM CT BG AL X 30 G"
         ],
@@ -1396,13 +1553,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 87.38,
-        "sinonimias": []
+        "sinonimias": [
+            "Adapaleno",
+            "peroxido de Benzoila",
+            "Adacne Perox"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00031",
         "nome": "Epiduo",
         "principioAtivo": "Adapaleno;peróxido de Benzoíla",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "(3 + 25) MG/G GEL DERM CT FR PLAS PP/PEAD/PEMBD OPC X 45 G",
             "1MG/G + 25MG/G GEL TOP CT BG AL/PLAS OPC X 30G"
@@ -1424,13 +1586,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 144.27,
-        "sinonimias": []
+        "sinonimias": [
+            "Adapaleno",
+            "peróxido de Benzoíla",
+            "Adazo"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00032",
         "nome": "Varivax",
         "principioAtivo": "Aesculus Hippocastanum l.",
-        "descricao": "Vasoprotetores sistêmicos",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS TRANS X 30",
             "300 MG COM REV CX BL AL PLAS TRANS X 30"
@@ -1486,13 +1653,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 116.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Varicaps ah",
+            "Castanha da India Globo",
+            "Proctocaps",
+            "Castanha da Índia ec",
+            "Castanha da Índia",
+            "Variless Bionatus"
+        ],
+        "classeTerapeutica": "Vasoprotetores sistêmicos"
     },
     {
         "id": "med-00033",
         "nome": "Pavblu",
         "principioAtivo": "Aflibercepte",
-        "descricao": "Produtos antineovascularização ocular",
+        "descricao": "Injeção no olho para doenças da retina, como a degeneração macular.",
         "apresentacoes": [
             "40 MG/ML SOL INJ IVIT CT FA VD TRANS X 0,278 ML"
         ],
@@ -1510,13 +1685,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 7643.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Eylia"
+        ],
+        "classeTerapeutica": "Produtos antineovascularização ocular"
     },
     {
         "id": "med-00034",
         "nome": "Valdoxan",
         "principioAtivo": "Agomelatina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "25 MG COM REV CT BL AL PLAS PVC TRANS X 14",
             "25 MG COM REV CT BL AL PLAS PVC TRANS X 28",
@@ -1564,13 +1742,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 155.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Elencos",
+            "Agoxom"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00035",
         "nome": "Monozol",
         "principioAtivo": "Albendazol",
-        "descricao": "Anti-helmínticos exceto esquistossomicidas (p1c)",
+        "descricao": "Usado para eliminar vermes ou parasitas intestinais.",
         "apresentacoes": [
             "400 MG COM MAST CT BL AL PLAS OPC X 1"
         ],
@@ -1664,13 +1846,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 18.53,
-        "sinonimias": []
+        "sinonimias": [
+            "Elfi",
+            "Benzol",
+            "Albendazol 40 Mg/ml Suspensão Oral",
+            "Albel",
+            "Albentel"
+        ],
+        "classeTerapeutica": "Anti-helmínticos exceto esquistossomicidas (p1c)"
     },
     {
         "id": "med-00036",
         "nome": "Alendronato de Sodio",
         "principioAtivo": "Alendronato de Sódio",
-        "descricao": "Bisfosfonatos para osteoporose e alterações relacionadas",
+        "descricao": "Fortalece os ossos e reduz o risco de fraturas na osteoporose.",
         "apresentacoes": [
             "70 MG COM CT BL AL/AL X 4"
         ],
@@ -1698,13 +1887,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 181.23,
-        "sinonimias": []
+        "sinonimias": [
+            "fosamax",
+            "Sódio",
+            "Endrostan"
+        ],
+        "classeTerapeutica": "Bisfosfonatos para osteoporose e alterações relacionadas"
     },
     {
         "id": "med-00037",
         "nome": "Ledar",
         "principioAtivo": "Alendronato de Sódio Tri-hidratado",
-        "descricao": "Bisfosfonatos para osteoporose e alterações relacionadas",
+        "descricao": "Fortalece os ossos e reduz o risco de fraturas na osteoporose.",
         "apresentacoes": [
             "70 MG COM CT BL AL/AL X 4"
         ],
@@ -1764,13 +1958,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 194.52,
-        "sinonimias": []
+        "sinonimias": [
+            "fosamax",
+            "Tri-hidratado",
+            "Alendronato de Sódio",
+            "Ostrazil",
+            "Endrostan",
+            "Osteofar",
+            "Osteoform"
+        ],
+        "classeTerapeutica": "Bisfosfonatos para osteoporose e alterações relacionadas"
     },
     {
         "id": "med-00038",
         "nome": "Eprex",
         "principioAtivo": "Alfaepoetina",
-        "descricao": "Eritropoietínas",
+        "descricao": "Estimula a produção de glóbulos vermelhos. Usado para anemia (por exemplo, na doença renal).",
         "apresentacoes": [
             "10000 UI SOL INJ CT 6 SER PREENCHIDA X 1,0 ML + 1 DISPOSITIVO",
             "4000 UI SOL INJ CT 6 SER PREENCHIDA X 0,4 ML + 1 DISPOSITIVO",
@@ -1850,13 +2053,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1509.32,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemax Eritron",
+            "Eritromax"
+        ],
+        "classeTerapeutica": "Eritropoietínas"
     },
     {
         "id": "med-00039",
         "nome": "Avicis",
         "principioAtivo": "Alfaestradiol",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "0,25 MG/ML SOL CAPI CT FR PLAS OPC X 100 ML + APLIC"
         ],
@@ -1880,14 +2087,17 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 249.0,
-        "sinonimias": []
+        "precoReferencia": 249,
+        "sinonimias": [
+            "Alozex"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00040",
         "nome": "Zyloric",
         "principioAtivo": "Alopurinol",
-        "descricao": "Antigotosos",
+        "descricao": "Usado para tratar ou prevenir crises de gota (ácido úrico alto).",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS PVC TRANS X 30 ",
             "300 MG COM CT BL AL PLAS PVC TRANS X 30 "
@@ -1917,13 +2127,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.45,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Antigotosos"
     },
     {
         "id": "med-00041",
         "nome": "Frontal",
         "principioAtivo": "Alprazolam",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "0,25 MG COM CT BL AL PLAS TRANS X 30",
             "0,5 MG COM  LIB PROL CT BL AL/AL X 30",
@@ -2019,13 +2230,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.91,
-        "sinonimias": []
+        "sinonimias": [
+            "xanax",
+            "Apraz",
+            "Tranquinal",
+            "Tranquinal Slg"
+        ],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00042",
         "nome": "Nemoxil",
         "principioAtivo": "Amoxicilina",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "50 MG/ML PO SUS OR CT FR VD AMB X 150 ML",
             "500 MG CAP GEL DURA CT BL AL PLAS INC X 21"
@@ -2068,13 +2285,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.32,
-        "sinonimias": []
+        "sinonimias": [
+            "amoxil",
+            "novocilin",
+            "Apluc"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00043",
         "nome": "Clavulin",
         "principioAtivo": "Amoxicilina Tri-hidratada",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "(80 + 11,4) MG/ML PO SUS OR CT FR VD TRANS X 140 ML + SER DOS"
         ],
@@ -2158,13 +2380,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 428.67,
-        "sinonimias": []
+        "sinonimias": [
+            "amoxil",
+            "novocilin",
+            "Amoxicilina",
+            "Apluc",
+            "Ocylin",
+            "Sinot",
+            "Polimoxil",
+            "Velamox bd"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00044",
         "nome": "Amoxil",
         "principioAtivo": "Amoxicilina Trihidratada",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "100 MG/ML PO SUS OR CT FR VD TRANS X 150ML + COL",
             "50 MG/ML PO SUS OR CT FR VD TRANS X 150ML + COL",
@@ -2234,13 +2466,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 99.12,
-        "sinonimias": []
+        "sinonimias": [
+            "novocilin",
+            "Amoxicilina",
+            "Velamox",
+            "Amoxicilina Tri-hidratada"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00045",
         "nome": "Clavulin",
         "principioAtivo": "Amoxicilina Trihidratada;clavulanato de Potássio",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "(500 + 125) MG COM REV CT ENVOL BL AL PLAS PVC/PVDC TRANS X 30",
             "(875+ 125) MG COM REV CT ENVOL BL AL PLAS PVC/PVDC TRANS X 20"
@@ -2252,7 +2490,7 @@ const BANCO_MEDICAMENTOS = [
         "genericos": [
             {
                 "nome": "Amoxicilina + Clavulanato de Potássio",
-                "precoBase": 77.0,
+                "precoBase": 77,
                 "registrosAnvisa": [
                     "1004310040041",
                     "1006811680104",
@@ -2293,13 +2531,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 465.42,
-        "sinonimias": []
+        "sinonimias": [
+            "amoxil",
+            "novocilin",
+            "Amoxicilina Trihidratada",
+            "clavulanato de Potássio",
+            "Amoxicilina + Clavulanato de Potássio",
+            "Novamox"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00046",
         "nome": "Policlavumoxil bd",
         "principioAtivo": "Amoxicilina;clavulanato de Potássio",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "(80 + 11,4) MG/ML PÓ SUS OR CT FR PLAS OPC X 70 ML + SER DOS + COP",
             "875 MG + 125 MG COM REV CT BL AL/ AL X 20"
@@ -2355,13 +2601,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 137.15,
-        "sinonimias": []
+        "sinonimias": [
+            "amoxil",
+            "novocilin",
+            "Amoxicilina",
+            "clavulanato de Potássio",
+            "Amoxicilina + Clavulanato de Potássio",
+            "Policlavumoxil",
+            "Lânico",
+            "Amoxicilina Triidratada + Clavulanato de Potássio"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00047",
         "nome": "Ampicilab",
         "principioAtivo": "Ampicilina",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG CAP DURA CT BL AL PLAS OPC X 10"
         ],
@@ -2386,13 +2642,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.89,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00048",
         "nome": "Amplacilina",
         "principioAtivo": "Ampicilina Anidra",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG CAP GEL DURA CT BL AL PLAS INC X 12"
         ],
@@ -2410,13 +2667,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 40.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Ampicilina"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00049",
         "nome": "Ampicilina Sódica",
         "principioAtivo": "Ampicilina Sódica",
-        "descricao": "Penicilinas injetaveis de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1 G PO SOL INJ IV/IM CT 50 FA VD TRANS"
         ],
@@ -2439,13 +2699,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 767.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Ampicilina",
+            "Cilinon"
+        ],
+        "classeTerapeutica": "Penicilinas injetaveis de amplo espectro"
     },
     {
         "id": "med-00050",
         "nome": "Arimidex",
         "principioAtivo": "Anastrozol",
-        "descricao": "Citostáticos inibidores da aromatase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "1 MG COM REV CT BL AL PLAS PVC TRANS X 28"
         ],
@@ -2509,13 +2773,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1526.63,
-        "sinonimias": []
+        "sinonimias": [
+            "Arothazy",
+            "Arazabi",
+            "Anya",
+            "Cermaz",
+            "Anastrolibbs"
+        ],
+        "classeTerapeutica": "Citostáticos inibidores da aromatase"
     },
     {
         "id": "med-00051",
         "nome": "Tericin at",
         "principioAtivo": "Anfotericina B;cloridrato de Tetraciclina",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "25 MG/G + 12,5 MG/G CREM VAG CT BG AL X 40 G + 10 APLIC",
             "25 MG/G + 12,5 MG/G CREM VAG CT BG AL X 45 G + 10 APLIC",
@@ -2540,13 +2811,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Anfotericina B",
+            "cloridrato de Tetraciclina",
+            "Novasutin"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00052",
         "nome": "Ecalta",
         "principioAtivo": "Anidulafungina",
-        "descricao": "Agentes sistêmicos para infecções fúngicas",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "100 MG PO LIOF SOL INJ CT 1 FA VD TRANS"
         ],
@@ -2563,13 +2839,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 909.26,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Agentes sistêmicos para infecções fúngicas"
     },
     {
         "id": "med-00053",
         "nome": "Eliquis",
         "principioAtivo": "Apixabana",
-        "descricao": "Inibidores diretos do fator xa",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "2,5 MG COM REV CT BL AL PLAS TRANS X 20",
             "2,5 MG COM REV CT BL AL PLAS TRANS X 60",
@@ -2724,13 +3001,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 145.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Ixobam",
+            "Hallis",
+            "Ixabi",
+            "Eknus",
+            "Picbam"
+        ],
+        "classeTerapeutica": "Inibidores diretos do fator xa"
     },
     {
         "id": "med-00054",
         "nome": "Kavium Odt",
         "principioAtivo": "Aripiprazol",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "10 MG COM ORODISP CT BL AL AL X 30",
             "15 MG COM ORODISP CT BL AL AL X 30",
@@ -2889,13 +3173,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 825.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Hedd",
+            "Harip",
+            "Arpejo",
+            "Sensaz",
+            "Aquarela"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00055",
         "nome": "Targifor",
         "principioAtivo": "Aspartato de Arginina",
-        "descricao": "Outros produtos para o aparelho digestório e metabolismo",
+        "descricao": "Medicamento da classe \"Outros produtos para o aparelho digestório e metabolismo\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "1500 MG COM EFEV CT STR AL/AL X 32"
         ],
@@ -2912,13 +3203,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 100.18,
-        "sinonimias": []
+        "sinonimias": [
+            "Arginina",
+            "Reforgan"
+        ],
+        "classeTerapeutica": "Outros produtos para o aparelho digestório e metabolismo"
     },
     {
         "id": "med-00056",
         "nome": "Targifor c",
         "principioAtivo": "Aspartato de Arginina;ácido Ascórbico",
-        "descricao": "Todos os outros tônicos",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "1 G + 1 G COM EFEV CT TB PLAS PP OPC X 16 ",
             "500MG + 500MG COM REV CT FR PLAS PET TRANS X 30 ",
@@ -2940,13 +3235,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Aspartato de Arginina",
+            "ácido Ascórbico",
+            "Aspargil c"
+        ],
+        "classeTerapeutica": "Todos os outros tônicos"
     },
     {
         "id": "med-00057",
         "nome": "Angipress",
         "principioAtivo": "Atenolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "25 MG COM CT BL AL PLAS TRANS X 28 ",
             "25 MG COM CT BL AL PLAS TRANS X 30",
@@ -3058,13 +3358,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 38.47,
-        "sinonimias": []
+        "sinonimias": [
+            "atenol",
+            "ablok",
+            "Atenopress",
+            "Atenolab",
+            "Tenolon",
+            "Telol"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00058",
         "nome": "Citalor",
         "principioAtivo": "Atorvastatina Cálcica",
-        "descricao": "Estatinas, inibidores da redutase hmg-coa",
+        "descricao": "Reduz o colesterol no sangue, diminuindo o risco de infarto e AVC.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL/AL X 30",
             "20 MG COM REV CT BL AL/AL X 30",
@@ -3188,13 +3496,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 167.19,
-        "sinonimias": []
+        "sinonimias": [
+            "lipitor",
+            "Atorvastatina",
+            "Ateroma",
+            "Vast",
+            "Torvilip",
+            "Lipistat"
+        ],
+        "classeTerapeutica": "Estatinas, inibidores da redutase hmg-coa"
     },
     {
         "id": "med-00059",
         "nome": "Elixir Cólico",
         "principioAtivo": "Atropa Belladonna",
-        "descricao": "Antiespasmódicos e anticolinérgicos puros",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "0,2 ML/ML ELX CT FR PLAS OPC GOT X 30 ML"
         ],
@@ -3212,13 +3528,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 13.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Belladonna",
+            "Colegórico"
+        ],
+        "classeTerapeutica": "Antiespasmódicos e anticolinérgicos puros"
     },
     {
         "id": "med-00060",
         "nome": "Aura",
         "principioAtivo": "Axetilcefuroxima",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM CT BL AL/AL X 10 ",
             "500 MG COM CT BL AL/AL X 14",
@@ -3281,13 +3601,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 231.27,
-        "sinonimias": []
+        "sinonimias": [
+            "Mefex",
+            "Totacef"
+        ],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00061",
         "nome": "Imuran",
         "principioAtivo": "Azatioprina",
-        "descricao": "Outros imunossupressores",
+        "descricao": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes.",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS BR OPC X 100",
             "50 MG COM REV CT BL AL PLAS BR OPC X 50"
@@ -3306,13 +3630,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 303.66,
-        "sinonimias": []
+        "sinonimias": [
+            "Imussuprex"
+        ],
+        "classeTerapeutica": "Outros imunossupressores"
     },
     {
         "id": "med-00062",
         "nome": "Azitromicina Monoidratada",
         "principioAtivo": "Azitromicina",
-        "descricao": "Macrolideos e similares",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500MG PO LIOF SOL INFUS CX 10 FA VD TRANS"
         ],
@@ -3369,13 +3696,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2184.52,
-        "sinonimias": []
+        "sinonimias": [
+            "zitromax",
+            "azi",
+            "Azitromicina Di-hidratada",
+            "Elim",
+            "Azinostil"
+        ],
+        "classeTerapeutica": "Macrolideos e similares"
     },
     {
         "id": "med-00063",
         "nome": "Zitromax",
         "principioAtivo": "Azitromicina Di-hidratada",
-        "descricao": "Macrolideos e similares",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS TRANS X 2",
             "500 MG COM REV CT BL AL PLAS TRANS X 3",
@@ -3502,13 +3836,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.76,
-        "sinonimias": []
+        "sinonimias": [
+            "azi",
+            "Di-hidratada",
+            "Azitromicina",
+            "Astro",
+            "Elim",
+            "Azitromicina Diidratada",
+            "Azitromed"
+        ],
+        "classeTerapeutica": "Macrolideos e similares"
     },
     {
         "id": "med-00064",
         "nome": "Lioresal",
         "principioAtivo": "Baclofeno",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS TRANS  X 20"
         ],
@@ -3542,13 +3885,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 61.96,
-        "sinonimias": []
+        "sinonimias": [
+            "Baclofen",
+            "Baclon"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00065",
         "nome": "Milgamma",
         "principioAtivo": "Benfotiamina",
-        "descricao": "Vitamina b1 pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "150 MG  COM REV CT BL AL PLAS PVC/PVDC TRANS X 30 "
         ],
@@ -3593,13 +3940,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 96.68,
-        "sinonimias": []
+        "sinonimias": [
+            "Benfibe",
+            "Ombet",
+            "Novob"
+        ],
+        "classeTerapeutica": "Vitamina b1 pura"
     },
     {
         "id": "med-00066",
         "nome": "Benzetacil",
         "principioAtivo": "Benzilpenicilina Benzatina",
-        "descricao": "Penicilinas de pequeno e médio espectros puras",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "300.000 U/ML SUS INJ IM CT 1 FA VD TRANS X 4 ML",
             "300.000 U/ML SUS INJ IM CX 10 FA VD TRANS X 4 ML (EMB FRAC)",
@@ -3621,13 +3973,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzatina"
+        ],
+        "classeTerapeutica": "Penicilinas de pequeno e médio espectros puras"
     },
     {
         "id": "med-00067",
         "nome": "Megapen",
         "principioAtivo": "Benzilpenicilina Potássica",
-        "descricao": "Penicilinas de pequeno e médio espectros puras",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "5.400.000 UI PO SOL INJ IV/IM CT 50 FA VD TRANS",
             "550.000 UI PO SOL INJ IV/IM CT 50 FA VD TRANS"
@@ -3646,13 +4001,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 800.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzilpenicilina",
+            "Aricilina"
+        ],
+        "classeTerapeutica": "Penicilinas de pequeno e médio espectros puras"
     },
     {
         "id": "med-00068",
         "nome": "Nesina",
         "principioAtivo": "Benzoato de Alogliptina",
-        "descricao": "Antidiabéticos inibidores dpp-iv  puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "12,5 MG COM REV CT BL AL  AL X 30",
             "25MG COM REV CT BL AL  AL X 10 ",
@@ -3696,13 +4055,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 108.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Alogliptina",
+            "Libette"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores dpp-iv  puros"
     },
     {
         "id": "med-00069",
         "nome": "Benzoderm",
         "principioAtivo": "Benzoato de Benzila",
-        "descricao": "Ectoparasiticidas incluindo escabicidas",
+        "descricao": "Usado no tratamento de sarna (escabiose) e piolho.",
         "apresentacoes": [
             "0,25 G/ML EMU TOP CT FR PET AMB X 100 ML ",
             "100 MG/G SAB CT FIL PP X 60 G"
@@ -3722,13 +4085,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzila",
+            "Escab-ifal"
+        ],
+        "classeTerapeutica": "Ectoparasiticidas incluindo escabicidas"
     },
     {
         "id": "med-00070",
         "nome": "Maxalt",
         "principioAtivo": "Benzoato de Rizatriptana",
-        "descricao": "Antienxaquecosos triptânicos",
+        "descricao": "Usado para tratar ou prevenir crises de enxaqueca.",
         "apresentacoes": [
             "10 MG COM CT BL AL AL X 2",
             "10 MG COM CT BL AL AL X 6"
@@ -3775,13 +4142,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 38.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Rizatriptana",
+            "Enriza",
+            "Aurom",
+            "Zyptan"
+        ],
+        "classeTerapeutica": "Antienxaquecosos triptânicos"
     },
     {
         "id": "med-00071",
         "nome": "Expec",
         "principioAtivo": "Benzoato de Sódio;cloridrato de Oxomemazina;iodeto de Potássio;guaifenesina",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "(0,4 + 20 + 4 + 6) MG/ML XPE CT FR VD AMB X 120 ML "
         ],
@@ -3826,13 +4199,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzoato de Sódio",
+            "cloridrato de Oxomemazina",
+            "iodeto de Potássio",
+            "guaifenesina",
+            "Benexpec",
+            "Multitosse",
+            "Tossexpec",
+            "Cloridrato de Oxomemazina + Iodeto de Potássio + Benzoato de Sódio + Guaifenesina",
+            "Secrelise"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00072",
         "nome": "Resfegarganta",
         "principioAtivo": "Benzocaína;cloreto de Cetilpiridínio",
-        "descricao": "Preparações para garganta",
+        "descricao": "Alívio local para dor de garganta e irritação na boca.",
         "apresentacoes": [
             "(0,5 + 4,0) MG/ML SOL SPR OR CT FR SPR VD AMB X 50 ML"
         ],
@@ -3865,13 +4249,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzocaína",
+            "cloreto de Cetilpiridínio",
+            "Neopiridin",
+            "Sanilin",
+            "Desaftaliv"
+        ],
+        "classeTerapeutica": "Preparações para garganta"
     },
     {
         "id": "med-00073",
         "nome": "Flagimax",
         "principioAtivo": "Benzoilmetronidazol",
-        "descricao": "Amebicidas",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "40 MG/ML SUS OR CT 50 FR PLAS AMB X 100 ML + 50 COP MED ",
             "40 MG/ML SUS OR CT FR PLAS AMB X 100 ML + COP MED "
@@ -3892,13 +4283,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.99,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Amebicidas"
     },
     {
         "id": "med-00074",
         "nome": "Norvasc",
         "principioAtivo": "Besilato de Anlodipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS PVC OPC X 30",
             "10 MG COM CT BL AL PLAS PVC OPC X 60",
@@ -4030,13 +4422,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 71.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Anlodipino",
+            "Amlovasc",
+            "Amlodil",
+            "Roxflan",
+            "Cordarex",
+            "Pressat"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00075",
         "nome": "Betalor",
         "principioAtivo": "Besilato de Anlodipino;atenolol",
-        "descricao": "Antagonistas do cálcio associados a betabloqueadores",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "5 MG  + 25 MG CAP DURA CT BL AL PLAS TRANS X 7",
             "5 MG + 25 MG CAP DURA CT BL AL PLAS TRANS X 30",
@@ -4068,13 +4468,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Besilato de Anlodipino",
+            "atenolol",
+            "Besilato de Anlodipino+atenolol"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio associados a betabloqueadores"
     },
     {
         "id": "med-00076",
         "nome": "Olmecor Triplo",
         "principioAtivo": "Besilato de Anlodipino;hidroclorotiazida;olmesartana Medoxomila",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "(20 + 5 + 12,5) MG COM REV CT BL AL/AL X 10",
             "(20 + 5 + 12,5) MG COM REV CT BL AL/AL X 30",
@@ -4107,13 +4512,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 55.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Besilato de Anlodipino",
+            "hidroclorotiazida",
+            "olmesartana Medoxomila",
+            "Benicar Triplo"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00077",
         "nome": "Branta",
         "principioAtivo": "Besilato de Anlodipino;losartana Potássica",
-        "descricao": "Antagonistas da angiotensina ii associados a antagonistas do cálcio",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "(50,0 + 5,0) MG COM REV CT BL AL/AL X 30"
         ],
@@ -4156,13 +4567,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 183.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Besilato de Anlodipino",
+            "losartana Potássica",
+            "Lotar",
+            "Besilato de Anlodipino + Losartana Potássica"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antagonistas do cálcio"
     },
     {
         "id": "med-00078",
         "nome": "Benicaranlo",
         "principioAtivo": "Besilato de Anlodipino;olmesartana Medoxomila",
-        "descricao": "Antagonistas da angiotensina ii associados a antagonistas do cálcio",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "20 MG + 5 MG COM REV CT BL AL/AL X 30",
             "20 MG + 5 MG COM REV CT BL AL/AL X 7 ",
@@ -4249,13 +4666,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Besilato de Anlodipino",
+            "olmesartana Medoxomila",
+            "Olmesartana Medoxomila+besilato de Anlodipino",
+            "Olmy Anlo",
+            "Olzicar Anlo",
+            "Olmetecanlo",
+            "Olmesartana Medoxomila + Besilato de Anlodipino"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antagonistas do cálcio"
     },
     {
         "id": "med-00079",
         "nome": "Diovan Amlo Fix",
         "principioAtivo": "Besilato de Anlodipino;valsartana",
-        "descricao": "Antagonistas da angiotensina ii associados a antagonistas do cálcio",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "(160,00+10,00) MG COM REV CT BL AL AL X 28",
             "(160,00+5,00) MG COM REV CT BL AL AL X 14 ",
@@ -4325,13 +4751,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 89.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Besilato de Anlodipino",
+            "valsartana",
+            "Bravan Duo",
+            "Brasart Bcc",
+            "Valsartana + Anlodipino",
+            "Cosartan Alp"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antagonistas do cálcio"
     },
     {
         "id": "med-00080",
         "nome": "Novanlo",
         "principioAtivo": "Besilato de Levanlodipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "2,5 MG COM CT BL AL PLAS PVC/PVDC AMB X 20 ",
             "2,5 MG COM CT BL AL PLAS PVC/PVDC AMB X 30",
@@ -4398,13 +4832,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Levanlodipino",
+            "Atelop",
+            "Lefor",
+            "Cor-select"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00081",
         "nome": "Besilato de Levanlodipino",
         "principioAtivo": "Besilato de Levanlodipino Hemipentaidratado",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "2,5 MG COM CT BL AL PLAS PVC/PE/PVDC OPC X 30",
             "2,5 MG COM CT BL AL PLAS PVC/PE/PVDC OPC X 60",
@@ -4457,13 +4897,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemipentaidratado",
+            "Levamz",
+            "Persur"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00082",
         "nome": "Avonex",
         "principioAtivo": "Betainterferona 1a",
-        "descricao": "Produtos para esclerose múltipla",
+        "descricao": "Usado para reduzir surtos e a progressão da esclerose múltipla.",
         "apresentacoes": [
             "60 MCG/ML SOL INJ CT 4 CT C/ SER PREENCH X 0,5 ML EM APLIC + AGU + CAPA PROTETORA P/ DESCARTE"
         ],
@@ -4481,13 +4926,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 11228.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Rebif"
+        ],
+        "classeTerapeutica": "Produtos para esclerose múltipla"
     },
     {
         "id": "med-00083",
         "nome": "Celestone",
         "principioAtivo": "Betametasona",
-        "descricao": "Corticosteróides orais puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "0,1 MG/ML ELX  CT FR VD AMB X 120 ML",
             "0,5 MG COM CT BL AL PLAS TRANS X 20",
@@ -4516,13 +4964,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.89,
-        "sinonimias": []
+        "sinonimias": [
+            "diprospan",
+            "Koide"
+        ],
+        "classeTerapeutica": "Corticosteróides orais puros"
     },
     {
         "id": "med-00084",
         "nome": "Celestamine",
         "principioAtivo": "Betametasona;maleato de Dexclorfeniramina",
-        "descricao": "Associações de corticosteróides sistêmicos",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "(0,05 + 0,4) MG/ML XPE CT FR PLAS PET AMB X 120 ML + DOSAD",
             "(0,25 + 2) MG COM CT BL AL PLAS PVC TRANS X 10 ",
@@ -4604,13 +5056,25 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.58,
-        "sinonimias": []
+        "sinonimias": [
+            "diprospan",
+            "celestone",
+            "Betametasona",
+            "maleato de Dexclorfeniramina",
+            "Maleato de Dexclorfeniramina + Betametasona",
+            "Lofernim Beta",
+            "Celergin",
+            "Celerg",
+            "Celestrat",
+            "Dextamine"
+        ],
+        "classeTerapeutica": "Associações de corticosteróides sistêmicos"
     },
     {
         "id": "med-00085",
         "nome": "Cedur",
         "principioAtivo": "Bezafibrato",
-        "descricao": "Fibratos",
+        "descricao": "Reduz os triglicérides (e um pouco o colesterol) no sangue.",
         "apresentacoes": [
             "400 MG COM REV LIB PROL CT BL AL PLAS TRANS X 30"
         ],
@@ -4630,13 +5094,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 208.39,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Fibratos"
     },
     {
         "id": "med-00086",
         "nome": "Casodex",
         "principioAtivo": "Bicalutamida",
-        "descricao": "Hormônios antiandrogênicos citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS TRANS X 28"
         ],
@@ -4676,13 +5141,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1646.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Bycal",
+            "Bycal 150"
+        ],
+        "classeTerapeutica": "Hormônios antiandrogênicos citostáticos"
     },
     {
         "id": "med-00087",
         "nome": "Alektos Ped",
         "principioAtivo": "Bilastina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "2,5 MG/ML SOL OR CT FR VD AMB X 120 ML + COP",
             "2,5 MG/ML SOL OR CT FR VD AMB X 30 ML + COP"
@@ -4762,13 +5231,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.56,
-        "sinonimias": []
+        "sinonimias": [
+            "Bixlyn 10",
+            "Hisbila",
+            "Tynna",
+            "Alektos",
+            "Bixlyn"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00088",
         "nome": "Latisse",
         "principioAtivo": "Bimatoprosta",
-        "descricao": "Outros produtos oftalmológico tópicos",
+        "descricao": "Medicamento de uso nos olhos (colírio ou pomada oftálmica).",
         "apresentacoes": [
             "0,3 MG/ML SOL TOP 1 FR PLAS OPC GOT X 5 ML + 10 BAND 10 APLIC ESTÉRIL + CX "
         ],
@@ -4843,13 +5319,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 291.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Ocubin",
+            "Bimaprost",
+            "Glaucur",
+            "Glamigan",
+            "Visan"
+        ],
+        "classeTerapeutica": "Outros produtos oftalmológico tópicos"
     },
     {
         "id": "med-00089",
         "nome": "Kerabio",
         "principioAtivo": "Biotina",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "2,5 MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 30",
             "2,5 MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 90"
@@ -4870,13 +5353,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 319.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Untral"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00090",
         "nome": "Dulcolax",
         "principioAtivo": "Bisacodil",
-        "descricao": "Laxantes estimulantes",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "5 MG COM REV LIB RETARD  CT BL AL PLAS TRANS  X 20 "
         ],
@@ -4894,7 +5380,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Plesonax",
-                "precoBase": 11.0,
+                "precoBase": 11,
                 "registrosAnvisa": [
                     "1558401920010",
                     "1558401920053"
@@ -4918,13 +5404,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.47,
-        "sinonimias": []
+        "sinonimias": [
+            "lacto-purga",
+            "Bisalax",
+            "Plesonax",
+            "Ducodil",
+            "Lacto Purga"
+        ],
+        "classeTerapeutica": "Laxantes estimulantes"
     },
     {
         "id": "med-00091",
         "nome": "Plavix",
         "principioAtivo": "Bissulfato de Clopidogrel",
-        "descricao": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "75 MG COM REV CT BL AL/AL X 28"
         ],
@@ -5001,13 +5494,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 482.91,
-        "sinonimias": []
+        "sinonimias": [
+            "Clopidogrel",
+            "Plaq",
+            "Plagrel",
+            "Plavineo",
+            "Clopin",
+            "Cuore"
+        ],
+        "classeTerapeutica": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato"
     },
     {
         "id": "med-00092",
         "nome": "Gamaline v",
         "principioAtivo": "Borago Officinalis l.",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "900 MG CAP MOLE CT BL AL PLAS PVDC TRANS X 15",
             "900 MG CAP MOLE CT BL AL PLAS PVDC TRANS X 30"
@@ -5027,13 +5528,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 122.19,
-        "sinonimias": []
+        "sinonimias": [
+            "Gamax"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00093",
         "nome": "Bospulmo",
         "principioAtivo": "Bosentana Monoidratada",
-        "descricao": "Produtos hipertensão arterial pulmonar antagonistas receptores de endotelina",
+        "descricao": "Usado para hipertensão nos vasos dos pulmões (hipertensão arterial pulmonar).",
         "apresentacoes": [
             "125 MG COM REV CT BL AL PLAS PVC/PE/PVDC OPC X 60",
             "62,5 MG COM REV CT BL AL PLAS PVC/PE/PVDC OPC X 60"
@@ -5057,13 +5561,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3446.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Bosentana"
+        ],
+        "classeTerapeutica": "Produtos hipertensão arterial pulmonar antagonistas receptores de endotelina"
     },
     {
         "id": "med-00094",
         "nome": "Lexotan",
         "principioAtivo": "Bromazepam",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "3,0 MG COM CT BL AL PLAS TRANS X 30",
             "6,0 MG COM CT BL AL PLAS TRANS X 30"
@@ -5117,13 +5624,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.54,
-        "sinonimias": []
+        "sinonimias": [
+            "Somalium",
+            "Fluxtar"
+        ],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00095",
         "nome": "Atrovent",
         "principioAtivo": "Brometo de Ipratrópio",
-        "descricao": "Antiasmáticos/dpoc anticolinérgicos de curta duração, puros, inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "0,25 MG/ML SOL INAL CT FR VD AMB X 20 ML",
             "20 MCG/DOSE AER DOSIF CT FR AÇO INOX X 10 ML + BOCAL"
@@ -5170,13 +5681,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Ipratrópio",
+            "Brometo de Ipratróprio",
+            "Ipravent"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc anticolinérgicos de curta duração, puros, inalantes"
     },
     {
         "id": "med-00096",
         "nome": "Brometo de Pinavério",
         "principioAtivo": "Brometo de Pinavério",
-        "descricao": "Antiespasmódicos e anticolinérgicos puros",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS OPC X 30",
             "100 MG COM REV CT BL AL PLAS OPC X 60"
@@ -5200,13 +5716,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 118.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Pinavério",
+            "Siilif"
+        ],
+        "classeTerapeutica": "Antiespasmódicos e anticolinérgicos puros"
     },
     {
         "id": "med-00097",
         "nome": "Cipramil",
         "principioAtivo": "Bromidrato de Citalopram",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "20 MG COM REV CT  BL AL PLAS TRANS X 28"
         ],
@@ -5275,13 +5795,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 419.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Citalopram",
+            "Città",
+            "Denyl",
+            "Procimax",
+            "Nypram"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00098",
         "nome": "Enablex",
         "principioAtivo": "Bromidrato de Darifenacina",
-        "descricao": "Produtos para incontinência urinária",
+        "descricao": "Usado para controlar a bexiga hiperativa e a incontinência urinária.",
         "apresentacoes": [
             "15 MG COM REV LIB PROL CT BL AL/AL X 28",
             "7,5 MG COM REV LIB PROL CT BL AL/AL X 28"
@@ -5311,13 +5838,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 368.43,
-        "sinonimias": []
+        "sinonimias": [
+            "Darifenacina",
+            "Fenazic"
+        ],
+        "classeTerapeutica": "Produtos para incontinência urinária"
     },
     {
         "id": "med-00099",
         "nome": "Elatium",
         "principioAtivo": "Bromidrato de Galantamina",
-        "descricao": "Produtos antialzheimer, inibidores da colinesterase",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "16 MG CAP DURA LIB PROL CT BL AL PLAS PVDC/PVC TRANS X 280",
             "16 MG CAP DURA LIB PROL CT BL AL PLAS PVDC/PVC TRANS X 30",
@@ -5463,13 +5994,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 122.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Galantamina",
+            "Coglive",
+            "Regressa",
+            "Cogit",
+            "Gaudy",
+            "Alzynamin"
+        ],
+        "classeTerapeutica": "Produtos antialzheimer, inibidores da colinesterase"
     },
     {
         "id": "med-00100",
         "nome": "Brintellix",
         "principioAtivo": "Bromidrato de Vortioxetina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "10MG COM REV CT BL AL PLAS TRANS X 30",
             "10MG COM REV CT BL AL PLAS TRANS X 60 ",
@@ -5620,13 +6159,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 103.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Vortioxetina",
+            "Vod",
+            "Vorsync",
+            "Efusive",
+            "Vorpro",
+            "Evortia"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00101",
         "nome": "Digesan",
         "principioAtivo": "Bromoprida",
-        "descricao": "Gastroprocinéticos",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "10 MG CAP DURA CT BL AL PLAS TRANS X 20 ",
             "4 MG/ML SOL OR CT FR PLAS OPC GOT X 20 ML"
@@ -5701,13 +6248,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.53,
-        "sinonimias": []
+        "sinonimias": [
+            "plamet",
+            "Balorti",
+            "Movinau",
+            "Digesigma Gotas",
+            "Digevita",
+            "Fágico"
+        ],
+        "classeTerapeutica": "Gastroprocinéticos"
     },
     {
         "id": "med-00102",
         "nome": "Corament",
         "principioAtivo": "Budesonida",
-        "descricao": "Produtos corticoesteroides para alterações intestinais",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "9 MG COM REV LIB MOD CT BL AL AL X 10",
             "9 MG COM REV LIB MOD CT BL AL AL X 30"
@@ -5791,13 +6346,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 329.85,
-        "sinonimias": []
+        "sinonimias": [
+            "busonid",
+            "noex",
+            "Inalide",
+            "Inalajet",
+            "Pulmicort"
+        ],
+        "classeTerapeutica": "Produtos corticoesteroides para alterações intestinais"
     },
     {
         "id": "med-00103",
         "nome": "Vannair",
         "principioAtivo": "Budesonida;fumarato de Formoterol Di-hidratado",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "(6 + 100) MCG SUS AER INAL OR CT ENVOL TB AL X 120 ACION + DISP INAL",
             "(6 + 200) MCG SUS AER INAL OR CT ENVOL TB AL X 120 ACION + DISP INAL"
@@ -5851,13 +6413,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 211.87,
-        "sinonimias": []
+        "sinonimias": [
+            "busonid",
+            "noex",
+            "Budesonida",
+            "fumarato de Formoterol Di-hidratado",
+            "Bronx",
+            "Alenia",
+            "Fumarato de Formoterol Di-hidratado + Budesonida",
+            "Symbicort"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes"
     },
     {
         "id": "med-00104",
         "nome": "Foraseq",
         "principioAtivo": "Budesonida;fumarato de Formoterol Diidratado",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "12 MCG PO ENCAP P/INAL CT BL AL/AL X 60 + 200 MCG PO ENCAP P/INAL CT BL AL PLAS X 60",
             "12 MCG PO ENCAP P/INAL CT BL AL/AL X 60 + 200 MCG PO ENCAP P/INAL CT BL AL PLAS X 60 + INALADOR",
@@ -5883,13 +6455,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 175.19,
-        "sinonimias": []
+        "sinonimias": [
+            "busonid",
+            "noex",
+            "Budesonida",
+            "fumarato de Formoterol Diidratado",
+            "Alenia"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes"
     },
     {
         "id": "med-00105",
         "nome": "Transtec",
         "principioAtivo": "Buprenorfina",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "20 MG ADES TRANSD CT ENV AL/PLAS X 4",
             "30 MG ADES TRANSD CT ENV AL/PLAS X 4",
@@ -5938,13 +6517,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 611.05,
-        "sinonimias": []
+        "sinonimias": [
+            "Lusanda",
+            "Restiva"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00106",
         "nome": "Buscopan",
         "principioAtivo": "Butilbrometo de Escopolamina",
-        "descricao": "Antiespasmódicos e anticolinérgicos puros",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "10 MG DRG CT BL AL PLAS PVC/PVDC OPC X 20",
             "10 MG/ML SOL GOT OR CT FR GOT VD AMB X 20 ML",
@@ -5982,13 +6565,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Escopolamina",
+            "Espaslit Duo",
+            "Buscopan Pediátrico"
+        ],
+        "classeTerapeutica": "Antiespasmódicos e anticolinérgicos puros"
     },
     {
         "id": "med-00107",
         "nome": "Dostinex",
         "principioAtivo": "Cabergolina",
-        "descricao": "Inibidores da prolactina",
+        "descricao": "Reduz a prolactina. Usado em distúrbios hormonais e para inibir a produção de leite.",
         "apresentacoes": [
             "0,5 MG COM CT FR PLAS PEAD OPC X 2",
             "0,5 MG COM CT FR PLAS PEAD OPC X 8"
@@ -6052,13 +6640,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 163.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Caberedux",
+            "Cabertrix",
+            "Bergox"
+        ],
+        "classeTerapeutica": "Inibidores da prolactina"
     },
     {
         "id": "med-00108",
         "nome": "Novalgina Flash",
         "principioAtivo": "Cafeína Anidra;dipirona Monoidratada",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "(1000 + 130) MG COM CT BL AL PLAS PVC/PVDC TRANS X 16",
             "(1000 + 130) MG COM CT BL AL PLAS PVC/PVDC TRANS X 8"
@@ -6085,13 +6678,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25.8,
-        "sinonimias": []
+        "sinonimias": [
+            "dipirona Monoidratada",
+            "Doril dc 500",
+            "Dipirona + Cafeína"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00109",
         "nome": "Doralgina",
         "principioAtivo": "Cafeína Anidra;dipirona Monoidratada;mucato de Isometepteno",
-        "descricao": "Associações de antiespasmódicos com analgésicos",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "(300 + 30 + 30) MG COM REV CT BL AL PLAS PVC/PCTFE TRANS X 100",
             "(300 + 30 + 30) MG COM REV CT BL AL PLAS PVC/PCTFE TRANS X 20",
@@ -6115,13 +6713,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.46,
-        "sinonimias": []
+        "sinonimias": [
+            "dipirona Monoidratada",
+            "mucato de Isometepteno",
+            "Neralgyn"
+        ],
+        "classeTerapeutica": "Associações de antiespasmódicos com analgésicos"
     },
     {
         "id": "med-00110",
         "nome": "Melhoral",
         "principioAtivo": "Cafeína Anidra;ácido Acetilsalicílico",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG  + 30 MG COM REV BL AL PLAS TRANS X 200 (EMB MULT) "
         ],
@@ -6138,13 +6741,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 374.74,
-        "sinonimias": []
+        "sinonimias": [
+            "ácido Acetilsalicílico",
+            "Calmador"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00111",
         "nome": "Migrainex",
         "principioAtivo": "Cafeína Anidra;ácido Acetilsalicílico;paracetamol",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "250 MG + 250 MG + 65 MG COM REV CT BL AL AL X 20"
         ],
@@ -6162,13 +6769,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 62.47,
-        "sinonimias": []
+        "sinonimias": [
+            "ácido Acetilsalicílico",
+            "paracetamol",
+            "Doril Enxaqueca"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00112",
         "nome": "Sigmatriol",
         "principioAtivo": "Calcitriol",
-        "descricao": "Vitamina d pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "0,25 MCG CAP MOLE CT FR VD AMB X 30 ",
             "0,25 MCG CAP MOLE CT FR VD AMB X 90"
@@ -6187,13 +6799,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 200.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Ostriol"
+        ],
+        "classeTerapeutica": "Vitamina d pura"
     },
     {
         "id": "med-00113",
         "nome": "Atacand",
         "principioAtivo": "Candesartana Cilexetila",
-        "descricao": "Antagonistas da angiotensina ii puros",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "16 MG COM CT BL AL PLAS TRANS X 10",
             "16 MG COM CT BL AL PLAS TRANS X 30",
@@ -6271,13 +6886,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 86.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Cilexetila",
+            "Venzer",
+            "Vecande",
+            "Cadenza"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii puros"
     },
     {
         "id": "med-00114",
         "nome": "Xeloda",
         "principioAtivo": "Capecitabina",
-        "descricao": "Agentes antineoplásicos antimetabólitos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "150 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 60",
             "500 MG COM REV CT BL AL  PLAS PVC/PVDC TRANS X 120"
@@ -6325,13 +6946,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 886.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Capzat",
+            "Coama",
+            "Corretal"
+        ],
+        "classeTerapeutica": "Agentes antineoplásicos antimetabólitos"
     },
     {
         "id": "med-00115",
         "nome": "Qutenza",
         "principioAtivo": "Capsaicina",
-        "descricao": "Anestésicos locais tópicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "179 MG ADES DERM CT ENV PAP/PLAS PET/AL/PLAS PAN OPC X 2 + GEL DERM TB PLAS PEAD OPC X 50 G",
             "179 MG ADES DERM CT ENV PAP/PLAS PET/AL/PLAS PAN OPC+ GEL DERM TB PLAS PEAD OPC X 50 G"
@@ -6352,13 +6978,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2128.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Moment"
+        ],
+        "classeTerapeutica": "Anestésicos locais tópicos"
     },
     {
         "id": "med-00116",
         "nome": "Captomido",
         "principioAtivo": "Captopril",
-        "descricao": "Inibidores da eca puros",
+        "descricao": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins.",
         "apresentacoes": [
             "50 MG COM CT BL AL PLAS PVDC TRANS X 30"
         ],
@@ -6469,13 +7098,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.33,
-        "sinonimias": []
+        "sinonimias": [
+            "capoten",
+            "Captolab",
+            "Captocord",
+            "Teusil",
+            "Capox",
+            "Captosen"
+        ],
+        "classeTerapeutica": "Inibidores da eca puros"
     },
     {
         "id": "med-00117",
         "nome": "Tegretol",
         "principioAtivo": "Carbamazepina",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "20 MG/ML SUS OR CT FR VD AMB X 100 ML + SER DOS",
             "200 MG COM CT  BL AL PLAS PVC/PE/PVDC TRANS X 20",
@@ -6535,13 +7172,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Tegrezin",
+            "Tegretard",
+            "Uni-carbamaz"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00118",
         "nome": "Mucbe",
         "principioAtivo": "Carbocisteína",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "20 MG/ML XPE CT FR PLAS OPC X 100 ML + CP MED",
             "50 MG/ML XPE CT FR PLAS OPC X 100 ML + COP"
@@ -6585,13 +7227,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Mucofan"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00119",
         "nome": "Oscal 500",
         "principioAtivo": "Carbonato de Cálcio",
-        "descricao": "Produtos a base de cálcio",
+        "descricao": "Suplemento de cálcio (e às vezes vitamina D) para a saúde dos ossos.",
         "apresentacoes": [
             "500 MG COM REV CT FR PLAS OPC X 60"
         ],
@@ -6630,14 +7275,20 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 114.0,
-        "sinonimias": []
+        "precoReferencia": 114,
+        "sinonimias": [
+            "Cálcio",
+            "Gastrol",
+            "Nesh Cálcio",
+            "Calciofar Plus"
+        ],
+        "classeTerapeutica": "Produtos a base de cálcio"
     },
     {
         "id": "med-00120",
         "nome": "Helleva",
         "principioAtivo": "Carbonato de Lodenafila",
-        "descricao": "Produtos para disfunção erétil, inibidores da pde5",
+        "descricao": "Usado para disfunção erétil.",
         "apresentacoes": [
             "80 MG COM CT BL AL PLAS INC X 20 (EMB FRAC)",
             "80 MG COM CT BL AL PLAS INC X 2 ",
@@ -6663,13 +7314,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Lodenafila",
+            "Pycos"
+        ],
+        "classeTerapeutica": "Produtos para disfunção erétil, inibidores da pde5"
     },
     {
         "id": "med-00121",
         "nome": "Carbolitium",
         "principioAtivo": "Carbonato de Lítio",
-        "descricao": "Estabilizadores do humor",
+        "descricao": "Estabilizador de humor. Usado no transtorno bipolar.",
         "apresentacoes": [
             "300 MG COM REV CT BL AL PLAS PVC TRANS X 15",
             "300 MG COM REV CT BL AL PLAS PVC TRANS X 60 ",
@@ -6743,13 +7398,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Lítio",
+            "Carlit",
+            "Literata",
+            "Bipolit",
+            "Bilyt"
+        ],
+        "classeTerapeutica": "Estabilizadores do humor"
     },
     {
         "id": "med-00122",
         "nome": "Liris",
         "principioAtivo": "Carboximetilcelulose Sódica",
-        "descricao": "Lágrimas artificiais e lubrificantes oftamológicos",
+        "descricao": "Lágrima artificial. Lubrifica e alivia o ressecamento dos olhos.",
         "apresentacoes": [
             "5 MG/ML SOL OFT CT FR GOT PLAS OPC X 10 ML"
         ],
@@ -6766,14 +7428,18 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 48.0,
-        "sinonimias": []
+        "precoReferencia": 48,
+        "sinonimias": [
+            "Carboximetilcelulose",
+            "Lacrifilm"
+        ],
+        "classeTerapeutica": "Lágrimas artificiais e lubrificantes oftamológicos"
     },
     {
         "id": "med-00123",
         "nome": "Mioflex a",
         "principioAtivo": "Carisoprodol;cafeína Anidra;paracetamol;diclofenaco Sódico",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "(125 + 50 + 300 + 30) MG COM CT BL AL PLAS PVC TRANS X 12",
             "(125 + 50 + 300 + 30) MG COM CT BL AL PLAS PVC TRANS X 30"
@@ -6826,13 +7492,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Carisoprodol",
+            "paracetamol",
+            "diclofenaco Sódico",
+            "Beserol",
+            "Trilax",
+            "Torsilax",
+            "Flexalgin",
+            "Tandene"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00124",
         "nome": "Tanderalgin",
         "principioAtivo": "Carisoprodol;diclofenaco de Sódio;paracetamol;cafeína",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "(125,0 + 50,0 + 300,0 + 30,0) MG COM CT BL AL PLAS TRANS X 15 ",
             "(125,0 + 50,0 + 300,0 + 30,0) MG COM CT BL AL PLAS TRANS X 30"
@@ -6861,13 +7537,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.66,
-        "sinonimias": []
+        "sinonimias": [
+            "Carisoprodol",
+            "diclofenaco de Sódio",
+            "paracetamol",
+            "Trimusk",
+            "Carisoprodol + Diclofenaco de Sódio + Paracetamol+ Cafeína"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00125",
         "nome": "Flexalgin",
         "principioAtivo": "Carisoprodol;paracetamol;cafeína;diclofenaco Sódico",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "(300,0 + 125,0 + 50,0 + 30,0) MG COM CT BL AL PLAS TRANS X 100 (EMB FRAC)",
             "(300,0 + 125,0 + 50,0 + 30,0) MG COM CT BL AL PLAS TRANS X 30"
@@ -6936,13 +7619,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Carisoprodol",
+            "paracetamol",
+            "diclofenaco Sódico",
+            "Torflay",
+            "Carisoprodol + Diclofenaco Sódico + Paracetamol + Cafeína",
+            "Paracetamol + Carisoprodol + Diclofenaco Sódico + Cafeína",
+            "Tandriflan",
+            "Infralax",
+            "Beserol"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00126",
         "nome": "Dews",
         "principioAtivo": "Carmelose Sódica",
-        "descricao": "Lágrimas artificiais e lubrificantes oftamológicos",
+        "descricao": "Lágrima artificial. Lubrifica e alivia o ressecamento dos olhos.",
         "apresentacoes": [
             "5 MG/ML SOL OFT CT FR GOT PLAS PEBD OPC X 10 ML",
             "5 MG/ML SOL OFT CT FR GOT PLAS PEBD OPC X 15 ML"
@@ -7001,13 +7695,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Carmelose",
+            "Lacrifilm",
+            "Tearfilm",
+            "Ecofilm",
+            "Acu Fresh",
+            "Lacrilax",
+            "Plenigell"
+        ],
+        "classeTerapeutica": "Lágrimas artificiais e lubrificantes oftamológicos"
     },
     {
         "id": "med-00127",
         "nome": "Cardbet",
         "principioAtivo": "Carvedilol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "12,5 MG COM CT BL AL AL X 30",
             "25 MG COM CT BL AL AL X 30",
@@ -7158,13 +7861,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 118.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Divelol",
+            "Cronocor",
+            "Cardilol",
+            "Nienza",
+            "Carvedilat"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00128",
         "nome": "Ceclor",
         "principioAtivo": "Cefaclor",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "50 MG/ML SUS OR CT FR VD AMB X 100 ML + SER DOS",
             "75 MG/ML SUS OR CT FR VD AMB X 100 ML + SER DOS"
@@ -7184,13 +7894,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 129.39,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00129",
         "nome": "Ceclor",
         "principioAtivo": "Cefaclor Monoidratado",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM REV LIB PROL CT BL AL PVDC X 10",
             "750 MG COM REV LIB PROL CT  BL AL PVDC X 14"
@@ -7210,13 +7921,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 113.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Cefaclor"
+        ],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00130",
         "nome": "Cedroxil",
         "principioAtivo": "Cefadroxila",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG CAP DURA CT BL AL PLAS TRANS X 8"
         ],
@@ -7238,13 +7952,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 78.28,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00131",
         "nome": "Cefalexina Monoidratada",
         "principioAtivo": "Cefalexina",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "50 MG/ML SUS OR CT FR VD AMB X 100 ML + COP"
         ],
@@ -7277,13 +7992,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 39.93,
-        "sinonimias": []
+        "sinonimias": [
+            "keflex",
+            "cefalexina generico",
+            "Lexin"
+        ],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00132",
         "nome": "Keforal",
         "principioAtivo": "Cefalexina Monoidratada",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG CAP DURA CT BL AL PLAS TRANS X 200"
         ],
@@ -7371,13 +8091,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1340.94,
-        "sinonimias": []
+        "sinonimias": [
+            "keflex",
+            "cefalexina generico",
+            "Cefalexina",
+            "Cef",
+            "Cefagel",
+            "Lexin"
+        ],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00133",
         "nome": "Fazolon",
         "principioAtivo": "Cefazolina Sódica",
-        "descricao": "Cefalosporinas injetáveis",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1000 MG PO  INJ CX 100 FA VD TRANS"
         ],
@@ -7395,13 +8123,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2625.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Cefazolina"
+        ],
+        "classeTerapeutica": "Cefalosporinas injetáveis"
     },
     {
         "id": "med-00134",
         "nome": "Terza",
         "principioAtivo": "Cefdinir",
-        "descricao": "Cefalosporinas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "25 MG/ML PO SUS OR CT FR VD AMB X 100 ML + SER DOS",
             "50 MG/ML PO SUS OR CT FR VD AMB X 100 ML + SER DOS"
@@ -7420,13 +8151,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 234.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Tercen"
+        ],
+        "classeTerapeutica": "Cefalosporinas orais"
     },
     {
         "id": "med-00135",
         "nome": "Rocefin",
         "principioAtivo": "Ceftriaxona Dissódica Hemieptaidratada",
-        "descricao": "Cefalosporinas injetáveis",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1 G PO SOL INJ IM CX FA VD TRANS + DIL 10 MG/ML SOL INJ AMP VD TRANS X 3,5 ML",
             "500 MG PO SOL INJ IM CX FA VD TRANS + DIL 10 MG/ML SOL INJ AMP VD TRANS X 2 ML"
@@ -7446,7 +8180,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Ceftriaxona Dissódica",
-                "precoBase": 47.0,
+                "precoBase": 47,
                 "registrosAnvisa": [
                     "1037007120014",
                     "1163701740132"
@@ -7475,13 +8209,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 158.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemieptaidratada",
+            "Ceftriaxona Dissódica",
+            "Teucef",
+            "Triaxton",
+            "Keftron"
+        ],
+        "classeTerapeutica": "Cefalosporinas injetáveis"
     },
     {
         "id": "med-00136",
         "nome": "Ceftriaxona Dissódica Hemieptaidratada",
         "principioAtivo": "Ceftriaxona Sódica",
-        "descricao": "Cefalosporinas injetáveis",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1G PO SOL INJ IM CT 5 FA VD TRANS + 5 DIL AMP VD TRANS X 3,5 ML"
         ],
@@ -7500,13 +8241,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 211.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Ceftriaxona",
+            "Triaxin"
+        ],
+        "classeTerapeutica": "Cefalosporinas injetáveis"
     },
     {
         "id": "med-00137",
         "nome": "Celebra",
         "principioAtivo": "Celecoxibe",
-        "descricao": "Coxibs",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "100 MG CAP DURA CT BL AL PLAS TRANS X 20",
             "200 MG CAP DURA CT BL AL PLAS TRANS X 10",
@@ -7626,13 +8371,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 15.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Coques",
+            "Ducox",
+            "Cibex",
+            "Foxis",
+            "Parzo"
+        ],
+        "classeTerapeutica": "Coxibs"
     },
     {
         "id": "med-00138",
         "nome": "Vacina Influenza Trivalente (fragmentada, Inativada) Sênior",
         "principioAtivo": "Cepa Influenza Tipo B;cepa Influenza Tipo a (h3n2);cepa Influenza Tipo a (h1n1)",
-        "descricao": "Vacina para gripe (influenza)",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "(120+120+120) MCG/ML SUS INJ IM CT 10 SER PREENCH VD TRANS X 0,5 ML"
         ],
@@ -7696,13 +8448,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3827.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Cepa Influenza Tipo B",
+            "cepa Influenza Tipo a",
+            "Fluarix Tetra",
+            "Vaxigrip Tetra",
+            "Flucelvax Tetra",
+            "Vacina Influenza Tetravalente Sênior",
+            "Efluelda",
+            "Vaxigrip ®"
+        ],
+        "classeTerapeutica": "Vacina para gripe (influenza)"
     },
     {
         "id": "med-00139",
         "nome": "Nizoral",
         "principioAtivo": "Cetoconazol",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "20 MG/G CREM DERM CT BG AL X 30 G"
         ],
@@ -7785,13 +8547,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 62.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Conazol",
+            "Cetomicoss",
+            "Cetop",
+            "Cleartop",
+            "Tricortid"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00140",
         "nome": "Profenid",
         "principioAtivo": "Cetoprofeno",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "100 MG COM REV LIB RETARD CT BL AL PLAS TRANS X 20",
             "100 MG SUP RETAL CT STR AL/AL X 10",
@@ -7880,13 +8649,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 43.93,
-        "sinonimias": []
+        "sinonimias": [
+            "bi-profenid",
+            "Bicerto",
+            "Algie",
+            "Ceftfenpro lp",
+            "Prodygo",
+            "Triploa"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00141",
         "nome": "Acular",
         "principioAtivo": "Cetorolaco Trometamina",
-        "descricao": "Antiinflamatórios oftalmológicos não esteroidais",
+        "descricao": "Colírio para aliviar alergia e inflamação nos olhos.",
         "apresentacoes": [
             "4 MG/ML SOL OFT  CT FR GOT  PLAS PE OPC  X 5 ML",
             "4 MG/ML SOL OFT CT FR GOT PLAS PE OPC X 10 ML ",
@@ -7954,13 +8731,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 80.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Trometamina",
+            "Deocil",
+            "Trometamol Cetorolaco",
+            "Legrace",
+            "Toragesic",
+            "Terolac",
+            "Optilar"
+        ],
+        "classeTerapeutica": "Antiinflamatórios oftalmológicos não esteroidais"
     },
     {
         "id": "med-00142",
         "nome": "Tipici",
         "principioAtivo": "Cianocobalamina;cloridrato de Piridoxina;cloridrato de Tiamina",
-        "descricao": "Associações vitamina b1+ b6 e/ou b12",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "(103 + 100 + 5) MG COM REV CT BL AL AL X 30",
             "(103 + 100 + 5) MG COM REV CT BL AL AL X 60",
@@ -8003,13 +8789,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 91.88,
-        "sinonimias": []
+        "sinonimias": [
+            "vitamina b12",
+            "Cianocobalamina",
+            "cloridrato de Piridoxina",
+            "cloridrato de Tiamina",
+            "Citoneurin",
+            "Nevrix im",
+            "Cronobe Complex im"
+        ],
+        "classeTerapeutica": "Associações vitamina b1+ b6 e/ou b12"
     },
     {
         "id": "med-00143",
         "nome": "Dexa-citoneurin Nff",
         "principioAtivo": "Cianocobalamina;fosfato Dissódico de Dexametasona;cloridrato de Piridoxina;cloridrato de Tiamina",
-        "descricao": "Associações de corticosteróides sistêmicos",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "(100,0 + 100,0) MG/ML SOL INJ IM CT 3 AMP VD AMB X 1 ML + (5,0 + 4,37) MG SOL INJ IM 3 AMP VD AMB X 2 ML"
         ],
@@ -8050,13 +8845,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.83,
-        "sinonimias": []
+        "sinonimias": [
+            "vitamina b12",
+            "Cianocobalamina",
+            "fosfato Dissódico de Dexametasona",
+            "cloridrato de Piridoxina",
+            "cloridrato de Tiamina",
+            "Citobê-dexa",
+            "Dexalgen nf",
+            "Renovi b Plus",
+            "Cloridrato de Tiamina + Cloridrato de Piridoxina + Cianocobalamina + Fosfato Dissódico de Dexametasona"
+        ],
+        "classeTerapeutica": "Associações de corticosteróides sistêmicos"
     },
     {
         "id": "med-00144",
         "nome": "Micolamina",
         "principioAtivo": "Ciclopirox",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "80 MG/G ESM DERM CT FR VD AMB X 3 G",
             "80 MG/G ESM DERM CT FR VD AMB X 6 G"
@@ -8075,20 +8881,24 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Lakesiamedical",
-                "precoBase": 127.0,
+                "precoBase": 127,
                 "registrosAnvisa": [
                     "1019103080021"
                 ]
             }
         ],
         "precoReferencia": 132.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciclopirox Olamina",
+            "Lakesiamedical"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00145",
         "nome": "Micolamina",
         "principioAtivo": "Ciclopirox Olamina",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "10 MG/G CREM DERM CT BG AL X 20 G",
             "10 MG/ML SOL SPR DERM CT FR SPR PLAS PEAD OPC X 15 ML",
@@ -8122,13 +8932,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Olamina",
+            "Ciclopirox- Olamina"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00146",
         "nome": "Restasis",
         "principioAtivo": "Ciclosporina",
-        "descricao": "Outros produtos para olhos secos",
+        "descricao": "Medicamento da classe \"Outros produtos para olhos secos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "0,5 MG/G EMUL OCU CT ENV 30 FLAC PLAS TRANS X 0,4 ML "
         ],
@@ -8180,13 +8994,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 311.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Sigmasporin Microral",
+            "Sandimmun"
+        ],
+        "classeTerapeutica": "Outros produtos para olhos secos"
     },
     {
         "id": "med-00147",
         "nome": "Cebralat",
         "principioAtivo": "Cilostazol",
-        "descricao": "Inibidores da agregação plaquetária, realçadores do amp cíclico",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS TRANS X 120",
             "100 MG COM CT BL AL PLAS TRANS X 60",
@@ -8252,13 +9070,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.8,
-        "sinonimias": []
+        "sinonimias": [
+            "Vasogard"
+        ],
+        "classeTerapeutica": "Inibidores da agregação plaquetária, realçadores do amp cíclico"
     },
     {
         "id": "med-00148",
         "nome": "Stugeron",
         "principioAtivo": "Cinarizina",
-        "descricao": "Antagonistas do cálcio com ação cerebral",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "25 MG COM CT BL AL PLAS TRANS X 30",
             "75 MG COM CT BL AL PLAS TRANS X 30"
@@ -8287,13 +9108,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 28.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluxon"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio com ação cerebral"
     },
     {
         "id": "med-00149",
         "nome": "Deposteron",
         "principioAtivo": "Cipionato de Testosterona",
-        "descricao": "Andrógenos excluindo g3e, g3f",
+        "descricao": "Reposição de testosterona (hormônio masculino).",
         "apresentacoes": [
             "100 MG/ML SOL INJ CX 3 AMP VD AMB X 2 ML"
         ],
@@ -8319,13 +9143,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 283.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Testosterona",
+            "Testocyp"
+        ],
+        "classeTerapeutica": "Andrógenos excluindo g3e, g3f"
     },
     {
         "id": "med-00150",
         "nome": "Oroxadin",
         "principioAtivo": "Ciprofibrato",
-        "descricao": "Fibratos",
+        "descricao": "Reduz os triglicérides (e um pouco o colesterol) no sangue.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS TRANS X 30"
         ],
@@ -8393,13 +9221,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 198.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Ravuma",
+            "Cipide",
+            "Lipfite",
+            "Lipneo",
+            "Lipless"
+        ],
+        "classeTerapeutica": "Fibratos"
     },
     {
         "id": "med-00151",
         "nome": "Citalopram",
         "principioAtivo": "Citalopram",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "20 MG COM REV CT BL AL PLAS TRANS X 28 ",
             "20 MG COM REV CT BL AL PLAS TRANS X 30"
@@ -8428,13 +9263,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 171.51,
-        "sinonimias": []
+        "sinonimias": [
+            "cipramil",
+            "Maxapran"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00152",
         "nome": "Clomid",
         "principioAtivo": "Citrato de Clomifeno",
-        "descricao": "Gonadotrofinas incluindo outros estimulantes para ovulação",
+        "descricao": "Estimula os ovários. Usado em tratamentos de fertilidade.",
         "apresentacoes": [
             "50 MG COM CT BL AL PLAS INC X 10"
         ],
@@ -8451,13 +9290,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Clomifeno",
+            "Indux"
+        ],
+        "classeTerapeutica": "Gonadotrofinas incluindo outros estimulantes para ovulação"
     },
     {
         "id": "med-00153",
         "nome": "Dorflex",
         "principioAtivo": "Citrato de Orfenadrina;cafeína Anidra;dipirona Monoidratada",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "(600 + 70 + 100) MG COM CT BL AL PLAS PVC AMB X 16",
             "(600 + 70 + 100) MG COM CT BL AL PLAS PVC AMB X 8",
@@ -8523,7 +9366,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Doricin",
-                "precoBase": 19.0,
+                "precoBase": 19,
                 "registrosAnvisa": [
                     "1023500720201",
                     "1023500720211",
@@ -8533,13 +9376,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Citrato de Orfenadrina",
+            "dipirona Monoidratada",
+            "Lisador Muscular",
+            "Miorrelax",
+            "Dipirona Sodica+cafeina Anidra+citrato de Orfenadrina",
+            "Neosaldina Muscular",
+            "Neosaldina Muscular Max",
+            "Doricin"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00154",
         "nome": "Litocit",
         "principioAtivo": "Citrato de Potássio Monoidratado",
-        "descricao": "Todos outros produtos urologicos",
+        "descricao": "Medicamento da classe \"Todos outros produtos urologicos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "1080 MG COM LIB PROL CT FR PLAS PVC OPC X 60",
             "1620 MG COM LIB PROL CT FR PLAS PVC OPC X 30",
@@ -8566,13 +9419,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 69.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Potássio",
+            "Hidralyte"
+        ],
+        "classeTerapeutica": "Todos outros produtos urologicos"
     },
     {
         "id": "med-00155",
         "nome": "Revatio",
         "principioAtivo": "Citrato de Sildenafila",
-        "descricao": "Produtos hipertensão arterial pulmonar inibidores da pde5",
+        "descricao": "Usado para hipertensão nos vasos dos pulmões (hipertensão arterial pulmonar).",
         "apresentacoes": [
             "20 MG COM REV CT BL AL PLAS PVC TRANS X 90"
         ],
@@ -8722,13 +9579,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 4971.16,
-        "sinonimias": []
+        "sinonimias": [
+            "Sildenafila",
+            "Videnfil",
+            "Viagra",
+            "Virineo",
+            "Dejavú",
+            "Sollevare"
+        ],
+        "classeTerapeutica": "Produtos hipertensão arterial pulmonar inibidores da pde5"
     },
     {
         "id": "med-00156",
         "nome": "Benalet",
         "principioAtivo": "Citrato de Sódio;cloreto de Amônio;cloridrato de Difenidramina",
-        "descricao": "Preparações para garganta",
+        "descricao": "Alívio local para dor de garganta e irritação na boca.",
         "apresentacoes": [
             "5 MG + 50 MG + 10 MG PAS CART DISPLAY ENV AL X 52 (SABOR MEL LIMÃO)  ",
             "5 MG + 50 MG + 10 MG PAS CART DISPLAY ENV AL X 52(SABOR MENTA) ",
@@ -8762,13 +9627,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 30.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Citrato de Sódio",
+            "cloreto de Amônio",
+            "cloridrato de Difenidramina",
+            "Benatux",
+            "Endcoff"
+        ],
+        "classeTerapeutica": "Preparações para garganta"
     },
     {
         "id": "med-00157",
         "nome": "Nolvadex",
         "principioAtivo": "Citrato de Tamoxifeno",
-        "descricao": "Hormônios antiestrogêneos citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "20 MG COM REV CT BL AL PLAS AMB X 30"
         ],
@@ -8813,13 +9685,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 441.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Tamoxifeno",
+            "Taxofen",
+            "Tacfen",
+            "Tamoxin"
+        ],
+        "classeTerapeutica": "Hormônios antiestrogêneos citostáticos"
     },
     {
         "id": "med-00158",
         "nome": "Xeljanz",
         "principioAtivo": "Citrato de Tofacitinibe",
-        "descricao": "Inibidores de jak",
+        "descricao": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes.",
         "apresentacoes": [
             "10 MG COM REV CT FR PLAS PEAD OPC X 60",
             "5 MG COM REV CT FR PLAS PEAD OPC X 60"
@@ -8838,13 +9716,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 10416.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Tofacitinibe",
+            "Xeljanz xr"
+        ],
+        "classeTerapeutica": "Inibidores de jak"
     },
     {
         "id": "med-00159",
         "nome": "Klaricid",
         "principioAtivo": "Claritromicina",
-        "descricao": "Macrolideos e similares",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "25 MG/ML GRAN SUS PED CT FR PLAS OPC X 60 ML + SER DOS + ADAPT",
             "50 MG/ML GRAN SUS PED CT FR PLAS OPC X 60 ML + SER DOS + ADAPT",
@@ -8906,13 +9788,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 122.5,
-        "sinonimias": []
+        "sinonimias": [
+            "Clabat"
+        ],
+        "classeTerapeutica": "Macrolideos e similares"
     },
     {
         "id": "med-00160",
         "nome": "Pyloripac",
         "principioAtivo": "Claritromicina;lansoprazol;amoxicilina Tri-hidratada",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "30 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS TRANS X 14+14+28",
             "30 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS TRANS X 28 + BL AL PLAS TRANS X 14+14+28",
@@ -8953,13 +9838,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 278.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Claritromicina",
+            "lansoprazol",
+            "amoxicilina Tri-hidratada",
+            "Lansoprazol +claritromicina +amoxicilina",
+            "H.bacter",
+            "Pyloritrat"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00161",
         "nome": "Clavulin",
         "principioAtivo": "Clavulanato de Potássio;amoxicilina Tri-hidratada",
-        "descricao": "Penicilinas orais de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "(120 + 8,58) MG/ML PO SUS OR CT FR VD TRANS X 100 ML + SER DOS",
             "(40 + 5,7) MG/ML PO SUS OR CT FR VD TRANS X 70 ML + SER DOS",
@@ -9059,13 +9952,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 121.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Clavulanato de Potássio",
+            "amoxicilina Tri-hidratada",
+            "Claxam",
+            "Amoxicilina Tri-hidratada + Clavulanato de Potássio",
+            "Amoxicilina + Clavulanato de Potássio",
+            "Sinot Clav",
+            "Atak Clav",
+            "Sigma-clav bd"
+        ],
+        "classeTerapeutica": "Penicilinas orais de amplo espectro"
     },
     {
         "id": "med-00162",
         "nome": "Frisium",
         "principioAtivo": "Clobazam",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS PVC TRANS X 20  ",
             "20 MG COM CT BL AL PLAS PVC TRANS X 20  "
@@ -9085,13 +9988,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Urbanil"
+        ],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00163",
         "nome": "Rivotril",
         "principioAtivo": "Clonazepam",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "0,25 MG COM SUB CT BL AL PLAST TRANS X 30",
             "0,5 MG COM CT BL AL PLAS TRANS X 20",
@@ -9192,13 +10098,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 10.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Clopam",
+            "Azenpi",
+            "Zilepam"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00164",
         "nome": "Bio - Vagin",
         "principioAtivo": "Cloreto de Benzalcônio",
-        "descricao": "Tricomonicidas tópicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "62,5 MG/G + 25.000 UI/G + 1,25 MG/G CREM VAG CT BG AL X 40 G + 10 APLIC"
         ],
@@ -9222,13 +10133,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 82.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzalcônio",
+            "Neonazol",
+            "Kuramed"
+        ],
+        "classeTerapeutica": "Tricomonicidas tópicos"
     },
     {
         "id": "med-00165",
         "nome": "Dinill",
         "principioAtivo": "Cloreto de Benzalcônio;ácido Bórico",
-        "descricao": "Antissépticos oftalmológicos",
+        "descricao": "Medicamento de uso nos olhos (colírio ou pomada oftálmica).",
         "apresentacoes": [
             "0,1 MG/ML + 17 MG/ML SOL OFT CT FR GOT PLAS TRANS X 10 ML"
         ],
@@ -9245,13 +10161,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 18.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloreto de Benzalcônio",
+            "ácido Bórico",
+            "Higicler"
+        ],
+        "classeTerapeutica": "Antissépticos oftalmológicos"
     },
     {
         "id": "med-00166",
         "nome": "Ionclor",
         "principioAtivo": "Cloreto de Potássio",
-        "descricao": "Suplementos minerais á base de potássio",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "60 MG/ML SOL OR CX 50 FR PLAS PEAD OPC X 100 ML + 50 COP",
             "60 MG/ML SOL OR CX 50 FR PLAS PEAD OPC X 150 ML + 50 COP"
@@ -9271,13 +10192,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 183.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Potássio",
+            "Slow-k"
+        ],
+        "classeTerapeutica": "Suplementos minerais á base de potássio"
     },
     {
         "id": "med-00167",
         "nome": "Maresis ht",
         "principioAtivo": "Cloreto de Sódio",
-        "descricao": "Outras preparações tópicas nasais",
+        "descricao": "Medicamento da classe \"Outras preparações tópicas nasais\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "20 MG/ML SOL SPR NAS CT TB AL X 100 ML"
         ],
@@ -9330,13 +10255,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 94.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Maxidrate",
+            "Nasojet 3h",
+            "Cloreto de Sódio Solução Fisiológica Para Irrigação - Baxter",
+            "Conidrin 3%",
+            "Neosoro h",
+            "Rinosoro Sic"
+        ],
+        "classeTerapeutica": "Outras preparações tópicas nasais"
     },
     {
         "id": "med-00168",
         "nome": "Mucosolvan",
         "principioAtivo": "Cloridrato de Ambroxol",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "3,0 MG/ML XPE PED CT FR VD AMB X 120 ML",
             "6 MG/ML XPE ADU CT FR VD AMB X 120 ML"
@@ -9448,13 +10382,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 40.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Ambroxol",
+            "Especbac",
+            "Fluisolvan",
+            "Sedavan",
+            "Ambrol",
+            "Expectuss"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00169",
         "nome": "Atlansil",
         "principioAtivo": "Cloridrato de Amiodarona",
-        "descricao": "Antiarrítmicos cardíacos",
+        "descricao": "Controla batimentos cardíacos irregulares (arritmia).",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS TRANS X 20",
             "200 MG COM CT BL AL PLAS TRANS X 20"
@@ -9520,13 +10462,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Amiodarona",
+            "Ancoron",
+            "Amiobal",
+            "Amioron",
+            "Miodaron"
+        ],
+        "classeTerapeutica": "Antiarrítmicos cardíacos"
     },
     {
         "id": "med-00170",
         "nome": "Mitrip",
         "principioAtivo": "Cloridrato de Amitriptilina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS PVC/PVDC  TRANS X 30",
             "25 MG COM REV CT BL AL PLAS PVC/PVDC  TRANS X 30",
@@ -9575,13 +10524,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.13,
-        "sinonimias": []
+        "sinonimias": [
+            "Amitriptilina",
+            "Amytril"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00171",
         "nome": "Onicoryl",
         "principioAtivo": "Cloridrato de Amorolfina",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "50 MG/ML ESM CT FR VD AMB X 2,5 ML + (10 ESP + 30 COMPRESS + 30 LIXAS)"
         ],
@@ -9598,13 +10551,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 186.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Amorolfina",
+            "Unha Sana"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00172",
         "nome": "Agrylin",
         "principioAtivo": "Cloridrato de Anagrelida",
-        "descricao": "Inibidores da agregação plaquetária, realçadores do amp cíclico",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "0,5 MG CAP DURA CT FR PLAS OPC X 100"
         ],
@@ -9621,13 +10578,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 5188.5,
-        "sinonimias": []
+        "sinonimias": [
+            "Anagrelida",
+            "Monboc"
+        ],
+        "classeTerapeutica": "Inibidores da agregação plaquetária, realçadores do amp cíclico"
     },
     {
         "id": "med-00173",
         "nome": "Atentah",
         "principioAtivo": "Cloridrato de Atomoxetina",
-        "descricao": "Todos os outros produtos para o sistema nervoso central",
+        "descricao": "Medicamento da classe \"Todos os outros produtos para o sistema nervoso central\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10 MG CAP DURA CT BL AL PLAS PVC TRANS X 30",
             "100 MG CAP DURA CT BL AL PLAS PVC TRANS X 30",
@@ -9716,13 +10677,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.63,
-        "sinonimias": []
+        "sinonimias": [
+            "Atomoxetina",
+            "Flutuah"
+        ],
+        "classeTerapeutica": "Todos os outros produtos para o sistema nervoso central"
     },
     {
         "id": "med-00174",
         "nome": "Flogo-rosa",
         "principioAtivo": "Cloridrato de Benzidamina",
-        "descricao": "Outros ginecológicos",
+        "descricao": "Medicamento da classe \"Outros ginecológicos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "50 MG/ML SOL GIN CT FR PET AMB X 100 ML ",
             "50 MG/ML SOL GIN CT FR PET AMB X 100 ML + CP MED",
@@ -9811,13 +10776,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Benzidamina",
+            "Flogoral",
+            "Gargojuice",
+            "Pastilhas Cepacol",
+            "Angino Rub",
+            "Ciflogex",
+            "Tabs"
+        ],
+        "classeTerapeutica": "Outros ginecológicos"
     },
     {
         "id": "med-00175",
         "nome": "Betaserc",
         "principioAtivo": "Cloridrato de Betaistina",
-        "descricao": "Antivertiginosos",
+        "descricao": "Usado para tontura e vertigem (labirintite).",
         "apresentacoes": [
             "16 MG COM CT BL AL PLAS INC X 30",
             "24 MG COM CT BL AL PLAS INC X 30",
@@ -9888,13 +10862,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Betaistina",
+            "Dicloridrato de Betaistina",
+            "Betina",
+            "Debet",
+            "Labirin",
+            "Betadine"
+        ],
+        "classeTerapeutica": "Antivertiginosos"
     },
     {
         "id": "med-00176",
         "nome": "Betoptic",
         "principioAtivo": "Cloridrato de Betaxolol",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "2,5 MG/ML SUS OFT CT FR GOT PLAS OPC X 5 ML",
             "5,0 MG/ML SOL OFT CT FR PLAS TRANS GOT X 5 ML"
@@ -9927,13 +10909,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Betaxolol",
+            "Visoptic",
+            "Presmin"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00177",
         "nome": "Akineton",
         "principioAtivo": "Cloridrato de Biperideno",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "2 MG COM CT BL AL PLAS PVC AMB X 80",
             "4 MG COM REV LIB RETARD CT BL AL PLAS PVC AMB X 30"
@@ -9960,13 +10947,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 35.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Biperideno",
+            "Propark",
+            "Cinetol"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00178",
         "nome": "Bisolvon",
         "principioAtivo": "Cloridrato de Bromexina",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "0,8 MG/ML XPE CT FR VD AMB X 120 ML",
             "1,6 MG/ML XPE CT FR VD AMB X 120 ML",
@@ -10023,13 +11015,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Bromexina",
+            "Bisuran",
+            "Agiixpec",
+            "Broncatar"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00179",
         "nome": "Wellbutrin",
         "principioAtivo": "Cloridrato de Bupropiona",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "150 MG COM REV LIB PROL CT FR PLAS OPC X 30",
             "150 MG COM REV LIB PROL CT FR PLAS OPC X 7 ",
@@ -10147,13 +11145,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Bupropiona",
+            "Bup xl",
+            "Buprexis xl",
+            "Eutymia xl",
+            "Bup",
+            "Buene"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00180",
         "nome": "Stima",
         "principioAtivo": "Cloridrato de Buspirona",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS PVC/PVDC TRANS X 20",
             "10 MG COM CT BL AL PLAS PVC/PVDC TRANS X 60",
@@ -10193,13 +11199,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 41.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Buspirona",
+            "Tague",
+            "Ansitec"
+        ],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00181",
         "nome": "Mitrul",
         "principioAtivo": "Cloridrato de Ciclobenzaprina",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "15 MG CAP DURA LIB PROL CT BL AL PLAS TRANS X 10",
             "15 MG CAP DURA LIB PROL CT BL AL PLAS TRANS X 2",
@@ -10402,13 +11413,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciclobenzaprina",
+            "Muscusan",
+            "Benziflex",
+            "Miofibrax",
+            "Mirtax",
+            "Miosan"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00182",
         "nome": "Dolamin Flex",
         "principioAtivo": "Cloridrato de Ciclobenzaprina;clonixinato de Lisina",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "125 MG + 5,0 MG COM REV CT BL AL PLAS TRANS X 15"
         ],
@@ -10446,13 +11465,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 69.66,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Ciclobenzaprina",
+            "clonixinato de Lisina",
+            "Clonixinato de Lisina + Cloridrato de Ciclobenzaprin",
+            "Miogesic Lis",
+            "Benziflex Lis"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00183",
         "nome": "Dolamin Flex",
         "principioAtivo": "Cloridrato de Ciclobenzaprina;lisinato de Clonixina",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "125 MG + 5,0 MG COM REV CT BL AL PLAS TRANS X 12"
         ],
@@ -10476,13 +11502,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 55.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Ciclobenzaprina",
+            "lisinato de Clonixina",
+            "Clonixinato de Lisina + Cloridrato de Ciclobenzaprin",
+            "Benziflex Lis"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00184",
         "nome": "Cicloplégico",
         "principioAtivo": "Cloridrato de Ciclopentolato",
-        "descricao": "Midriáticos e cicloplégicos",
+        "descricao": "Colírio que dilata a pupila para exames ou procedimentos oftalmológicos.",
         "apresentacoes": [
             "10 MG/ML SOL OFT CT FR PLAS TRANS GOT X 5 ML"
         ],
@@ -10499,13 +11531,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciclopentolato",
+            "Ciclolato"
+        ],
+        "classeTerapeutica": "Midriáticos e cicloplégicos"
     },
     {
         "id": "med-00185",
         "nome": "Mimpara",
         "principioAtivo": "Cloridrato de Cinacalcete",
-        "descricao": "Produtos antiparatireoideanos",
+        "descricao": "Regula o cálcio do organismo. Usado em osteoporose grave ou em distúrbios da paratireoide.",
         "apresentacoes": [
             "30MG COM REV CT FR PLAS OPC X 30 "
         ],
@@ -10552,13 +11588,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1331.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Cinacalcete",
+            "Calt",
+            "Missort"
+        ],
+        "classeTerapeutica": "Produtos antiparatireoideanos"
     },
     {
         "id": "med-00186",
         "nome": "Apetivan bc",
         "principioAtivo": "Cloridrato de Ciproeptadina",
-        "descricao": "Orexígenos",
+        "descricao": "Estimula o apetite.",
         "apresentacoes": [
             "XPE CT FR PLAS AMB X 240 ML"
         ],
@@ -10575,13 +11616,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciproeptadina",
+            "Cobapetit"
+        ],
+        "classeTerapeutica": "Orexígenos"
     },
     {
         "id": "med-00187",
         "nome": "Cipro",
         "principioAtivo": "Cloridrato de Ciprofloxacino",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS PVC/PVDC OPC X 14",
             "500 MG COM REV CT BL AL PLAS PVC/PVDC OPC X 6"
@@ -10650,13 +11695,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 248.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciprofloxacino",
+            "Foritus",
+            "Ciprobiot",
+            "Maxiflox",
+            "Urcip",
+            "Ciproflonax"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00188",
         "nome": "Ciloxan",
         "principioAtivo": "Cloridrato de Ciprofloxacino Monoidratado",
-        "descricao": "Antiinfeccios oftalmológicos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "3MG/ML SOL OFT CT FR GOT PLAS TRANS X 5 ML"
         ],
@@ -10737,13 +11790,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 34.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciprofloxacino",
+            "Cloridrato de Ciprofloxacino",
+            "Ciclatry",
+            "Ciprocilin",
+            "Cifloxatil",
+            "Ciprofar",
+            "Ciprofloxatrin"
+        ],
+        "classeTerapeutica": "Antiinfeccios oftalmológicos"
     },
     {
         "id": "med-00189",
         "nome": "Dalacin c",
         "principioAtivo": "Cloridrato de Clindamicina Monoidratado",
-        "descricao": "Macrolideos e similares",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "300 MG CAP DURA CT BL AL PLAS TRANS X 16"
         ],
@@ -10769,13 +11831,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 208.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Clindamicina",
+            "Cloridrato de Clindamicina",
+            "Clindamin-c"
+        ],
+        "classeTerapeutica": "Macrolideos e similares"
     },
     {
         "id": "med-00190",
         "nome": "Anafranil",
         "principioAtivo": "Cloridrato de Clomipramina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "25 MG COM REV CT BL AL PLAS PVC TRANS X 20",
             "25 MG COM REV CT BL AL PLAS PVC TRANS X 30",
@@ -10812,13 +11879,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 65.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Clomipramina",
+            "Clo"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00191",
         "nome": "Amplictil",
         "principioAtivo": "Cloridrato de Clorpromazina",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS OPC X 20",
             "25 MG COM REV CT BL AL PLAS OPC X 20",
@@ -10848,13 +11919,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 10.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Clorpromazina",
+            "Longactil"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00192",
         "nome": "Empozze",
         "principioAtivo": "Cloridrato de Dapoxetina",
-        "descricao": "Todos os outros produtos urológicos",
+        "descricao": "Medicamento da classe \"Todos os outros produtos urológicos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "30 MG COM REV CT BL AL PLAS PVC/PVDC OPC X 1",
             "30 MG COM REV CT BL AL PLAS PVC/PVDC OPC X 3",
@@ -10882,13 +11957,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 42.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Dapoxetina",
+            "Prosoy"
+        ],
+        "classeTerapeutica": "Todos os outros produtos urológicos"
     },
     {
         "id": "med-00193",
         "nome": "Lenix",
         "principioAtivo": "Cloridrato de Difenidramina",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 14",
             "50 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 2",
@@ -10909,13 +11988,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 8.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Difenidramina",
+            "Difenidrin"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00194",
         "nome": "Cardizem",
         "principioAtivo": "Cloridrato de Diltiazem",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "120 MG CAP DURA LIB PROL CT BL AL/AL X 20",
             "30 MG COM CT BL AL/AL X 50",
@@ -10952,13 +12035,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 43.9,
-        "sinonimias": []
+        "sinonimias": [
+            "Diltiazem",
+            "Cordil"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00195",
         "nome": "Dobutrex",
         "principioAtivo": "Cloridrato de Dobutamina",
-        "descricao": "Agentes cardíacos dopaminérgicos",
+        "descricao": "Fortalece os batimentos do coração. Usado na insuficiência cardíaca.",
         "apresentacoes": [
             "250 MG SOL INJ CT 20 AMP VD TRANS X 20 ML"
         ],
@@ -10975,13 +12062,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1396.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Dobutamina"
+        ],
+        "classeTerapeutica": "Agentes cardíacos dopaminérgicos"
     },
     {
         "id": "med-00196",
         "nome": "Eranz",
         "principioAtivo": "Cloridrato de Donepezila",
-        "descricao": "Produtos antialzheimer, inibidores da colinesterase",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "10MG COM REV CT BL AL PLAS TRANS X 28",
             "5 MG COM REV CT BL AL PLAS TRANS X 28 "
@@ -11126,13 +12216,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 876.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Donepezila",
+            "Don",
+            "Senes",
+            "Comfect",
+            "Donila",
+            "Depzel"
+        ],
+        "classeTerapeutica": "Produtos antialzheimer, inibidores da colinesterase"
     },
     {
         "id": "med-00197",
         "nome": "Epéz Duo",
         "principioAtivo": "Cloridrato de Donepezila Monoidratado;cloridrato de Memantina",
-        "descricao": "Todos os outros produtos antialzheimer",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "(10 + 10) MG COM REV CT BL AL PLAS PCTFE/PE.EVOH.PE/PVC TRANS X 7",
             "(10 + 20) MG COM REV CT BL AL PLAS PCTFE/PE.EVOH.PE/PVC TRANS X 30",
@@ -11164,13 +12262,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 200.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Donepezila Monoidratado",
+            "cloridrato de Memantina",
+            "Lábrea Duo",
+            "Cloridrato de Donepezila + Cloridrato de Memantina"
+        ],
+        "classeTerapeutica": "Todos os outros produtos antialzheimer"
     },
     {
         "id": "med-00198",
         "nome": "Alois Duo Pack",
         "principioAtivo": "Cloridrato de Donepezila;cloridrato de Memantina",
-        "descricao": "Todos os outros produtos antialzheimer",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "(10 + 5) MG COM REV + (10 + 10) MG COM REV + (10 + 15) MG COM REV + (10 + 20) MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 7 + 7 + 7 + 7"
         ],
@@ -11248,13 +12352,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 872.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Donepezila",
+            "cloridrato de Memantina",
+            "Cloridrato de Donepezila + Cloridrato de Memantina",
+            "Alois Duo",
+            "Moriale Duo",
+            "Comfect Duo",
+            "Donila Duo"
+        ],
+        "classeTerapeutica": "Todos os outros produtos antialzheimer"
     },
     {
         "id": "med-00199",
         "nome": "Ocupress",
         "principioAtivo": "Cloridrato de Dorzolamida",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "20 MG/ML SOL OFT CT FR GOT PLAS OPC X 5 ML "
         ],
@@ -11295,13 +12408,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 116.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Dorzolamida",
+            "Andrum",
+            "Dorzal",
+            "Zonidra"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00200",
         "nome": "oz",
         "principioAtivo": "Cloridrato de Dorzolamida;maleato de Timolol",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(20+ 5) MG/ML SOL OFT CT FR GOT PLAS PEBD OPC X 5 ML"
         ],
@@ -11326,13 +12445,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 165.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Dorzolamida",
+            "maleato de Timolol",
+            "Drusolol lc",
+            "Cloridrato de Dorzolamida + Maleato de Timolol"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00201",
         "nome": "Doxiclin",
         "principioAtivo": "Cloridrato de Doxiciclina",
-        "descricao": "Tetraciclinas e associações",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 15",
             "100 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 20"
@@ -11360,13 +12485,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Doxiciclina",
+            "Hiclato de Doxiciclina"
+        ],
+        "classeTerapeutica": "Tetraciclinas e associações"
     },
     {
         "id": "med-00202",
         "nome": "Cymbalta",
         "principioAtivo": "Cloridrato de Duloxetina",
-        "descricao": "Antidepressivos snri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "30 MG CAP  DURA C/ MGRAN RETARD CT  BL AL AL X 30 ",
             "60 MG CAP  DURA C/ MGRAN RETARD CT BL AL AL X 30"
@@ -11498,13 +12627,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 367.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Duloxetina",
+            "Velija",
+            "Sympta",
+            "Dep",
+            "Dual",
+            "Mydulo"
+        ],
+        "classeTerapeutica": "Antidepressivos snri"
     },
     {
         "id": "med-00203",
         "nome": "Relestat",
         "principioAtivo": "Cloridrato de Epinastina",
-        "descricao": "Antialérgicos oftamológicos, anti-histamínicos",
+        "descricao": "Colírio para aliviar alergia e inflamação nos olhos.",
         "apresentacoes": [
             "0,5 MG/ML SOL OFT CT FR GOT PLAS PEBD OPC X 5 ML "
         ],
@@ -11522,13 +12659,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 83.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Epinastina",
+            "Talerc"
+        ],
+        "classeTerapeutica": "Antialérgicos oftamológicos, anti-histamínicos"
     },
     {
         "id": "med-00204",
         "nome": "Resfriliv",
         "principioAtivo": "Cloridrato de Fenilefrina",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "400MG + 4MG + 4MG PÓ CT 50 ENV AL/PLAS X 5G (EMB MULT) - HORTELÃ/GENGIBRE",
             "400MG + 4MG + 4MG PÓ CT 50 ENV AL/PLAS X 5G (EMB MULT) - LARANJA/ACEROLA",
@@ -11556,13 +12697,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 171.13,
-        "sinonimias": []
+        "sinonimias": [
+            "Fenilefrina",
+            "Gripalcê",
+            "Neolefrin"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00205",
         "nome": "Naldecon Dia",
         "principioAtivo": "Cloridrato de Fenilefrina;paracetamol",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(400,0 + 20,0) COM X 12 + 400 MG COM X 12 CT BL AL AL"
         ],
@@ -11611,13 +12757,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Fenilefrina",
+            "paracetamol",
+            "Neolefrin Dia",
+            "Cimegripe Dia",
+            "Benegrip Multi Dia",
+            "Fluviral Dia",
+            "Naldecon Multi"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00206",
         "nome": "Allegra",
         "principioAtivo": "Cloridrato de Fexofenadina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "120 MG COM REV CT BL AL PLAS TRANS X 10",
             "120 MG COM REV CT BL AL PLAS TRANS X 2",
@@ -11723,13 +12878,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 19.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Fexofenadina",
+            "Fexx",
+            "Allexofedrin Pediátrico",
+            "Aler",
+            "Altiva",
+            "Praalergia"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00207",
         "nome": "Allegra d",
         "principioAtivo": "Cloridrato de Fexofenadina;cloridrato de Pseudoefedrina",
-        "descricao": "Preparações sistêmicas nasais",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(60 + 120) MG COM REV LIB PROL CT  BL AL PLAS PVC/PE/PVDC TRANS X 10"
         ],
@@ -11754,13 +12917,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 73.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Fexofenadina",
+            "cloridrato de Pseudoefedrina",
+            "Cloridrato de Fexofenadina + Cloridrato de Pseudoefedrina",
+            "Allexofedrin d"
+        ],
+        "classeTerapeutica": "Preparações sistêmicas nasais"
     },
     {
         "id": "med-00208",
         "nome": "Gilenya",
         "principioAtivo": "Cloridrato de Fingolimode",
-        "descricao": "Produtos para esclerose múltipla",
+        "descricao": "Usado para reduzir surtos e a progressão da esclerose múltipla.",
         "apresentacoes": [
             "0,5 MG CAP GEL DURA CT BL AL PLAS TRANS X 28"
         ],
@@ -11783,13 +12952,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 13355.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Fingolimode"
+        ],
+        "classeTerapeutica": "Produtos para esclerose múltipla"
     },
     {
         "id": "med-00209",
         "nome": "Prozac",
         "principioAtivo": "Cloridrato de Fluoxetina",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "20 MG CAP DURA CT BL AL PLAS TRANS X 30"
         ],
@@ -11872,13 +13044,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 418.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluoxetina",
+            "Fluxene",
+            "Daforin",
+            "Verotina"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00210",
         "nome": "Droxy",
         "principioAtivo": "Cloridrato de Hidroxizina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "25 MG COM CT FR PLAS PEAD OPC X 30"
         ],
@@ -11911,13 +13089,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidroxizina",
+            "Hixizine",
+            "Cloridrato de Hidroxizine"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00211",
         "nome": "Cronobê",
         "principioAtivo": "Cloridrato de Hidroxocobalamina",
-        "descricao": "Vitamina b12 pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "2000 MCG/ML SOL INJ CT 2 AMP VD AMB X 2,5 ML"
         ],
@@ -11934,13 +13117,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.97,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidroxocobalamina",
+            "Vitamina B12"
+        ],
+        "classeTerapeutica": "Vitamina b12 pura"
     },
     {
         "id": "med-00212",
         "nome": "Procoralan",
         "principioAtivo": "Cloridrato de Ivabradina",
-        "descricao": "Terapia coronaria excluindo antagonistas do cálcio e nitritos",
+        "descricao": "Melhora o aproveitamento de oxigênio pelo coração, aliviando a angina (dor no peito).",
         "apresentacoes": [
             "5 MG COM REV CT BL AL PLAS INC X 28",
             "5 MG COM REV CT BL AL PLAS INC X 56",
@@ -11981,13 +13168,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 97.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Ivabradina",
+            "Ivahart"
+        ],
+        "classeTerapeutica": "Terapia coronaria excluindo antagonistas do cálcio e nitritos"
     },
     {
         "id": "med-00213",
         "nome": "Zanidip",
         "principioAtivo": "Cloridrato de Lercanidipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "10 MG COM REV CT  STR AL X 20",
             "10 MG COM REV CT  STR AL X 30",
@@ -12038,13 +13229,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.16,
-        "sinonimias": []
+        "sinonimias": [
+            "Lercanidipino"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00214",
         "nome": "Neozine",
         "principioAtivo": "Cloridrato de Levomepromazina",
-        "descricao": "Antipsicóticos convencionais",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "40 MG/ML SOL OR CT FR GOT VD AMB X 20 ML"
         ],
@@ -12061,13 +13255,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Levomepromazina",
+            "Levozine"
+        ],
+        "classeTerapeutica": "Antipsicóticos convencionais"
     },
     {
         "id": "med-00215",
         "nome": "Xylestesin",
         "principioAtivo": "Cloridrato de Lidocaina",
-        "descricao": "Anestésicos locais injetáveis odontológicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "20 MG/ML SOL INJ CX 50 CARP PLAS TRANS X 1,8 ML"
         ],
@@ -12113,13 +13311,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 298.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Lidocaina",
+            "Labcaína",
+            "Lidogel",
+            "Lidial"
+        ],
+        "classeTerapeutica": "Anestésicos locais injetáveis odontológicos"
     },
     {
         "id": "med-00216",
         "nome": "Imosec",
         "principioAtivo": "Cloridrato de Loperamida",
-        "descricao": "Inibidores da motilidade",
+        "descricao": "Reduz a diarreia.",
         "apresentacoes": [
             "2 MG COM CT  BL AL PLAS TRANS X 12"
         ],
@@ -12171,13 +13375,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Loperamida",
+            "Diasec",
+            "Magnostase",
+            "Intestin",
+            "Kaosec"
+        ],
+        "classeTerapeutica": "Inibidores da motilidade"
     },
     {
         "id": "med-00217",
         "nome": "Latuda®",
         "principioAtivo": "Cloridrato de Lurasidona",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "20 MG COM REV CT BL AL AL X 14",
             "20 MG COM REV CT BL AL AL X 30",
@@ -12274,13 +13485,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 57.19,
-        "sinonimias": []
+        "sinonimias": [
+            "Lurasidona",
+            "Lubip",
+            "Lutab",
+            "Luratt"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00218",
         "nome": "Duspatalin",
         "principioAtivo": "Cloridrato de Mebeverina",
-        "descricao": "Antiespasmódicos e anticolinérgicos puros",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "200 MG CAP DURA LIB PROL CT BL AL/AL X 30",
             "200 MG CAP DURA LIB PROL CT BL AL/AL X 60"
@@ -12301,13 +13518,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 217.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Mebeverina",
+            "Rubenti"
+        ],
+        "classeTerapeutica": "Antiespasmódicos e anticolinérgicos puros"
     },
     {
         "id": "med-00219",
         "nome": "Ebix",
         "principioAtivo": "Cloridrato de Memantina",
-        "descricao": "Todos os outros produtos antialzheimer",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS TRANS X 28 ",
             "10 MG COM REV CT BL AL PLAS TRANS X 56",
@@ -12368,7 +13589,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Cloridrato de Memantina",
-                "precoBase": 47.0,
+                "precoBase": 47,
                 "registrosAnvisa": [
                     "1004311340057",
                     "1004311340065",
@@ -12448,13 +13669,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 447.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Memantina",
+            "Heimer",
+            "Alois",
+            "Alz",
+            "Zider",
+            "Moriale Odt"
+        ],
+        "classeTerapeutica": "Todos os outros produtos antialzheimer"
     },
     {
         "id": "med-00220",
         "nome": "Mepicain 3%",
         "principioAtivo": "Cloridrato de Mepivacaína",
-        "descricao": "Anestésicos locais injetáveis odontológicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "30MG/ML SOL INJ CX 50 CARP PLAS TRANS X 1,8 ML"
         ],
@@ -12478,13 +13707,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 343.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Mepivacaína",
+            "Mepisv",
+            "Mepivalem 3 % sv"
+        ],
+        "classeTerapeutica": "Anestésicos locais injetáveis odontológicos"
     },
     {
         "id": "med-00221",
         "nome": "Meglize",
         "principioAtivo": "Cloridrato de Metformina",
-        "descricao": "Antidiabéticos biguanidas puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "200 MG/ML SOL OR CT FR PLAS PET AMB X 150 ML + SER DOS"
         ],
@@ -12629,13 +13863,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Metformina",
+            "Glifage xr",
+            "Glifage",
+            "Glicomet",
+            "Diglixx",
+            "Glicefor"
+        ],
+        "classeTerapeutica": "Antidiabéticos biguanidas puros"
     },
     {
         "id": "med-00222",
         "nome": "Sitareddys-m",
         "principioAtivo": "Cloridrato de Metformina;cloridrato de Sitagliptina Monoidratado",
-        "descricao": "Associações de inibidores dpp-iv com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "(50 + 1000) MG COM REV CT BL AL AL X 14",
             "(50 + 1000) MG COM REV CT BL AL AL X 28",
@@ -12661,13 +13903,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 80.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "cloridrato de Sitagliptina Monoidratado",
+            "Cloridrato de Sitagliptina Monoidratado + Cloridrato de Metformina"
+        ],
+        "classeTerapeutica": "Associações de inibidores dpp-iv com biguanidas"
     },
     {
         "id": "med-00223",
         "nome": "Xigduo xr",
         "principioAtivo": "Cloridrato de Metformina;dapagliflozina",
-        "descricao": "Associação de antidiabéticos inibidores de sglt2 com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "(10 + 1000) MG COM REV LIB MOD CT BL AL/AL X 14 ",
             "(10 + 1000) MG COM REV LIB MOD CT BL AL/AL X 30",
@@ -12692,13 +13939,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 61.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "dapagliflozina",
+            "Dapagliflozina + Cloridrato de Metformina"
+        ],
+        "classeTerapeutica": "Associação de antidiabéticos inibidores de sglt2 com biguanidas"
     },
     {
         "id": "med-00224",
         "nome": "Siteh Met lp",
         "principioAtivo": "Cloridrato de Metformina;fosfato de Sitagliptina",
-        "descricao": "Associações de inibidores dpp-iv com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "(1000 + 100) MG COM REV LIB PROL CT FR PLAS PEAD OPC X 30",
             "(1000 + 50) MG COM REV LIB PROL CT FR PLAS PEAD OPC X 60",
@@ -12741,13 +13993,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 343.61,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "fosfato de Sitagliptina",
+            "Fosfato de Sitagliptina + Cloridrato de Metformina",
+            "Siteh Met"
+        ],
+        "classeTerapeutica": "Associações de inibidores dpp-iv com biguanidas"
     },
     {
         "id": "med-00225",
         "nome": "Janumet",
         "principioAtivo": "Cloridrato de Metformina;fosfato de Sitagliptina Monoidratado",
-        "descricao": "Associações de inibidores dpp-iv com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "(1000 + 100) MG COM REV LIB PROL CT FR PLAS PEAD OPC X 30",
             "(1000 + 50) MG COM REV LIB PROL CT FR PLAS PEAD OPC X 60",
@@ -12790,13 +14048,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 173.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "fosfato de Sitagliptina Monoidratado",
+            "Sitglu Met",
+            "Nimegon Met"
+        ],
+        "classeTerapeutica": "Associações de inibidores dpp-iv com biguanidas"
     },
     {
         "id": "med-00226",
         "nome": "Meritor",
         "principioAtivo": "Cloridrato de Metformina;glimepirida",
-        "descricao": "Associações de antidiabéticos sulfonilouréia com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "2 MG + 1000 MG COM REV CT BL AL PLAS PVC TRANS X 10 ",
             "2 MG + 1000 MG COM REV CT BL AL PLAS PVC TRANS X 30",
@@ -12828,13 +14092,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "glimepirida",
+            "Glimepirida + Cloridrato de Metformina"
+        ],
+        "classeTerapeutica": "Associações de antidiabéticos sulfonilouréia com biguanidas"
     },
     {
         "id": "med-00227",
         "nome": "Trayenta Duo",
         "principioAtivo": "Cloridrato de Metformina;linagliptina",
-        "descricao": "Associações de inibidores dpp-iv com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "2,5 MG + 1000 MG COM REV CT FR PLAS PEAD OPC X 60",
             "2,5 MG + 500 MG COM REV CT FR PLAS PEAD OPC X 60",
@@ -12901,13 +14170,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 322.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "linagliptina",
+            "Linagliptina + Cloridrato de Metformina",
+            "Glink Met",
+            "Linadib Duo",
+            "Glunac Duo"
+        ],
+        "classeTerapeutica": "Associações de inibidores dpp-iv com biguanidas"
     },
     {
         "id": "med-00228",
         "nome": "Galvus Met",
         "principioAtivo": "Cloridrato de Metformina;vildagliptina",
-        "descricao": "Associações de inibidores dpp-iv com biguanidas",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "50 MG + 1000 MG COM REV CT BL AL/AL X 14",
             "50 MG + 1000 MG COM REV CT BL AL/AL X 56",
@@ -13008,13 +14285,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Metformina",
+            "vildagliptina",
+            "Vildagliptina + Cloridrato de Metformina",
+            "Viz Met"
+        ],
+        "classeTerapeutica": "Associações de inibidores dpp-iv com biguanidas"
     },
     {
         "id": "med-00229",
         "nome": "Concerta",
         "principioAtivo": "Cloridrato de Metilfenidato",
-        "descricao": "Psicoestimulantes",
+        "descricao": "Estimulante do sistema nervoso central. Usado no TDAH e condições relacionadas.",
         "apresentacoes": [
             "18 MG COM REV LIB PROL CT FR PLAS OPC X 30",
             "36 MG COM REV LIB PROL CT FR PLAS OPC X 30",
@@ -13106,13 +14389,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 318.17,
-        "sinonimias": []
+        "sinonimias": [
+            "ritalina",
+            "metilfenidato",
+            "Tedeaga",
+            "Attenze",
+            "Medato",
+            "Ragione"
+        ],
+        "classeTerapeutica": "Psicoestimulantes"
     },
     {
         "id": "med-00230",
         "nome": "Plabel",
         "principioAtivo": "Cloridrato de Metoclopramida",
-        "descricao": "Gastroprocinéticos",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "4,0 MG/ML SOL OR CT FR PLAS OPC GOT X 10 ML"
         ],
@@ -13137,13 +14428,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Metoclopramida",
+            "Vomistop"
+        ],
+        "classeTerapeutica": "Gastroprocinéticos"
     },
     {
         "id": "med-00231",
         "nome": "Plasil",
         "principioAtivo": "Cloridrato de Metoclopramida Monoidratado",
-        "descricao": "Gastroprocinéticos",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS TRANS X 20"
         ],
@@ -13172,14 +14467,19 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 15.0,
-        "sinonimias": []
+        "precoReferencia": 15,
+        "sinonimias": [
+            "Metoclopramida",
+            "Cloridrato de Metoclopramida",
+            "Plabel"
+        ],
+        "classeTerapeutica": "Gastroprocinéticos"
     },
     {
         "id": "med-00232",
         "nome": "Avalox",
         "principioAtivo": "Cloridrato de Moxifloxacino",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "400 MG COM REV CT BL AL AL X 5",
             "400 MG COM REV CT BL AL AL X 7"
@@ -13254,14 +14554,22 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 296.0,
-        "sinonimias": []
+        "precoReferencia": 296,
+        "sinonimias": [
+            "Moxifloxacino",
+            "Oftalmox",
+            "Vigamox",
+            "Praiva",
+            "Madun",
+            "Neumosin"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00233",
         "nome": "Claroft",
         "principioAtivo": "Cloridrato de Nafazolina",
-        "descricao": "Descongestionantes oftalmológicos, simpaticomiméticos",
+        "descricao": "Colírio que alivia a vermelhidão e a irritação dos olhos.",
         "apresentacoes": [
             "0,12 MG/ML SOL OFT CT FR PLAS OPC GOT X 15 ML"
         ],
@@ -13318,13 +14626,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Nafazolina",
+            "Narix",
+            "ad Soro",
+            "Sorinan",
+            "Neosoro",
+            "Multisoro Adulto"
+        ],
+        "classeTerapeutica": "Descongestionantes oftalmológicos, simpaticomiméticos"
     },
     {
         "id": "med-00234",
         "nome": "Claril",
         "principioAtivo": "Cloridrato de Nafazolina;maleato de Feniramina",
-        "descricao": "Descongestionantes oftalmológicos, simpaticomiméticos",
+        "descricao": "Colírio que alivia a vermelhidão e a irritação dos olhos.",
         "apresentacoes": [
             "0,25 MG/ML + 3,0 MG/ML SOL OFT CT FR PLAS TRANS GOT X 15 ML"
         ],
@@ -13355,13 +14671,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.05,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Nafazolina",
+            "maleato de Feniramina",
+            "Cristalin",
+            "Uniclarin",
+            "Clanistil"
+        ],
+        "classeTerapeutica": "Descongestionantes oftalmológicos, simpaticomiméticos"
     },
     {
         "id": "med-00235",
         "nome": "Colírio Legrand",
         "principioAtivo": "Cloridrato de Nafazolina;sulfato de Zinco",
-        "descricao": "Descongestionantes oftalmológicos, simpaticomiméticos",
+        "descricao": "Colírio que alivia a vermelhidão e a irritação dos olhos.",
         "apresentacoes": [
             "(0,30 + 0,15) MG/ML SOL OFT CT FR GOT PLAS OPCX 20 ML"
         ],
@@ -13378,13 +14701,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Nafazolina",
+            "sulfato de Zinco",
+            "Colírio Teuto"
+        ],
+        "classeTerapeutica": "Descongestionantes oftalmológicos, simpaticomiméticos"
     },
     {
         "id": "med-00236",
         "nome": "Colírio Moura Brasil",
         "principioAtivo": "Cloridrato de Nafazolina;sulfato de Zinco Heptaidratado",
-        "descricao": "Descongestionantes oftalmológicos, simpaticomiméticos",
+        "descricao": "Colírio que alivia a vermelhidão e a irritação dos olhos.",
         "apresentacoes": [
             "0,15 MG/ML + 0,3 MG/ML SOL OFT CT FR CGT PLAS TRANS X 20 ML"
         ],
@@ -13401,13 +14729,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Nafazolina",
+            "sulfato de Zinco Heptaidratado",
+            "Lavolho d"
+        ],
+        "classeTerapeutica": "Descongestionantes oftalmológicos, simpaticomiméticos"
     },
     {
         "id": "med-00237",
         "nome": "Revia",
         "principioAtivo": "Cloridrato de Naltrexona",
-        "descricao": "Produtos usados em dependência alcoólica",
+        "descricao": "Auxiliar no tratamento da dependência de álcool.",
         "apresentacoes": [
             "50 MG COM REV CT FR PLAS OPC X 30"
         ],
@@ -13425,13 +14758,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 516.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Naltrexona",
+            "Uninaltrex"
+        ],
+        "classeTerapeutica": "Produtos usados em dependência alcoólica"
     },
     {
         "id": "med-00238",
         "nome": "Reduxalt",
         "principioAtivo": "Cloridrato de Naltrexona Di-hidratado;cloridrato de Bupropiona",
-        "descricao": "Preparações antiobesidade, exceto os dietéticos",
+        "descricao": "Auxiliar no tratamento da obesidade.",
         "apresentacoes": [
             "(90 + 8) MG COM REV LIB PROL CT BL AL AL X 120",
             "(90 + 8) MG COM REV LIB PROL CT BL AL AL X 70"
@@ -13459,13 +14796,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 563.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Naltrexona Di-hidratado",
+            "cloridrato de Bupropiona",
+            "Sliv",
+            "Bupnal"
+        ],
+        "classeTerapeutica": "Preparações antiobesidade, exceto os dietéticos"
     },
     {
         "id": "med-00239",
         "nome": "Naramig",
         "principioAtivo": "Cloridrato de Naratriptana",
-        "descricao": "Antienxaquecosos triptânicos",
+        "descricao": "Usado para tratar ou prevenir crises de enxaqueca.",
         "apresentacoes": [
             "2,5 MG COM REV CT BL AL / AL X 4"
         ],
@@ -13552,13 +14895,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 28.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Naratriptana",
+            "Narcef",
+            "Naratrin",
+            "Naratano",
+            "Naranety"
+        ],
+        "classeTerapeutica": "Antienxaquecosos triptânicos"
     },
     {
         "id": "med-00240",
         "nome": "Nebilet",
         "principioAtivo": "Cloridrato de Nebivolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "5 MG COM CT BL AL PLAS INC X 28",
             "5 MG COM CT BL AL PLAS INC X 30",
@@ -13668,13 +15018,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 161.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Nebivolol",
+            "Neblock",
+            "Nebic",
+            "Nyteb",
+            "Nebipre",
+            "Nebitah"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00241",
         "nome": "Pamelor",
         "principioAtivo": "Cloridrato de Nortriptilina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "10 MG CAP DURA CT  BL AL PLAS PVC TRANS X 30",
             "25 MG CAP DURA CT  BL AL PLAS PVC TRANS X 30",
@@ -13716,13 +15074,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Nortriptilina",
+            "Nortry"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00242",
         "nome": "Patanol",
         "principioAtivo": "Cloridrato de Olopatadina",
-        "descricao": "Antialérgicos oftamológicos, múltipla ação",
+        "descricao": "Colírio para aliviar alergia e inflamação nos olhos.",
         "apresentacoes": [
             "1 MG/ML SOL OFT CT FR GOT PLAS PE OPC  X 5 ML",
             "2 MG/ML SOL OFT CT FR GOT PLAS PE OPC X 2,5 ML "
@@ -13764,13 +15126,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.32,
-        "sinonimias": []
+        "sinonimias": [
+            "Olopatadina",
+            "Olop",
+            "Opti",
+            "Prurok"
+        ],
+        "classeTerapeutica": "Antialérgicos oftamológicos, múltipla ação"
     },
     {
         "id": "med-00243",
         "nome": "Enavo Gotas",
         "principioAtivo": "Cloridrato de Ondansetrona Di-hidratado",
-        "descricao": "Antieméticos e antinauseantes, antagonistas da serotonina",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "8 MG/ML SOL GOT OR CT FR GOT PLAS PET AMB X 10ML",
             "8 MG/ML SOL GOT OR CT FR GOT PLAS PET AMB X 5 ML"
@@ -13985,13 +15353,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Di-hidratado",
+            "Cloridrato de Ondansetrona",
+            "Enjovix Flash",
+            "Cloridrato de Ondansetrona Dihidratado",
+            "Vonau",
+            "Naudan Odt",
+            "Volig"
+        ],
+        "classeTerapeutica": "Antieméticos e antinauseantes, antagonistas da serotonina"
     },
     {
         "id": "med-00244",
         "nome": "Retemic",
         "principioAtivo": "Cloridrato de Oxibutinina",
-        "descricao": "Produtos para incontinência urinária",
+        "descricao": "Usado para controlar a bexiga hiperativa e a incontinência urinária.",
         "apresentacoes": [
             "1 MG/ML XPE CT FR VD AMB X 120 ML + COL",
             "10 MG COM REV LIB PROL CT BL AL PLAS TRANS X 15 ",
@@ -14032,13 +15409,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 45.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Oxibutinina",
+            "Dry",
+            "Nourin"
+        ],
+        "classeTerapeutica": "Produtos para incontinência urinária"
     },
     {
         "id": "med-00245",
         "nome": "Oxycontin",
         "principioAtivo": "Cloridrato de Oxicodona",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "10 MG COM REV LIB PROL CT BL AL PLAS PVC/PVDC TRANS X 14",
             "10 MG COM REV LIB PROL CT BL AL PLAS PVC/PVDC TRANS X 28",
@@ -14081,13 +15463,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 219.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Oxicodona",
+            "Oxypynal"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00246",
         "nome": "Aturgyl",
         "principioAtivo": "Cloridrato de Oximetazolina",
-        "descricao": "Descongestionantes nasais",
+        "descricao": "Descongestionante nasal. Desentope o nariz.",
         "apresentacoes": [
             "0,5 MG/ML SOL NASAL CT FR PLAS OPC SPRAY X 15 ML"
         ],
@@ -14106,13 +15492,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 19.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Oximetazolina"
+        ],
+        "classeTerapeutica": "Descongestionantes nasais"
     },
     {
         "id": "med-00247",
         "nome": "Aropax",
         "principioAtivo": "Cloridrato de Paroxetina",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "20 MG COM REV CT BL AL PLAS PVC TRANS X 30 "
         ],
@@ -14142,7 +15531,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Cloridrato de Paroxetina",
-                "precoBase": 48.0,
+                "precoBase": 48,
                 "registrosAnvisa": [
                     "1004308980024",
                     "1006302950030",
@@ -14192,13 +15581,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 428.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Paroxetina",
+            "Pondera",
+            "Paxil cr",
+            "Roxetin",
+            "Cebrilin",
+            "Parox"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00248",
         "nome": "Paxil cr",
         "principioAtivo": "Cloridrato de Paroxetina Hemi-hidratado",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "25 MG COM REV LIB MOD CT BL AL PLAS PVC OPC X 10  "
         ],
@@ -14267,13 +15664,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 141.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemi-hidratado",
+            "Roxetin xr",
+            "Pondera xr",
+            "Sincro xr",
+            "Cloridrato de Paroxetina",
+            "Paxtrat",
+            "Moratus"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00249",
         "nome": "Votrient",
         "principioAtivo": "Cloridrato de Pazopanibe",
-        "descricao": "Outros antineoplásicos inibidores da proteína kinase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "200 MG COM REV CT FR PLAS OPC X 30 ",
             "400 MG COM REV CT FR PLAS OPC X 30 ",
@@ -14296,13 +15702,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 5172.57,
-        "sinonimias": []
+        "sinonimias": [
+            "Pazopanibe",
+            "Renyb"
+        ],
+        "classeTerapeutica": "Outros antineoplásicos inibidores da proteína kinase"
     },
     {
         "id": "med-00250",
         "nome": "Pilocarpina",
         "principioAtivo": "Cloridrato de Pilocarpina",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "10 MG/ML SOL OCU CT FR PLAS TRANS GOT X 10 ML",
             "20 MG/ML SOL OCU CT FR PLAS TRANS GOT X 10 ML",
@@ -14323,13 +15733,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Pilocan"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00251",
         "nome": "Diaglits",
         "principioAtivo": "Cloridrato de Pioglitazona",
-        "descricao": "Antidiabéticos glitazonas puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "30 MG COM CT BL AL AL X 15",
             "30 MG COM CT BL AL AL X 30",
@@ -14481,13 +15894,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 72.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Pioglitazona",
+            "Piomi",
+            "Piotaz",
+            "Aglitil",
+            "Stanglit",
+            "Doble"
+        ],
+        "classeTerapeutica": "Antidiabéticos glitazonas puros"
     },
     {
         "id": "med-00252",
         "nome": "Fenergan",
         "principioAtivo": "Cloridrato de Prometazina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "25 MG COM REV CT BL AL PLAS TRANS X 20",
             "25 MG/ML SOL INJ IM CX 25 AMP VD AMB  X 2 ML"
@@ -14559,13 +15980,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Prometazina",
+            "Profergan",
+            "Promergan",
+            "Xômergan! Pós Picada",
+            "Pamergan",
+            "Lisador"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00253",
         "nome": "Ritmonorm",
         "principioAtivo": "Cloridrato de Propafenona",
-        "descricao": "Antiarrítmicos cardíacos",
+        "descricao": "Controla batimentos cardíacos irregulares (arritmia).",
         "apresentacoes": [
             "300 MG COM REV CT BL AL PLAS OPC X 10 ",
             "300 MG COM REV CT BL AL PLAS OPC X 30 ",
@@ -14629,13 +16058,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Propafenona",
+            "Vatis",
+            "Cadyr",
+            "Tuntá"
+        ],
+        "classeTerapeutica": "Antiarrítmicos cardíacos"
     },
     {
         "id": "med-00254",
         "nome": "Sanpronol",
         "principioAtivo": "Cloridrato de Propranolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "40 MG COM CT BL AL PLAS PVC AMB X 500"
         ],
@@ -14704,13 +16139,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 181.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Propranolol",
+            "Pranolal",
+            "Propranolom",
+            "Amprax",
+            "Polol"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00255",
         "nome": "Tylenol Sinus",
         "principioAtivo": "Cloridrato de Pseudoefedrina;paracetamol",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "500 MG + 30 MG COM REV CT BL AL/PAP PLAS PVDC TRANS X 24",
             "500 MG + 30 MG COM REV CT BL AL/PAP PLAS PVDC TRANS X 36"
@@ -14751,13 +16193,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloridrato de Pseudoefedrina",
+            "paracetamol",
+            "Emsfeb Efe",
+            "Paracetamol + Cloridrato de Pseudoefedrina",
+            "Resfegripe Sinus"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00256",
         "nome": "Evista",
         "principioAtivo": "Cloridrato de Raloxifeno",
-        "descricao": "Moduladores seletivos do receptor de estrogênio",
+        "descricao": "Atua nos receptores de estrogênio. Usado em osteoporose e em câncer de mama.",
         "apresentacoes": [
             "60 MG COM REV CT BL AL PLAS TRANS X 30"
         ],
@@ -14790,13 +16239,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 415.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Raloxifeno",
+            "Ralxfem"
+        ],
+        "classeTerapeutica": "Moduladores seletivos do receptor de estrogênio"
     },
     {
         "id": "med-00257",
         "nome": "Zoloft",
         "principioAtivo": "Cloridrato de Sertralina",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS PVC TRANS X 30",
             "50 MG COM REV CT BL AL PLAS PVC TRANS X 10",
@@ -14941,13 +16394,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 105.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Sertralina",
+            "Assert",
+            "Afetus",
+            "Ralzin",
+            "Serenata",
+            "Tolrest"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00258",
         "nome": "Renagel",
         "principioAtivo": "Cloridrato de Sevelâmer",
-        "descricao": "Produtos para hiperfosfatemia",
+        "descricao": "Reduz o fósforo no sangue (usado na doença renal crônica).",
         "apresentacoes": [
             "800 MG COM REV CT FR PLAS OPC X 180"
         ],
@@ -14971,13 +16432,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1898.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Sevelâmer",
+            "Sevclot"
+        ],
+        "classeTerapeutica": "Produtos para hiperfosfatemia"
     },
     {
         "id": "med-00259",
         "nome": "Cloridrato de Sibutramina Monoidratada",
         "principioAtivo": "Cloridrato de Sibutramina Monoidratado",
-        "descricao": "Preparações antiobesidade, exceto os dietéticos",
+        "descricao": "Auxiliar no tratamento da obesidade.",
         "apresentacoes": [
             "15 MG CAP GEL DURA CT BL AL PLAS TRANS X 30"
         ],
@@ -15037,13 +16502,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 98.13,
-        "sinonimias": []
+        "sinonimias": [
+            "reductil",
+            "sibutramina",
+            "Sigran",
+            "Vazy",
+            "Sibus",
+            "Cloridrato de Sibutramina"
+        ],
+        "classeTerapeutica": "Preparações antiobesidade, exceto os dietéticos"
     },
     {
         "id": "med-00260",
         "nome": "Cloridrato de Sotalol",
         "principioAtivo": "Cloridrato de Sotalol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "120 MG COM CT BL AL PLAS TRANS X 30 ",
             "160 MG COM CT BL AL PLAS PVC/PVDC TRANS X 30",
@@ -15068,13 +16541,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 86.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Sotalol"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00261",
         "nome": "Tasulil",
         "principioAtivo": "Cloridrato de Tansulosina",
-        "descricao": "Bph antagonistas alfa-adrenérgicos puros",
+        "descricao": "Usado para sintomas do aumento benigno da próstata.",
         "apresentacoes": [
             "0,4 MG CAP GEL DURA LIB PROL CT BL AL PLAS TRANS X 30"
         ],
@@ -15153,13 +16629,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 361.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Tansulosina",
+            "Tanzurys",
+            "Tansudart",
+            "Hproz",
+            "Usoleg",
+            "Stub"
+        ],
+        "classeTerapeutica": "Bph antagonistas alfa-adrenérgicos puros"
     },
     {
         "id": "med-00262",
         "nome": "Palexis® lp",
         "principioAtivo": "Cloridrato de Tapentadol",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "100 MG COM REV LIB PROL CT BL AL PLAS PVC/PVDC OPC X 30",
             "100 MG COM REV LIB PROL CT BL AL PLAS PVC/PVDC OPC X 60",
@@ -15193,13 +16677,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 111.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Tapentadol",
+            "Palexis"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00263",
         "nome": "Zior",
         "principioAtivo": "Cloridrato de Terbinafina",
-        "descricao": "Agentes sistêmicos para infecções fúngicas",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "250 MG COM CT BL AL PLAS  TRANS X 14",
             "250 MG COM CT BL AL PLAS  TRANS X 28"
@@ -15246,13 +16734,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 167.41,
-        "sinonimias": []
+        "sinonimias": [
+            "Terbinafina",
+            "Lakesiapes",
+            "Funtyl"
+        ],
+        "classeTerapeutica": "Agentes sistêmicos para infecções fúngicas"
     },
     {
         "id": "med-00264",
         "nome": "Tetramed",
         "principioAtivo": "Cloridrato de Tetraciclina",
-        "descricao": "Tetraciclinas e associações",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG CAP CX BL AL PLAS INC X 100 "
         ],
@@ -15281,13 +16774,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 165.16,
-        "sinonimias": []
+        "sinonimias": [
+            "Tetraciclina",
+            "Cinatrex"
+        ],
+        "classeTerapeutica": "Tetraciclinas e associações"
     },
     {
         "id": "med-00265",
         "nome": "Hipovit b",
         "principioAtivo": "Cloridrato de Tiamina",
-        "descricao": "Vitamina b1 pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "100 MG/ML SOL INJ IM/IV CX 100 AMP VD AMB X 1 ML",
             "100 MG/ML SOL INJ IM/IV CX 50 AMP VD AMB X 1 ML"
@@ -15343,13 +16840,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 965.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Tiamina",
+            "Naévia",
+            "Neurivit",
+            "Vitamina b1 Neo Química",
+            "Vitaum",
+            "Nervamin",
+            "Beneum"
+        ],
+        "classeTerapeutica": "Vitamina b1 pura"
     },
     {
         "id": "med-00266",
         "nome": "Plaketar",
         "principioAtivo": "Cloridrato de Ticlopidina",
-        "descricao": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "250 MG COM REV  CT BL AL PLAS TRANS X 30"
         ],
@@ -15367,13 +16873,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 111.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Ticlopidina"
+        ],
+        "classeTerapeutica": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato"
     },
     {
         "id": "med-00267",
         "nome": "Melleril",
         "principioAtivo": "Cloridrato de Tioridazina",
-        "descricao": "Antipsicóticos convencionais",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS TRANS X 20",
             "100 MG COM REV CT BL AL PLAS TRANS X 20",
@@ -15398,13 +16907,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 15.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Tioridazina",
+            "Unitidazin"
+        ],
+        "classeTerapeutica": "Antipsicóticos convencionais"
     },
     {
         "id": "med-00268",
         "nome": "Sirdalud",
         "principioAtivo": "Cloridrato de Tizanidina",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "2 MG COM CT BL AL PLAS TRANS X 30  "
         ],
@@ -15421,13 +16934,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 71.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Tizanidina"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00269",
         "nome": "Topotacx",
         "principioAtivo": "Cloridrato de Topotecana",
-        "descricao": "Agentes antineoplásicos camptotecinas",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "4 MG PO LIOF SOL INJ CT FA VD TRANS X 4 ML"
         ],
@@ -15444,13 +16960,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1954.19,
-        "sinonimias": []
+        "sinonimias": [
+            "Topotecana"
+        ],
+        "classeTerapeutica": "Agentes antineoplásicos camptotecinas"
     },
     {
         "id": "med-00270",
         "nome": "Tramal Retard",
         "principioAtivo": "Cloridrato de Tramadol",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "100 MG COM REV LIB PROL CT BL AL PLAS OPC X 10",
             "100 MG COM REV LIB PROL CT BL AL PLAS OPC X 20",
@@ -15497,7 +17016,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Cloridrato de Tramadol (port. 344/98, L-a2)",
-                "precoBase": 44.0,
+                "precoBase": 44,
                 "registrosAnvisa": [
                     "1037005030018"
                 ]
@@ -15547,13 +17066,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 85.85,
-        "sinonimias": []
+        "sinonimias": [
+            "tramal",
+            "tramadol",
+            "Tramadon",
+            "Novotram",
+            "Gésico"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00271",
         "nome": "Adorlan",
         "principioAtivo": "Cloridrato de Tramadol;diclofenaco Sódico",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "(25 + 25) MG COM CT BL AL PLAS PVC/PEBD/PVDC TRANS X 10",
             "(25 + 25) MG COM CT BL AL PLAS PVC/PEBD/PVDC TRANS X 20",
@@ -15597,13 +17123,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.75,
-        "sinonimias": []
+        "sinonimias": [
+            "tramal",
+            "tramadol",
+            "Cloridrato de Tramadol",
+            "diclofenaco Sódico",
+            "Cloridrato de Tramadol + Diclofenaco Sódico",
+            "Nusira"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00272",
         "nome": "Inseris xr",
         "principioAtivo": "Cloridrato de Trazodona",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "150 MG COM REV LIB PROL 24 H CT BL AL PLAS PVC/PVDC OPC X 10",
             "300 MG COM REV LIB PROL 24 H CT BL AL PLAS PVC/PVDC OPC X 10",
@@ -15750,13 +17284,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 70.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Trazodona",
+            "Sonic",
+            "Motraz",
+            "Azod",
+            "Donaren",
+            "Lumbra"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00273",
         "nome": "Valtrex",
         "principioAtivo": "Cloridrato de Valaciclovir",
-        "descricao": "Antivirais para herpes",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS TRANS X 10",
             "500 MG COM REV CT BL AL PLAS TRANS X 42"
@@ -15818,13 +17360,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 271.54,
-        "sinonimias": []
+        "sinonimias": [
+            "Valaciclovir",
+            "Vilaxy",
+            "Vanlure",
+            "Valaski",
+            "Denpryx",
+            "Herpstal"
+        ],
+        "classeTerapeutica": "Antivirais para herpes"
     },
     {
         "id": "med-00274",
         "nome": "Valcyte",
         "principioAtivo": "Cloridrato de Valganciclovir",
-        "descricao": "Antivirais para herpes",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "450 MG COM REV CT FR PLAS OPC X 60"
         ],
@@ -15841,13 +17391,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22413.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Valganciclovir"
+        ],
+        "classeTerapeutica": "Antivirais para herpes"
     },
     {
         "id": "med-00275",
         "nome": "Vancocina cp",
         "principioAtivo": "Cloridrato de Vancomicina",
-        "descricao": "Antibióticos glucopeptídeos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1 G PO SOL INJ CX 25 FA VD TRANS",
             "500 MG PO SOL INJ CX 25 FA VD TRANS"
@@ -15873,13 +17426,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1866.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Vancomicina",
+            "Vancoson"
+        ],
+        "classeTerapeutica": "Antibióticos glucopeptídeos"
     },
     {
         "id": "med-00276",
         "nome": "Efexor",
         "principioAtivo": "Cloridrato de Venlafaxina",
-        "descricao": "Antidepressivos snri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "150 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PCTFE TRANS X 30",
             "150 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PCTFE TRANS X 7",
@@ -16014,13 +17571,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 55.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Venlafaxina",
+            "Vensate lp",
+            "Venlaxin xr",
+            "Venlift od",
+            "Alenthus xr"
+        ],
+        "classeTerapeutica": "Antidepressivos snri"
     },
     {
         "id": "med-00277",
         "nome": "Dilacoron",
         "principioAtivo": "Cloridrato de Verapamil",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "120 MG COM REV RETARD CT BL AL PLAS PVC/PVDC TRANS X 20",
             "120MG COM REV RETARD CT BL AL PLAS PVC TRANS X 20",
@@ -16034,7 +17598,7 @@ const BANCO_MEDICAMENTOS = [
         "genericos": [
             {
                 "nome": "Cloridrato de Verapamil",
-                "precoBase": 35.0,
+                "precoBase": 35,
                 "registrosAnvisa": [
                     "1023506260091",
                     "1057306280026",
@@ -16045,13 +17609,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 69.9,
-        "sinonimias": []
+        "sinonimias": [
+            "Verapamil"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00278",
         "nome": "Geodon",
         "principioAtivo": "Cloridrato de Ziprasidona Monoidratado",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "40 MG CAP DURA CT BL AL AL X 14",
             "40 MG CAP DURA CT BL AL AL X 30",
@@ -16075,13 +17642,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 336.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Ziprasidona",
+            "Cloridrato de Ziprasidona"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00279",
         "nome": "Clordilon",
         "principioAtivo": "Clortalidona",
-        "descricao": "Diuréticos tiazidas e análogos puros",
+        "descricao": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço.",
         "apresentacoes": [
             "50 MG COM CT BL AL PLAS TRANS X 28",
             "50 MG COM CT BL AL PLAS TRANS X 30"
@@ -16111,13 +17682,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Clorotalidona"
+        ],
+        "classeTerapeutica": "Diuréticos tiazidas e análogos puros"
     },
     {
         "id": "med-00280",
         "nome": "Revert",
         "principioAtivo": "Clortalidona;atenolol",
-        "descricao": "Betabloqueadores associados com antihipertensivos e/ou diuréticos",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "100 MG + 25 MG COM CT BL AL PLAS PVC/PE/PVDC TRANS X 30",
             "50 MG + 12,5 MG COM CT BL AL PLAS PVC/PE/PVDC TRANS X 30"
@@ -16207,13 +17781,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.01,
-        "sinonimias": []
+        "sinonimias": [
+            "Clortalidona",
+            "atenolol",
+            "Angipress cd",
+            "Ablok Plus",
+            "Atenoclor",
+            "Atenolol + Clortalidona",
+            "Diublok",
+            "Atelidona"
+        ],
+        "classeTerapeutica": "Betabloqueadores associados com antihipertensivos e/ou diuréticos"
     },
     {
         "id": "med-00281",
         "nome": "Gino-canesten",
         "principioAtivo": "Clotrimazol",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "500 MG CAP MOLE VAG CT BL AL PLAS PVC/PVDC/PVC + APLIC"
         ],
@@ -16281,13 +17865,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 119.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Fungisten",
+            "Abc",
+            "Dermotrizol",
+            "Dermobene",
+            "Clotrimix"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00282",
         "nome": "Leponex",
         "principioAtivo": "Clozapina",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS PVC TRANS X 30",
             "100 MG COM CT BL AL PLAS PVC/PE/PVDC TRANS X 30",
@@ -16330,13 +17921,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 79.2,
-        "sinonimias": []
+        "sinonimias": [
+            "Pinazan",
+            "Okótico"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00283",
         "nome": "Dbriz Uno",
         "principioAtivo": "Colagenase",
-        "descricao": "Todos outros produtos para tratamento de feridas",
+        "descricao": "Protege e ajuda na recuperação da pele (assaduras, ressecamento, feridas).",
         "apresentacoes": [
             "0,6 U/G POM DERM CT 01 BG AL X 10 G + ESP PLAS",
             "0,6 U/G POM DERM CT 01 BG AL X 30 G + ESP PLAS"
@@ -16366,13 +17961,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Kollagenase",
+            "Iruxol Mono"
+        ],
+        "classeTerapeutica": "Todos outros produtos para tratamento de feridas"
     },
     {
         "id": "med-00284",
         "nome": "Kolpocervix",
         "principioAtivo": "Colagenase;cloranfenicol",
-        "descricao": "Todos outros produtos para tratamento de feridas",
+        "descricao": "Protege e ajuda na recuperação da pele (assaduras, ressecamento, feridas).",
         "apresentacoes": [
             "0,6 U/G + 0,01 G/G POM GINEC CT BG AL X 30 G + 6 APLIC"
         ],
@@ -16415,13 +18014,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 80.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Colagenase",
+            "cloranfenicol",
+            "Kollagenase Com Cloranfenicol",
+            "Dbriz",
+            "Iruxol"
+        ],
+        "classeTerapeutica": "Todos outros produtos para tratamento de feridas"
     },
     {
         "id": "med-00285",
         "nome": "Colchis",
         "principioAtivo": "Colchicina",
-        "descricao": "Antigotosos",
+        "descricao": "Usado para tratar ou prevenir crises de gota (ácido úrico alto).",
         "apresentacoes": [
             "0,5 MG COM CT BL AL PLAS PVC AMB X 20",
             "0,5 MG COM CT BL AL PLAS PVC AMB X 30",
@@ -16467,13 +18073,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 58.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Coxym",
+            "Cocichimil",
+            "Cixin"
+        ],
+        "classeTerapeutica": "Antigotosos"
     },
     {
         "id": "med-00286",
         "nome": "Dprev Gotas",
         "principioAtivo": "Colecalciferol",
-        "descricao": "Vitamina d pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "150000 UI/ML SOL GOT CT FR VD AMB X 4 ML + CGT"
         ],
@@ -16613,13 +18224,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 633.12,
-        "sinonimias": []
+        "sinonimias": [
+            "vitamina d",
+            "vitamina d3",
+            "depura",
+            "addera d3",
+            "Sof d",
+            "Dprev",
+            "Plex-d3 Vitamin",
+            "Vitamina d Cimed",
+            "Altad Caps Dura"
+        ],
+        "classeTerapeutica": "Vitamina d pura"
     },
     {
         "id": "med-00287",
         "nome": "Oscal d",
         "principioAtivo": "Colecalciferol;carbonato de Cálcio",
-        "descricao": "Produtos a base de cálcio",
+        "descricao": "Suplemento de cálcio (e às vezes vitamina D) para a saúde dos ossos.",
         "apresentacoes": [
             "500 MG + 400 UI COM REV CT FR PLAS OPC X 60"
         ],
@@ -16636,13 +18258,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 121.48,
-        "sinonimias": []
+        "sinonimias": [
+            "vitamina d",
+            "vitamina d3",
+            "depura",
+            "addera d3",
+            "Colecalciferol",
+            "carbonato de Cálcio",
+            "Osteofix"
+        ],
+        "classeTerapeutica": "Produtos a base de cálcio"
     },
     {
         "id": "med-00288",
         "nome": "Pasalix",
         "principioAtivo": "Crataegus Rhipidophylla Gand.;salix Alba L.;passiflora Incarnata",
-        "descricao": "Hipnóticos e sedativos herbáceos",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "100 MG + 30 MG + 100 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
             "100 MG + 30 MG + 100 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 30"
@@ -16662,13 +18293,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 72.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Crataegus Rhipidophylla Gand.",
+            "salix Alba L.",
+            "passiflora Incarnata",
+            "Serenus"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos herbáceos"
     },
     {
         "id": "med-00289",
         "nome": "Alcachofra Herbarium",
         "principioAtivo": "Cynara Scolymus l.",
-        "descricao": "Coleréticos e colecinéticos",
+        "descricao": "Auxiliar da função do fígado e da vesícula.",
         "apresentacoes": [
             "300 MG CAP DURA CT BL AL PLAS TRANS X 45"
         ],
@@ -16718,13 +18355,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 60.39,
-        "sinonimias": []
+        "sinonimias": [
+            "Alcachofrax",
+            "Alcachofra Multilab",
+            "Alcachofra Aspen Pharma",
+            "Alcachofra Natulab",
+            "Alcachofra Vidora"
+        ],
+        "classeTerapeutica": "Coleréticos e colecinéticos"
     },
     {
         "id": "med-00290",
         "nome": "Forxiga",
         "principioAtivo": "Dapagliflozina",
-        "descricao": "Antidiabéticos inibidores de sglt2, puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL AL X 14",
             "10 MG COM REV CT BL AL AL X 30",
@@ -16813,13 +18457,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 112.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Glif",
+            "Dapliza",
+            "Dapflow",
+            "Dapana",
+            "Edistride"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores de sglt2, puros"
     },
     {
         "id": "med-00291",
         "nome": "Dapagliflozina Propanodiol",
         "principioAtivo": "Dapagliflozina Propanodiol Monoidratado",
-        "descricao": "Antidiabéticos inibidores de sglt2, puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL AL X 30",
             "10 MG COM REV CT FR PLAS PEAD OPC X 30"
@@ -16847,13 +18498,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 146.45,
-        "sinonimias": []
+        "sinonimias": [
+            "Propanodiol",
+            "Juglint",
+            "Dapagle"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores de sglt2, puros"
     },
     {
         "id": "med-00292",
         "nome": "Sprycel",
         "principioAtivo": "Dasatinibe",
-        "descricao": "Inibidores preoteína kinase antineoplásicos, bcr-abl",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "20 MG COM REV CT FR PLAS PEAD OPC X 60"
         ],
@@ -16885,13 +18541,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12698.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Ladizac"
+        ],
+        "classeTerapeutica": "Inibidores preoteína kinase antineoplásicos, bcr-abl"
     },
     {
         "id": "med-00293",
         "nome": "Sprycel",
         "principioAtivo": "Dasatinibe Monoidratado",
-        "descricao": "Inibidores preoteína kinase antineoplásicos, bcr-abl",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG COM REV CT FR PLAS PEAD OPC X 30"
         ],
@@ -16930,13 +18589,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25217.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Dasatinibe",
+            "Dasnar",
+            "Zevuxa"
+        ],
+        "classeTerapeutica": "Inibidores preoteína kinase antineoplásicos, bcr-abl"
     },
     {
         "id": "med-00294",
         "nome": "Haldol Decanoato",
         "principioAtivo": "Decanoato de Haloperidol",
-        "descricao": "Antipsicóticos convencionais",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "50 MG/ML SOL INJ CX 5 AMP VD AMB X 1 ML"
         ],
@@ -16953,13 +18617,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 200.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Haloperidol",
+            "Decan Haloper"
+        ],
+        "classeTerapeutica": "Antipsicóticos convencionais"
     },
     {
         "id": "med-00295",
         "nome": "Exjade",
         "principioAtivo": "Deferasirox",
-        "descricao": "Agentes ferro-quelantes",
+        "descricao": "Remove o excesso de ferro do organismo.",
         "apresentacoes": [
             "125 MG COM SUS CT BL AL AL X 28",
             "125 MG COM SUS CT BL AL PLAS PVC/PE/PVDC TRANS X 28",
@@ -16996,13 +18664,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1634.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Desairon"
+        ],
+        "classeTerapeutica": "Agentes ferro-quelantes"
     },
     {
         "id": "med-00296",
         "nome": "Ferriprox",
         "principioAtivo": "Deferiprona",
-        "descricao": "Agentes ferro-quelantes",
+        "descricao": "Remove o excesso de ferro do organismo.",
         "apresentacoes": [
             "500 MG COM REV CT FR PLAS OPC X 100"
         ],
@@ -17019,13 +18690,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2590.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Ferriprox bd"
+        ],
+        "classeTerapeutica": "Agentes ferro-quelantes"
     },
     {
         "id": "med-00297",
         "nome": "Calcort",
         "principioAtivo": "Deflazacorte",
-        "descricao": "Corticosteróides orais puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "30 MG COM CT BL AL PLAS TRANS X 10",
             "6 MG COM CT BL AL PLAS TRANS X 20"
@@ -17056,13 +18730,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 105.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Deflaimmun"
+        ],
+        "classeTerapeutica": "Corticosteróides orais puros"
     },
     {
         "id": "med-00298",
         "nome": "Pediderm",
         "principioAtivo": "Deltametrina",
-        "descricao": "Ectoparasiticidas incluindo escabicidas",
+        "descricao": "Usado no tratamento de sarna (escabiose) e piolho.",
         "apresentacoes": [
             "0,2 MG/ML LOC CT FR PLAS OPC X 100 ML",
             "0,2 MG/ML SHAMPOO CT FR PLAS X 100 ML"
@@ -17097,13 +18774,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 28.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Delta - Ifal",
+            "Deltalab",
+            "Deltapil"
+        ],
+        "classeTerapeutica": "Ectoparasiticidas incluindo escabicidas"
     },
     {
         "id": "med-00299",
         "nome": "Desalex",
         "principioAtivo": "Desloratadina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "0,5 MG/ML XPE CT FR VD AMB X 100 ML + SER DOS",
             "0,5 MG/ML XPE CT FR VD AMB X 60 ML + SER DOS",
@@ -17233,13 +18915,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 70.16,
-        "sinonimias": []
+        "sinonimias": [
+            "Deconlerg",
+            "Esalerg Gotas",
+            "Superhist Odt",
+            "Lur Gotas",
+            "Ikaros"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00300",
         "nome": "Desalex D12",
         "principioAtivo": "Desloratadina;sulfato de Pseudoefedrina",
-        "descricao": "Preparações sistêmicas nasais",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "2,5 MG + 120 MG COM LIB MOD CT BL AL AL X 10"
         ],
@@ -17263,13 +18952,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.46,
-        "sinonimias": []
+        "sinonimias": [
+            "desalex",
+            "Desloratadina",
+            "sulfato de Pseudoefedrina",
+            "Lur D12",
+            "Esalerg D12"
+        ],
+        "classeTerapeutica": "Preparações sistêmicas nasais"
     },
     {
         "id": "med-00301",
         "nome": "Cerazette",
         "principioAtivo": "Desogestrel",
-        "descricao": "Preparações orais com progestagênios somente",
+        "descricao": "Hormônio progestagênio, usado em saúde da mulher e contracepção.",
         "apresentacoes": [
             "0,075 MG COM REV CT BL AL PLAS TRANS X 28",
             "0,075 MG COM REV CT BL AL PLAS TRANS X 84"
@@ -17350,13 +19046,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 63.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Melik",
+            "Mamades",
+            "Careli",
+            "Onua",
+            "Rubia"
+        ],
+        "classeTerapeutica": "Preparações orais com progestagênios somente"
     },
     {
         "id": "med-00302",
         "nome": "Adinos",
         "principioAtivo": "Desonida",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "0,5MG/G GEL CREM CT BG AL X 15 G",
             "0,5MG/G GEL CREM CT BG AL X 30 G"
@@ -17388,13 +19091,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.05,
-        "sinonimias": []
+        "sinonimias": [
+            "Desoskin"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00303",
         "nome": "Ozurdex",
         "principioAtivo": "Dexametasona",
-        "descricao": "Produtos antineovascularização ocular",
+        "descricao": "Injeção no olho para doenças da retina, como a degeneração macular.",
         "apresentacoes": [
             "0,7 MG IMPL IVIT BL APLIC CT"
         ],
@@ -17470,13 +19176,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 5887.2,
-        "sinonimias": []
+        "sinonimias": [
+            "decadron",
+            "Maxidex",
+            "Dexametasona + Sulfato de Neomicina + Sulfato de Polimixina b",
+            "Dexason",
+            "Cortidex"
+        ],
+        "classeTerapeutica": "Produtos antineovascularização ocular"
     },
     {
         "id": "med-00304",
         "nome": "Maxiflox d",
         "principioAtivo": "Dexametasona;cloridrato de Ciprofloxacino",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "(3,5 + 1) MG/G POM OFT CT BG AL X 3,5 G",
             "(3,5 + 1,0) MG/ML SUS OFT CT FR GOT PLAS OPC X 5 ML"
@@ -17497,13 +19210,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.04,
-        "sinonimias": []
+        "sinonimias": [
+            "decadron",
+            "Dexametasona",
+            "cloridrato de Ciprofloxacino",
+            "Cloridrato de Ciprofloxacino Monoidratado + Dexametasona"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00305",
         "nome": "Cilodex",
         "principioAtivo": "Dexametasona;cloridrato de Ciprofloxacino Monoidratado",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "(3 + 1) MG/ML SUS OFT CT FR GOT PLAS OPC X 5 ML"
         ],
@@ -17558,13 +19277,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.43,
-        "sinonimias": []
+        "sinonimias": [
+            "decadron",
+            "Dexametasona",
+            "cloridrato de Ciprofloxacino Monoidratado",
+            "Cloridrato de Ciprofloxacino + Dexametasona",
+            "Biancort",
+            "Bialudex",
+            "Cylocort",
+            "Ciprixin Dexa",
+            "Duodex"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00306",
         "nome": "Maxitrol",
         "principioAtivo": "Dexametasona;sulfato de Neomicina;sulfato de Polimixina b",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "(1 MG + 5 MG + 6.000 UI)/G POM OFT CT BG AL X 3,5 G",
             "(1 MG + 5 MG + 6.000 UI)/ML SUS OFT CT FR GOT PLAS PE TRANS X 5 ML"
@@ -17591,13 +19321,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25.47,
-        "sinonimias": []
+        "sinonimias": [
+            "decadron",
+            "Dexametasona",
+            "sulfato de Neomicina",
+            "sulfato de Polimixina b",
+            "Maxinom",
+            "Maxiview"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00307",
         "nome": "Tobradex",
         "principioAtivo": "Dexametasona;tobramicina",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "3,0 MG/G + 1,0 MG/G POM OFT CT BG AL X 3,5 G",
             "3,0 MG/ML + 1,0 MG/ML SUS OFT CT FR GOT PLAS TRANS X 5 ML"
@@ -17617,13 +19355,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.88,
-        "sinonimias": []
+        "sinonimias": [
+            "decadron",
+            "Dexametasona",
+            "tobramicina",
+            "Tobracort"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00308",
         "nome": "Frosiv",
         "principioAtivo": "Dexlansoprazol Sesqui-hidratado",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "30 MG CAP DURA LIB RETARD CT BL AL AL DESSEC X 30",
             "60 MG CAP DURA LIB RETARD CT BL AL AL DESSEC X 30"
@@ -17643,13 +19387,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 129.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Sesqui-hidratado",
+            "Dexlansoprazol"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00309",
         "nome": "Epitegel",
         "principioAtivo": "Dexpantenol",
-        "descricao": "Tônicos e vitaminas oftalmológicas",
+        "descricao": "Medicamento de uso nos olhos (colírio ou pomada oftálmica).",
         "apresentacoes": [
             "50 MG/G GEL OFT CT  BG PLAS PE AL OPC 10 G "
         ],
@@ -17701,13 +19449,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Depantex",
+            "Neopantol",
+            "Teupantol",
+            "Vit Pantenol",
+            "Dexprotenol",
+            "Cicatenol"
+        ],
+        "classeTerapeutica": "Tônicos e vitaminas oftalmológicas"
     },
     {
         "id": "med-00310",
         "nome": "Lacrima Plus",
         "principioAtivo": "Dextrana;hipromelose",
-        "descricao": "Lágrimas artificiais e lubrificantes oftamológicos",
+        "descricao": "Lágrima artificial. Lubrifica e alivia o ressecamento dos olhos.",
         "apresentacoes": [
             "1,0 MG/ML + 3,0 MG/ML SOL OFT CT FR GOT PLAS TRANS X 15 ML"
         ],
@@ -17724,13 +19480,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 34.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Dextrana",
+            "hipromelose",
+            "Lacribell"
+        ],
+        "classeTerapeutica": "Lágrimas artificiais e lubrificantes oftamológicos"
     },
     {
         "id": "med-00311",
         "nome": "Valium",
         "principioAtivo": "Diazepam",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS TRANS X 30",
             "5 MG COM CT BL AL PLAS TRANS X 30"
@@ -17796,13 +19557,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 27.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Diazepam nq",
+            "Relapax",
+            "Santiazepam"
+        ],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00312",
         "nome": "Bexai",
         "principioAtivo": "Diclofenaco",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "35 MG CAP DURA CT BL AL AL  X 10",
             "35 MG CAP DURA CT BL AL AL  X 20",
@@ -17846,13 +19612,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 35.63,
-        "sinonimias": []
+        "sinonimias": [
+            "voltaren",
+            "cataflam",
+            "biofenac",
+            "Diclofenaco Sódico",
+            "Diclofenaco Resinato",
+            "Fenaflan",
+            "Dorflan"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00313",
         "nome": "Flotac",
         "principioAtivo": "Diclofenaco Colestiramina",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "140 MG CAP  DURA CT BL AL PLAS TRANS X 10",
             "140 MG CAP DURA CT BL AL PLAS TRANS X 14",
@@ -17889,13 +19664,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 39.23,
-        "sinonimias": []
+        "sinonimias": [
+            "voltaren",
+            "cataflam",
+            "biofenac",
+            "Colestiramina",
+            "Dryltac"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00314",
         "nome": "Cataflampro",
         "principioAtivo": "Diclofenaco Dietilamônio",
-        "descricao": "Antirreumáticos e analgésicos tópicos",
+        "descricao": "Anti-inflamatório de uso na pele, para dores musculares e nas articulações.",
         "apresentacoes": [
             "11,6 MG/G GEL CT TB AL LAMIN X 150 G   ",
             "11,6 MG/G GEL CT TB AL LAMIN X 30 G  ",
@@ -17964,13 +19746,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.48,
-        "sinonimias": []
+        "sinonimias": [
+            "voltaren",
+            "cataflam",
+            "biofenac",
+            "Dietilamônio",
+            "Diflecbe",
+            "Fenaflan",
+            "Neocoflan",
+            "Cataflexym",
+            "Diclofenaco de Dietilamômio"
+        ],
+        "classeTerapeutica": "Antirreumáticos e analgésicos tópicos"
     },
     {
         "id": "med-00315",
         "nome": "Cataflam",
         "principioAtivo": "Diclofenaco Potássico",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS TRANS X 10",
             "50 MG COM REV CT BL AL PLAS TRANS X 20"
@@ -18023,13 +19816,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.35,
-        "sinonimias": []
+        "sinonimias": [
+            "voltaren",
+            "biofenac",
+            "Diclofenaco",
+            "Probenxil",
+            "Clofen k",
+            "Poltax"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00316",
         "nome": "Voltaren",
         "principioAtivo": "Diclofenaco Sódico",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "100 MG COM REV LIB PROL  CT BL AL PLAS PVC/PE/PVDC TRANS X 10",
             "25 MG/ML SOL INJ IM CT 5 AMP VD TRANS X 3 ML",
@@ -18103,13 +19904,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.55,
-        "sinonimias": []
+        "sinonimias": [
+            "cataflam",
+            "biofenac",
+            "Diclofenaco",
+            "Belfaren",
+            "Sodix",
+            "Dnaren",
+            "Neotaren"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00317",
         "nome": "Fenaflan d",
         "principioAtivo": "Diclofenaco de Potássio",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "50 MG COM SUS CT BL AL PLAS PVC/PVDC TRANS X 20"
         ],
@@ -18149,13 +19959,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.13,
-        "sinonimias": []
+        "sinonimias": [
+            "voltaren",
+            "cataflam",
+            "biofenac",
+            "Potássio",
+            "Benevran",
+            "Diclofenaco Potássico",
+            "Diclofenaco Resinato"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00318",
         "nome": "Betadine xr",
         "principioAtivo": "Dicloridrato de Betaistina",
-        "descricao": "Antivertiginosos",
+        "descricao": "Usado para tontura e vertigem (labirintite).",
         "apresentacoes": [
             "32 MG COM LIB PROL CT BL AL AL X 30",
             "32 MG COM LIB PROL CT BL AL AL X 60",
@@ -18214,13 +20033,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Betaistina",
+            "Labirin xr",
+            "Vitalia",
+            "Vitalia xr"
+        ],
+        "classeTerapeutica": "Antivertiginosos"
     },
     {
         "id": "med-00319",
         "nome": "Zyrtec",
         "principioAtivo": "Dicloridrato de Cetirizina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS INC X 12"
         ],
@@ -18238,13 +20063,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 93.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Cetirizina",
+            "Reactine"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00320",
         "nome": "Flunarin",
         "principioAtivo": "Dicloridrato de Flunarizina",
-        "descricao": "Antagonistas do cálcio com ação cerebral",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "10MG CAP DURA LIB PROL  CT BL AL PLAS TRANS X 60"
         ],
@@ -18284,13 +20113,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.44,
-        "sinonimias": []
+        "sinonimias": [
+            "Flunarizina",
+            "Vertix",
+            "Vertizan",
+            "Vertigium"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio com ação cerebral"
     },
     {
         "id": "med-00321",
         "nome": "Hixilerg",
         "principioAtivo": "Dicloridrato de Hidroxizina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "2 MG/ML SOL OR CT FR PLAS PET AMB X 120 ML + COP"
         ],
@@ -18354,13 +20189,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidroxizina",
+            "Hoxidrin",
+            "Cloridrato de Hidroxizina",
+            "Hixizine",
+            "Hidroalerg",
+            "Pruri-gran"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00322",
         "nome": "Zyxem",
         "principioAtivo": "Dicloridrato de Levocetirizina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "5 MG/ML SOL OR CT FR VD AMB + CTG X 20 ML",
             "5,0 MG COM REV CT BL AL AL X 10 "
@@ -18427,13 +20270,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 82.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Levocetirizina",
+            "Zalerv",
+            "Vocety",
+            "Rizi",
+            "Zina Odt",
+            "Zina"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00323",
         "nome": "Manivasc",
         "principioAtivo": "Dicloridrato de Manidipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS PVC/PVDC OPC X 14",
             "10 MG COM CT BL AL PLAS PVC/PVDC OPC X 28",
@@ -18457,13 +20308,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 111.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Manidipino"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00324",
         "nome": "Meclin",
         "principioAtivo": "Dicloridrato de Meclozina Monoidratado",
-        "descricao": "Outros antieméticos e antinauseantes",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "25 MG COM CT BL AL PLAS PVC/PVDC TRANS X 15",
             "50 MG COM CT BL AL PLAS PVC/PVDC TRANS X 15"
@@ -18497,13 +20351,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.97,
-        "sinonimias": []
+        "sinonimias": [
+            "Meclozina",
+            "Meclin Jet",
+            "Naucloz"
+        ],
+        "classeTerapeutica": "Outros antieméticos e antinauseantes"
     },
     {
         "id": "med-00325",
         "nome": "Rocky",
         "principioAtivo": "Dicloridrato de Pramipexol",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "0,25 MG COM CT BL AL AL X 30",
             "1,0 MG COM CT BL AL AL X 30"
@@ -18589,13 +20448,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 99.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Pramipexol",
+            "Stabil",
+            "Quera lp",
+            "Minérgi",
+            "Pisa",
+            "Sifrol"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00326",
         "nome": "Dicloridrato de Pramipexol",
         "principioAtivo": "Dicloridrato de Pramipexol Monoidratado",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "0,125 MG COM CT BL AL AL X 30",
             "0,250 MG COM CT BL AL AL X 30",
@@ -18640,13 +20507,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 41.1,
-        "sinonimias": []
+        "sinonimias": [
+            "Pramipexol",
+            "Quera",
+            "Minérgi",
+            "Stabil xr"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00327",
         "nome": "Vastarel Caps lp",
         "principioAtivo": "Dicloridrato de Trimetazidina",
-        "descricao": "Terapia coronaria excluindo antagonistas do cálcio e nitritos",
+        "descricao": "Melhora o aproveitamento de oxigênio pelo coração, aliviando a angina (dor no peito).",
         "apresentacoes": [
             "80 MG CAP DURA LIB PROL CT BL AL AL X 18",
             "80 MG CAP DURA LIB PROL CT BL AL AL X 30"
@@ -18738,13 +20611,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 133.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Trimetazidina",
+            "Vascor mr",
+            "Neovangy mr",
+            "Muskard",
+            "Quicard",
+            "Herzaten"
+        ],
+        "classeTerapeutica": "Terapia coronaria excluindo antagonistas do cálcio e nitritos"
     },
     {
         "id": "med-00328",
         "nome": "Allurene",
         "principioAtivo": "Dienogeste",
-        "descricao": "Progestógenos excluindo g3a, g3f",
+        "descricao": "Hormônio progestagênio, usado em saúde da mulher e contracepção.",
         "apresentacoes": [
             "2 MG COM CT ENVOL BL AL PLAS PVC TRANS X 28"
         ],
@@ -18820,13 +20701,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 248.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Alurax",
+            "Meluren",
+            "Diost",
+            "Alandre",
+            "Ludili ed"
+        ],
+        "classeTerapeutica": "Progestógenos excluindo g3a, g3f"
     },
     {
         "id": "med-00329",
         "nome": "Dramin",
         "principioAtivo": "Dimenidrinato",
-        "descricao": "Outros antieméticos e antinauseantes",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "25MG CAP MOLE CT BL AL PLAS PVC/PVDC TRANS X 10",
             "25MG CAP MOLE CT BL AL PLAS PVC/PVDC TRANS X 4 ",
@@ -18852,13 +20740,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14.9,
-        "sinonimias": []
+        "sinonimias": [
+            "Nausicalm Cápsula Mole"
+        ],
+        "classeTerapeutica": "Outros antieméticos e antinauseantes"
     },
     {
         "id": "med-00330",
         "nome": "Dramin b6",
         "principioAtivo": "Dimenidrinato;cloridrato de Piridoxina",
-        "descricao": "Outros antieméticos e antinauseantes",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "(25 + 5) MG/ML SOL GOT OR CT FR GOT PLAS PET AMB X 30 ML",
             "(50 + 10) MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30"
@@ -18905,13 +20796,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.62,
-        "sinonimias": []
+        "sinonimias": [
+            "Dimenidrinato",
+            "cloridrato de Piridoxina",
+            "Dimenidrinato + Cloridrato de Piridoxina",
+            "Dimenidrin",
+            "Nausilon b6",
+            "Nausicalm b6",
+            "Dramavit b6"
+        ],
+        "classeTerapeutica": "Outros antieméticos e antinauseantes"
     },
     {
         "id": "med-00331",
         "nome": "Lyberdia Gotas",
         "principioAtivo": "Dimesilato de Lisdexanfetamina",
-        "descricao": "Psicoestimulantes",
+        "descricao": "Estimulante do sistema nervoso central. Usado no TDAH e condições relacionadas.",
         "apresentacoes": [
             "40 MG/ML SOL GOT OR CT FR GOT PLAS PEAD/PEBD OPC X 50 ML"
         ],
@@ -19001,13 +20901,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 586.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Lisdexanfetamina",
+            "Lyx",
+            "Lisdev",
+            "Lind",
+            "Deksa",
+            "Lidexor"
+        ],
+        "classeTerapeutica": "Psicoestimulantes"
     },
     {
         "id": "med-00332",
         "nome": "Cafilisador",
         "principioAtivo": "Dipirona",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG + 65 MG COM CT BL AL PLAS AMB X 100",
             "500 MG + 65 MG COM CT BL AL PLAS AMB X 16"
@@ -19125,13 +21033,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.01,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "Dipirona Sódica",
+            "Duzor",
+            "Aberalgina",
+            "Dipirona Monoidratada",
+            "Dipimed"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00333",
         "nome": "Novalgina",
         "principioAtivo": "Dipirona Monoidratada",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "1 G COM  CT BL AL PLAS TRANS X 10",
             "1 G COM  CT BL AL PLAS TRANS X 100  ",
@@ -19259,13 +21177,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.45,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "anador",
+            "dipirona",
+            "Dipirona Sódica",
+            "Lisador Dip",
+            "Dipimed",
+            "Aspdip"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00334",
         "nome": "Buscopan Composto",
         "principioAtivo": "Dipirona Monoidratada;butilbrometo de Escopolamina",
-        "descricao": "Associações de antiespasmódicos com analgésicos",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "(10,0 + 250,0) MG  COM REV CT BL AL PLAS PVC TRANS X 120",
             "(10,0 + 250,0) MG COM REV CT BL AL PLAS PVC TRANS X 20",
@@ -19329,13 +21256,27 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.49,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "dipirona",
+            "Dipirona Monoidratada",
+            "butilbrometo de Escopolamina",
+            "Lisador Cólica",
+            "Buscoveran Composto",
+            "Espasmopan Composto",
+            "Neocopan Composto",
+            "Mirador Cólica",
+            "Dipbe Col"
+        ],
+        "classeTerapeutica": "Associações de antiespasmódicos com analgésicos"
     },
     {
         "id": "med-00335",
         "nome": "Doriless",
         "principioAtivo": "Dipirona Monoidratada;cloridrato de Prometazina;cloridrato de Adifenina",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "(333,33 + 6,67 + 3,33) MG/ML SOL OR CT FR GOT VD AMB X 15 ML"
         ],
@@ -19352,13 +21293,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 40.12,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "dipirona",
+            "Dipirona Monoidratada",
+            "cloridrato de Prometazina",
+            "cloridrato de Adifenina",
+            "Dorilen"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00336",
         "nome": "Neosaldina",
         "principioAtivo": "Dipirona Monoidratada;mucato de Isometepteno;cafeína",
-        "descricao": "Associações de antiespasmódicos com analgésicos",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "(600 + 60 + 60) MG COM REV CT BL AL PLAS PVC/PCTFE TRANS X 100"
         ],
@@ -19398,13 +21349,25 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 401.92,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "dipirona",
+            "Dipirona Monoidratada",
+            "mucato de Isometepteno",
+            "Ressalivdor",
+            "Sedamed",
+            "Nevralgex dc",
+            "Dipbe dc"
+        ],
+        "classeTerapeutica": "Associações de antiespasmódicos com analgésicos"
     },
     {
         "id": "med-00337",
         "nome": "Binospan Composto",
         "principioAtivo": "Dipirona;butilbrometo de Escopolamina",
-        "descricao": "Associações de antiespasmódicos com analgésicos",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "250 MG + 10 MG COM REV CT FR VD AMB X 20"
         ],
@@ -19430,13 +21393,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.36,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "Dipirona",
+            "butilbrometo de Escopolamina",
+            "Belspan",
+            "Dorspan"
+        ],
+        "classeTerapeutica": "Associações de antiespasmódicos com analgésicos"
     },
     {
         "id": "med-00338",
         "nome": "Dipirona + Cafeína",
         "principioAtivo": "Dipirona;cafeína Anidra",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG + 65 MG COM CT BL AL PLAS AMB X 100"
         ],
@@ -19454,13 +21426,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 171.8,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "Dipirona",
+            "Dorona Cafi"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00339",
         "nome": "Nevralgex",
         "principioAtivo": "Dipirona;citrato de Orfenadrina;cafeína Anidra",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "300 MG + 50 MG + 35 MG COM CT BL AL PLAS PVC TRANS X 100",
             "300 MG + 50 MG + 35 MG COM CT BL AL PLAS PVC TRANS X 30"
@@ -19497,13 +21476,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.6,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "Dipirona",
+            "citrato de Orfenadrina",
+            "Dortrirelax",
+            "Ana - Flex",
+            "Doricin"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00340",
         "nome": "Lisador",
         "principioAtivo": "Dipirona;cloridrato de Prometazina;cloridrato de Adifenina",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG + 5 MG + 10 MG COM CT BL AL PLAS AMB X 16",
             "500 MG + 5 MG + 10 MG COM CT BL AL PLAS AMB X 200",
@@ -19532,13 +21521,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.98,
-        "sinonimias": []
+        "sinonimias": [
+            "metamizol",
+            "novalgina",
+            "anador",
+            "Dipirona",
+            "cloridrato de Prometazina",
+            "cloridrato de Adifenina",
+            "Doriless",
+            "Dorilen"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00341",
         "nome": "Beclosol",
         "principioAtivo": "Dipropionato de Beclometasona",
-        "descricao": "Corticosteróides nasais sem antiinfecciosos",
+        "descricao": "Corticoide de uso nasal. Usado para rinite alérgica e congestão persistente.",
         "apresentacoes": [
             "50 MCG/DOSE SUS TOP CT FR PLAS X 200 DOSES"
         ],
@@ -19548,7 +21547,7 @@ const BANCO_MEDICAMENTOS = [
         "genericos": [
             {
                 "nome": "Dipropionato de Beclometasona",
-                "precoBase": 35.0,
+                "precoBase": 35,
                 "registrosAnvisa": [
                     "1005801190017",
                     "1005801190041",
@@ -19597,13 +21596,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 94.97,
-        "sinonimias": []
+        "sinonimias": [
+            "Beclometasona",
+            "Ailuk",
+            "Clenil Hfa",
+            "Clenil",
+            "Alerfin"
+        ],
+        "classeTerapeutica": "Corticosteróides nasais sem antiinfecciosos"
     },
     {
         "id": "med-00342",
         "nome": "Daivobet",
         "principioAtivo": "Dipropionato de Betametasona",
-        "descricao": "Antipsoríase tópicos",
+        "descricao": "Usado no tratamento da psoríase.",
         "apresentacoes": [
             "50 MCG/G + 0,5 MG/G GEL CT FR PLAS X 30 G ",
             "50 MCG/G + 0,5 MG/G POM DERM CT BG AL X 30 G"
@@ -19642,13 +21648,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 151.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Betametasona",
+            "Diprosone",
+            "Cortifar"
+        ],
+        "classeTerapeutica": "Antipsoríase tópicos"
     },
     {
         "id": "med-00343",
         "nome": "Fungicort",
         "principioAtivo": "Dipropionato de Betametasona;cetoconazol",
-        "descricao": "Corticoesteróides associados a antimicoticos",
+        "descricao": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas.",
         "apresentacoes": [
             "20 MG/G + 0,5 MG/G POM DERM CT BG AL X 30 G",
             "20 MG/G+ 0,5 MG/G CREM DERM CT BG AL X 30 G"
@@ -19718,13 +21729,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.56,
-        "sinonimias": []
+        "sinonimias": [
+            "Dipropionato de Betametasona",
+            "cetoconazol",
+            "Trok",
+            "Candicort",
+            "Cetoconazol+dipropionato de Betametasona",
+            "Cetoconazol + Dipropionato de Betametasona",
+            "Candigran",
+            "Cetoconazol+ Dipropionato de Betametasona"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antimicoticos"
     },
     {
         "id": "med-00344",
         "nome": "Diprospan",
         "principioAtivo": "Dipropionato de Betametasona;fosfato Dissódico de Betametasona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "5,0 MG/ML + 2,0 MG/ML SUS INJ CT AMP VD TRANS X 1 ML + SER ",
             "5,0 MG/ML + 2,0 MG/ML SUS INJ CT CAMA 6 AMP VD TRANS X 1 ML",
@@ -19784,14 +21805,24 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 53.0,
-        "sinonimias": []
+        "precoReferencia": 53,
+        "sinonimias": [
+            "Dipropionato de Betametasona",
+            "fosfato Dissódico de Betametasona",
+            "Dipropionato de Betametasona + Fosfato Dissódico de Betametasona",
+            "Fosfato Dissódico de Betametasona + Dipropionato de Betametasona",
+            "Beclonato",
+            "Betatrinta",
+            "Permese",
+            "Duoflam"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00345",
         "nome": "Diprogenta",
         "principioAtivo": "Dipropionato de Betametasona;sulfato de Gentamicina",
-        "descricao": "Corticoesteróides associados a antibacterianos",
+        "descricao": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas.",
         "apresentacoes": [
             "(0,5 + 1) MG/G CREM DERM CT  BG AL X 30 G ",
             "(0,5 + 1) MG/G POM DERM CT  BG AL X 30 G "
@@ -19835,13 +21866,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.32,
-        "sinonimias": []
+        "sinonimias": [
+            "Dipropionato de Betametasona",
+            "sulfato de Gentamicina",
+            "Trok-g",
+            "Dipropionato de Betametasona + Sulfato de Gentamicina",
+            "Betogenta"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antibacterianos"
     },
     {
         "id": "med-00346",
         "nome": "Diprosalic",
         "principioAtivo": "Dipropionato de Betametasona;ácido Salicílico",
-        "descricao": "Corticoesteróides associados a antibacterianos",
+        "descricao": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas.",
         "apresentacoes": [
             "0,64 MG/G + 30 MG/G POM CT BG AL X 30 G",
             "0,64 MG/ML + 20 MG/ML SOL TOP CT FR PLAS OPC X 30 ML"
@@ -19873,13 +21911,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Dipropionato de Betametasona",
+            "ácido Salicílico",
+            "Dipropionato de Betametasona + Ácido Salicílico",
+            "Dermosalic"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antibacterianos"
     },
     {
         "id": "med-00347",
         "nome": "Depakote",
         "principioAtivo": "Divalproato de Sódio",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "125 MG CAP DURA LIB RETARD CT FR VD AMB X 30",
             "125 MG CAP DURA LIB RETARD CT FR VD AMB X 60",
@@ -20016,13 +22060,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.44,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Gaba er",
+            "Duepoli er",
+            "Divalcon",
+            "Zeugma xr"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00348",
         "nome": "Tivicay",
         "principioAtivo": "Dolutegravir Sódico",
-        "descricao": "Antivirais hiv, inibidores da integrase",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "50 MG COM REV CT FR PLAS PEAD OPC X 30"
         ],
@@ -20048,13 +22099,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3779.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Dolutegravir",
+            "Tivicay pd"
+        ],
+        "classeTerapeutica": "Antivirais hiv, inibidores da integrase"
     },
     {
         "id": "med-00349",
         "nome": "Domped",
         "principioAtivo": "Domperidona",
-        "descricao": "Gastroprocinéticos",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "5 MG/ML SUS OR CT FR PLAS PE X 20 ML"
         ],
@@ -20130,13 +22185,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 64.18,
-        "sinonimias": []
+        "sinonimias": [
+            "motilium",
+            "Motiridona",
+            "Molidon",
+            "Peridal",
+            "Domperix",
+            "Dompgran"
+        ],
+        "classeTerapeutica": "Gastroprocinéticos"
     },
     {
         "id": "med-00350",
         "nome": "Vibramicina",
         "principioAtivo": "Doxiciclina Monoidratada",
-        "descricao": "Tetraciclinas e associações",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "100 MG COM SOL CT BL AL PLAS TRANS X 20"
         ],
@@ -20154,13 +22217,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 148.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Doxiciclina"
+        ],
+        "classeTerapeutica": "Tetraciclinas e associações"
     },
     {
         "id": "med-00351",
         "nome": "Vibral",
         "principioAtivo": "Dropropizina",
-        "descricao": "Antitussígenos puros",
+        "descricao": "Reduz a tosse seca.",
         "apresentacoes": [
             "1,5 MG/ML XPE PED CT FR PLAS AMB X 120 ML + COP",
             "3 MG/ML XPE ADU CT FR PLAS AMB X 120 ML + COP",
@@ -20228,13 +22294,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Ziptuss",
+            "Notuss Tss",
+            "Atossion",
+            "Neotoss",
+            "Gotas Binelli"
+        ],
+        "classeTerapeutica": "Antitussígenos puros"
     },
     {
         "id": "med-00352",
         "nome": "Slinda",
         "principioAtivo": "Drospirenona",
-        "descricao": "Preparações orais com progestagênios somente",
+        "descricao": "Hormônio progestagênio, usado em saúde da mulher e contracepção.",
         "apresentacoes": [
             "4 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 24 + 4 PLACEBOS",
             "4 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 48 + 8 PLACEBOS",
@@ -20257,13 +22330,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 134.05,
-        "sinonimias": []
+        "sinonimias": [
+            "Ammy"
+        ],
+        "classeTerapeutica": "Preparações orais com progestagênios somente"
     },
     {
         "id": "med-00353",
         "nome": "Angeliq",
         "principioAtivo": "Drospirenona;estradiol Hemi-hidratado",
-        "descricao": "Associações de estrógenos e progestógenos",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "(1,0 + 2,0) MG COM REV CT BL AL PLAS PVC TRANS X 28",
             "(1,0 + 2,0) MG COM REV CT BL AL PLAS PVC TRANS X 84"
@@ -20300,13 +22376,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 146.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Drospirenona",
+            "estradiol Hemi-hidratado",
+            "Estradiol + Drospirenona",
+            "Nuance",
+            "Ceci"
+        ],
+        "classeTerapeutica": "Associações de estrógenos e progestógenos"
     },
     {
         "id": "med-00354",
         "nome": "Avodart",
         "principioAtivo": "Dutasterida",
-        "descricao": "Bph inibidores da 5-alfa testosterona redutase (5-ari) puros",
+        "descricao": "Usado para sintomas do aumento benigno da próstata.",
         "apresentacoes": [
             "0,5 MG CAP MOLE CT BL AL PLAS OPC X 10",
             "0,5 MG CAP MOLE CT BL AL PLAS OPC X 30",
@@ -20344,13 +22427,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 123.5,
-        "sinonimias": []
+        "sinonimias": [
+            "Dastene",
+            "Droalfa"
+        ],
+        "classeTerapeutica": "Bph inibidores da 5-alfa testosterona redutase (5-ari) puros"
     },
     {
         "id": "med-00355",
         "nome": "Combodart",
         "principioAtivo": "Dutasterida;cloridrato de Tansulosina",
-        "descricao": "Bph combinações de alfa-antagonistas e inibidores da 5-alfa testosterona redutase",
+        "descricao": "Usado para sintomas do aumento benigno da próstata.",
         "apresentacoes": [
             "(0,5 + 0,4) MG CAP DURA LIB PROL CT FR PLAS OPC X 07",
             "(0,5 + 0,4) MG CAP DURA LIB PROL CT FR PLAS OPC X 30",
@@ -20402,13 +22489,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Dutasterida",
+            "cloridrato de Tansulosina",
+            "Dutasterida + Cloridrato de Tansulosina",
+            "Tanduo",
+            "Dutam",
+            "Dastene Duo"
+        ],
+        "classeTerapeutica": "Bph combinações de alfa-antagonistas e inibidores da 5-alfa testosterona redutase"
     },
     {
         "id": "med-00356",
         "nome": "Echinacea Vitalab",
         "principioAtivo": "Echinacea Purpurea (l.) Moench",
-        "descricao": "Preparação de origem herbácea promotora da defesa orgânica contra infecções",
+        "descricao": "Medicamento fitoterápico (à base de plantas).",
         "apresentacoes": [
             "250 MG CAP DURA CT FRAS PLAS PE OPC X  45"
         ],
@@ -20426,13 +22521,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 73.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Moench",
+            "Enax"
+        ],
+        "classeTerapeutica": "Preparação de origem herbácea promotora da defesa orgânica contra infecções"
     },
     {
         "id": "med-00357",
         "nome": "Revolade",
         "principioAtivo": "Eltrombopague Olamina",
-        "descricao": "Agonistas da trombopoetina",
+        "descricao": "Estimula a produção de plaquetas no sangue.",
         "apresentacoes": [
             "25 MG COM REV CT BL AL/AL X 14",
             "50 MG COM REV CT BL AL/AL X 14"
@@ -20454,13 +22553,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3541.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Olamina"
+        ],
+        "classeTerapeutica": "Agonistas da trombopoetina"
     },
     {
         "id": "med-00358",
         "nome": "Jardiance",
         "principioAtivo": "Empagliflozina",
-        "descricao": "Antidiabéticos inibidores de sglt2, puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS PVC TRANS X 10",
             "10 MG COM REV CT BL AL PLAS PVC TRANS X 30",
@@ -20598,13 +22700,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 108.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Empaflo",
+            "Empaglifozina",
+            "Glempa",
+            "Emp",
+            "Epag"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores de sglt2, puros"
     },
     {
         "id": "med-00359",
         "nome": "Aldijet",
         "principioAtivo": "Enantato de Estradiol;algestona Acetofenida",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "150 MG/ML + 10 MG/ML SOL INJ IM CT AMP VD AMB X 1 ML"
         ],
@@ -20653,13 +22762,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Enantato de Estradiol",
+            "algestona Acetofenida",
+            "Algestona Acetofenida + Enantato de Estradiol",
+            "Perlumes",
+            "Preg-less",
+            "Ciclovular",
+            "Pregnolan"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00360",
         "nome": "Ghemaxan",
         "principioAtivo": "Enoxaparina Sódica",
-        "descricao": "Heparinas fracionadas",
+        "descricao": "Age sobre a coagulação do sangue (previne ou dissolve coágulos, ou controla sangramentos).",
         "apresentacoes": [
             "100 MG SOL INJ CT 10 SER PREENC VD TRANS GRAD X 1,0 ML",
             "100 MG SOL INJ CT 10 SER PREENC VD TRANS GRAD X 1,0 ML + SIST SEGURANÇA",
@@ -20832,13 +22950,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 432.66,
-        "sinonimias": []
+        "sinonimias": [
+            "Enoxaparina",
+            "Enoxalow",
+            "Enoksa",
+            "Heptris",
+            "Heparinox",
+            "Volare",
+            "Cutenox"
+        ],
+        "classeTerapeutica": "Heparinas fracionadas"
     },
     {
         "id": "med-00361",
         "nome": "Comtan",
         "principioAtivo": "Entacapona",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "200 MG COM REV CT FR PLAS OPC X 30"
         ],
@@ -20856,13 +22983,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 308.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Entarkin"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00362",
         "nome": "Truvada",
         "principioAtivo": "Entricitabina;fumarato de Tenofovir Desoproxila",
-        "descricao": "Antivirais anti-hiv inibidores da transcriptase reversa nucleosídeos e nucleotídeos",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "(200+ 300) MG COM REV FR PLAS PEAD OPC X 30"
         ],
@@ -20887,13 +23017,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3786.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Entricitabina",
+            "fumarato de Tenofovir Desoproxila",
+            "Entricitabina + Fumarato de Tenofovir Desoproxila",
+            "Binav"
+        ],
+        "classeTerapeutica": "Antivirais anti-hiv inibidores da transcriptase reversa nucleosídeos e nucleotídeos"
     },
     {
         "id": "med-00363",
         "nome": "Mepivalem ad",
         "principioAtivo": "Epinefrina;cloridrato de Mepivacaína",
-        "descricao": "Anestésicos locais injetáveis odontológicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "20 MG/ML + 10 MCG/ML  SOL INJ CT 50 CAR PLAS TRANS X 1,8 ML"
         ],
@@ -20910,13 +23046,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 289.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Epinefrina",
+            "cloridrato de Mepivacaína",
+            "Mepiadre"
+        ],
+        "classeTerapeutica": "Anestésicos locais injetáveis odontológicos"
     },
     {
         "id": "med-00364",
         "nome": "Ofev",
         "principioAtivo": "Esilato de Nintedanibe",
-        "descricao": "Produtos de fibrose pulmonar idiopática",
+        "descricao": "Usado para retardar a progressão da fibrose pulmonar idiopática.",
         "apresentacoes": [
             "100 MG CAP MOLE CT BL AL AL X 60",
             "150 MG CAP MOLE CT BL AL AL X 60"
@@ -20969,13 +23110,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 15213.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Nintedanibe",
+            "Nindaxef",
+            "Oksana",
+            "Nidhi"
+        ],
+        "classeTerapeutica": "Produtos de fibrose pulmonar idiopática"
     },
     {
         "id": "med-00365",
         "nome": "Nexium",
         "principioAtivo": "Esomeprazol Magnésico",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "20 MG COM REV CT BL AL/AL X 7",
             "40 MG COM REV CT BL AL/AL X 7"
@@ -21061,13 +23208,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 71.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Magnésico",
+            "Ésio",
+            "Gaeso",
+            "Esomeprazol Magnésio Triidratado",
+            "Esomeprazol Magnésico Tri-hidratado",
+            "Esomex"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00366",
         "nome": "Nexium",
         "principioAtivo": "Esomeprazol Magnésico Tri-hidratado",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "20 MG COM REV CT  BL AL/AL X 14",
             "20 MG COM REV CT  BL AL/AL X 28",
@@ -21161,13 +23316,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 130.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Tri-hidratado",
+            "Esomeprazol Magnésico",
+            "Esogastro",
+            "Esmog",
+            "Esol xr",
+            "Esop"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00367",
         "nome": "Nexium iv",
         "principioAtivo": "Esomeprazol Sódico",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "40 MG PO LIOF SOL INJ IV CT 10 FA VD TRANS"
         ],
@@ -21191,13 +23354,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1042.44,
-        "sinonimias": []
+        "sinonimias": [
+            "nexium",
+            "Esomeprazol",
+            "Ésio"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00368",
         "nome": "Aldactone",
         "principioAtivo": "Espironolactona",
-        "descricao": "Agentes diuréticos poupadores potássio puros",
+        "descricao": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço.",
         "apresentacoes": [
             "100 MG COM CT  BL AL PLAS TRANS X 16",
             "25 MG COM CT BL AL PLAS TRANS X 30",
@@ -21237,13 +23405,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Diacqua"
+        ],
+        "classeTerapeutica": "Agentes diuréticos poupadores potássio puros"
     },
     {
         "id": "med-00369",
         "nome": "Vagifem",
         "principioAtivo": "Estradiol Hemi-hidratado",
-        "descricao": "Estrógenos excluindo g3a, g3e, g3f",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "10 MCG COM REV VAG CT ENVOL APLIC PREENC PLAS PE/PP OPC X 18"
         ],
@@ -21299,13 +23470,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 161.44,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemi-hidratado",
+            "Lenzetto",
+            "Natifa",
+            "Oestrogel",
+            "Estreva",
+            "Estradot",
+            "Systen"
+        ],
+        "classeTerapeutica": "Estrógenos excluindo g3a, g3e, g3f"
     },
     {
         "id": "med-00370",
         "nome": "Stezza",
         "principioAtivo": "Estradiol Hemi-hidratado;acetato de Nomegestrol",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios >=50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "(2,5 + 1,5) MG COM REV CT BL AL PLAS PVC TRANS X 24 + 4 PLACEBOS",
             "(2,5 + 1,5) MG COM REV CT BL AL PLAS PVC TRANS X 72 + 12 PLACEBOS "
@@ -21325,13 +23505,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 61.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Estradiol Hemi-hidratado",
+            "acetato de Nomegestrol",
+            "Iziz"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios >=50mcg"
     },
     {
         "id": "med-00371",
         "nome": "Ovestrion",
         "principioAtivo": "Estriol",
-        "descricao": "Estrógenos excluindo g3a, g3e, g3f",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "1 MG COM CT  BL AL PLAS TRANS X 30",
             "1 MG/G CREM VAG CT BG AL X 50G + APLIC"
@@ -21364,13 +23549,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Estrionil",
+            "Stele"
+        ],
+        "classeTerapeutica": "Estrógenos excluindo g3a, g3e, g3f"
     },
     {
         "id": "med-00372",
         "nome": "Prysma",
         "principioAtivo": "Eszopiclona",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "1 MG COM REV CT BL AL AL X 30",
             "2 MG COM REV CT BL AL AL X 20",
@@ -21469,13 +23658,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 92.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Eczo",
+            "Torrem",
+            "Soul",
+            "Ezonia",
+            "Hezo"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00373",
         "nome": "Erelzi",
         "principioAtivo": "Etanercepte",
-        "descricao": "Produtos anti-tnf( fator de necrose tumoral)",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "50 MG SOL INJ CT 4 CAN PREENC X 1 ML + SIST APLIC PLAS",
             "50 MG SOL INJ CT BL PLAS X 4 SER VD PREENC C/ AGU X 1 ML"
@@ -21525,13 +23721,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14816.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Nepexto",
+            "Brenzys",
+            "Enbrel Pfs",
+            "Enbrel"
+        ],
+        "classeTerapeutica": "Produtos anti-tnf( fator de necrose tumoral)"
     },
     {
         "id": "med-00374",
         "nome": "Dalyne",
         "principioAtivo": "Etinilestradiol",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "3 MG + 0,03 MG COM REV CT BL AL PLAS OPC X 63"
         ],
@@ -21556,13 +23758,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 277.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Lydian",
+            "Drospirenona + Etinilestradiol"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00375",
         "nome": "Diane 35",
         "principioAtivo": "Etinilestradiol;acetato de Ciproterona",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "(2,000+ 0,035) MG COM REV CT BL CALEND AL PLAS TRANS X 21",
             "(2,000+ 0,035) MG COM REV CT BL CALEND AL PLAS TRANS X 63"
@@ -21631,13 +23837,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "acetato de Ciproterona",
+            "Acetato de Ciproterona + Etinilestradiol",
+            "Acetato de Ciproterona+etinilestradiol",
+            "Artemidis 35",
+            "Diclin",
+            "Tess",
+            "Jaque"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00376",
         "nome": "Belara",
         "principioAtivo": "Etinilestradiol;acetato de Clormadinona",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "2 MG + 0,03 MG COM REV CT BL CALEND AL PLAS TRANS X 21",
             "2 MG + 0,03 MG COM REV CT BL CALEND AL PLAS TRANS X 21 + 7 PLACEBOS"
@@ -21717,13 +23933,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 70.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "acetato de Clormadinona",
+            "Acetato de Clormadinona + Etinilestradiol",
+            "Amora",
+            "Cherry",
+            "Amora 20",
+            "Beladiol",
+            "Lolita"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00377",
         "nome": "Mercilon",
         "principioAtivo": "Etinilestradiol;desogestrel",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "0,15 MG + 0,02 MG COM CT BL AL PLAS TRANS X 21",
             "0,15 MG + 0,02 MG COM CT BL AL PLAS TRANS X 63"
@@ -21786,13 +24012,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 67.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "desogestrel",
+            "Etinilestradiol+desogestrel",
+            "Desogestrel + Etinilestradiol",
+            "Primera 20",
+            "Primera 30",
+            "Minian",
+            "Malú"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00378",
         "nome": "Yasmin",
         "principioAtivo": "Etinilestradiol;drospirenona",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "(3 + 0,03)MG COM REV CT BL AL PLAS PVC TRANS  X 63 + 21",
             "(3 + 0,03)MG COM REV CT BL AL PLAS PVC TRANS X 21 + 7"
@@ -21888,13 +24124,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 120.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "drospirenona",
+            "Drospirenona + Etinilestradiol",
+            "Lyllas",
+            "Drospirenona+etinilestradiol",
+            "Diva 30",
+            "Drosperinona + Etinilestradiol",
+            "Elani Ciclo"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00379",
         "nome": "Nuvaring",
         "principioAtivo": "Etinilestradiol;etonogestrel",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "11,7 MG/2,7 MG ANEL VAG CT ENV AL/PLAS X 1 + 1 APLIC PLAS OPC"
         ],
@@ -21919,13 +24165,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 123.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "etonogestrel",
+            "Livanel",
+            "Exelring"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00380",
         "nome": "Gestinol",
         "principioAtivo": "Etinilestradiol;gestodeno",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "0,030 + 0,075 MG COM REV CT ENVOL BL AL PLAS TRANS X 28 + CALEND",
             "0,030 + 0,075 MG COM REV CT ENVOL BL AL PLAS TRANS X 84 + CALEND"
@@ -21988,13 +24240,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 71.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "gestodeno",
+            "Etinilestradiol + Gestodeno",
+            "Tantin",
+            "Micropil",
+            "Tâmisa 15",
+            "Gestodeno+etinilestradiol",
+            "Tâmisa"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00381",
         "nome": "Level",
         "principioAtivo": "Etinilestradiol;levonorgestrel",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "100 MCG + 20 MCG COM REV CT BL AL PLAS INC X 21",
             "100 MCG + 20 MCG COM REV CT BL AL PLAS INC X 63"
@@ -22054,13 +24316,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.57,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "levonorgestrel",
+            "Levonorgestrel + Etinilestradiol",
+            "Neovlar",
+            "Ciclo 21",
+            "Microvlar",
+            "Linofeme",
+            "Triquilar"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00382",
         "nome": "Miranova",
         "principioAtivo": "Etinilestradiol;levonorgestrel Micronizado",
-        "descricao": "Hormônios contraceptivos monofásicos com estrogênios <50mcg",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "(0,10 + 0,02) MG COM REV CT BL CALEND AL PLAS PVC/PVDC TRANS X 21"
         ],
@@ -22094,13 +24366,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Etinilestradiol",
+            "levonorgestrel Micronizado",
+            "Levonorgestrel + Etinilestradiol",
+            "Gestrelan",
+            "Nordette"
+        ],
+        "classeTerapeutica": "Hormônios contraceptivos monofásicos com estrogênios <50mcg"
     },
     {
         "id": "med-00383",
         "nome": "Flancox",
         "principioAtivo": "Etodolaco",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "300 MG COM REV CT BL AL PLAS PVC TRANS X 14  ",
             "300 MG COM REV CT BL AL PLAS PVC TRANS X 30",
@@ -22199,13 +24478,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.27,
-        "sinonimias": []
+        "sinonimias": [
+            "Ipaglin",
+            "Zutak",
+            "Ketalgi",
+            "Dore",
+            "Larc"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00384",
         "nome": "Implanon",
         "principioAtivo": "Etonogestrel",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "68 MG IMPLANTE CT BL X 1 APLIC"
         ],
@@ -22223,13 +24509,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1214.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Inserzi"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00385",
         "nome": "Arcoxia",
         "principioAtivo": "Etoricoxibe",
-        "descricao": "Coxibs",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "60 MG COM REV CT BL AL AL X 14 ",
             "60 MG COM REV CT BL AL AL X 7",
@@ -22330,7 +24619,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Torxis",
-                "precoBase": 24.0,
+                "precoBase": 24,
                 "registrosAnvisa": [
                     "1057300850017",
                     "1057300850025",
@@ -22339,7 +24628,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Etorben",
-                "precoBase": 24.0,
+                "precoBase": 24,
                 "registrosAnvisa": [
                     "1057300950011",
                     "1057300950021",
@@ -22359,13 +24648,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 63.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Alivetore",
+            "Xumer",
+            "Torxis",
+            "Etorben",
+            "Hetori"
+        ],
+        "classeTerapeutica": "Coxibs"
     },
     {
         "id": "med-00386",
         "nome": "Afinitor",
         "principioAtivo": "Everolimo",
-        "descricao": "Outros antineoplásicos inibidores da proteína kinase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "10 MG COM CT BL AL AL X 30",
             "2,5 MG COM CT BL AL AL X 30",
@@ -22434,13 +24730,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 6582.1,
-        "sinonimias": []
+        "sinonimias": [
+            "Certican",
+            "Exher",
+            "Torhanz"
+        ],
+        "classeTerapeutica": "Outros antineoplásicos inibidores da proteína kinase"
     },
     {
         "id": "med-00387",
         "nome": "Aromasin",
         "principioAtivo": "Exemestano",
-        "descricao": "Citostáticos inibidores da aromatase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "25 MG COM REV CT BL AL PLAS OPC X 30"
         ],
@@ -22472,13 +24773,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1628.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Emah",
+            "Proexty"
+        ],
+        "classeTerapeutica": "Citostáticos inibidores da aromatase"
     },
     {
         "id": "med-00388",
         "nome": "Fitovein Flux",
         "principioAtivo": "Extrato Seco de Aesculus Hippocastanum l.",
-        "descricao": "Vasoprotetores sistêmicos",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "254,54 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30"
         ],
@@ -22496,13 +24801,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 42.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Venocel"
+        ],
+        "classeTerapeutica": "Vasoprotetores sistêmicos"
     },
     {
         "id": "med-00389",
         "nome": "Hipericin",
         "principioAtivo": "Extrato Seco de Hypericum Perforatum l",
-        "descricao": "Antidepressivos de origem herbácea",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "300 MG CAP MOLE CT BL AL PLAS PVDC TRANS X 30"
         ],
@@ -22519,13 +24827,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 141.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Hipérico Herbarium"
+        ],
+        "classeTerapeutica": "Antidepressivos de origem herbácea"
     },
     {
         "id": "med-00390",
         "nome": "Valerance",
         "principioAtivo": "Extrato Seco de Valeriana Officinalis l.",
-        "descricao": "Hipnóticos e sedativos herbáceos",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "160 MG COM REV CT BL AL PLAS TRANS X 30"
         ],
@@ -22557,13 +24868,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 115.54,
-        "sinonimias": []
+        "sinonimias": [
+            "Valsed",
+            "Sonotabs",
+            "Valessone"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos herbáceos"
     },
     {
         "id": "med-00391",
         "nome": "Tebonin",
         "principioAtivo": "Extrato de Ginkgo Biloba",
-        "descricao": "Vasoterapêuticos cerebrais e periféricos, excluindo antoagonistas de cálcio com ação cerebral",
+        "descricao": "Melhora a circulação do sangue no cérebro e nas extremidades.",
         "apresentacoes": [
             "120 MG COM REV CT BL AL PLAS PVC TRANS X 30",
             "80 MG COM REV CT BL AL PLAS PVC TRANS X 10",
@@ -22586,13 +24902,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 88.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Biloba",
+            "Fitobiloba"
+        ],
+        "classeTerapeutica": "Vasoterapêuticos cerebrais e periféricos, excluindo antoagonistas de cálcio com ação cerebral"
     },
     {
         "id": "med-00392",
         "nome": "Ezetrol",
         "principioAtivo": "Ezetimiba",
-        "descricao": "Produtos reguladores de lípidios, outros",
+        "descricao": "Reduz o colesterol no sangue.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS TRANS X 30"
         ],
@@ -22672,13 +24992,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 241.38,
-        "sinonimias": []
+        "sinonimias": [
+            "Posicor",
+            "Emibazet",
+            "Coledue",
+            "Ezet",
+            "Zimiex"
+        ],
+        "classeTerapeutica": "Produtos reguladores de lípidios, outros"
     },
     {
         "id": "med-00393",
         "nome": "Vytorin",
         "principioAtivo": "Ezetimiba;sinvastatina",
-        "descricao": "Reguladores de gordura em combinação com outros reguladores de gordura",
+        "descricao": "Reduz os triglicérides (e um pouco o colesterol) no sangue.",
         "apresentacoes": [
             "(10 + 10) MG COM CT BL AL AL X 30",
             "(10+ 20) MG COM CT BL AL PLAS PVC/PCTFE OPC X 30",
@@ -22746,13 +25073,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 211.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Ezetimiba",
+            "sinvastatina",
+            "Zetsim",
+            "Sinvascor Eze",
+            "Ezetimiba + Sinvastatina",
+            "Ezetimiba+sinvastatina",
+            "Posicor Sin"
+        ],
+        "classeTerapeutica": "Reguladores de gordura em combinação com outros reguladores de gordura"
     },
     {
         "id": "med-00394",
         "nome": "Fampyra",
         "principioAtivo": "Fampridina",
-        "descricao": "Todos os outros produtos para o sistema nervoso central",
+        "descricao": "Medicamento da classe \"Todos os outros produtos para o sistema nervoso central\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10 MG COM REV LIB PROL CT BL AL AL X 28"
         ],
@@ -22769,13 +25105,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1120.66,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Todos os outros produtos para o sistema nervoso central"
     },
     {
         "id": "med-00395",
         "nome": "Fanclomax",
         "principioAtivo": "Fanciclovir",
-        "descricao": "Antivirais para herpes",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "250 MG COM CT BL AL PLAS TRANS X 21"
         ],
@@ -22793,13 +25130,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 657.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Penvir"
+        ],
+        "classeTerapeutica": "Antivirais para herpes"
     },
     {
         "id": "med-00396",
         "nome": "Alphanate",
         "principioAtivo": "Fator de Von Willebrand",
-        "descricao": "Fator viii",
+        "descricao": "Repõe um fator de coagulação do sangue. Usado na hemofilia.",
         "apresentacoes": [
             "1000 UI PO LIOF INJ CX FA VD INC + SER DIL X 10 ML + EQUIPO INFUS ",
             "500 UI PO LIOF INJ CX FA VD INC + SER DIL X 5 ML + EQUIPO INFUS "
@@ -22818,13 +25158,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3541.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Willebrand",
+            "Haemate p"
+        ],
+        "classeTerapeutica": "Fator viii"
     },
     {
         "id": "med-00397",
         "nome": "Citocaina",
         "principioAtivo": "Felipressina;cloridrato de Prilocaína",
-        "descricao": "Anestésicos locais injetáveis odontológicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "3 PCC + 0,03 UI / ML SOL INJ CT CX 50 CARP PLAS TRANS X 1,8 ML "
         ],
@@ -22848,13 +25192,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 298.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Felipressina",
+            "cloridrato de Prilocaína",
+            "Citanest 3% Com Octapressin",
+            "Prilonest"
+        ],
+        "classeTerapeutica": "Anestésicos locais injetáveis odontológicos"
     },
     {
         "id": "med-00398",
         "nome": "Seki",
         "principioAtivo": "Fendizoato de Cloperastina",
-        "descricao": "Antitussígenos puros",
+        "descricao": "Reduz a tosse seca.",
         "apresentacoes": [
             "3,54 MG/ML XPE CT FR VD AMB X 120 ML + COP",
             "35,4 MG/ML SUS OR CT FR VD AMB X 15 ML + CGT"
@@ -22894,13 +25244,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Cloperastina",
+            "Tilugen",
+            "Clope",
+            "Expecseccor"
+        ],
+        "classeTerapeutica": "Antitussígenos puros"
     },
     {
         "id": "med-00399",
         "nome": "Hidantal",
         "principioAtivo": "Fenitoína",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS LAR X 25",
             "100 MG COM CT BL AL PLAS LAR X 25 "
@@ -22929,13 +25285,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Dantalin"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00400",
         "nome": "Gardenal",
         "principioAtivo": "Fenobarbital",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS TRANS X 20",
             "40 MG/ML SOL OR PED CT FR VD AMB GOT X 20 ML",
@@ -22967,13 +25326,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 11.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Carbital"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00401",
         "nome": "Lipidil",
         "principioAtivo": "Fenofibrato",
-        "descricao": "Fibratos",
+        "descricao": "Reduz os triglicérides (e um pouco o colesterol) no sangue.",
         "apresentacoes": [
             "160 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30",
             "160 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 60",
@@ -23035,13 +25397,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 165.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Riduzi",
+            "Fenofibrato Micronizado",
+            "Fenobraty"
+        ],
+        "classeTerapeutica": "Fibratos"
     },
     {
         "id": "med-00402",
         "nome": "Pen-ve-oral",
         "principioAtivo": "Fenoximetilpenicilina Potássica",
-        "descricao": "Penicilinas de pequeno e médio espectros puras",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500.000 UI COM CT ENV AL PLAS X 12",
             "80.000 UI/ML PO SOL OR CT FR VD AMB X 60 ML + COP"
@@ -23061,13 +25428,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Fenoximetilpenicilina",
+            "Meracilina"
+        ],
+        "classeTerapeutica": "Penicilinas de pequeno e médio espectros puras"
     },
     {
         "id": "med-00403",
         "nome": "Nenfy",
         "principioAtivo": "Ferripolimaltose",
-        "descricao": "Ferro puro",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "100 MG COM MAST CT BL AL/AL X 30"
         ],
@@ -23138,13 +25509,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 75.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Comb Iso",
+            "Pamfer",
+            "Dexfer",
+            "Myrafer",
+            "Noripurum",
+            "Nori-1"
+        ],
+        "classeTerapeutica": "Ferro puro"
     },
     {
         "id": "med-00404",
         "nome": "Filgrastim",
         "principioAtivo": "Filgrastim",
-        "descricao": "Fatores estimulantes de colônias",
+        "descricao": "Estimula a produção de glóbulos brancos, geralmente após quimioterapia.",
         "apresentacoes": [
             "30 MU (300 MCG) SOL INJ CT 5 FA VD TRANS X 1 ML"
         ],
@@ -23172,13 +25551,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 4992.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Filgrastine"
+        ],
+        "classeTerapeutica": "Fatores estimulantes de colônias"
     },
     {
         "id": "med-00405",
         "nome": "Finarid",
         "principioAtivo": "Finasterida",
-        "descricao": "Bph inibidores da 5-alfa testosterona redutase (5-ari) puros",
+        "descricao": "Usado para sintomas do aumento benigno da próstata.",
         "apresentacoes": [
             "5MG COM REV CT BL AL AL X 30"
         ],
@@ -23245,13 +25627,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 188.48,
-        "sinonimias": []
+        "sinonimias": [
+            "proscar",
+            "propecia",
+            "Finalop",
+            "Finastil"
+        ],
+        "classeTerapeutica": "Bph inibidores da 5-alfa testosterona redutase (5-ari) puros"
     },
     {
         "id": "med-00406",
         "nome": "Disp h",
         "principioAtivo": "Flavonóides Expressos em Hesperidina;diosmina",
-        "descricao": "Vasoprotetores sistêmicos",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "(900 + 100) MG COM REV CT BL AL PLAS PCTFE TRANS X 30"
         ],
@@ -23360,13 +25748,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 259.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Flavonóides Expressos em Hesperidina",
+            "diosmina",
+            "Perivasc",
+            "Hismerid",
+            "Diovases",
+            "Passare",
+            "Flavenos",
+            "Dhivas"
+        ],
+        "classeTerapeutica": "Vasoprotetores sistêmicos"
     },
     {
         "id": "med-00407",
         "nome": "Zoltec",
         "principioAtivo": "Fluconazol",
-        "descricao": "Agentes sistêmicos para infecções fúngicas",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "100 MG CAP DURA CT  BL AL PLAS TRANS X 8",
             "150 MG CAP DURA CT BL AL PLAS TRANS X 1",
@@ -23466,13 +25864,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 113.47,
-        "sinonimias": []
+        "sinonimias": [
+            "flucazol",
+            "Flucol",
+            "Fluconid",
+            "Flucovil",
+            "Fueblo",
+            "Flucolcid"
+        ],
+        "classeTerapeutica": "Agentes sistêmicos para infecções fúngicas"
     },
     {
         "id": "med-00408",
         "nome": "Rohypnol",
         "principioAtivo": "Flunitrazepam",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "1 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
             "1 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 30"
@@ -23494,13 +25900,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Rohydorm"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00409",
         "nome": "Elotin",
         "principioAtivo": "Fluocinolona Acetonida;sulfato de Neomicina;sulfato de Polimixina B;cloridrato de Lidocaina",
-        "descricao": "Associações otológicas corticosteróides com antiinfecciosos",
+        "descricao": "Medicamento para o ouvido que combina anti-inflamatório com antibiótico.",
         "apresentacoes": [
             "0,275 MG/ML + 3,85 MG/ML + 11.000 UI/ML + 20 MG/ML SOL GOT OTO CX 50 FR GOT PLAS TRANS X 5 ML (EMB HOSP)"
         ],
@@ -23538,13 +25947,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 333.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluocinolona Acetonida",
+            "sulfato de Neomicina",
+            "sulfato de Polimixina B",
+            "cloridrato de Lidocaina",
+            "Otomixyn",
+            "Fluocinolona Acetonida + Sulfato de Polimixina b + Sulfato de Neomicina + Cloridrato de Lidocaina",
+            "Otosylase"
+        ],
+        "classeTerapeutica": "Associações otológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00410",
         "nome": "Hidroquinona+ Tretinoina + Fluocinolona Acetonida",
         "principioAtivo": "Fluocinolona Acetonida;tretinoína;hidroquinona",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "40 MG/G + 0,5 MG/G +0,1 MG/G  CREM DERM CT BG AL X 15 G ",
             "40 MG/G + 0,5 MG/G +0,1 MG/G CREM DERM CT BG AL X 30 G"
@@ -23566,7 +25984,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Trinulox",
-                "precoBase": 115.0,
+                "precoBase": 115,
                 "registrosAnvisa": [
                     "1023509330031"
                 ]
@@ -23582,13 +26000,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 153.45,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluocinolona Acetonida",
+            "tretinoína",
+            "hidroquinona",
+            "Hormoskin",
+            "Trinulox",
+            "Suavicid"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00411",
         "nome": "Efurix",
         "principioAtivo": "Fluoruracila",
-        "descricao": "Todos os outros antineoplásicos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "50 MG/G CREM DERM CT BG AL X 15 G "
         ],
@@ -23613,13 +26039,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.71,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Todos os outros antineoplásicos"
     },
     {
         "id": "med-00412",
         "nome": "Targus",
         "principioAtivo": "Flurbiprofeno",
-        "descricao": "Antiinflamatórios oftalmológicos não esteroidais",
+        "descricao": "Colírio para aliviar alergia e inflamação nos olhos.",
         "apresentacoes": [
             "40 MG (0,3 MG/CM2) ADES TRANS CT 1 SACH X 5 ADES + 1 BAND",
             "40 MG (0,3 MG/CM2) ADES TRANS CT 2 SACH X 5 ADES + 1 BAND"
@@ -23660,13 +26087,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Strepsils",
+            "Sabivarnex"
+        ],
+        "classeTerapeutica": "Antiinflamatórios oftalmológicos não esteroidais"
     },
     {
         "id": "med-00413",
         "nome": "Flutamida",
         "principioAtivo": "Flutamida",
-        "descricao": "Hormônios antiandrogênicos citostáticos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "250 MG COM CT BL AL PLAS TRANS X 20 "
         ],
@@ -23683,13 +26114,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 198.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Teflut"
+        ],
+        "classeTerapeutica": "Hormônios antiandrogênicos citostáticos"
     },
     {
         "id": "med-00414",
         "nome": "Corticoidex",
         "principioAtivo": "Fosfato Dissódico de Dexametasona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "4 MG/ML SOL INJ CX 50 AMP VD TRANS X 2,5 ML"
         ],
@@ -23723,13 +26157,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 920.56,
-        "sinonimias": []
+        "sinonimias": [
+            "Dexametasona",
+            "Decadron Injetável",
+            "Unidexa"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00415",
         "nome": "Vigadexa",
         "principioAtivo": "Fosfato Dissódico de Dexametasona;cloridrato de Moxifloxacino",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "(5 + 1) MG/ML SOL OFT CT FR GOT PLAS PEBD OPC X 5 ML"
         ],
@@ -23753,13 +26192,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 55.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Fosfato Dissódico de Dexametasona",
+            "cloridrato de Moxifloxacino",
+            "Zanty Duo",
+            "Facoba®"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00416",
         "nome": "Predsim Odt",
         "principioAtivo": "Fosfato Sódico de Prednisolona",
-        "descricao": "Corticosteróides orais puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "5 MG COM ORODISP CT BL AL AL X 10",
             "5 MG COM ORODISP CT BL AL AL X 20"
@@ -23847,13 +26292,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Prednisolona",
+            "Predsim",
+            "Prosolin",
+            "Prelone",
+            "Zastat"
+        ],
+        "classeTerapeutica": "Corticosteróides orais puros"
     },
     {
         "id": "med-00417",
         "nome": "Codein",
         "principioAtivo": "Fosfato de Codeína",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "3 MG/ML SOL OR CT FR VD AMB X 120 ML + SER DOS",
             "30 MG COM CT BL AL PLAS  PVC/PVDC TRANS X 30",
@@ -23879,13 +26331,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Codeína",
+            "Cod"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00418",
         "nome": "Codein",
         "principioAtivo": "Fosfato de Codeína Hemi-hidratado",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "30 MG COM CT BL AL PLAS  PVC/PE/PVDC TRANS X 30",
             "30 MG COM CT BL AL PLAS PVC/PE/PVDC TRANS X 12",
@@ -23925,13 +26381,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.67,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemi-hidratado",
+            "Fosfato de Codeína",
+            "Cod"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00419",
         "nome": "Codex",
         "principioAtivo": "Fosfato de Codeína Hemi-hidratado;paracetamol",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "(500,0 + 30,0) MG COM CT BL  AL PLAS PVC TRANS X 12",
             "(500,0 + 30,0) MG COM CT BL  AL PLAS PVC TRANS X 36"
@@ -23965,13 +26426,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 39.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Fosfato de Codeína Hemi-hidratado",
+            "paracetamol",
+            "Paracetamol + Fosfato de Codeína"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00420",
         "nome": "Tamiflu",
         "principioAtivo": "Fosfato de Oseltamivir",
-        "descricao": "Antivirais para influenza",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "30 MG CAP DURA CT BL AL PLAS TRANS X 10 ",
             "45 MG CAP DURA CT BL AL PLAS TRANS X 10",
@@ -24039,13 +26505,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 158.61,
-        "sinonimias": []
+        "sinonimias": [
+            "Oseltamivir",
+            "Oselflu",
+            "Oselguard",
+            "Uniflu",
+            "Globoflu",
+            "Gripxia"
+        ],
+        "classeTerapeutica": "Antivirais para influenza"
     },
     {
         "id": "med-00421",
         "nome": "Fosfato de Sitagliptina",
         "principioAtivo": "Fosfato de Sitagliptina",
-        "descricao": "Antidiabéticos inibidores dpp-iv  puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "100 MG COM REV  CT  BL  AL AL X 30",
             "100 MG COM REV CT BL AL AL X 30",
@@ -24081,13 +26555,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 57.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Sitagliptina",
+            "Sitar"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores dpp-iv  puros"
     },
     {
         "id": "med-00422",
         "nome": "Januvia",
         "principioAtivo": "Fosfato de Sitagliptina Monoidratado",
-        "descricao": "Antidiabéticos inibidores dpp-iv  puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL AL X 14",
             "100 MG COM REV CT BL AL AL X 28 ",
@@ -24155,13 +26633,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 90.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Sitagliptina",
+            "Fosfato de Sitagliptina",
+            "Sitglu",
+            "Nimegon"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores dpp-iv  puros"
     },
     {
         "id": "med-00423",
         "nome": "Monuril",
         "principioAtivo": "Fosfomicina Trometamol",
-        "descricao": "Todos os outros antibióticos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "5,631 G GRAN CT 2  ENV AL PE X 8 G",
             "5,631 G GRAN CT ENV AL PE X 8 G"
@@ -24222,13 +26706,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 77.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Trometamol",
+            "Myfos",
+            "Cystoren",
+            "Vizuria",
+            "Fosmoryl",
+            "Traturil"
+        ],
+        "classeTerapeutica": "Todos os outros antibióticos"
     },
     {
         "id": "med-00424",
         "nome": "Fumarato de Cetotifeno",
         "principioAtivo": "Fumarato de Cetotifeno",
-        "descricao": "Antiasmáticos/dpoc antiinflamatorios não esteroidais respiratórios sistêmicos",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "0,2 MG/ML XPE CT FR PLAS OPC X 120 ML + COP",
             "0,2 MG/ML XPE CX 50 FR PLAS AMB X 120 ML + 50 COP",
@@ -24256,13 +26748,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 62.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Cetotifeno",
+            "Octifen",
+            "Asmofen"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc antiinflamatorios não esteroidais respiratórios sistêmicos"
     },
     {
         "id": "med-00425",
         "nome": "Tecfidera",
         "principioAtivo": "Fumarato de Dimetila",
-        "descricao": "Produtos para esclerose múltipla",
+        "descricao": "Usado para reduzir surtos e a progressão da esclerose múltipla.",
         "apresentacoes": [
             "120 MG CAP DURA LIB RETARD CT BL AL PLAS OPC X 14",
             "240 MG CAP DURA LIB RETARD CT BL AL PLAS OPC X 56"
@@ -24305,13 +26802,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1286.3,
-        "sinonimias": []
+        "sinonimias": [
+            "Dimetila",
+            "Dyfucert"
+        ],
+        "classeTerapeutica": "Produtos para esclerose múltipla"
     },
     {
         "id": "med-00426",
         "nome": "Fluir",
         "principioAtivo": "Fumarato de Formoterol",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 longa ação inalante",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "12 MCG CAP DURA INAL OR CT BL AL AL X 20",
             "12 MCG CAP DURA INAL OR CT BL AL AL X 20 + INAL",
@@ -24337,13 +26838,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Formoterol",
+            "Formocaps"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 longa ação inalante"
     },
     {
         "id": "med-00427",
         "nome": "Dermotil Fusid",
         "principioAtivo": "Furoato de Mometasona",
-        "descricao": "Corticoesteróides associados a antibacterianos",
+        "descricao": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas.",
         "apresentacoes": [
             "1 MG/G + 20 MG/G CREM DERM CT BG AL X 10 G"
         ],
@@ -24404,13 +26909,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 82.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Mometasona",
+            "Topison",
+            "Oximax",
+            "M-lix",
+            "Nites"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antibacterianos"
     },
     {
         "id": "med-00428",
         "nome": "Nasonex®",
         "principioAtivo": "Furoato de Mometasona Monoidratado",
-        "descricao": "Corticosteróides nasais sem antiinfecciosos",
+        "descricao": "Corticoide de uso nasal. Usado para rinite alérgica e congestão persistente.",
         "apresentacoes": [
             "0,5 MG/G SUS SPR NAS CT FR SPR PLAS PEAD OPC X 120 ACIONAMENTOS",
             "0,5 MG/G SUS SPR NAS CT FR SPR PLAS PEAD OPC X 60 ACIONAMENTOS"
@@ -24468,13 +26980,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 87.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Mometasona",
+            "Furoato de Mometasona",
+            "Momate",
+            "Ventus",
+            "Monax",
+            "Amome"
+        ],
+        "classeTerapeutica": "Corticosteróides nasais sem antiinfecciosos"
     },
     {
         "id": "med-00429",
         "nome": "Lasix",
         "principioAtivo": "Furosemida",
-        "descricao": "Diuréticos de alça puros",
+        "descricao": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço.",
         "apresentacoes": [
             "10 MG/ML SOL INJ CT 5 AMP VD AMB X 2 ML",
             "40 MG COM CT BL AL PLAS TRANS X 20 "
@@ -24556,13 +27076,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Furosetron",
+            "Neosemid",
+            "Diuremida"
+        ],
+        "classeTerapeutica": "Diuréticos de alça puros"
     },
     {
         "id": "med-00430",
         "nome": "Gapem",
         "principioAtivo": "Gabapentina",
-        "descricao": "Gabapentinoides",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "300 MG CAP DURA CT BL AL PLAS TRANS X 15",
             "300 MG CAP DURA CT BL AL PLAS TRANS X 30",
@@ -24649,13 +27174,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 80.07,
-        "sinonimias": []
+        "sinonimias": [
+            "neurontin",
+            "Gabaneurin",
+            "Empak"
+        ],
+        "classeTerapeutica": "Gabapentinoides"
     },
     {
         "id": "med-00431",
         "nome": "Zymar",
         "principioAtivo": "Gatifloxacino",
-        "descricao": "Antiinfeccios oftalmológicos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "3 MG/ML SOL OFT CT FR PLAS OPC GOT X 5 ML",
             "5 MG/ML SOL OFT CT FR PLAS OPC GOT X 3 ML",
@@ -24676,13 +27206,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Orbiflox"
+        ],
+        "classeTerapeutica": "Antiinfeccios oftalmológicos"
     },
     {
         "id": "med-00432",
         "nome": "Iressa",
         "principioAtivo": "Gefitinibe",
-        "descricao": "Inibidores preoteína kinase antineoplásicos, egfr",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "250 MG COM REV CT ENV X BL AL/PLAS TRANSP X 30"
         ],
@@ -24729,13 +27262,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 8552.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Pulge",
+            "Timb",
+            "Tykiticip",
+            "Kigefo"
+        ],
+        "classeTerapeutica": "Inibidores preoteína kinase antineoplásicos, egfr"
     },
     {
         "id": "med-00433",
         "nome": "Tanakan",
         "principioAtivo": "Ginkgo Biloba l.",
-        "descricao": "Vasoterapêuticos cerebrais e periféricos, excluindo antoagonistas de cálcio com ação cerebral",
+        "descricao": "Melhora a circulação do sangue no cérebro e nas extremidades.",
         "apresentacoes": [
             "120 MG COM REV CT BL AL PLAS PVC/PVDC INC X 20",
             "120 MG COM REV CT BL AL PLAS PVC/PVDC INC X 30",
@@ -24791,7 +27330,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Ginkgo Biloba Laboratórios Osório de Moraes",
-                "precoBase": 57.0,
+                "precoBase": 57,
                 "registrosAnvisa": [
                     "1050400540039",
                     "1050400540136"
@@ -24799,13 +27338,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 160.53,
-        "sinonimias": []
+        "sinonimias": [
+            "Ginkgo Catarinense",
+            "Ginkomed",
+            "Ginkocaps",
+            "Equitam",
+            "Ginkgo Vidora",
+            "Ginkgo Biloba Laboratórios Osório de Moraes"
+        ],
+        "classeTerapeutica": "Vasoterapêuticos cerebrais e periféricos, excluindo antoagonistas de cálcio com ação cerebral"
     },
     {
         "id": "med-00434",
         "nome": "Daonil",
         "principioAtivo": "Glibenclamida",
-        "descricao": "Antidiabéticos sulfonilouréias puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "5 MG COM CT  BL AL PLAS TRANS X 30 "
         ],
@@ -24853,13 +27400,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.47,
-        "sinonimias": []
+        "sinonimias": [
+            "Gliconil",
+            "Glicamin",
+            "Glionil"
+        ],
+        "classeTerapeutica": "Antidiabéticos sulfonilouréias puros"
     },
     {
         "id": "med-00435",
         "nome": "Diamicron",
         "principioAtivo": "Gliclazida",
-        "descricao": "Antidiabéticos sulfonilouréias puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "30 MG COM LIB PROL CT BL AL PLAS PVC TRANS X 30 ",
             "30 MG COM LIB PROL CT BL AL PLAS PVC TRANS X 60",
@@ -24960,13 +27512,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Azukon mr",
+            "Diatarcom mr",
+            "Clazi xr",
+            "Dagli",
+            "Dicazid mr"
+        ],
+        "classeTerapeutica": "Antidiabéticos sulfonilouréias puros"
     },
     {
         "id": "med-00436",
         "nome": "Gliansor",
         "principioAtivo": "Glimepirida",
-        "descricao": "Antidiabéticos sulfonilouréias puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "2MG COM CT BL AL PLAS OPC X 30",
             "4MG COM CT BL AL PLAS OPC X 30"
@@ -25036,13 +27595,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 57.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Betes",
+            "Glimepil"
+        ],
+        "classeTerapeutica": "Antidiabéticos sulfonilouréias puros"
     },
     {
         "id": "med-00437",
         "nome": "Hizofito",
         "principioAtivo": "Glycine Max (l.) Merr.",
-        "descricao": "Moduladores seletivos do receptor de estrogênio",
+        "descricao": "Atua nos receptores de estrogênio. Usado em osteoporose e em câncer de mama.",
         "apresentacoes": [
             "150 MG CAP DURA CT BL AL PLAS PVC TRANS X 30 "
         ],
@@ -25085,13 +27648,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 116.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Merr.",
+            "Buona",
+            "Soyfemme",
+            "Soynati",
+            "Isoflavine"
+        ],
+        "classeTerapeutica": "Moduladores seletivos do receptor de estrogênio"
     },
     {
         "id": "med-00438",
         "nome": "Xarope Vick",
         "principioAtivo": "Guaifenesina",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "13,3 MG/ML XPE FR PLAS TRANS X 120 ML ",
             "16 MG/ML XPE FR PLAS TRANS X 100 ML ( MEL) "
@@ -25150,13 +27720,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 45.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Frenotosse",
+            "Expectovic",
+            "Expectoflui",
+            "Xarope Cimetosse",
+            "Glyteol"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00439",
         "nome": "Haldol",
         "principioAtivo": "Haloperidol",
-        "descricao": "Antipsicóticos convencionais",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "1 MG COM CT BL AL PLAS TRANS X 20",
             "2 MG/ML SOL GOT OR CT FR GOT PLAS OPC X 30 ML",
@@ -25195,13 +27772,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 9.41,
-        "sinonimias": []
+        "sinonimias": [
+            "Halo",
+            "Uni Haloper"
+        ],
+        "classeTerapeutica": "Antipsicóticos convencionais"
     },
     {
         "id": "med-00440",
         "nome": "Permear",
         "principioAtivo": "Harpagophytum Procumbens Dc. ex Meissn.",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "300 MG COM REV LIB RETARD CT BL AL PLAS TRANS X 20",
             "300 MG COM REV LIB RETARD CT BL AL PLAS TRANS X 30"
@@ -25228,13 +27809,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 172.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Meissn.",
+            "Arpadol",
+            "Arpynflan"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00441",
         "nome": "Flyare",
         "principioAtivo": "Hedera Helix (hera)",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "7 MG/ML XPE CT FR VD AMB X 100ML + COP "
         ],
@@ -25282,13 +27868,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Liberaflux",
+            "Brondelix",
+            "Hedra Expec",
+            "Blumel Hedera",
+            "Abrilar"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00442",
         "nome": "Torante",
         "principioAtivo": "Hedera Helix l.",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "15 MG/ML XPE CT FR VD AMB X 100 ML + COP",
             "15 MG/ML XPE CT FR VD AMB X 200 ML + COP"
@@ -25345,13 +27938,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 69.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Hederax",
+            "Resplix",
+            "Expulsatox",
+            "Hederaflux",
+            "Hedera Catarinense",
+            "Resfefito"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00443",
         "nome": "Concor",
         "principioAtivo": "Hemifumarato de Bisoprolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "1,25 MG COM REV CT BL AL AL X 14",
             "1,25 MG COM REV CT BL AL AL X 20",
@@ -25489,13 +28090,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 51.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Bisoprolol",
+            "Laio",
+            "Bizo",
+            "Iccor",
+            "Concárdio"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00444",
         "nome": "Quetipin so",
         "principioAtivo": "Hemifumarato de Quetiapina",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "12,5 MG/ML PO SUS OR CT FR PLAS PEAD OPC + DIL FR VD AMB X 60 ML + SER DOS",
             "25 MG/ML PO SUS OR CT FR PLAS PEAD OPC + DIL FR VD AMB X 60 ML + SER DOS"
@@ -25641,13 +28249,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 178.43,
-        "sinonimias": []
+        "sinonimias": [
+            "Quetiapina",
+            "Neotiapim",
+            "Quet",
+            "Quetipin",
+            "Quet xr",
+            "Quepsia lp"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00445",
         "nome": "Xylestesin Com Norepinefrina",
         "principioAtivo": "Hemitartarato de Norepinefrina;cloridrato de Lidocaina",
-        "descricao": "Anestésicos locais injetáveis odontológicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "20 MG/ML + 0,04 MG/ML SOL INJ CX 50 CARP PLAS OPC X 1,8 ML USO PROFISSIONAL"
         ],
@@ -25665,13 +28281,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 298.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemitartarato de Norepinefrina",
+            "cloridrato de Lidocaina",
+            "Lidostesim"
+        ],
+        "classeTerapeutica": "Anestésicos locais injetáveis odontológicos"
     },
     {
         "id": "med-00446",
         "nome": "Exelon",
         "principioAtivo": "Hemitartarato de Rivastigmina",
-        "descricao": "Produtos antialzheimer, inibidores da colinesterase",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "1,5 MG CAP DURA CT BL AL PVC/PE/PVDC X 28",
             "3,0 MG CAP DURA CT BL AL PVC/PE/PVDC X 28",
@@ -25723,13 +28344,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 327.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Rivastigmina",
+            "Vastigma"
+        ],
+        "classeTerapeutica": "Produtos antialzheimer, inibidores da colinesterase"
     },
     {
         "id": "med-00447",
         "nome": "Patz Gts",
         "principioAtivo": "Hemitartarato de Zolpidem",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "10 MG/ML SOL GOT OR CT FR GOT PLAS PET AMB X 20 ML"
         ],
@@ -25914,13 +28539,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 202.38,
-        "sinonimias": []
+        "sinonimias": [
+            "Zolpidem",
+            "Patz cr",
+            "Noctiden",
+            "Zoaf",
+            "Nuit Long xr",
+            "Insonox"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00448",
         "nome": "Hepamax-s",
         "principioAtivo": "Heparina Sódica Suína",
-        "descricao": "Heparinas não fracionada",
+        "descricao": "Age sobre a coagulação do sangue (previne ou dissolve coágulos, ou controla sangramentos).",
         "apresentacoes": [
             "5000 UI/ML SOL INJ CT C/ 1 FA VD TRANS X 10 ML",
             "5000 UI/ML SOL INJ CX C/ 100 FA VD TRANS X 10 ML",
@@ -25944,13 +28577,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 142.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Suína",
+            "Trombofob Gel"
+        ],
+        "classeTerapeutica": "Heparinas não fracionada"
     },
     {
         "id": "med-00449",
         "nome": "Diosmin Sdu",
         "principioAtivo": "Hesperidina;diosmina",
-        "descricao": "Vasoprotetores sistêmicos",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "900 MG + 100 MG GRAN CT 15 ENV PAP/AL/PLAS PE X 5 G (SABOR LARANJA/LIMÃO)",
             "900 MG + 100 MG GRAN CT 30 ENV PAP/AL/PLAS PE X 5 G (SABOR ABACAXI)",
@@ -26023,13 +28660,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Hesperidina",
+            "diosmina",
+            "Diosmin",
+            "Venoxide",
+            "Biovarixon",
+            "Dioplex dh",
+            "Daflon",
+            "Waryz"
+        ],
+        "classeTerapeutica": "Vasoprotetores sistêmicos"
     },
     {
         "id": "med-00450",
         "nome": "Euflexxa",
         "principioAtivo": "Hialuronato de Sódio",
-        "descricao": "Todos os outros fármacos com ação músculo-esquelética",
+        "descricao": "Medicamento da classe \"Todos os outros fármacos com ação músculo-esquelética\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10 MG/ML SOL INJ CT 3 SER PRENC VD INC X 2 ML"
         ],
@@ -26087,13 +28734,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1545.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Laxime",
+            "Lunah",
+            "Hiluropt",
+            "Hylo-comod",
+            "Hylo-gel",
+            "Polireumin"
+        ],
+        "classeTerapeutica": "Todos os outros fármacos com ação músculo-esquelética"
     },
     {
         "id": "med-00451",
         "nome": "Clorana",
         "principioAtivo": "Hidroclorotiazida",
-        "descricao": "Diuréticos tiazidas e análogos puros",
+        "descricao": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço.",
         "apresentacoes": [
             "25 MG COM CT BL AL PLAS TRANS X 30",
             "50 MG COM CT BL AL PLAS TRANS X 20"
@@ -26159,13 +28815,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidroless",
+            "Diurezin",
+            "Diurix"
+        ],
+        "classeTerapeutica": "Diuréticos tiazidas e análogos puros"
     },
     {
         "id": "med-00452",
         "nome": "Atacand Hct",
         "principioAtivo": "Hidroclorotiazida;candesartana Cilexetila",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "16 MG + 12,5 MG COM CT  BL AL PLAS TRANS X 10",
             "16 MG + 12,5 MG COM CT  BL AL PLAS TRANS X 30",
@@ -26218,13 +28879,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 76.56,
-        "sinonimias": []
+        "sinonimias": [
+            "clorana",
+            "Hidroclorotiazida",
+            "candesartana Cilexetila",
+            "Venzer Hct",
+            "Candesartana Cilexetila+hidroclorotiazida",
+            "Candesartana Cilexetila + Hidroclorotiazida"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00453",
         "nome": "Concor Hct",
         "principioAtivo": "Hidroclorotiazida;hemifumarato de Bisoprolol",
-        "descricao": "Betabloqueadores associados com antihipertensivos e/ou diuréticos",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "(10,0 + 25,0) MG COM REV CT BL AL AL X 30 ",
             "(5,0 + 12,5) MG COM REV CT BL AL AL X 30 "
@@ -26244,13 +28913,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 151.46,
-        "sinonimias": []
+        "sinonimias": [
+            "clorana",
+            "Hidroclorotiazida",
+            "hemifumarato de Bisoprolol",
+            "Biconcor"
+        ],
+        "classeTerapeutica": "Betabloqueadores associados com antihipertensivos e/ou diuréticos"
     },
     {
         "id": "med-00454",
         "nome": "Benicar Hct",
         "principioAtivo": "Hidroclorotiazida;olmesartana Medoxomila",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "20 MG + 12,5 MG COM REV CT BL AL/AL X 30 ",
             "20 MG + 12,5 MG COM REV CT BL AL/AL X 7",
@@ -26377,13 +29052,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.15,
-        "sinonimias": []
+        "sinonimias": [
+            "clorana",
+            "Hidroclorotiazida",
+            "olmesartana Medoxomila",
+            "Olmesartana Medoxomila+hidroclorotiazida",
+            "Olsar h",
+            "Holmes h",
+            "Olmecor Hct",
+            "Olzicar Hct",
+            "Asea Hct"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00455",
         "nome": "Micardis Hct",
         "principioAtivo": "Hidroclorotiazida;telmisartana",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "40 MG + 12,5 MG COM CT BL AL/AL X 14",
             "40 MG + 12,5 MG COM CT BL AL/AL X 30",
@@ -26469,13 +29155,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 124.83,
-        "sinonimias": []
+        "sinonimias": [
+            "clorana",
+            "Hidroclorotiazida",
+            "telmisartana",
+            "Telmisartana + Hidroclorotiazida",
+            "Bramicar Hct",
+            "Teld Hct",
+            "Bratelm Hct",
+            "Telmisartana+hidroclorotiazida"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00456",
         "nome": "Diovan Hct",
         "principioAtivo": "Hidroclorotiazida;valsartana",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "(160,00+12,50) MG COM REV CT BL AL AL X 14",
             "(160,00+12,50) MG COM REV CT BL AL AL X 28",
@@ -26558,13 +29254,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 82.32,
-        "sinonimias": []
+        "sinonimias": [
+            "clorana",
+            "Hidroclorotiazida",
+            "valsartana",
+            "Bravan Hct",
+            "Brasart Hct",
+            "Valsartana+hidroclorotiazida",
+            "Valsartana + Hidroclorotiazida"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00457",
         "nome": "Hidrocortisona",
         "principioAtivo": "Hidrocortisona",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "10 MG/G POM CT BG AL X 30 G "
         ],
@@ -26581,13 +29286,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.44,
-        "sinonimias": []
+        "sinonimias": [
+            "Cortisonal"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00458",
         "nome": "Exelon",
         "principioAtivo": "Hidrogenotartarato de Rivastigmina",
-        "descricao": "Produtos antialzheimer, inibidores da colinesterase",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "2 MG/ML SOL OR CT FR VD AMB X 120 ML + SER DOS"
         ],
@@ -26625,13 +29333,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 947.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Rivastigmina",
+            "Vivencia",
+            "Hemitartarato de Rivastigmina"
+        ],
+        "classeTerapeutica": "Produtos antialzheimer, inibidores da colinesterase"
     },
     {
         "id": "med-00459",
         "nome": "Solaquin",
         "principioAtivo": "Hidroquinona",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "40 MG/G CREM DERM CT BG AL X 30 G"
         ],
@@ -26684,13 +29397,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 96.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Cleankinol",
+            "Lumiderm",
+            "Hidropeek",
+            "Claquinona"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00460",
         "nome": "Siklos",
         "principioAtivo": "Hidroxiureia",
-        "descricao": "Todos os outros antineoplásicos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG COM REV CT FR PLAS PEAD OPC X 60",
             "1000 MG COM REV CT FR PLAS PEAD OPC X 30"
@@ -26743,13 +29462,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 386.47,
-        "sinonimias": []
+        "sinonimias": [
+            "Hixu",
+            "Leux",
+            "Tepev"
+        ],
+        "classeTerapeutica": "Todos os outros antineoplásicos"
     },
     {
         "id": "med-00461",
         "nome": "Drotizin",
         "principioAtivo": "Hidroxizina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "2 MG/ML SOL OR CT FR PLAS PET AMB X 120 ML + COP"
         ],
@@ -26766,13 +29490,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 57.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Pergo"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00462",
         "nome": "Gastroliv",
         "principioAtivo": "Hidróxido de Alumínio;carbonato de Cálcio;hidróxido de Magnésio",
-        "descricao": "Antiácidos puros",
+        "descricao": "Neutraliza a acidez do estômago, aliviando azia e má digestão.",
         "apresentacoes": [
             "(35,6 + 37,0 + 46,0)MG/G PO EFEV DISP 100 SACH AL/POLIET X 5 G (SABOR ABACAXI)",
             "(35,6 + 37,0 + 46,0)MG/G PO EFEV DISP 100 SACH AL/POLIET X 5 G (SABOR LARANJA)",
@@ -26841,13 +29568,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 171.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidróxido de Alumínio",
+            "carbonato de Cálcio",
+            "hidróxido de Magnésio",
+            "Gastrol",
+            "Estomazil Pastilhas",
+            "Gelmax",
+            "Estomazil",
+            "Gascol Pep",
+            "Gastroftal"
+        ],
+        "classeTerapeutica": "Antiácidos puros"
     },
     {
         "id": "med-00463",
         "nome": "Simeco Plus",
         "principioAtivo": "Hidróxido de Alumínio;hidróxido de Magnésio;simeticona",
-        "descricao": "Antiácidos com antiflatulentos ou carminativos",
+        "descricao": "Neutraliza a acidez do estômago, aliviando azia e má digestão.",
         "apresentacoes": [
             "120 MG/ML + 60 MG/ML + 7 MG/ML SUS OR CT FR VD AMB X 240 ML "
         ],
@@ -26888,13 +29626,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidróxido de Alumínio",
+            "hidróxido de Magnésio",
+            "simeticona",
+            "Gastrogel",
+            "Gelmax Dim",
+            "Gastrol tc",
+            "Mylanta Plus"
+        ],
+        "classeTerapeutica": "Antiácidos com antiflatulentos ou carminativos"
     },
     {
         "id": "med-00464",
         "nome": "Afrat",
         "principioAtivo": "Ibandronato de Sódio",
-        "descricao": "Bisfosfonatos para osteoporose e alterações relacionadas",
+        "descricao": "Fortalece os ossos e reduz o risco de fraturas na osteoporose.",
         "apresentacoes": [
             "150 MG COM CT BL AL AL X 1 "
         ],
@@ -26929,13 +29676,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 218.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Iban",
+            "Sintezys"
+        ],
+        "classeTerapeutica": "Bisfosfonatos para osteoporose e alterações relacionadas"
     },
     {
         "id": "med-00465",
         "nome": "Bonviva",
         "principioAtivo": "Ibandronato de Sódio Monoidratado",
-        "descricao": "Bisfosfonatos para osteoporose e alterações relacionadas",
+        "descricao": "Fortalece os ossos e reduz o risco de fraturas na osteoporose.",
         "apresentacoes": [
             "150 MG COM REV CT BL AL/AL X 1 "
         ],
@@ -27001,13 +29753,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 373.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Ibandronato de Sódio",
+            "Ibanuno",
+            "Edifican",
+            "Osteotec"
+        ],
+        "classeTerapeutica": "Bisfosfonatos para osteoporose e alterações relacionadas"
     },
     {
         "id": "med-00466",
         "nome": "Capsfen",
         "principioAtivo": "Ibuprofeno",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "600 MG CAP MOLE CT BL AL PLAS PVC/PVDC TRANS X 10"
         ],
@@ -27142,13 +29901,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 51.01,
-        "sinonimias": []
+        "sinonimias": [
+            "advil",
+            "alivium",
+            "ibupril",
+            "Ibuglobo",
+            "Ibuvix",
+            "Aludor",
+            "Adlyv"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00467",
         "nome": "Nuromol",
         "principioAtivo": "Ibuprofeno;paracetamol",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "(200,0 + 500,0) MG COM REV CT BL AL PLAS PVC/PVDC OPC X 12",
             "(200,0 + 500,0) MG COM REV CT BL AL PLAS PVC/PVDC OPC X 24",
@@ -27179,13 +29947,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.9,
-        "sinonimias": []
+        "sinonimias": [
+            "advil",
+            "alivium",
+            "ibupril",
+            "Ibuprofeno",
+            "paracetamol",
+            "Dualgi",
+            "Luftafem"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00468",
         "nome": "Ixium",
         "principioAtivo": "Imiquimode",
-        "descricao": "Outros produtos tópicos para infecções virais",
+        "descricao": "Medicamento da classe \"Outros produtos tópicos para infecções virais\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "50 MG/ML CREM DERM CT 12 ENV AL/PLAS X 0,25 G"
         ],
@@ -27203,13 +29980,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 360.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Modik"
+        ],
+        "classeTerapeutica": "Outros produtos tópicos para infecções virais"
     },
     {
         "id": "med-00469",
         "nome": "Natrilix",
         "principioAtivo": "Indapamida",
-        "descricao": "Diuréticos tiazidas e análogos puros",
+        "descricao": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço.",
         "apresentacoes": [
             "1,5 MG COM REV LIB PROL CT BL AL AL X 15 ",
             "1,5 MG COM REV LIB PROL CT BL AL AL X 30 ",
@@ -27284,13 +30064,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Flux sr",
+            "Cirefa",
+            "Indapen sr",
+            "Indatrat sr",
+            "Indafix"
+        ],
+        "classeTerapeutica": "Diuréticos tiazidas e análogos puros"
     },
     {
         "id": "med-00470",
         "nome": "Avsola",
         "principioAtivo": "Infliximabe",
-        "descricao": "Produtos anti-tnf( fator de necrose tumoral)",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "10 MG/ML PO LIOF SOL INJ CT FA VD TRANS X 10ML"
         ],
@@ -27316,13 +30103,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 5188.54,
-        "sinonimias": []
+        "sinonimias": [
+            "Remsima"
+        ],
+        "classeTerapeutica": "Produtos anti-tnf( fator de necrose tumoral)"
     },
     {
         "id": "med-00471",
         "nome": "Novomix 30",
         "principioAtivo": "Insulina Asparte",
-        "descricao": "Insulinas humanas e análogos, ação intermediária e longa, comb. com ação rápida",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "100 U/ML SUS INJ CT 5 CAR VD TRANS X 3 ML (PENFILL)",
             "100 U/ML SUS INJ CT 5 CAR VD TRANS X 3 ML X 5 SIST  APLIC PLAS (FLEXPEN)"
@@ -27364,13 +30154,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 414.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Asparte",
+            "Kirsty",
+            "Novorapid",
+            "Fiasp"
+        ],
+        "classeTerapeutica": "Insulinas humanas e análogos, ação intermediária e longa, comb. com ação rápida"
     },
     {
         "id": "med-00472",
         "nome": "Toujeo",
         "principioAtivo": "Insulina Glargina",
-        "descricao": "Insulinas humanas e análogos, ação longa",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "300 U/ML SOL INJ CT 1 CAR VD TRANS X 1,5 ML + 1 CAN APLIC"
         ],
@@ -27431,13 +30227,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 307.3,
-        "sinonimias": []
+        "sinonimias": [
+            "Glargina",
+            "Glatus",
+            "Semglee",
+            "Lantus",
+            "Basaglar",
+            "Glargilin"
+        ],
+        "classeTerapeutica": "Insulinas humanas e análogos, ação longa"
     },
     {
         "id": "med-00473",
         "nome": "Afrezza",
         "principioAtivo": "Insulina Humana",
-        "descricao": "Insulinas humanas e análogos, ação rápida",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "12 U (1 MG) PO INAL OR CT REFIL PLAS OPC X 90 + 2 INAL",
             "4 U (0,35 MG) + 8 U (0,70 MG) PO INAL OR CT REFIL PLAS OPC X 30 + 60 + 2 INAL",
@@ -27509,13 +30313,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1952.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Humana",
+            "Funed Insulina r",
+            "Wosulin r",
+            "Novolin r",
+            "Novolin n",
+            "Insuliv r",
+            "Bahiafarma Insulina Humana r"
+        ],
+        "classeTerapeutica": "Insulinas humanas e análogos, ação rápida"
     },
     {
         "id": "med-00474",
         "nome": "Visulin n",
         "principioAtivo": "Insulina Isofana",
-        "descricao": "Insulinas humanas e análogos, ação intermediária",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "100 UI/ML SUS INJ CT FA X 10 ML"
         ],
@@ -27545,13 +30358,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Isofana",
+            "Funed Insulina n",
+            "Wosulin n"
+        ],
+        "classeTerapeutica": "Insulinas humanas e análogos, ação intermediária"
     },
     {
         "id": "med-00475",
         "nome": "Humalog Mix",
         "principioAtivo": "Insulina Lispro",
-        "descricao": "Insulinas humanas e análogos, ação intermediária e longa, comb. com ação rápida",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "100 UI/ML SUS INJ CT 1 CARP VD INC X 3 ML + 1 SIST APLIC PLAS",
             "100 UI/ML SUS INJ CT 1 CARP VD INC X 3 ML + 1 SIST APLIC PLAS  ",
@@ -27580,13 +30398,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 82.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Lispro",
+            "Humalog"
+        ],
+        "classeTerapeutica": "Insulinas humanas e análogos, ação intermediária e longa, comb. com ação rápida"
     },
     {
         "id": "med-00476",
         "nome": "Frutaxx",
         "principioAtivo": "Ion Citrato;bicarbonato de Sódio;carbonato de Sódio",
-        "descricao": "Antiácidos puros",
+        "descricao": "Neutraliza a acidez do estômago, aliviando azia e má digestão.",
         "apresentacoes": [
             "(462 + 438 + 90)MG/G PO EFEV CT 50 ENV AL PLAS X 5 G (ABACAXI)"
         ],
@@ -27624,13 +30446,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 131.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Ion Citrato",
+            "bicarbonato de Sódio",
+            "carbonato de Sódio",
+            "Estomazil",
+            "Frusalt",
+            "Stomaliv"
+        ],
+        "classeTerapeutica": "Antiácidos puros"
     },
     {
         "id": "med-00477",
         "nome": "Aprozide",
         "principioAtivo": "Irbesartana;hidroclorotiazida",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "150 MG + 12,5 MG COM REV CT BL AL PLAS OPC X 30",
             "300 MG + 12,5 MG COM REV CT BL AL PLAS OPC X 30"
@@ -27668,13 +30498,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 244.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Irbesartana",
+            "hidroclorotiazida",
+            "Bart h",
+            "Irbesartana + Hidroclorotiazida",
+            "Irbesartana+ Hidroclorotiazida"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00478",
         "nome": "Roacutan",
         "principioAtivo": "Isotretinoína",
-        "descricao": "Antiacneicos sistêmicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "20 MG CAP MOLE CT BL AL X 30"
         ],
@@ -27731,13 +30568,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 481.13,
-        "sinonimias": []
+        "sinonimias": [
+            "Ison",
+            "Acnova",
+            "Amalfi",
+            "Isoac"
+        ],
+        "classeTerapeutica": "Antiacneicos sistêmicos"
     },
     {
         "id": "med-00479",
         "nome": "Sporanox",
         "principioAtivo": "Itraconazol",
-        "descricao": "Agentes sistêmicos para infecções fúngicas",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "100 MG CAP DURA CT BL AL PLAS PVC/PE/PVDC TRANS X 10",
             "100 MG CAP DURA CT BL AL PLAS PVC/PE/PVDC TRANS X 15",
@@ -27803,13 +30646,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 132.39,
-        "sinonimias": []
+        "sinonimias": [
+            "Itraspor",
+            "Traxonol",
+            "Funok",
+            "Itralex"
+        ],
+        "classeTerapeutica": "Agentes sistêmicos para infecções fúngicas"
     },
     {
         "id": "med-00480",
         "nome": "Soolantra",
         "principioAtivo": "Ivermectina",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "10 MG/G CREM DERM CT BG AL PLAS OPC X 30 G"
         ],
@@ -27880,13 +30729,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 169.39,
-        "sinonimias": []
+        "sinonimias": [
+            "Iverliv",
+            "Leverctin",
+            "Iverneo",
+            "Revectina",
+            "Ivecte"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00481",
         "nome": "Vimpat",
         "principioAtivo": "Lacosamida",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "10 MG /ML SOL INFUS CT FA VD INC X 20ML",
             "10 MG/ML SOL OR CT FR VD AMB 200 ML",
@@ -27907,7 +30763,7 @@ const BANCO_MEDICAMENTOS = [
         "genericos": [
             {
                 "nome": "Lapsu",
-                "precoBase": 17.0,
+                "precoBase": 17,
                 "registrosAnvisa": [
                     "1650700160019",
                     "1650700160027",
@@ -28094,13 +30950,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 96.18,
-        "sinonimias": []
+        "sinonimias": [
+            "Lapsu",
+            "Seizla",
+            "Lacotem",
+            "Lakos",
+            "Osamy"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00482",
         "nome": "Laquixan",
         "principioAtivo": "Lactulose",
-        "descricao": "Laxantes osmóticos",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "667 MG/ML XPE CX 100 FR PLAS PET AMB 120 ML + 100 COP",
             "667 MG/ML XPE CX 50 FR PLAS PET AMB 120 ML + 50 COP"
@@ -28147,13 +31010,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3652.65,
-        "sinonimias": []
+        "sinonimias": [
+            "lactulona",
+            "Duphalac",
+            "Pentalac",
+            "Lactosan"
+        ],
+        "classeTerapeutica": "Laxantes osmóticos"
     },
     {
         "id": "med-00483",
         "nome": "Lamictal",
         "principioAtivo": "Lamotrigina",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "100 MG COM CT BL AL PLAS OPC X 30",
             "100 MG COM CT BL AL PLAS TRANS X 30",
@@ -28283,13 +31152,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 38.2,
-        "sinonimias": []
+        "sinonimias": [
+            "Lamitor cd",
+            "Neural",
+            "Forlut"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00484",
         "nome": "Lanzopept",
         "principioAtivo": "Lansoprazol",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "30 MG CAP DURA C/ MICROG DESINT GRAD CT 02 BL AL PLAS TRANS X 07 ",
             "30 MG CAP DURA C/ MICROG DESINT GRAD CT 04 BL AL PLAS TRANS X 07 "
@@ -28336,13 +31210,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 99.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Prazol",
+            "Lanz"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00485",
         "nome": "Volata",
         "principioAtivo": "Latanoprosta",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "50 MCG/ML SOL GOT OFT CT FR GOT PLAS PEAD OPC X 2,5 ML"
         ],
@@ -28398,13 +31276,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 224.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Monolatan",
+            "Xalatan",
+            "Drenatan",
+            "Arulatan",
+            "Xaloftal"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00486",
         "nome": "Arava",
         "principioAtivo": "Leflunomida",
-        "descricao": "Outros imunossupressores",
+        "descricao": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL/AL X 3",
             "20 MG COM REV CT FR PLAS OPC X 30"
@@ -28441,13 +31326,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 383.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Leflun",
+            "Reumian"
+        ],
+        "classeTerapeutica": "Outros imunossupressores"
     },
     {
         "id": "med-00487",
         "nome": "Revlimid",
         "principioAtivo": "Lenalidomida",
-        "descricao": "Antineoplásicos lidomida",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "10 MG CAP DURA CT BL AL PLAS TRANS X 21",
             "10 MG CAP DURA CT BL AL PLAS TRANS X 28",
@@ -28547,13 +31436,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26329.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Lyone",
+            "Lassya",
+            "Nuvyor",
+            "Lenangio"
+        ],
+        "classeTerapeutica": "Antineoplásicos lidomida"
     },
     {
         "id": "med-00488",
         "nome": "Repoflor",
         "principioAtivo": "Levedura",
-        "descricao": "Antidiarreicos micro-organismos",
+        "descricao": "Reduz a diarreia.",
         "apresentacoes": [
             "200 MG PO OR CT 4 ENV KRAFT PE X 800 MG"
         ],
@@ -28579,13 +31474,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Florent",
+            "Flomicin"
+        ],
+        "classeTerapeutica": "Antidiarreicos micro-organismos"
     },
     {
         "id": "med-00489",
         "nome": "Keppra xr",
         "principioAtivo": "Levetiracetam",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "500 MG COM REV LIB PROL CT BL AL PLAS PVC/PCTFE TRANS X 60",
             "750 MG COM REV LIB PROL CT BL AL PLAS PVC/PCTFE TRANS X 60"
@@ -28783,13 +31682,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 332.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Spark",
+            "Veepi",
+            "Antara",
+            "Lecza xr",
+            "Iludral"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00490",
         "nome": "Carbidol",
         "principioAtivo": "Levodopa;carbidopa (port. 344/98 Lista c 1)",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "(25 + 250) MG COM CT BL AL PLAS PVC/PVDC TRANS X 30"
         ],
@@ -28806,13 +31712,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 91.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Levodopa",
+            "carbidopa",
+            "Parkidopa"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00491",
         "nome": "Prolopa",
         "principioAtivo": "Levodopa;cloridrato de Benserazida",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "(100 + 25)  MG COM CT FR VD AMB X 60",
             "(100 + 25) MG CAP DURA LIB PROL CT FR VD AMB X 30",
@@ -28863,13 +31774,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 67.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Levodopa",
+            "cloridrato de Benserazida",
+            "Ekson",
+            "Levodopa+cloridrato de Benserazida",
+            "Levodopa + Cloridrato de Benserazida",
+            "Lebens"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00492",
         "nome": "Percof",
         "principioAtivo": "Levodropropizina",
-        "descricao": "Antitussígenos puros",
+        "descricao": "Reduz a tosse seca.",
         "apresentacoes": [
             "6 MG/ML XPE CT FR VD AMB X 120 ML + COP"
         ],
@@ -28888,13 +31807,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Antux"
+        ],
+        "classeTerapeutica": "Antitussígenos puros"
     },
     {
         "id": "med-00493",
         "nome": "Levofloxacino",
         "principioAtivo": "Levofloxacino",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS TRANS X 10",
             "500 MG COM REV CT BL AL PLAS TRANS X 7",
@@ -28921,13 +31843,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 83.75,
-        "sinonimias": []
+        "sinonimias": [
+            "Livepax"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00494",
         "nome": "Tavaflox",
         "principioAtivo": "Levofloxacino Hemi-hidratado",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS OPC X 10",
             "500 MG COM REV CT BL AL PLAS OPC X 7",
@@ -29034,13 +31959,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.5,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemi-hidratado",
+            "Levoxin",
+            "Levofloxacino",
+            "Tavagran",
+            "Tamiram",
+            "Alevo"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00495",
         "nome": "Tamiram",
         "principioAtivo": "Levofloxacino Hemiidratado",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "750 MG COM REV CT BL AL PLAS TRANS X 5 ",
             "750 MG COM REV CT BL AL PLAS TRANS X 7"
@@ -29071,13 +32004,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 138.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Hemiidratado",
+            "Tavok",
+            "Levofloxacino Hemi-hidratado"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00496",
         "nome": "Omize",
         "principioAtivo": "Levomefolato de Cálcio",
-        "descricao": "Todos os outros produtos para o sistema nervoso central",
+        "descricao": "Medicamento da classe \"Todos os outros produtos para o sistema nervoso central\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "15 MG COM REV CT FR PLAS PEAD-EVOH OPC X 30"
         ],
@@ -29099,13 +32037,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 311.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Cálcio",
+            "Folavive"
+        ],
+        "classeTerapeutica": "Todos os outros produtos para o sistema nervoso central"
     },
     {
         "id": "med-00497",
         "nome": "Salonpas Pain Relief Patch",
         "principioAtivo": "Levomentol;salicilato de Metila",
-        "descricao": "Antirreumáticos e analgésicos tópicos",
+        "descricao": "Anti-inflamatório de uso na pele, para dores musculares e nas articulações.",
         "apresentacoes": [
             "105 MG + 31,5 MG ADES TRANSD CT ENV AL X 5"
         ],
@@ -29123,13 +32065,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 38.7,
-        "sinonimias": []
+        "sinonimias": [
+            "Levomentol",
+            "salicilato de Metila",
+            "Salonpas Gel"
+        ],
+        "classeTerapeutica": "Antirreumáticos e analgésicos tópicos"
     },
     {
         "id": "med-00498",
         "nome": "Mirena",
         "principioAtivo": "Levonorgestrel",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "52 MG DIU CT EST APLIC PLAS PETG TRANS"
         ],
@@ -29184,13 +32131,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1704.74,
-        "sinonimias": []
+        "sinonimias": [
+            "pilula do dia seguinte",
+            "postinor",
+            "pozato",
+            "Poslov",
+            "Diad",
+            "Postinor Uno",
+            "Saya Control",
+            "Hora h"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00499",
         "nome": "Levoid",
         "principioAtivo": "Levotiroxina Sódica",
-        "descricao": "Preparações para tireoide",
+        "descricao": "Regula o hormônio da tireoide.",
         "apresentacoes": [
             "100 MCG COM CT BL AL AL X 15",
             "100 MCG COM CT BL AL AL X 30",
@@ -29302,13 +32259,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 7.55,
-        "sinonimias": []
+        "sinonimias": [
+            "puran t4",
+            "synthroid",
+            "euthyrox",
+            "Levotiroxina"
+        ],
+        "classeTerapeutica": "Preparações para tireoide"
     },
     {
         "id": "med-00500",
         "nome": "Toperma",
         "principioAtivo": "Lidocaína",
-        "descricao": "Anestésicos locais tópicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "5% EMPL CT ENV PE/AL X 10 ",
             "5% EMPL CT ENV PE/AL X 30"
@@ -29352,13 +32315,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 207.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Lidopass",
+            "Dermomax"
+        ],
+        "classeTerapeutica": "Anestésicos locais tópicos"
     },
     {
         "id": "med-00501",
         "nome": "Tetralysal",
         "principioAtivo": "Limeciclina",
-        "descricao": "Tetraciclinas e associações",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "150 MG CAP GEL DURA CT STR X 16",
             "300 MG CAP GEL  DURA CT STR X 16",
@@ -29398,13 +32365,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 116.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Meciclin"
+        ],
+        "classeTerapeutica": "Tetraciclinas e associações"
     },
     {
         "id": "med-00502",
         "nome": "Trayenta",
         "principioAtivo": "Linagliptina",
-        "descricao": "Antidiabéticos inibidores dpp-iv  puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "5 MG COM REV CT BL AL/AL X 10",
             "5 MG COM REV CT BL AL/AL X 30"
@@ -29462,13 +32432,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 111.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Linadib",
+            "Glunac",
+            "Glinape",
+            "Glink"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores dpp-iv  puros"
     },
     {
         "id": "med-00503",
         "nome": "Adiloz",
         "principioAtivo": "Linezolida",
-        "descricao": "Todos os outros antibióticos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "600 MG COM REV CT BL AL PLAS OPC X 10"
         ],
@@ -29502,13 +32478,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 4362.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Lynoz"
+        ],
+        "classeTerapeutica": "Todos os outros antibióticos"
     },
     {
         "id": "med-00504",
         "nome": "Victoza",
         "principioAtivo": "Liraglutida",
-        "descricao": "Antidiabéticos agonistas de glp-1",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "6 MG/ML SOL INJ CT 2 CARP VD TRANS X 3 ML + 2 SIST APLIC PLAS"
         ],
@@ -29556,13 +32535,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 713.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Liraclick",
+            "Saxenda",
+            "Lirux",
+            "Olire"
+        ],
+        "classeTerapeutica": "Antidiabéticos agonistas de glp-1"
     },
     {
         "id": "med-00505",
         "nome": "Paxoral",
         "principioAtivo": "Lisado Bacteriano",
-        "descricao": "Todos os outros produtos vacinais",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "3,5 MG CAPS GEL DURA CT BL AL PLAST INC X 10 ",
             "7 MG CAPS GEL DURA CT BL AL PLAST INC X 10 "
@@ -29574,7 +32559,7 @@ const BANCO_MEDICAMENTOS = [
         "genericos": [
             {
                 "nome": "Broncho-vaxom",
-                "precoBase": 73.0,
+                "precoBase": 73,
                 "registrosAnvisa": [
                     "1005801220013",
                     "1005801220021",
@@ -29594,13 +32579,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 76.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Bacteriano",
+            "Broncho-vaxom",
+            "Extralerg"
+        ],
+        "classeTerapeutica": "Todos os outros produtos vacinais"
     },
     {
         "id": "med-00506",
         "nome": "Artrosil",
         "principioAtivo": "Lisinato de Cetoprofeno",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "160 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PCTFE OPC X 10",
             "160 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PCTFE OPC X 20",
@@ -29636,13 +32626,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 11.19,
-        "sinonimias": []
+        "sinonimias": [
+            "Cetoprofeno",
+            "Algilive"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00507",
         "nome": "Dolamin",
         "principioAtivo": "Lisinato de Clonixina",
-        "descricao": "Analgésicos não narcóticos e antipiréticos sob prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "125 MG COM REV CT BL AL PLAS PVC TRANS X 16"
         ],
@@ -29659,13 +32653,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Clonixina",
+            "Clonixinato de Lisina"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos sob prescrição"
     },
     {
         "id": "med-00508",
         "nome": "Claritin",
         "principioAtivo": "Loratadina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "10 MG COM CT BL AL PLAS TRANS X 12",
             "10 MG COM CT BL AL PLAS TRANS X 6"
@@ -29745,13 +32743,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12.99,
-        "sinonimias": []
+        "sinonimias": [
+            "histadin",
+            "Loritil",
+            "Lorasliv",
+            "Neo Loratadin",
+            "Loratamed"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00509",
         "nome": "Histadin d",
         "principioAtivo": "Loratadina;sulfato de Pseudoefedrina",
-        "descricao": "Preparações sistêmicas nasais",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(5 + 120) MG COM REV LIB MOD CT BL AL PLAS PVC/PVDC TRANS X 12"
         ],
@@ -29777,13 +32782,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.2,
-        "sinonimias": []
+        "sinonimias": [
+            "claritin",
+            "histadin",
+            "Loratadina",
+            "sulfato de Pseudoefedrina",
+            "Loratamed d",
+            "Loratadina + Sulfato de Pseudoefedrina"
+        ],
+        "classeTerapeutica": "Preparações sistêmicas nasais"
     },
     {
         "id": "med-00510",
         "nome": "Lorax",
         "principioAtivo": "Lorazepam",
-        "descricao": "Tranquilizantes",
+        "descricao": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição.",
         "apresentacoes": [
             "1 MG COM CT BL AL PLAS PVC/PCTFE OPC  X 30",
             "2 MG COM CT BL AL PLAS PVC/PCTFE OPC X 30"
@@ -29813,13 +32826,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 39.35,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Tranquilizantes"
     },
     {
         "id": "med-00511",
         "nome": "Cozaar",
         "principioAtivo": "Losartana Potássica",
-        "descricao": "Antagonistas da angiotensina ii puros",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PVC/PE/PVDC BCO OPC X 30",
             "50 MG COM REV CT BL AL PVC/PE/PVDC BCO OPC X 15",
@@ -29942,13 +32956,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.21,
-        "sinonimias": []
+        "sinonimias": [
+            "aradois",
+            "losartana",
+            "Lorsacor",
+            "Corus",
+            "Zart"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii puros"
     },
     {
         "id": "med-00512",
         "nome": "Hyzaar",
         "principioAtivo": "Losartana Potássica;hidroclorotiazida",
-        "descricao": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "(100 + 25) MG COM REV CT BL AL PLAS OPC X 30",
             "(50+ 12,5) MG COM REV CT BL AL PLAS OPC X 30"
@@ -30037,13 +33058,25 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.23,
-        "sinonimias": []
+        "sinonimias": [
+            "cozaar",
+            "aradois",
+            "losartana",
+            "Losartana Potássica",
+            "hidroclorotiazida",
+            "Zart h",
+            "Losartana Potássica+hidroclorotiazida",
+            "Losartana Potássica + Hidroclorotiazida",
+            "Corus h",
+            "Aradois h"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii associados a antihipertensivos (c2) e/ou diuréticos"
     },
     {
         "id": "med-00513",
         "nome": "Loxonin Flex",
         "principioAtivo": "Loxoprofeno Sódico",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "100 MG ADES DERM CT 20 ENV AL PLAS PE X 3",
             "100 MG ADES DERM CT 20 ENV AL PLAS PE X 7",
@@ -30070,13 +33103,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 90.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Loxoprofeno",
+            "Loxonin"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00514",
         "nome": "Benedesc Plus",
         "principioAtivo": "Maleato de Bronfeniramina;cloridrato de Fenilefrina",
-        "descricao": "Preparações sistêmicas nasais",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(0,4 + 1) MG/ML XPE CT FR VD AMB X 120 ML + COP"
         ],
@@ -30151,14 +33188,24 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 24.0,
-        "sinonimias": []
+        "precoReferencia": 24,
+        "sinonimias": [
+            "Maleato de Bronfeniramina",
+            "cloridrato de Fenilefrina",
+            "Descon",
+            "Maleato de Bronfeniramina + Cloridrato de Fenilefrina",
+            "Bialerge",
+            "Hiscongex",
+            "Decongex Plus",
+            "Coristina d Congest"
+        ],
+        "classeTerapeutica": "Preparações sistêmicas nasais"
     },
     {
         "id": "med-00515",
         "nome": "Naldecon Noite",
         "principioAtivo": "Maleato de Carbinoxamina;cloridrato de Fenilefrina;paracetamol",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "400 MG + 20 MG COM AMARELO/400 MG + 4 MG COM LARANJA CT BL AL/AL X 12 + 12",
             "400 MG + 20 MG COM AMARELO/400 MG + 4 MG COM LARANJA DISP BL AL/AL X 100 + 100"
@@ -30216,13 +33263,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Carbinoxamina",
+            "cloridrato de Fenilefrina",
+            "paracetamol",
+            "Nasaliv",
+            "Neolefrin",
+            "Benegrip Multi Noite",
+            "Fluviral Noite",
+            "Perfenol Multi",
+            "Benegrip Multi"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00516",
         "nome": "Resfenol",
         "principioAtivo": "Maleato de Clorfenamina;cloridrato de Fenilefrina;paracetamol",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(400 + 4 + 4)MG CAP DURA CT BL AL PLAS/PVC TRANS  X 10",
             "(400 + 4 + 4)MG CAP DURA CT BL AL PLAS/PVC TRANS  X 200",
@@ -30259,13 +33317,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 15.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Clorfenamina",
+            "cloridrato de Fenilefrina",
+            "paracetamol",
+            "Stilgrip",
+            "Cimegripe",
+            "Gripalcê"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00517",
         "nome": "Resfenol",
         "principioAtivo": "Maleato de Clorfeniramina;cloridrato de Fenilefrina;paracetamol",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "(40 + 0,6 +0,6)MG/ML  SOL OR CT FR VD AMB X 100ML + COP",
             "(400 + 4 + 4)MG CAP DURA CT BL AL PLAS/PVC TRANS X 120",
@@ -30332,13 +33398,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Clorfeniramina",
+            "cloridrato de Fenilefrina",
+            "paracetamol",
+            "Vick Pyrena Grip – 7",
+            "Next",
+            "Gripalcê",
+            "Biogripe",
+            "Onegripe",
+            "Cimegripe"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00518",
         "nome": "Apracur Duo",
         "principioAtivo": "Maleato de Clorfeniramina;dipirona Monoidratada;cafeína",
-        "descricao": "Antigripais sem antiinfecciosos",
+        "descricao": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores.",
         "apresentacoes": [
             "250 MG + 30 MG (VERDE) / 250 MG + 2 MG (AMARELO) COM REV CT BL AL PLAS TRANS X 75 VERD + 75 AMAR"
         ],
@@ -30357,13 +33434,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 274.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Clorfeniramina",
+            "dipirona Monoidratada",
+            "Agiigrip Duo"
+        ],
+        "classeTerapeutica": "Antigripais sem antiinfecciosos"
     },
     {
         "id": "med-00519",
         "nome": "Polaramine",
         "principioAtivo": "Maleato de Dexclorfeniramina",
-        "descricao": "Anti-histamínicos sistêmicos",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "0,4 MG/ML SOL OR CT FR PLAS AMB X 120 ML + COP",
             "10 MG/G CREM DERM CT BG AL X 30 G",
@@ -30445,13 +33527,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Dexclorfeniramina",
+            "Hystin",
+            "Polarax",
+            "Lofernim",
+            "Polaryn",
+            "Histamin"
+        ],
+        "classeTerapeutica": "Anti-histamínicos sistêmicos"
     },
     {
         "id": "med-00520",
         "nome": "Expectamin",
         "principioAtivo": "Maleato de Dexclorfeniramina;guaifenesina;sulfato de Pseudoefedrina",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "0,4 MG/ML + 4 MG/ML + 20 MG/ML SOL OR CT FR VD AMB X 120 ML   "
         ],
@@ -30486,13 +33576,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 39.63,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Dexclorfeniramina",
+            "guaifenesina",
+            "sulfato de Pseudoefedrina",
+            "Spectolab Exp",
+            "Maleato de Dexclorfeniramina + Sulfato de Pseudoefedrina + Guaifenesina",
+            "Emsexpector"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00521",
         "nome": "Renitec",
         "principioAtivo": "Maleato de Enalapril",
-        "descricao": "Inibidores da eca puros",
+        "descricao": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins.",
         "apresentacoes": [
             "10 MG COM CT BL AL/AL X 30",
             "20 MG COM CT BL AL/AL X 30",
@@ -30593,13 +33691,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 28.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Enalapril",
+            "Renopril",
+            "Pressel",
+            "Renalapril",
+            "Enaplex",
+            "Pressomede"
+        ],
+        "classeTerapeutica": "Inibidores da eca puros"
     },
     {
         "id": "med-00522",
         "nome": "Vasopril Plus",
         "principioAtivo": "Maleato de Enalapril;hidroclorotiazida",
-        "descricao": "Inibidores da eca associados a anti-hipertersivos (c2) e/ou diuréticos (c3)",
+        "descricao": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins.",
         "apresentacoes": [
             "10 MG + 25 MG COM CT BL AL AL X 30",
             "10 MG + 25 MG COM CT BL AL AL X 60",
@@ -30643,13 +33749,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Enalapril",
+            "hidroclorotiazida",
+            "Malena Hct",
+            "Maleato de Enalapril + Hidroclorotiazida"
+        ],
+        "classeTerapeutica": "Inibidores da eca associados a anti-hipertersivos (c2) e/ou diuréticos (c3)"
     },
     {
         "id": "med-00523",
         "nome": "Luvox",
         "principioAtivo": "Maleato de Fluvoxamina",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS TRANS X 30",
             "100 MG COM REV CT BL AL PLAS TRANS X 60",
@@ -30728,13 +33840,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 97.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluvoxamina",
+            "Semtri",
+            "Fluvique",
+            "Revoc",
+            "Afluv"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00524",
         "nome": "Neozine",
         "principioAtivo": "Maleato de Levomepromazina",
-        "descricao": "Antipsicóticos convencionais",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL AL X 20",
             "25 MG COM REV CT BL AL PLAS PVDC/PE/PVC TRANS X 20"
@@ -30761,13 +33880,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Levomepromazina",
+            "Levozine"
+        ],
+        "classeTerapeutica": "Antipsicóticos convencionais"
     },
     {
         "id": "med-00525",
         "nome": "Dormonid",
         "principioAtivo": "Maleato de Midazolam",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "15 MG COM REV CT BL AL PLAS TRANS X 20",
             "15 MG COM REV CT BL AL PLAS TRANS X 30",
@@ -30795,13 +33918,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 78.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Midazolam",
+            "Dormire"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00526",
         "nome": "Visan mt",
         "principioAtivo": "Maleato de Timolol;bimatoprosta",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(0,3 + 5,0) MG/ML SOL GOT OFT CT FR GOT PLAS PEBD OPC X 3 ML",
             "(0,3 + 5,0) MG/ML SOL GOT OFT CT FR GOT PLAS PEBD OPC X 5 ML"
@@ -30828,13 +33955,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 174.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Timolol",
+            "bimatoprosta",
+            "Glamigan mt",
+            "Duoglau"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00527",
         "nome": "Volata mt",
         "principioAtivo": "Maleato de Timolol;latanoprosta",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(0,05 + 5) MG/ML SOL GOT OFT CT FR GOT PLAS PEAD OPC X 2,5 ML + ADAPT"
         ],
@@ -30867,13 +34000,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 237.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Timolol",
+            "latanoprosta",
+            "Latanoprosta + Maleato de Timolol",
+            "Xalacom",
+            "Tivecom"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00528",
         "nome": "Combigan",
         "principioAtivo": "Maleato de Timolol;tartarato de Brimonidina",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(2,0 + 5,0) MG/ML SOL OFT CT FR GOT PLAS PE OPC X 10 ML",
             "(2,0 + 5,0) MG/ML SOL OFT CT FR GOT PLAS PE OPC X 5 ML"
@@ -30917,13 +34057,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 163.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato de Timolol",
+            "tartarato de Brimonidina",
+            "Tartarato de Brimonidina + Maleato de Timolol",
+            "Brixag",
+            "Britens lc",
+            "Combtol"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00529",
         "nome": "Digedrat",
         "principioAtivo": "Maleato de Trimebutina",
-        "descricao": "Gastroprocinéticos",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "200 MG CAP GEL MOLE CT BL AL PLAS TRANS X 20",
             "200 MG CAP GEL MOLE CT BL AL PLAS TRANS X 30",
@@ -30992,13 +34140,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 104.1,
-        "sinonimias": []
+        "sinonimias": [
+            "Trimebutina",
+            "Irritratil",
+            "Trimeb",
+            "Trimexium",
+            "Modulatri"
+        ],
+        "classeTerapeutica": "Gastroprocinéticos"
     },
     {
         "id": "med-00530",
         "nome": "Timoptol",
         "principioAtivo": "Maleato Ácido de Timolol",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "5 MG/ML GEL OFT CT FR GOT PLAS OPC OCUMETRO X 5 ML ",
             "5MG/ML SOL OFT CT FR GOT PLAS OPC OCUMETRO X 5 ML"
@@ -31058,13 +34213,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Timolol",
+            "Maleato de Timolol",
+            "Timosan",
+            "Tenoftal",
+            "Glaucotrat",
+            "Latanoprosta + Maleato de Timolol",
+            "Xalanoft"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00531",
         "nome": "Cosopt",
         "principioAtivo": "Maleato Ácido de Timolol;cloridrato de Dorzolamida",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "20 MG/ML + 5 MG/ML SOL OFT CT FR GOT PLAS OPC( OCUMETRO)  X 5 ML",
             "20 MG/ML + 5 MG/ML SOL OFT CT FR GOT PLAS OPC( OCUMETRO) X 10 ML"
@@ -31113,13 +34277,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 198.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato Ácido de Timolol",
+            "cloridrato de Dorzolamida",
+            "Drusolol",
+            "Cloridrato de Dorzolamida+maleato de Timolol",
+            "Cloridrato de Dorzolamida + Maleato de Timolol",
+            "Dorzal mt",
+            "Glalfital"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00532",
         "nome": "Latonan",
         "principioAtivo": "Maleato Ácido de Timolol;latanoprosta",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(0,05 + 5) MG/ML SOL OFT CT FR GOT PLAS OPC X 2,5 ML"
         ],
@@ -31136,13 +34309,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 291.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato Ácido de Timolol",
+            "latanoprosta",
+            "Latanoprosta + Maleato de Timolol"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00533",
         "nome": "Tinodin",
         "principioAtivo": "Maleato Ácido de Timolol;tartarato de Brimonidina",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "(2,0 + 5,0) MG/ML SOL OFT CT FR PLAS OPC GOT X 5 ML "
         ],
@@ -31167,13 +34345,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 148.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Maleato Ácido de Timolol",
+            "tartarato de Brimonidina",
+            "Tartarato de Brimonidina+maleato de Timolol",
+            "Britens"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00534",
         "nome": "Espinheira Santa Natulab",
         "principioAtivo": "Maytenus Ilicifolia Mart.ex.reiss",
-        "descricao": "Todos os outros antiulcerosos",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "380 MG CAP GEL DURA CT BL AL PLAS TRANS X 45"
         ],
@@ -31205,13 +34389,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 74.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Mart.ex.reiss",
+            "Espinheira Santa",
+            "Gastrinon",
+            "Gastriless"
+        ],
+        "classeTerapeutica": "Todos os outros antiulcerosos"
     },
     {
         "id": "med-00535",
         "nome": "Helmilab",
         "principioAtivo": "Mebendazol",
-        "descricao": "Anti-helmínticos exceto esquistossomicidas (p1c)",
+        "descricao": "Usado para eliminar vermes ou parasitas intestinais.",
         "apresentacoes": [
             "20 MG/ML SUS OR CT FR PET AMB X 30 ML + COP"
         ],
@@ -31237,13 +34427,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 11.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Belmirax"
+        ],
+        "classeTerapeutica": "Anti-helmínticos exceto esquistossomicidas (p1c)"
     },
     {
         "id": "med-00536",
         "nome": "Defb",
         "principioAtivo": "Mecobalamina",
-        "descricao": "Vitamina b12 pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "1000 MCG COM SUBL CT BL AL AL X 30"
         ],
@@ -31332,13 +34525,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 97.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Mecobe",
+            "Dozemast",
+            "Cobi-12",
+            "Dodibe",
+            "Dozi"
+        ],
+        "classeTerapeutica": "Vitamina b12 pura"
     },
     {
         "id": "med-00537",
         "nome": "Melocox Odt",
         "principioAtivo": "Meloxicam",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "15 MG COM ORODISP CT BL AL AL X 10"
         ],
@@ -31421,13 +34621,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Bioflac",
+            "Inicox dp",
+            "Melocox",
+            "Artritec",
+            "Meloxigran"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00538",
         "nome": "Menopur",
         "principioAtivo": "Menotropina",
-        "descricao": "Gonadotrofinas incluindo outros estimulantes para ovulação",
+        "descricao": "Estimula os ovários. Usado em tratamentos de fertilidade.",
         "apresentacoes": [
             "1200 UI PO LIOF INJ CT 1 FA VD INC + 2 SER PREENC DIL 1 ML + 18 SER",
             "600UI PO LIOF INJ CT 1 FA VD INC + 1 SER PREENC DIL 1 ML + 9 SER",
@@ -31450,13 +34657,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1165.38,
-        "sinonimias": []
+        "sinonimias": [
+            "Merional hg"
+        ],
+        "classeTerapeutica": "Gonadotrofinas incluindo outros estimulantes para ovulação"
     },
     {
         "id": "med-00539",
         "nome": "Meropeném",
         "principioAtivo": "Meropeném Tri-hidratado",
-        "descricao": "Carbapenemes e penemes",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "1 G PO SOL INJ IV CX 25 FA VD TRANS",
             "2 G PO SOL INJ IV CX 10 FA VD TRANS",
@@ -31480,13 +34690,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2544.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Tri-hidratado"
+        ],
+        "classeTerapeutica": "Carbapenemes e penemes"
     },
     {
         "id": "med-00540",
         "nome": "Pentasa",
         "principioAtivo": "Mesalazina",
-        "descricao": "Produtos aminosalicilatos para alterações intestinais",
+        "descricao": "Anti-inflamatório intestinal. Usado para retocolite ulcerativa e doença de Crohn.",
         "apresentacoes": [
             "1 G GRAN REV OR LIB PROL CT ENV AL PLAS PE X 50",
             "1000 MG SUP RET CT BL AL AL X 28",
@@ -31542,13 +34755,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 561.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Mesacol",
+            "Zydcol mr",
+            "Chron-asa 5"
+        ],
+        "classeTerapeutica": "Produtos aminosalicilatos para alterações intestinais"
     },
     {
         "id": "med-00541",
         "nome": "Migraliv",
         "principioAtivo": "Mesilato de Di-hidroergotamina;dipirona Monoidratada;cafeína",
-        "descricao": "Todos as outras preparações antienxaquecosas",
+        "descricao": "Usado para tratar ou prevenir crises de enxaqueca.",
         "apresentacoes": [
             "(1,0 + 100,0 + 350,0) MG COM CT BL AL AL X 12",
             "(1,0 + 100,0 + 350,0) MG COM CT BL AL AL X 20",
@@ -31584,13 +34802,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Mesilato de Di-hidroergotamina",
+            "dipirona Monoidratada",
+            "Izenxaq",
+            "Xaqueliv"
+        ],
+        "classeTerapeutica": "Todos as outras preparações antienxaquecosas"
     },
     {
         "id": "med-00542",
         "nome": "Cefaliv",
         "principioAtivo": "Mesilato de Di-hidroergotamina;dipirona;cafeína",
-        "descricao": "Todos as outras preparações antienxaquecosas",
+        "descricao": "Usado para tratar ou prevenir crises de enxaqueca.",
         "apresentacoes": [
             "(1 + 100 + 350) MG COM CT BL AL PLAS TRANS X 12"
         ],
@@ -31607,13 +34831,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Mesilato de Di-hidroergotamina",
+            "dipirona",
+            "Enxak"
+        ],
+        "classeTerapeutica": "Todos as outras preparações antienxaquecosas"
     },
     {
         "id": "med-00543",
         "nome": "Unoprost",
         "principioAtivo": "Mesilato de Doxazosina",
-        "descricao": "Anti-hipertensivos puro-ação periférica",
+        "descricao": "Reduz a pressão arterial.",
         "apresentacoes": [
             "1 MG COM CT BL AL PLAS PVC TRANS X 20",
             "2 MG COM CT BL AL PLAS PVC TRANS X 30",
@@ -31705,13 +34934,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 72.72,
-        "sinonimias": []
+        "sinonimias": [
+            "Doxazosina",
+            "Doxprovir",
+            "Doxativo",
+            "Doxuran",
+            "Mesidox",
+            "Cadvas"
+        ],
+        "classeTerapeutica": "Anti-hipertensivos puro-ação periférica"
     },
     {
         "id": "med-00544",
         "nome": "Duomo hp",
         "principioAtivo": "Mesilato de Doxazosina;finasterida",
-        "descricao": "Bph combinações de alfa-antagonistas e inibidores da 5-alfa testosterona redutase",
+        "descricao": "Usado para sintomas do aumento benigno da próstata.",
         "apresentacoes": [
             "(2,0 + 5,0) MG  COM REV CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 30",
             "(2,0 + 5,0) MG  COM REV CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 60",
@@ -31745,13 +34982,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 55.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Mesilato de Doxazosina",
+            "finasterida",
+            "Hominus",
+            "Prós-hp"
+        ],
+        "classeTerapeutica": "Bph combinações de alfa-antagonistas e inibidores da 5-alfa testosterona redutase"
     },
     {
         "id": "med-00545",
         "nome": "Pradaxa",
         "principioAtivo": "Mesilato de Etexilato de Dabigatrana",
-        "descricao": "Inibidores diretos da trombina",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "110 MG CAP DURA CT BL AL/AL X 10 ",
             "110 MG CAP DURA CT BL AL/AL X 30",
@@ -31778,13 +35021,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 71.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Dabigatrana",
+            "Etexilato de Dabigatrana"
+        ],
+        "classeTerapeutica": "Inibidores diretos da trombina"
     },
     {
         "id": "med-00546",
         "nome": "Lenvima",
         "principioAtivo": "Mesilato de Lenvatinibe",
-        "descricao": "Outros antineoplásicos inibidores da proteína kinase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "10 MG CAP DURA CT BL AL AL X 30",
             "4 MG CAP DURA CT BL AL AL X 30"
@@ -31830,13 +35077,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 6397.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Lenvatinibe",
+            "Lodatyr",
+            "Saumya"
+        ],
+        "classeTerapeutica": "Outros antineoplásicos inibidores da proteína kinase"
     },
     {
         "id": "med-00547",
         "nome": "Azilect",
         "principioAtivo": "Mesilato de Rasagilina",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "1 MG COM CT BL AL AL x 10",
             "1 MG COM CT BL AL AL x 30"
@@ -31866,13 +35118,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 89.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Rasagilina",
+            "Gilmov"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00548",
         "nome": "Xadago",
         "principioAtivo": "Mesilato de Safinamida",
-        "descricao": "Antiparkinsonianos",
+        "descricao": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão).",
         "apresentacoes": [
             "100 MG COM REV CT BL AL PLAS  PVC/PVDC  TRANS X 30",
             "50 MG COM REV CT BL AL PLAS  PVC/PVDC  TRANS X 30",
@@ -31904,13 +35160,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 120.11,
-        "sinonimias": []
+        "sinonimias": [
+            "Safinamida",
+            "Tulips"
+        ],
+        "classeTerapeutica": "Antiparkinsonianos"
     },
     {
         "id": "med-00549",
         "nome": "Pentasa",
         "principioAtivo": "Messalazina",
-        "descricao": "Produtos aminosalicilatos para alterações intestinais",
+        "descricao": "Anti-inflamatório intestinal. Usado para retocolite ulcerativa e doença de Crohn.",
         "apresentacoes": [
             "10 MG/ML SUS RET CT ENVOL 7 FR APLIC PLAS PEBD OPC X 100 ML + VALV"
         ],
@@ -31947,13 +35207,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 349.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Mesacol",
+            "Chron-asa 5",
+            "Mesalazina"
+        ],
+        "classeTerapeutica": "Produtos aminosalicilatos para alterações intestinais"
     },
     {
         "id": "med-00550",
         "nome": "Espasmo Dimetiliv",
         "principioAtivo": "Metilbrometo de Homatropina;simeticona",
-        "descricao": "Antiespasmódicos associados com outros produtos",
+        "descricao": "Alivia cólicas e espasmos do aparelho digestivo.",
         "apresentacoes": [
             "80 MG/ML + 2,5 MG/ML EMU OR CT FR GOT PLAS OPC X 20 ML "
         ],
@@ -31978,13 +35243,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.62,
-        "sinonimias": []
+        "sinonimias": [
+            "Metilbrometo de Homatropina",
+            "simeticona",
+            "Simeticona + Metilbrometo de Homatropina",
+            "Espasmo Flatol"
+        ],
+        "classeTerapeutica": "Antiespasmódicos associados com outros produtos"
     },
     {
         "id": "med-00551",
         "nome": "Aldomet",
         "principioAtivo": "Metildopa",
-        "descricao": "Anti-hipertensivos puro-ação central",
+        "descricao": "Reduz a pressão arterial.",
         "apresentacoes": [
             "250 MG COM REV CT BL AL PLAS TRANS X 30",
             "500 MG COM REV CT BL AL PLAS TRANS X 30"
@@ -32006,13 +35277,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.15,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Anti-hipertensivos puro-ação central"
     },
     {
         "id": "med-00552",
         "nome": "Tensioval",
         "principioAtivo": "Metildopa Sesqui-hidratada",
-        "descricao": "Anti-hipertensivos puro-ação central",
+        "descricao": "Reduz a pressão arterial.",
         "apresentacoes": [
             "250 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 20",
             "250 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30",
@@ -32046,13 +35318,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 42.41,
-        "sinonimias": []
+        "sinonimias": [
+            "Sesqui-hidratada",
+            "Metildopa"
+        ],
+        "classeTerapeutica": "Anti-hipertensivos puro-ação central"
     },
     {
         "id": "med-00553",
         "nome": "Hytas",
         "principioAtivo": "Metotrexato",
-        "descricao": "Agentes antineoplásicos antimetabólitos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG/ ML SOL INJ FA VD TRANS X 10 ML "
         ],
@@ -32072,13 +35348,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 569.36,
-        "sinonimias": []
+        "sinonimias": [
+            "Mexy"
+        ],
+        "classeTerapeutica": "Agentes antineoplásicos antimetabólitos"
     },
     {
         "id": "med-00554",
         "nome": "Metrexato",
         "principioAtivo": "Metotrexato de Sódio",
-        "descricao": "Agentes antineoplásicos antimetabólitos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "2,5 MG COM CT BL AL PLAS PVC AMB X 24"
         ],
@@ -32101,13 +35380,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.44,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Metotrexato"
+        ],
+        "classeTerapeutica": "Agentes antineoplásicos antimetabólitos"
     },
     {
         "id": "med-00555",
         "nome": "Rozex",
         "principioAtivo": "Metronidazol",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "7,5 MG/G GEL CT BG AL X 30 G"
         ],
@@ -32177,13 +35460,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 117.66,
-        "sinonimias": []
+        "sinonimias": [
+            "flagyl",
+            "Meflagin",
+            "Helmizol",
+            "Neometrodazol",
+            "Canderm"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00556",
         "nome": "Cellcept",
         "principioAtivo": "Micofenolato de Mofetila",
-        "descricao": "Outros imunossupressores",
+        "descricao": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes.",
         "apresentacoes": [
             "500 MG COM REV CT  BL AL PLAS OPC X 50"
         ],
@@ -32237,13 +35527,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1730.96,
-        "sinonimias": []
+        "sinonimias": [
+            "Mofetila",
+            "Gnimi",
+            "Mofecell"
+        ],
+        "classeTerapeutica": "Outros imunossupressores"
     },
     {
         "id": "med-00557",
         "nome": "Biotoss",
         "principioAtivo": "Mikania Glomerata Spreng.",
-        "descricao": "Expectorantes",
+        "descricao": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias.",
         "apresentacoes": [
             "0,05 ML/ML SOL OR CT FR PLAS OPC X 120 ML"
         ],
@@ -32259,14 +35554,18 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 38.0,
-        "sinonimias": []
+        "precoReferencia": 38,
+        "sinonimias": [
+            "Spreng.",
+            "Livtós"
+        ],
+        "classeTerapeutica": "Expectorantes"
     },
     {
         "id": "med-00558",
         "nome": "Eniagor",
         "principioAtivo": "Minoxidil",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "50 MG/ML SOL CAPI CT 2 FR PLAS PEAD OPC X 50 ML + CTG",
             "50 MG/ML SOL CAPI CT 2 FR PLAS PEAD OPC X 50 ML + VALV",
@@ -32360,13 +35659,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 205.69,
-        "sinonimias": []
+        "sinonimias": [
+            "Capitrat Men",
+            "Kedaxyl",
+            "Dixil",
+            "Pilox",
+            "Pant Sec"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00559",
         "nome": "Myrbetric",
         "principioAtivo": "Mirabegrona",
-        "descricao": "Produtos para incontinência urinária",
+        "descricao": "Usado para controlar a bexiga hiperativa e a incontinência urinária.",
         "apresentacoes": [
             "25 MG COM REV LIB PROL CT BL AL/AL X 30",
             "50 MG COM REV LIB PROL CT BL AL/AL X 10",
@@ -32409,13 +35715,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 110.95,
-        "sinonimias": []
+        "sinonimias": [
+            "Mirab",
+            "Micpure"
+        ],
+        "classeTerapeutica": "Produtos para incontinência urinária"
     },
     {
         "id": "med-00560",
         "nome": "Remeron",
         "principioAtivo": "Mirtazapina",
-        "descricao": "Antidepressivos todos os outros",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "15 MG COM ORODISP CT BL AL PLAS PVC TRANS X 30",
             "15 MG COM ORODISP CT BL AL PLAS PVC TRANS X 6",
@@ -32553,13 +35863,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 42.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Catarse Odt",
+            "Razapina",
+            "Menelat Odt",
+            "Menelat",
+            "Zapsy"
+        ],
+        "classeTerapeutica": "Antidepressivos todos os outros"
     },
     {
         "id": "med-00561",
         "nome": "Monocordil",
         "principioAtivo": "Mononitrato de Isossorbida",
-        "descricao": "Nitritos e nitratos",
+        "descricao": "Melhora o fluxo de sangue para o coração, aliviando a angina (dor no peito).",
         "apresentacoes": [
             "20 MG COM CT 2 BL AL PLAS TRANS X 15",
             "20 MG COM CT BL AL PLAS TRANS X 20",
@@ -32604,13 +35921,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 18.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Isossorbida",
+            "Cincordil",
+            "Coronar"
+        ],
+        "classeTerapeutica": "Nitritos e nitratos"
     },
     {
         "id": "med-00562",
         "nome": "Levolukast",
         "principioAtivo": "Montelucaste de Sódio",
-        "descricao": "Antiasmáticos/dpoc antileucotrienos sistêmicos",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "10MG + 5MG COM REV CT FR PLAS OPC X 14",
             "10MG + 5MG COM REV CT FR PLAS OPC X 7  "
@@ -32750,13 +36072,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 73.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Ária",
+            "Piemonte",
+            "Montelair",
+            "Oxcene"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc antileucotrienos sistêmicos"
     },
     {
         "id": "med-00563",
         "nome": "Lemont",
         "principioAtivo": "Montelucaste de Sódio;dicloridrato de Levocetirizina",
-        "descricao": "Antiasmáticos/dpoc antileucotrienos sistêmicos",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "(10 + 5) MG COM REV CT FR PLAS PEAD 25 OPC X 14",
             "(10 + 5) MG COM REV CT FR PLAS PEAD 25 OPC X 7"
@@ -32784,13 +36113,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 73.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Montelucaste de Sódio",
+            "dicloridrato de Levocetirizina",
+            "Montelucaste de Sódio + Dicloridrato de Levocetirizina",
+            "Rizi-m"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc antileucotrienos sistêmicos"
     },
     {
         "id": "med-00564",
         "nome": "Bactroban",
         "principioAtivo": "Mupirocina",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "20 MG/G POM DERM CT TB AL X 10 G"
         ],
@@ -32823,13 +36158,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 57.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Dermoban",
+            "Bacrocin"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00565",
         "nome": "Naprox",
         "principioAtivo": "Naproxeno",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "500 MG COM CT BL AL PLAS LAR X 10   ",
             "500 MG COM CT BL AL PLAS LAR X 20"
@@ -32859,13 +36198,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 23.01,
-        "sinonimias": []
+        "sinonimias": [
+            "flanax",
+            "naprosyn",
+            "Naxotec"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00566",
         "nome": "Flanax xr",
         "principioAtivo": "Naproxeno Sódico",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "660 MG COM REV LIB PROL CT STR AL PLAS PES/PET/PEBD OPC X 8"
         ],
@@ -32925,14 +36269,22 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 33.0,
-        "sinonimias": []
+        "precoReferencia": 33,
+        "sinonimias": [
+            "flanax",
+            "naprosyn",
+            "Naproxeno",
+            "Doriipro",
+            "Globonaxx",
+            "Napronax"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00567",
         "nome": "Niquitin",
         "principioAtivo": "Nicotina",
-        "descricao": "Produtos antitabaco",
+        "descricao": "Auxilia a parar de fumar.",
         "apresentacoes": [
             "14 MG ADES TRANSD TRANS CT ENV AL PE X 7",
             "2 MG PAS DURA CT BL AL/AL X 36",
@@ -32970,13 +36322,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 127.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Nicorette",
+            "Nicotinell"
+        ],
+        "classeTerapeutica": "Produtos antitabaco"
     },
     {
         "id": "med-00568",
         "nome": "Nifedipress",
         "principioAtivo": "Nifedipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "20 MG COM RETARD CT BL AL PLAS AMB X 30 "
         ],
@@ -32994,13 +36350,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 30.53,
-        "sinonimias": []
+        "sinonimias": [
+            "adalat",
+            "Neo Fedipina"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00569",
         "nome": "Arflex Retard",
         "principioAtivo": "Nimesulida",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "200 MG CAP AP CT BL AL PLAS TRANS X 12 ",
             "200 MG CAP AP CT BL AL PLAS TRANS X 6 "
@@ -33090,13 +36450,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.74,
-        "sinonimias": []
+        "sinonimias": [
+            "nisulid",
+            "scaflam",
+            "arflex",
+            "Nimelit",
+            "Lide",
+            "Scaflogin",
+            "Nimesilam"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00570",
         "nome": "Maxsulid",
         "principioAtivo": "Nimesulida Betaciclodextrina",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "400 MG COM CT BL AL PLAS TRANS X 10",
             "400 MG COM CT BL AL PLAS TRANS X 30"
@@ -33142,13 +36511,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.44,
-        "sinonimias": []
+        "sinonimias": [
+            "nisulid",
+            "scaflam",
+            "arflex",
+            "Betaciclodextrina",
+            "Nib",
+            "Zulic",
+            "Nimus Beta"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00571",
         "nome": "Nivux",
         "principioAtivo": "Nimesulida;pantoprazol Sódico Sesqui-hidratado",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "(100 + 20) MG COM LIB MOD CT BL AL AL X 10",
             "(100 + 20) MG COM LIB MOD CT BL AL AL X 12",
@@ -33171,13 +36549,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.08,
-        "sinonimias": []
+        "sinonimias": [
+            "nisulid",
+            "scaflam",
+            "arflex",
+            "Nimesulida",
+            "pantoprazol Sódico Sesqui-hidratado",
+            "Nidue"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00572",
         "nome": "Neo Mistatin",
         "principioAtivo": "Nistatina",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "25.000 UI/G CREM VAG CT BG AL X 60 G + 14 APLIC"
         ],
@@ -33247,13 +36633,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 43.86,
-        "sinonimias": []
+        "sinonimias": [
+            "micostatin",
+            "Nistrazin",
+            "Canditrat",
+            "Micostalab",
+            "Nistamax",
+            "Albistin"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00573",
         "nome": "Colpistatin",
         "principioAtivo": "Nistatina;cloreto de Benzalcônio;benzoilmetronidazol",
-        "descricao": "Tricomonicidas tópicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "62,5 MG/G + 25.000 UI/G + 1,25 MG/G CREM VAG CT BG AL X 40 G + 10 APLIC"
         ],
@@ -33277,13 +36671,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 84.28,
-        "sinonimias": []
+        "sinonimias": [
+            "micostatin",
+            "Nistatina",
+            "cloreto de Benzalcônio",
+            "benzoilmetronidazol",
+            "Benzoilmetronidazol + Nistatina + Cloreto de Benzalcônio",
+            "Colpist mt"
+        ],
+        "classeTerapeutica": "Tricomonicidas tópicos"
     },
     {
         "id": "med-00574",
         "nome": "Tricomax",
         "principioAtivo": "Nistatina;metronidazol",
-        "descricao": "Tricomonicidas tópicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "100 MG/G + 20.000 UI/G CREM VAG CT BG AL X 50 G + 10 APLIC DESCART"
         ],
@@ -33309,13 +36711,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 93.41,
-        "sinonimias": []
+        "sinonimias": [
+            "micostatin",
+            "Nistatina",
+            "metronidazol",
+            "Metronidazol + Nistatina",
+            "Trinodazol Nistatina"
+        ],
+        "classeTerapeutica": "Tricomonicidas tópicos"
     },
     {
         "id": "med-00575",
         "nome": "Pomaglós Tratamento",
         "principioAtivo": "Nistatina;oxido de Zinco",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "100.000 UI/G + 200 MG/G POM DERM CT BG AL X 60 G "
         ],
@@ -33332,13 +36741,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.02,
-        "sinonimias": []
+        "sinonimias": [
+            "micostatin",
+            "Nistatina",
+            "oxido de Zinco",
+            "Nistatina + Óxido de Zinco"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00576",
         "nome": "Dermodex",
         "principioAtivo": "Nistatina;óxido de Zinco",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "100.000 UI/G + 200 MG/G POM DERM CT BG AL X 60 G"
         ],
@@ -33399,13 +36814,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 107.97,
-        "sinonimias": []
+        "sinonimias": [
+            "micostatin",
+            "Nistatina",
+            "óxido de Zinco",
+            "Nistatina + Óxido de Zinco",
+            "Pratiderm",
+            "Nistatina+oxido de Zinco",
+            "Babymed Tratamento",
+            "Alivbaby"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00577",
         "nome": "Annita",
         "principioAtivo": "Nitazoxanida",
-        "descricao": "Outros antiparasitários",
+        "descricao": "Usado para eliminar vermes ou parasitas intestinais.",
         "apresentacoes": [
             "20 MG/ML PÓ SUS OR CT FR VD AMB X 100 ML + SER DOS",
             "20 MG/ML PÓ SUS OR CT FR VD AMB X 45 ML + SER DOS",
@@ -33506,13 +36931,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Irosê",
+            "Epará",
+            "Mínti",
+            "Nydda",
+            "Naxxagran"
+        ],
+        "classeTerapeutica": "Outros antiparasitários"
     },
     {
         "id": "med-00578",
         "nome": "Orfadin",
         "principioAtivo": "Nitisinona",
-        "descricao": "Outros produtos para o aparelho digestório e metabolismo",
+        "descricao": "Medicamento da classe \"Outros produtos para o aparelho digestório e metabolismo\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10 MG CAP DURA CT FR PLAS PEAD OPC X 60",
             "2 MG CAP DURA CT FR PLAS PEAD OPC X 60",
@@ -33539,13 +36971,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 4430.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Nitikabs"
+        ],
+        "classeTerapeutica": "Outros produtos para o aparelho digestório e metabolismo"
     },
     {
         "id": "med-00579",
         "nome": "Gynazole-1",
         "principioAtivo": "Nitrato de Butoconazol",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "20 MG/G CREM VAG CT ENVOL APLIC PREENC PLAS TRANS X 5 G"
         ],
@@ -33583,13 +37018,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 121.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Butoconazol",
+            "Femmesil",
+            "Umma",
+            "Unyca"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00580",
         "nome": "Fentizol",
         "principioAtivo": "Nitrato de Fenticonazol",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "20 MG/G CREM DERM CT BG AL X 20 G",
             "20 MG/G CREM DERM CT BG AL X 30 G",
@@ -33629,13 +37070,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Fenticonazol",
+            "Vagicand",
+            "Ginna"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00581",
         "nome": "Gyno-icaden",
         "principioAtivo": "Nitrato de Isoconazol",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "10 MG/G CREM VAG CT BG X 40 G + 7 APLIC",
             "600 MG OVL CT STR X 1 + DEDEIRA"
@@ -33662,13 +37108,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 107.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Isoconazol",
+            "Icaden"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00582",
         "nome": "Gino Mizonol",
         "principioAtivo": "Nitrato de Miconazol",
-        "descricao": "Antifúngicos ginecológicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "20 MG/G CREM VAG CT BG AL X 80 G + 14 APLIC "
         ],
@@ -33716,13 +37166,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Miconazol",
+            "Micozen",
+            "Mizonol",
+            "Vodol"
+        ],
+        "classeTerapeutica": "Antifúngicos ginecológicos"
     },
     {
         "id": "med-00583",
         "nome": "Gino-colon",
         "principioAtivo": "Nitrato de Miconazol;tinidazol",
-        "descricao": "Tricomonicidas tópicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "(30 + 20) MG/G CREM VAG CT BG AL X 45G + 7 APLIC"
         ],
@@ -33752,13 +37208,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 60.14,
-        "sinonimias": []
+        "sinonimias": [
+            "Nitrato de Miconazol",
+            "tinidazol",
+            "Tinidazol + Nitrato de Miconazol",
+            "Amplium g"
+        ],
+        "classeTerapeutica": "Tricomonicidas tópicos"
     },
     {
         "id": "med-00584",
         "nome": "Oxipelle",
         "principioAtivo": "Nitrato de Oxiconazol",
-        "descricao": "Antifúngicos dermatológicos tópicos",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "10 MG/G CREM DERM CT BG AL X 20 G",
             "10 MG/ML SOL TOP CT FR GOT PLAS OPC X 20 ML"
@@ -33777,13 +37239,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 60.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Oxiconazol"
+        ],
+        "classeTerapeutica": "Antifúngicos dermatológicos tópicos"
     },
     {
         "id": "med-00585",
         "nome": "Citoneurin 5000 Tabs",
         "principioAtivo": "Nitrato de Tiamina;cianocobalamina;cloridrato de Piridoxina",
-        "descricao": "Associações vitamina b1+ b6 e/ou b12",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "5000 MCG + 100 MG + 100 MG  COM REV CT BL AL PLAS OPC X 60"
         ],
@@ -33855,13 +37320,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 188.1,
-        "sinonimias": []
+        "sinonimias": [
+            "Nitrato de Tiamina",
+            "cianocobalamina",
+            "cloridrato de Piridoxina",
+            "Nevrix",
+            "Renovi b",
+            "Citobê",
+            "Neo b",
+            "Citoneurin",
+            "Trirubin"
+        ],
+        "classeTerapeutica": "Associações vitamina b1+ b6 e/ou b12"
     },
     {
         "id": "med-00586",
         "nome": "Sonebon",
         "principioAtivo": "Nitrazepam",
-        "descricao": "Hipnóticos e sedativos não barbitúricos puros",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "5 MG COM CT BL AL PLAS TRANS X 20"
         ],
@@ -33878,13 +37354,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.02,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Hipnóticos e sedativos não barbitúricos puros"
     },
     {
         "id": "med-00587",
         "nome": "Caltren",
         "principioAtivo": "Nitrendipino",
-        "descricao": "Antagonistas do cálcio puros",
+        "descricao": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina.",
         "apresentacoes": [
             "10 MG COM CT 2 BL AL PLAS AMB X 15",
             "20 MG COM CT 2 BL AL PLAS AMB X 15"
@@ -33912,13 +37389,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 89.53,
-        "sinonimias": []
+        "sinonimias": [
+            "Nitrencord"
+        ],
+        "classeTerapeutica": "Antagonistas do cálcio puros"
     },
     {
         "id": "med-00588",
         "nome": "Macrodantina",
         "principioAtivo": "Nitrofurantoína",
-        "descricao": "Outros anti-séptcos urinários",
+        "descricao": "Antisséptico das vias urinárias. Usado em infecções urinárias.",
         "apresentacoes": [
             "100 MG CAP GEL DURA CT BL AL PLAS TRANS X 144  ",
             "100 MG CAP GEL DURA CT BL AL PLAS TRANS X 28",
@@ -33946,13 +37426,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Nitrofen"
+        ],
+        "classeTerapeutica": "Outros anti-séptcos urinários"
     },
     {
         "id": "med-00589",
         "nome": "Norestin",
         "principioAtivo": "Noretisterona",
-        "descricao": "Preparações orais com progestagênios somente",
+        "descricao": "Hormônio progestagênio, usado em saúde da mulher e contracepção.",
         "apresentacoes": [
             "0,35 MG COM CT BL AL PLAS TRANS X 35"
         ],
@@ -33969,13 +37452,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 16.27,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Preparações orais com progestagênios somente"
     },
     {
         "id": "med-00590",
         "nome": "Floximed",
         "principioAtivo": "Norfloxacino",
-        "descricao": "Fluorquinolonas orais",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "400 MG COM REV CT BL AL PLAS TRANS X 420"
         ],
@@ -34035,13 +37519,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 945.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Urotrobel",
+            "Norxacin",
+            "Norf",
+            "Floxamox"
+        ],
+        "classeTerapeutica": "Fluorquinolonas orais"
     },
     {
         "id": "med-00591",
         "nome": "Oflox",
         "principioAtivo": "Ofloxacino",
-        "descricao": "Antiinfeccios oftalmológicos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "3 MG/ML SOL OFT CT FR PLAS OPC GOT X 5 ML"
         ],
@@ -34065,13 +37555,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.42,
-        "sinonimias": []
+        "sinonimias": [
+            "Nostil"
+        ],
+        "classeTerapeutica": "Antiinfeccios oftalmológicos"
     },
     {
         "id": "med-00592",
         "nome": "Zyprexa",
         "principioAtivo": "Olanzapina",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "10 MG COM ORODISP CT BL AL AL X 28",
             "10 MG COM REV CT BL AL AL  X 30",
@@ -34231,13 +37724,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 645.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Olanexyn",
+            "Zopix",
+            "Zap",
+            "Axonium",
+            "Onaz"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00593",
         "nome": "Olmetec",
         "principioAtivo": "Olmesartana Medoxomila",
-        "descricao": "Antagonistas da angiotensina ii puros",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "20 MG COM REV CT BL AL/AL X 10 ",
             "20 MG COM REV CT BL AL/AL X 30 ",
@@ -34385,13 +37885,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 70.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Medoxomila",
+            "Holmes",
+            "Olsar",
+            "Olmecor",
+            "Olmedix",
+            "Olmy"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii puros"
     },
     {
         "id": "med-00594",
         "nome": "Neoprazol",
         "principioAtivo": "Omeprazol",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "20 MG CAP DURA CT FR PLAS OPC X 28",
             "40 MG CAP DURA CT FR PLAS OPC X 28"
@@ -34546,13 +38054,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 117.76,
-        "sinonimias": []
+        "sinonimias": [
+            "losec",
+            "peprazol",
+            "Lozeprel",
+            "Pratiprazol",
+            "Omoprel",
+            "Novoprazol",
+            "Eupept"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00595",
         "nome": "Ono",
         "principioAtivo": "Ondansetrona",
-        "descricao": "Antieméticos e antinauseantes, antagonistas da serotonina",
+        "descricao": "Combate náuseas e vômitos e ajuda o estômago a esvaziar.",
         "apresentacoes": [
             "4 MG COM ORODISP CT BL AL PLAS PVC/PVDC OPC X 10",
             "4 MG COM ORODISP CT BL AL PLAS PVC/PVDC OPC X 30",
@@ -34608,13 +38125,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.86,
-        "sinonimias": []
+        "sinonimias": [
+            "zofran",
+            "vonau",
+            "nausedron",
+            "Kemyza",
+            "Ondif"
+        ],
+        "classeTerapeutica": "Antieméticos e antinauseantes, antagonistas da serotonina"
     },
     {
         "id": "med-00596",
         "nome": "Orlax",
         "principioAtivo": "Orlipastat",
-        "descricao": "Preparações antiobesidade, exceto os dietéticos",
+        "descricao": "Auxiliar no tratamento da obesidade.",
         "apresentacoes": [
             "120 MG CAP DURA CT BL AL PLAS TRANS X 42",
             "120 MG CAP DURA CT BL AL PLAS TRANS X 84"
@@ -34671,13 +38195,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 333.41,
-        "sinonimias": []
+        "sinonimias": [
+            "Lipoxen",
+            "Orlistate",
+            "Lipiblock",
+            "Orlipid",
+            "Siluestat"
+        ],
+        "classeTerapeutica": "Preparações antiobesidade, exceto os dietéticos"
     },
     {
         "id": "med-00597",
         "nome": "Orlibe",
         "principioAtivo": "Orlistate",
-        "descricao": "Preparações antiobesidade, exceto os dietéticos",
+        "descricao": "Auxiliar no tratamento da obesidade.",
         "apresentacoes": [
             "120 MG CAP DURA CT BL AL PLAS TRANS X 21",
             "120 MG CAP DURA CT BL AL PLAS TRANS X 210 (EMB FRAC)",
@@ -34722,13 +38253,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 155.99,
-        "sinonimias": []
+        "sinonimias": [
+            "xenical",
+            "lipiblock"
+        ],
+        "classeTerapeutica": "Preparações antiobesidade, exceto os dietéticos"
     },
     {
         "id": "med-00598",
         "nome": "Lexapro",
         "principioAtivo": "Oxalato de Escitalopram",
-        "descricao": "Antidepressivos ssri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "10 MG  COM REV CT BL AL PLAS TRANS X 30",
             "10 MG  COM REV CT BL AL PLAS TRANS X 60",
@@ -34901,13 +38436,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 448.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Escitalopram",
+            "Esc Odt",
+            "Eudok",
+            "Esc",
+            "Reconter Odt",
+            "Escena"
+        ],
+        "classeTerapeutica": "Antidepressivos ssri"
     },
     {
         "id": "med-00599",
         "nome": "Trileptal",
         "principioAtivo": "Oxcarbazepina",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "300 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 10",
             "300 MG COM REV CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
@@ -34970,13 +38513,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Oleptal",
+            "Oxcarb"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00600",
         "nome": "Ibrance",
         "principioAtivo": "Palbociclibe",
-        "descricao": "Inibidores preoteína kinase antineoplásicos, cdk 4/6",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG CAP DURA CT FR PLAS PEAD OPC X 21",
             "125 MG CAP DURA CT FR PLAS PEAD OPC X 21",
@@ -35050,13 +38597,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12558.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Cydikriz",
+            "Sedecib",
+            "Agatha"
+        ],
+        "classeTerapeutica": "Inibidores preoteína kinase antineoplásicos, cdk 4/6"
     },
     {
         "id": "med-00601",
         "nome": "Invega",
         "principioAtivo": "Palmitato de Paliperidona",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "100 MG/ML SUS INJ LIB PROL IM CT 1 SER PREENC PLAS COC TRANS X 0,50 ML+ 2 AGU",
             "100 MG/ML SUS INJ LIB PROL IM CT 1 SER PREENC PLAS COC TRANS X 0,75 ML + 2 AGU",
@@ -35112,13 +38664,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1999.61,
-        "sinonimias": []
+        "sinonimias": [
+            "Paliperidona",
+            "Vegapali"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00602",
         "nome": "Pantasun",
         "principioAtivo": "Pantoprazol",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "40 MG PÓ LIOF SOL INJ IV CT FA VD TRANS"
         ],
@@ -35149,13 +38705,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 186.7,
-        "sinonimias": []
+        "sinonimias": [
+            "pantozol",
+            "Adipept",
+            "Pantoprazol Sódico"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00603",
         "nome": "Tecta",
         "principioAtivo": "Pantoprazol Magnésico Di-hidratado",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "40 MG COM REV CT BL AL/AL X 15",
             "40 MG COM REV LIB RETARD CT BL AL/AL X 30",
@@ -35234,13 +38795,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 277.03,
-        "sinonimias": []
+        "sinonimias": [
+            "pantozol",
+            "Di-hidratado",
+            "Pantoprazol Magnésico",
+            "Restitue",
+            "Dispetic",
+            "Pantoprazol Magnésico Diidratado",
+            "Inilok"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00604",
         "nome": "Pantoprazol Magnésico Di-hidratado",
         "principioAtivo": "Pantoprazol Magnésico Di-hidratado;pantoprazol Sódico Sesqui-hidratado",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "40 MG COM REV LIB RETARD CT BL AL AL X 60"
         ],
@@ -35259,13 +38829,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 738.91,
-        "sinonimias": []
+        "sinonimias": [
+            "pantozol",
+            "pantoprazol Sódico Sesqui-hidratado",
+            "Divena"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00605",
         "nome": "Pantozol",
         "principioAtivo": "Pantoprazol Sódico Sesqui-hidratado",
-        "descricao": "Inibidores da bomba de prótons",
+        "descricao": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera.",
         "apresentacoes": [
             "20 MG COM REV LIB RETARD CT BL AL AL X 14",
             "20 MG COM REV LIB RETARD CT BL AL AL X 28",
@@ -35416,13 +38991,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 133.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Sesqui-hidratado",
+            "Gázia",
+            "Pantoprazol",
+            "Pantopaz",
+            "Pantoprazol Sódico",
+            "Prazy"
+        ],
+        "classeTerapeutica": "Inibidores da bomba de prótons"
     },
     {
         "id": "med-00606",
         "nome": "Sonridor",
         "principioAtivo": "Paracetamol",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG COM EFEV CT STR AL/PLAS X 24 "
         ],
@@ -35517,13 +39100,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 99.91,
-        "sinonimias": []
+        "sinonimias": [
+            "acetaminofeno",
+            "tylenol",
+            "Tylalgin",
+            "Tylidol",
+            "Dorsanol",
+            "Tylemax",
+            "Gripalcê Uno"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00607",
         "nome": "Tylenol dc",
         "principioAtivo": "Paracetamol;cafeína",
-        "descricao": "Analgésicos não narcóticos e antipiréticos",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "500 MG + 65 MG COM REV CT BL AL PLAS TRANS X 10",
             "500 MG + 65 MG COM REV CT BL AL PLAS TRANS X 100 (EMB MULT)",
@@ -35562,13 +39154,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.03,
-        "sinonimias": []
+        "sinonimias": [
+            "acetaminofeno",
+            "tylenol",
+            "Paracetamol",
+            "Elcodrix dc",
+            "Paracetamol + Cafeína",
+            "Tylalgin Caf"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos"
     },
     {
         "id": "med-00608",
         "nome": "Ultracet",
         "principioAtivo": "Paracetamol;cloridrato de Tramadol",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "37,5 MG + 325 MG COM REV CT BL AL PLAS TRANS X 10",
             "37,5 MG + 325 MG COM REV CT BL AL PLAS TRANS X 20",
@@ -35660,13 +39260,25 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 73.1,
-        "sinonimias": []
+        "sinonimias": [
+            "acetaminofeno",
+            "tylenol",
+            "Paracetamol",
+            "cloridrato de Tramadol",
+            "Daisan",
+            "Cloridrato de Tramadol + Paracetamol",
+            "Tilestal",
+            "Gésico Duo",
+            "Atrace",
+            "Onzuk"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00609",
         "nome": "Tylex",
         "principioAtivo": "Paracetamol;fosfato de Codeína",
-        "descricao": "Analgésicos narcóticos",
+        "descricao": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição.",
         "apresentacoes": [
             "500 MG + 30 MG COM CT  BL AL PLAS OPC X 12",
             "500 MG + 30 MG COM CT  BL AL PLAS OPC X 24",
@@ -35745,14 +39357,26 @@ const BANCO_MEDICAMENTOS = [
                 ]
             }
         ],
-        "precoReferencia": 36.0,
-        "sinonimias": []
+        "precoReferencia": 36,
+        "sinonimias": [
+            "acetaminofeno",
+            "tylenol",
+            "Paracetamol",
+            "fosfato de Codeína",
+            "Paracetamol + Fosfato de Codeína",
+            "Paracetamol+fosfato de Codeina",
+            "Paco",
+            "Algicod",
+            "Cod Par",
+            "Agud"
+        ],
+        "classeTerapeutica": "Analgésicos narcóticos"
     },
     {
         "id": "med-00610",
         "nome": "Pasalix pi",
         "principioAtivo": "Passiflora Incarnata",
-        "descricao": "Outros produtos",
+        "descricao": "Medicamento da classe \"Outros produtos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "500 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 20",
             "500 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30",
@@ -35773,13 +39397,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 76.25,
-        "sinonimias": []
+        "sinonimias": [
+            "Incarnata",
+            "Passiflora Klein"
+        ],
+        "classeTerapeutica": "Outros produtos"
     },
     {
         "id": "med-00611",
         "nome": "Calmasyn",
         "principioAtivo": "Passiflora Incarnata l.",
-        "descricao": "Hipnóticos e sedativos herbáceos",
+        "descricao": "Indutor do sono. Usado para insônia por período limitado.",
         "apresentacoes": [
             "300 MG COM REV CT BL AL PLAS ACLAR TRANS X 20",
             "37,84 MG/ML SOL ORAL CT FR PLAS AMB X 100 ML + COP",
@@ -35833,13 +39461,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.96,
-        "sinonimias": []
+        "sinonimias": [
+            "Pasalix pi",
+            "Novanoite",
+            "Calmalevhy",
+            "Sonozzz",
+            "Medansiedade"
+        ],
+        "classeTerapeutica": "Hipnóticos e sedativos herbáceos"
     },
     {
         "id": "med-00612",
         "nome": "Imunoflan",
         "principioAtivo": "Pelargonium Sidoides Dc.",
-        "descricao": "Outros produtos",
+        "descricao": "Medicamento da classe \"Outros produtos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "307,39 MG/ML XPE CT FR PLAS PET AMB X 120 ML + COP + SER DOS",
             "307,39 MG/ML XPE CT FR PLAS PET AMB X 200 ML + COP + SER DOS"
@@ -35862,13 +39497,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 143.13,
-        "sinonimias": []
+        "sinonimias": [
+            "Dc.",
+            "Kaloba"
+        ],
+        "classeTerapeutica": "Outros produtos"
     },
     {
         "id": "med-00613",
         "nome": "Coversyl",
         "principioAtivo": "Perindopril",
-        "descricao": "Inibidores da eca puros",
+        "descricao": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins.",
         "apresentacoes": [
             "4 MG COM CT BL AL PLAS TRANS X 30 + SACHÊ C/ DESSECANTE",
             "8 MG COM CX C/ BL AL PLAS TRANS X 30 + SACHÊ C/ DESSECANTE"
@@ -35892,13 +39531,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 140.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Acertil"
+        ],
+        "classeTerapeutica": "Inibidores da eca puros"
     },
     {
         "id": "med-00614",
         "nome": "Keltrina",
         "principioAtivo": "Permetrina",
-        "descricao": "Ectoparasiticidas incluindo escabicidas",
+        "descricao": "Usado no tratamento de sarna (escabiose) e piolho.",
         "apresentacoes": [
             "50 MG/ML LOC CX FR PLAS OPC X 60 ML "
         ],
@@ -35954,13 +39596,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 52.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Piolixina",
+            "Kaodine",
+            "Permenati",
+            "Piosan",
+            "Pediletan"
+        ],
+        "classeTerapeutica": "Ectoparasiticidas incluindo escabicidas"
     },
     {
         "id": "med-00615",
         "nome": "Picoprep",
         "principioAtivo": "Picossulfato de Sódio",
-        "descricao": "Agentes osmóticos de limpeza intestinal",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "10 MG + 3,5 G + 12 G PO SOL OR CT ENV AL/PLAS PE X 2"
         ],
@@ -35984,13 +39633,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.94,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Cronoplex",
+            "Rapilax"
+        ],
+        "classeTerapeutica": "Agentes osmóticos de limpeza intestinal"
     },
     {
         "id": "med-00616",
         "nome": "Guttalax",
         "principioAtivo": "Picossulfato de Sódio Monoidratado",
-        "descricao": "Laxantes estimulantes",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "7,5 MG/ML SOL OR CT FR GOT PLAS PEAD OPC X 30 ML"
         ],
@@ -36007,13 +39661,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Dulcolax Gotas"
+        ],
+        "classeTerapeutica": "Laxantes estimulantes"
     },
     {
         "id": "med-00617",
         "nome": "Esbriet",
         "principioAtivo": "Pirfenidona",
-        "descricao": "Produtos de fibrose pulmonar idiopática",
+        "descricao": "Usado para retardar a progressão da fibrose pulmonar idiopática.",
         "apresentacoes": [
             "267 MG CAP DURA CT FR PLAS OPC X 270"
         ],
@@ -36037,13 +39695,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 19975.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Egurinel"
+        ],
+        "classeTerapeutica": "Produtos de fibrose pulmonar idiopática"
     },
     {
         "id": "med-00618",
         "nome": "Feldene",
         "principioAtivo": "Piroxicam",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "20 MG CAP DURA CT BL AL PLAS TRANS X 10",
             "20 MG CAP DURA CT BL AL PLAS TRANS X 15",
@@ -36086,13 +39747,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 50.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Farmoxicam",
+            "Floxicam"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00619",
         "nome": "Brexin",
         "principioAtivo": "Piroxicam Betaciclodextrina",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "191,2 MG COM CT BL PVC/PVDC OPC X 5"
         ],
@@ -36110,13 +39775,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Betaciclodextrina",
+            "Cicladol"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00620",
         "nome": "Livalo",
         "principioAtivo": "Pitavastatina Cálcica",
-        "descricao": "Estatinas, inibidores da redutase hmg-coa",
+        "descricao": "Reduz o colesterol no sangue, diminuindo o risco de infarto e AVC.",
         "apresentacoes": [
             "2 MG COM REV CT BL AL AL X 10",
             "2 MG COM REV CT BL AL AL X 30",
@@ -36206,13 +39875,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 58.6,
-        "sinonimias": []
+        "sinonimias": [
+            "Pitavastatina",
+            "Ebatz",
+            "Lester",
+            "Pivast"
+        ],
+        "classeTerapeutica": "Estatinas, inibidores da redutase hmg-coa"
     },
     {
         "id": "med-00621",
         "nome": "Metamucil",
         "principioAtivo": "Plantago Ovata Forssk.",
-        "descricao": "Laxantes incrementadores do bolo fecal",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "0,492 G/G PO SOL FR PLAS OPC X 210 G",
             "0,562 G/G PO SOL CT 10 ENV AL PLAS X 5,85 G (LARANJA SEM AÇUCAR)",
@@ -36234,13 +39909,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 76.15,
-        "sinonimias": []
+        "sinonimias": [
+            "Forssk.",
+            "Plantaben"
+        ],
+        "classeTerapeutica": "Laxantes incrementadores do bolo fecal"
     },
     {
         "id": "med-00622",
         "nome": "Plantare",
         "principioAtivo": "Plantago Ovata Phil.",
-        "descricao": "Laxantes suavizadores e emolientes fecais",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "3,5 G PO EFEV CT 10 ENV X 5 G",
             "3,5 G PO EFEV CT 30 ENV X 5 G"
@@ -36268,13 +39947,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.06,
-        "sinonimias": []
+        "sinonimias": [
+            "Phil.",
+            "Fibirax Plant",
+            "Fibrems"
+        ],
+        "classeTerapeutica": "Laxantes suavizadores e emolientes fecais"
     },
     {
         "id": "med-00623",
         "nome": "Vacina Pneumocócica 10-valente (conjugada)",
         "principioAtivo": "Polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 7f;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 1;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 9v;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 14;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 19f;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 18c;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 23f;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 4;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 6b;polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 5",
-        "descricao": "Vacinas para pneumonia",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "SUS INJ CT 12 FA VD TRANS X 0,5 ML"
         ],
@@ -36291,13 +39975,26 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1380.68,
-        "sinonimias": []
+        "sinonimias": [
+            "Polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 7f",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 1",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 9v",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 14",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 19f",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 18c",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 23f",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 4",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 6b",
+            "polissacarídeo Conjugado de Streptococcus Pneumoniae Tipo 5",
+            "Synflorix"
+        ],
+        "classeTerapeutica": "Vacinas para pneumonia"
     },
     {
         "id": "med-00624",
         "nome": "Fledoid",
         "principioAtivo": "Polissulfato de Mucopolissacarídeo",
-        "descricao": "Terapia antivaricosa tópica",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "3 MG/G GEL CT BG AL X 40 G ",
             "5 MG/G GEL CT BG AL X 40 G ",
@@ -36340,13 +40037,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 33.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Mucopolissacarídeo",
+            "Hirudoid",
+            "Hirudoid Infantil"
+        ],
+        "classeTerapeutica": "Terapia antivaricosa tópica"
     },
     {
         "id": "med-00625",
         "nome": "Predsim",
         "principioAtivo": "Prednisolona",
-        "descricao": "Corticosteróides orais puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL AL X 10",
             "10 MG COM REV CT BL AL AL X 4",
@@ -36444,13 +40146,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 10.12,
-        "sinonimias": []
+        "sinonimias": [
+            "prelone",
+            "Percoide",
+            "Preni",
+            "Zastat",
+            "Predsigma"
+        ],
+        "classeTerapeutica": "Corticosteróides orais puros"
     },
     {
         "id": "med-00626",
         "nome": "Meticorten",
         "principioAtivo": "Prednisona",
-        "descricao": "Corticosteróides orais puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "20 MG COM CT BL AL PLAS TRANS X 10",
             "5 MG COM CT BL AL PLAS TRANS X 20"
@@ -36553,13 +40262,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 27.09,
-        "sinonimias": []
+        "sinonimias": [
+            "Nisbal",
+            "Flamape",
+            "Corticorten",
+            "Ciclorten",
+            "Predinis"
+        ],
+        "classeTerapeutica": "Corticosteróides orais puros"
     },
     {
         "id": "med-00627",
         "nome": "Insit®",
         "principioAtivo": "Pregabalina",
-        "descricao": "Gabapentinoides",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "300 MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 15",
             "300 MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 30"
@@ -36763,13 +40479,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 382.06,
-        "sinonimias": []
+        "sinonimias": [
+            "lyrica",
+            "Insit",
+            "Konduz",
+            "Infoc",
+            "Dorene Líquido"
+        ],
+        "classeTerapeutica": "Gabapentinoides"
     },
     {
         "id": "med-00628",
         "nome": "Emla",
         "principioAtivo": "Prilocaína;lidocaína",
-        "descricao": "Anestésicos locais tópicos",
+        "descricao": "Anestésico local. Dessensibiliza temporariamente uma região do corpo.",
         "apresentacoes": [
             "(25 + 25) MG/G CREM DERM CT 5 BG AL X 5 G + 10 BAND OCL",
             "(25 + 25) MG/G CREM DERM CT BG AL X 5 G + 2 BAND OCL"
@@ -36789,13 +40512,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 32.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Prilocaína",
+            "lidocaína",
+            "Medicaína"
+        ],
+        "classeTerapeutica": "Anestésicos locais tópicos"
     },
     {
         "id": "med-00629",
         "nome": "Crinone",
         "principioAtivo": "Progesterona",
-        "descricao": "Progestógenos excluindo g3a, g3f",
+        "descricao": "Hormônio progestagênio, usado em saúde da mulher e contracepção.",
         "apresentacoes": [
             "80 MG/G GEL VAG CT 15 ENV AL POLIET X  1 APLIC X 1,125 G"
         ],
@@ -36841,13 +40569,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 882.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Prolutex",
+            "Junno",
+            "Utrogestan",
+            "Gynpro"
+        ],
+        "classeTerapeutica": "Progestógenos excluindo g3a, g3f"
     },
     {
         "id": "med-00630",
         "nome": "Colpotrofine",
         "principioAtivo": "Promestrieno",
-        "descricao": "Estrógenos excluindo g3a, g3e, g3f",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "10 MG OVL VAG CT BL AL PLAS  PVC TRANS X 20",
             "10 MG/G CREM VAG CT BG AL X 30G + 20 APLIC "
@@ -36887,13 +40621,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 106.04,
-        "sinonimias": []
+        "sinonimias": [
+            "Coltrieno",
+            "Antrofi",
+            "Promim"
+        ],
+        "classeTerapeutica": "Estrógenos excluindo g3a, g3e, g3f"
     },
     {
         "id": "med-00631",
         "nome": "Cremefenergan",
         "principioAtivo": "Prometazina",
-        "descricao": "Antipruriginosos  tópicos - incluindo antihistamínicos, anestésicos, etc",
+        "descricao": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias.",
         "apresentacoes": [
             "20 MG/G CREM DERM CT BG AL X 30G"
         ],
@@ -36917,13 +40656,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.2,
-        "sinonimias": []
+        "sinonimias": [
+            "fenergan",
+            "Cloridrato de Prometazina",
+            "Profergan"
+        ],
+        "classeTerapeutica": "Antipruriginosos  tópicos - incluindo antihistamínicos, anestésicos, etc"
     },
     {
         "id": "med-00632",
         "nome": "Psorex",
         "principioAtivo": "Propionato de Clobetasol",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "0,5 MG/G CREM CT BG AL X 15G",
             "0,5 MG/G CREM CT BG AL X 30G",
@@ -37002,13 +40746,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 27.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Clobetasol",
+            "Topirex",
+            "Propionato de Clobetasol 0,5mg/g",
+            "Propiosol",
+            "Therapsor",
+            "Clob-x"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00633",
         "nome": "Flixotide",
         "principioAtivo": "Propionato de Fluticasona",
-        "descricao": "Antiasmáticos/dpoc corticosteróides inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "250 MCG AER CT LT X 60 DOSES C/APLIC",
             "50 MCG AER CT LT X 120 DOSES C/APLIC"
@@ -37036,13 +40788,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 163.74,
-        "sinonimias": []
+        "sinonimias": [
+            "Fluticasona",
+            "Plurair",
+            "Flutivate"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc corticosteróides inalantes"
     },
     {
         "id": "med-00634",
         "nome": "Combiwave",
         "principioAtivo": "Propionato de Fluticasona;xinafoato de Salmeterol",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "(25+125) MCG SUS AER INAL OR CT FR AL X 120 ACION",
             "(25+250) MCG SUS AER INAL OR CT FR AL X 120 ACION",
@@ -37065,13 +40822,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 157.91,
-        "sinonimias": []
+        "sinonimias": [
+            "Propionato de Fluticasona",
+            "xinafoato de Salmeterol",
+            "Xinafoato de Salmeterol + Propionato de Fluticasona"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes"
     },
     {
         "id": "med-00635",
         "nome": "Monessa",
         "principioAtivo": "Queratina;ácido Aminobenzóico;nitrato de Tiamina;pantotenato de Cálcio;cistina;levedura",
-        "descricao": "Outras preparações dermatologicas",
+        "descricao": "Medicamento de uso na pele.",
         "apresentacoes": [
             "60MG + 20MG + 60MG + 100MG + 20MG + 20MG CAP GEL DURA CT BL AL PLAS INC X 30 ",
             "60MG + 20MG + 60MG + 100MG + 20MG + 20MG CAP GEL DURA CT BL AL PLAS INC X 90 "
@@ -37092,13 +40854,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 118.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Queratina",
+            "ácido Aminobenzóico",
+            "nitrato de Tiamina",
+            "pantotenato de Cálcio",
+            "cistina",
+            "levedura",
+            "Pantogar"
+        ],
+        "classeTerapeutica": "Outras preparações dermatologicas"
     },
     {
         "id": "med-00636",
         "nome": "Tiorfan",
         "principioAtivo": "Racecadotrila",
-        "descricao": "Outros produtos para desordem intestinal",
+        "descricao": "Medicamento da classe \"Outros produtos para desordem intestinal\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10 MG GRAN OR CT ENV PAP/AL/PLAS PEBD OPC X 18",
             "100 MG CAP  DURA CT BL AL PLAS PVC/PVDC TRANS X 9",
@@ -37127,13 +40898,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.92,
-        "sinonimias": []
+        "sinonimias": [
+            "avide"
+        ],
+        "classeTerapeutica": "Outros produtos para desordem intestinal"
     },
     {
         "id": "med-00637",
         "nome": "Abcler Abnat",
         "principioAtivo": "Racemetionina;citrato de Colina;betaína",
-        "descricao": "Hepatoprotetores e lipotrópicos",
+        "descricao": "Auxiliar da função do fígado e da vesícula.",
         "apresentacoes": [
             "(10 + 50 + 100) MG/ML SOL OR CT 50 FLAC PLAS TRANS X 10 ML"
         ],
@@ -37152,13 +40926,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 141.46,
-        "sinonimias": []
+        "sinonimias": [
+            "Racemetionina",
+            "citrato de Colina",
+            "betaína",
+            "Epocler"
+        ],
+        "classeTerapeutica": "Hepatoprotetores e lipotrópicos"
     },
     {
         "id": "med-00638",
         "nome": "Xantinon",
         "principioAtivo": "Racemetionina;cloreto de Colina",
-        "descricao": "Hepatoprotetores e lipotrópicos",
+        "descricao": "Auxiliar da função do fígado e da vesícula.",
         "apresentacoes": [
             "100 MG + 20 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 100",
             "100 MG + 20 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30"
@@ -37178,13 +40958,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 17.2,
-        "sinonimias": []
+        "sinonimias": [
+            "Racemetionina",
+            "cloreto de Colina",
+            "Epocler Comprimido"
+        ],
+        "classeTerapeutica": "Hepatoprotetores e lipotrópicos"
     },
     {
         "id": "med-00639",
         "nome": "Silimalon 140",
         "principioAtivo": "Racemetionina;silybum Marianum (l.) Gaertn",
-        "descricao": "Hepatoprotetores e lipotrópicos",
+        "descricao": "Auxiliar da função do fígado e da vesícula.",
         "apresentacoes": [
             "140 MG + 100 MG COM REV CT BL AL PLAS INC X 30",
             "140 MG + 100 MG COM REV CT BL AL PLAS INC X 60"
@@ -37211,13 +40996,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 140.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Racemetionina",
+            "silybum Marianum Gaertn",
+            "Silimalon",
+            "Nufig Met"
+        ],
+        "classeTerapeutica": "Hepatoprotetores e lipotrópicos"
     },
     {
         "id": "med-00640",
         "nome": "Rozerem",
         "principioAtivo": "Ramelteona",
-        "descricao": "Outros hormônios e preparações com ações similares",
+        "descricao": "Medicamento da classe \"Outros hormônios e preparações com ações similares\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "8 MG COM REV CT BL AL AL X 20 ",
             "8 MG COM REV CT BL AL AL X 30 "
@@ -37245,13 +41036,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 87.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Rahime"
+        ],
+        "classeTerapeutica": "Outros hormônios e preparações com ações similares"
     },
     {
         "id": "med-00641",
         "nome": "Naprix",
         "principioAtivo": "Ramipril",
-        "descricao": "Inibidores da eca puros",
+        "descricao": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins.",
         "apresentacoes": [
             "10 MG COM CT BL AL AL X 30",
             "10 MG COM CT BL AL AL X 90",
@@ -37277,13 +41071,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 94.27,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Inibidores da eca puros"
     },
     {
         "id": "med-00642",
         "nome": "Lucentis",
         "principioAtivo": "Ranibizumabe",
-        "descricao": "Produtos antineovascularização ocular",
+        "descricao": "Injeção no olho para doenças da retina, como a degeneração macular.",
         "apresentacoes": [
             "10 MG/ML SOL INJ CT 1 FA VD INC X 0,23 ML + AGU C/ FILTRO",
             "10 MG/ML SOL INJ CT 1 SER PREENC VD TRANS X 0,165 ML"
@@ -37310,13 +41105,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 7800.87,
-        "sinonimias": []
+        "sinonimias": [
+            "Ranivisio",
+            "Optinóvis"
+        ],
+        "classeTerapeutica": "Produtos antineovascularização ocular"
     },
     {
         "id": "med-00643",
         "nome": "Fenaflan",
         "principioAtivo": "Resinato de Diclofenaco",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "15 MG/ML SUS OR CT FR PLAS OPC GOT X 20 ML"
         ],
@@ -37334,13 +41133,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Diclofenaco",
+            "Diclofenaco Resinato"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00644",
         "nome": "Rifasan",
         "principioAtivo": "Rifamicina",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "10 MG/ML SOL TOP SPR CT FR VD AMB X 20 ML"
         ],
@@ -37358,13 +41161,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 30.61,
-        "sinonimias": []
+        "sinonimias": [
+            "Rifamicina sv Sódica"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00645",
         "nome": "Rifocina Spray",
         "principioAtivo": "Rifamicina sv Sódica",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "10 MG/ML SOL TOP SPRAY CT FR VD AMB X 20 ML"
         ],
@@ -37382,13 +41188,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.5,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00646",
         "nome": "Rifaldin",
         "principioAtivo": "Rifampicina",
-        "descricao": "Rifampicinas e rifamicinas",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "300 MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 6"
         ],
@@ -37405,13 +41212,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 26.73,
-        "sinonimias": []
+        "sinonimias": [
+            "Furp-rifampicina"
+        ],
+        "classeTerapeutica": "Rifampicinas e rifamicinas"
     },
     {
         "id": "med-00647",
         "nome": "Tekzor",
         "principioAtivo": "Riluzol",
-        "descricao": "Todos os outros produtos para o sistema nervoso central",
+        "descricao": "Medicamento da classe \"Todos os outros produtos para o sistema nervoso central\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS OPC X 60"
         ],
@@ -37433,13 +41243,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 4061.44,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Todos os outros produtos para o sistema nervoso central"
     },
     {
         "id": "med-00648",
         "nome": "Actonel",
         "principioAtivo": "Risedronato Sódico",
-        "descricao": "Bisfosfonatos para osteoporose e alterações relacionadas",
+        "descricao": "Fortalece os ossos e reduz o risco de fraturas na osteoporose.",
         "apresentacoes": [
             "150 MG COM REV CT BL AL PLAS PVC TRANS X 1",
             "35 MG COM REV LIB RETARD CT BL AL PLAS PVC TRANS X 4"
@@ -37522,13 +41333,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 266.86,
-        "sinonimias": []
+        "sinonimias": [
+            "Risedronato",
+            "Fixenato",
+            "Risedross",
+            "Risedronel",
+            "Osteotrat",
+            "D’orto"
+        ],
+        "classeTerapeutica": "Bisfosfonatos para osteoporose e alterações relacionadas"
     },
     {
         "id": "med-00649",
         "nome": "Risperdal",
         "principioAtivo": "Risperidona",
-        "descricao": "Antipsicóticos atípicos",
+        "descricao": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados.",
         "apresentacoes": [
             "1 MG COM REV CT BL AL PLAS TRANS X 20",
             "1 MG/ML SOL ORAL CT FR VD AMB X 30 ML",
@@ -37686,13 +41505,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 44.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Riss",
+            "Zargus",
+            "Perlid",
+            "Viverdal",
+            "Risperidon"
+        ],
+        "classeTerapeutica": "Antipsicóticos atípicos"
     },
     {
         "id": "med-00650",
         "nome": "Xarelto",
         "principioAtivo": "Rivaroxabana",
-        "descricao": "Inibidores diretos do fator xa",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS PP TRANS X 10",
             "10 MG COM REV CT BL AL PLAS PP TRANS X 30 ",
@@ -38007,13 +41833,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 145.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Vynaxa",
+            "Dartrial",
+            "Xafac",
+            "Vabam",
+            "Xanev"
+        ],
+        "classeTerapeutica": "Inibidores diretos do fator xa"
     },
     {
         "id": "med-00651",
         "nome": "Exelon",
         "principioAtivo": "Rivastigmina",
-        "descricao": "Produtos antialzheimer, inibidores da colinesterase",
+        "descricao": "Usado para retardar a progressão dos sintomas da doença de Alzheimer.",
         "apresentacoes": [
             "18MG ADES CT SACHE X 15 (9,5MG / 24H) ",
             "18MG ADES CT SACHE X 30 (9,5MG / 24H)",
@@ -38086,13 +41919,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 186.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Rivazich",
+            "Vivencia Patch"
+        ],
+        "classeTerapeutica": "Produtos antialzheimer, inibidores da colinesterase"
     },
     {
         "id": "med-00652",
         "nome": "Crestor",
         "principioAtivo": "Rosuvastatina Cálcica",
-        "descricao": "Estatinas, inibidores da redutase hmg-coa",
+        "descricao": "Reduz o colesterol no sangue, diminuindo o risco de infarto e AVC.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL/AL X 10",
             "10 MG COM REV CT BL AL/AL X 30",
@@ -38196,13 +42033,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Rosuvastatina",
+            "Ruva",
+            "Plenance",
+            "Rox",
+            "Rosuneo",
+            "Runner",
+            "Rosucor"
+        ],
+        "classeTerapeutica": "Estatinas, inibidores da redutase hmg-coa"
     },
     {
         "id": "med-00653",
         "nome": "Zinpass® Eze",
         "principioAtivo": "Rosuvastatina Cálcica;ezetimiba",
-        "descricao": "Reguladores de gordura em combinação com outros reguladores de gordura",
+        "descricao": "Reduz os triglicérides (e um pouco o colesterol) no sangue.",
         "apresentacoes": [
             "(10,0 + 10,0) MG COM REV CT BL AL AL X 30",
             "(20,0 + 10,0) MG COM REV CT BL AL AL X 30",
@@ -38292,13 +42138,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 92.13,
-        "sinonimias": []
+        "sinonimias": [
+            "crestor",
+            "Rosuvastatina Cálcica",
+            "ezetimiba",
+            "Plenance Eze",
+            "Rosucor Eze",
+            "Coledue r",
+            "Runner Eze",
+            "Trezete",
+            "Rosuvastatina Cálcica + Ezetimiba"
+        ],
+        "classeTerapeutica": "Reguladores de gordura em combinação com outros reguladores de gordura"
     },
     {
         "id": "med-00654",
         "nome": "Noripurum ev",
         "principioAtivo": "Sacarato de Hidróxido Férrico",
-        "descricao": "Ferro puro",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "20 MG/ML SOL INJ IV CX 5 AMP VD TRANS X 5 ML "
         ],
@@ -38336,13 +42193,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 101.55,
-        "sinonimias": []
+        "sinonimias": [
+            "Férrico",
+            "Ferropurum",
+            "Sadol",
+            "Sacfer"
+        ],
+        "classeTerapeutica": "Ferro puro"
     },
     {
         "id": "med-00655",
         "nome": "Florent",
         "principioAtivo": "Saccharomyces Boulardii",
-        "descricao": "Antidiarreicos micro-organismos",
+        "descricao": "Reduz a diarreia.",
         "apresentacoes": [
             "100 MG CAP GEL DUR CT FR PLAS OPC X 12"
         ],
@@ -38386,13 +42249,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Boulardii",
+            "Floralon",
+            "Repoflor",
+            "Floratil"
+        ],
+        "classeTerapeutica": "Antidiarreicos micro-organismos"
     },
     {
         "id": "med-00656",
         "nome": "Floralon",
         "principioAtivo": "Saccharomyces Boulardii - 17",
-        "descricao": "Antidiarreicos micro-organismos",
+        "descricao": "Reduz a diarreia.",
         "apresentacoes": [
             "200 MG CAP GEL DURA CT FR PLAS OPC X 6"
         ],
@@ -38427,13 +42296,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Repoflor",
+            "Flomicin",
+            "Florent"
+        ],
+        "classeTerapeutica": "Antidiarreicos micro-organismos"
     },
     {
         "id": "med-00657",
         "nome": "Gelol",
         "principioAtivo": "Salicilato de Metila",
-        "descricao": "Antirreumáticos e analgésicos tópicos",
+        "descricao": "Anti-inflamatório de uso na pele, para dores musculares e nas articulações.",
         "apresentacoes": [
             "POM DERM CT BG AL X 20 G",
             "SOL AER DERM TB AL X 60 ML"
@@ -38454,13 +42328,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Metila",
+            "Gelo-bio"
+        ],
+        "classeTerapeutica": "Antirreumáticos e analgésicos tópicos"
     },
     {
         "id": "med-00658",
         "nome": "Secnidal",
         "principioAtivo": "Secnidazol",
-        "descricao": "Tricomonicidas sistêmicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "1000 MG COM REV CT BL AL PLAS TRANS X 2",
             "1000 MG COM REV CT BL AL PLAS TRANS X 4"
@@ -38559,13 +42437,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 53.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Unigyn",
+            "Secnimax",
+            "Sectil",
+            "Secfar",
+            "Secdazol"
+        ],
+        "classeTerapeutica": "Tricomonicidas sistêmicos"
     },
     {
         "id": "med-00659",
         "nome": "Ozempic",
         "principioAtivo": "Semaglutida",
-        "descricao": "Antidiabéticos agonistas de glp-1",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "1,34 MG/ML SOL INJ CT X 1 CAR VD TRANS X 1,5 ML + 1 SIST APLIC PLAS (DOSES 0,25MG E 0,5 MG)",
             "1,34 MG/ML SOL INJ CT X 1 CAR VD TRANS X 1,5 ML + 1 SIST APLIC PLAS (DOSES 0,25MG E 0,5 MG) + 6 AGULHAS NOVOFINE",
@@ -38649,13 +42534,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1314.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Rybelsus",
+            "Ozivy",
+            "Wegovy",
+            "Poviztra",
+            "Extensior",
+            "Orsema"
+        ],
+        "classeTerapeutica": "Antidiabéticos agonistas de glp-1"
     },
     {
         "id": "med-00660",
         "nome": "Senan",
         "principioAtivo": "Senna Alexandrina Mill.",
-        "descricao": "Outras drogas para constipação",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "50MG CAP DURA CT BL AL PVDC INC X 30"
         ],
@@ -38714,13 +42607,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 97.78,
-        "sinonimias": []
+        "sinonimias": [
+            "Mill.",
+            "Active Plus",
+            "Lacass",
+            "Laxasene Bionatus",
+            "Seneben",
+            "Seneflora",
+            "Senareti"
+        ],
+        "classeTerapeutica": "Outras drogas para constipação"
     },
     {
         "id": "med-00661",
         "nome": "Tamarine",
         "principioAtivo": "Senna Alexandrina Mill.;cassia Fistula",
-        "descricao": "Laxantes estimulantes",
+        "descricao": "Laxante. Usado para constipação (prisão de ventre).",
         "apresentacoes": [
             "(14,634+11,700) MG CAP DURA CT BL AL PLAS PVC TRANS X 20",
             "(29,268 + 23,400)MG CAP DURA CT BL AL PLAS PVC/PVDC TRANS X 100",
@@ -38745,13 +42647,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 99.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Senna Alexandrina Mill.",
+            "cassia Fistula",
+            "Naturetti"
+        ],
+        "classeTerapeutica": "Laxantes estimulantes"
     },
     {
         "id": "med-00662",
         "nome": "Prostatal",
         "principioAtivo": "Serenoa Repens (w. Bartram) Small",
-        "descricao": "Outros produtos para hpb",
+        "descricao": "Medicamento da classe \"Outros produtos para hpb\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "160 MG CAP GEL MOLE CT BL AL PLAS INC X 15 ",
             "160 MG CAP GEL MOLE CT BL AL PLAS INC X 30"
@@ -38772,13 +42679,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 108.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Small",
+            "Sanprost"
+        ],
+        "classeTerapeutica": "Outros produtos para hpb"
     },
     {
         "id": "med-00663",
         "nome": "Legalon",
         "principioAtivo": "Silybum Marianum (l.) Gaertn",
-        "descricao": "Hepatoprotetores e lipotrópicos",
+        "descricao": "Auxiliar da função do fígado e da vesícula.",
         "apresentacoes": [
             "180 MG CAP DURA CT BL AL PLAS TRANS X 20",
             "64 MG/5 ML SUS OR CT FR PLAS AMB X 100 ML",
@@ -38810,13 +42721,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 110.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Gaertn",
+            "Forfig",
+            "Lison"
+        ],
+        "classeTerapeutica": "Hepatoprotetores e lipotrópicos"
     },
     {
         "id": "med-00664",
         "nome": "Mylicon",
         "principioAtivo": "Simeticona",
-        "descricao": "Antiflatulentos puros e carminativos",
+        "descricao": "Reduz os gases e a sensação de estufamento.",
         "apresentacoes": [
             "75 MG/ML SUS OR CT FR PLAS OPC GOT X 15 ML"
         ],
@@ -38835,7 +42751,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Luftal",
-                "precoBase": 35.0,
+                "precoBase": 35,
                 "registrosAnvisa": [
                     "1739000090013",
                     "1739000090031",
@@ -38846,13 +42762,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.87,
-        "sinonimias": []
+        "sinonimias": [
+            "luftal",
+            "flatex"
+        ],
+        "classeTerapeutica": "Antiflatulentos puros e carminativos"
     },
     {
         "id": "med-00665",
         "nome": "Vaslip",
         "principioAtivo": "Sinvastatina",
-        "descricao": "Estatinas, inibidores da redutase hmg-coa",
+        "descricao": "Reduz o colesterol no sangue, diminuindo o risco de infarto e AVC.",
         "apresentacoes": [
             "10 MG COM REV CT BL AL PLAS PVDC TRANS X 30",
             "20 MG COM REV CT BL AL PLAS PVDC TRANS X 30",
@@ -38991,13 +42911,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 103.77,
-        "sinonimias": []
+        "sinonimias": [
+            "zocor",
+            "sinvascor",
+            "Sinvasmax",
+            "Simlip",
+            "Menocol",
+            "Sinvastacor",
+            "Sinvalip"
+        ],
+        "classeTerapeutica": "Estatinas, inibidores da redutase hmg-coa"
     },
     {
         "id": "med-00666",
         "nome": "Sovaldi",
         "principioAtivo": "Sofosbuvir",
-        "descricao": "Antivirais para hepatite c",
+        "descricao": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus.",
         "apresentacoes": [
             "400 MG COM REV CT FR PLAS OPC X 28"
         ],
@@ -39015,13 +42944,14 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 128171.44,
-        "sinonimias": []
+        "sinonimias": [],
+        "classeTerapeutica": "Antivirais para hepatite c"
     },
     {
         "id": "med-00667",
         "nome": "Omnitrope",
         "principioAtivo": "Somatropina",
-        "descricao": "Hormônios do crescimento",
+        "descricao": "Hormônio do crescimento.",
         "apresentacoes": [
             "10 MG (30 UI) SOL INJ CT CARP VD TRANS X 1,5 ML",
             "15 MG (45UI) SOL INJ CT 1 CARP VD TRANS X 1,5 ML"
@@ -39101,13 +43031,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1431.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Hormotrop",
+            "Biomatrop",
+            "Saizen",
+            "Criscy",
+            "Norditropin",
+            "Genotropin"
+        ],
+        "classeTerapeutica": "Hormônios do crescimento"
     },
     {
         "id": "med-00668",
         "nome": "Ariscorten",
         "principioAtivo": "Succinato Sódico de Hidrocortisona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "100 MG PO INJ IV/IM CX 100 FA VD TRANS",
             "100 MG PO INJ IV/IM CX 50 FA VD TRANS",
@@ -39143,13 +43081,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 555.34,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidrocortisona",
+            "Cortisonal"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00669",
         "nome": "Succinato Sódico de Metilprednisolona",
         "principioAtivo": "Succinato Sódico de Metilprednisolona",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "125 MG PO SOL INJ IM/IV CX 25 FA VD TRANS + 25 DIL AMP VD TRANS X 2 ML",
             "500 MG PO SOL INJ IM/IV CX 25 FA VD TRANS + 25 DIL AMP VD TRANS X 8 ML"
@@ -39169,13 +43111,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 586.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Metilprednisolona",
+            "Unimedrol"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00670",
         "nome": "Pristiq",
         "principioAtivo": "Succinato de Desvenlafaxina Monoidratado",
-        "descricao": "Antidepressivos snri",
+        "descricao": "Antidepressivo. Usado para depressão e transtornos de ansiedade.",
         "apresentacoes": [
             "100 MG COM REV LIB CONT CT BL PVC/PVDC/AL X 28",
             "50 MG COM REV LIB CONT CT BL PVC/PVDC/AL X 28",
@@ -39257,13 +43203,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Desvenlafaxina",
+            "Aviv",
+            "Vyxara",
+            "Andes",
+            "Desve",
+            "Vendexla",
+            "Desenvo"
+        ],
+        "classeTerapeutica": "Antidepressivos snri"
     },
     {
         "id": "med-00671",
         "nome": "Quenzor",
         "principioAtivo": "Succinato de Metoprolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "100 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PE/PVDC TRANS X 20",
             "100 MG CAP DURA LIB PROL CT BL AL PLAS PVC/PE/PVDC TRANS X 30",
@@ -39357,13 +43312,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 25.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Metoprolol",
+            "Emprol xr",
+            "Selozok",
+            "Dozoito"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00672",
         "nome": "Vesicare",
         "principioAtivo": "Succinato de Solifenacina",
-        "descricao": "Todos outros produtos urologicos",
+        "descricao": "Medicamento da classe \"Todos outros produtos urologicos\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "10MG COM REV CT BL AL PLAS X 10",
             "10MG COM REV CT BL AL PLAS X 30",
@@ -39441,13 +43402,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 77.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Solifenacina",
+            "Solly",
+            "Impere",
+            "Involu"
+        ],
+        "classeTerapeutica": "Todos outros produtos urologicos"
     },
     {
         "id": "med-00673",
         "nome": "Sumax",
         "principioAtivo": "Succinato de Sumatriptana",
-        "descricao": "Antienxaquecosos triptânicos",
+        "descricao": "Usado para tratar ou prevenir crises de enxaqueca.",
         "apresentacoes": [
             "100 MG COM REV  CT BL AL  PLAS TRANS X 2",
             "100 MG COM REV  CT BL AL  PLAS TRANS X 6",
@@ -39486,13 +43453,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 43.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Sumatriptana",
+            "Sutriptan"
+        ],
+        "classeTerapeutica": "Antienxaquecosos triptânicos"
     },
     {
         "id": "med-00674",
         "nome": "Sulph",
         "principioAtivo": "Sulfadiazina de Prata",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "10 MG/G CREM DERM CT BG AL X 120 G",
             "10 MG/G CREM DERM CT BG AL X 30 G",
@@ -39539,13 +43510,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Prata",
+            "Dermazine"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00675",
         "nome": "Azulfin",
         "principioAtivo": "Sulfassalazina",
-        "descricao": "Produtos aminosalicilatos para alterações intestinais",
+        "descricao": "Anti-inflamatório intestinal. Usado para retocolite ulcerativa e doença de Crohn.",
         "apresentacoes": [
             "500 MG COM REV LIB RETARD CT BL AL PLAS PVC TRANS X 30",
             "500 MG COM REV LIB RETARD CT BL AL PLAS PVC TRANS X 60"
@@ -39564,13 +43539,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 72.31,
-        "sinonimias": []
+        "sinonimias": [
+            "Salazoprin"
+        ],
+        "classeTerapeutica": "Produtos aminosalicilatos para alterações intestinais"
     },
     {
         "id": "med-00676",
         "nome": "Masferol",
         "principioAtivo": "Sulfato Ferroso Heptaidratado",
-        "descricao": "Ferro puro",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "25 MG/ML XPE CT FR PLAS PET AMB X 100ML "
         ],
@@ -39587,13 +43565,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 20.91,
-        "sinonimias": []
+        "sinonimias": [
+            "neutrofer",
+            "combiron",
+            "Heptaidratado",
+            "Anemifer"
+        ],
+        "classeTerapeutica": "Ferro puro"
     },
     {
         "id": "med-00677",
         "nome": "Atropina",
         "principioAtivo": "Sulfato de Atropina",
-        "descricao": "Midriáticos e cicloplégicos",
+        "descricao": "Colírio que dilata a pupila para exames ou procedimentos oftalmológicos.",
         "apresentacoes": [
             "10 MG/ML SOL OFT CT FR GOT PLAS PEBD TRANS X 5 ML",
             "5 MG/ML SOL OFT CT FR GOT PLAS PEBD TRANS X 5 ML"
@@ -39619,13 +43603,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 12.54,
-        "sinonimias": []
+        "sinonimias": [
+            "Atrofarma"
+        ],
+        "classeTerapeutica": "Midriáticos e cicloplégicos"
     },
     {
         "id": "med-00678",
         "nome": "Glicolive",
         "principioAtivo": "Sulfato de Glicosamina",
-        "descricao": "Todos os outros fármacos com ação músculo-esquelética",
+        "descricao": "Medicamento da classe \"Todos os outros fármacos com ação músculo-esquelética\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "1500 MG PÓ OR CT 30 ENV PAPEL PLAS AL PLAS X 3,95G"
         ],
@@ -39665,13 +43652,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 306.82,
-        "sinonimias": []
+        "sinonimias": [
+            "Glicosamina",
+            "Glucoreumin",
+            "Ortosamin",
+            "Artoglico"
+        ],
+        "classeTerapeutica": "Todos os outros fármacos com ação músculo-esquelética"
     },
     {
         "id": "med-00679",
         "nome": "Ardro",
         "principioAtivo": "Sulfato de Glicosamina Cloreto de Sódio;sulfato Dissódico de Condroitina",
-        "descricao": "Todos os outros fármacos com ação músculo-esquelética",
+        "descricao": "Medicamento da classe \"Todos os outros fármacos com ação músculo-esquelética\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "1,5 G + 1,2 G GRAN CT 30 SACH AL PAP PE X 5,2 G (LARANJA)"
         ],
@@ -39693,13 +43686,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 201.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Glicosamina Cloreto de Sódio",
+            "sulfato Dissódico de Condroitina",
+            "Ártico Caps"
+        ],
+        "classeTerapeutica": "Todos os outros fármacos com ação músculo-esquelética"
     },
     {
         "id": "med-00680",
         "nome": "Condroflex",
         "principioAtivo": "Sulfato de Glicosamina;sulfato de Condroitina",
-        "descricao": "Todos os outros fármacos com ação músculo-esquelética",
+        "descricao": "Medicamento da classe \"Todos os outros fármacos com ação músculo-esquelética\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "(1,5 + 1,2) G PO SOL OR CT 30 ENV AL/PLAS X 4,135 G (LIMÃO)",
             "500 MG + 400 MG CAP GEL DURA CT BL AL PLAS TRANS X 60",
@@ -39752,13 +43750,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 274.22,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Glicosamina",
+            "sulfato de Condroitina",
+            "Ártico Caps",
+            "Artrolive",
+            "Jogger",
+            "Ártico"
+        ],
+        "classeTerapeutica": "Todos os outros fármacos com ação músculo-esquelética"
     },
     {
         "id": "med-00681",
         "nome": "Plaquinol",
         "principioAtivo": "Sulfato de Hidroxicloroquina",
-        "descricao": "Antimaláricos, 1 ingrediente",
+        "descricao": "Usado para prevenir ou tratar malária e doenças parasitárias semelhantes.",
         "apresentacoes": [
             "400 MG COM REV CT BL AL PLAS PVC/PVCD OPC X 30"
         ],
@@ -39803,13 +43809,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 160.4,
-        "sinonimias": []
+        "sinonimias": [
+            "Hidroxicloroquina",
+            "Reuquinol",
+            "Papilup",
+            "Reuplaq"
+        ],
+        "classeTerapeutica": "Antimaláricos, 1 ingrediente"
     },
     {
         "id": "med-00682",
         "nome": "Pomicina",
         "principioAtivo": "Sulfato de Neomicina",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "5,0 MG/G POM DERM CT TB AL X 20 G"
         ],
@@ -39847,13 +43859,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 30.24,
-        "sinonimias": []
+        "sinonimias": [
+            "Neomicina",
+            "Lomicina",
+            "Neomicon",
+            "Nemicina"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00683",
         "nome": "Nebacimed",
         "principioAtivo": "Sulfato de Neomicina;bacitracina",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "(5 MG + 250 UI)/G POM DERM CT BG AL X 50 G "
         ],
@@ -39893,13 +43911,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 38.41,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Neomicina",
+            "bacitracina",
+            "Sulfato de Neomicina + Bacitracina Zíncica",
+            "Sulfato de Neomicina + Bacitracina",
+            "Katrizan",
+            "Bactoderm"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00684",
         "nome": "Nebacetin",
         "principioAtivo": "Sulfato de Neomicina;bacitracina Zíncica",
-        "descricao": "Antibióticos tópicos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "5 MG/G +250 UI/G POM CT BG PLAS AL PLAS X 15 G",
             "5 MG/G +250 UI/G POM CT BG PLAS AL PLAS X 50 G"
@@ -39979,13 +44005,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.99,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Neomicina",
+            "bacitracina Zíncica",
+            "Sulfato de Neomicina + Bacitracina Zíncica",
+            "Ferid",
+            "Nebaciderme",
+            "Bacina",
+            "Bacinantrat"
+        ],
+        "classeTerapeutica": "Antibióticos tópicos"
     },
     {
         "id": "med-00685",
         "nome": "Novacort",
         "principioAtivo": "Sulfato de Neomicina;dipropionato de Betametasona;cetoconazol",
-        "descricao": "Corticoesteróides associados a antimicóticos e antibacterianos",
+        "descricao": "Medicamento para o ouvido que combina anti-inflamatório com antibiótico.",
         "apresentacoes": [
             "(20 + 0,64 + 2,5) MG/G CREM DERM CT BG AL X 10 G",
             "(20 + 0,64 + 2,5) MG/G CREM DERM CT BG AL X 30 G",
@@ -40063,13 +44098,24 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.93,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Neomicina",
+            "dipropionato de Betametasona",
+            "cetoconazol",
+            "Trok-n",
+            "Cimecort",
+            "Cetoconazol+dipropionato de Betametasona+sulfato de Neomicina",
+            "Cetoconazol + Dipropionato de Betametasona + Sulfato de Neomicina",
+            "Cebetym",
+            "Cetoconazol + Diproprionato de Betametasona + Sulfato de Neomicina"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antimicóticos e antibacterianos"
     },
     {
         "id": "med-00686",
         "nome": "Decadron Colírio",
         "principioAtivo": "Sulfato de Neomicina;fosfato Dissódico de Dexametasona",
-        "descricao": "Associações oftalmológicas corticosteróides com antiinfecciosos",
+        "descricao": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico.",
         "apresentacoes": [
             "1,093 MG/ML + 5,8 MG/ML SOL OFT CT FR GOT PLAS OPC X 5 ML"
         ],
@@ -40086,13 +44132,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 18.48,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Neomicina",
+            "fosfato Dissódico de Dexametasona",
+            "Dexavison"
+        ],
+        "classeTerapeutica": "Associações oftalmológicas corticosteróides com antiinfecciosos"
     },
     {
         "id": "med-00687",
         "nome": "Triancinolona Acetonida + Sulfato de Neomicina + Gramicidina + Nistatina",
         "principioAtivo": "Sulfato de Neomicina;nistatina;gramicidina;triancinolona Acetonida",
-        "descricao": "Corticoesteróides associados a antimicóticos e antibacterianos",
+        "descricao": "Medicamento para o ouvido que combina anti-inflamatório com antibiótico.",
         "apresentacoes": [
             "1 MG + 2,5 MG + 0,25 MG + 100.000 UI/G CREM DERM CT BG AL X 30 G",
             "1,0 MG/G + 2,5 MG/G + 0,25 MG/G + 100000 UI/G POM DERM CT BG AL X 30 G"
@@ -40127,13 +44178,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 42.81,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Neomicina",
+            "nistatina",
+            "gramicidina",
+            "triancinolona Acetonida",
+            "Mud",
+            "Oncileg",
+            "Acetonido de Triancinolona+sulfato de Neomicina+gramicidina+nistatina"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antimicóticos e antibacterianos"
     },
     {
         "id": "med-00688",
         "nome": "Aerolin",
         "principioAtivo": "Sulfato de Salbutamol",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 curta ação inalante",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "100 MCG/DOSE SUS AER INAL OR CT TB AL X 200 ACIONAMENTOS + DISP INAL",
             "5 MG/ML SOL P/NEBUL CT FR VD AMB X 10 ML "
@@ -40189,13 +44249,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.89,
-        "sinonimias": []
+        "sinonimias": [
+            "Salbutamol",
+            "Butalab",
+            "Neutoss",
+            "Aerogold",
+            "Aerofrin",
+            "Aerodini"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 curta ação inalante"
     },
     {
         "id": "med-00689",
         "nome": "Aerogold",
         "principioAtivo": "Sulfato de Salbutamol Micronizado",
-        "descricao": "Antiasmáticos/dpoc antiinflamatorios não esteroidais respiratórios inalante",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "100 MCG/DOSE SUS AER INAL OR CT TB AL 19 ML X 200 ACION + DISP INAL"
         ],
@@ -40212,13 +44280,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.53,
-        "sinonimias": []
+        "sinonimias": [
+            "Micronizado",
+            "Sulfato de Salbutamol"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc antiinflamatorios não esteroidais respiratórios inalante"
     },
     {
         "id": "med-00690",
         "nome": "Clenil Compositum Hfa",
         "principioAtivo": "Sulfato de Salbutamol;dipropionato de Beclometasona",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "(50 + 100) MCG SUS AER INAL OR CT FR AL X 200 ACIONAMENTOS + BOMB"
         ],
@@ -40235,13 +44307,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 67.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Sulfato de Salbutamol",
+            "dipropionato de Beclometasona",
+            "Clenil Compositum a"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 associados a corticosteróides, inalantes"
     },
     {
         "id": "med-00691",
         "nome": "Terbutil",
         "principioAtivo": "Sulfato de Terbutalina",
-        "descricao": "Antiasmáticos/dpoc agonistas b2 sistêmicos",
+        "descricao": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC.",
         "apresentacoes": [
             "0,5 MG/ML SOL INJ CT 50 AMP VD TRANS X 1 ML"
         ],
@@ -40258,13 +44335,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 468.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Terbutalina"
+        ],
+        "classeTerapeutica": "Antiasmáticos/dpoc agonistas b2 sistêmicos"
     },
     {
         "id": "med-00692",
         "nome": "Nesh Zinco",
         "principioAtivo": "Sulfato de Zinco",
-        "descricao": "Outros suplementos minerais",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "20 MG COM SUS CT BL AL PLAS PVDC TRANS X 30 "
         ],
@@ -40281,13 +44361,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 58.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Zinco",
+            "Colírio Neo Brasil"
+        ],
+        "classeTerapeutica": "Outros suplementos minerais"
     },
     {
         "id": "med-00693",
         "nome": "Sulfato de Zinco",
         "principioAtivo": "Sulfato de Zinco Heptaidratado",
-        "descricao": "Outros suplementos minerais",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "200 MCG/ML SOL INJ IV CX 50 AMP VD TRANS X 5 ML"
         ],
@@ -40311,13 +44395,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 766.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Heptaidratado",
+            "Colírio Geolab",
+            "Unizinco"
+        ],
+        "classeTerapeutica": "Outros suplementos minerais"
     },
     {
         "id": "med-00694",
         "nome": "Protopic",
         "principioAtivo": "Tacrolimo",
-        "descricao": "Outros produtos anti-inflamatórios não esteroidais dermatológicos",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "0,3 MG/G POM DER CT BG PLAS LAM X 10 G",
             "1,0 MG/G POM DER CT BG PLAS LAM X 10 G",
@@ -40358,13 +44447,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 126.29,
-        "sinonimias": []
+        "sinonimias": [
+            "Tacroz",
+            "Tarfic"
+        ],
+        "classeTerapeutica": "Outros produtos anti-inflamatórios não esteroidais dermatológicos"
     },
     {
         "id": "med-00695",
         "nome": "Prograf",
         "principioAtivo": "Tacrolimo Monoidratado",
-        "descricao": "Outros imunossupressores",
+        "descricao": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes.",
         "apresentacoes": [
             "1MG CAP DURA CT ENV AL BL AL PLAS TRANS X100 ",
             "1MG CAP DURA LIB PROL CT ENV AL BL AL PLAS TRANS X 50",
@@ -40441,13 +44534,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1004.3,
-        "sinonimias": []
+        "sinonimias": [
+            "Tacrolimo",
+            "Atobach",
+            "Cropoc",
+            "Tarfic",
+            "Tacrofort"
+        ],
+        "classeTerapeutica": "Outros imunossupressores"
     },
     {
         "id": "med-00696",
         "nome": "Cialis",
         "principioAtivo": "Tadalafila",
-        "descricao": "Produtos para disfunção erétil, inibidores da pde5",
+        "descricao": "Usado para disfunção erétil.",
         "apresentacoes": [
             "20 MG COM REV CT  BL AL PLAS TRANS X 4",
             "20 MG COM REV CT BL AL PLAS TRANS X 1",
@@ -40574,7 +44674,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Zyad",
-                "precoBase": 87.0,
+                "precoBase": 87,
                 "registrosAnvisa": [
                     "1057304700011",
                     "1057304700036",
@@ -40627,13 +44727,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 88.04,
-        "sinonimias": []
+        "sinonimias": [
+            "td Fila",
+            "Zyad",
+            "Asap",
+            "Tada",
+            "Nesta"
+        ],
+        "classeTerapeutica": "Produtos para disfunção erétil, inibidores da pde5"
     },
     {
         "id": "med-00697",
         "nome": "Alphagan",
         "principioAtivo": "Tartarato de Brimonidina",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "0,1% SOL OFT CT FR GOT PLAS OPC X 5 ML",
             "0,15% SOL OFT CT FR GOT PLAS OPC X 5 ML",
@@ -40679,13 +44786,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 74.64,
-        "sinonimias": []
+        "sinonimias": [
+            "Brimonidina",
+            "Glaub",
+            "Alphabrin"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00698",
         "nome": "Seloken",
         "principioAtivo": "Tartarato de Metoprolol",
-        "descricao": "Betabloqueadores puros",
+        "descricao": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina.",
         "apresentacoes": [
             "100 MG COM CT BL AL/AL X 30"
         ],
@@ -40718,13 +44830,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 64.62,
-        "sinonimias": []
+        "sinonimias": [
+            "Metoprolol",
+            "Miclox",
+            "Lopressor"
+        ],
+        "classeTerapeutica": "Betabloqueadores puros"
     },
     {
         "id": "med-00699",
         "nome": "Tazocin",
         "principioAtivo": "Tazobactam Sódico;piperacilina Sódica",
-        "descricao": "Penicilinas injetaveis de amplo espectro",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "2 G + 250 MG PO LIOF INJ CT FA VD TRANS",
             "4 G + 500 MG PO LIOF INJ CT FA VD TRANS"
@@ -40759,13 +44876,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 206.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Tazobactam Sódico",
+            "piperacilina Sódica",
+            "Piperacilina Sódica + Tazobactam Sódico",
+            "Piperaciclina Sódica + Tazobactam Sódico",
+            "Pype"
+        ],
+        "classeTerapeutica": "Penicilinas injetaveis de amplo espectro"
     },
     {
         "id": "med-00700",
         "nome": "Targocid",
         "principioAtivo": "Teicoplanina",
-        "descricao": "Antibióticos glucopeptídeos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "200 MG PO LIOF SOL INJ/INFUS IM/IV CX FA VD TRANS + DIL AMP VD TRANS X 3 ML",
             "400 MG PO LIOF SOL INJ/INFUS IM/IV CX FA VD TRANS + DIL AMP VD TRANS X 3 ML"
@@ -40795,7 +44919,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Teicoplanina",
-                "precoBase": 1870.0,
+                "precoBase": 1870,
                 "registrosAnvisa": [
                     "1004309380152",
                     "1004309380179",
@@ -40805,13 +44929,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 617.49,
-        "sinonimias": []
+        "sinonimias": [
+            "Teicoston"
+        ],
+        "classeTerapeutica": "Antibióticos glucopeptídeos"
     },
     {
         "id": "med-00701",
         "nome": "Micardis",
         "principioAtivo": "Telmisartana",
-        "descricao": "Antagonistas da angiotensina ii puros",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "40 MG COM CT BL AL/AL X 10",
             "40 MG COM CT BL AL/AL X 30",
@@ -40887,13 +45014,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 88.84,
-        "sinonimias": []
+        "sinonimias": [
+            "Bramicar"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii puros"
     },
     {
         "id": "med-00702",
         "nome": "Temodal",
         "principioAtivo": "Temozolomida",
-        "descricao": "Agentes antineoplásicos alquilantes",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "100 MG CAP DURA CT 5 ENV PLAS OPC",
             "140 MG CAP DURA CT 5 ENV PLAS OPC",
@@ -41014,13 +45144,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 319.65,
-        "sinonimias": []
+        "sinonimias": [
+            "Tedhol Cápsulas",
+            "Temozod",
+            "Moz",
+            "Temolida Cápsulas",
+            "Tedhol"
+        ],
+        "classeTerapeutica": "Agentes antineoplásicos alquilantes"
     },
     {
         "id": "med-00703",
         "nome": "Tilatil",
         "principioAtivo": "Tenoxicam",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "20 MG COM REV CT BL AL PLAS TRANS X 10"
         ],
@@ -41082,13 +45219,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 108.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Tenoxil",
+            "Reumotec",
+            "Titenil",
+            "Tilonax",
+            "Teflan"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00704",
         "nome": "Aubagio",
         "principioAtivo": "Teriflunomida",
-        "descricao": "Produtos para esclerose múltipla",
+        "descricao": "Usado para reduzir surtos e a progressão da esclerose múltipla.",
         "apresentacoes": [
             "14 MG COM REV CT BL AL AL X 30 "
         ],
@@ -41114,13 +45258,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 10961.47,
-        "sinonimias": []
+        "sinonimias": [
+            "Emnyra"
+        ],
+        "classeTerapeutica": "Produtos para esclerose múltipla"
     },
     {
         "id": "med-00705",
         "nome": "Forteo",
         "principioAtivo": "Teriparatida",
-        "descricao": "Homônios paratireoideanos e análogos",
+        "descricao": "Regula o cálcio do organismo. Usado em osteoporose grave ou em distúrbios da paratireoide.",
         "apresentacoes": [
             "250 MCG /ML SOL INJ CT CARP VD INC X 2,4 ML X SIST APLIC PLAS"
         ],
@@ -41147,13 +45294,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 5121.07,
-        "sinonimias": []
+        "sinonimias": [
+            "Terrosa",
+            "Sondelbay"
+        ],
+        "classeTerapeutica": "Homônios paratireoideanos e análogos"
     },
     {
         "id": "med-00706",
         "nome": "Androgel",
         "principioAtivo": "Testosterona",
-        "descricao": "Andrógenos excluindo g3e, g3f",
+        "descricao": "Reposição de testosterona (hormônio masculino).",
         "apresentacoes": [
             "10 MG/G GEL DERM CT 30 ENV AL/PLAS X 5G",
             "16,2 MG/G GEL DERM CT TB PLAS PP OPC X 60 ACIONAMENTOS"
@@ -41173,13 +45324,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 330.58,
-        "sinonimias": []
+        "sinonimias": [
+            "Testogel"
+        ],
+        "classeTerapeutica": "Andrógenos excluindo g3e, g3f"
     },
     {
         "id": "med-00707",
         "nome": "Foldan",
         "principioAtivo": "Tiabendazol",
-        "descricao": "Anti-helmínticos exceto esquistossomicidas (p1c)",
+        "descricao": "Usado para eliminar vermes ou parasitas intestinais.",
         "apresentacoes": [
             "50 MG/G POM DERM CT BG AL X 45 G"
         ],
@@ -41204,13 +45358,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 48.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Tiaplex",
+            "Tiadol"
+        ],
+        "classeTerapeutica": "Anti-helmínticos exceto esquistossomicidas (p1c)"
     },
     {
         "id": "med-00708",
         "nome": "Livial",
         "principioAtivo": "Tibolona",
-        "descricao": "Outros hormônios sexuais e produtos similares",
+        "descricao": "Medicamento da classe \"Outros hormônios sexuais e produtos similares\". Consulte a bula e um profissional de saúde para o uso correto.",
         "apresentacoes": [
             "2,5 MG COM CT BL AL PLAS PVDC TRANS X 28",
             "2,5 MG COM CT BL AL PLAS PVDC TRANS X 84"
@@ -41275,13 +45433,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 128.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Reduclim",
+            "Libiam",
+            "Tibial",
+            "Tiboclin",
+            "Clindella"
+        ],
+        "classeTerapeutica": "Outros hormônios sexuais e produtos similares"
     },
     {
         "id": "med-00709",
         "nome": "Brilinta",
         "principioAtivo": "Ticagrelor",
-        "descricao": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "90 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 10",
             "90 MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 60"
@@ -41336,13 +45501,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 91.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Tiag",
+            "Coaly",
+            "Artag"
+        ],
+        "classeTerapeutica": "Inibidores da agragação plaquetária, antagonistas dos receptores da adenosina difosfato"
     },
     {
         "id": "med-00710",
         "nome": "Coltrax",
         "principioAtivo": "Tiocolchicosídeo",
-        "descricao": "Relaxante muscular de ação central",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "4 MG COM CT BL AL PLAS LAR X 20"
         ],
@@ -41362,20 +45532,23 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Coltrax Inj",
-                "precoBase": 20.0,
+                "precoBase": 20,
                 "registrosAnvisa": [
                     "1004314720012"
                 ]
             }
         ],
         "precoReferencia": 72.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Coltrax Inj"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação central"
     },
     {
         "id": "med-00711",
         "nome": "Gynomax",
         "principioAtivo": "Tioconazol;tinidazol",
-        "descricao": "Tricomonicidas tópicos",
+        "descricao": "Usado para tratar infecções por amebas, giárdia ou tricomonas.",
         "apresentacoes": [
             "(20,0 + 30,0) MG/G CREM VAG CT BG AL X 35 G + 7 APLIC"
         ],
@@ -41419,13 +45592,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 111.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Tioconazol",
+            "tinidazol",
+            "Tioconazol + Tinidazol",
+            "Tiotrax",
+            "Tinin",
+            "Takil"
+        ],
+        "classeTerapeutica": "Tricomonicidas tópicos"
     },
     {
         "id": "med-00712",
         "nome": "Mounjaro Multidose",
         "principioAtivo": "Tirzepatida",
-        "descricao": "Antidiabéticos agonistas de glp-1",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "12,5 MG/ML SOL INJ SC CT CAR VD TRANS X 2,4 ML + CAN APLIC",
             "16,7 MG/ML SOL INJ SC CT CAR VD TRANS X 2,4 ML + CAN APLIC",
@@ -41473,13 +45654,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1681.77,
-        "sinonimias": []
+        "sinonimias": [
+            "Mounjaro"
+        ],
+        "classeTerapeutica": "Antidiabéticos agonistas de glp-1"
     },
     {
         "id": "med-00713",
         "nome": "Bramitob",
         "principioAtivo": "Tobramicina",
-        "descricao": "Aminoglicosídeos",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "75 MG/ML SOL INAL OR CT 56 FLAC PLAS TRANS X 4 ML"
         ],
@@ -41539,13 +45723,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14783.76,
-        "sinonimias": []
+        "sinonimias": [
+            "Tobracular",
+            "Tobracin",
+            "Zobilar",
+            "Tobrex",
+            "Zoteon pó"
+        ],
+        "classeTerapeutica": "Aminoglicosídeos"
     },
     {
         "id": "med-00714",
         "nome": "Actemra",
         "principioAtivo": "Tocilizumabe",
-        "descricao": "Agentes anti-reumáticos específicos",
+        "descricao": "Modifica o curso de doenças reumáticas autoimunes, como a artrite reumatoide.",
         "apresentacoes": [
             "162 MG SOL INJ SC CT 4 SER PREENC VD TRANS X 0,9 ML"
         ],
@@ -41577,13 +45768,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 8619.37,
-        "sinonimias": []
+        "sinonimias": [
+            "Avtozma",
+            "Tyenne"
+        ],
+        "classeTerapeutica": "Agentes anti-reumáticos específicos"
     },
     {
         "id": "med-00715",
         "nome": "Toduze",
         "principioAtivo": "Topiramato",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "100 MG/ML SOL GOT OR CT FR GOT PLAS PEBD/PEAD OPC X 30 ML"
         ],
@@ -41719,13 +45914,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 506.33,
-        "sinonimias": []
+        "sinonimias": [
+            "Têmpora",
+            "Égide",
+            "Amato",
+            "Vidmax",
+            "Arasid"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00716",
         "nome": "Roteas",
         "principioAtivo": "Tosilato de Edoxabana Monoidratado",
-        "descricao": "Inibidores diretos do fator xa",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "15 MG COM REV CT BL AL AL X 14 ",
             "30 MG COM REV CT BL AL AL X 14 ",
@@ -41763,13 +45965,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.97,
-        "sinonimias": []
+        "sinonimias": [
+            "Edoxabana",
+            "Tosilato de Edoxabana"
+        ],
+        "classeTerapeutica": "Inibidores diretos do fator xa"
     },
     {
         "id": "med-00717",
         "nome": "Nexavar",
         "principioAtivo": "Tosilato de Sorafenibe",
-        "descricao": "Outros antineoplásicos inibidores da proteína kinase",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "200 MG COM REV CT BL AL / AL X 60"
         ],
@@ -41788,13 +45994,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 14088.89,
-        "sinonimias": []
+        "sinonimias": [
+            "Sorafenibe",
+            "Sofanyr"
+        ],
+        "classeTerapeutica": "Outros antineoplásicos inibidores da proteína kinase"
     },
     {
         "id": "med-00718",
         "nome": "Xeomin",
         "principioAtivo": "Toxina Botulínica a",
-        "descricao": "Relaxante muscular de ação periférica",
+        "descricao": "Relaxante muscular. Usado para contraturas e dores musculares.",
         "apresentacoes": [
             "100 U PO LIOF SOL INJ CT 1 FA VD TRANS",
             "200 U PO LIOF SOL INJ CT 1 FA VD TRANS"
@@ -41864,13 +46074,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 3110.83,
-        "sinonimias": []
+        "sinonimias": [
+            "Prosigne",
+            "Botulim",
+            "Botulift",
+            "Botox",
+            "Dysport",
+            "Nabota"
+        ],
+        "classeTerapeutica": "Relaxante muscular de ação periférica"
     },
     {
         "id": "med-00719",
         "nome": "Travatan",
         "principioAtivo": "Travoprosta",
-        "descricao": "Preparações antiglaucomas e mióticas tópicas",
+        "descricao": "Colírio que reduz a pressão dentro do olho (glaucoma).",
         "apresentacoes": [
             "0,04 MG/ML SOL OFT CT FR GOT PLAS PP TRANS  X 2,5 ML",
             "0,04 MG/ML SOL OFT CT FR GOT PLAS PP TRANS X 5,0 ML"
@@ -41915,13 +46133,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 196.97,
-        "sinonimias": []
+        "sinonimias": [
+            "Travoptic",
+            "Travamed Bak Free",
+            "Travamed"
+        ],
+        "classeTerapeutica": "Preparações antiglaucomas e mióticas tópicas"
     },
     {
         "id": "med-00720",
         "nome": "Vesanoid",
         "principioAtivo": "Tretinoína",
-        "descricao": "Todos os outros antineoplásicos",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "10 MG CAP MOLE CT FR VD AMB X 100"
         ],
@@ -41968,13 +46191,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2420.68,
-        "sinonimias": []
+        "sinonimias": [
+            "Vitacid",
+            "Suavicid One",
+            "Lumivit",
+            "Vitanol-a"
+        ],
+        "classeTerapeutica": "Todos os outros antineoplásicos"
     },
     {
         "id": "med-00721",
         "nome": "Opthaac 40",
         "principioAtivo": "Triancinolona Acetonida",
-        "descricao": "Corticosteróides injetáveis puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "40 MG/ML SUSP INJ CT  FA VD AMB X 1 ML "
         ],
@@ -42029,13 +46258,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 128.91,
-        "sinonimias": []
+        "sinonimias": [
+            "Acetonida",
+            "Triancinolona de Acetonida",
+            "Acetonida de Triancinolona",
+            "Oncileg-a",
+            "Acsisa",
+            "Coliaft"
+        ],
+        "classeTerapeutica": "Corticosteróides injetáveis puros"
     },
     {
         "id": "med-00722",
         "nome": "Promensil",
         "principioAtivo": "Trifolium Pratense l.",
-        "descricao": "Moduladores seletivos do receptor de estrogênio",
+        "descricao": "Atua nos receptores de estrogênio. Usado em osteoporose e em câncer de mama.",
         "apresentacoes": [
             "100MG COM REV CT BL AL PLAS PVC/PVDC TRANS X 30"
         ],
@@ -42060,13 +46297,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 167.98,
-        "sinonimias": []
+        "sinonimias": [
+            "Minel",
+            "Climatrix"
+        ],
+        "classeTerapeutica": "Moduladores seletivos do receptor de estrogênio"
     },
     {
         "id": "med-00723",
         "nome": "Bactrim",
         "principioAtivo": "Trimetoprima;sulfametoxazol",
-        "descricao": "Associações de trimetoprima e similares",
+        "descricao": "Antibiótico. Usado para tratar infecções causadas por bactérias.",
         "apresentacoes": [
             "40 MG/ML + 8 MG/ML SUS OR CT FR PLAS AMB X 100 ML",
             "400 MG + 80 MG COM CT BL AL PLAS TRANS X 20",
@@ -42152,13 +46393,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 31.79,
-        "sinonimias": []
+        "sinonimias": [
+            "Trimetoprima",
+            "sulfametoxazol",
+            "Bacfar",
+            "Sulfametoxazol + Trimetoprima",
+            "Sulfametoxazol+trimetoprima",
+            "Sipul",
+            "Belfactrim",
+            "Bacteracin"
+        ],
+        "classeTerapeutica": "Associações de trimetoprima e similares"
     },
     {
         "id": "med-00724",
         "nome": "Tormiv Odg",
         "principioAtivo": "Trometamol Cetorolaco",
-        "descricao": "Analgésicos não narcóticos e antipiréticos sob prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "10 MG GRAN ORODISP CT 10 ENV AL PLAS PE/PET OPC",
             "10 MG GRAN ORODISP CT 20 ENV AL PLAS PE/PET OPC",
@@ -42306,13 +46557,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 21.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Cetorolaco",
+            "Kethol",
+            "Ultrox",
+            "Totti sl",
+            "Symdulor sl",
+            "Mytro"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos sob prescrição"
     },
     {
         "id": "med-00725",
         "nome": "Mydriacyl",
         "principioAtivo": "Tropicamida",
-        "descricao": "Midriáticos e cicloplégicos",
+        "descricao": "Colírio que dilata a pupila para exames ou procedimentos oftalmológicos.",
         "apresentacoes": [
             "10 MG/ML SOL OFT CT FR GOT PLAS TRANS X 5 ML"
         ],
@@ -42329,13 +46588,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 22.71,
-        "sinonimias": []
+        "sinonimias": [
+            "Ciclomidrin"
+        ],
+        "classeTerapeutica": "Midriáticos e cicloplégicos"
     },
     {
         "id": "med-00726",
         "nome": "Varicoss",
         "principioAtivo": "Troxerrutina;cumarina",
-        "descricao": "Terapia antivaricosa tópica",
+        "descricao": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas.",
         "apresentacoes": [
             "(15 + 90) MG COM REV LIB PROL CT BL AL PLAS PVDC TRANS X 60",
             "(15 + 90) MG COM REV LIB PROL CT BL AL PLAS PVDC TRANS X 20"
@@ -42356,13 +46618,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 46.59,
-        "sinonimias": []
+        "sinonimias": [
+            "Troxerrutina",
+            "cumarina",
+            "Venalot"
+        ],
+        "classeTerapeutica": "Terapia antivaricosa tópica"
     },
     {
         "id": "med-00727",
         "nome": "Nebido",
         "principioAtivo": "Undecilato de Testosterona",
-        "descricao": "Andrógenos excluindo g3e, g3f",
+        "descricao": "Reposição de testosterona (hormônio masculino).",
         "apresentacoes": [
             "250 MG/ML SOL INJ IM CT AMP VD AMB X 4 ML"
         ],
@@ -42411,13 +46678,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 882.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Testosterona",
+            "Hormus",
+            "Daem",
+            "Tezdro",
+            "Atesto"
+        ],
+        "classeTerapeutica": "Andrógenos excluindo g3e, g3f"
     },
     {
         "id": "med-00728",
         "nome": "Ureadin",
         "principioAtivo": "Uréia",
-        "descricao": "Emolientes protetores dermatológicos",
+        "descricao": "Protege e ajuda na recuperação da pele (assaduras, ressecamento, feridas).",
         "apresentacoes": [
             "200 MG/G CREM DERM  CT BG PLAS OPC X 50 G"
         ],
@@ -42443,13 +46717,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 90.2,
-        "sinonimias": []
+        "sinonimias": [
+            "Nutraplus",
+            "Nutraplus 20"
+        ],
+        "classeTerapeutica": "Emolientes protetores dermatológicos"
     },
     {
         "id": "med-00729",
         "nome": "Stelara",
         "principioAtivo": "Ustequinumabe",
-        "descricao": "Inibidores da interleucina",
+        "descricao": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico).",
         "apresentacoes": [
             "45 MG SOL INJ CT 1 FA VD INC X 0,5 ML",
             "45 MG SOL INJ CT 1 SER PREENC VD TRANS DISP SEGURANÇA  X 0,5 ML ",
@@ -42502,13 +46780,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24567.85,
-        "sinonimias": []
+        "sinonimias": [
+            "Epyztek",
+            "Wezenla",
+            "Yesintek",
+            "Qoyvolma"
+        ],
+        "classeTerapeutica": "Inibidores da interleucina"
     },
     {
         "id": "med-00730",
         "nome": "Ixchiq",
         "principioAtivo": "Vacina Chikungunya (recombinante e Atenuada)",
-        "descricao": "Todas outras vacinas virais",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "PÓ LIOF SOL INJ IM CT FA VD TRANS +SER PREENCH DIL X 0,5ML"
         ],
@@ -42526,13 +46810,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1260.47,
-        "sinonimias": []
+        "sinonimias": [
+            "Vacina Chikungunya (recombinante",
+            "Atenuada)",
+            "Butantan - Chik"
+        ],
+        "classeTerapeutica": "Todas outras vacinas virais"
     },
     {
         "id": "med-00731",
         "nome": "Comirnaty",
         "principioAtivo": "Vacina Covid-19",
-        "descricao": "Vacinas para o coronavírus",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "10 MCG/DOSE SUS INJ CT 10 FA VD INC X 0,48 ML",
             "10 MCG/DOSE SUS INJ CT 10 FA VD INC X 2,25 ML",
@@ -42565,13 +46854,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2646.88,
-        "sinonimias": []
+        "sinonimias": [
+            "Covid-19",
+            "Spikevax"
+        ],
+        "classeTerapeutica": "Vacinas para o coronavírus"
     },
     {
         "id": "med-00732",
         "nome": "Influvac Tetra",
         "principioAtivo": "Vacina Influenza Trivalente (inativada, Subunitária)",
-        "descricao": "Vacina para gripe (influenza)",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "SUS INJ CT 10 SER LONG PREENC VD TRANS S/ AGU X 0,5 ML"
         ],
@@ -42591,13 +46884,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 807.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Vacina Influenza Trivalente (inativada",
+            "Subunitária)",
+            "Influvac"
+        ],
+        "classeTerapeutica": "Vacina para gripe (influenza)"
     },
     {
         "id": "med-00733",
         "nome": "Abrysvo",
         "principioAtivo": "Vacina Vírus Sincicial Respiratório a e b (recombinante)",
-        "descricao": "Vacinas contra o vírus sincicial respiratório (rsv)",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "60 MCG + 60 MCG PO LIOF INJ CT 10 FA VD TRANS + 10 SOL DIL FA VD TRANS X 0,5 ML",
             "60 MCG + 60 MCG PO LIOF INJ CT 10 FA VD TRANS + 10 SOL DIL SER PREENC VD TRANS X 0,5 ML + 10 ADAP + 10 AGU",
@@ -42623,13 +46921,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1627.17,
-        "sinonimias": []
+        "sinonimias": [
+            "Vacina Vírus Sincicial Respiratório a",
+            "Vacina do Vírus Sincicial Respiratório Bivalente"
+        ],
+        "classeTerapeutica": "Vacinas contra o vírus sincicial respiratório (rsv)"
     },
     {
         "id": "med-00734",
         "nome": "Betnovate",
         "principioAtivo": "Valerato de Betametasona",
-        "descricao": "Corticoesteróides tópicos puros",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "1 MG/G CREM DERM CT BG AL X 30 G  ",
             "1 MG/G POM DERM CT BG AL X 30 G ",
@@ -42677,13 +46979,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.63,
-        "sinonimias": []
+        "sinonimias": [
+            "Betametasona",
+            "Valerato Betametasona",
+            "Betnovate n",
+            "Dermovat"
+        ],
+        "classeTerapeutica": "Corticoesteróides tópicos puros"
     },
     {
         "id": "med-00735",
         "nome": "Postec",
         "principioAtivo": "Valerato de Betametasona;hialuronidase",
-        "descricao": "Outras associações de corticosteróides",
+        "descricao": "Corticoide. Reduz inflamação e reações alérgicas.",
         "apresentacoes": [
             "2,5 MG + 150 UTR POM DERM CT BG AL X 10 G",
             "2,5 MG + 150 UTR POM DERM CT BG AL X 20 G"
@@ -42704,13 +47012,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 79.08,
-        "sinonimias": []
+        "sinonimias": [
+            "Valerato de Betametasona",
+            "hialuronidase",
+            "Hyax"
+        ],
+        "classeTerapeutica": "Outras associações de corticosteróides"
     },
     {
         "id": "med-00736",
         "nome": "Quadriderm",
         "principioAtivo": "Valerato de Betametasona;tolnaftato;sulfato de Gentamicina;clioquinol",
-        "descricao": "Corticoesteróides associados a antimicóticos e antibacterianos",
+        "descricao": "Medicamento para o ouvido que combina anti-inflamatório com antibiótico.",
         "apresentacoes": [
             "0,50 MG/G + 1 MG/G + 10 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G",
             "0,50 MG/G + 1 MG/G + 10 MG/G + 10 MG/G POM DERM CT BG AL X 20 G"
@@ -42774,13 +47087,25 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 62.43,
-        "sinonimias": []
+        "sinonimias": [
+            "Valerato de Betametasona",
+            "tolnaftato",
+            "sulfato de Gentamicina",
+            "clioquinol",
+            "Valerato de Betametasona + Sulfato de Gentamicina + Tolnaftato + Clioquinol",
+            "Valerato de Betametasona + Sulfato de Gentamicina + Clioquinol + Tolnaftato",
+            "Clioqderm",
+            "Valerato de Betametasona + Sulfato de Gentamicina + Clioquinol + Tolnaftato Pomada",
+            "Valerato de Betametasona + Sulfato de Getamicina + Tolnaftato + Clioquinol",
+            "Quadrilon"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antimicóticos e antibacterianos"
     },
     {
         "id": "med-00737",
         "nome": "Verutex b",
         "principioAtivo": "Valerato de Betametasona;ácido Fusídico",
-        "descricao": "Corticoesteróides associados a antibacterianos",
+        "descricao": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas.",
         "apresentacoes": [
             "20 MG/G + 1 MG/G CREM DERM CT BG AL X 15 G",
             "20 MG/G + 1 MG/G CREM DERM CT BG AL X 5 G"
@@ -42799,13 +47124,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 36.23,
-        "sinonimias": []
+        "sinonimias": [
+            "Valerato de Betametasona",
+            "ácido Fusídico",
+            "Ácido Fusídico + Valerato de Betametasona"
+        ],
+        "classeTerapeutica": "Corticoesteróides associados a antibacterianos"
     },
     {
         "id": "med-00738",
         "nome": "Primogyna®",
         "principioAtivo": "Valerato de Estradiol Micronizado",
-        "descricao": "Estrógenos excluindo g3a, g3e, g3f",
+        "descricao": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações.",
         "apresentacoes": [
             "1 MG COM REV CT BL AL PLAS TRANS X 28",
             "1 MG COM REV CT BL AL PLAS TRANS X 84",
@@ -42840,13 +47170,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 59.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Micronizado",
+            "Valerato de Estradiol",
+            "Yvi"
+        ],
+        "classeTerapeutica": "Estrógenos excluindo g3a, g3e, g3f"
     },
     {
         "id": "med-00739",
         "nome": "Qlaira",
         "principioAtivo": "Valerato de Estradiol;dienogeste",
-        "descricao": "Preparações contraceptivas trifásicas",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "3 MG + (2 + 2) MG + (2 + 3) MG + 1 MG COM REV EST BL AL PLAS PVC TRANS X 26 + 2 PLACEBOS"
         ],
@@ -42863,13 +47198,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 75.12,
-        "sinonimias": []
+        "sinonimias": [
+            "Valerato de Estradiol",
+            "dienogeste",
+            "Valerato de Estradiol + Dienogeste"
+        ],
+        "classeTerapeutica": "Preparações contraceptivas trifásicas"
     },
     {
         "id": "med-00740",
         "nome": "Mesigyna",
         "principioAtivo": "Valerato de Estradiol;enantato de Noretisterona",
-        "descricao": "Outros hormônios contraceptivos sistêmicos",
+        "descricao": "Contraceptivo hormonal (anticoncepcional).",
         "apresentacoes": [
             "50 MG/ML + 5 MG/ML SOL INJ CT AMP VD AMB X 1 ML",
             "50 MG/ML + 5 MG/ML SOL INJ CT SER PREENC VD TRANS X 1 ML + AGU"
@@ -42899,13 +47239,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.02,
-        "sinonimias": []
+        "sinonimias": [
+            "Valerato de Estradiol",
+            "enantato de Noretisterona",
+            "Enantato de Noretisterona + Valerato de Estradiol",
+            "Noregyna"
+        ],
+        "classeTerapeutica": "Outros hormônios contraceptivos sistêmicos"
     },
     {
         "id": "med-00741",
         "nome": "Valeriane",
         "principioAtivo": "Valeriana Officinalis l.",
-        "descricao": "Fitoterápicos",
+        "descricao": "Medicamento fitoterápico (à base de plantas).",
         "apresentacoes": [
             "50 MG COM REV CT BL AL PLAS TRANS X 20"
         ],
@@ -42963,13 +47309,21 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 101.21,
-        "sinonimias": []
+        "sinonimias": [
+            "Valyanne",
+            "Valerinati",
+            "Valerimed",
+            "Valessone",
+            "Sonotabs",
+            "Calmitane"
+        ],
+        "classeTerapeutica": "Fitoterápicos"
     },
     {
         "id": "med-00742",
         "nome": "Torval cr",
         "principioAtivo": "Valproato de Sódio",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "300 MG COM REV LIB PROL CT BL AL/AL X 30",
             "500 MG COM REV LIB PROL CT BL AL/AL X 30"
@@ -43028,13 +47382,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 56.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Sódio",
+            "Lavie",
+            "Depakene",
+            "Ácido Valpróico",
+            "Epilenil"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00743",
         "nome": "Diovan",
         "principioAtivo": "Valsartana",
-        "descricao": "Antagonistas da angiotensina ii puros",
+        "descricao": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\").",
         "apresentacoes": [
             "160 MG COM REV CT BL AL AL X 14",
             "160 MG COM REV CT BL AL AL X 28",
@@ -43134,13 +47495,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 79.16,
-        "sinonimias": []
+        "sinonimias": [
+            "Vartaz",
+            "Bravan",
+            "Aval",
+            "Brasart",
+            "Brasart Bcc"
+        ],
+        "classeTerapeutica": "Antagonistas da angiotensina ii puros"
     },
     {
         "id": "med-00744",
         "nome": "Marevan",
         "principioAtivo": "Varfarina Sódica",
-        "descricao": "Antagonistas da vitamina k",
+        "descricao": "Deixa o sangue mais \"fino\", prevenindo a formação de coágulos.",
         "apresentacoes": [
             "2,5 MG COM CT BL AL PLAS TRANS X 60",
             "5 MG COM CT BL AL PLAS PVC  TRANS X 150",
@@ -43165,13 +47533,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 11.94,
-        "sinonimias": []
+        "sinonimias": [
+            "coumadin",
+            "Varfarina"
+        ],
+        "classeTerapeutica": "Antagonistas da vitamina k"
     },
     {
         "id": "med-00745",
         "nome": "Galvus",
         "principioAtivo": "Vildagliptina",
-        "descricao": "Antidiabéticos inibidores dpp-iv  puros",
+        "descricao": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes.",
         "apresentacoes": [
             "50 MG COM CT BL AL/AL X 14",
             "50 MG COM CT BL AL/AL X 28",
@@ -43229,7 +47601,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Glytco",
-                "precoBase": 45.0,
+                "precoBase": 45,
                 "registrosAnvisa": [
                     "1826100170013",
                     "1826100170021",
@@ -43264,13 +47636,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 69.28,
-        "sinonimias": []
+        "sinonimias": [
+            "Mahan",
+            "Glytco",
+            "Luniera",
+            "Vilgli",
+            "Diavitality"
+        ],
+        "classeTerapeutica": "Antidiabéticos inibidores dpp-iv  puros"
     },
     {
         "id": "med-00746",
         "nome": "Vfend",
         "principioAtivo": "Voriconazol",
-        "descricao": "Agentes sistêmicos para infecções fúngicas",
+        "descricao": "Antifúngico. Usado para tratar micoses e infecções por fungos.",
         "apresentacoes": [
             "200 MG COM REV CT BL AL PLAS TRANS X 14",
             "200 MG PO LIOF SOL INJ CT 1 FA VD TRANS"
@@ -43313,13 +47692,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 2765.3,
-        "sinonimias": []
+        "sinonimias": [
+            "Velenaxol",
+            "Vori",
+            "Veac"
+        ],
+        "classeTerapeutica": "Agentes sistêmicos para infecções fúngicas"
     },
     {
         "id": "med-00747",
         "nome": "Priorix",
         "principioAtivo": "Vírus da Caxumba;vírus da Rubeola;vírus do Sarampo",
-        "descricao": "Associaçôes com vacina anti-sarampo e parotidite",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "PO LIOF INJ CT FA VD TRANS MONODOSE + SER PREEN VD TRANS DIL X 0,5 ML"
         ],
@@ -43336,13 +47720,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 66.45,
-        "sinonimias": []
+        "sinonimias": [
+            "Vírus da Caxumba",
+            "vírus da Rubeola",
+            "vírus do Sarampo",
+            "M-m-r ii"
+        ],
+        "classeTerapeutica": "Associaçôes com vacina anti-sarampo e parotidite"
     },
     {
         "id": "med-00748",
         "nome": "Avaxim",
         "principioAtivo": "Vírus da Hepatite a Purificado Inativado",
-        "descricao": "Vacina para hepatite",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "160 U/ML SUS INJ CT SER PRE-ENCH C/ AGU ACOPLADA X 0,5 ML"
         ],
@@ -43363,13 +47753,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 155.92,
-        "sinonimias": []
+        "sinonimias": [
+            "Inativado",
+            "Vaqta"
+        ],
+        "classeTerapeutica": "Vacina para hepatite"
     },
     {
         "id": "med-00749",
         "nome": "Zostavax",
         "principioAtivo": "Vírus da Varicela -zoster",
-        "descricao": "Vacina contra varicella",
+        "descricao": "Vacina. Estimula o organismo a se defender contra uma doença específica.",
         "apresentacoes": [
             "PO LIOF INJ CT FA VD INC + FA VD INC DIL X 3 ML"
         ],
@@ -43387,13 +47781,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 806.38,
-        "sinonimias": []
+        "sinonimias": [
+            "-zoster",
+            "Varilrix"
+        ],
+        "classeTerapeutica": "Vacina contra varicella"
     },
     {
         "id": "med-00750",
         "nome": "Aspirina Prevent",
         "principioAtivo": "Ácido Acetilsalicílico",
-        "descricao": "Inibidores da agregação plaquetária, ciclo-oxigenase inibidores",
+        "descricao": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose.",
         "apresentacoes": [
             "100 MG COM REV CT BL AL / AL X 100",
             "100 MG COM REV CT BL AL / AL X 30",
@@ -43458,13 +47856,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 24.75,
-        "sinonimias": []
+        "sinonimias": [
+            "aspirina",
+            "aas",
+            "melhoral",
+            "Acetilsalicílico",
+            "Ecasil-81",
+            "Aas Protect",
+            "Saliprevi"
+        ],
+        "classeTerapeutica": "Inibidores da agregação plaquetária, ciclo-oxigenase inibidores"
     },
     {
         "id": "med-00751",
         "nome": "Cafiaspirina",
         "principioAtivo": "Ácido Acetilsalicílico;cafeína",
-        "descricao": "Analgésicos não narcóticos e antipiréticos isentos de prescrição",
+        "descricao": "Analgésico e antitérmico. Usado para dor leve a moderada e febre.",
         "apresentacoes": [
             "650 MG + 65 MG COM CT BL AL/AL X 100"
         ],
@@ -43482,13 +47889,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 197.99,
-        "sinonimias": []
+        "sinonimias": [
+            "aspirina",
+            "aas",
+            "melhoral",
+            "Ácido Acetilsalicílico",
+            "Doril"
+        ],
+        "classeTerapeutica": "Analgésicos não narcóticos e antipiréticos isentos de prescrição"
     },
     {
         "id": "med-00752",
         "nome": "Ácido Ascórbico Hypofarma",
         "principioAtivo": "Ácido Ascórbico",
-        "descricao": "Vitamina c pura",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "100 MG/ML SOL INJ IV/IM CX 100 AMP VD AMB X 5 ML"
         ],
@@ -43519,7 +47933,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Redoxon",
-                "precoBase": 19.0,
+                "precoBase": 19,
                 "registrosAnvisa": [
                     "1705600160018",
                     "1705600160034",
@@ -43536,7 +47950,7 @@ const BANCO_MEDICAMENTOS = [
             },
             {
                 "nome": "Cewin",
-                "precoBase": 22.0,
+                "precoBase": 22,
                 "registrosAnvisa": [
                     "1832604570060"
                 ]
@@ -43552,13 +47966,23 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 129.78,
-        "sinonimias": []
+        "sinonimias": [
+            "vitamina c",
+            "cebion",
+            "cewin",
+            "redoxon",
+            "Ascórbico",
+            "Vitergyl c",
+            "Bio-c",
+            "Viter c"
+        ],
+        "classeTerapeutica": "Vitamina c pura"
     },
     {
         "id": "med-00753",
         "nome": "Azelan",
         "principioAtivo": "Ácido Azelaico",
-        "descricao": "Antiacneicos tópicos",
+        "descricao": "Usado no tratamento da acne.",
         "apresentacoes": [
             "150 MG/G GEL DERM CT BG AL X 15 G",
             "150 MG/G GEL DERM CT BG AL X 30 G",
@@ -43579,13 +48003,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 47.35,
-        "sinonimias": []
+        "sinonimias": [
+            "Azelaico",
+            "Zella"
+        ],
+        "classeTerapeutica": "Antiacneicos tópicos"
     },
     {
         "id": "med-00754",
         "nome": "Stomaliv",
         "principioAtivo": "Ácido Cítrico;bicarbonato de Sódio;carbonato de Sódio",
-        "descricao": "Antiácidos puros",
+        "descricao": "Neutraliza a acidez do estômago, aliviando azia e má digestão.",
         "apresentacoes": [
             "(430 + 430 + 100) MG/G PO EFEV CT 35 ENV PAP/AL/PLAS PE X 5 G (SABOR ABACAXI)"
         ],
@@ -43619,13 +48047,20 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 54.03,
-        "sinonimias": []
+        "sinonimias": [
+            "Ácido Cítrico",
+            "bicarbonato de Sódio",
+            "carbonato de Sódio",
+            "Sal de Fruta Eno",
+            "Estomazil"
+        ],
+        "classeTerapeutica": "Antiácidos puros"
     },
     {
         "id": "med-00755",
         "nome": "Afolic Infantil",
         "principioAtivo": "Ácido Fólico",
-        "descricao": "Outros produtos antianêmicos, incluindo ácido fólico, ácido folínico",
+        "descricao": "Suplemento de vitaminas e/ou minerais.",
         "apresentacoes": [
             "0,2 MG/ML SOL OR CX 100 FR PLAS AMB X 30 ML + 100 CGT (EMB HOSP)"
         ],
@@ -43682,13 +48117,22 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 1600.51,
-        "sinonimias": []
+        "sinonimias": [
+            "Fólico",
+            "Folacin",
+            "Afolic",
+            "Afopic",
+            "Folonin",
+            "Neo Fólico",
+            "Acfol"
+        ],
+        "classeTerapeutica": "Outros produtos antianêmicos, incluindo ácido fólico, ácido folínico"
     },
     {
         "id": "med-00756",
         "nome": "Ponstan",
         "principioAtivo": "Ácido Mefenâmico",
-        "descricao": "Antirreumáticos não esteroidais puros",
+        "descricao": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre.",
         "apresentacoes": [
             "500 MG COM CT BL AL PLAS AMB X 24"
         ],
@@ -43729,13 +48173,17 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 49.62,
-        "sinonimias": []
+        "sinonimias": [
+            "Mefenâmico",
+            "Ponsdril"
+        ],
+        "classeTerapeutica": "Antirreumáticos não esteroidais puros"
     },
     {
         "id": "med-00757",
         "nome": "Transamin",
         "principioAtivo": "Ácido Tranexâmico",
-        "descricao": "Antifibrinolíticos sintéticos",
+        "descricao": "Age sobre a coagulação do sangue (previne ou dissolve coágulos, ou controla sangramentos).",
         "apresentacoes": [
             "250 MG COM CT BL AL PLAS TRANS X 12",
             "250 MG COM CT BL AL PLAS TRANS X 24",
@@ -43785,13 +48233,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 72.26,
-        "sinonimias": []
+        "sinonimias": [
+            "Tranexâmico",
+            "Ryvka",
+            "Trexacont",
+            "Traneger"
+        ],
+        "classeTerapeutica": "Antifibrinolíticos sintéticos"
     },
     {
         "id": "med-00758",
         "nome": "Ursacol",
         "principioAtivo": "Ácido Ursodesoxicólico",
-        "descricao": "Terapia dos cálculos biliares",
+        "descricao": "Ajuda a dissolver cálculos (pedras) na vesícula.",
         "apresentacoes": [
             "150 MG COM CT BL AL PLAS PVC TRANS  X 30",
             "300 MG COM CT BL AL PLAS TRANS X 30",
@@ -43862,13 +48316,19 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 68.52,
-        "sinonimias": []
+        "sinonimias": [
+            "Ursodesoxicólico",
+            "Duxio",
+            "Prour",
+            "Gulshen"
+        ],
+        "classeTerapeutica": "Terapia dos cálculos biliares"
     },
     {
         "id": "med-00759",
         "nome": "Depakene",
         "principioAtivo": "Ácido Valpróico",
-        "descricao": "Antiepilépticos",
+        "descricao": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor.",
         "apresentacoes": [
             "250 MG CAP MOLE CT FR VD AMB X 25  ",
             "250 MG CAP MOLE CT FR VD AMB X 50"
@@ -43894,13 +48354,18 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 37.52,
-        "sinonimias": []
+        "sinonimias": [
+            "valproato de sodio",
+            "Valpróico",
+            "Epilenil"
+        ],
+        "classeTerapeutica": "Antiepilépticos"
     },
     {
         "id": "med-00760",
         "nome": "Hipoglós",
         "principioAtivo": "Óxido de Zinco;colecalciferol;palmitato de Retinol",
-        "descricao": "Emolientes protetores dermatológicos",
+        "descricao": "Protege e ajuda na recuperação da pele (assaduras, ressecamento, feridas).",
         "apresentacoes": [
             "5000 UI/G + 900 UI/G + 150 MG/G POM DERM CT TB PLAS OPC X 135 G",
             "5000 UI/G + 900 UI/G + 150 MG/G POM DERM CT TB PLAS OPC X 45 G"
@@ -43926,7 +48391,16 @@ const BANCO_MEDICAMENTOS = [
             }
         ],
         "precoReferencia": 29.42,
-        "sinonimias": []
+        "sinonimias": [
+            "pomada para assadura",
+            "desitin",
+            "Óxido de Zinco",
+            "colecalciferol",
+            "palmitato de Retinol",
+            "Babymed",
+            "Bebex Ade"
+        ],
+        "classeTerapeutica": "Emolientes protetores dermatológicos"
     }
 ];
 
