@@ -3,6 +3,16 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-09-29 — **Atualização de preços agora é automática, todo mês.** Criada a tarefa agendada do
+Windows "MED_PRECOS - atualizar precos": roda `scripts/atualizar-precos.ps1` (completo) no **dia 1 às
+03:00**. Se o PC estiver desligado no horário, roda assim que ligar; também roda na bateria; limite de
+4h. Validado que no contexto do agendador python/node/npm/Playwright são encontrados. Primeira execução:
+01/10/2026. Log em `scripts/logs/atualizacao-<data>.log`. **Não commita sozinho**: o app já usa o
+`js/precos-redes.js` novo direto, mas o commit continua manual. A lista CMED (`data.js`) **continua
+manual** (ainda não automatizada).
+**Descontos de laboratório (PBM) agora aparecem no app** (solução interina, ver seção "Programas de
+desconto de laboratório (PBM)" abaixo).
+
 2026-08-30 — **Enriquecimento do banco de medicamentos + orquestração da raspagem + avaliação
 Nissei/Big Ben.** Sessão focada nos itens que não dependiam de resposta de e-mail (contatos RD/Araújo
 seguem sem retorno — usuário vai tentar telefone em dia útil). Detalhes nas seções abaixo.
@@ -116,6 +126,36 @@ adicionados em `outreach/contatos-parcerias.md` (itens 4 e 5) — RD via assesso
 (rd@ovocom.com.br, não há canal melhor confirmado), Araújo via formulário do site (não consegui
 confirmar e-mail direto, site bloqueia até fetch de página institucional).
 
+## Programas de desconto de laboratório (PBM) — interino, 2026-09-29
+Os laboratórios dão desconto com cadastro do CPF (PBM), e isso **não aparece no preço de prateleira**
+que raspamos. Descoberta: as próprias redes VTEX já raspadas publicam campos de PBM em cada produto,
+na mesma API pública que já usamos (sem fonte nova, sem mudança de ToS/robots):
+- Pague Menos / Extrafarma: `PBM` (Sim/Não), `DescontoPBM` (%), `MenorPrecoPBM`, `ProgramaPBM` (genérico)
+- Drogaria São Paulo: `Programa PBM` (**nome real**, ex. "Bayer pra você", "Merck cuida", "Faz bem"), `Desconto PBM`
+- Pacheco: `PBM Programa`/`PBM Autorizadora` (só a administradora, ex. LOGIXPHARMA/Seven, descartado)
+- Venancio: `PBM` (Sim)
+- As coleções da loja chamadas "PBM" (`productClusters`) **não** são usadas: podem estar desatualizadas (Venancio: "PBM Jan/22").
+
+Implementação: `extrair_pbm()` em `scrape_precos_vtex.py` → `registrarPbm()` em `build_precos_redes.js`
+gera `PBM_MEDICAMENTOS` (em `js/precos-redes.js`: desconto máx., nomes de programa, redes, produtos de
+exemplo) → `renderizarPbm()` em `app.js` mostra o aviso no card do medicamento, e a tabela mostra
+"💊 desconto do laboratório com CPF (até X%)" nas farmácias das redes que marcam o programa.
+**Só informativo: preço e ordenação continuam sendo os de prateleira**, porque o desconto depende de
+cadastro.
+
+**Resultado da 1ª raspagem com PBM (29/09/2026, 82 min só VTEX):** 708 medicamentos com preço real (antes 704) e
+**196 com programa de laboratório**; 85 com % de desconto, 95 com nome do programa (ex. "Viver mais",
+"Vale mais saúde", "Mais Pfizer", "Bayer pra você"). Por rede: Drogaria São Paulo 158, Pacheco 114,
+Venancio 99, Pague Menos 57, Extrafarma 57. Testado no navegador com dado real (Xarelto: aviso + etiqueta
+nas 2 lojas Drogaria São Paulo, zero erros). Limitações: a informação vem das redes, não do laboratório (as redes discordam entre si, ex.:
+Xarelto "Não" na Pague Menos e 17% na Drogaria São Paulo); Panvel e as redes fora da raspagem não
+entram; o "até X%" é o que a loja declara. **Cobertura parcial:** a busca é por princípio ativo e só
+lê a 1ª página de resultados (~10 produtos), então marcas de referência podem ficar de fora (ex.: Crestor
+tem PBM de 20% na Pague Menos buscando "crestor", mas não aparece buscando "rosuvastatina cálcica").
+Melhoria possível: buscar também pelo nome comercial e paginar (`_from`/`_to`). O mesmo limite afeta o
+preço real. O aviso do card vale para o grupo do medicamento (marca + similares/genéricos do mesmo
+princípio ativo), por isso cita exemplos de produtos.
+
 ## Nissei / Big Ben — avaliados em 2026-08-30, NÃO entram na raspagem
 Mesmo critério das outras redes (robots.txt + ToS antes de qualquer coisa):
 - **Farmácias Nissei** (`farmaciasnissei.com.br`, plataforma "RetailON"): tem loja online real, mas o
@@ -131,7 +171,9 @@ Mesmo critério das outras redes (robots.txt + ToS antes de qualquer coisa):
 - [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.
 - [ ] Registrar respostas de todos os 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md` assim que chegarem.
 - [x] ~~Reavaliar Nissei/Big Ben pra raspagem~~ — feito 2026-08-30, ambos ficam de fora (ver seção acima).
-- [x] ~~Repetir a raspagem periodicamente sem agendamento automático~~ — `scripts/atualizar-precos.ps1` junta os 3 passos num comando + `schtasks` documentado. Ainda é o usuário que dispara / agenda (não há CI).
+- [x] ~~Repetir a raspagem periodicamente~~ — `scripts/atualizar-precos.ps1` + **tarefa agendada mensal criada em 2026-09-29** (dia 1, 03:00). Conferir o log após 01/10 e commitar `js/precos-redes.js`.
+- [ ] Automatizar também a atualização mensal da lista CMED (`data.js`). Cuidado: se o `data.js` for regenerado, o build de preços precisa rodar **depois** dele (casamento por id/registro).
+- [x] ~~Programas de desconto de laboratório (PBM) — interino~~ — feito 2026-09-29: aviso no card + etiqueta por farmácia (ver seção PBM). **Pendente o caminho oficial** (preço exato com desconto, todas as redes): Funcional/Orizon, já contatadas.
 - [x] ~~`descricao` mais amigável e `sinonimias` pra busca por voz~~ — feito 2026-08-30 (`scripts/enriquecimento-medicamentos.js`, ver seção "Medicamentos" acima). Refino futuro possível: aumentar o dicionário curado de sinônimos e criar regra pras ~24 classes "Todos os outros...".
 - [ ] Cobertura do pré-carregado de farmácias é só 9 capitais — fora delas, sem internet/Overpass fora do ar, busca fica sem resultado (limitação conhecida, comportamento correto).
 - [ ] **Conector Gmail** — ainda preso na conta pessoal. Passo a passo de reconexão passado ao usuário nesta sessão (desconectar em claude.ai → Conectores, logar `med.precosbr@gmail.com` no navegador, reconectar escolhendo essa conta, reiniciar sessão). Validar quando o usuário fizer.

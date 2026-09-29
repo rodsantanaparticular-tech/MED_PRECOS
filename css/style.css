@@ -516,6 +516,26 @@ a:focus {
     color: var(--cor-texto-claro);
 }
 
+/* Aviso de programa de desconto do laboratório (PBM) */
+.medicamento-pbm {
+    margin-top: 0.75rem;
+    padding: 0.6rem 0.8rem;
+    background: var(--cor-primaria-clara);
+    border-left: 4px solid var(--cor-secundaria);
+    border-radius: var(--raio-borda-pequeno);
+}
+
+.medicamento-pbm-titulo {
+    font-weight: 600;
+    color: var(--cor-primaria-escura);
+}
+
+.medicamento-pbm-texto {
+    margin-top: 0.2rem;
+    font-size: 0.85rem;
+    color: var(--cor-texto);
+}
+
 /* Seção de genéricos */
 .secao-genericos {
     background: white;
@@ -649,6 +669,14 @@ a:focus {
     display: block;
     font-size: 0.75rem;
     color: var(--cor-texto-claro);
+    margin-top: 0.15rem;
+}
+
+.tabela-precos .preco-pbm {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--cor-secundaria-escura);
     margin-top: 0.15rem;
 }
 

@@ -58,6 +58,51 @@ def buscar_termo(base_url, termo):
         return None
 
 
+# Nomes de programa que as lojas preenchem mas que não significam nada pro
+# consumidor (placeholder da loja ou nome da empresa administradora/autorizadora,
+# não do programa do laboratório) - descartados na hora de exibir.
+PROGRAMAS_GENERICOS = {'programa pbm - industria', 'logixpharma', 'seven', 'sevenpdv', 'vidalink', 'epharma', 'funcional'}
+
+
+def _primeiro(p, *campos):
+    for c in campos:
+        v = p.get(c)
+        if isinstance(v, list) and v and str(v[0]).strip():
+            return str(v[0]).strip()
+    return None
+
+
+def extrair_pbm(p):
+    """Programa de desconto do laboratório (PBM: preço menor com cadastro de CPF).
+    Cada loja VTEX usa campos customizados próprios, observados em 2026-09-29:
+      - Pague Menos / Extrafarma: PBM=Sim|Não, DescontoPBM, MenorPrecoPBM, ProgramaPBM (genérico)
+      - Drogaria São Paulo: 'Programa PBM' (nome real, ex. "Bayer pra você"), 'Desconto PBM'
+      - Pacheco: 'PBM Programa' / 'PBM Autorizadora' (só nome da administradora)
+      - Venancio: PBM=Sim
+    Retorna None quando o produto não participa (ou a loja diz 'Não')."""
+    marcador = _primeiro(p, 'PBM')
+    programa = _primeiro(p, 'Programa PBM', 'ProgramaPBM', 'PBM Programa')
+    if marcador and marcador.lower() in ('não', 'nao'):
+        return None
+    if not marcador and not programa:
+        return None
+    try:
+        desconto = float((_primeiro(p, 'Desconto PBM', 'DescontoPBM') or '').replace(',', '.'))
+    except ValueError:
+        desconto = None
+    try:
+        preco_min = float((_primeiro(p, 'MenorPrecoPBM') or '').replace(',', '.'))
+    except ValueError:
+        preco_min = None
+    if programa and programa.lower() in PROGRAMAS_GENERICOS:
+        programa = None
+    return {
+        'programa': programa,
+        'desconto': desconto if desconto and desconto > 0 else None,
+        'precoMin': preco_min if preco_min and preco_min > 0 else None,
+    }
+
+
 def extrair_precos(produtos):
     """De uma resposta de busca VTEX, extrai uma lista de produtos com preço.
     Nem toda loja VTEX preenche NumeroRegistroMS (campo customizado por conta) -
@@ -86,6 +131,7 @@ def extrair_precos(produtos):
             'preco': melhor['preco'],
             'disponivel': melhor['disponivel'],
             'url': p.get('link'),
+            'pbm': extrair_pbm(p),
         })
     return resultado
 

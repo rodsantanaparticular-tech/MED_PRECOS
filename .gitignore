@@ -9,3 +9,6 @@ __pycache__/
 
 # Logs da orquestração de atualização de preços (scripts/atualizar-precos.ps1)
 scripts/logs/
+
+# Log de erro do Chromium/Playwright (crashpad) - lixo local
+debug.log

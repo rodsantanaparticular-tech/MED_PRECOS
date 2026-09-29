@@ -14,7 +14,7 @@
  * dessas redes E o medicamento tem preço aqui, usa esse preço real em vez da
  * estimativa a partir do teto CMED.
  *
- * Gerado em: 2026-08-19
+ * Gerado em: 2026-09-29
  */
 
 const PRECOS_REDES = {
@@ -32,21 +32,21 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 21.99,
+      "preco": 24.19,
       "nome": "Acebrofilina 25mg/5ml Genérico Cimed 120ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/acebrofilina-25mg5m-generico-cimed-120ml-xarope/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.99,
+      "preco": 19.79,
       "nome": "Acebrofilina 25mg/5ml Genérico Cimed 120ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/acebrofilina-25mg5m-generico-cimed-120ml-xarope/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.89,
-      "nome": "Acebrofilina 10mg/ml Cimed Xarope 120ml + 1 Copo Dosador",
-      "url": "https://www.drogariavenancio.com.br/acebrofilina-10mg-ml-cimed-xarope-120ml---1-copo-dosador/p",
+      "preco": 16.99,
+      "nome": "Acebrofilina 25mg/5ml Cimed Xarope 120ml + 1 Copo Dosador",
+      "url": "https://www.drogariavenancio.com.br/acebrofilina-25mg-5ml-cimed-xarope-120ml---1-copo-dosador/p",
       "disponivel": true
     },
     "panvel": {
@@ -58,31 +58,31 @@ const PRECOS_REDES = {
   },
   "med-00002": {
     "paguemenos": {
-      "preco": 8.89,
-      "nome": "Aceclofenaco 100mg 12 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.paguemenos.com.br/aceclofenaco-100mg-com-12-comprimidos-generico-cimed/p",
-      "disponivel": false
+      "preco": 7.69,
+      "nome": "Aceclofenaco 100mg Com 12 Comprimidos Genérico Vitamedic",
+      "url": "https://www.paguemenos.com.br/aceclofenaco-100mg-com-12-comprimidos-generico-vitamedic/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.89,
-      "nome": "Aceclofenaco 100mg 12 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.extrafarma.com.br/aceclofenaco-100mg-com-12-comprimidos-generico-cimed/p",
-      "disponivel": false
+      "preco": 7.69,
+      "nome": "Aceclofenaco 100mg Com 12 Comprimidos Genérico Vitamedic",
+      "url": "https://www.extrafarma.com.br/aceclofenaco-100mg-com-12-comprimidos-generico-vitamedic/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.19,
+      "preco": 7.69,
       "nome": "Aceclofenaco 100mg Genérico EMS 12 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/aceclofenaco-100mg-12-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.19,
+      "preco": 7.69,
       "nome": "Aceclofenaco 100mg Genérico EMS 12 comprimidos",
       "url": "https://www.drogariaspacheco.com.br/aceclofenaco-100mg-12-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.89,
+      "preco": 12.49,
       "nome": "Aceclofenaco 100mg Vitamedic 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/aceclofenaco-100mg-vitamedic-12-comprimidos/p",
       "disponivel": true
@@ -120,9 +120,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 7079.1,
-      "nome": "Acetato de Abiraterona 250mg 120 comprimidos Sandoz",
-      "url": "https://www.drogariavenancio.com.br/acetato-abiraterona-250mg-120cpr/p",
+      "preco": 10313.39,
+      "nome": "Acetato de Abiraterona Sun Pharma 250mg 120 comprimidos",
+      "url": "https://www.drogariavenancio.com.br/acetato-de-abiraterona-sun-pharma-250mg-120-comprimidos/p",
       "disponivel": false
     },
     "panvel": {
@@ -134,31 +134,31 @@ const PRECOS_REDES = {
   },
   "med-00344": {
     "paguemenos": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Dipropionato De Betametasona + Fosfato Dissódico De Betametasona 5mg + 2mg Com 1 Ampola",
       "url": "https://www.paguemenos.com.br/dipropionato-de-betametasona-mais-fosfato-dissodico-de-betametasona-5mg-mais-2mg-com-1-ampola/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Dipropionato De Betametasona + Fosfato Dissódico De Betametasona 5mg + 2mg Com 1 Ampola",
       "url": "https://www.extrafarma.com.br/dipropionato-de-betametasona-mais-fosfato-dissodico-de-betametasona-5mg-mais-2mg-com-1-ampola/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 32.85,
+      "preco": 32.42,
       "nome": "Permese Dipropionato de Betametasona 5mg/ml + Fosfato Dissódico de Betametasona 2mg/ml 1ml Ampola Solução Injetável + Seringa",
       "url": "https://www.drogariasaopaulo.com.br/permese-solucao-injetavel-5-mg-ml-2-mg-ml-ampola-seringa-momenta-1ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 28.89,
+      "preco": 27.82,
       "nome": "Permese Dipropionato de Betametasona 5mg/ml + Fosfato Dissódico de Betametasona 2mg/ml 1ml Ampola Solução Injetável + Seringa",
       "url": "https://www.drogariaspacheco.com.br/permese-solucao-injetavel-5-mg-ml-2-mg-ml-ampola-seringa-momenta-1ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 13.48,
+      "preco": 9.99,
       "nome": "Dipropionato de Betametasona + Fosfato Dissódico de Betametasona 5mg/ml + 2mg/ml Eurofarma Suspensão Injetável 1 Ampola 1ml",
       "url": "https://www.drogariavenancio.com.br/dipropionato-de-betametasona-5mg-ml---fosfato-dissodico-de-betametasona-2mg-ml-eurofarma-1-ampola/p",
       "disponivel": true
@@ -166,25 +166,25 @@ const PRECOS_REDES = {
   },
   "med-00342": {
     "paguemenos": {
-      "preco": 17.19,
+      "preco": 18.69,
       "nome": "Dipropionato de Betametasona 5mg + Fosfato Dissódico de Betametasona 2mg Suspensão Injetável 1 Ampola 1ml Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/dipropionato-de-betammaisfosf-betam-5mais2mg-injetavel-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.19,
+      "preco": 18.69,
       "nome": "Dipropionato de Betametasona 5mg + Fosfato Dissódico de Betametasona 2mg Suspensão Injetável 1 Ampola 1ml Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/dipropionato-de-betammaisfosf-betam-5mais2mg-injetavel-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 15.99,
-      "nome": "Dipropionato de Betametasona 5mg/ml + Fosfato Dissódico de Betametasona 2mg/ml Genérico Neo Química 1 Ampola Suspensão Injetável",
-      "url": "https://www.drogariasaopaulo.com.br/dipropionato-de-betametasona-fosfato-dissodico-de-betametasona-5mg-ml-2mg-ml-neo-quimica-suspensao-injetavel/p",
+      "preco": 16.59,
+      "nome": "Diprosone Dipropionato De Betametasona 0,5mg/g 10g 1 Bisnaga",
+      "url": "https://www.drogariasaopaulo.com.br/diprosone-0-5mg-g-cosmed-1-bisnaga-com-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Dipropionato de Betametasona 5mg/ml + Fosfato Dissódico de Betametasona 2mg/ml Genérico Neo Química 1 Ampola Suspensão Injetável",
       "url": "https://www.drogariaspacheco.com.br/dipropionato-de-betametasona-fosfato-dissodico-de-betametasona-5mg-ml-2mg-ml-neo-quimica-suspensao-injetavel/p",
       "disponivel": true
@@ -198,31 +198,31 @@ const PRECOS_REDES = {
   },
   "med-00004": {
     "paguemenos": {
-      "preco": 34.99,
+      "preco": 32.59,
       "nome": "Celestone Soluspan 3mg/ml + 3,945mg/ml Suspensão Injetável 1 Ampola",
       "url": "https://www.paguemenos.com.br/celestone-soluspan-ampola-com-1ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 34.99,
+      "preco": 32.59,
       "nome": "Celestone Soluspan 3mg/ml + 3,945mg/ml Suspensão Injetável 1 Ampola",
       "url": "https://www.extrafarma.com.br/celestone-soluspan-ampola-com-1ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.1,
+      "preco": 34.74,
       "nome": "Celestone Soluspan Fosfato Dissódico de Betametasona 3mg/ml + Dipropionato de Betametasona 3mg/ml 1x1ml",
       "url": "https://www.drogariasaopaulo.com.br/celestone-soluspan-injetavel-1ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 30.99,
+      "preco": 29.78,
       "nome": "Celestone Soluspan Fosfato Dissódico de Betametasona 3mg/ml + Dipropionato de Betametasona 3mg/ml 1x1ml",
       "url": "https://www.drogariaspacheco.com.br/celestone-soluspan-injetavel-1ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 30.99,
+      "preco": 30.39,
       "nome": "Celestone Soluspan 3,0mg/ml + 3,945mg/ml Hypera Suspensão Injetável 1 Ampola 1ml",
       "url": "https://www.drogariavenancio.com.br/celestone-soluspan-hypera-injetavel-1ml/p",
       "disponivel": true
@@ -248,13 +248,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 23.65,
+      "preco": 23.09,
       "nome": "Celestone Betametasona 0,5mg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/celestone-05mg-mantecorp-farmasa-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.19,
+      "preco": 20.18,
       "nome": "Celestone Betametasona 0,5mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/celestone-05mg-mantecorp-farmasa-20-comprimidos/p",
       "disponivel": true
@@ -268,19 +268,19 @@ const PRECOS_REDES = {
   },
   "med-00005": {
     "paguemenos": {
-      "preco": 16.29,
+      "preco": 16.39,
       "nome": "Acetato de Ciproterona 2mg + Etinilestradiol 0,035mg 21 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.paguemenos.com.br/acetato-de-ciproterona-maisetinilestradiol-com-21-comprimidos-generico-melcon/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.29,
+      "preco": 16.39,
       "nome": "Acetato de Ciproterona 2mg + Etinilestradiol 0,035mg 21 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.extrafarma.com.br/acetato-de-ciproterona-maisetinilestradiol-com-21-comprimidos-generico-melcon/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 15.59,
+      "preco": 17.15,
       "nome": "Acetato de Ciproterona 2mg + Etinilestradiol 0,035mg Genérico Biosintética 21 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/acetato-de-ciproterona-2mg-etinilestradiol-0-035mg-21-comprimidos-revestidos/p",
       "disponivel": true
@@ -292,7 +292,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.62,
+      "preco": 17.49,
       "nome": "Acetato de Ciproterona 2mg Etinilestradiol 0,035mg 21 Comprimidos Merck",
       "url": "https://www.drogariavenancio.com.br/acet-ciproterona-etinilestradiol-2mg-0035mg-merck-/p",
       "disponivel": true
@@ -306,31 +306,31 @@ const PRECOS_REDES = {
   },
   "med-00375": {
     "paguemenos": {
-      "preco": 15.49,
+      "preco": 15.59,
       "nome": "Acetato de Ciproterona 2mg + Etinilestradiol 0,035mg 21 Comprimidos Revestidos Genérico Cifarma",
       "url": "https://www.paguemenos.com.br/acetato-de-ciproterona-mais-etinilestradiol-2mgmais0-035mg-com-21-comprimidos-generico-cifarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.49,
+      "preco": 15.59,
       "nome": "Acetato de Ciproterona 2mg + Etinilestradiol 0,035mg 21 Comprimidos Revestidos Genérico Cifarma",
       "url": "https://www.extrafarma.com.br/acetato-de-ciproterona-mais-etinilestradiol-2mgmais0-035mg-com-21-comprimidos-generico-cifarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 24.25,
+      "preco": 24,
       "nome": "Artemidis 35 Etinilestradiol 0,035mg + Acetato de Ciproterona 2mg 21 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/artemidis-35-ems-21-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 22.19,
+      "preco": 21.75,
       "nome": "Artemidis 35 Etinilestradiol 0,035mg + Acetato de Ciproterona 2mg 21 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/artemidis-35-ems-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.49,
+      "preco": 20.09,
       "nome": "Diclin Merck 21 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/diclin-merck-21-comprimidos-revestidos/p",
       "disponivel": true
@@ -355,6 +355,12 @@ const PRECOS_REDES = {
       "url": "https://www.extrafarma.com.br/acetato-de-desmopressina-10-mcg-dose-spray-nasal-2-5ml-generico-bergamo/p",
       "disponivel": true
     },
+    "drogariasaopaulo": {
+      "preco": 199.99,
+      "nome": "Acetato de Desmopressina 0,1mg/ml Genérico Blau 2,5ml Spray Nasal",
+      "url": "https://www.drogariasaopaulo.com.br/acetato-desmopressina-0-1mg-ml-generico-blau-2-5ml-spray-nasal/p",
+      "disponivel": false
+    },
     "pacheco": {
       "preco": 161.48,
       "nome": "Ddavp 0,1mg/ml Ferring 2,5ml Solução Nasal + 2 Aplicadores",
@@ -376,31 +382,31 @@ const PRECOS_REDES = {
   },
   "med-00007": {
     "paguemenos": {
-      "preco": 6.79,
-      "nome": "Acetato de Dexametasona 1mg/g Creme 10g Genérico Globo",
-      "url": "https://www.paguemenos.com.br/acetato-de-dexametasona-creme-1mg-10g-generico-globo/p",
+      "preco": 6.49,
+      "nome": "Acetato De Dexametasona 1,0mg/G Creme 10gm Genérico Vitamedic",
+      "url": "https://www.paguemenos.com.br/acetato-de-dexametasona-1-0mg-g-creme-10gm-generico-vitamedic/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 6.79,
-      "nome": "Acetato de Dexametasona 1mg/g Creme 10g Genérico Globo",
-      "url": "https://www.extrafarma.com.br/acetato-de-dexametasona-creme-1mg-10g-generico-globo/p",
+      "preco": 6.49,
+      "nome": "Acetato De Dexametasona 1,0mg/G Creme 10gm Genérico Vitamedic",
+      "url": "https://www.extrafarma.com.br/acetato-de-dexametasona-1-0mg-g-creme-10gm-generico-vitamedic/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 8.29,
-      "nome": "Acetato De Dexametasona 1mg/g Genérico Germed 10g Creme",
-      "url": "https://www.drogariasaopaulo.com.br/acetato-de-dexametasona-1mg-g-generico-germed-10g-creme/p",
+      "preco": 6.55,
+      "nome": "Acetato de Dexametasona 1mg/g Genérico Prati-Donaduzzi 10g Creme",
+      "url": "https://www.drogariasaopaulo.com.br/acetato-dexametasona-creme-1mg-g-generico-prati-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.99,
-      "nome": "Acetato de Dexametasona 1mg/g Genérico EMS 10g Creme",
-      "url": "https://www.drogariaspacheco.com.br/acetato-dexametasona-creme-1mg-generico-ems-10g/p",
+      "preco": 5.99,
+      "nome": "Acetato de Dexametasona 1mg/g Genérico Prati-Donaduzzi 10g Creme",
+      "url": "https://www.drogariaspacheco.com.br/acetato-dexametasona-creme-1mg-g-generico-prati-10g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.78,
+      "preco": 5.99,
       "nome": "Acetato De Dexametasona 1mg/g Teuto Creme Dermatológico 10g",
       "url": "https://www.drogariavenancio.com.br/dexametasona-cr-1mg-g-10g-g-teuto/p",
       "disponivel": true
@@ -464,13 +470,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 13.39,
+      "preco": 14.73,
       "nome": "Acetato de Hidrocortisona 10mg/g Genérico União Química 20g Creme",
       "url": "https://www.drogariasaopaulo.com.br/acetato-de-hidrocortisona-creme-generico-uniao-20g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.59,
+      "preco": 14.95,
       "nome": "Acetato de Hidrocortisona 10mg/g Genérico União Química 20g Creme",
       "url": "https://www.drogariaspacheco.com.br/acetato-de-hidrocortisona-creme-generico-uniao-20g/p",
       "disponivel": true
@@ -484,13 +490,13 @@ const PRECOS_REDES = {
   },
   "med-00012": {
     "paguemenos": {
-      "preco": 271.99,
+      "preco": 274.99,
       "nome": "Lectrum 3,75mg Injetável Com 1 Ampola",
       "url": "https://www.paguemenos.com.br/lectrum-3-75mg-injetavel-com-1-ampola/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 271.99,
+      "preco": 274.99,
       "nome": "Lectrum 3,75mg Injetável Com 1 Ampola",
       "url": "https://www.extrafarma.com.br/lectrum-3-75mg-injetavel-com-1-ampola/p",
       "disponivel": true
@@ -522,19 +528,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 34.33,
+      "preco": 33.99,
       "nome": "Contracep Acetato De Medroxiprogesterona 150mg/ml 1ml Ampola",
       "url": "https://www.drogariasaopaulo.com.br/contracep-1ml-ampola/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 27.99,
+      "preco": 26.94,
       "nome": "Contracep Acetato De Medroxiprogesterona 150mg/ml 1ml Ampola",
       "url": "https://www.drogariaspacheco.com.br/contracep-1ml-ampola/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 27.99,
+      "preco": 27.49,
       "nome": "Contracep 150mg Ems 1 Ampola",
       "url": "https://www.drogariavenancio.com.br/contracep-150mg-ems-1-ampola/p",
       "disponivel": true
@@ -548,19 +554,19 @@ const PRECOS_REDES = {
   },
   "med-00014": {
     "paguemenos": {
-      "preco": 42.79,
+      "preco": 42.99,
       "nome": "Cyclofemina 25mg + 5mg Suspensão Injetável 1 Ampola 0,5ml",
       "url": "https://www.paguemenos.com.br/cyclofemina-injetavel-1-ampola-0-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 42.79,
+      "preco": 42.99,
       "nome": "Cyclofemina 25mg + 5mg Suspensão Injetável 1 Ampola 0,5ml",
       "url": "https://www.extrafarma.com.br/cyclofemina-injetavel-1-ampola-0-5ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 42.96,
+      "preco": 42.99,
       "nome": "Cyclofemina Acetato de Medroxiprogesterona 25mg + Cipionato de Estradiol 5mg 1 Ampola 0,5ml Injetável",
       "url": "https://www.drogariasaopaulo.com.br/cyclofemina-0-5mg-millet-roux-1-ampola-injetavel/p",
       "disponivel": true
@@ -592,7 +598,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 78.13,
+      "preco": 77.34,
       "nome": "Natifa Pro Estradiol 1mg + Noretisterona 0,5mg  28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/natifa-pro-10-5mg-28-comprimidos/p",
       "disponivel": true
@@ -618,31 +624,31 @@ const PRECOS_REDES = {
   },
   "med-00376": {
     "paguemenos": {
-      "preco": 27.29,
+      "preco": 30.29,
       "nome": "Acetato de Clormadinona 2mg + Etinilestradiol 0,03mg 21 Comprimidos Revestidos Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/acetato-de-clormadidona-2mg-mais-etinilestradiol-0-03mg-com-21-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 27.29,
+      "preco": 30.29,
       "nome": "Acetato de Clormadinona 2mg + Etinilestradiol 0,03mg 21 Comprimidos Revestidos Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/acetato-de-clormadidona-2mg-mais-etinilestradiol-0-03mg-com-21-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 48.38,
-      "nome": "Cherry Etinilestradiol 0,030mg + Acetato de Clormadinona 2mg 21 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cherry-2--003mg-melora-21-comprimidos/p",
+      "preco": 46.12,
+      "nome": "Amora 20 Acetato de Clormadinona 2mg + Etinilestradiol 0,02mg 28 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/amora-20-acetato-de-clormadinona-2mg-etinilestradiol-0-02mg-28-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.29,
+      "preco": 34.96,
       "nome": "Amora Etinilestradiol 0,030mg + Acetato de Clormadinona 2mg 21 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/amora-2mg--0-03mg-eurofarma-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 35.93,
+      "preco": 34.61,
       "nome": "Amora Acetato de Clormadinona 2mg + Etinilestradiol 0,03mg 21 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/amora-2mg-003mg-21cpr/p",
       "disponivel": true
@@ -650,25 +656,25 @@ const PRECOS_REDES = {
   },
   "med-00370": {
     "paguemenos": {
-      "preco": 48.99,
+      "preco": 45.99,
       "nome": "Stezza 28 Cápsulas",
       "url": "https://www.paguemenos.com.br/stezza-28-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 48.99,
+      "preco": 45.99,
       "nome": "Stezza 28 Cápsulas",
       "url": "https://www.extrafarma.com.br/stezza-28-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 49.49,
+      "preco": 46.05,
       "nome": "Stezza Acetato de Nomegestrol 2,5mg + Estradiol 1,5mg 28 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/stezza-merck-sharp-28-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 47.24,
+      "preco": 48.35,
       "nome": "Stezza Acetato de Nomegestrol 2,5mg + Estradiol 1,5mg 28 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/stezza-merck-sharp-28-comprimidos-revestidos/p",
       "disponivel": true
@@ -682,13 +688,13 @@ const PRECOS_REDES = {
   },
   "med-00015": {
     "paguemenos": {
-      "preco": 30.49,
+      "preco": 28.59,
       "nome": "Depo-Medrol 40mg/ml Suspensão Injetável 1 Frasco-Ampola 2ml",
       "url": "https://www.paguemenos.com.br/depo-medrol-40mg-ampola-2ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 30.49,
+      "preco": 28.59,
       "nome": "Depo-Medrol 40mg/ml Suspensão Injetável 1 Frasco-Ampola 2ml",
       "url": "https://www.extrafarma.com.br/depo-medrol-40mg-ampola-2ml/p",
       "disponivel": true
@@ -702,25 +708,25 @@ const PRECOS_REDES = {
   },
   "med-00016": {
     "paguemenos": {
-      "preco": 50.49,
+      "preco": 44.79,
       "nome": "Suprema 2mg + 1mg 28 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/suprema-2mg-com-28-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.49,
+      "preco": 44.79,
       "nome": "Suprema 2mg + 1mg 28 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/suprema-2mg-com-28-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 50.86,
+      "preco": 50.34,
       "nome": "Suprema Valerato de Estradiol 2mg + Acetato de Noretisterona 1mg 28 Comprimidos revestidos",
       "url": "https://www.drogariasaopaulo.com.br/suprema-2mg-1mg-biolab-revestidos-38-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.59,
+      "preco": 39.78,
       "nome": "Suprema Valerato de Estradiol 2mg + Acetato de Noretisterona 1mg 28 Comprimidos revestidos",
       "url": "https://www.drogariaspacheco.com.br/suprema-2mg-1mg-biolab-revestidos-38-comprimidos/p",
       "disponivel": true
@@ -752,19 +758,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 17.7,
+      "preco": 19.48,
       "nome": "Acetato de Prednisolona 20mg Genérico Legrand 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/prednisolona-20mg-10-comprimidos-revestidos-g-legrand-pharma/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.17,
+      "preco": 18.9,
       "nome": "Acetato de Prednisolona 20mg Genérico Legrand 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/prednisolona-20mg-10-comprimidos-revestidos-g-legrand-pharma/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.89,
+      "preco": 18.99,
       "nome": "Acetato De Prednisolona 20mg Genérico 10 Comprimidos Germed Pharma",
       "url": "https://www.drogariavenancio.com.br/acetato-de-prednisolona-20mg-generico-germed-10-comprimidos/p",
       "disponivel": true
@@ -816,7 +822,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.29,
+      "preco": 19.88,
       "nome": "Ad-til Acetato de Retinol 50.000UI/ml + Colecalciferol 10.000UI/ml 20ml Solução",
       "url": "https://www.drogariaspacheco.com.br/ad-til-20ml/p",
       "disponivel": true
@@ -836,21 +842,21 @@ const PRECOS_REDES = {
   },
   "med-00021": {
     "paguemenos": {
-      "preco": 16.79,
+      "preco": 16.69,
       "nome": "Acetilcisteína 40mg/ml Xarope Adulto 120ml Genérico Legrand",
       "url": "https://www.paguemenos.com.br/acetilcisteina-xarope-adulto-40mg-com-120ml-generico-legrand/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.79,
+      "preco": 16.69,
       "nome": "Acetilcisteína 40mg/ml Xarope Adulto 120ml Genérico Legrand",
       "url": "https://www.extrafarma.com.br/acetilcisteina-xarope-adulto-40mg-com-120ml-generico-legrand/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.99,
-      "nome": "Acetilcisteína 600mg Genérico Geolab 16 Envelopes com 5g Cada",
-      "url": "https://www.drogariasaopaulo.com.br/acetilcisteina-600mg-generico-geolab-16-envelopes-com-5g-cada/p",
+      "preco": 23.25,
+      "nome": "Acetilcisteína 100mg/ml Genérico União Química 3ml Com 5 Ampolas Intramuscular",
+      "url": "https://www.drogariasaopaulo.com.br/acetilcisteina-intramuscular-100mg-generico-uniao-quimica-5x3ml/p",
       "disponivel": true
     },
     "pacheco": {
@@ -892,13 +898,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 6.59,
+      "preco": 7.25,
       "nome": "Triancinolona Acetonida 1mg/g Genérico EMS 10g Pomada",
       "url": "https://www.drogariaspacheco.com.br/triancinolona-pomada-1mg-g-generico-ems-10g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 6.49,
+      "preco": 7.49,
       "nome": "Triancinolona Acetonida Pomada Bucal 1mg/g 10g Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/triancinolona-acetonida-pomada-bucal-1mg-g-10g/p",
       "disponivel": true
@@ -936,35 +942,41 @@ const PRECOS_REDES = {
       "nome": "Allenasal 55mcg Suspensão Nasal Spray 120 Doses",
       "url": "https://www.extrafarma.com.br/allenasal-550mcg-com-120-doses/p",
       "disponivel": true
+    },
+    "venancio": {
+      "preco": 68.89,
+      "nome": "Allenasal 55mcg 120 doses 16,5ml",
+      "url": "https://www.drogariavenancio.com.br/allenasal-55mcg/p",
+      "disponivel": false
     }
   },
   "med-00023": {
     "paguemenos": {
-      "preco": 13.99,
+      "preco": 8.49,
       "nome": "Aciclovir 50mg/g Creme 10g Genérico Medley",
       "url": "https://www.paguemenos.com.br/aciclovir-creme-10g-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.99,
+      "preco": 8.49,
       "nome": "Aciclovir 50mg/g Creme 10g Genérico Medley",
       "url": "https://www.extrafarma.com.br/aciclovir-creme-10g-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 13.29,
-      "nome": "Aciclovir 50mg/g Genérico Medley 10g Creme",
-      "url": "https://www.drogariasaopaulo.com.br/aciclovir-creme-50mg-generico-medley-10g/p",
+      "preco": 13.59,
+      "nome": "Aciclovir 50mg/g Genérico Cimed 10g Creme",
+      "url": "https://www.drogariasaopaulo.com.br/aciclovir-creme-50mg-g-generico-cimed-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.29,
+      "preco": 17.99,
       "nome": "Aciclovir 50mg/g Genérico Medley 10g Creme",
       "url": "https://www.drogariaspacheco.com.br/aciclovir-creme-50mg-generico-medley-10g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.09,
+      "preco": 9.99,
       "nome": "Aciclovir 50mg 10g Teuto",
       "url": "https://www.drogariavenancio.com.br/aciclovir-50mg-10g/p",
       "disponivel": true
@@ -990,7 +1002,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 12.86,
+      "preco": 12.99,
       "nome": "Ácido Acetilsalicílico 100mg Genérico Eurofarma 30 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/acido-acetilsalicilico-100mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
@@ -1002,7 +1014,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 1.92,
+      "preco": 2.95,
       "nome": "Ácido Acetilsalicílico 100mg Ems Genérico 10 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/acido-acetilsalicilico-100mg-10-comprimidos-generico-ems/p",
       "disponivel": true
@@ -1056,27 +1068,27 @@ const PRECOS_REDES = {
   },
   "med-00028": {
     "paguemenos": {
-      "preco": 48.99,
+      "preco": 45.29,
       "nome": "Adapaleno Gel 1mg/g Com 30g Medley Genérico",
       "url": "https://www.paguemenos.com.br/adapaleno-gel-30g-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 48.99,
+      "preco": 45.29,
       "nome": "Adapaleno Gel 1mg/g Com 30g Medley Genérico",
       "url": "https://www.extrafarma.com.br/adapaleno-gel-30g-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 42.86,
+      "preco": 41.32,
       "nome": "Belpele Adapaleno 1mg/g 30g Gel Dermatológico",
       "url": "https://www.drogariasaopaulo.com.br/belpele-1mg-g-melora-50g-gel-dermatologico/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.99,
-      "nome": "Adapaleno 1mg/g Genérico Medley 30g Gel",
-      "url": "https://www.drogariaspacheco.com.br/adapaleno-0-1-30gr-generico-medley-gel/p",
+      "preco": 38.5,
+      "nome": "Belpele Adapaleno 1mg/g 30g Gel Dermatológico",
+      "url": "https://www.drogariaspacheco.com.br/belpele-1mg-g-melora-50g-gel-dermatologico/p",
       "disponivel": true
     },
     "venancio": {
@@ -1094,13 +1106,13 @@ const PRECOS_REDES = {
   },
   "med-00029": {
     "paguemenos": {
-      "preco": 46.99,
+      "preco": 46.79,
       "nome": "Deriva C Micro 1mg/g + 10mg/g Gel Dermatológico de Liberação Prolongada 30g",
       "url": "https://www.paguemenos.com.br/deriva-c-micro-gel-30g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 46.99,
+      "preco": 46.79,
       "nome": "Deriva C Micro 1mg/g + 10mg/g Gel Dermatológico de Liberação Prolongada 30g",
       "url": "https://www.extrafarma.com.br/deriva-c-micro-gel-30g/p",
       "disponivel": true
@@ -1112,10 +1124,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 42.33,
-      "nome": "Adacne Clin 1mg/g + 10mg/g Glenmark 30g Gel",
-      "url": "https://www.drogariaspacheco.com.br/adacne-clin-gel-glenmark-30g/p",
-      "disponivel": false
+      "preco": 42.13,
+      "nome": "Deriva C Micro Adapaleno 1mg/g + Fosfato de Clindamicina 10mg/g 30g Gel",
+      "url": "https://www.drogariaspacheco.com.br/deriva-micro-glenmark-30g/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 42.99,
@@ -1132,25 +1144,25 @@ const PRECOS_REDES = {
   },
   "med-00720": {
     "paguemenos": {
-      "preco": 34.79,
+      "preco": 32.59,
       "nome": "Vitacid 0,25mg/g Gel 25g",
       "url": "https://www.paguemenos.com.br/vitacid-gel-0-025porcento-25g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 34.79,
+      "preco": 32.59,
       "nome": "Vitacid 0,25mg/g Gel 25g",
       "url": "https://www.extrafarma.com.br/vitacid-gel-0-025porcento-25g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.14,
+      "preco": 32.72,
       "nome": "Vitacid Tretinoína 0,25mg/g 25g Gel",
       "url": "https://www.drogariasaopaulo.com.br/vitacid-gel-theraskin-25g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 35.49,
+      "preco": 32.72,
       "nome": "Vitacid Tretinoína 0,25mg/g 25g Gel",
       "url": "https://www.drogariaspacheco.com.br/vitacid-gel-theraskin-25g/p",
       "disponivel": true
@@ -1170,25 +1182,25 @@ const PRECOS_REDES = {
   },
   "med-00031": {
     "paguemenos": {
-      "preco": 166.99,
-      "nome": "Epiduo 0.3 3mg/g + 25mg/g Gel 45g",
-      "url": "https://www.paguemenos.com.br/epiduo-0-3porcento-frasco-com-45g/p",
+      "preco": 106.99,
+      "nome": "Adazo 1mg/G + 25mg/G Em Gel 30g",
+      "url": "https://www.paguemenos.com.br/adazo-1mg-g-mais-25mg-g-em-gel-30g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 166.99,
-      "nome": "Epiduo 0.3 3mg/g + 25mg/g Gel 45g",
-      "url": "https://www.extrafarma.com.br/epiduo-0-3porcento-frasco-com-45g/p",
+      "preco": 106.99,
+      "nome": "Adazo 1mg/G + 25mg/G Em Gel 30g",
+      "url": "https://www.extrafarma.com.br/adazo-1mg-g-mais-25mg-g-em-gel-30g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 113.67,
-      "nome": "Epiduo Adapaleno 1mg/g + Peróxido de Benzoíla 25mg/g 30g Gel",
-      "url": "https://www.drogariasaopaulo.com.br/epiduo-gel-26mg-galderma-30g/p",
+      "preco": 107.99,
+      "nome": "Adazo Adapaleno 1mg/g + Peróxido de Benzoíla 25mg/g 30g",
+      "url": "https://www.drogariasaopaulo.com.br/adazo-adapaleno-1mg-g-peroxido-de-benzoila-25mg-g-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 113.67,
+      "preco": 108.77,
       "nome": "Epiduo Adapaleno 1mg/g + Peróxido de Benzoíla 25mg/g 30g Gel",
       "url": "https://www.drogariaspacheco.com.br/epiduo-gel-26mg-galderma-30g/p",
       "disponivel": true
@@ -1258,10 +1270,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 107.19,
-      "nome": "Agomelatina 25mg Teva 28 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/agomelatina-25mg-28com--c1--g--teva/p",
-      "disponivel": true
+      "preco": 136.33,
+      "nome": "Elencos 25mg Teva 14 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/elencos-25mg-14com--c1-/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 181.99,
@@ -1272,33 +1284,33 @@ const PRECOS_REDES = {
   },
   "med-00035": {
     "paguemenos": {
-      "preco": 3.19,
+      "preco": 2.19,
       "nome": "Albendazol 400mg 1 Comprimido Mastigável Genérico Cimed",
       "url": "https://www.paguemenos.com.br/albendazol-400mg-com-1-comprimido-generico-cimed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 3.19,
+      "preco": 2.19,
       "nome": "Albendazol 400mg 1 Comprimido Mastigável Genérico Cimed",
       "url": "https://www.extrafarma.com.br/albendazol-400mg-com-1-comprimido-generico-cimed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 2.99,
+      "preco": 3.29,
       "nome": "Albendazol 400mg Genérico Cimed 1 Comprimido Mastigável",
       "url": "https://www.drogariasaopaulo.com.br/albendazol-400mg-generico-cimed-1-comprimido-mastigavel/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 2.99,
+      "preco": 3.95,
       "nome": "Albendazol 400mg Genérico Cimed 1 Comprimido Mastigável",
       "url": "https://www.drogariaspacheco.com.br/albendazol-400mg-generico-cimed-1-comprimido-mastigavel/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 3.59,
-      "nome": "Albendazol 400mg Medley 1 Comprimido Mastigável",
-      "url": "https://www.drogariavenancio.com.br/albendazol-400mg-medley-1-comprimido-mastigavel/p",
+      "preco": 2.99,
+      "nome": "Albendazol 400mg Prati Donaduzzi 1 Comprimido Mastigável",
+      "url": "https://www.drogariavenancio.com.br/albendazol-400mg-prati-donaduzzi-1-comprimido-mastigavel/p",
       "disponivel": true
     },
     "panvel": {
@@ -1310,25 +1322,25 @@ const PRECOS_REDES = {
   },
   "med-00037": {
     "paguemenos": {
-      "preco": 10.99,
+      "preco": 8.79,
       "nome": "Alendronato de Sódio 70mg 4 Comprimidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/alendronato-sodio-70mg-com-4-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.99,
+      "preco": 8.79,
       "nome": "Alendronato de Sódio 70mg 4 Comprimidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/alendronato-sodio-70mg-com-4-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 82.23,
+      "preco": 81.4,
       "nome": "Osteoform Alendronato De Sódio Tri-hidratado 70mg 4 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/osteoform-70mg-4-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 65.49,
+      "preco": 64.18,
       "nome": "Osteoform Alendronato De Sódio Tri-hidratado 70mg 4 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/osteoform-70mg-4-comprimidos/p",
       "disponivel": true
@@ -1360,13 +1372,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 10.99,
-      "nome": "Alendronato De Sódio 70mg Genérico Nova Química 4 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/alendronato-de-sodio-70mg-generico-quimica-4-comprimidos/p",
+      "preco": 9.45,
+      "nome": "Alendronato De Sódio 70mg Genérico Eurofarma 4 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/alendronato-de-sodio-70mg-generico-eurofarma-4-comprimidos/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 9.98,
+      "preco": 9.45,
       "nome": "Alendronato De Sódio 70mg Genérico Eurofarma 4 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/alendronato-de-sodio-70mg-generico-eurofarma-4-comprimidos/p",
       "disponivel": false
@@ -1435,8 +1447,14 @@ const PRECOS_REDES = {
       "url": "https://www.extrafarma.com.br/alfaestradiol-0-25mg-solucao-capilar-100ml-generico-biolab/p",
       "disponivel": true
     },
+    "drogariasaopaulo": {
+      "preco": 135.84,
+      "nome": "Alfaestradiol 25mg Genérico Biolab 1 Frasco com 100mL de Solução + Aplicador",
+      "url": "https://www.drogariasaopaulo.com.br/alfaestradiol-25mg-generico-biolab-1-frasco-com-100ml-de-solucao---aplicador/p",
+      "disponivel": true
+    },
     "pacheco": {
-      "preco": 123.49,
+      "preco": 134.85,
       "nome": "Alfaestradiol 25mg Genérico Biolab 1 Frasco com 100mL de Solução + Aplicador",
       "url": "https://www.drogariaspacheco.com.br/alfaestradiol-25mg-generico-biolab-1-frasco-com-100ml-de-solucao---aplicador/p",
       "disponivel": true
@@ -1456,31 +1474,31 @@ const PRECOS_REDES = {
   },
   "med-00040": {
     "paguemenos": {
-      "preco": 5.19,
+      "preco": 6.29,
       "nome": "Alopurinol 100mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/alopurinol-100mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.19,
+      "preco": 6.29,
       "nome": "Alopurinol 100mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/alopurinol-100mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 8.59,
+      "preco": 9.45,
       "nome": "Alopurinol 100mg Genérico Medley 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/alopurinol-100mg-generico-medley-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.59,
+      "preco": 9.45,
       "nome": "Alopurinol 100mg Genérico Medley 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/alopurinol-100mg-generico-medley-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.19,
+      "preco": 7.99,
       "nome": "Alopurinol 100mg 30 Comprimidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/alopurinol-100mg-farmaco-prati-30-comprimidos/p",
       "disponivel": true
@@ -1495,20 +1513,20 @@ const PRECOS_REDES = {
   "med-00041": {
     "paguemenos": {
       "preco": 2.99,
-      "nome": "Alprazolam 0,5mg 30 Comprimidos Genérico EMS",
-      "url": "https://www.paguemenos.com.br/alprazolam-0-5mg-comprimidos30-generico-emsms-p/p",
+      "nome": "Alprazolam 0,5mg 30 Comprimidos Genérico Aché",
+      "url": "https://www.paguemenos.com.br/alprazolam-0-5mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 2.99,
-      "nome": "Alprazolam 0,5mg 30 Comprimidos Genérico EMS",
-      "url": "https://www.extrafarma.com.br/alprazolam-0-5mg-comprimidos30-generico-emsms-p/p",
+      "nome": "Alprazolam 0,5mg 30 Comprimidos Genérico Aché",
+      "url": "https://www.extrafarma.com.br/alprazolam-0-5mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.99,
-      "nome": "Alprazolam 0,5mg Genérico Aché 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/alprazolam-0-5mg-generico-ache-30-comprimidos/p",
+      "preco": 3.79,
+      "nome": "Alprazolam 0,5mg Genérico Legrand 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/alprazolam-05mg-generico-legrand-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -1518,9 +1536,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 6.19,
-      "nome": "Alprazolam 0,5mg Medley 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/alprazolam-05mg-medley-30-comprimidos/p",
+      "preco": 7.09,
+      "nome": "Alprazolam 0,5mg Ems 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/alprazolam-05mg-com-30-comprimidos-ems/p",
       "disponivel": true
     },
     "panvel": {
@@ -1532,13 +1550,13 @@ const PRECOS_REDES = {
   },
   "med-00044": {
     "paguemenos": {
-      "preco": 12.99,
+      "preco": 11.69,
       "nome": "Amoxicilina 500mg 15 Cápsulas Duras Genérico EMS",
       "url": "https://www.paguemenos.com.br/amoxicilina-500mg-com-15-capsulas-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.99,
+      "preco": 11.69,
       "nome": "Amoxicilina 500mg 15 Cápsulas Duras Genérico EMS",
       "url": "https://www.extrafarma.com.br/amoxicilina-500mg-com-15-capsulas-generico-ems/p",
       "disponivel": true
@@ -1570,31 +1588,31 @@ const PRECOS_REDES = {
   },
   "med-00042": {
     "paguemenos": {
-      "preco": 26.79,
-      "nome": "Amoxicilina 500mg Cápsulas21 Gn-Ger",
-      "url": "https://www.paguemenos.com.br/amoxicilina-500mg-capsulas21-gn-ger/p",
-      "disponivel": false
+      "preco": 23.29,
+      "nome": "Amoxicilina 400mg/5ml + Clavulanato de Potássio 57mg/5ml Pó para Suspensão 70ml Genérico Prati-Donaduzzi",
+      "url": "https://www.paguemenos.com.br/amoxicilinamaisclavulanato-de-potassio-400mais57mg-suspensao-70ml-generico-pratimais/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 26.79,
-      "nome": "Amoxicilina 500mg Cápsulas21 Gn-Ger",
-      "url": "https://www.extrafarma.com.br/amoxicilina-500mg-capsulas21-gn-ger/p",
-      "disponivel": false
+      "preco": 23.29,
+      "nome": "Amoxicilina 400mg/5ml + Clavulanato de Potássio 57mg/5ml Pó para Suspensão 70ml Genérico Prati-Donaduzzi",
+      "url": "https://www.extrafarma.com.br/amoxicilinamaisclavulanato-de-potassio-400mais57mg-suspensao-70ml-generico-pratimais/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.99,
+      "preco": 1.87,
       "nome": "Amoxicilina 250mg Genérico Eurofarma 150ml",
       "url": "https://www.drogariasaopaulo.com.br/amoxicilina-250mg-generico-eurofarma-150ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.99,
+      "preco": 1.87,
       "nome": "Amoxicilina 250mg Genérico Eurofarma 150ml",
       "url": "https://www.drogariaspacheco.com.br/amoxicilina-250mg-generico-eurofarma-150ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.72,
+      "preco": 14.99,
       "nome": "Amoxicilina 500mg Teuto 21 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/amoxicilina-500mg-teuto-21-capsulas-/p",
       "disponivel": true
@@ -1608,13 +1626,13 @@ const PRECOS_REDES = {
   },
   "med-00043": {
     "paguemenos": {
-      "preco": 10.84,
+      "preco": 14.49,
       "nome": "Amoxicilina 500mg Com 15 Cápsulas Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/amoxicilina-500mg-com-15-capsulas-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.84,
+      "preco": 14.49,
       "nome": "Amoxicilina 500mg Com 15 Cápsulas Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/amoxicilina-500mg-com-15-capsulas-generico-neo-quimica/p",
       "disponivel": true
@@ -1640,15 +1658,15 @@ const PRECOS_REDES = {
   },
   "med-00045": {
     "paguemenos": {
-      "preco": 41.59,
-      "nome": "Amoxicilina 875mg + Clavulanato De Potassio 125mg Com 14 Comprimidos Generico Eurofarma+",
-      "url": "https://www.paguemenos.com.br/amoxicilina-875mg-mais-clavulanato-de-potassio-125mg-com-14-comprimidos-generico-eurofarmamais/p",
+      "preco": 26.29,
+      "nome": "Amoxicilina + Clavulanato De Potássio 400+57mg Suspensão 70ml Genérico Biosintética",
+      "url": "https://www.paguemenos.com.br/amoxicilina-mais-clavulanato-de-potassio-400mais57mg-suspensao-70ml-generico-biosintetica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 41.59,
-      "nome": "Amoxicilina 875mg + Clavulanato De Potassio 125mg Com 14 Comprimidos Generico Eurofarma+",
-      "url": "https://www.extrafarma.com.br/amoxicilina-875mg-mais-clavulanato-de-potassio-125mg-com-14-comprimidos-generico-eurofarmamais/p",
+      "preco": 26.29,
+      "nome": "Amoxicilina + Clavulanato De Potássio 400+57mg Suspensão 70ml Genérico Biosintética",
+      "url": "https://www.extrafarma.com.br/amoxicilina-mais-clavulanato-de-potassio-400mais57mg-suspensao-70ml-generico-biosintetica/p",
       "disponivel": true
     },
     "venancio": {
@@ -1666,15 +1684,15 @@ const PRECOS_REDES = {
   },
   "med-00160": {
     "paguemenos": {
-      "preco": 190.39,
-      "nome": "Amoxicilina Tri-Hidratada + Claritromicina + Lansoprazol 56 Cápsulas Duras Genérico Cifarma",
-      "url": "https://www.paguemenos.com.br/amoxicilina-tri-hidratada-mais-claritromicina-mais-lansoprazol-56-capsulas-duras-generico-cifarma/p",
+      "preco": 195.1,
+      "nome": "Amoxicilina Tri-Hidratada + Claritromicina + Lansoprazol 42 Cápsulas Duras Genérico Cifarma",
+      "url": "https://www.paguemenos.com.br/amoxicilina-tri-hidratada-mais-claritromicina-mais-lansoprazol-42-capsulas-duras-generico-cifarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 190.39,
-      "nome": "Amoxicilina Tri-Hidratada + Claritromicina + Lansoprazol 56 Cápsulas Duras Genérico Cifarma",
-      "url": "https://www.extrafarma.com.br/amoxicilina-tri-hidratada-mais-claritromicina-mais-lansoprazol-56-capsulas-duras-generico-cifarma/p",
+      "preco": 195.1,
+      "nome": "Amoxicilina Tri-Hidratada + Claritromicina + Lansoprazol 42 Cápsulas Duras Genérico Cifarma",
+      "url": "https://www.extrafarma.com.br/amoxicilina-tri-hidratada-mais-claritromicina-mais-lansoprazol-42-capsulas-duras-generico-cifarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -1704,13 +1722,13 @@ const PRECOS_REDES = {
   },
   "med-00046": {
     "paguemenos": {
-      "preco": 36.79,
+      "preco": 26.99,
       "nome": "Amoxicilina 250mg/5ml + Clavulanato de Potássio 62,5mg/5ml Pó para Suspensão Oral 75ml Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/amoxicilina-mais-clavulonato-de-potassio-250mg-suspensao-75ml-generico-sandoz-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 36.79,
+      "preco": 26.99,
       "nome": "Amoxicilina 250mg/5ml + Clavulanato de Potássio 62,5mg/5ml Pó para Suspensão Oral 75ml Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/amoxicilina-mais-clavulonato-de-potassio-250mg-suspensao-75ml-generico-sandoz-mais/p",
       "disponivel": true
@@ -1724,27 +1742,33 @@ const PRECOS_REDES = {
   },
   "med-00161": {
     "paguemenos": {
-      "preco": 70.99,
-      "nome": "Amoxicilina 500mg + Clavulanato de Potássio 125mg 12 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.paguemenos.com.br/amoxicilinamaisclavulanato-de-potassio-500mgmais125mg-com-12-comprimidos-generico-sandozmais/p",
+      "preco": 68.49,
+      "nome": "Amoxicilina 500mg Com Clavulanato De Potássio 125mg Com 21 Comprimidos Sandoz Genérico",
+      "url": "https://www.paguemenos.com.br/amoxicilina-mais-clavulanato-de-potassio-500mais125mg-com-21-comprimidos-generico-sandozmais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 70.99,
-      "nome": "Amoxicilina 500mg + Clavulanato de Potássio 125mg 12 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.extrafarma.com.br/amoxicilinamaisclavulanato-de-potassio-500mgmais125mg-com-12-comprimidos-generico-sandozmais/p",
+      "preco": 68.49,
+      "nome": "Amoxicilina 500mg Com Clavulanato De Potássio 125mg Com 21 Comprimidos Sandoz Genérico",
+      "url": "https://www.extrafarma.com.br/amoxicilina-mais-clavulanato-de-potassio-500mais125mg-com-21-comprimidos-generico-sandozmais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 46.97,
+      "preco": 46.49,
       "nome": "Atak Clav Amoxicilina 80mg/ml + Ácido Clavulânico 11,4mg/ml 70ml Suspensão Oral",
       "url": "https://www.drogariasaopaulo.com.br/atak-clav-suspensao-oral-400mg-momenta-70ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 38.79,
+      "preco": 39.29,
       "nome": "Atak Clav Amoxicilina 80mg/ml + Ácido Clavulânico 11,4mg/ml 70ml Suspensão Oral",
       "url": "https://www.drogariaspacheco.com.br/atak-clav-suspensao-oral-400mg-momenta-70ml/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 131.51,
+      "nome": "Clavulin BD amoxicilina + clavulanato de potássio 875mg GSK",
+      "url": "https://www.drogariavenancio.com.br/clavulin-bd-875mg-gsk-14-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -1774,10 +1798,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 19.45,
-      "nome": "Ampicilina 250mg Genérico Neo Química 60ml",
-      "url": "https://www.drogariaspacheco.com.br/ampicilina-250mg-generico-hypermarcas-60ml/p",
-      "disponivel": false
+      "preco": 9.99,
+      "nome": "Ampicilina 500mg Genérico Prati 12 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/ampicilina-500mg-generico-prati-12-capsulas/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 445.04,
@@ -1794,15 +1818,15 @@ const PRECOS_REDES = {
   },
   "med-00050": {
     "paguemenos": {
-      "preco": 50.99,
-      "nome": "Anastrozol 1mg 30 Comprimidos Revestido Genérico Blau",
-      "url": "https://www.paguemenos.com.br/anastrozol-1mg-30-comprimidos-revestido-generico-blau/p",
+      "preco": 47.59,
+      "nome": "Anastrozol 1mg 30 Comprimidos Revestidos Genérico Eurofarma",
+      "url": "https://www.paguemenos.com.br/anastrozol-1mg-com-30-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.99,
-      "nome": "Anastrozol 1mg 30 Comprimidos Revestido Genérico Blau",
-      "url": "https://www.extrafarma.com.br/anastrozol-1mg-30-comprimidos-revestido-generico-blau/p",
+      "preco": 47.59,
+      "nome": "Anastrozol 1mg 30 Comprimidos Revestidos Genérico Eurofarma",
+      "url": "https://www.extrafarma.com.br/anastrozol-1mg-com-30-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -1864,33 +1888,33 @@ const PRECOS_REDES = {
   },
   "med-00053": {
     "paguemenos": {
-      "preco": 43.59,
+      "preco": 41.29,
       "nome": "Apixabana 2,5mg 20 Comprimidos Revestidos Genérico Zydus Nikkho",
       "url": "https://www.paguemenos.com.br/apixabana-2-5-mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 43.59,
+      "preco": 41.29,
       "nome": "Apixabana 2,5mg 20 Comprimidos Revestidos Genérico Zydus Nikkho",
       "url": "https://www.extrafarma.com.br/apixabana-2-5-mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 54.99,
-      "nome": "Apixabana 2,5mg Genérico Medley 20 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/apixabana-2-5mg-generico-medley-20-comprimidos-revestidos/p",
+      "preco": 48.39,
+      "nome": "Apixabana 2,5mg Genérico Natcofarma 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/apixabana-2-5mg-generico-natcofarma-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 50.9,
+      "preco": 51.25,
       "nome": "Apixabana 5mg Genérico Natcofarma 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/apixabana-5mg-generico-natcofarma-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 57.89,
-      "nome": "Apixabana 5mg Medley 20 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/apixabana-5mg-medley-20-comprimidos/p",
+      "preco": 40.99,
+      "nome": "Apixabana 5mg 20 Comprimidos Revestidos Natcofarma",
+      "url": "https://www.drogariavenancio.com.br/apixabana-5mg-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -1902,19 +1926,19 @@ const PRECOS_REDES = {
   },
   "med-00054": {
     "paguemenos": {
-      "preco": 96.99,
+      "preco": 52.99,
       "nome": "Aripiprazol 10mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/aripiprazol-10mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 96.99,
+      "preco": 52.99,
       "nome": "Aripiprazol 10mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/aripiprazol-10mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 99.59,
+      "preco": 79.99,
       "nome": "Aripiprazol 10mg Genérico Prati-Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/aripiprazol-10mg-generico-prati-donaduzzi-30-comprimidos/p",
       "disponivel": true
@@ -1940,29 +1964,29 @@ const PRECOS_REDES = {
   },
   "med-00056": {
     "paguemenos": {
-      "preco": 48.99,
-      "nome": "Targifor C Vitamina C e Arginina 16 Comprimidos Efervescentes",
-      "url": "https://www.paguemenos.com.br/vitamina-c---arginina-efervescente-targifor-c-16-comprimidos/p",
+      "preco": 40.99,
+      "nome": "Targifor C 1g + 1g 16 Comprimidos Efervescentes",
+      "url": "https://www.paguemenos.com.br/targifor-c-aspartato-de-arginina-1g-mais-vitamina-c-1g-16-comprimidos--efervescentes/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 48.99,
-      "nome": "Targifor C Vitamina C e Arginina 16 Comprimidos Efervescentes",
-      "url": "https://www.extrafarma.com.br/vitamina-c---arginina-efervescente-targifor-c-16-comprimidos/p",
+      "preco": 40.99,
+      "nome": "Targifor C 1g + 1g 16 Comprimidos Efervescentes",
+      "url": "https://www.extrafarma.com.br/targifor-c-aspartato-de-arginina-1g-mais-vitamina-c-1g-16-comprimidos--efervescentes/p",
       "disponivel": true
     }
   },
   "med-00055": {
     "paguemenos": {
-      "preco": 72.09,
-      "nome": "Reforgan 500mg 30 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/reforgan-500mg-com-30-comprimidos/p",
+      "preco": 68.59,
+      "nome": "Reforgan Imuno 500mg + 10mg + 2000UI 30 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/reforgan-imuno-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 72.09,
-      "nome": "Reforgan 500mg 30 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/reforgan-500mg-com-30-comprimidos/p",
+      "preco": 68.59,
+      "nome": "Reforgan Imuno 500mg + 10mg + 2000UI 30 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/reforgan-imuno-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -1978,7 +2002,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 77.39,
+      "preco": 88.49,
       "nome": "Reforgan 500mg 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/reforgan-500mg-30-comprimidos/p",
       "disponivel": true
@@ -1992,16 +2016,16 @@ const PRECOS_REDES = {
   },
   "med-00057": {
     "paguemenos": {
-      "preco": 2.59,
+      "preco": 2.49,
       "nome": "Atenolol 25mg 30 Comprimidos Revestidos Genérico Biolab",
       "url": "https://www.paguemenos.com.br/atenolol-25mg-30-comprimidos-revestidos-generico-biolab/p",
-      "disponivel": false
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 2.59,
+      "preco": 2.49,
       "nome": "Atenolol 25mg 30 Comprimidos Revestidos Genérico Biolab",
       "url": "https://www.extrafarma.com.br/atenolol-25mg-30-comprimidos-revestidos-generico-biolab/p",
-      "disponivel": false
+      "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 2.59,
@@ -2010,13 +2034,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.59,
+      "preco": 6.15,
       "nome": "Atenolol 25mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/atenolol-25mg-generico-medley-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 2.85,
+      "preco": 4.49,
       "nome": "Atenolol 25mg Neo Química 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/atenolol-25mg-30com--g--neo-quimica/p",
       "disponivel": true
@@ -2030,15 +2054,15 @@ const PRECOS_REDES = {
   },
   "med-00058": {
     "paguemenos": {
-      "preco": 13.79,
-      "nome": "Atorvastatina Cálcica 20mg 30 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.paguemenos.com.br/atorvastatina-calcica-20mg-generico-cimed-com-30-comprimidos-revestidos/p",
+      "preco": 15.99,
+      "nome": "Atorvastatina Cálcica 20mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.paguemenos.com.br/atorvastatina-20mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.79,
-      "nome": "Atorvastatina Cálcica 20mg 30 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.extrafarma.com.br/atorvastatina-calcica-20mg-generico-cimed-com-30-comprimidos-revestidos/p",
+      "preco": 15.99,
+      "nome": "Atorvastatina Cálcica 20mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.extrafarma.com.br/atorvastatina-20mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -2048,15 +2072,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 31.36,
+      "preco": 34.5,
       "nome": "Atorvastatina Cálcica 40mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/atorvastatina-calcica-10mg-generico-cimed-30-comprimidoss/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 19.29,
-      "nome": "Atorvastatina Cálcica 10mg Ems 30 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/atorvastatina-10mg-com-30-comprimidos-ems---inativo/p",
+      "preco": 15.99,
+      "nome": "Atorvastatina Cálcica 20mg Ems 30 Comprimidos Revestido",
+      "url": "https://www.drogariavenancio.com.br/atorvastatina-20mg-30cpr-g-ems---inativo/p",
       "disponivel": true
     },
     "panvel": {
@@ -2080,13 +2104,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 97.45,
-      "nome": "Mefex Axetilcefuroxima 250mg 10 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/mefex-250mg-ache-10-comprimidos/p",
+      "preco": 78.59,
+      "nome": "Axetilcefuroxima 250mg Genérico Ranbaxy 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/axetil-cefuroxima-250mg-generico-ranbaxy-farm-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 90.05,
+      "preco": 93.41,
       "nome": "Mefex Axetilcefuroxima 250mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/mefex-250mg-ache-10-comprimidos/p",
       "disponivel": true
@@ -2118,19 +2142,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 149.47,
+      "preco": 146.99,
       "nome": "Imussuprex Azatioprina 50mg 50 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/imussuprex-50mg-50cp-revestidos-natures-plus/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 140.59,
+      "preco": 135.03,
       "nome": "Imussuprex Azatioprina 50mg 50 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/imussuprex-50mg-50cp-revestidos-natures-plus/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 140.59,
+      "preco": 137.79,
       "nome": "Imussuprex 50mg 50 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/imussuprex-50mg-50-comprimidos-revestidos/p",
       "disponivel": true
@@ -2144,25 +2168,25 @@ const PRECOS_REDES = {
   },
   "med-00063": {
     "paguemenos": {
-      "preco": 14.69,
-      "nome": "Azitromicina Di-hidratada 500mg 3 Comprimidos Revestidos Genérico Geolab",
-      "url": "https://www.paguemenos.com.br/azitromicina-di-hidratada-500mg-com-3-comprimidos-generico-geolabmais/p",
+      "preco": 11.59,
+      "nome": "Azitromicina 1g 1 Comprimido Revestido Genérico Germed",
+      "url": "https://www.paguemenos.com.br/azitromicina-1g-com-1-comprimido-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.69,
-      "nome": "Azitromicina Di-hidratada 500mg 3 Comprimidos Revestidos Genérico Geolab",
-      "url": "https://www.extrafarma.com.br/azitromicina-di-hidratada-500mg-com-3-comprimidos-generico-geolabmais/p",
+      "preco": 11.59,
+      "nome": "Azitromicina 1g 1 Comprimido Revestido Genérico Germed",
+      "url": "https://www.extrafarma.com.br/azitromicina-1g-com-1-comprimido-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.03,
+      "preco": 17.68,
       "nome": "Astro Azitromicina 500mg  2 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/astro-500mg-eurofarma-2-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.49,
+      "preco": 16.06,
       "nome": "Astro Azitromicina 500mg  2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/astro-500mg-eurofarma-2-comprimidos/p",
       "disponivel": true
@@ -2176,31 +2200,31 @@ const PRECOS_REDES = {
   },
   "med-00062": {
     "paguemenos": {
-      "preco": 23.29,
+      "preco": 13.69,
       "nome": "Azitromicina Di-hidratada 500mg 5 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/azitromicina-500mg-com-5-comprimidos-generico-prati-donaduzzimais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 23.29,
+      "preco": 13.69,
       "nome": "Azitromicina Di-hidratada 500mg 5 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/azitromicina-500mg-com-5-comprimidos-generico-prati-donaduzzimais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 14.99,
-      "nome": "Azitromicina Di-Hidratada 500mg Genérico Geolab 3 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/azitromicina-di-hidratada-500mg-generico-geolab-3-comprimidos-/p",
+      "preco": 13.69,
+      "nome": "Azitromicina Di-Hidratada 500mg Genérico EMS 5 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/azitromicina-di-hidratada-500mg-generico-ems-5-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.99,
-      "nome": "Azitromicina Di-Hidratada 500mg Genérico Medquimica 3 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/azitromicina-di-hidratada-500mg-generico-medquimica-3-comprimidos/p",
+      "preco": 6.99,
+      "nome": "Azitromicina Di-Hidratada 500mg Genérico Cimed 3 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/azitromicina-di-hidratada-500mg-generico-cimed-caixa-3-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 16.99,
+      "preco": 12.99,
       "nome": "Azitromicina 500mg Prati Donaduzzi 3 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/azitromicina-500mg-prati-donaduzzi-3-comprimidos-/p",
       "disponivel": true
@@ -2214,34 +2238,34 @@ const PRECOS_REDES = {
   },
   "med-00064": {
     "paguemenos": {
-      "preco": 19.79,
+      "preco": 19.29,
       "nome": "Baclofeno 10mg Com 20 Comprimidos Genérico União Química",
       "url": "https://www.paguemenos.com.br/baclofeno-10mg-com-20-comprimidos-generico-uniao-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.79,
+      "preco": 19.29,
       "nome": "Baclofeno 10mg Com 20 Comprimidos Genérico União Química",
       "url": "https://www.extrafarma.com.br/baclofeno-10mg-com-20-comprimidos-generico-uniao-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 19.99,
+      "preco": 21.99,
       "nome": "Baclofeno 10mg Genérico Teuto 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/baclofeno-10mg-generico-teuto-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 19.99,
-      "nome": "Baclofeno 10mg Genérico Teuto 20 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/baclofeno-10mg-generico-teuto-20-comprimidos/p",
+      "preco": 20.28,
+      "nome": "Baclofen Baclofeno 10mg 20 comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/baclofen-10mg-teuto-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.06,
-      "nome": "Baclofeno 10mg União Química 20 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/baclofeno-10mg-20cpr-g-uniao-quimica/p",
-      "disponivel": true
+      "preco": 8.09,
+      "nome": "Baclofeno 10mg 20 Comprimidos Genérico Teuto",
+      "url": "https://www.drogariavenancio.com.br/baclofeno-10mg-20-comprimidos-generico/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 11.99,
@@ -2302,19 +2326,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 21.64,
+      "preco": 21.48,
       "nome": "Benzetacil Benzilpenicilina Benzatina 1200UI 4ml 1 Frasco",
       "url": "https://www.drogariasaopaulo.com.br/benzetacil-1200ui-schering-plough-4ml-1-frasco/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.19,
+      "preco": 19.59,
       "nome": "Benzetacil Benzilpenicilina Benzatina 1200UI 4ml 1 Frasco",
       "url": "https://www.drogariaspacheco.com.br/benzetacil-1200ui-schering-plough-4ml-1-frasco/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.19,
+      "preco": 19.99,
       "nome": "Benzetacil 1.200.000UI 1 Frasco Ampola 4ml",
       "url": "https://www.drogariavenancio.com.br/benzetacil-supera-farma-1200ui-1-frasco-ampola-4ml/p",
       "disponivel": true
@@ -2352,10 +2376,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 154.85,
-      "nome": "Nesina 12,5mg 30 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/nesina-125mg-30cpr/p",
-      "disponivel": true
+      "preco": 109.99,
+      "nome": "Libette 25mg 30 Comprimidos Revestidos Eurofarma",
+      "url": "https://www.drogariavenancio.com.br/libette-25mg-30-comprimidos-revestidos-eurofarma/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 165.68,
@@ -2398,7 +2422,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.59,
+      "preco": 23.75,
       "nome": "Benzoato de Rizatriptana 10mg Genérico Zydus 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/benzoato-de-rizatriptana-10mg-generico-zydus-2-comprimidos/p",
       "disponivel": true
@@ -2430,15 +2454,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 6.89,
-      "nome": "Expectorante Carbocisteína 20mg/ml Genérico Cimed 100ml",
-      "url": "https://www.drogariasaopaulo.com.br/carbocisteina-pediatrico-20mgml-100ml-g-cimed/p",
-      "disponivel": false
+      "preco": 6.59,
+      "nome": "Expectorante Cloridrato de Ambroxol 6mg/ml Genérico Cimed 120ml",
+      "url": "https://www.drogariasaopaulo.com.br/ambroxol-6mgml-adulto-120ml-xarope-g-cimed/p",
+      "disponivel": true
     },
     "pacheco": {
-      "preco": 7.32,
-      "nome": "Expectorante Cloridrato de Bromexina Pediátrico 4mg/5ml Genérico EMS 120ml",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-bromexina-infantil-xarope-4mg-generico-ems-120ml/p",
+      "preco": 6.59,
+      "nome": "Expectorante Cloridrato de Ambroxol 6mg/ml Genérico Cimed 120ml",
+      "url": "https://www.drogariaspacheco.com.br/ambroxol-6mgml-adulto-120ml-xarope-g-cimed/p",
       "disponivel": true
     },
     "venancio": {
@@ -2456,13 +2480,13 @@ const PRECOS_REDES = {
   },
   "med-00072": {
     "paguemenos": {
-      "preco": 9.49,
+      "preco": 14.99,
       "nome": "Neopiridin 10mg + 1,466mg Sabor Menta 12 Pastilhas Duras",
       "url": "https://www.paguemenos.com.br/neopiridin-com-12-pastilhas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 9.49,
+      "preco": 14.99,
       "nome": "Neopiridin 10mg + 1,466mg Sabor Menta 12 Pastilhas Duras",
       "url": "https://www.extrafarma.com.br/neopiridin-com-12-pastilhas/p",
       "disponivel": true
@@ -2520,33 +2544,33 @@ const PRECOS_REDES = {
   },
   "med-00074": {
     "paguemenos": {
-      "preco": 2.69,
-      "nome": "Besilato de Anlodipino 5mg 30 Comprimidos Genérico Medley",
-      "url": "https://www.paguemenos.com.br/besilato-de-anlodipino-5mg-com-30-comprimidos-generico-medley/p",
+      "preco": 2.79,
+      "nome": "Besilato de Anlodipino 5mg 30 Comprimidos Genérico EMS",
+      "url": "https://www.paguemenos.com.br/besilato-de-anlodipino-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 2.69,
-      "nome": "Besilato de Anlodipino 5mg 30 Comprimidos Genérico Medley",
-      "url": "https://www.extrafarma.com.br/besilato-de-anlodipino-5mg-com-30-comprimidos-generico-medley/p",
+      "preco": 2.79,
+      "nome": "Besilato de Anlodipino 5mg 30 Comprimidos Genérico EMS",
+      "url": "https://www.extrafarma.com.br/besilato-de-anlodipino-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 3.55,
+      "preco": 3.95,
       "nome": "Besilato de Anlodipino 5mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/besilato-de-anlodipino-5mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 10.99,
+      "preco": 9.79,
       "nome": "Pressat Besilato De Anlodipino 5mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/pressat-5mg-biolab--30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.19,
-      "nome": "Besilato De Anlodipino 5mg Teuto 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/besilato-de-anlodipino-5mg-teuto-30-comprimidos/p",
+      "preco": 4.99,
+      "nome": "Besilato De Anlodipino 5mg Geolab 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/besilato-de-anlodipino-5mg-geolab-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -2570,15 +2594,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 56.59,
-      "nome": "Olzicar Anlo Olmesartana Medoxomila 20mg + Besilato de Anlodipino 5mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/olzicar-anlo-20mg-5mg-mantecorp-farmasa-30-comprimidos-/p",
+      "preco": 54.67,
+      "nome": "Olmy Anlo Olmesartana Medoxomila 5mg + Besilato de Anlodipino 40mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/olmy-anlo-40mg-5mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 57.5,
-      "nome": "Olzicar Anlo Olmesartana Medoxomila 20mg + Besilato de Anlodipino 5mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/olzicar-anlo-20mg-5mg-mantecorp-farmasa-30-comprimidos-/p",
+      "preco": 43.6,
+      "nome": "Olmy Anlo Olmesartana Medoxomila 40mg + Besilato de Anlodipino 5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/olmy-anlo-40mg-5mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -2596,27 +2620,27 @@ const PRECOS_REDES = {
   },
   "med-00454": {
     "paguemenos": {
-      "preco": 30.59,
+      "preco": 33.59,
       "nome": "Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/olmesartana-mais-hidroclorotiazida-20mg-mais-12-5mg-com-30-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 30.59,
+      "preco": 33.59,
       "nome": "Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/olmesartana-mais-hidroclorotiazida-20mg-mais-12-5mg-com-30-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 82.03,
+      "preco": 81.2,
       "nome": "Holmes H Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/holmes-h-20mg-12-5mg-eurofarma-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 62.41,
-      "nome": "Benicar HCT Olmesartana Medoxomila 40mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/benicar-hct-40125mg-daiichi-sankyo-30-comprimidos/p",
+      "preco": 75.16,
+      "nome": "Asea HCT Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/asea-hct-20mg-12-5mg-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -2634,21 +2658,21 @@ const PRECOS_REDES = {
   },
   "med-00511": {
     "paguemenos": {
-      "preco": 4.19,
+      "preco": 3.89,
       "nome": "Losartana Potássica 50mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/losartana-potassica-50mg-com-30-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.19,
+      "preco": 3.89,
       "nome": "Losartana Potássica 50mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/losartana-potassica-50mg-com-30-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 11.99,
-      "nome": "Aradois Losartana Potássica 50mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/aradois-50mg-biolab-30-comprimidos/p",
+      "preco": 6.59,
+      "nome": "Losartana Potássica 50mg Genérico EMS 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/losartana-potassica-50mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -2658,7 +2682,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 2.92,
+      "preco": 4.29,
       "nome": "Losartana Potássica 50mg Prati Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/losartana-potas-50mg-30cpr-g-prati-donaduzzi/p",
       "disponivel": true
@@ -2672,33 +2696,33 @@ const PRECOS_REDES = {
   },
   "med-00593": {
     "paguemenos": {
-      "preco": 33.99,
+      "preco": 16.69,
       "nome": "Olmesartana Medoxomila 20mg 30 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.paguemenos.com.br/olmesartana-medoxomila-20mg-com-30-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.99,
+      "preco": 16.69,
       "nome": "Olmesartana Medoxomila 20mg 30 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.extrafarma.com.br/olmesartana-medoxomila-20mg-com-30-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 36.17,
+      "preco": 39.8,
       "nome": "Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg Genérico Eurofarma 30 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/olmesartana-medoxomila-20mg-hidroclorotiazida-12-5mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
       "preco": 36.17,
-      "nome": "Olmesartana Medoxomila 20mg + Hidroclorotiazida 12,5mg Genérico Eurofarma 30 comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/olmesartana-medoxomila-20mg-hidroclorotiazida-12-5mg-generico-eurofarma-30-comprimidos/p",
+      "nome": "Olmecor Olmesartana Medoxomila 20mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/olmecor-20mg-torrent-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 29.24,
-      "nome": "Olmesartana Medoxomila 40mg Ems 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/olmesartana-medoxomila-40mg-30com--g--ems/p",
+      "preco": 28.99,
+      "nome": "Olmesartana Medoxomila 20mg Torrent 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/olmesartana-medoxomila-20mg-30com--g--torrent/p",
       "disponivel": true
     },
     "panvel": {
@@ -2710,25 +2734,25 @@ const PRECOS_REDES = {
   },
   "med-00079": {
     "paguemenos": {
-      "preco": 50.99,
+      "preco": 47.79,
       "nome": "Valsartana 160mg + Besilato de Anlodipino 5mg 28 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/valsartana-mais-besilato-de-anlodipino-160mgmais5mg-com-28-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.99,
+      "preco": 47.79,
       "nome": "Valsartana 160mg + Besilato de Anlodipino 5mg 28 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/valsartana-mais-besilato-de-anlodipino-160mgmais5mg-com-28-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 71.69,
+      "preco": 70.96,
       "nome": "Bravan Duo Valsartana 160mg + Besilato de Anlodipino 5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/bravan-duo-160mg---5mg-ache-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 57.79,
+      "preco": 55.56,
       "nome": "Bravan Duo Valsartana 160mg + Besilato de Anlodipino 5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/bravan-duo-160mg---5mg-ache-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -2748,27 +2772,27 @@ const PRECOS_REDES = {
   },
   "med-00080": {
     "paguemenos": {
-      "preco": 41.29,
+      "preco": 43.29,
       "nome": "Besilato de Levanlodipino 2,5mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.paguemenos.com.br/besilato-de-levanlodipino-2-5mg-30-comprimidos-biolab-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 41.29,
+      "preco": 43.29,
       "nome": "Besilato de Levanlodipino 2,5mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.extrafarma.com.br/besilato-de-levanlodipino-2-5mg-30-comprimidos-biolab-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 75.99,
+      "preco": 79.75,
       "nome": "Novanlo Besilato De Levanlodipino 2,5mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/novanlo-2-5mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 51.93,
-      "nome": "Lefor Besilato De Levanlodipino 2,5mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/lefor-2-5mg-ems-30-comprimidos/p",
+      "preco": 37.1,
+      "nome": "Atelop Besilato De Levanlodipino 2,5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/atelop-2-5mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -2798,15 +2822,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 53.8,
-      "nome": "Besilato De Levanlodipino 2,5mg Genérico Neo Quimica 60 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/besilato-de-levanlodipino-2-5mg-generico-neo-quimica-60-comprimidos/p",
+      "preco": 43.55,
+      "nome": "Besilato De Levanlodipino 2,5mg Genérico Neo Quimica 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/besilato-de-levanlodipino-2-5mg-generico-neo-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 70.27,
-      "nome": "Levamz Besilato De Levanlodipino 5mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/levamz-5mg-torrent-30-comprimidos/p",
+      "preco": 33.6,
+      "nome": "Levamz Besilato De Levanlodipino 2,5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/levamz-2-5mg-torrent-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -2836,13 +2860,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 45.48,
+      "preco": 45.02,
       "nome": "Dermosalic Dipropionato de Betametasona 0,64mg/g + Ácido Salicílico 30mg/g 30g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/pomada-dermosalic-icn-farm-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 28.89,
+      "preco": 27.82,
       "nome": "Dermosalic Dipropionato de Betametasona 0,64mg/g + Ácido Salicílico 30mg/g 30g Pomada",
       "url": "https://www.drogariaspacheco.com.br/pomada-dermosalic-icn-farm-30g/p",
       "disponivel": true
@@ -2850,33 +2874,33 @@ const PRECOS_REDES = {
   },
   "med-00734": {
     "paguemenos": {
-      "preco": 18.59,
+      "preco": 20.29,
       "nome": "Valerato de Betametasona 1mg/g Pomada Dermatológica 30g Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/valerato-de-betametasona-1mg-pomada-com-30g-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.59,
+      "preco": 20.29,
       "nome": "Valerato de Betametasona 1mg/g Pomada Dermatológica 30g Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/valerato-de-betametasona-1mg-pomada-com-30g-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.99,
-      "nome": "Valerato de Betametasona 1mg/g Genérico Germed Pharma 1 Bisnaga com 30g",
-      "url": "https://www.drogariasaopaulo.com.br/valerato-de-betametasona-1mg-g-generico-germed-pharma-1-bisnaga-com-30g/p",
+      "preco": 12.94,
+      "nome": "Valerato Betametasona + Sulfato Gentamicina + Tolnaftato + Clioquinol 0,5mg/g + 1mg/g + 10mg/g + 10mg/g Genérico Cellera com 20g",
+      "url": "https://www.drogariasaopaulo.com.br/valerato-betametasona--sulfato-gentamicina--tolnaftato--clioquinol-05mgg--1mgg--10mgg--10mgg-generico-cellera-com-20g-pomada/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.91,
-      "nome": "Valerato Betametasona 0,6mg/g + Gentamicina 1,696mg/g + Clioquinol 10mg/g + Tonalftato 10mg/g Genérico EMS 20g Pomada",
-      "url": "https://www.drogariaspacheco.com.br/valerato-betametasona-gentamicina-clioquinol-tonalftato-generico-ems-pomada-20g/p",
+      "preco": 1.99,
+      "nome": "Valerato Betametasona + Sulfato Gentamicina + Tolnaftato + Clioquinol 0,5mg/g + 1mg/g + 10mg/g + 10mg/g Genérico Cellera com 20g",
+      "url": "https://www.drogariaspacheco.com.br/valerato-betametasona--sulfato-gentamicina--tolnaftato--clioquinol-05mgg--1mgg--10mgg--10mgg-generico-cellera-com-20g-creme/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 16.24,
-      "nome": "Valerato De Betametasona 1mg/g Pharlab Pomada 30g",
-      "url": "https://www.drogariavenancio.com.br/valerato-de-betametasona-pharlab-pomada-30g/p",
+      "preco": 18.89,
+      "nome": "Valerato De Betametasona 1mg/g Medley 30g Pomada Dermatológica",
+      "url": "https://www.drogariavenancio.com.br/valerato-de-betametasona-1mg-g-medley-30g-pomada-dermatologica/p",
       "disponivel": true
     },
     "panvel": {
@@ -2900,21 +2924,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.56,
+      "preco": 12.44,
       "nome": "Celerg Betametasona 0,25mg + Maleato de Dexclorfeniramina 2mg 20 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/celerg-legrand-pharma-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.69,
+      "preco": 12.44,
       "nome": "Celerg Betametasona 0,25mg + Maleato de Dexclorfeniramina 2mg 20 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/celerg-legrand-pharma-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.44,
-      "nome": "Maleato de Dexclorfeniramina + Betametasona 0,4mg/ml + 0,05mg/ml Teuto Xarope 120ml + Copo Medidor",
-      "url": "https://www.drogariavenancio.com.br/maleato-de-dexclorfeniramina---betametasona-04mg-ml---005mg-ml-teuto-xarope-120ml---copo-medidor/p",
+      "preco": 7.99,
+      "nome": "Maleato de Dexclorfeniramina + Betametasona 0,4mg/ml + 0,05mg/ml Xarope com 120ml Globo Pharma",
+      "url": "https://www.drogariavenancio.com.br/maleato-de-dexclorfeniramina-betametasona-0-4mg-ml-0-05mg-ml-xarope-com-120ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -2926,25 +2950,25 @@ const PRECOS_REDES = {
   },
   "med-00519": {
     "paguemenos": {
-      "preco": 6.29,
-      "nome": "Maleato de Dexclorfeniramina 10mg/g Creme Dermatológico 30g Genérico EMS",
-      "url": "https://www.paguemenos.com.br/maleato-de-dexclorfeniramina-creme-30g-generico-ems/p",
+      "preco": 7.29,
+      "nome": "Maleato de Dexclorfeniramina 2mg/5ml Solução Oral 120ml Genérico Neo Química",
+      "url": "https://www.paguemenos.com.br/maleato-de-dexclorfeniramina-2mg-5ml-solucao-oral-120ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 6.29,
-      "nome": "Maleato de Dexclorfeniramina 10mg/g Creme Dermatológico 30g Genérico EMS",
-      "url": "https://www.extrafarma.com.br/maleato-de-dexclorfeniramina-creme-30g-generico-ems/p",
+      "preco": 7.29,
+      "nome": "Maleato de Dexclorfeniramina 2mg/5ml Solução Oral 120ml Genérico Neo Química",
+      "url": "https://www.extrafarma.com.br/maleato-de-dexclorfeniramina-2mg-5ml-solucao-oral-120ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.71,
+      "preco": 11.57,
       "nome": "Maleato De Dexclorfeniramina 0,4mg/ml Genérico Prati-Donaduzzi 100ml Solução Oral",
       "url": "https://www.drogariasaopaulo.com.br/maleato-de-dexclorfeniramina-0-4mg-ml-generico-prati-donaduzzi-100ml-solucao-oral-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.79,
+      "preco": 11.69,
       "nome": "Maleato De Dexclorfeniramina 0,4mg/ml Genérico Prati-Donaduzzi 100ml Solução Oral",
       "url": "https://www.drogariaspacheco.com.br/maleato-de-dexclorfeniramina-0-4mg-ml-generico-prati-donaduzzi-100ml-solucao-oral-/p",
       "disponivel": true
@@ -2958,16 +2982,16 @@ const PRECOS_REDES = {
   },
   "med-00085": {
     "paguemenos": {
-      "preco": 33.79,
-      "nome": "Bezafibrato 200mg 20 Comprimidos Revestidos Genérico EMS",
-      "url": "https://www.paguemenos.com.br/bezafibrato-200mg-com-20-comprimidos-revestidos-generico-ems/p",
-      "disponivel": true
+      "preco": 34.55,
+      "nome": "Gn Bezafibrato 200mg 20cp Legran",
+      "url": "https://www.paguemenos.com.br/gn-bezafibrato-200mg-20cp-legran/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 33.79,
-      "nome": "Bezafibrato 200mg 20 Comprimidos Revestidos Genérico EMS",
-      "url": "https://www.extrafarma.com.br/bezafibrato-200mg-com-20-comprimidos-revestidos-generico-ems/p",
-      "disponivel": true
+      "preco": 34.55,
+      "nome": "Gn Bezafibrato 200mg 20cp Legran",
+      "url": "https://www.extrafarma.com.br/gn-bezafibrato-200mg-20cp-legran/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
       "preco": 22.09,
@@ -3020,7 +3044,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 171.91,
+      "preco": 700,
       "nome": "Bicalutamida 50mg Genérico Eurofarma 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/bicalutamida-50mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": false
@@ -3034,31 +3058,31 @@ const PRECOS_REDES = {
   },
   "med-00087": {
     "paguemenos": {
-      "preco": 31.59,
+      "preco": 26.99,
       "nome": "Bilastina 20mg 15 Comprimidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/bilastina-20mg-com-15-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 31.59,
+      "preco": 26.99,
       "nome": "Bilastina 20mg 15 Comprimidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/bilastina-20mg-com-15-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 32.99,
-      "nome": "Bilastina 20mg Genérico Eurofarma 15 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/bilastina-20mg-generico-eurofarma-15-comprimidos/p",
+      "preco": 32.21,
+      "nome": "Bixlyn Bilastina 20mg 15 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/bixlyn-bilastina-20mg-15-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 32.59,
+      "preco": 31.35,
       "nome": "Hisbila Bilastina 20mg 15 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/hisbila-20mg-eurofarma-15-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 29.06,
+      "preco": 38.99,
       "nome": "Bilastina 20mg Ems GenéricoS 15 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/bilastina-20mg-15com--g--ems/p",
       "disponivel": true
@@ -3072,25 +3096,25 @@ const PRECOS_REDES = {
   },
   "med-00088": {
     "paguemenos": {
-      "preco": 61.49,
-      "nome": "Bimatoprosta 0,3mg/ml Solução Oftálmica 5ml Genérico EMS",
-      "url": "https://www.paguemenos.com.br/bimatoprosta-colirio-5ml-generico-ems/p",
+      "preco": 33.29,
+      "nome": "Bimatoprosta 0,3mg/ml Solução Oftálmica 3ml Genérico Medley",
+      "url": "https://www.paguemenos.com.br/bimatoprosta-0-3mg-solucao-oftalmica-3ml-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 61.49,
-      "nome": "Bimatoprosta 0,3mg/ml Solução Oftálmica 5ml Genérico EMS",
-      "url": "https://www.extrafarma.com.br/bimatoprosta-colirio-5ml-generico-ems/p",
+      "preco": 33.29,
+      "nome": "Bimatoprosta 0,3mg/ml Solução Oftálmica 3ml Genérico Medley",
+      "url": "https://www.extrafarma.com.br/bimatoprosta-0-3mg-solucao-oftalmica-3ml-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 65.59,
+      "preco": 72.15,
       "nome": "Bimatoprosta 0,3mg/Ml Genérico Germed 3ml",
       "url": "https://www.drogariasaopaulo.com.br/bimatoprosta-0-3-mg-ml-generico-germed-3-ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 54.59,
+      "preco": 60.05,
       "nome": "Bimatoprosta 0,3mg/Ml Genérico Germed 3ml",
       "url": "https://www.drogariaspacheco.com.br/bimatoprosta-0-3-mg-ml-generico-germed-3-ml/p",
       "disponivel": true
@@ -3122,21 +3146,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 21.7,
+      "preco": 27.39,
       "nome": "Minoxidil para Sobrancelhas 10ml",
       "url": "https://www.drogariasaopaulo.com.br/minoxidil-para-sobrancelhas-10ml-z17b6703s2716437/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 30.9,
-      "nome": "Minoxidil 120ml",
-      "url": "https://www.drogariaspacheco.com.br/frasco-minoxid-turbinado-ml--17e670328t3919i5/p",
+      "preco": 35.7,
+      "nome": "Minoxidil Turbo 60ml",
+      "url": "https://www.drogariaspacheco.com.br/minoxidil-turbo-60ml-176l60877j85o319/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 57.97,
-      "nome": "Minoxidil 50ml/mg Solução Capilar 50ml + Valvular Spray Neo Quimica",
-      "url": "https://www.drogariavenancio.com.br/minoxidil-50ml-mg-solucao-capilar-50ml---valvular-spray/p",
+      "preco": 50.99,
+      "nome": "Minoxidil 50mg/ml União Química Solução Spray Refil 50ml",
+      "url": "https://www.drogariavenancio.com.br/minoxidil-50mgml-uniao-quimica-solucao-spray-refil-50-ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -3175,14 +3199,14 @@ const PRECOS_REDES = {
   "med-00091": {
     "paguemenos": {
       "preco": 33.99,
-      "nome": "Bissulfato de Clopidogrel 75mg 14 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/bissulf-clopidogrel-75mg-com-14-comprimidos-generico-neo-quimica/p",
+      "nome": "Bissulfato de Clopidogrel 75mg 28 Comprimidos Revestidos Genérico Medley",
+      "url": "https://www.paguemenos.com.br/bissulfato-de-clopidogrel-75mg-com-28-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 33.99,
-      "nome": "Bissulfato de Clopidogrel 75mg 14 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/bissulf-clopidogrel-75mg-com-14-comprimidos-generico-neo-quimica/p",
+      "nome": "Bissulfato de Clopidogrel 75mg 28 Comprimidos Revestidos Genérico Medley",
+      "url": "https://www.extrafarma.com.br/bissulfato-de-clopidogrel-75mg-com-28-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -3192,15 +3216,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.5,
-      "nome": "Bissulfato de Clopidogrel 75mg Genérico Sandoz 28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/bissulfato-de-clopidogrel-75mg-generico-sandoz-28-comprimidos/p",
+      "preco": 32.55,
+      "nome": "Bissulfato de Clopidogrel 75mg Genérico Biolab 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/bissulfato-de-clopidogrel-75mg-generico-biolab-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 28.99,
-      "nome": "Bissulfato De Clopidogrel 75mg Biolab 30 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/bissulfato-de-clopidogrel-75mg-biolab-30-comprimidos-revestidos/p",
+      "preco": 27.99,
+      "nome": "Bissulfato De Clopidogrel 75mg Sandoz 28 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/bissulfato-de-clopidogrel-75mg-sandoz-28-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -3212,33 +3236,33 @@ const PRECOS_REDES = {
   },
   "med-00094": {
     "paguemenos": {
-      "preco": 5.1,
+      "preco": 4.99,
       "nome": "Bromazepam 3mg 30 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/bromazepam-3mg-comprimidos30generico-medleydley-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.1,
+      "preco": 4.99,
       "nome": "Bromazepam 3mg 30 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/bromazepam-3mg-comprimidos30generico-medleydley-p/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 9.47,
-      "nome": "Bromazepam 3mg Genérico Medley 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/bromazepam-3mg-medley-30-comprimidos-/p",
+      "preco": 1.36,
+      "nome": "Bromazepam 3mg Genérico EMS 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/bromazepam-3mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 10.37,
-      "nome": "Bromazepam 3mg Genérico Medley 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/bromazepam-3mg-medley-30-comprimidos-/p",
+      "preco": 1.36,
+      "nome": "Bromazepam 3mg Genérico EMS 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/bromazepam-3mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.39,
-      "nome": "Bromazepam 6mg Biosintética 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/bromazepam-6mg-30-comprimidos-ache-generico/p",
+      "preco": 8.49,
+      "nome": "Bromazepam 3mg Teuto 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/bromazepam-3mg-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -3262,21 +3286,21 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 12.99,
-      "nome": "Brometo De Ipratrópio 0,250mg/ml Genérico Germed 20ml Solução Inalatória",
-      "url": "https://www.drogariasaopaulo.com.br/brometo-de-ipratropio-0-250mg-ml-generico-germed-20ml-solucao-inalatoria/p",
-      "disponivel": false
-    },
-    "pacheco": {
-      "preco": 5.59,
-      "nome": "Brometo De Ipratrópio 0,250mg/ml Genérico Germed 20ml Solução Inalatória",
-      "url": "https://www.drogariaspacheco.com.br/brometo-de-ipratropio-0-250mg-ml-generico-germed-20ml-solucao-inalatoria/p",
+      "preco": 13.99,
+      "nome": "Brometo de Ipratrópio 0,25mg/mL Genérico União Química 1 Frasco 20mL Solução Para Inalação",
+      "url": "https://www.drogariasaopaulo.com.br/brometo-de-ipratropio-0-25mg-ml-generico-uniao-quimica-1-frasco-20ml-solucao-para-inalacao/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 6.15,
+      "nome": "Brometo De Ipratrópio 0,250mg/ml Genérico Germed 20ml Solução Inalatória",
+      "url": "https://www.drogariaspacheco.com.br/brometo-de-ipratropio-0-250mg-ml-generico-germed-20ml-solucao-inalatoria/p",
+      "disponivel": false
+    },
     "venancio": {
-      "preco": 5.19,
-      "nome": "Brometo de Ipratropio 0,25mg/ml Solução para Inalação 20ml Germed Pharma",
-      "url": "https://www.drogariavenancio.com.br/brometo-ipratropio-025mg-ml-20ml--g--germed/p",
+      "preco": 5.99,
+      "nome": "Brometo De Ipratrópio 0,25mg/ml Teuto Solução para Inalação 20ml",
+      "url": "https://www.drogariavenancio.com.br/ipratropio-025-mg-sol-c-20-ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -3338,19 +3362,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 19.19,
+      "preco": 18.39,
       "nome": "Bromidrato de Citalopram 20mg Genérico EMS 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/bromidrato-citalopram-20mg-generico-sem-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.39,
-      "nome": "Bromidrato de Citalopram 20mg Genérico Teuto 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/citalopram-20mg-30-comprimidos-revestidos--c1-g-teuto/p",
+      "preco": 4.99,
+      "nome": "Bromidrato de Citalopram 20mg Genérico Prati-Donaduzzi 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/bromidrato-de-citalopram-20mg-generico-prati--donaduzzi-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 21.99,
+      "preco": 19.99,
       "nome": "Bromidrato de citalopram Zydus 20mg 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/bromidrato-de-citalopram-zydus-20mg-30-comprimidos/p",
       "disponivel": true
@@ -3364,13 +3388,13 @@ const PRECOS_REDES = {
   },
   "med-00151": {
     "paguemenos": {
-      "preco": 14.49,
+      "preco": 13.79,
       "nome": "Citalopram 20mg 30 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.paguemenos.com.br/citalopram-20mg-30-comprimidos-revestidos-ache-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.49,
+      "preco": 13.79,
       "nome": "Citalopram 20mg 30 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.extrafarma.com.br/citalopram-20mg-30-comprimidos-revestidos-ache-generico/p",
       "disponivel": true
@@ -3382,15 +3406,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 24.99,
+      "preco": 21.59,
       "nome": "Citalopram 20mg Genérico Eurofarma 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/citalopram-20mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 21.19,
-      "nome": "Citalopram 20mg Medley Genérico 30 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/citalopram-20mg-30-comprimidos-revestidos-medley-generico/p",
+      "preco": 11.85,
+      "nome": "Citalopram 20mg 30 Comprimidos Teuto",
+      "url": "https://www.drogariavenancio.com.br/citalopram-20mg-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -3426,7 +3450,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 160.99,
+      "preco": 153.19,
       "nome": "Fenazic 7,5mg Zodiac 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/fenazic-75mg-zodiac-30-comprimidos-/p",
       "disponivel": true
@@ -3440,33 +3464,33 @@ const PRECOS_REDES = {
   },
   "med-00100": {
     "paguemenos": {
-      "preco": 43.04,
-      "nome": "Bromidrato De Vortioxetina 5mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/bromidrato-de-vortioxetina-5mg-30-comprimidos-revestidos-generico-neo-quimica/p",
+      "preco": 49.99,
+      "nome": "Bromidrato de Vortioxetina 5mg 30 Comprimidos Revestidos Genérico Althaia",
+      "url": "https://www.paguemenos.com.br/vortioxetina-brom-5mg-x30-comprimido-revestido-c1-althaia/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 43.04,
-      "nome": "Bromidrato De Vortioxetina 5mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/bromidrato-de-vortioxetina-5mg-30-comprimidos-revestidos-generico-neo-quimica/p",
+      "preco": 49.99,
+      "nome": "Bromidrato de Vortioxetina 5mg 30 Comprimidos Revestidos Genérico Althaia",
+      "url": "https://www.extrafarma.com.br/vortioxetina-brom-5mg-x30-comprimido-revestido-c1-althaia/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 409.54,
+      "preco": 405.41,
       "nome": "Brintellix Bromidrato De Vortioxetina 10mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/brintellix-10mg-lundbeck-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 599.59,
-      "nome": "Brintellix Bromidrato De Vortioxetina 10mg 60 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/brintellix-10mg-lundbeck-60-comprimidos/p",
+      "preco": 353.48,
+      "nome": "Brintellix Bromidrato De Vortioxetina 10mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/brintellix-10mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 71.6,
-      "nome": "Bromidrato de Vortioxetina 5mg Althaia 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/bromid-vortioxetina-5mg-30com--c1--g--althaia/p",
+      "preco": 67.99,
+      "nome": "Bromidrato de Vortioxetina 5mg 30 Comprimidos Genérico Neo Química",
+      "url": "https://www.drogariavenancio.com.br/bromidrato-de-vortioxetina-5mg-neo-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -3496,9 +3520,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 128.19,
-      "nome": "Coglive Bromidrato de Galantamina 8mg 30 Cápsulas Liberação Controlada",
-      "url": "https://www.drogariaspacheco.com.br/coglive-8mg-libbs-30-comprimidos/p",
+      "preco": 13.52,
+      "nome": "Bromidrato de Galantamina 8mg Genérico Biolab 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/bromidrato-de-galantamina-8mg-generico-biolab-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -3528,9 +3552,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 17.99,
-      "nome": "Bromoprida 10mg Genérico EMS 20 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/bromoprida-10mg-ems-20-capsulas/p",
+      "preco": 18.25,
+      "nome": "Bromoprida 4mg/ml Genérico Germed 20ml Gotas",
+      "url": "https://www.drogariasaopaulo.com.br/bromoprida-4mg-ml-generico-germed-solucao-oral-gotas-20ml/p",
       "disponivel": true
     },
     "pacheco": {
@@ -3540,7 +3564,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.79,
+      "preco": 6.79,
       "nome": "Bromoprida 4mg/ml Teuto Solução Oral 20ml",
       "url": "https://www.drogariavenancio.com.br/bromoprida-4-mg-ml-sol-or-ct-fr-vd-amb-got-x-20ml/p",
       "disponivel": true
@@ -3554,13 +3578,13 @@ const PRECOS_REDES = {
   },
   "med-00102": {
     "paguemenos": {
-      "preco": 21.49,
+      "preco": 20.99,
       "nome": "Budesonida 32mcg Suspensão Spray 120 Doses Genérico EMS",
       "url": "https://www.paguemenos.com.br/budesonida-32mg-spray-com-120-doses-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.49,
+      "preco": 20.99,
       "nome": "Budesonida 32mcg Suspensão Spray 120 Doses Genérico EMS",
       "url": "https://www.extrafarma.com.br/budesonida-32mg-spray-com-120-doses-generico-ems/p",
       "disponivel": true
@@ -3572,7 +3596,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.99,
+      "preco": 24.19,
       "nome": "Budesonida 32mcg Genérico Ems 120 Doses Spray Nasal",
       "url": "https://www.drogariaspacheco.com.br/budesonida-32mcg-120-doses-spray-nasal-g-ems/p",
       "disponivel": true
@@ -3606,19 +3630,19 @@ const PRECOS_REDES = {
   },
   "med-00103": {
     "paguemenos": {
-      "preco": 112.99,
+      "preco": 111.99,
       "nome": "Alenia 6/100mcg 60 Cápsulas Inalatórias + Inalador",
       "url": "https://www.paguemenos.com.br/alenia-6-100mcg-60-capsulas-mais-inalador/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 112.99,
+      "preco": 111.99,
       "nome": "Alenia 6/100mcg 60 Cápsulas Inalatórias + Inalador",
       "url": "https://www.extrafarma.com.br/alenia-6-100mcg-60-capsulas-mais-inalador/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 113.84,
+      "preco": 112.69,
       "nome": "Alenia Fumarato de Formoterol Di-Hidratado 6mcg + Budesonida 100mcg 60 Cápsulas + Inalador",
       "url": "https://www.drogariasaopaulo.com.br/alenia-6100mcg-60-capsulas-inalador/p",
       "disponivel": true
@@ -3656,13 +3680,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 71.34,
+      "preco": 70.62,
       "nome": "Formocaps Fumarato De Formoterol 12mcg 30 Cápsulas Refil",
       "url": "https://www.drogariasaopaulo.com.br/formocaps-12mcg-biosinteti-30-capsulas-refil/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 68.99,
+      "preco": 63.24,
       "nome": "Formocaps Fumarato De Formoterol 12mcg 30 Cápsulas Refil",
       "url": "https://www.drogariaspacheco.com.br/formocaps-12mcg-biosinteti-30-capsulas-refil/p",
       "disponivel": true
@@ -3682,19 +3706,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 108.4,
+      "preco": 107.3,
       "nome": "Lusanda Buprenorfina 5mcg/H 2 Adesivos Transdérmicos",
       "url": "https://www.drogariasaopaulo.com.br/lusanda-buprenorfina-5mcg-h-2-adesivos-transdarmicos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 109.49,
+      "preco": 107.3,
       "nome": "Lusanda Buprenorfina 5mcg/H 2 Adesivos Transdérmicos",
       "url": "https://www.drogariaspacheco.com.br/lusanda-buprenorfina-5mcg-h-2-adesivos-transdarmicos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 110.92,
+      "preco": 111.07,
       "nome": "Lusanda 5MCG/H Adium 2 Adesivo Transdérmicos",
       "url": "https://www.drogariavenancio.com.br/lusanda-5mcg-h-2env/p",
       "disponivel": true
@@ -3720,53 +3744,53 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.99,
-      "nome": "Neocopan Composto Solução Oral 10ml",
-      "url": "https://www.drogariavenancio.com.br/neocopan-composto-solucao-oral-10ml/p",
+      "preco": 11.89,
+      "nome": "Mirador Cólica 10mg + 250mg Neo Química 20 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/mirador-colica-10mg---250mg-20com/p",
       "disponivel": true
     }
   },
   "med-00106": {
     "paguemenos": {
-      "preco": 26.99,
-      "nome": "Buscopan 10mg/ml Solução Gotas 20ml",
-      "url": "https://www.paguemenos.com.br/buscopan-gotas-20ml/p",
+      "preco": 24.99,
+      "nome": "Buscopan Pediátrico 10mg/ml Solução Gotas 20ml",
+      "url": "https://www.paguemenos.com.br/buscopan-pediatrico-10mg-ml-gotas-20ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 26.99,
-      "nome": "Buscopan 10mg/ml Solução Gotas 20ml",
-      "url": "https://www.extrafarma.com.br/buscopan-gotas-20ml/p",
+      "preco": 24.99,
+      "nome": "Buscopan Pediátrico 10mg/ml Solução Gotas 20ml",
+      "url": "https://www.extrafarma.com.br/buscopan-pediatrico-10mg-ml-gotas-20ml/p",
       "disponivel": true
     }
   },
   "med-00107": {
     "paguemenos": {
-      "preco": 50.49,
-      "nome": "Cabergolina 0,5mg Com 2 Comprimidos Genérico Eurofarma",
-      "url": "https://www.paguemenos.com.br/cabergolina-0-5mg-com-2-comprimidos-generico-eurofarma/p",
-      "disponivel": false
+      "preco": 48.99,
+      "nome": "Cabergolina 0,5mg 2 Comprimidos Genérico Prati-Donaduzzi",
+      "url": "https://www.paguemenos.com.br/cabergolina-0-5mg-com-2-comprimidos-generico-prati/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.49,
-      "nome": "Cabergolina 0,5mg Com 2 Comprimidos Genérico Eurofarma",
-      "url": "https://www.extrafarma.com.br/cabergolina-0-5mg-com-2-comprimidos-generico-eurofarma/p",
-      "disponivel": false
+      "preco": 48.99,
+      "nome": "Cabergolina 0,5mg 2 Comprimidos Genérico Prati-Donaduzzi",
+      "url": "https://www.extrafarma.com.br/cabergolina-0-5mg-com-2-comprimidos-generico-prati/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 74.59,
+      "preco": 82.05,
       "nome": "Cabergolina 0,5mg Genérico Prati-Donaduzzi 2 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cabergolina-0-5mg-generico-prati-donaduzzi-2-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 55.59,
+      "preco": 61.15,
       "nome": "Cabergolina 0,5mg Genérico Prati-Donaduzzi 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cabergolina-0-5mg-generico-prati-donaduzzi-2-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 55.62,
+      "preco": 39.99,
       "nome": "Cabergolina 0,5mg 2 comprimidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/cabergolina-05mg-prati-2-comprimidos/p",
       "disponivel": true
@@ -3780,31 +3804,31 @@ const PRECOS_REDES = {
   },
   "med-00333": {
     "paguemenos": {
-      "preco": 4.79,
+      "preco": 3.69,
       "nome": "Dipirona Monoidratada 500mg 10 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/dipirona-500mg-generico-medley-om-10-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.79,
+      "preco": 3.69,
       "nome": "Dipirona Monoidratada 500mg 10 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/dipirona-500mg-generico-medley-om-10-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.51,
+      "preco": 19.79,
       "nome": "Dipirona 500mg Genérico Prati Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dipirona-prati--donaduzzi-500mg-generico-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.59,
+      "preco": 10.29,
       "nome": "Dipirona 500mg Genérico Prati Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/dipirona-prati--donaduzzi-500mg-generico-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.19,
+      "preco": 2.99,
       "nome": "Dipirona 500mg Ems Genérico 10 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/dipirona-500mg-10-comprimidos-ems-generico/p",
       "disponivel": true
@@ -3812,27 +3836,27 @@ const PRECOS_REDES = {
   },
   "med-00332": {
     "paguemenos": {
-      "preco": 3.89,
+      "preco": 3.49,
       "nome": "Dipirona Monoidratada 500mg 10 Comprimidos Genérico Prati",
       "url": "https://www.paguemenos.com.br/dipirona-sodica-500mg-com-10-comprimidos-generico-prati/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 3.89,
+      "preco": 3.49,
       "nome": "Dipirona Monoidratada 500mg 10 Comprimidos Genérico Prati",
       "url": "https://www.extrafarma.com.br/dipirona-sodica-500mg-com-10-comprimidos-generico-prati/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.91,
-      "nome": "Dipirona Monoidratada 500mg/ml Genérico Neo Química Abacaxi 20ml Gotas",
-      "url": "https://www.drogariasaopaulo.com.br/dipirona-monoidratada-500mg-ml-generico-neo-quimica-abacaxi-20ml-gotas/p",
+      "preco": 7.99,
+      "nome": "Dipirona Monoidratada 1g Genérico Cimed 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/dipirona-monoidratada-1g-generico-cimed-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
       "preco": 7.99,
-      "nome": "Dipirona Monoidratada 500mg/ml Genérico Neo Química Abacaxi 20ml Gotas",
-      "url": "https://www.drogariaspacheco.com.br/dipirona-monoidratada-500mg-ml-generico-neo-quimica-abacaxi-20ml-gotas/p",
+      "nome": "Dipirona Monoidratada 1g Genérico Cimed 10 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/dipirona-monoidratada-1g-generico-cimed-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -3876,13 +3900,13 @@ const PRECOS_REDES = {
   },
   "med-00108": {
     "paguemenos": {
-      "preco": 9.69,
+      "preco": 11.29,
       "nome": "Dipirona 500mg + Cafeína 65mg 16 Comprimidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/dipirona-sodica-mais-cafeina-com-16-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 9.69,
+      "preco": 11.29,
       "nome": "Dipirona 500mg + Cafeína 65mg 16 Comprimidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/dipirona-sodica-mais-cafeina-com-16-comprimidos-generico-neo-quimica/p",
       "disponivel": true
@@ -3896,13 +3920,13 @@ const PRECOS_REDES = {
   },
   "med-00338": {
     "paguemenos": {
-      "preco": 1.39,
+      "preco": 1.59,
       "nome": "Dipirona Sódica 500mg + Cafeína 65mg 4 Comprimidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/dipirona-sodica-mais-cafeina-envelope-com-4-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 1.39,
+      "preco": 1.59,
       "nome": "Dipirona Sódica 500mg + Cafeína 65mg 4 Comprimidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/dipirona-sodica-mais-cafeina-envelope-com-4-comprimidos-generico-neo-quimica/p",
       "disponivel": true
@@ -3996,33 +4020,33 @@ const PRECOS_REDES = {
   },
   "med-00113": {
     "paguemenos": {
-      "preco": 65.04,
-      "nome": "Candesartana Cilexetila 32mg 30 Comprimidos Genérico Ache",
-      "url": "https://www.paguemenos.com.br/candesartana-cilexetila-32mg-30-comprimidos-generico-ache/p",
+      "preco": 58.49,
+      "nome": "Candesartana Cilexetila 16mg 30 Comprimidos Genérico Sandoz",
+      "url": "https://www.paguemenos.com.br/candesartana-cilexetila-16mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 65.04,
-      "nome": "Candesartana Cilexetila 32mg 30 Comprimidos Genérico Ache",
-      "url": "https://www.extrafarma.com.br/candesartana-cilexetila-32mg-30-comprimidos-generico-ache/p",
+      "preco": 58.49,
+      "nome": "Candesartana Cilexetila 16mg 30 Comprimidos Genérico Sandoz",
+      "url": "https://www.extrafarma.com.br/candesartana-cilexetila-16mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 65.59,
+      "preco": 72.15,
       "nome": "Candesartana Cilexetila 16mg Genérico Sandoz 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/candesartana-cilexetila-16mg-generico-sandoz-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 65.59,
-      "nome": "Candesartana Cilexetila 16mg Genérico Sandoz 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/candesartana-cilexetila-16mg-generico-sandoz-30-comprimidos/p",
+      "preco": 67.74,
+      "nome": "Venzer Candesartana Cilexetila 16mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/venzer-16mg-libbs-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 72.15,
-      "nome": "Venzer 32mg Libbs 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/venzer-32mg-libbs-30-comprimidos/p",
+      "preco": 65.99,
+      "nome": "Candesartana Cilexetila 16mg Biosintética 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/candesartana-cilex-16mg-30com--g--ache/p",
       "disponivel": true
     },
     "panvel": {
@@ -4034,27 +4058,33 @@ const PRECOS_REDES = {
   },
   "med-00452": {
     "paguemenos": {
-      "preco": 65.99,
+      "preco": 58.49,
       "nome": "Candesartana Cilexetila 16mg + Hidroclorotiazida 12,5mg 30 Comprimidos Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/candesartana-cilexetila-mais-hidroclotiazida-16mais12-5mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 65.99,
+      "preco": 58.49,
       "nome": "Candesartana Cilexetila 16mg + Hidroclorotiazida 12,5mg 30 Comprimidos Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/candesartana-cilexetila-mais-hidroclotiazida-16mais12-5mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
-    "pacheco": {
-      "preco": 79.49,
+    "drogariasaopaulo": {
+      "preco": 82.99,
       "nome": "Venzer HCT Candesartana Cilexetila 16mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/venzer-hct-16mg-12-5mg-libbs-30-comprimidos/p",
+      "url": "https://www.drogariasaopaulo.com.br/venzer-hct-16mg-12-5mg-libbs-30-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 70.53,
+      "nome": "Venzer HCT Candesartana Cilexetila 8mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/venzer-hct-8mg-12-5mg-libbs-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 77.24,
-      "nome": "Venzer Hct 16mg + 12,5mg Libbs 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/venzer-hct-16mg---125mg-libbs-30-comprimidos/p",
+      "preco": 71.97,
+      "nome": "Venzer Hct 8mg + 12,5mg Libbs 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/venzer-hct-8mg---125mg-libbs-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -4124,27 +4154,27 @@ const PRECOS_REDES = {
   },
   "med-00116": {
     "paguemenos": {
-      "preco": 2.99,
+      "preco": 2.69,
       "nome": "Captopril 25mg 30 Comprimidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/captopril-25mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 2.99,
+      "preco": 2.69,
       "nome": "Captopril 25mg 30 Comprimidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/captopril-25mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 2.64,
-      "nome": "Captocord Captopril 25mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/captocord-25mg-bonifik-30-comprimidos/p",
+      "preco": 3.29,
+      "nome": "Captopril 25,0mg Genérico EMS  30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/captopril-250mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 2.67,
-      "nome": "Captocord Captopril 25mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/captocord-25mg-bonifik-30-comprimidos/p",
+      "preco": 3.95,
+      "nome": "Captopril 25mg Genérico Cimed 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/captopril-25mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -4162,31 +4192,31 @@ const PRECOS_REDES = {
   },
   "med-00117": {
     "paguemenos": {
-      "preco": 8.59,
+      "preco": 8.89,
       "nome": "Carbamazepina 200mg 30 Comprimidos Genérico Teuto",
       "url": "https://www.paguemenos.com.br/carbamazepina-200mg-com-30-comprimidos-generico-teuto/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.59,
+      "preco": 8.89,
       "nome": "Carbamazepina 200mg 30 Comprimidos Genérico Teuto",
       "url": "https://www.extrafarma.com.br/carbamazepina-200mg-com-30-comprimidos-generico-teuto/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.51,
-      "nome": "Carbamazepina 200mg Genérico Teuto 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/carbamazepina-200mg-generico-teuto-30-comprimidos/p",
+      "preco": 9.05,
+      "nome": "Carbamazepina 200mg Genérico União Química 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/carbamazepina-200mg-generico-uniao-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.37,
-      "nome": "Carbamazepina 200mg Genérico Teuto 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/carbamazepina-200mg-generico-teuto-30-comprimidos/p",
+      "preco": 11.39,
+      "nome": "Carbamazepina 200mg Genérico EMS 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/carbamazepina-200mg-generico-roche-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.79,
+      "preco": 11.99,
       "nome": "Carbamazepina 200mg 30 Comprimidos Teuto",
       "url": "https://www.drogariavenancio.com.br/carbamazepina-200mg-30-comprimidos/p",
       "disponivel": true
@@ -4218,16 +4248,16 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.34,
+      "preco": 18.99,
       "nome": "Carbocisteína 20mg/ml Genérico Prati-Donaduzzi 100ml Xarope + Copo Medidor",
       "url": "https://www.drogariaspacheco.com.br/carbocisteina-20mg-ml-generico-prati-donaduzzi-100ml-xarope-copo-medidor/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.34,
-      "nome": "Carbocisteína 20mg Ems Sabor Framboesa Uso Oral Xarope 100ml",
-      "url": "https://www.drogariavenancio.com.br/carbocisteina-20mg-ems-sabor-framboesa-uso-oral-xarope-100ml/p",
-      "disponivel": true
+      "preco": 15.99,
+      "nome": "Carbocisteína 100mg/5ml Biosintetica Xarope Pediátrico 100ml",
+      "url": "https://www.drogariavenancio.com.br/carbocisteina-100mg-5ml-xpe-fr-amb-x-100ml/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 11.99,
@@ -4250,15 +4280,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 32.9,
-      "nome": "Vitamina D 400UI + Carbonato de Cálcio 600mg - 60 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/vitamina-d-400ui-carbonato-de-calcio-600mg-60-capsulas-177021f74e95v432/p",
+      "preco": 32.59,
+      "nome": "Vitamina D3 Colecalciferol 15.000Ui 4 Cápsulas",
+      "url": "https://www.drogariasaopaulo.com.br/vitamina-d3-colecalciferol-15-000ui-4-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 31.9,
-      "nome": "Vitamina D 400UI + Carbonato de Cálcio 600mg - 60 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/vitamina-d-400ui-carbonato-de-calcio-600mg-60-capsulas-1774633028ly14b6/p",
+      "preco": 21.99,
+      "nome": "Vitamina D3 Colecalciferol 7.000Ui 12 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/vitamina-d3-colecalciferol-7-000ui-12-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -4270,31 +4300,31 @@ const PRECOS_REDES = {
   },
   "med-00120": {
     "paguemenos": {
-      "preco": 61.49,
+      "preco": 56.99,
       "nome": "Helleva 80mg 2 Comprimidos",
       "url": "https://www.paguemenos.com.br/helleva-80mg-com-2-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 61.49,
+      "preco": 56.99,
       "nome": "Helleva 80mg 2 Comprimidos",
       "url": "https://www.extrafarma.com.br/helleva-80mg-com-2-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 66.27,
+      "preco": 65.6,
       "nome": "Helleva Carbonato De Lodenafila 80mg 2 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/helleva-80mg-schering-plough-2-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 60.99,
+      "preco": 58.59,
       "nome": "Helleva Carbonato De Lodenafila 80mg 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/helleva-80mg-schering-plough-2-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 60.99,
+      "preco": 59.79,
       "nome": "Helleva Supera 2 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/helleva-supera-2-comprimidos/p",
       "disponivel": true
@@ -4308,15 +4338,15 @@ const PRECOS_REDES = {
   },
   "med-00121": {
     "paguemenos": {
-      "preco": 25.79,
-      "nome": "Carbonato de Lítio 300mg 60 Comprimidos Genérico Biochimico",
-      "url": "https://www.paguemenos.com.br/carbonato-de-litio-300mg-60-comprimidos-biochimico-generico/p",
+      "preco": 26.29,
+      "nome": "Carbonato de Lítio 300mg 60 Comprimidos Genérico Biolab",
+      "url": "https://www.paguemenos.com.br/carbon-litio-300mg-com-60-comprimidos-generico-geolab-psicotropico-p-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.79,
-      "nome": "Carbonato de Lítio 300mg 60 Comprimidos Genérico Biochimico",
-      "url": "https://www.extrafarma.com.br/carbonato-de-litio-300mg-60-comprimidos-biochimico-generico/p",
+      "preco": 26.29,
+      "nome": "Carbonato de Lítio 300mg 60 Comprimidos Genérico Biolab",
+      "url": "https://www.extrafarma.com.br/carbon-litio-300mg-com-60-comprimidos-generico-geolab-psicotropico-p-c1/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -4326,9 +4356,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 34.59,
-      "nome": "Carbonato de Lítio 300mg Genérico Biolab 60 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/carbonato-de-litio-300mg-generico-biolab-60-comprimidos/p",
+      "preco": 29.9,
+      "nome": "Carbonato de Lítio 300mg Genérico Biolab 90 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/carbonato-de-litio-300mg-generico-biolab-90-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -4346,15 +4376,15 @@ const PRECOS_REDES = {
   },
   "med-00126": {
     "paguemenos": {
-      "preco": 19.49,
-      "nome": "Acu Fresh 5mg/ml Solução Oftálmica 10ml",
-      "url": "https://www.paguemenos.com.br/acu-fresh-solucao-oftalmica-5mg-ml-10ml/p",
+      "preco": 17.99,
+      "nome": "Ecofilm 5mg/ml Colírio 5ml",
+      "url": "https://www.paguemenos.com.br/ecofilm-colirio-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.49,
-      "nome": "Acu Fresh 5mg/ml Solução Oftálmica 10ml",
-      "url": "https://www.extrafarma.com.br/acu-fresh-solucao-oftalmica-5mg-ml-10ml/p",
+      "preco": 17.99,
+      "nome": "Ecofilm 5mg/ml Colírio 5ml",
+      "url": "https://www.extrafarma.com.br/ecofilm-colirio-5ml/p",
       "disponivel": true
     },
     "venancio": {
@@ -4372,19 +4402,19 @@ const PRECOS_REDES = {
   },
   "med-00122": {
     "paguemenos": {
-      "preco": 33.99,
+      "preco": 30.99,
       "nome": "Lacrifilm 5mg/ml Colírio 10ml",
       "url": "https://www.paguemenos.com.br/lacrifilm-colirio-10ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.99,
+      "preco": 30.99,
       "nome": "Lacrifilm 5mg/ml Colírio 10ml",
       "url": "https://www.extrafarma.com.br/lacrifilm-colirio-10ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 33.99,
+      "preco": 36.19,
       "nome": "Lacrifilm União Química Solução Oftálmica 10ml",
       "url": "https://www.drogariavenancio.com.br/lacrifilm-colirio-10ml/p",
       "disponivel": true
@@ -4410,19 +4440,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 25,
+      "preco": 24.74,
       "nome": "Trimusk Carisoprodol 125mg + Diclofenaco Sódico 50mg + Paracetamol 300mg + Cafeína 30mg 15 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/trimusk-125mg--50mg--300mg--30mg-eurofarma-15-comprimidos-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.99,
+      "preco": 21.16,
       "nome": "Trimusk Carisoprodol 125mg + Diclofenaco Sódico 50mg + Paracetamol 300mg + Cafeína 30mg 15 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/trimusk-125mg--50mg--300mg--30mg-eurofarma-15-comprimidos-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.99,
+      "preco": 20.59,
       "nome": "Tanderalgin Delta 15 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/tanderalgin-cellera-15-comprimidos/p",
       "disponivel": true
@@ -4430,27 +4460,33 @@ const PRECOS_REDES = {
   },
   "med-00125": {
     "paguemenos": {
-      "preco": 13.89,
+      "preco": 14.19,
       "nome": "Carisoprodol 125mg + Diclofenaco Sódico 50mg + Paracetamol 300mg + Cafeína 30mg 15 Comprimidos Genérico Cellera",
       "url": "https://www.paguemenos.com.br/carisoprodol-125mg-mais-diclofenaco-sodico-50mg-mais-paracetamol-300mg-mais-cafeina-30mg-com-15-comprimidos-generico-cellera/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.89,
+      "preco": 14.19,
       "nome": "Carisoprodol 125mg + Diclofenaco Sódico 50mg + Paracetamol 300mg + Cafeína 30mg 15 Comprimidos Genérico Cellera",
       "url": "https://www.extrafarma.com.br/carisoprodol-125mg-mais-diclofenaco-sodico-50mg-mais-paracetamol-300mg-mais-cafeina-30mg-com-15-comprimidos-generico-cellera/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 11.52,
+      "preco": 11.53,
       "nome": "Infralax Paracetamol 300mg + Cafeína 30mg + Carisoprodol 125mg + Diclofenaco Sódico 50mg 15 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/infralax-ems-15-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 11.52,
+      "preco": 11.53,
       "nome": "Infralax Paracetamol 300mg + Cafeína 30mg + Carisoprodol 125mg + Diclofenaco Sódico 50mg 15 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/infralax-ems-15-comprimidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 7.39,
+      "nome": "Infralax Ems 15 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/infralax-ems-15-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -4462,15 +4498,15 @@ const PRECOS_REDES = {
   },
   "med-00316": {
     "paguemenos": {
-      "preco": 5.59,
-      "nome": "Diclofenaco Sódico 50mg 20 Comprimidos Revestidos de Liberação Retardada Genérico Medley",
-      "url": "https://www.paguemenos.com.br/diclofenaco-sodico-50mg-com-20-comprimidos-generico-medley/p",
+      "preco": 3.99,
+      "nome": "Diclofenaco Sódico 50mg Com 20 Comprimidos Genérico Neo Quimica",
+      "url": "https://www.paguemenos.com.br/diclofenaco-sodico-50mg-com-20-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.59,
-      "nome": "Diclofenaco Sódico 50mg 20 Comprimidos Revestidos de Liberação Retardada Genérico Medley",
-      "url": "https://www.extrafarma.com.br/diclofenaco-sodico-50mg-com-20-comprimidos-generico-medley/p",
+      "preco": 3.99,
+      "nome": "Diclofenaco Sódico 50mg Com 20 Comprimidos Genérico Neo Quimica",
+      "url": "https://www.extrafarma.com.br/diclofenaco-sodico-50mg-com-20-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -4486,7 +4522,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 61.37,
+      "preco": 60.19,
       "nome": "Voltaren Sr Novartis 20 Comprimidos De Desintegração Técnica",
       "url": "https://www.drogariavenancio.com.br/voltaren-sr-novartis-20-comprimidos-de-desintegracao-tecnica/p",
       "disponivel": true
@@ -4500,25 +4536,25 @@ const PRECOS_REDES = {
   },
   "med-00127": {
     "paguemenos": {
-      "preco": 12.99,
+      "preco": 10.49,
       "nome": "Carvedilol 3,125mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.paguemenos.com.br/carvedilol-3-125mg-com-30-comprimidos-generico-biolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.99,
+      "preco": 10.49,
       "nome": "Carvedilol 3,125mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.extrafarma.com.br/carvedilol-3-125mg-com-30-comprimidos-generico-biolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 16.99,
+      "preco": 18.69,
       "nome": "Carvedilol 3,125mg Genérico Biosintética 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/carvedilol-3-125mg-generico-biosintetica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.59,
+      "preco": 22.65,
       "nome": "Carvedilol 25mg Genérico Biolab 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/carvedilol-25mg-biolab-caixa-30-comprimidos-biolab-sanus/p",
       "disponivel": true
@@ -4538,13 +4574,13 @@ const PRECOS_REDES = {
   },
   "med-00128": {
     "paguemenos": {
-      "preco": 121.99,
+      "preco": 113.99,
       "nome": "Ceclor 250mg/5ml Suspensão Oral 100ml + Seringa Dosadora",
       "url": "https://www.paguemenos.com.br/ceclor-250mg-100ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 121.99,
+      "preco": 113.99,
       "nome": "Ceclor 250mg/5ml Suspensão Oral 100ml + Seringa Dosadora",
       "url": "https://www.extrafarma.com.br/ceclor-250mg-100ml/p",
       "disponivel": true
@@ -4564,31 +4600,31 @@ const PRECOS_REDES = {
   },
   "med-00129": {
     "paguemenos": {
-      "preco": 110.99,
+      "preco": 109.99,
       "nome": "Ceclor BD 500mg 10 Comprimidos Revestidos de Liberação Prolongada",
       "url": "https://www.paguemenos.com.br/ceclor-bd-500mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 110.99,
+      "preco": 109.99,
       "nome": "Ceclor BD 500mg 10 Comprimidos Revestidos de Liberação Prolongada",
       "url": "https://www.extrafarma.com.br/ceclor-bd-500mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 111.99,
+      "preco": 110.86,
       "nome": "Ceclor BD Cefaclor 500mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/ceclor-bd-500-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 97.09,
+      "preco": 98.97,
       "nome": "Ceclor BD Cefaclor 500mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/ceclor-bd-500-ems-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 102.97,
+      "preco": 100.99,
       "nome": "Ceclor Bd 500mg Ems 10 comprimidos",
       "url": "https://www.drogariavenancio.com.br/ceclor-ems-bd-500mg-10-comprimidos/p",
       "disponivel": true
@@ -4614,13 +4650,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 23.99,
+      "preco": 21.59,
       "nome": "Cefadroxila 500mg Genérico Eurofarma 8 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/cefadroxila-500mg-generico-eurofarma-8-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 23.99,
+      "preco": 21.59,
       "nome": "Cefadroxila 500mg Genérico Eurofarma 8 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/cefadroxila-500mg-generico-eurofarma-8-capsulas/p",
       "disponivel": true
@@ -4640,33 +4676,33 @@ const PRECOS_REDES = {
   },
   "med-00131": {
     "paguemenos": {
-      "preco": 50.99,
+      "preco": 39.49,
       "nome": "Cefalexina 1g 8 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/cefalexina-1g-com-08-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.99,
+      "preco": 39.49,
       "nome": "Cefalexina 1g 8 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/cefalexina-1g-com-08-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 14.59,
-      "nome": "Cefalexina 500mg Genérico EMS 8 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cefalexina-500mg-generico-ems-8-comprimidos/p",
+      "preco": 9.99,
+      "nome": "Cefalexina 500mg Genérico EMS 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/cefalexina-500mg-generico-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.59,
-      "nome": "Cefalexina 500mg Genérico EMS 8 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cefalexina-500mg-generico-ems-8-comprimidos/p",
+      "preco": 5.99,
+      "nome": "Cefalexina 500mg Genérico Teuto 8 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cefalexina-500mg-generico-teuto-8-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.28,
-      "nome": "Cefalexina 500mg 8 Comprimidos Revestidos Ranbaxy",
-      "url": "https://www.drogariavenancio.com.br/cefalexina-500mg-8com--g--ranbaxy/p",
+      "preco": 11.49,
+      "nome": "Cefalexina 500mg 8 Comprimidos Teuto",
+      "url": "https://www.drogariavenancio.com.br/cefalexina-500mg-8-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -4678,15 +4714,15 @@ const PRECOS_REDES = {
   },
   "med-00132": {
     "paguemenos": {
-      "preco": 18.59,
-      "nome": "Cefalexina 500mg 8 Cápsulas Duras Genérico União Química",
-      "url": "https://www.paguemenos.com.br/cefalexina-500mg-com-8-capsulas-generico-uniao-quimica-mais/p",
+      "preco": 9.49,
+      "nome": "Cefalexina 500mg 10 Cápsulas Duras Genérico União Química",
+      "url": "https://www.paguemenos.com.br/cefalexina-500mg-com-10-capsulas-generico-uniao-quimicamais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.59,
-      "nome": "Cefalexina 500mg 8 Cápsulas Duras Genérico União Química",
-      "url": "https://www.extrafarma.com.br/cefalexina-500mg-com-8-capsulas-generico-uniao-quimica-mais/p",
+      "preco": 9.49,
+      "nome": "Cefalexina 500mg 10 Cápsulas Duras Genérico União Química",
+      "url": "https://www.extrafarma.com.br/cefalexina-500mg-com-10-capsulas-generico-uniao-quimicamais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -4696,7 +4732,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.99,
+      "preco": 49.37,
       "nome": "Keflex Cefalexina 100mg/ml 15ml Gotas",
       "url": "https://www.drogariaspacheco.com.br/keflex-100mg-gotas-bago-15ml/p",
       "disponivel": true
@@ -4710,33 +4746,33 @@ const PRECOS_REDES = {
   },
   "med-00134": {
     "paguemenos": {
-      "preco": 160.99,
+      "preco": 142.99,
       "nome": "Terza 250mg/5ml Sabor Morango Pó para Suspensão Oral 100ml + Seringa Dosadora",
       "url": "https://www.paguemenos.com.br/terza-250mg-5ml-suspensao-oral-100ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 160.99,
+      "preco": 142.99,
       "nome": "Terza 250mg/5ml Sabor Morango Pó para Suspensão Oral 100ml + Seringa Dosadora",
       "url": "https://www.extrafarma.com.br/terza-250mg-5ml-suspensao-oral-100ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 163.34,
+      "preco": 150.9,
       "nome": "Terza Cefdinir 250mg/5ml Morango 1 Frasco 100ml + Pó Suspensão Oral + Seringa",
       "url": "https://www.drogariasaopaulo.com.br/terza-250mg-5ml-eurofarma-morango-frasco-100ml-po-suspensao-oral-seringa/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 161.11,
+      "preco": 150.9,
       "nome": "Terza Cefdinir 250mg/5ml Morango 1 Frasco 100ml + Pó Suspensão Oral + Seringa",
       "url": "https://www.drogariaspacheco.com.br/terza-250mg-5ml-eurofarma-morango-frasco-100ml-po-suspensao-oral-seringa/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 161.11,
-      "nome": "Terza 250mg/5ml Eurofarma Pó para Suspensão Oral 100ml + Seringa Dosadora",
-      "url": "https://www.drogariavenancio.com.br/terza-50mg-ml-100ml-ser/p",
+      "preco": 161.2,
+      "nome": "Tercen 250mg/5ml Momenta Sabor Morango 100ml + 1 Adaptador + 1 Seringa Dosadora",
+      "url": "https://www.drogariavenancio.com.br/tercen-250mg-5ml-sus-or-100ml--ab-/p",
       "disponivel": true
     },
     "panvel": {
@@ -4748,13 +4784,13 @@ const PRECOS_REDES = {
   },
   "med-00135": {
     "paguemenos": {
-      "preco": 19.59,
+      "preco": 18.29,
       "nome": "Ceftriaxona Sódica 500mg Pó para Solução Injetável Intramuscular 1 Frasco-Ampola + 1 Ampola Diluente 2ml Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/ceftriaxona-im-500mg-ampolamaisdiluente-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.59,
+      "preco": 18.29,
       "nome": "Ceftriaxona Sódica 500mg Pó para Solução Injetável Intramuscular 1 Frasco-Ampola + 1 Ampola Diluente 2ml Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/ceftriaxona-im-500mg-ampolamaisdiluente-generico-eurofarma/p",
       "disponivel": true
@@ -4772,7 +4808,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 23.49,
+      "preco": 22.49,
       "nome": "Ceftriaxona Dissódica 1g Teuto Pó Injetável + 1 Frasco De Ampola + 3,5ml Solução Diluente",
       "url": "https://www.drogariavenancio.com.br/ceftriaxona-dissodica-1g-teuto-po-injetavel---1-frasco-de-ampola---35ml-solucao-diluente/p",
       "disponivel": true
@@ -4786,25 +4822,25 @@ const PRECOS_REDES = {
   },
   "med-00136": {
     "paguemenos": {
-      "preco": 47.99,
+      "preco": 43.99,
       "nome": "Triaxin 1g Pó para Solução Injetável Intramuscular 1 Frasco-Ampola + 1 Ampola Diluente 3,5ml",
       "url": "https://www.paguemenos.com.br/triaxin-de-1g-injetavel-1-ampola-antibiotico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 47.99,
+      "preco": 43.99,
       "nome": "Triaxin 1g Pó para Solução Injetável Intramuscular 1 Frasco-Ampola + 1 Ampola Diluente 3,5ml",
       "url": "https://www.extrafarma.com.br/triaxin-de-1g-injetavel-1-ampola-antibiotico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 29.64,
+      "preco": 29.34,
       "nome": "Triaxin Ceftriaxona 500mg 1 Frasco-Ampola Pó + 2ml Diluente para Solução Injetável",
       "url": "https://www.drogariasaopaulo.com.br/triaxin-ampola-500mg-eurofarma-2ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.94,
+      "preco": 29.34,
       "nome": "Triaxin Ceftriaxona 500mg 1 Frasco-Ampola Pó + 2ml Diluente para Solução Injetável",
       "url": "https://www.drogariaspacheco.com.br/triaxin-ampola-500mg-eurofarma-2ml/p",
       "disponivel": true
@@ -4824,21 +4860,27 @@ const PRECOS_REDES = {
   },
   "med-00137": {
     "paguemenos": {
-      "preco": 32.29,
-      "nome": "Celecoxibe 200mg Com 10 Capsulas Generico Eurofarma",
-      "url": "https://www.paguemenos.com.br/celecoxibe-200mg-com-10-capsulas-generico-eurofarma/p",
+      "preco": 21.99,
+      "nome": "Celecoxibe 200mg 10 Cápsulas Duras Genérico Ranbaxy",
+      "url": "https://www.paguemenos.com.br/celecoxibe-200mg-com-10-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 32.29,
-      "nome": "Celecoxibe 200mg Com 10 Capsulas Generico Eurofarma",
-      "url": "https://www.extrafarma.com.br/celecoxibe-200mg-com-10-capsulas-generico-eurofarma/p",
+      "preco": 21.99,
+      "nome": "Celecoxibe 200mg 10 Cápsulas Duras Genérico Ranbaxy",
+      "url": "https://www.extrafarma.com.br/celecoxibe-200mg-com-10-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 38.59,
-      "nome": "Celecoxibe 200mg Genérico EMS 10 Cápsulas",
+      "preco": 37.79,
+      "nome": "Celecoxibe 200mg Genérico Germed10 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/celecoxibe-200mg-generico-ems-10-capsulas/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 39.29,
+      "nome": "Coques Celecoxibe 200mg 10 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/coques-20mg-eurofarma-10-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -4856,33 +4898,33 @@ const PRECOS_REDES = {
   },
   "med-00139": {
     "paguemenos": {
-      "preco": 12.79,
-      "nome": "Cetoconazol Creme 30g Genérico Medley",
-      "url": "https://www.paguemenos.com.br/cetoconazol-creme-30g-generico-medley/p",
-      "disponivel": false
+      "preco": 11.49,
+      "nome": "Cetoconazol  Anticaspa Shampoo 100ml",
+      "url": "https://www.paguemenos.com.br/cetoconazol-shampoo-100ml-globo-generico/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.79,
-      "nome": "Cetoconazol Creme 30g Genérico Medley",
-      "url": "https://www.extrafarma.com.br/cetoconazol-creme-30g-generico-medley/p",
-      "disponivel": false
+      "preco": 11.49,
+      "nome": "Cetoconazol  Anticaspa Shampoo 100ml",
+      "url": "https://www.extrafarma.com.br/cetoconazol-shampoo-100ml-globo-generico/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.59,
+      "preco": 13.85,
       "nome": "Cetoconazol 20mg/g + Dipropionato Betametasona 0,5mg/g Genérico EMS 30g Creme",
       "url": "https://www.drogariasaopaulo.com.br/cetoconazol-dipropionato-betametasona-20mgg-generico-ems-creme-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.99,
-      "nome": "Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g Genérico EMS 30g Pomada",
-      "url": "https://www.drogariaspacheco.com.br/cetoconazol-dipropionato-betametasona-20mgg-generico-ems-pomada-30g/p",
+      "preco": 13.85,
+      "nome": "Cetoconazol 20mg/g + Dipropionato Betametasona 0,5mg/g Genérico EMS 30g Creme",
+      "url": "https://www.drogariaspacheco.com.br/cetoconazol-dipropionato-betametasona-20mgg-generico-ems-creme-30g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 13.49,
-      "nome": "Cetoconazol 20mg/g Cimed Creme 30g",
-      "url": "https://www.drogariavenancio.com.br/cetoconazol-cr-30g/p",
+      "preco": 8.49,
+      "nome": "Cetoconazol 200mg 10 Comprimidos Teuto",
+      "url": "https://www.drogariavenancio.com.br/cetoconazol-200mg-10-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -4906,21 +4948,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.69,
-      "nome": "Cetoprofeno 150mg Genérico EMS 10 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cetoprofeno-150mg-generico-ems-10-comprimidos/p",
+      "preco": 17.59,
+      "nome": "Cetoprofeno 150mg Genérico Eurofarma 10 Comprimidos De Liberação Prolongada",
+      "url": "https://www.drogariasaopaulo.com.br/cetoprofeno-150mg-10-comprimidos-de-liberacao-prolongada-g-eurofarma-labs/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.92,
+      "preco": 20.59,
       "nome": "Cetoprofeno 150mg Genérico EMS 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cetoprofeno-150mg-generico-ems-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.11,
-      "nome": "Cetoprofeno Solução Oral 20mg/ml Eurofarma 20ml",
-      "url": "https://www.drogariavenancio.com.br/cetoprofeno-solucao-oral-20mg-ml-eurofarma-20ml/p",
+      "preco": 8.99,
+      "nome": "Cetoprofeno 20mg/mL Solução Oral Gotas Teuto",
+      "url": "https://www.drogariavenancio.com.br/cetoprofeno-20mg-ml-solucao-oral-gotas/p",
       "disponivel": true
     },
     "panvel": {
@@ -4944,13 +4986,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 23.09,
+      "preco": 22.85,
       "nome": "Mytro Trometamol Cetorolaco 10mg 10 Comprimidos Sublinguais",
       "url": "https://www.drogariasaopaulo.com.br/mytro-10mg-myralis-10-comprimidos-sublinguais/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.29,
+      "preco": 19.88,
       "nome": "Mytro Trometamol Cetorolaco 10mg 10 Comprimidos Sublinguais",
       "url": "https://www.drogariaspacheco.com.br/mytro-10mg-myralis-10-comprimidos-sublinguais/p",
       "disponivel": true
@@ -4964,33 +5006,33 @@ const PRECOS_REDES = {
   },
   "med-00141": {
     "paguemenos": {
-      "preco": 21.99,
+      "preco": 20.79,
       "nome": "Trometamol Cetorolaco 10mg 10 Comprimidos Genérico Ems",
       "url": "https://www.paguemenos.com.br/trometamol-cetorolaco-10mg-10-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.99,
+      "preco": 20.79,
       "nome": "Trometamol Cetorolaco 10mg 10 Comprimidos Genérico Ems",
       "url": "https://www.extrafarma.com.br/trometamol-cetorolaco-10mg-10-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 26.59,
+      "preco": 29.25,
       "nome": "Trometamol Cetorolaco 10mg Genérico EMS 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/trometamol-cetorolaco-10mg-generico-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 26.59,
+      "preco": 29.25,
       "nome": "Trometamol Cetorolaco 10mg Genérico EMS 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/trometamol-cetorolaco-10mg-generico-ems-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 21.5,
-      "nome": "Trometamol Cetorolaco 5mg/ml Geolab Solução Oftálmica 5ml",
-      "url": "https://www.drogariavenancio.com.br/trom-cetorolaco-5mg-ml-sol-oft-5ml--g--geolab/p",
+      "preco": 17.99,
+      "nome": "Trometamol Cetorolaco 10mg Ems 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/trometamol-cetorolaco-10mg-10com--g--ems/p",
       "disponivel": true
     },
     "panvel": {
@@ -5014,21 +5056,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 24.9,
+      "preco": 24.99,
       "nome": "Mecobe Mecobalamina 500mcg 30 Comprimidos Sublinguais",
       "url": "https://www.drogariasaopaulo.com.br/mecobe-mecobalamina-500mcg-30-comprimidos-sublinguais/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.03,
+      "preco": 29.9,
       "nome": "Mecobe Mecobalamina 1000mcg 30 Comprimidos sublinguais",
       "url": "https://www.drogariaspacheco.com.br/mecobe-1000mcg-myralis-30-comprimidos-sublinguais/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 28.69,
-      "nome": "Mecobalamina 1000mcg Biolab 30 comprimidos sublinguais",
-      "url": "https://www.drogariavenancio.com.br/mecobalamina-1000mcg-biolab-30-comprimidos-sublinguais/p",
+      "preco": 17.99,
+      "nome": "Mecobalamina 1mg 20 Comprimidos Sublinguais",
+      "url": "https://www.drogariavenancio.com.br/mecobalamina-1mg-20-comprimidos-sublinguais/p",
       "disponivel": true
     },
     "panvel": {
@@ -5058,7 +5100,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 11.2,
+      "preco": 9.45,
       "nome": "Dimenidrinato 25mlg/ml + Cloridrato de Piridoxina 5mg/ml Genérico Vitamedic 20ml Solução Oral",
       "url": "https://www.drogariaspacheco.com.br/dimenidrinato-25mlgml-cloridrato-de-piridoxina-5mgml-generico-vitamedic-20ml-solucao-oral/p",
       "disponivel": true
@@ -5128,9 +5170,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 45.19,
-      "nome": "Alois Duo 10mg + 10mg 7 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/alois-duo-10mg-10mg-7cpr-c1-/p",
+      "preco": 37.59,
+      "nome": "Alois Duo 10mg + 5mg 7 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/alois-duo-10mg---5mg-7-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -5142,13 +5184,13 @@ const PRECOS_REDES = {
   },
   "med-00219": {
     "paguemenos": {
-      "preco": 11.05,
+      "preco": 22.59,
       "nome": "Cloridrato de Memantina 10mg 30 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/cloridrato-de-memantina-10mg-com-30-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.05,
+      "preco": 22.59,
       "nome": "Cloridrato de Memantina 10mg 30 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/cloridrato-de-memantina-10mg-com-30-comprimidos-generico-medley/p",
       "disponivel": true
@@ -5166,9 +5208,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 16.99,
-      "nome": "Cloridrato De Memantina 10mg Teuto 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-memantina-10mg-teuto-30-comprimidos/p",
+      "preco": 27.49,
+      "nome": "Cloridrato De Memantina 10mg Teuto 60 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-memantina-10mg-teuto-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -5198,7 +5240,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 45.69,
+      "preco": 44.78,
       "nome": "Dexa-Citoneurin NFF 100mg + 100mg + 5mg + 4,37mg P&G 3 Ampolas 1ml + 3 Ampolas 2ml",
       "url": "https://www.drogariaspacheco.com.br/dexa-citoneurin-ampola-3x3ml/p",
       "disponivel": true
@@ -5232,31 +5274,31 @@ const PRECOS_REDES = {
   },
   "med-00225": {
     "paguemenos": {
-      "preco": 99.49,
+      "preco": 96.99,
       "nome": "Sitglu Met Cloridrato de Metformina 50mg + 1000mg 56 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/sitglu-met-50-1000mg-56-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 99.49,
+      "preco": 96.99,
       "nome": "Sitglu Met Cloridrato de Metformina 50mg + 1000mg 56 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/sitglu-met-50-1000mg-56-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 115.92,
+      "preco": 97.02,
       "nome": "Sitglu Met Sitagliptina 50mg + Cloridrato de Metformina 1000mg 56 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/sitglu-met-50mg-1000mg-ems-56-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 115.92,
+      "preco": 87.84,
       "nome": "Sitglu Met Sitagliptina 50mg + Cloridrato de Metformina 1000mg 56 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/sitglu-met-50mg-1000mg-ems-56-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 101.19,
+      "preco": 89.63,
       "nome": "Sitglu Met Cloridrato de Metformina 50 + 1000 Mg 56 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/sitglu-met-50-1000mg-56com/p",
       "disponivel": true
@@ -5288,7 +5330,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 43.59,
+      "preco": 53.19,
       "nome": "Micolamina 10mg/g Theraskin 20g Creme",
       "url": "https://www.drogariaspacheco.com.br/micolamina-creme-theraskin-20g/p",
       "disponivel": true
@@ -5308,25 +5350,25 @@ const PRECOS_REDES = {
   },
   "med-00144": {
     "paguemenos": {
-      "preco": 27.29,
+      "preco": 24.29,
       "nome": "Ciclopirox Olamina 10mg/g Creme Dermatológico 20g Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/ciclopirox-olamina-creme-20g-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 27.29,
+      "preco": 24.29,
       "nome": "Ciclopirox Olamina 10mg/g Creme Dermatológico 20g Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/ciclopirox-olamina-creme-20g-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.99,
+      "preco": 23.09,
       "nome": "Ciclopirox Olamina 10mg/ml Genérico Germed 15ml",
       "url": "https://www.drogariasaopaulo.com.br/ciclopirox-olamina-10mg-ml-generico-germed-15ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.59,
+      "preco": 13.85,
       "nome": "Ciclopirox Olamina 10mg/ml Genérico Germed 15ml",
       "url": "https://www.drogariaspacheco.com.br/ciclopirox-olamina-10mg-ml-generico-germed-15ml/p",
       "disponivel": true
@@ -5370,9 +5412,9 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 1129.03,
-      "nome": "Micofenolato de Mofetila 500mg 50 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/micofenolato-de-mofetila-500mg-50-comprimidos/p",
+      "preco": 1133.89,
+      "nome": "Cellcept 500mg 50 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/cellcept-500mg-50-comprimidos-revestidos/p",
       "disponivel": false
     },
     "panvel": {
@@ -5399,7 +5441,7 @@ const PRECOS_REDES = {
       "preco": 162.59,
       "nome": "Sandimmun Neoral 25mg Novartis 50 Cápsulas Gelatinosas",
       "url": "https://www.drogariasaopaulo.com.br/sandimmun-neoral-25mg-novartis-50-capsulas/p",
-      "disponivel": false
+      "disponivel": true
     },
     "pacheco": {
       "preco": 162.59,
@@ -5423,26 +5465,26 @@ const PRECOS_REDES = {
   "med-00147": {
     "paguemenos": {
       "preco": 17.89,
-      "nome": "Cilostazol 50mg 30 Comprimidos Genérico Aché",
-      "url": "https://www.paguemenos.com.br/cilostazol-50mg-com-30-comprimidos-genericos-ache/p",
+      "nome": "Cilostazol 50mg 30 Comprimidos Genérico EMS",
+      "url": "https://www.paguemenos.com.br/cilostazol-50mg-30-comprimidos-ems-generico/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 17.89,
-      "nome": "Cilostazol 50mg 30 Comprimidos Genérico Aché",
-      "url": "https://www.extrafarma.com.br/cilostazol-50mg-com-30-comprimidos-genericos-ache/p",
+      "nome": "Cilostazol 50mg 30 Comprimidos Genérico EMS",
+      "url": "https://www.extrafarma.com.br/cilostazol-50mg-30-comprimidos-ems-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 32.06,
+      "preco": 31.73,
       "nome": "Vasogard Cilostazol 50mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/vasogard-50mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 25.99,
-      "nome": "Cilostazol 50mg Genérico Aché 60 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cilostazol-50mg-generico-ache-60-comprimidos/p",
+      "preco": 25.96,
+      "nome": "Vasogard Cilostazol 50mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/vasogard-50mg-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -5498,25 +5540,25 @@ const PRECOS_REDES = {
   },
   "med-00149": {
     "paguemenos": {
-      "preco": 103.99,
+      "preco": 113.99,
       "nome": "Deposteron 200mg/2ml Injetável Com 3 Ampolas",
       "url": "https://www.paguemenos.com.br/deposteron-injetavel-200mg-2ml-com-3-ampolas-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 103.99,
+      "preco": 113.99,
       "nome": "Deposteron 200mg/2ml Injetável Com 3 Ampolas",
       "url": "https://www.extrafarma.com.br/deposteron-injetavel-200mg-2ml-com-3-ampolas-p/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 101.91,
+      "preco": 120.99,
       "nome": "Deposteron Cipionato De Testosterona 200mg/2ml 3 Ampolas 2ml Injetável",
       "url": "https://www.drogariasaopaulo.com.br/deposteron-injetavel-natures-plus-3-x-2ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 111.71,
+      "preco": 111.2,
       "nome": "Deposteron Cipionato De Testosterona 200mg/2ml 3 Ampolas 2ml Injetável",
       "url": "https://www.drogariaspacheco.com.br/deposteron-injetavel-natures-plus-3-x-2ml/p",
       "disponivel": true
@@ -5536,31 +5578,31 @@ const PRECOS_REDES = {
   },
   "med-00150": {
     "paguemenos": {
-      "preco": 25.99,
+      "preco": 28.59,
       "nome": "Ciprofibrato 100mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.paguemenos.com.br/ciprofibrato-100mg-com-30-comprimidos-generico-biolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.99,
+      "preco": 28.59,
       "nome": "Ciprofibrato 100mg 30 Comprimidos Genérico Biolab",
       "url": "https://www.extrafarma.com.br/ciprofibrato-100mg-com-30-comprimidos-generico-biolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 25.99,
+      "preco": 28.59,
       "nome": "Ciprofibrato 100mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/ciprofibrato-100mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
       "preco": 25.99,
-      "nome": "Ciprofibrato 100mg Genérico Cimed 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/ciprofibrato-100mg-generico-cimed-30-comprimidos/p",
+      "nome": "Ciprofibrato 100mg Genérico Biosintética 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/ciprofibrato-100mg-generico-biosintetica-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 26.79,
+      "preco": 25.99,
       "nome": "Ciprofibrato 100mg Cimed 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/ciprofibrato-100mg-cimed-30-comprimidos-/p",
       "disponivel": true
@@ -5574,25 +5616,25 @@ const PRECOS_REDES = {
   },
   "med-00152": {
     "paguemenos": {
-      "preco": 60.99,
+      "preco": 57.49,
       "nome": "Indux 50mg 10 Comprimidos",
       "url": "https://www.paguemenos.com.br/indux-50mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 60.99,
+      "preco": 57.49,
       "nome": "Indux 50mg 10 Comprimidos",
       "url": "https://www.extrafarma.com.br/indux-50mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 62.36,
+      "preco": 58.79,
       "nome": "Indux Citrato De Clomifeno 50mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/indux-50mg-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 60.99,
+      "preco": 58.79,
       "nome": "Indux Citrato De Clomifeno 50mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/indux-50mg-ems-10-comprimidos/p",
       "disponivel": true
@@ -5612,13 +5654,13 @@ const PRECOS_REDES = {
   },
   "med-00339": {
     "paguemenos": {
-      "preco": 16.99,
+      "preco": 15.71,
       "nome": "Analgésico Nevralgex 30 Comprimidos",
       "url": "https://www.paguemenos.com.br/nevralgex-cpd-30/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.99,
+      "preco": 15.71,
       "nome": "Analgésico Nevralgex 30 Comprimidos",
       "url": "https://www.extrafarma.com.br/nevralgex-cpd-30/p",
       "disponivel": true
@@ -5632,31 +5674,31 @@ const PRECOS_REDES = {
   },
   "med-00154": {
     "paguemenos": {
-      "preco": 11.89,
-      "nome": "Hidralyte 45 Sabor Água de Coco Solução Oral 500ml",
-      "url": "https://www.paguemenos.com.br/hidralyte-45-agua-de-coco-500ml/p",
+      "preco": 11.19,
+      "nome": "Hidralyte 45 2,05mg/ml + 0,98mg/ml + 22,5mg/ml + 2,16mg/ml Sabor Uva Solução Oral 500ml",
+      "url": "https://www.paguemenos.com.br/hidralyte-45-uva-500-ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.89,
-      "nome": "Hidralyte 45 Sabor Água de Coco Solução Oral 500ml",
-      "url": "https://www.extrafarma.com.br/hidralyte-45-agua-de-coco-500ml/p",
+      "preco": 11.19,
+      "nome": "Hidralyte 45 2,05mg/ml + 0,98mg/ml + 22,5mg/ml + 2,16mg/ml Sabor Uva Solução Oral 500ml",
+      "url": "https://www.extrafarma.com.br/hidralyte-45-uva-500-ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 68.9,
+      "preco": 68.21,
       "nome": "Litocit Citrato De Potássio 540mg 60 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/litocit-540mg-apsen-60-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 69.6,
+      "preco": 68.21,
       "nome": "Litocit Citrato De Potássio 540mg 60 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/litocit-540mg-apsen-60-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 13.59,
+      "preco": 17.7,
       "nome": "Hidralyte 45 Natulab Uva 500ml",
       "url": "https://www.drogariavenancio.com.br/hidralyte-45-uva-500ml/p",
       "disponivel": true
@@ -5682,19 +5724,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 10.52,
+      "preco": 4.99,
       "nome": "Videnfil Citrato De Sildenafila 50mg 4 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/videnfil-50mg-sandoz-do-brasil-4-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.99,
-      "nome": "Citrato de Sildenafila 50mg Genérico EMS 4 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/citrato-de-sildenafilna-generico-50mg-ems-4-capsulas/p",
+      "preco": 4.99,
+      "nome": "Videnfil Citrato De Sildenafila 50mg 4 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/videnfil-50mg-sandoz-do-brasil-4-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.19,
+      "preco": 5.49,
       "nome": "Citrato De Sildenafila 50mg Neo Química 2 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/citrato-de-sildenafila-50mg-neo-quimica-2-comprimidos/p",
       "disponivel": true
@@ -5740,15 +5782,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 30.79,
+      "preco": 30.99,
       "nome": "Citrato De Tamoxifeno 10mg 30 Comprimidos Sandoz Genérico",
       "url": "https://www.extrafarma.com.br/citrato-de-tamoxifeno-10mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 26.59,
-      "nome": "Citrato de Tamoxifeno 20mg Genérico Blau 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/citrato-de-tamoxifeno-20mg-generico-blau-30-comprimidos/p",
+      "nome": "Citrato de Tamoxifeno 20mg Genérico EMS 30 Comprimidos Revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/citrato-tamoxifeno-20mg-generico-ems-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -5772,27 +5814,27 @@ const PRECOS_REDES = {
   },
   "med-00159": {
     "paguemenos": {
-      "preco": 34.99,
-      "nome": "Claritromicina 500mg 14 Comprimidos Revestidos Genérico Medley",
-      "url": "https://www.paguemenos.com.br/claritromicina-500mg-com-14-comprimidos-generico-medley/p",
+      "preco": 62.99,
+      "nome": "Claritromicina 500mg 10 Comprimidos Revestidos Genérico Pharlab",
+      "url": "https://www.paguemenos.com.br/claritromicina-500mg-com-10-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 34.99,
-      "nome": "Claritromicina 500mg 14 Comprimidos Revestidos Genérico Medley",
-      "url": "https://www.extrafarma.com.br/claritromicina-500mg-com-14-comprimidos-generico-medley/p",
+      "preco": 62.99,
+      "nome": "Claritromicina 500mg 10 Comprimidos Revestidos Genérico Pharlab",
+      "url": "https://www.extrafarma.com.br/claritromicina-500mg-com-10-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 78.59,
-      "nome": "Claritromicina 500mg Genérico EMS 10 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/claritromicina-500mg-generico-ems-10-comprimidos/p",
+      "preco": 49.99,
+      "nome": "Claritromicina 500mg Genérico Pharlab 14 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/claritromicina-500mg-generico-pharlab-14-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 61.99,
-      "nome": "Claritromicina 500mg Genérico EMS 10 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/claritromicina-500mg-generico-ems-10-comprimidos/p",
+      "preco": 49.9,
+      "nome": "Claritromicina 500mg Genérico Pharlab 14 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/claritromicina-500mg-generico-pharlab-14-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -5822,21 +5864,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.26,
+      "preco": 20.05,
       "nome": "Urbanil Clobazam 10mg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/urbanil-10mg-sanofi-aventis-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.59,
+      "preco": 16.45,
       "nome": "Urbanil Clobazam 10mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/urbanil-10mg-sanofi-aventis-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 19.69,
-      "nome": "Frisium 10mg Com 20 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/frisium-10mg-com-20-comprimidos/p",
+      "preco": 16.79,
+      "nome": "Urbanil 10mg 20 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/urbanil-10mg-20-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -5848,13 +5890,13 @@ const PRECOS_REDES = {
   },
   "med-00163": {
     "paguemenos": {
-      "preco": 4.19,
+      "preco": 4.89,
       "nome": "Clonazepam 2mg 30 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/clonazepam-2ml-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.19,
+      "preco": 4.89,
       "nome": "Clonazepam 2mg 30 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/clonazepam-2ml-com-30-comprimidos/p",
       "disponivel": true
@@ -5866,13 +5908,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 6.99,
-      "nome": "Clonazepam 2mg Genérico EMS 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/clonazepam-2mg-generico-30-comprimidos/p",
+      "preco": 1.2,
+      "nome": "Clonazepam 2mg Genérico Legrand 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/clonazepam-2mg-generico-legrand-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.59,
+      "preco": 6.99,
       "nome": "Clonazepam 0,5mg Medley 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/clonazepam-05mg-medley-30-comprimidos/p",
       "disponivel": true
@@ -5886,13 +5928,13 @@ const PRECOS_REDES = {
   },
   "med-00573": {
     "paguemenos": {
-      "preco": 24.29,
+      "preco": 24.59,
       "nome": "Benzoilmetronidazol 62,5mg/g + Nistatina 25.000UI/g + Cloreto de Benzalcônio 1,25mg/g Creme Vaginal 40g 10 Aplicadores Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/benzoilmetronidazolmaisnistatinamaiscloreto-de-benzalconio-62-5mgmais25-000ui-g-creme-vaginal-com-10-aplicadores-generico-prati-donaduzzimais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 24.29,
+      "preco": 24.59,
       "nome": "Benzoilmetronidazol 62,5mg/g + Nistatina 25.000UI/g + Cloreto de Benzalcônio 1,25mg/g Creme Vaginal 40g 10 Aplicadores Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/benzoilmetronidazolmaisnistatinamaiscloreto-de-benzalconio-62-5mgmais25-000ui-g-creme-vaginal-com-10-aplicadores-generico-prati-donaduzzimais/p",
       "disponivel": true
@@ -5904,7 +5946,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 41.89,
+      "preco": 41.05,
       "nome": "Colpist MT Benzoilmetronidazol 62,5mg/g + Nistatina 25.000UI/g + Cloreto de Benzalcônio 1,25mg/g 40g Creme Vaginal + 10 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/colpist-mt-creme-vaginal-apsen-40g-10-aplicadores/p",
       "disponivel": true
@@ -5924,25 +5966,25 @@ const PRECOS_REDES = {
   },
   "med-00164": {
     "paguemenos": {
-      "preco": 21.99,
+      "preco": 22.99,
       "nome": "Anti-Séptico Kuramed Spray 50ml",
       "url": "https://www.paguemenos.com.br/kuramed-spray-50ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.99,
+      "preco": 22.99,
       "nome": "Anti-Séptico Kuramed Spray 50ml",
       "url": "https://www.extrafarma.com.br/kuramed-spray-50ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 81.98,
+      "preco": 81.15,
       "nome": "Bio-Vagin Benzoilmetronidazol 62,5mg/g + Nistatina 25000UI/g + Cloreto de Benzalcônio 1,25mg/g 40g Creme Vaginal + 10 Aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/bio-vagin-40g-creme-10-aplicadores/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 67.49,
+      "preco": 66.14,
       "nome": "Bio-Vagin Benzoilmetronidazol 62,5mg/g + Nistatina 25000UI/g + Cloreto de Benzalcônio 1,25mg/g 40g Creme Vaginal + 10 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/bio-vagin-40g-creme-10-aplicadores/p",
       "disponivel": true
@@ -5980,7 +6022,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 4.29,
+      "preco": 4.2,
       "nome": "Narix Cloreto De Benzalcônio 0,5mg/ml 30ml Solução Nasal",
       "url": "https://www.drogariaspacheco.com.br/narix-30ml-adulto/p",
       "disponivel": true
@@ -6014,13 +6056,13 @@ const PRECOS_REDES = {
   },
   "med-00166": {
     "paguemenos": {
-      "preco": 17.89,
+      "preco": 17.59,
       "nome": "Slow-K 600mg 20 Drágeas",
       "url": "https://www.paguemenos.com.br/slow-k-600mg-com-20-drageas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.89,
+      "preco": 17.59,
       "nome": "Slow-K 600mg 20 Drágeas",
       "url": "https://www.extrafarma.com.br/slow-k-600mg-com-20-drageas/p",
       "disponivel": true
@@ -6090,13 +6132,13 @@ const PRECOS_REDES = {
   },
   "med-00168": {
     "paguemenos": {
-      "preco": 14.19,
+      "preco": 8.89,
       "nome": "Cloridrato de Ambroxol 6mg/ml Xarope Adulto 120ml + Copo Dosador Genérico Geolab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-ambroxol-xarope-adulto-6mg-ml-frasco-120ml-mais-copo-dosador-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.19,
+      "preco": 8.89,
       "nome": "Cloridrato de Ambroxol 6mg/ml Xarope Adulto 120ml + Copo Dosador Genérico Geolab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-ambroxol-xarope-adulto-6mg-ml-frasco-120ml-mais-copo-dosador-generico-geolab/p",
       "disponivel": true
@@ -6114,10 +6156,10 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.44,
-      "nome": "Cloridrato De Ambroxol 15mg/5ml Ems Sabor Framboesa Uso Oral 120ml",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ambroxol-15mg-5ml-ems-sabor-framboesa-uso-oral-120ml/p",
-      "disponivel": false
+      "preco": 10.99,
+      "nome": "Cloridrato de Ambroxol 6mg/ml Cimed Xarope 120ml",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ambroxol-cimed-6mg-xarope-120ml/p",
+      "disponivel": true
     },
     "panvel": {
       "preco": 26.87,
@@ -6128,27 +6170,27 @@ const PRECOS_REDES = {
   },
   "med-00169": {
     "paguemenos": {
-      "preco": 13.59,
+      "preco": 14.89,
       "nome": "Cloridrato De Amiodarona 100mg Com 30 Comprimidos Genérico Geolab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-amiodarona-100mg-com-30-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.59,
+      "preco": 14.89,
       "nome": "Cloridrato De Amiodarona 100mg Com 30 Comprimidos Genérico Geolab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-amiodarona-100mg-com-30-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 13.62,
+      "preco": 14.95,
       "nome": "Cloridrato de Amiodarona 100mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-amiodarona-100mg-generico-medley-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 24.59,
-      "nome": "Atlansil Cloridrato De Amiodarona 100mg 20 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/atlansil-100mg-sanofi-20-comprimidos/p",
+      "preco": 17.62,
+      "nome": "Cloridrato de Amiodarona 100mg Genérico Ranbaxy 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-amiodarona-100mg-generico-ranbaxy-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -6178,19 +6220,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 17.04,
-      "nome": "Cloridrato de Amitriptilina 25mg Genérico Sanofi 30 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-amitriptilina-25mg-generico-sanofi-30-comprimidos-revestidos/p",
+      "preco": 14.66,
+      "nome": "Cloridrato De Amitriptilina 25mg Genérico Neo Química 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-amitriptilina-25mg-generico-neo-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 16.39,
-      "nome": "Amytril Cloridrato De Amitriptilina 10mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/amytril-10mg-schering-plough-30-comprimidos/p",
+      "preco": 3.49,
+      "nome": "Cloridrato De Amitriptilina 25mg Genérico Neo Química 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-amitriptilina-25mg-generico-neo-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 9.09,
+      "preco": 12.44,
       "nome": "Cloridrato De Amitriptilina 25mg 30 Comprimidos Revestidos Medley",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-amitriptilina-25mg-c-30-comp-rev/p",
       "disponivel": true
@@ -6230,13 +6272,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 31.75,
+      "preco": 31.43,
       "nome": "Atentah Cloridrato de Atomoxetina 10mg 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/atentah-10mg-apsen-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 28.99,
+      "preco": 28.41,
       "nome": "Atentah Cloridrato de Atomoxetina 10mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/atentah-10mg-apsen-30-capsulas/p",
       "disponivel": true
@@ -6256,33 +6298,33 @@ const PRECOS_REDES = {
   },
   "med-00174": {
     "paguemenos": {
-      "preco": 5.89,
+      "preco": 6.39,
       "nome": "Flogoral 3mg Sabor Laranja 4 Pastilhas",
       "url": "https://www.paguemenos.com.br/flogoral-laranja-3-0mg-com-4-pastilhas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.89,
+      "preco": 6.39,
       "nome": "Flogoral 3mg Sabor Laranja 4 Pastilhas",
       "url": "https://www.extrafarma.com.br/flogoral-laranja-3-0mg-com-4-pastilhas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 41.61,
+      "preco": 41.19,
       "nome": "Flogo-Rosa Cloridrato De Benzidamina 50mg/ml 100ml Solução Ginecológica",
       "url": "https://www.drogariasaopaulo.com.br/flogo-rosa-liquido-50mgml-100ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.89,
+      "preco": 35.47,
       "nome": "Flogo-Rosa Cloridrato De Benzidamina 50mg/ml 100ml Solução Ginecológica",
       "url": "https://www.drogariaspacheco.com.br/flogo-rosa-liquido-50mgml-100ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 13.99,
-      "nome": "Flogoral Pastilha Sabor Menta 8 unidades",
-      "url": "https://www.drogariavenancio.com.br/flogoral-menta-3mg-8past/p",
+      "preco": 11.19,
+      "nome": "Angino-Rub Cloridrato de Benzidamina 3mg sabor Menta 12 Pastilhas",
+      "url": "https://www.drogariavenancio.com.br/angino-rub-cloridrato-de-benzidamina-3mg-sabor-menta-12-pastilhas/p",
       "disponivel": true
     },
     "panvel": {
@@ -6294,31 +6336,31 @@ const PRECOS_REDES = {
   },
   "med-00175": {
     "paguemenos": {
-      "preco": 11.79,
+      "preco": 10.49,
       "nome": "Dicloridrato de Betaistina 16mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/dicloridrato-de-betaistina-16mg-com-30-comprimidos-generico-prati/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.79,
+      "preco": 10.49,
       "nome": "Dicloridrato de Betaistina 16mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/dicloridrato-de-betaistina-16mg-com-30-comprimidos-generico-prati/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 22.35,
+      "preco": 22.9,
       "nome": "Labirin Dicloridrato De Betaistina 16mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/labirin-apsen-16mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 22.35,
+      "preco": 22.9,
       "nome": "Labirin Dicloridrato De Betaistina 16mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/labirin-apsen-16mg-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 9.74,
+      "preco": 14.99,
       "nome": "Dicloridrato De Betaistina 16mg Aché 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/dicloridrato-de-betaistina-16mg-ache-30-comprimidos/p",
       "disponivel": true
@@ -6332,13 +6374,13 @@ const PRECOS_REDES = {
   },
   "med-00318": {
     "paguemenos": {
-      "preco": 11.79,
+      "preco": 10.49,
       "nome": "Dicloridrato de Betaistina 16mg 30 Comprimidos Genérico Biosintética",
       "url": "https://www.paguemenos.com.br/dicloridrato-de-betaistina-16mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.79,
+      "preco": 10.49,
       "nome": "Dicloridrato de Betaistina 16mg 30 Comprimidos Genérico Biosintética",
       "url": "https://www.extrafarma.com.br/dicloridrato-de-betaistina-16mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
@@ -6382,7 +6424,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 24.89,
+      "preco": 24.39,
       "nome": "Visoptic 5mg/ml Gbio Solução Oftalmica 5ml",
       "url": "https://www.drogariavenancio.com.br/visoptic-5mg-ml-gbio-solucao-oftalmica-5ml/p",
       "disponivel": true
@@ -6396,25 +6438,25 @@ const PRECOS_REDES = {
   },
   "med-00177": {
     "paguemenos": {
-      "preco": 39.59,
+      "preco": 38.99,
       "nome": "Cinetol 2mg 80 Comprimidos",
       "url": "https://www.paguemenos.com.br/cinetol-2mg-com-80-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 39.59,
+      "preco": 38.99,
       "nome": "Cinetol 2mg 80 Comprimidos",
       "url": "https://www.extrafarma.com.br/cinetol-2mg-com-80-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 31.09,
+      "preco": 30.77,
       "nome": "Akineton Cloridrato De Biperideno 4mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/akineton-retard-4mg-30-drageas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 28.39,
+      "preco": 27.82,
       "nome": "Akineton Cloridrato De Biperideno 4mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/akineton-retard-4mg-30-drageas/p",
       "disponivel": true
@@ -6434,19 +6476,19 @@ const PRECOS_REDES = {
   },
   "med-00178": {
     "paguemenos": {
-      "preco": 15.79,
+      "preco": 14.99,
       "nome": "Cloridrato de Bromexina 4mg/5ml Xarope Pediátrico 120ml Genérico Medley",
       "url": "https://www.paguemenos.com.br/cloridrato-de-bromexina-xarope-pediatrico-120ml-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.79,
+      "preco": 14.99,
       "nome": "Cloridrato de Bromexina 4mg/5ml Xarope Pediátrico 120ml Genérico Medley",
       "url": "https://www.extrafarma.com.br/cloridrato-de-bromexina-xarope-pediatrico-120ml-generico-medley/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.32,
+      "preco": 11.26,
       "nome": "Cloridrato De Bromexina 4mg/5ml Ems Infantil Xarope Sabor Morango 120ml",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-bromexina-4mg-5ml-ems-infantil-xarope-sabor-morando-120ml/p",
       "disponivel": true
@@ -6460,33 +6502,33 @@ const PRECOS_REDES = {
   },
   "med-00179": {
     "paguemenos": {
-      "preco": 33.29,
-      "nome": "Cloridrato de Bupropiona 150mg 60 Comprimidos Revestidos de Liberação Prolongada Genérico Geolab",
+      "preco": 27.99,
+      "nome": "Cloridrato de Bupropiona 150mg 60 Comprimidos Revestidos de Liberação Lenta Genérico Geolab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-bupropiona-150mg-com-60-comprimidos-psicotropicos-p-c1-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.29,
-      "nome": "Cloridrato de Bupropiona 150mg 60 Comprimidos Revestidos de Liberação Prolongada Genérico Geolab",
+      "preco": 27.99,
+      "nome": "Cloridrato de Bupropiona 150mg 60 Comprimidos Revestidos de Liberação Lenta Genérico Geolab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-bupropiona-150mg-com-60-comprimidos-psicotropicos-p-c1-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 124.04,
-      "nome": "Cloridrato de Bupropiona 150mg Genérico Nova Química 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/bupropiona-150mg-30-comprimidos-revestidos-de-liberacao-pro-mepha/p",
+      "preco": 27.48,
+      "nome": "Cloridrato de Bupropiona 150mg Genérico Nova Química 60 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/bupropiona-150mg-60-comprimidos-revestidos-de-liberacao-pro-mepha/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 78.31,
-      "nome": "Bup XL Cloridrato De Bupropiona 150mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/bup-xl-150mg-europharma-30-comprimidos/p",
+      "preco": 39.9,
+      "nome": "Cloridrato de Bupropiona 150mg Genérico Geolab 60 comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-bupropiona-150mg-generico-geolab-60-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 47.73,
-      "nome": "Cloridrato de Bupropiona 150mg 30 Comprimidos Ranbaxy",
-      "url": "https://www.drogariavenancio.com.br/clor-de-bupropiona-150mg-30com--c1---g--ranbaxy/p",
+      "preco": 44.99,
+      "nome": "Cloridrato de Bupropiona 150mg Geolab 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-bupropiona-150mg-geolab-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -6516,13 +6558,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 34.3,
+      "preco": 32.59,
       "nome": "Stima Cloridrato de Buspirona 5mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/stima-cloridrato-buspirona-5mg-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 32.35,
+      "preco": 32.41,
       "nome": "Stima 5mg 20 comprimidos",
       "url": "https://www.drogariavenancio.com.br/stima-5mg-20com--c1-/p",
       "disponivel": true
@@ -6560,9 +6602,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.1,
-      "nome": "Cloridrato De Ciclobenzaprina 5mg Biosintética 15 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ciclobenzaprina-5mg-biosintetica-15-comprimidos/p",
+      "preco": 8.79,
+      "nome": "Cloridrato De Ciclobenzaprina 5mg Cimed 30 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ciclobenzaprina-5mg-cimed-30-comprimidos-revestidos-/p",
       "disponivel": true
     },
     "panvel": {
@@ -6626,33 +6668,33 @@ const PRECOS_REDES = {
   },
   "med-00187": {
     "paguemenos": {
-      "preco": 17.19,
+      "preco": 15.19,
       "nome": "Cloridrato de Ciprofloxacino 500mg 14 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/gen-cl-ciprofloxacino-500mg-14cp-rev-prati/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.19,
+      "preco": 15.19,
       "nome": "Cloridrato de Ciprofloxacino 500mg 14 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/gen-cl-ciprofloxacino-500mg-14cp-rev-prati/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 15.32,
-      "nome": "Cloridrato de Ciprofloxacino 500mg Genérico EMS 6 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-ciprofloxacino-500mg-generico-ems-6-comprimidos/p",
+      "preco": 6.99,
+      "nome": "Ciprofloxacino 500mg Genérico Cimed 14 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/ciprofloxacino-500mg-generico-cimed-14-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.79,
-      "nome": "Cloridrato de Ciprofloxacino 500mg Genérico Aché 14 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-ciprofloxacino-500mg-generico-ache-14-comprimidos/p",
+      "preco": 2.97,
+      "nome": "Cloridrato de Ciprofloxacino 500mg Genérico Sandoz 14 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-ciprofloxacino-400mg-generico-sandoz-do-brasil-15-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 22.8,
-      "nome": "Cloridrato De Ciprofloxacino 500mg Pharlab 10 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/-cloridrato-de-ciprofloxacino-500mg-pharlab-10-comprimidos-revestidos/p",
+      "preco": 17.49,
+      "nome": "Cloridrato De Ciprofloxacino 500mg Pharlab 14 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ciprofloxacino-500mg-pharlab-14-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -6664,13 +6706,13 @@ const PRECOS_REDES = {
   },
   "med-00188": {
     "paguemenos": {
-      "preco": 12.17,
+      "preco": 15.19,
       "nome": "Cloridrato de Ciprofloxacino 500mg 14 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/cloridrato-de-ciprofloxacino-500mg-com-14-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.17,
+      "preco": 15.19,
       "nome": "Cloridrato de Ciprofloxacino 500mg 14 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/cloridrato-de-ciprofloxacino-500mg-com-14-comprimidos-generico-medley/p",
       "disponivel": true
@@ -6696,19 +6738,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 28.59,
-      "nome": "Cloridrato De Sibutramina 15mg Genérico EMS 30 comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-sibutramina-15mg-generico-ems-30-comprimidos/p",
+      "preco": 13.68,
+      "nome": "Cloridrato De Sibutramina Monoidratado 15mg Genérico Legrand 30 Cápsulas",
+      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-sibutramina-monoidratado-15mg-generico-legrand-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 31.59,
-      "nome": "Cloridrato de Sibutramina 15mg Genérico Eurofarma 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-sibutramina-15mg-generico-eurofarma-30-comprimidos/p",
+      "preco": 9.43,
+      "nome": "Cloridrato De Sibutramina Monoidratado 15mg Genérico Legrand 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-sibutramina-monoidratado-15mg-generico-legrand-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 32.35,
+      "preco": 27.99,
       "nome": "Cloridrato De Sibutramina Monoidratado 15mg Eurofarma 30 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-sibutramina-monoidratado-15mg-eurofarma-30-capsulas/p",
       "disponivel": true
@@ -6722,15 +6764,15 @@ const PRECOS_REDES = {
   },
   "med-00189": {
     "paguemenos": {
-      "preco": 39.29,
-      "nome": "Cloridrato de Clindamicina 300mg 16 Cápsulas Genérico Teuto",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-clindamicina-com-16-capsulas-generico-teuto/p",
+      "preco": 28.59,
+      "nome": "Cloridrato de Clindamicina 300mg 16 Cápsulas Duras Genérico União Química",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-clindamicina-300mg-com-16-capsulas-generico-uniao-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 39.29,
-      "nome": "Cloridrato de Clindamicina 300mg 16 Cápsulas Genérico Teuto",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-clindamicina-com-16-capsulas-generico-teuto/p",
+      "preco": 28.59,
+      "nome": "Cloridrato de Clindamicina 300mg 16 Cápsulas Duras Genérico União Química",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-clindamicina-300mg-com-16-capsulas-generico-uniao-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -6746,7 +6788,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 44.99,
+      "preco": 38.99,
       "nome": "Cloridrato de Clindamicina 300mg Teuto 16 Cápsulas Duras",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-clindamicina-300-mg-teuto-16-capsulas-dura/p",
       "disponivel": true
@@ -6760,13 +6802,13 @@ const PRECOS_REDES = {
   },
   "med-00326": {
     "paguemenos": {
-      "preco": 17.49,
+      "preco": 15.99,
       "nome": "Dicloridrato de Pramipexol 0,125mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/dicloridrato-de-pramipexol-0-125mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.49,
+      "preco": 15.99,
       "nome": "Dicloridrato de Pramipexol 0,125mg 30 Comprimidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/dicloridrato-de-pramipexol-0-125mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
@@ -6778,13 +6820,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.84,
+      "preco": 21.4,
       "nome": "Quera Dicloridrato de Pramipexol 0,125mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/quera-1mg-cristalia-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.19,
+      "preco": 19.99,
       "nome": "Dicloridrato de Pramipexol 0,125mg 30 Comprimidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/dicloridrato-de-pramipexol-pati-donaduzzi-0125mg-30-comprimidos-/p",
       "disponivel": true
@@ -6792,13 +6834,13 @@ const PRECOS_REDES = {
   },
   "med-00325": {
     "paguemenos": {
-      "preco": 31.99,
+      "preco": 25.99,
       "nome": "Dicloridrato de Pramipexol 0,25mg 30 Comprimidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/dicloridrato-de-pramipexol-0-250mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 31.99,
+      "preco": 25.99,
       "nome": "Dicloridrato de Pramipexol 0,25mg 30 Comprimidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/dicloridrato-de-pramipexol-0-250mg-com-30-comprimidos/p",
       "disponivel": true
@@ -6836,15 +6878,15 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 21.7,
-      "nome": "Cloridrato de Clomipramina 25mg Genérico Germed 20 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-clomipramina-25mg-generico-germed-20-comprimidos/p",
+      "preco": 25.59,
+      "nome": "Cloridrato de Clomipramina 25mg Genérico Sandoz 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-clomipramina-25mg-generico-sandoz-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 31.17,
-      "nome": "Cloridrato de Clomipramina 25mg Genérico Sandoz 20 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-clomipramina-25mg-generico-sandoz-20-comprimidos/p",
+      "preco": 2.06,
+      "nome": "Cloridrato de Clomipramina 25mg Genérico EMS 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-clomipramina-25mg-20-comprimidos-generico/p",
       "disponivel": true
     },
     "venancio": {
@@ -6880,7 +6922,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9,
+      "preco": 8.82,
       "nome": "Amplictil Cloridrato De Clorpromazina 25mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/amplictil-25mg-sanofi-aventis-20-comprimidos/p",
       "disponivel": true
@@ -6912,13 +6954,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 58.8,
+      "preco": 58.2,
       "nome": "Empozze Cloridrato de Dapoxetina 30mg 6 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/empozze-30mg-ems-6-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 54.29,
+      "preco": 53.2,
       "nome": "Prosoy Cloridrato de Dapoxetina 30mg 6 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/prosoy-cloridrato-de-dapoxetina-fqm-6-comprimidos-revestidos/p",
       "disponivel": true
@@ -6938,25 +6980,25 @@ const PRECOS_REDES = {
   },
   "med-00193": {
     "paguemenos": {
-      "preco": 50.99,
+      "preco": 50.49,
       "nome": "Lenix 50mg 14 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/lenix-50mg-com-14-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 50.99,
+      "preco": 50.49,
       "nome": "Lenix 50mg 14 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/lenix-50mg-com-14-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 51.1,
+      "preco": 50.59,
       "nome": "Lenix Cloridrato De Difenidramina 50mg 14 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/lenix-50mg-apsen-14-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.99,
+      "preco": 48.99,
       "nome": "Lenix Cloridrato De Difenidramina 50mg 14 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/lenix-50mg-apsen-14-comprimidos-revestidos/p",
       "disponivel": true
@@ -6976,13 +7018,13 @@ const PRECOS_REDES = {
   },
   "med-00194": {
     "paguemenos": {
-      "preco": 20.29,
+      "preco": 18.99,
       "nome": "Cloridrato de Diltiazem 30mg 50 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/cloridrato-de-diltiazem-30mg-com-50-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 20.29,
+      "preco": 18.99,
       "nome": "Cloridrato de Diltiazem 30mg 50 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/cloridrato-de-diltiazem-30mg-com-50-comprimidos-generico-ems/p",
       "disponivel": true
@@ -6994,10 +7036,10 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.99,
+      "preco": 20.89,
       "nome": "Cloridrato de Diltiazem 60mg Genérico EMS 25 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-diltiazem-60mg-generico-ems-25-capsulas/p",
-      "disponivel": false
+      "disponivel": true
     },
     "venancio": {
       "preco": 25.6,
@@ -7008,16 +7050,16 @@ const PRECOS_REDES = {
   },
   "med-00196": {
     "paguemenos": {
-      "preco": 23.65,
-      "nome": "Cloridrato de Donepezila 10mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/cloridrato-donepezila-10mg-com-30-comprimidos-generico-neo-quimica/p",
-      "disponivel": true
+      "preco": 24.99,
+      "nome": "Donepezil 10mg Com 30 Comprimidos Generico Sandoz",
+      "url": "https://www.paguemenos.com.br/donepezil-10mg-com-30-comprimidos-generico-sandoz/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 23.65,
-      "nome": "Cloridrato de Donepezila 10mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/cloridrato-donepezila-10mg-com-30-comprimidos-generico-neo-quimica/p",
-      "disponivel": true
+      "preco": 24.99,
+      "nome": "Donepezil 10mg Com 30 Comprimidos Generico Sandoz",
+      "url": "https://www.extrafarma.com.br/donepezil-10mg-com-30-comprimidos-generico-sandoz/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
       "preco": 47.48,
@@ -7026,13 +7068,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 47.48,
+      "preco": 9.8,
       "nome": "Cloridrato de Donepezila 10mg Genérico Ranbaxy 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-donepezila-10mg-generico-ranbaxy-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 34.44,
+      "preco": 39.9,
       "nome": "Cloridrato De Donepezila 5mg Biosintética 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-donepezila-5mg-biosintetica-30-comprimidos/p",
       "disponivel": true
@@ -7046,19 +7088,19 @@ const PRECOS_REDES = {
   },
   "med-00199": {
     "paguemenos": {
-      "preco": 45.99,
+      "preco": 41.99,
       "nome": "Cloridrato de Dorzolamida 20mg/ml Solução Oftálmica 5ml Genérico EMS",
       "url": "https://www.paguemenos.com.br/cloridrato-de-dorzolamida-solucao-oftalmica-5ml-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 45.99,
+      "preco": 41.99,
       "nome": "Cloridrato de Dorzolamida 20mg/ml Solução Oftálmica 5ml Genérico EMS",
       "url": "https://www.extrafarma.com.br/cloridrato-de-dorzolamida-solucao-oftalmica-5ml-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 46.59,
+      "preco": 51.25,
       "nome": "Cloridrato de Dorzolamida 2% Genérico EMS 5ml Solução Oftálmica",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-dorzolamida-2-generico-ems-5ml-solucao-oftalmica/p",
       "disponivel": true
@@ -7070,10 +7112,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 54.95,
-      "nome": "Cloridrato De Dorzolamida 2% Aché Solução Oftálmica 5ml",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-dorzolamida-2--ache-5ml-solucao-oftalmica/p",
-      "disponivel": false
+      "preco": 53.89,
+      "nome": "Andrum 20mg/ml Solução Oftálmica 5ml",
+      "url": "https://www.drogariavenancio.com.br/andrum-20mg-ml-solucao-oftalmica-5ml/p",
+      "disponivel": true
     },
     "panvel": {
       "preco": 62.15,
@@ -7084,15 +7126,15 @@ const PRECOS_REDES = {
   },
   "med-00531": {
     "paguemenos": {
-      "preco": 56.99,
-      "nome": "Cloridrato de Dorzolamida 20mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Teuto",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-dorzolamidamaismaleato-de-timolol-5ml-generico-teuto/p",
+      "preco": 41.99,
+      "nome": "Cloridrato de Dorzolamida 20mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico EMS",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-dorzolamida-mais-maleato-de-timolol-5ml-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 56.99,
-      "nome": "Cloridrato de Dorzolamida 20mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Teuto",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-dorzolamidamaismaleato-de-timolol-5ml-generico-teuto/p",
+      "preco": 41.99,
+      "nome": "Cloridrato de Dorzolamida 20mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico EMS",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-dorzolamida-mais-maleato-de-timolol-5ml-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -7122,19 +7164,19 @@ const PRECOS_REDES = {
   },
   "med-00200": {
     "paguemenos": {
-      "preco": 56.99,
+      "preco": 41.99,
       "nome": "Cloridrato Dorzolamida 20mg +maleato De Timolol 5mg 5ml Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/cloridrato-dorzolamida-20mg-maismaleato-de-timolol-5mg-5ml-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 56.99,
+      "preco": 41.99,
       "nome": "Cloridrato Dorzolamida 20mg +maleato De Timolol 5mg 5ml Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/cloridrato-dorzolamida-20mg-maismaleato-de-timolol-5mg-5ml-generico-ranbaxy/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 62.89,
+      "preco": 57.99,
       "nome": "Cloridrato de Dorzolamida + Maleato de Timolol 20mg/mL + 5mg/mL 1 frasco gotejador 5mL Ems",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-dorzolamida-maleato-de-timolol-20mg-ml-5mg-ml-5ml/p",
       "disponivel": true
@@ -7160,19 +7202,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 22.14,
+      "preco": 22.04,
       "nome": "Cloridrato de Doxiciclina 100mg Genérico Sandoz 15 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-doxiciclina-100mg-generico-sandoz-15-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 22.14,
-      "nome": "Cloridrato de Doxiciclina 100mg Genérico Sandoz 15 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-doxiciclina-100mg-generico-sandoz-15-comprimidos/p",
+      "preco": 22.53,
+      "nome": "Doxiclin Cloridrato De Doxiciclina 100mg 15 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/doxiclin-100mg-pharlab-15-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 27.99,
+      "preco": 22.99,
       "nome": "Cloridrato De Doxiciclina 100mg Pharlab 15 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-doxiciclina-100mg-pharlab-15-comprimidos-revestidos/p",
       "disponivel": true
@@ -7248,7 +7290,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 73.89,
+      "preco": 72.49,
       "nome": "Relestat 0,5mg Allergan 5ml Solução Oftálmica",
       "url": "https://www.drogariavenancio.com.br/relestat-05mg-allergan-5ml-solucao-oftalmica/p",
       "disponivel": true
@@ -7288,27 +7330,27 @@ const PRECOS_REDES = {
   },
   "med-00606": {
     "paguemenos": {
-      "preco": 6.49,
-      "nome": "Paracetamol 750mg 10 Comprimidos",
-      "url": "https://www.paguemenos.com.br/paracetamol-750mg-20-comprimidos/p",
+      "preco": 9.99,
+      "nome": "Paracetamol 15ml Genérico Medsaúde",
+      "url": "https://www.paguemenos.com.br/paracetamol-15-ml-generico-med-saude/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 6.49,
-      "nome": "Paracetamol 750mg 10 Comprimidos",
-      "url": "https://www.extrafarma.com.br/paracetamol-750mg-20-comprimidos/p",
+      "preco": 9.99,
+      "nome": "Paracetamol 15ml Genérico Medsaúde",
+      "url": "https://www.extrafarma.com.br/paracetamol-15-ml-generico-med-saude/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 10.59,
-      "nome": "Paracetamol 750mg Genérico Cimed 10 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/paracetamol-750mg-generico-cimed-20-comprimidos/p",
+      "preco": 1.45,
+      "nome": "Paracetamol 500mg + Fosfato de Codeína 30mg Genérico Eurofarma 12 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/paracetamol-fosfato-de-codeina-500mg-30mg-generico-eurofarma-60ml-suspensao/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.99,
-      "nome": "Paracetamol 500mg + Cloridrato de Pseudoefedrina 30mg Genérico EMS 24 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/paracetamol-cloridrato-de-pseudoefedrina-generico-ems-24-comprimidos/p",
+      "preco": 1.44,
+      "nome": "Paracetamol 500mg + Codeína 30mg Genérico Biolab 12 comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/paracetamol-500mg-codeina-30mg-12-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -7326,13 +7368,13 @@ const PRECOS_REDES = {
   },
   "med-00255": {
     "paguemenos": {
-      "preco": 12.89,
+      "preco": 13.89,
       "nome": "Paracetamol 500mg + Cloridrato de Pseudoefedrina 30mg 24 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/paracetamolmaiscloridrato-de-pseudoeferina-500mgmais30mg-com-24-comprimidos-revestidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.89,
+      "preco": 13.89,
       "nome": "Paracetamol 500mg + Cloridrato de Pseudoefedrina 30mg 24 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/paracetamolmaiscloridrato-de-pseudoeferina-500mgmais30mg-com-24-comprimidos-revestidos-generico-ems/p",
       "disponivel": true
@@ -7364,31 +7406,31 @@ const PRECOS_REDES = {
   },
   "med-00608": {
     "paguemenos": {
-      "preco": 22.59,
+      "preco": 18.89,
       "nome": "Cloridrato De Tramadol 37,5mg + Paracetamol 325mg 10 Comprimidos Genérico Aché",
       "url": "https://www.paguemenos.com.br/cloridrato-de-tramadol-37-5mg-mais-paracetamol-325mg-10-comprimidos-generico-ache/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.59,
+      "preco": 18.89,
       "nome": "Cloridrato De Tramadol 37,5mg + Paracetamol 325mg 10 Comprimidos Genérico Aché",
       "url": "https://www.extrafarma.com.br/cloridrato-de-tramadol-37-5mg-mais-paracetamol-325mg-10-comprimidos-generico-ache/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.45,
+      "preco": 39.05,
       "nome": "Atrace Cloridrato de Tramadol 37,5mg + Paracetamol 325mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/atrace-37-5mg--325mg-momenta-farma-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 39.59,
+      "preco": 39.05,
       "nome": "Atrace Cloridrato de Tramadol 37,5mg + Paracetamol 325mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/atrace-37-5mg--325mg-momenta-farma-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 33.59,
+      "preco": 32.99,
       "nome": "Gésico Duo 37,5mg + 325mg 10 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/gesico-duo-375mg---325mg-10-comprimidos/p",
       "disponivel": true
@@ -7402,13 +7444,13 @@ const PRECOS_REDES = {
   },
   "med-00206": {
     "paguemenos": {
-      "preco": 12.99,
+      "preco": 9.69,
       "nome": "Cloridrato de Fexofenadina 180mg 10 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/cloridrato-de-fexofenadina-180mg-medley-caixa-com-10-comprimidos-revestidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.99,
+      "preco": 9.69,
       "nome": "Cloridrato de Fexofenadina 180mg 10 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/cloridrato-de-fexofenadina-180mg-medley-caixa-com-10-comprimidos-revestidos/p",
       "disponivel": true
@@ -7426,9 +7468,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.39,
-      "nome": "Cloridrato De Fexofenadina 120mg Ems 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-fexofenadina-120mg-ems-10-comprimidos/p",
+      "preco": 12.99,
+      "nome": "Cloridrato de Fexofenadina Cimed 120mg 10 comprimidos revestidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-fexofenadina-cimed-120mg-10-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -7478,13 +7520,13 @@ const PRECOS_REDES = {
   },
   "med-00209": {
     "paguemenos": {
-      "preco": 5.39,
+      "preco": 3.99,
       "nome": "Cloridrato De Fluoxetina 20mg 30 Comprimidos Genérico Prati Donaduzzi",
       "url": "https://www.paguemenos.com.br/cloridrato-de-fluoxetina-20mg-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.39,
+      "preco": 3.99,
       "nome": "Cloridrato De Fluoxetina 20mg 30 Comprimidos Genérico Prati Donaduzzi",
       "url": "https://www.extrafarma.com.br/cloridrato-de-fluoxetina-20mg-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
@@ -7495,10 +7537,16 @@ const PRECOS_REDES = {
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-fluoxetina-20mg-legrand-teuto-30-capsulas/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 2.99,
+      "nome": "Cloridrato De Fluoxetina 20mg Genérico Medquímica 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-fluoxetina-20mg-generico-medquimica-30-capsulas/p",
+      "disponivel": true
+    },
     "venancio": {
-      "preco": 8.44,
-      "nome": "Cloridrato de Fluoxetina 20mg Prati Donaduzzi 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/clor-fluoxetina-20mg-30com--c1--g--prati-d/p",
+      "preco": 6.99,
+      "nome": "Cloridrato De Fluoxetina 20mg Com 30 Cápsulas Teuto",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-fluoxetina-20mg-com-30-capsulas/p",
       "disponivel": true
     },
     "panvel": {
@@ -7511,14 +7559,14 @@ const PRECOS_REDES = {
   "med-00210": {
     "paguemenos": {
       "preco": 17.19,
-      "nome": "Cloridrato De Hidroxizina Solução 2mg/Ml Frasco 100ml Genérico Pharlab",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-hidroxizina-solucao-2mg-ml-frasco-100ml-generico-pharlab/p",
+      "nome": "Cloridrato de Hidroxizina 2mg/ml Solução Oral 100ml Genérico Globo",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-hidroxizina-2mg-100ml-globo-generico/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 17.19,
-      "nome": "Cloridrato De Hidroxizina Solução 2mg/Ml Frasco 100ml Genérico Pharlab",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-hidroxizina-solucao-2mg-ml-frasco-100ml-generico-pharlab/p",
+      "nome": "Cloridrato de Hidroxizina 2mg/ml Solução Oral 100ml Genérico Globo",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-hidroxizina-2mg-100ml-globo-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -7528,13 +7576,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.99,
+      "preco": 24.19,
       "nome": "Cloridrato de Hidroxizina 2mg/ml Genérico Legrand 120ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-hidroxizina-xarope-generico-legrand-120ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 19.89,
+      "preco": 18.99,
       "nome": "Cloridrato de Hidroxizina Solução 2mg/ml 120ml Germed Pharma",
       "url": "https://www.drogariavenancio.com.br/clor-hidroxizina-2mg-ml-sol-or-120ml-g-germed/p",
       "disponivel": true
@@ -7548,28 +7596,28 @@ const PRECOS_REDES = {
   },
   "med-00321": {
     "paguemenos": {
-      "preco": 21.29,
-      "nome": "Cloridrato De Hidroxizina 2mg/Ml Solução Oral 100ml Generico Legrand",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-hidroxizina-2mg-ml-solucao-oral-100ml-generico-legrand/p",
-      "disponivel": false
+      "preco": 17.19,
+      "nome": "Dicloridrato de Hidroxizina 2mg/ml Solução Oral 120ml + Copo Dosador Genérico Geolab",
+      "url": "https://www.paguemenos.com.br/dicloridrato-de-hidroxizina-solucao-oral-2mg-ml-frasco-120ml-mais-copo-dosador-generico-geolab/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.29,
-      "nome": "Cloridrato De Hidroxizina 2mg/Ml Solução Oral 100ml Generico Legrand",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-hidroxizina-2mg-ml-solucao-oral-100ml-generico-legrand/p",
-      "disponivel": false
+      "preco": 17.19,
+      "nome": "Dicloridrato de Hidroxizina 2mg/ml Solução Oral 120ml + Copo Dosador Genérico Geolab",
+      "url": "https://www.extrafarma.com.br/dicloridrato-de-hidroxizina-solucao-oral-2mg-ml-frasco-120ml-mais-copo-dosador-generico-geolab/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.14,
-      "nome": "Dicloridrato de Hidroxizina 25mg Genérico Germed Pharma 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/dicloridrato-de-hidroxizina-25mg-generico-germed-pharma-30-comprimidos/p",
-      "disponivel": true
+      "preco": 22.89,
+      "nome": "Dicloridrato De Hidroxizina 2mg/ml Genérico Medquimica 100ml Com Copo dosador",
+      "url": "https://www.drogariasaopaulo.com.br/dicloridrato-de-hidroxizina-2mg-ml-generico-medquimica-100ml-com-copo-dosador/p",
+      "disponivel": false
     },
     "pacheco": {
-      "preco": 44.16,
-      "nome": "Dicloridrato de Hidroxizina 25mg Genérico Germed Pharma 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/dicloridrato-de-hidroxizina-25mg-generico-germed-pharma-30-comprimidos/p",
-      "disponivel": true
+      "preco": 28.43,
+      "nome": "Dicloridrato De Hidroxizina 2mg/ml Genérico Medquimica 100ml Com Copo dosador",
+      "url": "https://www.drogariaspacheco.com.br/dicloridrato-de-hidroxizina-2mg-ml-generico-medquimica-100ml-com-copo-dosador/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 38.99,
@@ -7580,31 +7628,31 @@ const PRECOS_REDES = {
   },
   "med-00461": {
     "paguemenos": {
-      "preco": 49.49,
+      "preco": 48.59,
       "nome": "Pergo 2mg/ml Solução Oral 120ml + Copo Dosador",
       "url": "https://www.paguemenos.com.br/pergo-2mg-ml-solucao-oral-120ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 49.49,
+      "preco": 48.59,
       "nome": "Pergo 2mg/ml Solução Oral 120ml + Copo Dosador",
       "url": "https://www.extrafarma.com.br/pergo-2mg-ml-solucao-oral-120ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 53.32,
+      "preco": 52.78,
       "nome": "Pergo Cloridrato De Hidroxizina 2mg/ml 120ml Solução Oral",
       "url": "https://www.drogariasaopaulo.com.br/pergo-solucao-oral-2mg-ml-eurofarma-120ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 46.99,
+      "preco": 45.17,
       "nome": "Pergo Cloridrato De Hidroxizina 2mg/ml 120ml Solução Oral",
       "url": "https://www.drogariaspacheco.com.br/pergo-solucao-oral-2mg-ml-eurofarma-120ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 46.99,
+      "preco": 46.09,
       "nome": "Pergo Eurofarma 120ml Solução Oral",
       "url": "https://www.drogariavenancio.com.br/pergo-eurofarma-120ml-solucao-oral/p",
       "disponivel": true
@@ -7618,25 +7666,25 @@ const PRECOS_REDES = {
   },
   "med-00211": {
     "paguemenos": {
-      "preco": 40.99,
+      "preco": 39.79,
       "nome": "Cronobê 5000mcg Solução Injetável 2 Ampolas 2,5ml",
       "url": "https://www.paguemenos.com.br/cronobe-5000mg-com-2-ampolas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 40.99,
+      "preco": 39.79,
       "nome": "Cronobê 5000mcg Solução Injetável 2 Ampolas 2,5ml",
       "url": "https://www.extrafarma.com.br/cronobe-5000mg-com-2-ampolas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 44.51,
+      "preco": 44.06,
       "nome": "Cronobê Cloridrato de Hidroxocobalamina 5000mcg 2 Ampolas Injetáveis",
       "url": "https://www.drogariasaopaulo.com.br/cronobe-injetavel-5000mcg-2-ampolas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 35.69,
+      "preco": 34.98,
       "nome": "Cronobê Cloridrato de Hidroxocobalamina 5000mcg 2 Ampolas Injetáveis",
       "url": "https://www.drogariaspacheco.com.br/cronobe-injetavel-5000mcg-2-ampolas/p",
       "disponivel": true
@@ -7656,31 +7704,31 @@ const PRECOS_REDES = {
   },
   "med-00212": {
     "paguemenos": {
-      "preco": 159.99,
+      "preco": 157.99,
       "nome": "Ivahart 5mg 60 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/ivahart-5mg-com-60-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 159.99,
+      "preco": 157.99,
       "nome": "Ivahart 5mg 60 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/ivahart-5mg-com-60-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 166.3,
+      "preco": 164.62,
       "nome": "Ivahart Cloridrato De Ivabradina 5mg 60 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/ivahart-5mg-torrent-50-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 158.99,
+      "preco": 152.77,
       "nome": "Ivahart Cloridrato De Ivabradina 5mg 60 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/ivahart-5mg-torrent-50-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 158.99,
+      "preco": 155.89,
       "nome": "Ivahart 5mg Torrent 60 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/ivahart-5mg-torrent-60-comprimidos/p",
       "disponivel": true
@@ -7694,13 +7742,13 @@ const PRECOS_REDES = {
   },
   "med-00213": {
     "paguemenos": {
-      "preco": 78.99,
+      "preco": 81.99,
       "nome": "Cloridrato de Lercanidipino 10mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/cloridrato-de-lercanidipino-10mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 78.99,
+      "preco": 81.99,
       "nome": "Cloridrato de Lercanidipino 10mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/cloridrato-de-lercanidipino-10mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
@@ -7718,10 +7766,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 96.94,
+      "preco": 97.07,
       "nome": "Zanidip 10mg Apsen 20 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/zanidip-10mg-20com/p",
-      "disponivel": false
+      "disponivel": true
     },
     "panvel": {
       "preco": 114.49,
@@ -7750,7 +7798,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.69,
+      "preco": 13.42,
       "nome": "Neozine Maleato De Levomepromazina 25mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/neozine-25mg-sanofi-aventis-20-comprimidos/p",
       "disponivel": true
@@ -7782,19 +7830,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.37,
+      "preco": 12.14,
       "nome": "Labcaína Geleia 2% Cloridrato de Lidocaína 20mg/g 1 Bisnaga com 30g",
       "url": "https://www.drogariasaopaulo.com.br/labcaina-geleia-2--20mg-g-pharlab-1-bisnaga-com-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.89,
+      "preco": 12.24,
       "nome": "Lidial Cloridrato De Lidocaína 50mg/g 25g Pomada",
       "url": "https://www.drogariaspacheco.com.br/lidial-50mg-g-delta-1-bisnaga-25g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.89,
+      "preco": 12.49,
       "nome": "Lidial 50mg/g Cellera Farma Pomada Dermatológica 25g",
       "url": "https://www.drogariavenancio.com.br/lidial-50mg-g-cellera-farma-pomada-dermatologica-25g/p",
       "disponivel": true
@@ -7820,15 +7868,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 2.65,
-      "nome": "Cloridrato de Loperamida 2mg Genérico Sandoz 12 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-loperamida-2mg-generico-sandoz-12-comprimidos/p",
+      "preco": 1.99,
+      "nome": "Diasec Cloridrato De Loperamida 2mg 12 comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/diasec-2mg-sandoz-do-brasil-12-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 2.65,
-      "nome": "Cloridrato de Loperamida 2mg Genérico Sandoz 12 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-loperamida-2mg-generico-sandoz-12-comprimidos/p",
+      "preco": 1.99,
+      "nome": "Diasec Cloridrato De Loperamida 2mg 12 comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/diasec-2mg-sandoz-do-brasil-12-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -7846,15 +7894,15 @@ const PRECOS_REDES = {
   },
   "med-00217": {
     "paguemenos": {
-      "preco": 210.99,
-      "nome": "Lutab 20mg 30 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/lutab-20mg-com-30-comprimidos/p",
+      "preco": 110.05,
+      "nome": "Luratt 20mg 30 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/luratt-20mg-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 210.99,
-      "nome": "Lutab 20mg 30 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/lutab-20mg-com-30-comprimidos/p",
+      "preco": 110.05,
+      "nome": "Luratt 20mg 30 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/luratt-20mg-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -7864,9 +7912,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 103.99,
-      "nome": "Lubip Cloridrato de Lurasidona 20mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/lubip-cloridrato-lurasidona-20mg-30-comprimidos/p",
+      "preco": 93.99,
+      "nome": "Luratt Cloridrato de Lurasidona 20mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/luratt-cloridrato-de-lurasidona-20mg-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -7884,13 +7932,13 @@ const PRECOS_REDES = {
   },
   "med-00218": {
     "paguemenos": {
-      "preco": 177.99,
+      "preco": 182.99,
       "nome": "Rubenti 200mg 30 Cápsulas Duras de Liberação Prolongada",
       "url": "https://www.paguemenos.com.br/rubenti-200mg-com-30-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 177.99,
+      "preco": 182.99,
       "nome": "Rubenti 200mg 30 Cápsulas Duras de Liberação Prolongada",
       "url": "https://www.extrafarma.com.br/rubenti-200mg-com-30-capsulas/p",
       "disponivel": true
@@ -7902,13 +7950,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 174.99,
+      "preco": 171.49,
       "nome": "Rubenti Cloridrato De Mebeverina 200mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/rubenti-200mg-abbott-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 56.36,
+      "preco": 56.37,
       "nome": "Rubenti 200mg Abbott 14 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/rubenti-200mg-abbott-14-capsulas/p",
       "disponivel": false
@@ -7922,31 +7970,31 @@ const PRECOS_REDES = {
   },
   "med-00221": {
     "paguemenos": {
-      "preco": 5.39,
+      "preco": 4.99,
       "nome": "Cloridrato de Metformina 850mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/cloridrato-de-metformina-850mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.39,
+      "preco": 4.99,
       "nome": "Cloridrato de Metformina 850mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/cloridrato-de-metformina-850mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 8.49,
+      "preco": 8.99,
       "nome": "Cloridrato de Metformina 500mg Genérico Teuto 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-metformina-500mg-generico-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.49,
+      "preco": 9.34,
       "nome": "Cloridrato de Metformina 500mg Genérico Teuto 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-metformina-500mg-generico-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.79,
+      "preco": 7.99,
       "nome": "Cloridrato De Metformina 500mg Teuto 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/clor-metformina-500mg-30cpr-g-teuto/p",
       "disponivel": true
@@ -7960,13 +8008,13 @@ const PRECOS_REDES = {
   },
   "med-00228": {
     "paguemenos": {
-      "preco": 94.99,
+      "preco": 94.49,
       "nome": "Vildagliptina 50mg + Cloridrato de Metformina 1000mg 60 Comprimidos Revestidos Genérico Althaia",
       "url": "https://www.paguemenos.com.br/vildagliptina-metformina-50g-1000mg-x60-comprimidos-revestidos-althaia/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 94.99,
+      "preco": 94.49,
       "nome": "Vildagliptina 50mg + Cloridrato de Metformina 1000mg 60 Comprimidos Revestidos Genérico Althaia",
       "url": "https://www.extrafarma.com.br/vildagliptina-metformina-50g-1000mg-x60-comprimidos-revestidos-althaia/p",
       "disponivel": true
@@ -7984,9 +8032,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 107.72,
-      "nome": "Vildagliptina + Cloridrato de Metformina 50mg + 500mg Althaia 60 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/vildagliptina-clor-metformina--50mg-500mg--60com--g--althaia/p",
+      "preco": 110.99,
+      "nome": "Vildagliptina + Cloridrato de Metformina 50mg + 1000mg Althaia 60 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/vildagliptina-clor-metformina--50mg-1000mg--60com--c1--g--althaia/p",
       "disponivel": true
     },
     "panvel": {
@@ -7998,13 +8046,13 @@ const PRECOS_REDES = {
   },
   "med-00421": {
     "paguemenos": {
-      "preco": 44.29,
+      "preco": 39.29,
       "nome": "Fosfato de Sitagliptina 25mg 30 Comprimidos Revestidos Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/fosfato-de-sitagliptina-25mg-com-30-comprimidos-genericos-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 44.29,
+      "preco": 39.29,
       "nome": "Fosfato de Sitagliptina 25mg 30 Comprimidos Revestidos Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/fosfato-de-sitagliptina-25mg-com-30-comprimidos-genericos-ranbaxy/p",
       "disponivel": true
@@ -8022,7 +8070,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 51.22,
+      "preco": 46.99,
       "nome": "Fosfato de Sitagliptina 25mg Ranbaxy 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/fosf-sitagliptina-25mg-30com--g--ranbaxy/p",
       "disponivel": true
@@ -8042,19 +8090,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 82.16,
-      "nome": "Januvia Fosfato De Sitagliptina Monoidratado 25mg 28 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/januvia-25mg-merck-28-comprimidos/p",
+      "preco": 71.04,
+      "nome": "Sitglu Fosfato De Sitagliptina 50mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/sitglu-50mg-brace-pharma-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 72.79,
-      "nome": "Januvia Fosfato De Sitagliptina Monoidratado 25mg 28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/januvia-25mg-merck-28-comprimidos/p",
+      "preco": 57.15,
+      "nome": "Sitglu Fosfato De Sitagliptina 50mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/sitglu-50mg-brace-pharma-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 71.29,
+      "preco": 58.32,
       "nome": "Sitglu 50mg Brace Pharma 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/sitglu-50mg-30com/p",
       "disponivel": true
@@ -8062,31 +8110,31 @@ const PRECOS_REDES = {
   },
   "med-00229": {
     "paguemenos": {
-      "preco": 15.6,
+      "preco": 13.99,
       "nome": "Cloridrato de Metilfenidato 10mg 30 Comprimidos Genérico Althaia",
       "url": "https://www.paguemenos.com.br/cloridrato-de-metilfenidato-10mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.6,
+      "preco": 13.99,
       "nome": "Cloridrato de Metilfenidato 10mg 30 Comprimidos Genérico Althaia",
       "url": "https://www.extrafarma.com.br/cloridrato-de-metilfenidato-10mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 49.99,
-      "nome": "Attenze Cloridrato De Metilfenidato 10mg 30 comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/attenze-10mg-europharma-30-comprimidos/p",
+      "preco": 21.99,
+      "nome": "Cloridrato de Metilfenidato 10mg Genérico Ems 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-metilfenidrato-10mg-ems-c30cpr--a3-ems/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 44.19,
+      "preco": 43.31,
       "nome": "Attenze Cloridrato De Metilfenidato 10mg 30 comprimidos",
       "url": "https://www.drogariaspacheco.com.br/attenze-10mg-europharma-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.99,
+      "preco": 25.99,
       "nome": "Cloridrato de Metilfenidato 10mg 30 Comprimidos Althaia",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-metilfenidato-10mg-30-comprimidos-althaia/p",
       "disponivel": true
@@ -8112,9 +8160,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 3.92,
-      "nome": "Cloridrato de Metoclopramida 4mg Genérico Medley 10ml",
-      "url": "https://www.drogariasaopaulo.com.br/cloridrato-metoclopramida-4mg-ml-10ml-gotas-g-medley/p",
+      "preco": 4.3,
+      "nome": "Cloridrato De Metoclopramida SF 10mg Genérico Medley 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/metoclopramida-sf-generico-medley-20-comprimidos/p",
       "disponivel": false
     },
     "pacheco": {
@@ -8156,7 +8204,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 13.19,
+      "preco": 12.99,
       "nome": "Plasil 10mg Sanofi 20 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/plasil-10mg-sanofi-aventis-20-comprimidos/p",
       "disponivel": true
@@ -8182,13 +8230,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 36.23,
+      "preco": 35.87,
       "nome": "Oftalmox Cloridrato De Moxifloxacino 5mg/ml 5ml Solução Oftálmica Estéril",
       "url": "https://www.drogariasaopaulo.com.br/oftalmox-5mg-ml-geolab-5ml-solucao-oftalmica-esteril-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.6,
+      "preco": 32.23,
       "nome": "Oftalmox Cloridrato De Moxifloxacino 5mg/ml 5ml Solução Oftálmica Estéril",
       "url": "https://www.drogariaspacheco.com.br/oftalmox-5mg-ml-geolab-5ml-solucao-oftalmica-esteril-/p",
       "disponivel": true
@@ -8220,7 +8268,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 23.49,
+      "preco": 27.39,
       "nome": "Colírio Moura Brasil 20ml Solução",
       "url": "https://www.drogariavenancio.com.br/colirio-moura-brasil-20ml-solucao/p",
       "disponivel": true
@@ -8272,13 +8320,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 34.78,
+      "preco": 33.93,
       "nome": "Unizinco Zinco 17,60mg/ml 100ml Solução Oral + Copo Medidor",
       "url": "https://www.drogariasaopaulo.com.br/unizinco-17-60mg-ml-myralis-100ml--copo-medidor/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.89,
+      "preco": 29.29,
       "nome": "Unizinco Zinco 17,60mg/ml 100ml Solução Oral + Copo Medidor",
       "url": "https://www.drogariaspacheco.com.br/unizinco-17-60mg-ml-myralis-100ml--copo-medidor/p",
       "disponivel": true
@@ -8330,7 +8378,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.39,
+      "preco": 12.19,
       "nome": "Otosylase 0,250mg/ml + 10.000UI/ml + 3,5mg/ml + 20mg/ml Geolab Solução Otológica 10ml",
       "url": "https://www.drogariavenancio.com.br/otosylase-0250mg-ml---10-000ui-ml---35mg-ml---20mg-ml-geolab-solucao-otologica-10ml/p",
       "disponivel": true
@@ -8344,25 +8392,25 @@ const PRECOS_REDES = {
   },
   "med-00237": {
     "paguemenos": {
-      "preco": 143.99,
+      "preco": 133.99,
       "nome": "Uninaltrex 50mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/uninaltrex-50mg-com-30-comprimidos-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 143.99,
+      "preco": 133.99,
       "nome": "Uninaltrex 50mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/uninaltrex-50mg-com-30-comprimidos-p/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 147.59,
+      "preco": 143.08,
       "nome": "Uninaltrex Cloridrato De Naltrexona 50mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/uninaltrex-50mg-uniao-quimica-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 144.64,
+      "preco": 143.08,
       "nome": "Uninaltrex Cloridrato De Naltrexona 50mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/uninaltrex-50mg-uniao-quimica-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -8382,16 +8430,16 @@ const PRECOS_REDES = {
   },
   "med-00239": {
     "paguemenos": {
-      "preco": 11.69,
-      "nome": "Cloridrato de Naratriptana 2,5mg 4 Comprimidos Revestidos Genérico Multilab",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-naratriptana-2-5mg-com-4-comprimidos-generico/p",
-      "disponivel": true
+      "preco": 11.89,
+      "nome": "Cloridrato de Naratriptana 2,5mg com 4 comprimidos revestidos Genérico ems",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-naratriptana-2-5mg-com-4-comprimidos-revestidos-generico-ems/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 11.69,
-      "nome": "Cloridrato de Naratriptana 2,5mg 4 Comprimidos Revestidos Genérico Multilab",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-naratriptana-2-5mg-com-4-comprimidos-generico/p",
-      "disponivel": true
+      "preco": 11.89,
+      "nome": "Cloridrato de Naratriptana 2,5mg com 4 comprimidos revestidos Genérico ems",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-naratriptana-2-5mg-com-4-comprimidos-revestidos-generico-ems/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
       "preco": 14.9,
@@ -8406,7 +8454,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.34,
+      "preco": 12.82,
       "nome": "Cloridrato de Naratriptana 2,5mg Medley 4 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/clor-naratriptana-25mg-4com--g--medley/p",
       "disponivel": true
@@ -8420,21 +8468,27 @@ const PRECOS_REDES = {
   },
   "med-00240": {
     "paguemenos": {
-      "preco": 45.99,
+      "preco": 42.29,
       "nome": "Cloridrato de Nebivolol 5mg 30 Comprimidos Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-nebivolol-5mg-com-30-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 45.99,
+      "preco": 42.29,
       "nome": "Cloridrato de Nebivolol 5mg 30 Comprimidos Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-nebivolol-5mg-com-30-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 56.96,
+      "preco": 56.39,
       "nome": "Nebitah Cloridrato De Nebivolol 5mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/nebitah-5mg-ache-30-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 47.32,
+      "nome": "Nebitah Cloridrato De Nebivolol 5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/nebitah-5mg-ache-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -8452,13 +8506,13 @@ const PRECOS_REDES = {
   },
   "med-00241": {
     "paguemenos": {
-      "preco": 14.41,
+      "preco": 20.59,
       "nome": "Cloridrato de Nortriptilina 25mg 30 Cápsulas Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/cloridrato-de-nortriptilina-25mg-com-30-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.41,
+      "preco": 20.59,
       "nome": "Cloridrato de Nortriptilina 25mg 30 Cápsulas Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/cloridrato-de-nortriptilina-25mg-com-30-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
@@ -8470,16 +8524,16 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 27.23,
+      "preco": 17.99,
       "nome": "Cloridrato de Nortriptilina 25mg Genérico Delta 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-nortriptilina-25mg-generico-delta-30-capsulas-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 27.23,
-      "nome": "Cloridrato de Nortriptilina 25mg 30 Cápsulas Cellera Farma",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-nortriptilina-25mg-cellera-30-capsul/p",
-      "disponivel": true
+      "preco": 31.65,
+      "nome": "Cloridrato De Nortriptilina 25mg Eurofarma 30 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/clor-nortriptilina-25mg-30cpr-c1--g-euro/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 39.11,
@@ -8490,25 +8544,25 @@ const PRECOS_REDES = {
   },
   "med-00242": {
     "paguemenos": {
-      "preco": 38.99,
+      "preco": 37.59,
       "nome": "Cloridrato de Olopatadina 2mg/ml Solução Oftálmica 2,5ml Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/cloridrato-de-olopatadina-2mg-ml-solucao-oftalmica-com-2-5-ml-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 38.99,
+      "preco": 37.59,
       "nome": "Cloridrato de Olopatadina 2mg/ml Solução Oftálmica 2,5ml Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/cloridrato-de-olopatadina-2mg-ml-solucao-oftalmica-com-2-5-ml-generico-ranbaxy/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.39,
+      "preco": 43.33,
       "nome": "Cloridrato de Olopatadina 2,22mg/ml Genérico Ranbaxy 2,5ml 1 Frasco",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-olopatadina-2mg-ml-generico-ranbaxy-1-frasco-com-2-5ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 39.59,
+      "preco": 43.55,
       "nome": "Cloridrato de Olopatadina 2,22mg/ml Genérico Ranbaxy 2,5ml 1 Frasco",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-olopatadina-2mg-ml-generico-ranbaxy-1-frasco-com-2-5ml/p",
       "disponivel": true
@@ -8517,7 +8571,7 @@ const PRECOS_REDES = {
       "preco": 42.45,
       "nome": "Cloridrato De Olopatadina 2mg/ml Ranbaxy Solução Oftálmica 2,5ml",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-olopatadina-2mg-ml-ranbaxy-solucao-oftalmica-25ml/p",
-      "disponivel": true
+      "disponivel": false
     },
     "panvel": {
       "preco": 52.99,
@@ -8528,33 +8582,33 @@ const PRECOS_REDES = {
   },
   "med-00243": {
     "paguemenos": {
-      "preco": 18.69,
+      "preco": 17.19,
       "nome": "Cloridrato de Ondansetrona 4mg 10 Comprimidos Orodispersíveis Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-ondansetrona-4mg-10-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.69,
+      "preco": 17.19,
       "nome": "Cloridrato de Ondansetrona 4mg 10 Comprimidos Orodispersíveis Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-ondansetrona-4mg-10-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 22.83,
+      "preco": 22.84,
       "nome": "Cloridrato de Ondansetrona 4mg Genérico Althaia 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-ondansetrona-4mg-generico-althaia-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.89,
+      "preco": 15.87,
       "nome": "Volig Cloridrato De Ondansetrona 4mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/volig-4mg-legrand-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.93,
-      "nome": "Cloridrato de Ondansetrona 4mg União Química 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-ondansetrona-4mg-uniao-quimica-10-comprimidos/p",
+      "preco": 12.49,
+      "nome": "Cloridrato De Ondansetrona Di-Hidratado 4mg Pharlab 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/clor-ondansetrona-4mg-10com--g--pharlab/p",
       "disponivel": true
     },
     "panvel": {
@@ -8584,7 +8638,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 38.29,
+      "preco": 37.52,
       "nome": "Retemic Cloridrato De Oxibutinina 5mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/retemic-5mg-apsen-30-comprimidos/p",
       "disponivel": true
@@ -8663,7 +8717,7 @@ const PRECOS_REDES = {
       "preco": 11.62,
       "nome": "Cloridrato De Oximetazolina 0,5 mg/ml Ems Solução Nasal 30ml",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-oximetazolina-05-mg-ml-ems-solucao-nasal-30ml/p",
-      "disponivel": true
+      "disponivel": false
     },
     "panvel": {
       "preco": 18.33,
@@ -8674,31 +8728,31 @@ const PRECOS_REDES = {
   },
   "med-00248": {
     "paguemenos": {
-      "preco": 8.6,
-      "nome": "Cloridrato de Paroxetina 20mg 30 Comprimidos Revestidos Genérico Zydus",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-paroxetina-20mg-com-30-comprimidos-generico-zydus/p",
+      "preco": 12.19,
+      "nome": "Gn Paroxetina 20mg 30cp Legran C1",
+      "url": "https://www.paguemenos.com.br/gn-paroxetina-20mg-30cp-legran-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.6,
-      "nome": "Cloridrato de Paroxetina 20mg 30 Comprimidos Revestidos Genérico Zydus",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-paroxetina-20mg-com-30-comprimidos-generico-zydus/p",
+      "preco": 12.19,
+      "nome": "Gn Paroxetina 20mg 30cp Legran C1",
+      "url": "https://www.extrafarma.com.br/gn-paroxetina-20mg-30cp-legran-c1/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 102.99,
-      "nome": "Moratus Cloridrato De Paroxetina 20mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/moratus-20mg-medley-30-comprimidos/p",
+      "preco": 106.32,
+      "nome": "Paxtrat Cloridrato De Paroxetina 20mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/paxtrat-20mg-uniao-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 93.29,
+      "preco": 91.42,
       "nome": "Paxtrat Cloridrato De Paroxetina 20mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/paxtrat-20mg-uniao-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 64.76,
+      "preco": 64.84,
       "nome": "Pondera XR 12,5mg 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/pondera-xr-125mg-30cpr/p",
       "disponivel": true
@@ -8736,7 +8790,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.62,
+      "preco": 20.99,
       "nome": "Cloridrato de Paroxetina 20mg 30 Comprimidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/clor-paroxetina-20mg-30com--c1--g--prati-d/p",
       "disponivel": true
@@ -8782,15 +8836,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 39.9,
+      "preco": 38.9,
       "nome": "Piomi Cloridrato De Pioglitazona 30mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/piomi-30mg-myralis-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 32.79,
-      "nome": "Cloridrato de Pioglitazona 30mg Teuto 15 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-pioglitazona-30mg-teuto-15-comprimidos/p",
+      "preco": 29.39,
+      "nome": "Cloridrato de Pioglitazona 30mg 30 Comprimidos Genérico Globo Pharma",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-pioglitazona-30mg-globo-generico-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -8802,27 +8856,27 @@ const PRECOS_REDES = {
   },
   "med-00252": {
     "paguemenos": {
-      "preco": 8.99,
-      "nome": "Cloridrato de Prometazina 25mg 20 Comprimidos Revestidos Genérico Teuto",
-      "url": "https://www.paguemenos.com.br/cloridrato-de-prometazina-25mg-com-20-comprimidos-genericos-teuto/p",
-      "disponivel": true
+      "preco": 9.59,
+      "nome": "Cloridrato De Prometazina Biochimico 25mg 20 Comprimidos Genérico",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-prometazina-biochimico-25mg-20-comprimidos-generico/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 8.99,
-      "nome": "Cloridrato de Prometazina 25mg 20 Comprimidos Revestidos Genérico Teuto",
-      "url": "https://www.extrafarma.com.br/cloridrato-de-prometazina-25mg-com-20-comprimidos-genericos-teuto/p",
-      "disponivel": true
+      "preco": 9.59,
+      "nome": "Cloridrato De Prometazina Biochimico 25mg 20 Comprimidos Genérico",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-prometazina-biochimico-25mg-20-comprimidos-generico/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 8.76,
+      "preco": 8.67,
       "nome": "Profergan Cloridrato De Prometazina 25mg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/profergan-25mg-teuto-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.99,
-      "nome": "Cloridrato de Prometazina 25mg Genérico Teuto 20 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-prometazina-25mg-generico-teuto-20-comprimidos-revestidos/p",
+      "preco": 8.42,
+      "nome": "Profergan Cloridrato De Prometazina 25mg 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/profergan-25mg-teuto-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -8912,13 +8966,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 40.79,
+      "preco": 44.87,
       "nome": "Cloridrato De Propafenona 150mg Genérico Althaia 60 Comprimido",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-propafenona-150mg-generico-althaia-60-comprimido/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.59,
+      "preco": 44.65,
       "nome": "Cloridrato De Propafenona 150mg Genérico Althaia 60 Comprimido",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-propafenona-150mg-generico-althaia-60-comprimido/p",
       "disponivel": true
@@ -8938,19 +8992,19 @@ const PRECOS_REDES = {
   },
   "med-00254": {
     "paguemenos": {
-      "preco": 2.99,
+      "preco": 2.89,
       "nome": "Cloridrato de Propranolol 10mg 30 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/cloridrato-de-propranolol-10mg-com-30-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 2.99,
+      "preco": 2.89,
       "nome": "Cloridrato de Propranolol 10mg 30 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/cloridrato-de-propranolol-10mg-com-30-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 7.59,
+      "preco": 8.35,
       "nome": "Cloridrato de Propranolol 40mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-propranolol-40mg-generico-medley-30-comprimidos/p",
       "disponivel": true
@@ -8962,7 +9016,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 3.24,
+      "preco": 3.99,
       "nome": "Cloridrato De Propranolol 40mg Teuto 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-propranolol-40mg-com-30-comprimidos-teuto/p",
       "disponivel": true
@@ -8976,13 +9030,13 @@ const PRECOS_REDES = {
   },
   "med-00257": {
     "paguemenos": {
-      "preco": 22.29,
+      "preco": 21.99,
       "nome": "Cloridrato De Sertralina 50mg Com 30 Comprimidos Genérico Ems",
       "url": "https://www.paguemenos.com.br/cloridrato-de-sertralina-50mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.29,
+      "preco": 21.99,
       "nome": "Cloridrato De Sertralina 50mg Com 30 Comprimidos Genérico Ems",
       "url": "https://www.extrafarma.com.br/cloridrato-de-sertralina-50mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
@@ -8994,9 +9048,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 52.59,
-      "nome": "Tolrest Cloridrato De Sertralina 50mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/tolrest-50mg-ache-30-comprimidos/p",
+      "preco": 33.98,
+      "nome": "Ralzin Cloridrato de Sertralina 50mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/ralzin-50mg-prati-donaduzzi-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -9014,13 +9068,13 @@ const PRECOS_REDES = {
   },
   "med-00260": {
     "paguemenos": {
-      "preco": 61.99,
+      "preco": 52.99,
       "nome": "Cloridrato de Sotalol 160mg 30 Comprimidos Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/cloridrato-de-sotalol-160mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 61.99,
+      "preco": 52.99,
       "nome": "Cloridrato de Sotalol 160mg 30 Comprimidos Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/cloridrato-de-sotalol-160mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
@@ -9038,7 +9092,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 56.36,
+      "preco": 49.99,
       "nome": "Cloridrato De Sotalol 160mg Sandoz 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-sotalol-160mg-sandoz-30-comprimidos/p",
       "disponivel": true
@@ -9046,31 +9100,31 @@ const PRECOS_REDES = {
   },
   "med-00261": {
     "paguemenos": {
-      "preco": 51.99,
+      "preco": 48.99,
       "nome": "Cloridrato de Tansulosina 0,4mg 20 Cápsulas Duras de Liberação Modificada Genérico Geolab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-tansulosina-0-4mg-com-20-capsulas-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 51.99,
+      "preco": 48.99,
       "nome": "Cloridrato de Tansulosina 0,4mg 20 Cápsulas Duras de Liberação Modificada Genérico Geolab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-tansulosina-0-4mg-com-20-capsulas-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 51.99,
+      "preco": 57.19,
       "nome": "Cloridrato de Tansulosina 0,4mg Genérico EMS 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-tansulosina-0-4mg-generico-sem-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 51.99,
+      "preco": 57.19,
       "nome": "Cloridrato de Tansulosina 0,4mg Genérico EMS 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-tansulosina-0-4mg-generico-sem-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 57.37,
+      "preco": 52.99,
       "nome": "Cloridrato De Tansulosina 0,4mg Geolab 20 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-tansulosina-04mg-geolab-20-capsulas-/p",
       "disponivel": true
@@ -9084,25 +9138,25 @@ const PRECOS_REDES = {
   },
   "med-00262": {
     "paguemenos": {
-      "preco": 101.99,
+      "preco": 99.49,
       "nome": "Palexis LP 50mg 30 Comprimidos Revestidos de Liberação Prolongada",
       "url": "https://www.paguemenos.com.br/palexis-lp-50mg-com-30-comprimidos-revestidos-liberacao-prolongada/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 101.99,
+      "preco": 99.49,
       "nome": "Palexis LP 50mg 30 Comprimidos Revestidos de Liberação Prolongada",
       "url": "https://www.extrafarma.com.br/palexis-lp-50mg-com-30-comprimidos-revestidos-liberacao-prolongada/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 104.93,
+      "preco": 101.91,
       "nome": "Palexis LP Cloridrato De Tapentadol 50mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/palexis-lp-50mg-grunenthal-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 93.49,
+      "preco": 91.62,
       "nome": "Palexis LP Cloridrato De Tapentadol 50mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/palexis-lp-50mg-grunenthal-30-comprimidos/p",
       "disponivel": true
@@ -9146,9 +9200,9 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 45.99,
-      "nome": "Cloridrato De Terbinafina 250mg Prati Donaduzzi 14 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/clor-terbinafina-250mg-14com--g--prati-d/p",
+      "preco": 44.99,
+      "nome": "Cloridrato de Terbinafina 250mg Biosintética 14 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/cloridrato-de-terbinafina-250mg-biosintetica-14-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -9160,15 +9214,15 @@ const PRECOS_REDES = {
   },
   "med-00265": {
     "paguemenos": {
-      "preco": 30.79,
-      "nome": "Vitaum 300mg 30 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/vitaum-300mg-com-30-comprimidos/p",
+      "preco": 30.59,
+      "nome": "Beneum 300mg 30 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/beneum-300mg-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 30.79,
-      "nome": "Vitaum 300mg 30 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/vitaum-300mg-com-30-comprimidos/p",
+      "preco": 30.59,
+      "nome": "Beneum 300mg 30 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/beneum-300mg-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -9178,7 +9232,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.89,
+      "preco": 26.99,
       "nome": "Nervamin Cloridrato de Tiamina 300mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/nervamin-cloridrato-de-tiamina-300mg-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -9192,31 +9246,31 @@ const PRECOS_REDES = {
   },
   "med-00585": {
     "paguemenos": {
-      "preco": 80.99,
+      "preco": 81.99,
       "nome": "Citoneurin 5000mcg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/citoneurin-5-000-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 80.99,
+      "preco": 81.99,
       "nome": "Citoneurin 5000mcg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/citoneurin-5-000-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 48.23,
+      "preco": 73.64,
       "nome": "Nevrix Nitrato de Tiamina 100mg + Cloridrato de Piridoxina 100mg + Cianocobalamina 5000mcg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/nevrix-arese-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 48.23,
+      "preco": 57.91,
       "nome": "Nevrix Nitrato de Tiamina 100mg + Cloridrato de Piridoxina 100mg + Cianocobalamina 5000mcg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nevrix-arese-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 78.39,
+      "preco": 75.99,
       "nome": "Renovi B 5000mcg + 100mg +100mg Supera 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/renovi-b-30-com/p",
       "disponivel": true
@@ -9262,13 +9316,13 @@ const PRECOS_REDES = {
   },
   "med-00267": {
     "paguemenos": {
-      "preco": 23.79,
+      "preco": 20.79,
       "nome": "Unitidazin 50mg 20 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/unitidazin-500mg-com-20-comprimidos-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 23.79,
+      "preco": 20.79,
       "nome": "Unitidazin 50mg 20 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/unitidazin-500mg-com-20-comprimidos-p/p",
       "disponivel": true
@@ -9306,13 +9360,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 67.71,
+      "preco": 69.61,
       "nome": "Sirdalud Cloridrato De Tizanidina 2mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/sirdalud-2mg-novartis-biociencias-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 62.79,
+      "preco": 59.87,
       "nome": "Sirdalud Cloridrato De Tizanidina 2mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/sirdalud-2mg-novartis-biociencias-30-comprimidos/p",
       "disponivel": true
@@ -9326,13 +9380,13 @@ const PRECOS_REDES = {
   },
   "med-00270": {
     "paguemenos": {
-      "preco": 5.89,
+      "preco": 5.69,
       "nome": "Cloridrato de Tramadol 50mg 10 Cápsulas Duras Genérico Teuto",
       "url": "https://www.paguemenos.com.br/cloridrato-de-tramadol-50mg-com-10-capsulasulas-gn-te/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.89,
+      "preco": 5.69,
       "nome": "Cloridrato de Tramadol 50mg 10 Cápsulas Duras Genérico Teuto",
       "url": "https://www.extrafarma.com.br/cloridrato-de-tramadol-50mg-com-10-capsulasulas-gn-te/p",
       "disponivel": true
@@ -9350,9 +9404,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 9.99,
-      "nome": "Cloridrato de Tramadol 50mg Teuto 10 Cápsulas de Gel",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-tramadol-50mg-10-capsulas-de-gel-/p",
+      "preco": 11.89,
+      "nome": "Cloridrato de Tramadol 50mg 10 Cápsulas Germed Pharma",
+      "url": "https://www.drogariavenancio.com.br/clor-tramadol-50mg-10cps-g--a2-germed/p",
       "disponivel": true
     },
     "panvel": {
@@ -9376,13 +9430,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 84.99,
-      "nome": "Adorlan Cloridrato de Tramadol 25mg + Diclofenaco Sódico 25mg 20 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/adorlan-25mg-25mg-grunenthal-20-comprimidos/p",
+      "preco": 87.21,
+      "nome": "Nusira Cloridrato de Tramadol 25mg + Diclofenaco Sódico 25mg 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/nusira-25mg-zodiac-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 87,
+      "preco": 85.38,
       "nome": "Nusira Cloridrato de Tramadol 25mg + Diclofenaco Sódico 25mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nusira-25mg-zodiac-20-comprimidos/p",
       "disponivel": true
@@ -9420,15 +9474,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 39.92,
-      "nome": "Sonic Cloridrato De Trazodona 50mg 60 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/sonic-50mg-eurofarma-60-comprimidos/p",
+      "preco": 50.46,
+      "nome": "Motraz Cloridrato De Trazodona 50mg 60 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/motraz-50mg-momenta-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 41.99,
-      "nome": "Cloridrato De Trazodona 50mg Medley 60 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/cloridrato-de-trazodona-50mg-medley-60-comprimidos/p",
+      "preco": 44.99,
+      "nome": "Cloridrato De Trazodona 100mg Torrent 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/clor-trazodona-100mg-30com--c1--g--torrent/p",
       "disponivel": true
     },
     "panvel": {
@@ -9440,33 +9494,33 @@ const PRECOS_REDES = {
   },
   "med-00273": {
     "paguemenos": {
-      "preco": 71.99,
+      "preco": 94.49,
       "nome": "Cloridrato De Valaciclovir 500mg Ranbaxy 10 Comprimidos Genérico",
       "url": "https://www.paguemenos.com.br/cloridrato-de-valaciclovir-500mg-com-10-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 71.99,
+      "preco": 94.49,
       "nome": "Cloridrato De Valaciclovir 500mg Ranbaxy 10 Comprimidos Genérico",
       "url": "https://www.extrafarma.com.br/cloridrato-de-valaciclovir-500mg-com-10-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 73.15,
+      "preco": 101.91,
       "nome": "Valaski Cloridrato de Valaciclovir 500mg 10 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/valaski-500mg-supera-farma-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 77.58,
-      "nome": "Valaski Cloridrato de Valaciclovir 500mg 10 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/valaski-500mg-supera-farma-10-comprimidos/p",
+      "preco": 99.36,
+      "nome": "Vanlure Cloridrato de Valaciclovir 500mg 10 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/vanlur-500mg-momenta-10-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 104.9,
-      "nome": "Vilaxy 500mg Eurofarma 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/vilaxy-500mg-10com/p",
+      "preco": 101.39,
+      "nome": "Vanlure 500mg Momenta 10 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/vanlure-500mg-10com/p",
       "disponivel": true
     },
     "panvel": {
@@ -9478,15 +9532,15 @@ const PRECOS_REDES = {
   },
   "med-00276": {
     "paguemenos": {
-      "preco": 31.35,
-      "nome": "Cloridrato De Venlafaxina 75mg Com 30 Cápsulas Genérico Medley",
-      "url": "https://www.paguemenos.com.br/venlafaxina-cloridrato-75mg-30--capsulas-medley/p",
+      "preco": 44.79,
+      "nome": "Cloridrato De Venlafaxina 75mg 30 Comprimidos Genérico Ranbaxy",
+      "url": "https://www.paguemenos.com.br/cloridrato-de-venlafaxina-75mg-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 31.35,
-      "nome": "Cloridrato De Venlafaxina 75mg Com 30 Cápsulas Genérico Medley",
-      "url": "https://www.extrafarma.com.br/venlafaxina-cloridrato-75mg-30--capsulas-medley/p",
+      "preco": 44.79,
+      "nome": "Cloridrato De Venlafaxina 75mg 30 Comprimidos Genérico Ranbaxy",
+      "url": "https://www.extrafarma.com.br/cloridrato-de-venlafaxina-75mg-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -9496,13 +9550,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 44.59,
-      "nome": "Cloridrato de Venlafaxina 75mg Genérico Biosintética 28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-venlafaxina-75mg-biosintetica-28-comprimidos/p",
+      "preco": 21.9,
+      "nome": "Cloridrato De Venlafaxina 75mg Genérico Geolab 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/cloridrato-de-venlafaxina-75mg-generico-geolab-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 29.49,
+      "preco": 24.99,
       "nome": "Cloridrato De Venlafaxina 37,5mg Torrent 30 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-venlafaxina-375mg-torrent-30-capsulas/p",
       "disponivel": true
@@ -9510,31 +9564,31 @@ const PRECOS_REDES = {
   },
   "med-00277": {
     "paguemenos": {
-      "preco": 8.69,
+      "preco": 12.69,
       "nome": "Cloridrato de Verapamil 80mg 30 Comprimidos Revestidos Genérico Biosintética",
       "url": "https://www.paguemenos.com.br/cloridrato-de-verapamil-80mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.69,
+      "preco": 12.69,
       "nome": "Cloridrato de Verapamil 80mg 30 Comprimidos Revestidos Genérico Biosintética",
       "url": "https://www.extrafarma.com.br/cloridrato-de-verapamil-80mg-com-30-comprimidos-generico-biosintetica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.59,
+      "preco": 20.45,
       "nome": "Cloridrato de Verapamil 80mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cloridrato-de-verapamil-80mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Cloridrato de Verapamil 80mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/cloridrato-de-verapamil-80mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 18.66,
+      "preco": 9.33,
       "nome": "Cloridrato De Verapamil 80mg Aché 30 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/cloridrato-de-verapamil-80mg-ache-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -9560,7 +9614,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 647.59,
+      "preco": 594.39,
       "nome": "Geodon Cloridrato De Ziprasidona 40mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/geodon-40mg-30-capsulas/p",
       "disponivel": true
@@ -9586,19 +9640,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 15.59,
+      "preco": 17.59,
       "nome": "Clortalidona 12,5mg Genérico EMS 60 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/clortalidona-125mg-generico-ems-60-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.59,
+      "preco": 19.79,
       "nome": "Clortalidona 12,5mg Genérico EMS 60 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/clortalidona-125mg-generico-ems-60-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 18.89,
+      "preco": 11.99,
       "nome": "Clortalidona 50mg Vitamedic 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/clortalidona-50mg-vitamedic-30-comprimidos/p",
       "disponivel": true
@@ -9618,19 +9672,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 26.47,
+      "preco": 26.21,
       "nome": "Revert Atenolol 50mg + Clortalidona 12,5mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/revert-50mg--125mg-melora-33-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.79,
+      "preco": 21.35,
       "nome": "Revert Atenolol 50mg + Clortalidona 12,5mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/revert-50mg--125mg-melora-33-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 18.64,
+      "preco": 16.99,
       "nome": "Atenolol + Clortalidona 50mg +12,5mg Sandoz 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/atenolol---clortalidona-50mg--125mg-sandoz-30-comprimidos/p",
       "disponivel": true
@@ -9662,15 +9716,15 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 21.59,
+      "preco": 23.75,
       "nome": "Clotrimazol 20mg/g Genérico Germed 20g Creme Vaginal + 3 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/clotrimazol-creme-vaginal-20mg-g-generico-germed-20g-3-aplicadores/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.89,
-      "nome": "Clotrimazol Germed Pharma 10mg/g Creme dermatológico 20g",
-      "url": "https://www.drogariavenancio.com.br/clotrimazol-germed-pharma-10mg-g-creme-dermatologico-20g/p",
+      "preco": 9.99,
+      "nome": "Clotrimazol Ems Genérico Creme 20g",
+      "url": "https://www.drogariavenancio.com.br/clotrimazol-creme-20g-ems-generico/p",
       "disponivel": true
     },
     "panvel": {
@@ -9682,25 +9736,25 @@ const PRECOS_REDES = {
   },
   "med-00282": {
     "paguemenos": {
-      "preco": 62.99,
-      "nome": "Pinazan 25mg 30 Comprimidos",
-      "url": "https://www.paguemenos.com.br/pinazan-25mg-com-30-comprimidos/p",
+      "preco": 52.99,
+      "nome": "Okótico 25mg 30 Comprimidos",
+      "url": "https://www.paguemenos.com.br/okotico-25mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 62.99,
-      "nome": "Pinazan 25mg 30 Comprimidos",
-      "url": "https://www.extrafarma.com.br/pinazan-25mg-com-30-comprimidos/p",
+      "preco": 52.99,
+      "nome": "Okótico 25mg 30 Comprimidos",
+      "url": "https://www.extrafarma.com.br/okotico-25mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 64.67,
+      "preco": 64.01,
       "nome": "Pinazan Clozapina 25mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/pinazan-25mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.89,
+      "preco": 48.89,
       "nome": "Pinazan Clozapina 25mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/pinazan-25mg-30-comprimidos/p",
       "disponivel": true
@@ -9746,13 +9800,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.63,
+      "preco": 35.27,
       "nome": "Dbriz Colagenase 0,6U/g + Sulfato de Neomicina 0,01g/g 15g Pomada Dermatológica",
       "url": "https://www.drogariasaopaulo.com.br/dbriz-supera-farma-15-gramas-pomada-dermatologica/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 33.45,
+      "preco": 32.78,
       "nome": "Kollagenase com Cloranfenicol Colagenase 0,6U/g + Cloranfenicol 0,01g/g 15g Pomada",
       "url": "https://www.drogariaspacheco.com.br/kollagenase-c-cloranfenicol-pomada-cimed-15g/p",
       "disponivel": true
@@ -9798,13 +9852,13 @@ const PRECOS_REDES = {
   },
   "med-00288": {
     "paguemenos": {
-      "preco": 49.99,
+      "preco": 54.99,
       "nome": "Serenus 20 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/serenus-com-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 49.99,
+      "preco": 54.99,
       "nome": "Serenus 20 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/serenus-com-20-comprimidos-revestidos/p",
       "disponivel": true
@@ -9836,33 +9890,33 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 79.99,
+      "preco": 73.98,
       "nome": "Dapflow Dapagliflozina 10mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dapflow-dapagliflozina-10mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 79.99,
+      "preco": 73.98,
       "nome": "Dapflow Dapagliflozina 10mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/dapflow-dapagliflozina-10mg-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 76.9,
-      "nome": "Dapagliflozina 10mg Medley 30 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/dapagliflozina-10mg-medley-30-comprimidos/p",
+      "preco": 74.99,
+      "nome": "Dapagliflozina 10mg Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/dapagliflozina-10mg-30cpr--g-/p",
       "disponivel": true
     }
   },
   "med-00294": {
     "paguemenos": {
-      "preco": 162.99,
+      "preco": 156.99,
       "nome": "Haldol Decanoato 50mg/ml Solução Injetável 5 Ampolas 1ml",
       "url": "https://www.paguemenos.com.br/haldol-decanoato-50mg-ml-1-ml-psicotropico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 162.99,
+      "preco": 156.99,
       "nome": "Haldol Decanoato 50mg/ml Solução Injetável 5 Ampolas 1ml",
       "url": "https://www.extrafarma.com.br/haldol-decanoato-50mg-ml-1-ml-psicotropico/p",
       "disponivel": true
@@ -9874,7 +9928,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 163.49,
+      "preco": 160.22,
       "nome": "Haldol Decanoato de Haloperidol 50mg/ml 1ml 5 Ampolas Injetável",
       "url": "https://www.drogariaspacheco.com.br/haldol-decanoato-50mg-johnson-5x1ml-injetavel/p",
       "disponivel": true
@@ -9888,13 +9942,13 @@ const PRECOS_REDES = {
   },
   "med-00439": {
     "paguemenos": {
-      "preco": 7.89,
+      "preco": 7.99,
       "nome": "Haldol 1mg 20 Comprimidos",
       "url": "https://www.paguemenos.com.br/haldol-1mg-comprimidos20-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.89,
+      "preco": 7.99,
       "nome": "Haldol 1mg 20 Comprimidos",
       "url": "https://www.extrafarma.com.br/haldol-1mg-comprimidos20-p/p",
       "disponivel": true
@@ -9912,7 +9966,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 8.19,
+      "preco": 7.89,
       "nome": "Haldol 1mg Com 20 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/haldol-1mg-com-20-comprimidos/p",
       "disponivel": true
@@ -9952,7 +10006,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 48.79,
+      "preco": 53.67,
       "nome": "Deflazacorte 6mg Genérico EMS 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/deflazacorte-6mg-generico-ems-20-comprimidos/p",
       "disponivel": true
@@ -9967,7 +10021,7 @@ const PRECOS_REDES = {
       "preco": 58.09,
       "nome": "Deflaimmun 7,5mg Ems 20 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/deflaimmun-75mg-ems-20-comprimidos/p",
-      "disponivel": true
+      "disponivel": false
     }
   },
   "med-00298": {
@@ -10004,33 +10058,33 @@ const PRECOS_REDES = {
   },
   "med-00299": {
     "paguemenos": {
-      "preco": 12.79,
-      "nome": "Desloratadina 0,5mg/ml Xarope 100ml + Seringa Dosadora Genérico EMS",
-      "url": "https://www.paguemenos.com.br/desloratadina-xarope-100ml-generico-ems/p",
+      "preco": 9.19,
+      "nome": "Desloratadina 10 Comprimidos Revestidos 5mg Genérico Globo",
+      "url": "https://www.paguemenos.com.br/desloratadina-10-comprimidos-revestidos-5mg-generico-globo/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.79,
-      "nome": "Desloratadina 0,5mg/ml Xarope 100ml + Seringa Dosadora Genérico EMS",
-      "url": "https://www.extrafarma.com.br/desloratadina-xarope-100ml-generico-ems/p",
+      "preco": 9.19,
+      "nome": "Desloratadina 10 Comprimidos Revestidos 5mg Genérico Globo",
+      "url": "https://www.extrafarma.com.br/desloratadina-10-comprimidos-revestidos-5mg-generico-globo/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 10.68,
-      "nome": "Desloratadina 0,5mg/ml Genérico EMS 60ml Xarope + Seringa Dosadora",
-      "url": "https://www.drogariasaopaulo.com.br/desloratadina-30mg-ems-generico-1-frasco-6ml-de-xarope-seringa-dosadora/p",
+      "preco": 19.81,
+      "nome": "Superhist ODT Desloratadina 2,5mg 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/superhist-odt-2-5mg-eurofarma-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.16,
-      "nome": "Desloratadina 5mg Genérico Eurofarma 10 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/desloratadina-5mg-generico-eurofarma-10-comprimidos/p",
+      "preco": 17.37,
+      "nome": "Superhist ODT Desloratadina 2,5mg 10 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/superhist-odt-2-5mg-eurofarma-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.16,
-      "nome": "Desloratadina 5mg Biosintética 10 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/desloratadina-5mg-ache-10-comprimidos-revestidos/p",
+      "preco": 15.99,
+      "nome": "Desloratadina 5mg Eurofarma 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/desloratadina-5mg-10com--g--eurofarma/p",
       "disponivel": true
     }
   },
@@ -10048,22 +10102,22 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 46.05,
+      "preco": 46.52,
       "nome": "Desalex D12 Desloratadina 2,5mg + Sulfato de Pseudoefedrina 120mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/desalex-d12-schering-plough-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 48.85,
+      "preco": 46.52,
       "nome": "Desalex D12 Desloratadina 2,5mg + Sulfato de Pseudoefedrina 120mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/desalex-d12-schering-plough-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 60.49,
-      "nome": "Lur D12 2,5mg + 120mg Biosintética 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/lur-d12-25mg---120mg-10com/p",
-      "disponivel": true
+      "preco": 57.49,
+      "nome": "Esalerg D12 2,5/120mg 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/esalerg-d12-25-120mg-10-comprimidos/p",
+      "disponivel": false
     }
   },
   "med-00509": {
@@ -10080,19 +10134,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 45.93,
+      "preco": 45.27,
       "nome": "Histadin D Loratadina 1mg/ml + Sulfato de Pseudoefedrina 12mg/ml 60ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/histadin-d-xarope-uniao-quimica-60ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 46.39,
+      "preco": 45.27,
       "nome": "Histadin D Loratadina 1mg/ml + Sulfato de Pseudoefedrina 12mg/ml 60ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/histadin-d-xarope-uniao-quimica-60ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 48.39,
+      "preco": 47.49,
       "nome": "Histadin D5 120mg União Química 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/histadin-d5-120mg-uniao-quimica-12-comprimidos/p",
       "disponivel": true
@@ -10106,31 +10160,31 @@ const PRECOS_REDES = {
   },
   "med-00520": {
     "paguemenos": {
-      "preco": 29.99,
+      "preco": 29.59,
       "nome": "Emsexpector 0,4mg/ml + 4mg/ml + 20mg/ml Sabor Caramelo Xarope 120ml",
       "url": "https://www.paguemenos.com.br/emsexpector-xarope-120ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 29.99,
+      "preco": 29.59,
       "nome": "Emsexpector 0,4mg/ml + 4mg/ml + 20mg/ml Sabor Caramelo Xarope 120ml",
       "url": "https://www.extrafarma.com.br/emsexpector-xarope-120ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 30.09,
+      "preco": 29.78,
       "nome": "Emsexpector Maleato de Dexclorfeniramina 0,4mg/ml + Sulfato de Pseudoefedrina 4mg/ml + Guaifenesina 20mg/ml 120ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/emsexpector-244mg-ems-xarope-120ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 22.59,
+      "preco": 21.75,
       "nome": "Emsexpector Maleato de Dexclorfeniramina 0,4mg/ml + Sulfato de Pseudoefedrina 4mg/ml + Guaifenesina 20mg/ml 120ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/emsexpector-244mg-ems-xarope-120ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 22.59,
+      "preco": 22.19,
       "nome": "Emsexpector Ems Solução Oral 120ml",
       "url": "https://www.drogariavenancio.com.br/emsexpector-ems-solucao-oral-120ml/p",
       "disponivel": true
@@ -10162,39 +10216,39 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 26.99,
+      "preco": 29.69,
       "nome": "Desogestrel 150mcg + Etinilestradiol 20mcg Genérico Eurofarma 21 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/desogestrel-150mcg-etinilestradiol-20mcg-generico-eurofarma-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.39,
-      "nome": "Desogestrel 75mcg 28 comprimidos revestidos Biosintetica",
-      "url": "https://www.drogariavenancio.com.br/desogestrel-0-075mg-28cpr-g-ache/p",
+      "preco": 13.99,
+      "nome": "Desogestrel 0,075mg Eurofarma 28 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/desogestrel-0075mg-eurofarma-28-comprimidos/p",
       "disponivel": true
     }
   },
   "med-00302": {
     "paguemenos": {
-      "preco": 16.79,
-      "nome": "Desonida 0,5mg/g Creme Dermatológico 30g Genérico EMS",
-      "url": "https://www.paguemenos.com.br/desonida-creme-30g-generico-ems/p",
-      "disponivel": true
+      "preco": 17.99,
+      "nome": "Desonida 0,5mg/g Creme Dermatológico 30g Genérico Germed",
+      "url": "https://www.paguemenos.com.br/desonida-0-5mg-30g-creme-generico-germed/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 16.79,
-      "nome": "Desonida 0,5mg/g Creme Dermatológico 30g Genérico EMS",
-      "url": "https://www.extrafarma.com.br/desonida-creme-30g-generico-ems/p",
-      "disponivel": true
+      "preco": 17.99,
+      "nome": "Desonida 0,5mg/g Creme Dermatológico 30g Genérico Germed",
+      "url": "https://www.extrafarma.com.br/desonida-0-5mg-30g-creme-generico-germed/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 13.99,
+      "preco": 15.39,
       "nome": "Desonida 0,5mg/g Genérico Germed 30g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/desonida-05mgg-generico-natures-plus-pomada-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.99,
+      "preco": 15.39,
       "nome": "Desonida 0,5mg/g Genérico Germed 30g Pomada",
       "url": "https://www.drogariaspacheco.com.br/desonida-05mgg-generico-natures-plus-pomada-30g/p",
       "disponivel": true
@@ -10226,13 +10280,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 5.73,
+      "preco": 5.48,
       "nome": "Dexason Dexametasona 1mg/g 10g Creme",
       "url": "https://www.drogariaspacheco.com.br/dexason-creme-1mg-teuto-10g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.73,
+      "preco": 5.59,
       "nome": "Dexason Teuto Creme 10g",
       "url": "https://www.drogariavenancio.com.br/dexason-cr-10g-teuto/p",
       "disponivel": true
@@ -10246,25 +10300,25 @@ const PRECOS_REDES = {
   },
   "med-00305": {
     "paguemenos": {
-      "preco": 26.29,
+      "preco": 23.79,
       "nome": "Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml Solução Oftálmica 5ml Genérico Geolab",
       "url": "https://www.paguemenos.com.br/cloridrato-de-ciprofloxacino-mais-dexametasona-solucao-oftalmica-5ml-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 26.29,
+      "preco": 23.79,
       "nome": "Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml Solução Oftálmica 5ml Genérico Geolab",
       "url": "https://www.extrafarma.com.br/cloridrato-de-ciprofloxacino-mais-dexametasona-solucao-oftalmica-5ml-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.81,
+      "preco": 34.88,
       "nome": "Duodex Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariasaopaulo.com.br/duodex-3-5mg-ml---1mg-ml-geolab-5ml-solucao-oftalmica/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 32.49,
+      "preco": 31.84,
       "nome": "Duodex Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/duodex-3-5mg-ml---1mg-ml-geolab-5ml-solucao-oftalmica/p",
       "disponivel": true
@@ -10284,25 +10338,25 @@ const PRECOS_REDES = {
   },
   "med-00304": {
     "paguemenos": {
-      "preco": 32.79,
+      "preco": 30.49,
       "nome": "Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml Solução Oftálmica 5ml Genérico EMS",
       "url": "https://www.paguemenos.com.br/cloridrato-de-ciprofloxacino-mais-dexametasona-solucao-oftalmica-5ml-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 32.79,
+      "preco": 30.49,
       "nome": "Cloridrato de Ciprofloxacino 3,5mg/ml + Dexametasona 1mg/ml Solução Oftálmica 5ml Genérico EMS",
       "url": "https://www.extrafarma.com.br/cloridrato-de-ciprofloxacino-mais-dexametasona-solucao-oftalmica-5ml-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 50.59,
+      "preco": 50.08,
       "nome": "Maxiflox-D Cloridrato de Ciprofloxacino 3,5mg/g + Dexametasona 1mg/g 3,5g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/maxiflox-d-latinofarma-pomada-35g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 41.73,
+      "preco": 40.08,
       "nome": "Maxiflox-D Cloridrato de Ciprofloxacino 3,5mg/g + Dexametasona 1mg/g 3,5g Pomada",
       "url": "https://www.drogariaspacheco.com.br/maxiflox-d-latinofarma-pomada-35g/p",
       "disponivel": true
@@ -10316,31 +10370,31 @@ const PRECOS_REDES = {
   },
   "med-00306": {
     "paguemenos": {
-      "preco": 22.49,
+      "preco": 20.99,
       "nome": "Maxinom 1mg/ml + 5mg/ml + 6000UI/ml Suspensão Oftálmica 5ml",
       "url": "https://www.paguemenos.com.br/maxinom-colirio-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.49,
+      "preco": 20.99,
       "nome": "Maxinom 1mg/ml + 5mg/ml + 6000UI/ml Suspensão Oftálmica 5ml",
       "url": "https://www.extrafarma.com.br/maxinom-colirio-5ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 36.98,
+      "preco": 36.6,
       "nome": "Maxinom Dexametasona 1mg/g + Sulfato de Neomicina 5mg/g + Sulfato de Polimixina B 6.000UI/g 3,5g Pomada Oftálmica",
       "url": "https://www.drogariasaopaulo.com.br/maxinom-pomada-oftalmologica-uniao-quimica-3-5g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 33.49,
+      "preco": 31.15,
       "nome": "Maxinom Dexametasona 1mg/g + Sulfato de Neomicina 5mg/g + Sulfato de Polimixina B 6.000UI/g 3,5g Pomada Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/maxinom-pomada-oftalmologica-uniao-quimica-3-5g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.89,
+      "preco": 20.49,
       "nome": "Maxitrol Susp C/5 Ml",
       "url": "https://www.drogariavenancio.com.br/maxitrol-susp-c-5-ml/p",
       "disponivel": true
@@ -10348,16 +10402,16 @@ const PRECOS_REDES = {
   },
   "med-00713": {
     "paguemenos": {
-      "preco": 9.72,
-      "nome": "Tobramicina 3mg/ml Solução Oftálmica 5ml Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/tobramicina-3mg-5ml-generico-neo-quimica/p",
-      "disponivel": true
+      "preco": 12.19,
+      "nome": "Tobramicina+dexametasona 5ml Genérico Biossintética",
+      "url": "https://www.paguemenos.com.br/tobramicinamaisdexametasona-5ml-generico-biossintetica/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 9.72,
-      "nome": "Tobramicina 3mg/ml Solução Oftálmica 5ml Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/tobramicina-3mg-5ml-generico-neo-quimica/p",
-      "disponivel": true
+      "preco": 12.19,
+      "nome": "Tobramicina+dexametasona 5ml Genérico Biossintética",
+      "url": "https://www.extrafarma.com.br/tobramicinamaisdexametasona-5ml-generico-biossintetica/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
       "preco": 19.59,
@@ -10386,25 +10440,25 @@ const PRECOS_REDES = {
   },
   "med-00309": {
     "paguemenos": {
-      "preco": 42.49,
+      "preco": 44.79,
       "nome": "Epitegel 50mg/g Gel Oftálmico 10g",
       "url": "https://www.paguemenos.com.br/epitegel-gel-oftalmica-10g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 42.49,
+      "preco": 44.79,
       "nome": "Epitegel 50mg/g Gel Oftálmico 10g",
       "url": "https://www.extrafarma.com.br/epitegel-gel-oftalmica-10g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 42.54,
+      "preco": 58.29,
       "nome": "Epitegel Dexpantenol 50mg/g 10g Gel Oftálmico",
       "url": "https://www.drogariasaopaulo.com.br/gel-oftalmico-epitegel-50mg-bl-industria-otica-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 42.87,
+      "preco": 46.64,
       "nome": "Epitegel Dexpantenol 50mg/g 10g Gel Oftálmico",
       "url": "https://www.drogariaspacheco.com.br/gel-oftalmico-epitegel-50mg-bl-industria-otica-10g/p",
       "disponivel": true
@@ -10412,13 +10466,13 @@ const PRECOS_REDES = {
   },
   "med-00310": {
     "paguemenos": {
-      "preco": 19.99,
+      "preco": 20.99,
       "nome": "Lacribell 1mg/ml + 3mg/ml Solução Oftálmica 15ml",
       "url": "https://www.paguemenos.com.br/lacribell-colirio-15ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.99,
+      "preco": 20.99,
       "nome": "Lacribell 1mg/ml + 3mg/ml Solução Oftálmica 15ml",
       "url": "https://www.extrafarma.com.br/lacribell-colirio-15ml/p",
       "disponivel": true
@@ -10450,16 +10504,16 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 7.65,
-      "nome": "Diazepam 5mg Genérico Germed 20 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/diazepam-5mg-generico-natures-plus-20-comprimidos/p",
+      "preco": 7.34,
+      "nome": "Diazepam 10mg Genérico Neo Química 20 comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/diazepam-10mg-neo-quimica-generico-20-comprimidos-/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 5.73,
-      "nome": "Diazepam 5mg Genérico Germed 20 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/diazepam-5mg-generico-natures-plus-20-comprimidos/p",
-      "disponivel": false
+      "preco": 4.99,
+      "nome": "Diazepam 10mg Genérico Pharlab 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/diazepam-10mg-generico-pharlab-30-comprimidos/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 11.24,
@@ -10470,15 +10524,15 @@ const PRECOS_REDES = {
   },
   "med-00313": {
     "paguemenos": {
-      "preco": 19.19,
-      "nome": "Diclofenaco Colestiramina 70mg 14 Cápsulas Gelatinosas Duras Genérico Medley",
-      "url": "https://www.paguemenos.com.br/diclofenaco-colestiramina-70mg-com-14-capsulas-generico-medley/p",
+      "preco": 21.99,
+      "nome": "Diclofenaco Colestiramina 70mg 14 Cápsulas Duras Genérico EMS",
+      "url": "https://www.paguemenos.com.br/diclofenaco-colestiramina-70mg-com-14-capsulas-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.19,
-      "nome": "Diclofenaco Colestiramina 70mg 14 Cápsulas Gelatinosas Duras Genérico Medley",
-      "url": "https://www.extrafarma.com.br/diclofenaco-colestiramina-70mg-com-14-capsulas-generico-medley/p",
+      "preco": 21.99,
+      "nome": "Diclofenaco Colestiramina 70mg 14 Cápsulas Duras Genérico EMS",
+      "url": "https://www.extrafarma.com.br/diclofenaco-colestiramina-70mg-com-14-capsulas-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -10508,19 +10562,19 @@ const PRECOS_REDES = {
   },
   "med-00314": {
     "paguemenos": {
-      "preco": 7.19,
-      "nome": "Diclofenaco Dietilamônio 11,6mg/g Gel 60g Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/diclofenaco-dietlamonio-gel-60g-generico-neo-quimica/p",
+      "preco": 8.49,
+      "nome": "Diclofenaco Dietilamônio 11,6mg/g Gel Dermatológico 60g Genérico EMS",
+      "url": "https://www.paguemenos.com.br/diclofenaco-dietilamonio-gel-60g-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.19,
-      "nome": "Diclofenaco Dietilamônio 11,6mg/g Gel 60g Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/diclofenaco-dietlamonio-gel-60g-generico-neo-quimica/p",
+      "preco": 8.49,
+      "nome": "Diclofenaco Dietilamônio 11,6mg/g Gel Dermatológico 60g Genérico EMS",
+      "url": "https://www.extrafarma.com.br/diclofenaco-dietilamonio-gel-60g-generico-ems/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.7,
+      "preco": 14.99,
       "nome": "Diclofenaco Dietilamônio Neo Química Genérico Gel 60g",
       "url": "https://www.drogariavenancio.com.br/diclofenaco-dietilamonio-gel-60g-neo-quimica-generico/p",
       "disponivel": true
@@ -10534,13 +10588,13 @@ const PRECOS_REDES = {
   },
   "med-00317": {
     "paguemenos": {
-      "preco": 6.99,
+      "preco": 6.49,
       "nome": "Diclofenaco Potássico 50mg 20 Comprimidos Revestidos Genérico Cimed",
       "url": "https://www.paguemenos.com.br/diclofenaco-potassico-50mg-com-20-comprimidos-generico-cimed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 6.99,
+      "preco": 6.49,
       "nome": "Diclofenaco Potássico 50mg 20 Comprimidos Revestidos Genérico Cimed",
       "url": "https://www.extrafarma.com.br/diclofenaco-potassico-50mg-com-20-comprimidos-generico-cimed/p",
       "disponivel": true
@@ -10558,7 +10612,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 18.29,
+      "preco": 21.66,
       "nome": "Biofenac Anti-inflamatório e Dor Muscular 11,6mg Gel com 30g",
       "url": "https://www.drogariavenancio.com.br/biofenac-ache-30g-gel/p",
       "disponivel": true
@@ -10566,33 +10620,33 @@ const PRECOS_REDES = {
   },
   "med-00315": {
     "paguemenos": {
-      "preco": 7.39,
+      "preco": 6.89,
       "nome": "Diclofenaco Potássico 50mg 20 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.paguemenos.com.br/gen-diclofenaco-potassico-50mg-20cr/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.39,
+      "preco": 6.89,
       "nome": "Diclofenaco Potássico 50mg 20 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.extrafarma.com.br/gen-diclofenaco-potassico-50mg-20cr/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 6.99,
+      "preco": 7.69,
       "nome": "Diclofenaco Potássico 50mg Genérico Cimed 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/diclofenaco-potassico-50mg-generico-cimed-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 4.99,
+      "preco": 5.49,
       "nome": "Diclofenaco Potássico 50mg Genérico Cimed 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/diclofenaco-potassico-50mg-generico-cimed-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 4.99,
-      "nome": "Diclofenaco Potassico 50mg Medley 20 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/diclofenaco-potassico-50mg-medley-20-comprimidos-revestidos/p",
+      "preco": 6.99,
+      "nome": "Diclofenaco de Dietilamonio 11,6mg Cimed Gel bisnaga 60g",
+      "url": "https://www.drogariavenancio.com.br/diclofenaco-de-dietilamonio-116mg-cimed-gel-bisnaga-60g/p",
       "disponivel": true
     },
     "panvel": {
@@ -10630,13 +10684,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 8.59,
-      "nome": "Diclofenaco Resinato 15mg/ml Genérico Cimed 20ml Gotas",
-      "url": "https://www.drogariasaopaulo.com.br/diclofenaco-resinato-15mgml-generico-cimed-20ml-gotas/p",
+      "preco": 9.13,
+      "nome": "Diclofenaco Resinato 15mg/ml Genérico Medley 20ml Gotas",
+      "url": "https://www.drogariasaopaulo.com.br/diclofenaco-resinato-gotas-15mg-ml-generico-medley-20ml/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 6.59,
+      "preco": 7.25,
       "nome": "Diclofenaco Resinato 15mg/ml Genérico Cimed 20ml Gotas",
       "url": "https://www.drogariaspacheco.com.br/diclofenaco-resinato-15mgml-generico-cimed-20ml-gotas/p",
       "disponivel": false
@@ -10668,15 +10722,21 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 38.59,
+      "preco": 42.45,
       "nome": "Dicloridrato de Levocetirizina 5,0mg Genérico Neo Química 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dicloridrato-de-levocetirizina-5-0mg-generico-neo-quimica-10-comprimidos/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 38.49,
+      "nome": "Dicloridrato de Levocetirizina 5,0mg Genérico Neo Química 10 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/dicloridrato-de-levocetirizina-5-0mg-generico-neo-quimica-10-comprimidos/p",
+      "disponivel": true
+    },
     "venancio": {
-      "preco": 22.31,
-      "nome": "Dicloridrato De Levocetirizina 5mg Ems Genéricos 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/dicloridrato-de-levocetirizina-5mg-ems-genericos-10-comprimidos/p",
+      "preco": 29.49,
+      "nome": "Dicloridrato de Levocetirizina 5mg 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/dicloridrato-de-levocetirizina-5mg-pharlab-10-comprimido-revestido/p",
       "disponivel": true
     }
   },
@@ -10685,28 +10745,28 @@ const PRECOS_REDES = {
       "preco": 48.67,
       "nome": "Montelucaste De Sódio 10mg + Dicloridrato Levocetirizina 5mg 7 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/montelucaste-de-sodio-10mg-mais-dicloridrato-levocetirizina-5mg-7-comprimidos-revestidos/p",
-      "disponivel": false
+      "disponivel": true
     },
     "extrafarma": {
       "preco": 48.67,
       "nome": "Montelucaste De Sódio 10mg + Dicloridrato Levocetirizina 5mg 7 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/montelucaste-de-sodio-10mg-mais-dicloridrato-levocetirizina-5mg-7-comprimidos-revestidos/p",
-      "disponivel": false
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 66.6,
+      "preco": 65.92,
       "nome": "Lemont Montelucaste de Sódio 10mg + Dicloridrato de Levocetirizina 5mg 7 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/lemont-10mg---5mg-eurofarma-7-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 57.99,
+      "preco": 55.75,
       "nome": "Lemont Montelucaste de Sódio 10mg + Dicloridrato de Levocetirizina 5mg 7 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/lemont-10mg---5mg-eurofarma-7-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 134.99,
+      "preco": 132.29,
       "nome": "Rizi-M 5mg - Dicloridrato de levocetirizina e 10mg Montelucaste de sódio 14 comprimidos",
       "url": "https://www.drogariavenancio.com.br/rizi-m-14cpr-rev/p",
       "disponivel": true
@@ -10732,39 +10792,51 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 82.71,
+      "preco": 83.65,
       "nome": "Zyrtec Dicloridrato De Cetirizina 10mg 12 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/zyrtec-10mg-gsk-12-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 84.49,
+      "nome": "Zyrtec Dicloridrato De Cetirizina 10mg 12 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/zyrtec-10mg-gsk-12-comprimidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 49.9,
+      "nome": "Reactine Antialérgico 10 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/reactine-10mg-10cap/p",
       "disponivel": true
     }
   },
   "med-00327": {
     "paguemenos": {
-      "preco": 45.29,
+      "preco": 44.49,
       "nome": "Dicloridrato de Trimetazidina 35mg 30 Comprimidos Revestidos de Liberação Prolongada Genérico Germed",
       "url": "https://www.paguemenos.com.br/dicloridrato-de-trimetazidina-35mg-30-comprimidos-revestidos-ems-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 45.29,
+      "preco": 44.49,
       "nome": "Dicloridrato de Trimetazidina 35mg 30 Comprimidos Revestidos de Liberação Prolongada Genérico Germed",
       "url": "https://www.extrafarma.com.br/dicloridrato-de-trimetazidina-35mg-30-comprimidos-revestidos-ems-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 43.59,
+      "preco": 47.95,
       "nome": "Dicloridrato de Trimetazidina 35mg Genérico Eurofarma 30 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dicloridrato-de-trimetazidina-35mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 51.99,
+      "preco": 57.19,
       "nome": "Dicloridrato De Trimetazidina 35mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/dicloridrato-de-trimetazidina-35mg-generico-medley-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 33.19,
+      "preco": 40.99,
       "nome": "Dicloridrato de Trimetazidina 35mg Medley 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/dicloridrato-de-trimetazidina-35mg-medley-30-comprimidos/p",
       "disponivel": true
@@ -10784,13 +10856,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.49,
+      "preco": 43.99,
       "nome": "Dienogeste 2mg Genérico Biosintética 28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dienogeste-2mg-28-comprimidos-g-biosinteti/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 35.49,
+      "preco": 39.04,
       "nome": "Dienogeste 2mg Genérico Biosintética 28 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/dienogeste-2mg-28-comprimidos-g-biosinteti/p",
       "disponivel": true
@@ -10804,25 +10876,25 @@ const PRECOS_REDES = {
   },
   "med-00329": {
     "paguemenos": {
-      "preco": 22.59,
+      "preco": 18.99,
       "nome": "Dramin Capsgel 50mg 10 Cápsulas Moles",
       "url": "https://www.paguemenos.com.br/dramin-50mg-com-10-capsulas-gel/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.59,
+      "preco": 18.99,
       "nome": "Dramin Capsgel 50mg 10 Cápsulas Moles",
       "url": "https://www.extrafarma.com.br/dramin-50mg-com-10-capsulas-gel/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 24.1,
+      "preco": 19.18,
       "nome": "Dramin Dimenidrinato 50mg 10 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/dramin-50mg-com-10-caps-gel/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.57,
+      "preco": 19.79,
       "nome": "Dramin Dimenidrinato 50mg 10 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/dramin-50mg-com-10-caps-gel/p",
       "disponivel": true
@@ -10854,9 +10926,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 276.44,
-      "nome": "Lidexor Dimesilato De Lisdexanfetamina 30mg 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/lidexor-30mg-germed-30-capsulas/p",
+      "preco": 154.9,
+      "nome": "Dimesilato De Lisdexanfetamina 50mg Genérico Pharlab 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/dimesilato-de-lisdexanfetamina-50mg-generico-pharlab-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -10868,31 +10940,31 @@ const PRECOS_REDES = {
   },
   "med-00341": {
     "paguemenos": {
-      "preco": 28.79,
+      "preco": 26.99,
       "nome": "Dipropionato de Beclometasona 50mcg Solução Aerossol Inalatório 200 Doses Genérico Glenmark",
       "url": "https://www.paguemenos.com.br/dipropionato-de-beclometasona-50mcg-glenmark-caixa-200-doses-solucao-aerossol-inalatorio-por-via-oral-generico-glenmark/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 28.79,
+      "preco": 26.99,
       "nome": "Dipropionato de Beclometasona 50mcg Solução Aerossol Inalatório 200 Doses Genérico Glenmark",
       "url": "https://www.extrafarma.com.br/dipropionato-de-beclometasona-50mcg-glenmark-caixa-200-doses-solucao-aerossol-inalatorio-por-via-oral-generico-glenmark/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 28.89,
+      "preco": 31.89,
       "nome": "Dipropionato de Beclometasona 50mcg/dose Genérico Glenmark 200 Doses Aerossol Via Oral",
       "url": "https://www.drogariasaopaulo.com.br/dipropionato-de-beclometasona-50mcg-dose-generico-glenmark-1-frasco-com-200-doses----bombinha/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 26.01,
-      "nome": "Ailuk Dipropionato de Beclometasona 50mcg 200 Doses Solução Aerossol Inalatório por Via Oral",
-      "url": "https://www.drogariaspacheco.com.br/ailuk-50mcg-glenmark-200-doses-solucao-aerossol-inalatorio-por-via-oral/p",
+      "preco": 31.89,
+      "nome": "Dipropionato de Beclometasona 50mcg/dose Genérico Glenmark 200 Doses Aerossol Via Oral",
+      "url": "https://www.drogariaspacheco.com.br/dipropionato-de-beclometasona-50mcg-dose-generico-glenmark-1-frasco-com-200-doses----bombinha/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 33.54,
+      "preco": 33.58,
       "nome": "Ailuk 50mcg Glenmark Solução Aerossol 200 Doses",
       "url": "https://www.drogariavenancio.com.br/ailuk-50mcg-dose-sol-aer-200acionamentos/p",
       "disponivel": true
@@ -10900,15 +10972,15 @@ const PRECOS_REDES = {
   },
   "med-00345": {
     "paguemenos": {
-      "preco": 18.89,
-      "nome": "Dipropionato de Betametasona 0,64mg/g + Sulfato de Gentamicina 1mg/g Pomada Dermatológica 30g Genérico Geolab",
-      "url": "https://www.paguemenos.com.br/dipropionato-de-betametasona-mais-sulfato-de-gentamicina-pomada-dermatologica-0-64mg-g-mais-1mg-g-bisnaga-30g-generico-geolab/p",
+      "preco": 20.49,
+      "nome": "Dipropionato de Betametasona 0,5mg/g + Sulfato de Gentamicina 1mg/g Creme Dermatológico 30g Genérico EMS",
+      "url": "https://www.paguemenos.com.br/diproprionato-de-betametasonamaissulfato-de-gentamicina-creme-30g-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.89,
-      "nome": "Dipropionato de Betametasona 0,64mg/g + Sulfato de Gentamicina 1mg/g Pomada Dermatológica 30g Genérico Geolab",
-      "url": "https://www.extrafarma.com.br/dipropionato-de-betametasona-mais-sulfato-de-gentamicina-pomada-dermatologica-0-64mg-g-mais-1mg-g-bisnaga-30g-generico-geolab/p",
+      "preco": 20.49,
+      "nome": "Dipropionato de Betametasona 0,5mg/g + Sulfato de Gentamicina 1mg/g Creme Dermatológico 30g Genérico EMS",
+      "url": "https://www.extrafarma.com.br/diproprionato-de-betametasonamaissulfato-de-gentamicina-creme-30g-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -10918,7 +10990,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.29,
+      "preco": 28.21,
       "nome": "Trok-G Cetoconazol 0,64mg/g + Dipropionato de Betametasona 1mg/g 30g Creme",
       "url": "https://www.drogariaspacheco.com.br/trok-g-creme-eurofarma-30g/p",
       "disponivel": true
@@ -10938,31 +11010,31 @@ const PRECOS_REDES = {
   },
   "med-00343": {
     "paguemenos": {
-      "preco": 14.19,
-      "nome": "Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g Creme Dermatológico 30g Genérico Medley",
-      "url": "https://www.paguemenos.com.br/cetoconazolmais-dipropionato-de-betametasona-creme-30g-generico-medley/p",
+      "preco": 16.19,
+      "nome": "Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g Pomada 30g Genérico Medley",
+      "url": "https://www.paguemenos.com.br/cetoconazolmaisdipropionato-de-betametasona-pomada-30g-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.19,
-      "nome": "Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g Creme Dermatológico 30g Genérico Medley",
-      "url": "https://www.extrafarma.com.br/cetoconazolmais-dipropionato-de-betametasona-creme-30g-generico-medley/p",
+      "preco": 16.19,
+      "nome": "Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g Pomada 30g Genérico Medley",
+      "url": "https://www.extrafarma.com.br/cetoconazolmaisdipropionato-de-betametasona-pomada-30g-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 47.21,
-      "nome": "Candicort Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g 30g Pomada",
-      "url": "https://www.drogariasaopaulo.com.br/candicort-dermatologico-ache-pomada-30g/p",
+      "preco": 36.99,
+      "nome": "Candicort Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g 30g Creme Dermatológico",
+      "url": "https://www.drogariasaopaulo.com.br/candicort-dermatologico-ache-creme-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 37.13,
+      "preco": 36,
       "nome": "Candicort Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g 30g Creme Dermatológico",
       "url": "https://www.drogariaspacheco.com.br/candicort-dermatologico-ache-creme-30g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.49,
+      "preco": 21.99,
       "nome": "Cetoconazol + Dipropionato De Betametasona 20mg/g + 0,64mg Eurofarma Pomada 30g",
       "url": "https://www.drogariavenancio.com.br/cetoconazol-betam-pom-30g-g-eurofarma/p",
       "disponivel": true
@@ -10976,31 +11048,31 @@ const PRECOS_REDES = {
   },
   "med-00685": {
     "paguemenos": {
-      "preco": 13.89,
+      "preco": 13.19,
       "nome": "Cetoconazol 20mg + Dipropionato de Betametasona 0,5mg + Sulfato de Neomicina 2,5mg Pomada Dermatológica 30g Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/cetoconazol-20mg-mais-dipropionato-de-betametasona-0-64mg-mais-sulfato-de-neomicina-2-5mg-pomada-dermatologica-30g-eurofarma-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.89,
+      "preco": 13.19,
       "nome": "Cetoconazol 20mg + Dipropionato de Betametasona 0,5mg + Sulfato de Neomicina 2,5mg Pomada Dermatológica 30g Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/cetoconazol-20mg-mais-dipropionato-de-betametasona-0-64mg-mais-sulfato-de-neomicina-2-5mg-pomada-dermatologica-30g-eurofarma-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 21.42,
+      "preco": 21.02,
       "nome": "Trok-N Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g + Sulfato de Neomicina 2,5mg/g 10g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/trok-n-pomada-20mgg-eurofarma-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.79,
-      "nome": "Novacort Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g + Sulfato de Neomicina 2,5mg/g 10g Creme",
-      "url": "https://www.drogariaspacheco.com.br/novacort-20mg-ache-creme-10g/p",
+      "preco": 15.87,
+      "nome": "Cimecort Cetoconazol 20mg/g + Dipropionato de Betametasona 0,64mg/g + Sulfato de Neomicina 2,5mg/g 30g Creme",
+      "url": "https://www.drogariaspacheco.com.br/cimecort-cimed-creme-30g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.89,
+      "preco": 12.49,
       "nome": "Cetoconazol + Dipropionato de Betametasona + Sulfato de neomicina Cimed Creme 30g",
       "url": "https://www.drogariavenancio.com.br/cetoconazol-dip-betameta-sulf-neomicina-30g-g-cimed/p",
       "disponivel": true
@@ -11014,13 +11086,13 @@ const PRECOS_REDES = {
   },
   "med-00347": {
     "paguemenos": {
-      "preco": 25.59,
+      "preco": 23.59,
       "nome": "Divalproato de Sódio 250mg 20 Comprimidos Revestidos Genérico Zydus Nikkho",
       "url": "https://www.paguemenos.com.br/divalproato-de-sodio-250mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.59,
+      "preco": 23.59,
       "nome": "Divalproato de Sódio 250mg 20 Comprimidos Revestidos Genérico Zydus Nikkho",
       "url": "https://www.extrafarma.com.br/divalproato-de-sodio-250mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
@@ -11032,9 +11104,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 56.39,
-      "nome": "Divalproato de Sódio 500mg Eurofama 30 Comprimido",
-      "url": "https://www.drogariaspacheco.com.br/divalproato-de-sodio-500mg-eurofama-30-comprimido/p",
+      "preco": 26.99,
+      "nome": "Divalproato de Sódio 250mg Genérico Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/divalproato-de-sodio-250mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -11064,13 +11136,19 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 9.59,
+      "preco": 10.55,
       "nome": "Domperidona 10mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/domperidona-10mg-generico-30-comprimidos/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 10.55,
+      "nome": "Domperidona 10mg Genérico EMS 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/domperidona-10mg-generico-30-comprimidos/p",
+      "disponivel": true
+    },
     "venancio": {
-      "preco": 10.05,
+      "preco": 9.49,
       "nome": "Domperidona 10mg Neo Química 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/domperidona-10mg-30com--g--brainfarma/p",
       "disponivel": true
@@ -11110,27 +11188,33 @@ const PRECOS_REDES = {
   },
   "med-00351": {
     "paguemenos": {
-      "preco": 8.29,
-      "nome": "Dropropizina 3mg/ml Xarope 120ml Genérico Achê",
-      "url": "https://www.paguemenos.com.br/dropropizina-3mg-xarope-120ml-generico-ache/p",
-      "disponivel": true
+      "preco": 10.99,
+      "nome": "Dropropizina 3mg/ml Xarope Adulto 120ml Genérico Medley",
+      "url": "https://www.paguemenos.com.br/dropropizina-xarope-adulto-120ml-generico-medley/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 8.29,
-      "nome": "Dropropizina 3mg/ml Xarope 120ml Genérico Achê",
-      "url": "https://www.extrafarma.com.br/dropropizina-3mg-xarope-120ml-generico-ache/p",
-      "disponivel": true
+      "preco": 10.99,
+      "nome": "Dropropizina 3mg/ml Xarope Adulto 120ml Genérico Medley",
+      "url": "https://www.extrafarma.com.br/dropropizina-xarope-adulto-120ml-generico-medley/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 8.9,
+      "preco": 14.46,
       "nome": "Dropropizina 1,5mg/ml Biosintética Morango 120ml Xarope + Seringa Dosadora",
       "url": "https://www.drogariasaopaulo.com.br/dropropizina-1-5mg-ml-biosintetica-morango-120ml-xarope-seringa-dosadora/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 12.45,
+      "nome": "Dropropizina 1,5mg/ml Biosintética Morango 120ml Xarope + Seringa Dosadora",
+      "url": "https://www.drogariaspacheco.com.br/dropropizina-1-5mg-ml-biosintetica-morango-120ml-xarope-seringa-dosadora/p",
+      "disponivel": true
+    },
     "venancio": {
-      "preco": 8.09,
-      "nome": "Dropropizina Pediátrico 1,5mg/ml Biosintética Xarope 120ml",
-      "url": "https://www.drogariavenancio.com.br/dropropizina-pediatrico-15mg-ml-biosintetica-xarope-120ml/p",
+      "preco": 11.93,
+      "nome": "Dropropizina 3mg Biosintética Xarope 120ml",
+      "url": "https://www.drogariavenancio.com.br/dropropizina-3mg-xarope-120ml/p",
       "disponivel": true
     }
   },
@@ -11162,7 +11246,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 87.21,
+      "preco": 87.3,
       "nome": "Nuance 1mg + 2mg Eurofarma 28 Comprimido",
       "url": "https://www.drogariavenancio.com.br/nuance-10-20mg-28com/p",
       "disponivel": true
@@ -11170,13 +11254,13 @@ const PRECOS_REDES = {
   },
   "med-00369": {
     "paguemenos": {
-      "preco": 89.99,
+      "preco": 82.99,
       "nome": "Estreva 0,5mg/dose Gel 50g",
       "url": "https://www.paguemenos.com.br/estreva-gel-50g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 89.99,
+      "preco": 82.99,
       "nome": "Estreva 0,5mg/dose Gel 50g",
       "url": "https://www.extrafarma.com.br/estreva-gel-50g/p",
       "disponivel": true
@@ -11188,7 +11272,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 78.19,
+      "preco": 76.63,
       "nome": "Estreva Estradiol Hemi-Hidratado 1mg/g 50g Gel",
       "url": "https://www.drogariaspacheco.com.br/estreva-01-gel-vision-import-50g/p",
       "disponivel": true
@@ -11220,21 +11304,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 80.55,
+      "preco": 79.99,
       "nome": "Dastene Duo Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 30 Cápsulas Duras de Liberação Prolongada",
       "url": "https://www.drogariasaopaulo.com.br/dastene-duo-dutasterida-cloridrato-tansulosina-30-capsulas-duras-liberacao-prolongada/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 79.19,
-      "nome": "Dutam Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/dutam-30-capsulas-duras-de-liberacao-prolongada-zodiac/p",
+      "preco": 79.99,
+      "nome": "Dastene Duo Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 30 Cápsulas Duras de Liberação Prolongada",
+      "url": "https://www.drogariaspacheco.com.br/dastene-duo-dutasterida-cloridrato-tansulosina-30-capsulas-duras-liberacao-prolongada/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 77.35,
-      "nome": "Dutasterida + Cloridrato de Tansulosina 0,5mg + 0,4mg Zydus 30 Cápsulas",
-      "url": "https://www.drogariavenancio.com.br/dutasterida-clor-tansulosina--05-04-mg-30cap--g--zydus/p",
+      "preco": 83.17,
+      "nome": "Dutam 0,5mg + 0,4mg Adium 30 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/dutam-30cps/p",
       "disponivel": true
     },
     "panvel": {
@@ -11246,27 +11330,27 @@ const PRECOS_REDES = {
   },
   "med-00354": {
     "paguemenos": {
-      "preco": 108.99,
+      "preco": 109.99,
       "nome": "Dutasterida 0,5mg Com 30 Capsulas Generico Biosintetica",
       "url": "https://www.paguemenos.com.br/dutasterida-0-5mg-com-30-capsulas-generico-biosintetica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 108.99,
+      "preco": 109.99,
       "nome": "Dutasterida 0,5mg Com 30 Capsulas Generico Biosintetica",
       "url": "https://www.extrafarma.com.br/dutasterida-0-5mg-com-30-capsulas-generico-biosintetica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 98.52,
+      "preco": 84.99,
       "nome": "Dutasterida 0,5mg + Cloridrato de Tansulosina 4mg Genérico Zydus 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/dutasterida-0-5mg-cloridrato-tansulosina-4mg-generico-zydus-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 96.99,
-      "nome": "Dastene Dutasterida 0,5mg 30 Cápsulas Moles",
-      "url": "https://www.drogariaspacheco.com.br/dastene-0-5mg-ache-30-capsulas-moles/p",
+      "preco": 84.99,
+      "nome": "Dutasterida 0,5mg + Cloridrato de Tansulosina 4mg Genérico Zydus 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/dutasterida-0-5mg-cloridrato-tansulosina-4mg-generico-zydus-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -11290,9 +11374,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 2399.99,
-      "nome": "Revolade - 25mg, Caixa Com 14 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/revolade---25mg-caixa-com-14-comprimidos/p",
+      "preco": 2420.2,
+      "nome": "Eltrombopague Olamina 25mg 14 Comprimidos Revestidos Teva",
+      "url": "https://www.drogariavenancio.com.br/eltrombopague-olamina-25mg-14-comprimidos-revestidos/p",
       "disponivel": false
     }
   },
@@ -11310,13 +11394,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 17.29,
+      "preco": 17.11,
       "nome": "Perlumes Algestona Acetofenida 150mg/ml + Enantato de Estradiol 10mg/ml 1 Ampola 1ml Solução Injetável",
       "url": "https://www.drogariasaopaulo.com.br/perlumes-150mg-ml---10mg-ml-legrand-1-ampola-com-1ml-de-solucao/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.46,
+      "preco": 17.11,
       "nome": "Perlumes Algestona Acetofenida 150mg/ml + Enantato de Estradiol 10mg/ml 1 Ampola 1ml Solução Injetável",
       "url": "https://www.drogariaspacheco.com.br/perlumes-150mg-ml---10mg-ml-legrand-1-ampola-com-1ml-de-solucao/p",
       "disponivel": true
@@ -11336,13 +11420,13 @@ const PRECOS_REDES = {
   },
   "med-00740": {
     "paguemenos": {
-      "preco": 19.19,
+      "preco": 19.39,
       "nome": "Enantato de Noretisterona 50mg/ml + Valerato de Estradiol 5mg/ml Solução Injetável 1 Ampola 1ml Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/enantato-de-noretisterona-50mg-ml-mais-valerato-de-estradiol-5mg-ml-com-1-ampola-1ml-solucao-injetavel-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.19,
+      "preco": 19.39,
       "nome": "Enantato de Noretisterona 50mg/ml + Valerato de Estradiol 5mg/ml Solução Injetável 1 Ampola 1ml Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/enantato-de-noretisterona-50mg-ml-mais-valerato-de-estradiol-5mg-ml-com-1-ampola-1ml-solucao-injetavel-generico-eurofarma/p",
       "disponivel": true
@@ -11354,7 +11438,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 37.11,
+      "preco": 35.82,
       "nome": "Mesigyna Valerato de Estradiol 5mg/ml + Enantato de Noretisterona 50mg/ml 1ml Seringa Preenchida + Agulha",
       "url": "https://www.drogariaspacheco.com.br/mesigyna-50mg-ml-5mg-ml-bayer-1ml-seringa-preenchida-agulha/p",
       "disponivel": true
@@ -11392,13 +11476,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 85.72,
+      "preco": 88.9,
       "nome": "Volare Enoxaparina Sódica 20mg 2 Seringas com 0,2ml + Sistema de Segurança",
       "url": "https://www.drogariaspacheco.com.br/volare-20mg-ache-2-seringas-com-0-2ml---sistema-de-seguranca-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 85.72,
+      "preco": 88.9,
       "nome": "Volare 20mg Aché Solução Injetável 2 Seringas Preenchidas de 0,2ml Com Sistema De Segurança",
       "url": "https://www.drogariavenancio.com.br/volare-20mg-ache-solucao-injetavel-2-seringas-preenchidas-de-02ml-com-sistema-de-seguranca/p",
       "disponivel": true
@@ -11406,13 +11490,13 @@ const PRECOS_REDES = {
   },
   "med-00361": {
     "paguemenos": {
-      "preco": 281.99,
+      "preco": 249.99,
       "nome": "Comtan 200mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/comtan-200mg-com-30-comprimidos-psicotropico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 281.99,
+      "preco": 249.99,
       "nome": "Comtan 200mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/comtan-200mg-com-30-comprimidos-psicotropico/p",
       "disponivel": true
@@ -11428,29 +11512,35 @@ const PRECOS_REDES = {
       "nome": "Entarkin 200mg EMS 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/entarkin-ems-30-comprimidos/p",
       "disponivel": false
+    },
+    "venancio": {
+      "preco": 273.69,
+      "nome": "Comtan 200mg Sandoz 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/comtan-200mg-30com--c1--sandoz/p",
+      "disponivel": true
     }
   },
   "med-00362": {
     "paguemenos": {
-      "preco": 233.99,
+      "preco": 230.99,
       "nome": "Binav 200mg+300mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/binav-200mgmais300mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 233.99,
+      "preco": 230.99,
       "nome": "Binav 200mg+300mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/binav-200mgmais300mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 234.18,
+      "preco": 231.82,
       "nome": "Binav Entricitabina 200mg + Fumarato de Tenofovir Desoproxila 300mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/binav-200mg--300mg-generico-blanver-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 236.55,
+      "preco": 231.82,
       "nome": "Binav Entricitabina 200mg + Fumarato de Tenofovir Desoproxila 300mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/binav-200mg--300mg-generico-blanver-30-comprimidos/p",
       "disponivel": true
@@ -11484,27 +11574,27 @@ const PRECOS_REDES = {
   },
   "med-00365": {
     "paguemenos": {
-      "preco": 19.29,
+      "preco": 17.79,
       "nome": "Esomeprazol Magnésico Tri-hidratado 20mg 28 Comprimidos Revestidos de Liberação Retardada Genérico EMS",
       "url": "https://www.paguemenos.com.br/esomeprazol-20mg-com-28-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.29,
+      "preco": 17.79,
       "nome": "Esomeprazol Magnésico Tri-hidratado 20mg 28 Comprimidos Revestidos de Liberação Retardada Genérico EMS",
       "url": "https://www.extrafarma.com.br/esomeprazol-20mg-com-28-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 85.67,
+      "preco": 37.39,
       "nome": "Esomeprazol Magnésico 20mg Genérico Medley 28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/esomeprazol-magnesico-20mg-generico-medley-28-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 80.19,
-      "nome": "Gaeso Esomeprazol Magnésico 20mg 28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/gaeso-20mg-ache-28-comprimidos/p",
+      "preco": 37.39,
+      "nome": "Esomeprazol Magnésico 20mg Genérico Medley 28 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/esomeprazol-magnesico-20mg-generico-medley-28-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -11516,25 +11606,25 @@ const PRECOS_REDES = {
   },
   "med-00366": {
     "paguemenos": {
-      "preco": 55.49,
+      "preco": 48.99,
       "nome": "Esomeprazol Magnésico Tri-Hidratado 40mg 28 Comprimidos Revestidos Genérico Nova Química",
       "url": "https://www.paguemenos.com.br/esomeprazol-magnesico-tri-hidratado-40mg-28-comprimidos-revestidos-generico-nova-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 55.49,
+      "preco": 48.99,
       "nome": "Esomeprazol Magnésico Tri-Hidratado 40mg 28 Comprimidos Revestidos Genérico Nova Química",
       "url": "https://www.extrafarma.com.br/esomeprazol-magnesico-tri-hidratado-40mg-28-comprimidos-revestidos-generico-nova-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 97.01,
+      "preco": 96.03,
       "nome": "Nexium Esomeprazol Magnésico Tri-Hidratado 20mg 14 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/nexium-20mg-astrazeneca-14-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 97.99,
+      "preco": 96.03,
       "nome": "Nexium Esomeprazol Magnésico Tri-Hidratado 20mg 14 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nexium-20mg-astrazeneca-14-capsulas/p",
       "disponivel": true
@@ -11554,15 +11644,15 @@ const PRECOS_REDES = {
   },
   "med-00605": {
     "paguemenos": {
-      "preco": 12.29,
-      "nome": "Pantoprazol Sódico Sesqui-Hidratado 20mg 28 Comprimidos Revestidos de Liberação Retardada Genérico Eurofarma",
-      "url": "https://www.paguemenos.com.br/pantoprazol-20mg-com-28-comprimidos-genericos-eurofarma/p",
+      "preco": 11.39,
+      "nome": "Pantoprazol Sódico Sesqui-hidratado 40mg 28 Comprimidos Revestidos de Liberação Retardada Genérico Aché",
+      "url": "https://www.paguemenos.com.br/gn-pantoprazol-40mg-28cp-ache/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.29,
-      "nome": "Pantoprazol Sódico Sesqui-Hidratado 20mg 28 Comprimidos Revestidos de Liberação Retardada Genérico Eurofarma",
-      "url": "https://www.extrafarma.com.br/pantoprazol-20mg-com-28-comprimidos-genericos-eurofarma/p",
+      "preco": 11.39,
+      "nome": "Pantoprazol Sódico Sesqui-hidratado 40mg 28 Comprimidos Revestidos de Liberação Retardada Genérico Aché",
+      "url": "https://www.extrafarma.com.br/gn-pantoprazol-40mg-28cp-ache/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -11572,13 +11662,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9.99,
-      "nome": "Pantoprazol Sódico Sesqui-Hidratado 20mg Genérico EMS  28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/pantoprazol-20mg-generico-ems-28-comprimidos/p",
+      "preco": 6.99,
+      "nome": "Pantoprazol Sódico Sesqui-Hidratado 40mg Genérico Eurofarma 28 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/pantoprazol-sodico-sesqui-hidratado-40mg-generico-eurofarma-28-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.14,
+      "preco": 9.49,
       "nome": "Pantoprazol 40mg Aché 14 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/pantoprazol-40mg-14com--g--biosintetica/p",
       "disponivel": true
@@ -11592,31 +11682,31 @@ const PRECOS_REDES = {
   },
   "med-00368": {
     "paguemenos": {
-      "preco": 15.29,
+      "preco": 14.19,
       "nome": "Espironolactona 25mg 30 Comprimidos Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/espironolactona-25mg-com-30-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.29,
+      "preco": 14.19,
       "nome": "Espironolactona 25mg 30 Comprimidos Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/espironolactona-25mg-com-30-comprimidos-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 14.29,
+      "preco": 15.72,
       "nome": "Espironolactona 25mg Genérico Germed 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/espironolactona-25mg-generico-germed-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.29,
+      "preco": 15.72,
       "nome": "Espironolactona 25mg Genérico Germed 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/espironolactona-25mg-generico-germed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.16,
+      "preco": 14.99,
       "nome": "Espironolactona 25mg Ems 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/espironolactona-25mg-ems-30-comprimidos/p",
       "disponivel": true
@@ -11656,63 +11746,63 @@ const PRECOS_REDES = {
   },
   "med-00372": {
     "paguemenos": {
-      "preco": 81.49,
-      "nome": "Hezo 3mg 20 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/hezo-3mg-com-20-comprimidos-revestidos/p",
+      "preco": 68.67,
+      "nome": "Eczo 3mg 20 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/eczo-3mg-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 81.49,
-      "nome": "Hezo 3mg 20 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/hezo-3mg-com-20-comprimidos-revestidos/p",
+      "preco": 68.67,
+      "nome": "Eczo 3mg 20 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/eczo-3mg-20-comprimidos-revestidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 86.59,
-      "nome": "Prysma Eszopiclona 2mg 20 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/prysma-2mg-eurofarma-20-comprimidos/p",
+      "preco": 74.29,
+      "nome": "Torrem Eszopiclona 3mg 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/torrem-eszopiclona-3mg-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 70.26,
+      "preco": 77.39,
       "nome": "Ezonia Eszopiclona 2mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/ezonia-2mg-momenta-farma-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 80.73,
-      "nome": "Ezonia 2mg Momenta 20 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/ezonia-2mg-20-comprimidos/p",
+      "preco": 78.29,
+      "nome": "Prysma Eurofarma 2mg 20 comprimidos",
+      "url": "https://www.drogariavenancio.com.br/prysma-eurofarma-2mg-20-comprimidos/p",
       "disponivel": true
     }
   },
   "med-00380": {
     "paguemenos": {
-      "preco": 25.39,
-      "nome": "Etinilestradiol 30mcg + Gestodeno 75mcg 21 Comprimidos Revestidos Genérico Aché",
-      "url": "https://www.paguemenos.com.br/etinilestradiol-30mcg-mais-gestodeno-75mcg-com-21-comprimidos-generico-ache/p",
+      "preco": 24.79,
+      "nome": "Etinilestradiol 15mcg + Gestodeno 60mcg 28 Comprimidos Revestidos Genérico Aché",
+      "url": "https://www.paguemenos.com.br/etinilestradiol-15mcg-mais-gestodeno-60mcg-com-28-comprimidos-generico-ache/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.39,
-      "nome": "Etinilestradiol 30mcg + Gestodeno 75mcg 21 Comprimidos Revestidos Genérico Aché",
-      "url": "https://www.extrafarma.com.br/etinilestradiol-30mcg-mais-gestodeno-75mcg-com-21-comprimidos-generico-ache/p",
+      "preco": 24.79,
+      "nome": "Etinilestradiol 15mcg + Gestodeno 60mcg 28 Comprimidos Revestidos Genérico Aché",
+      "url": "https://www.extrafarma.com.br/etinilestradiol-15mcg-mais-gestodeno-60mcg-com-28-comprimidos-generico-ache/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 30.92,
+      "preco": 30.61,
       "nome": "Tantin Etinilestradiol 0,015mg + Gestodeno 0,060mg 28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/tantin-50mg-biolab--28-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 25.99,
+      "preco": 24.98,
       "nome": "Tantin Etinilestradiol 0,015mg + Gestodeno 0,060mg 28 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/tantin-50mg-biolab-28-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 33.49,
+      "preco": 32.89,
       "nome": "Tamisa Gestodeno + Etinilestradiol 75mg + 30mg Eurofarma 21 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/tamisa-gestodeno---etinilestradiol-75mg---30mg-eurofarma-21-comprimidos-revestidos-/p",
       "disponivel": true
@@ -11732,19 +11822,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 47.69,
-      "nome": "Minian Desogestrel 150mcg + Etinilestradiol 20mcg 21 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/minian-150-20mcg-libbs-21-comprimidos/p",
+      "preco": 39.09,
+      "nome": "Mercilon Conti Desogestrel 150mcg + Etinilestradiol 20mcg 28 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/mercilon-conti-schering-plough-28-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 38.29,
-      "nome": "Primera 30 Desogestrel 150mcg + Etinilestradiol 30mcg 21 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/primeira-30mcg-eurofarma-21-comprimidos/p",
+      "preco": 36.74,
+      "nome": "Minian Desogestrel 150mcg + Etinilestradiol 20mcg 21 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/minian-150-20mcg-libbs-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 22.8,
+      "preco": 20.99,
       "nome": "Desogestrel + Etinilestradiol 150mcg + 20mcg 21 Comprimidos Biosintetica",
       "url": "https://www.drogariavenancio.com.br/desogestrel---etinilestradiol-150mcg---20mcg-21-comprimidos/p",
       "disponivel": true
@@ -11764,19 +11854,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.28,
+      "preco": 38.89,
       "nome": "Nordette Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 63 Drágeas",
       "url": "https://www.drogariasaopaulo.com.br/nordette-wyeth-whitehall-3-x-21-drageas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.49,
+      "preco": 11.75,
       "nome": "Nordette Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 21 Drágeas",
       "url": "https://www.drogariaspacheco.com.br/nordette-wyeth-whitehall-21-drageas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.49,
+      "preco": 11.99,
       "nome": "Nordette 21 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/nordette-21-comprimidos/p",
       "disponivel": true
@@ -11790,31 +11880,31 @@ const PRECOS_REDES = {
   },
   "med-00381": {
     "paguemenos": {
-      "preco": 3.69,
+      "preco": 4.89,
       "nome": "Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 21 Comprimidos Revestidos Genérico Cifarma",
       "url": "https://www.paguemenos.com.br/levonorgestrel-0-15mg-mais-etinilestradiol-0-03mg-com-21-comprimidos-generico-cifarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 3.69,
+      "preco": 4.89,
       "nome": "Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 21 Comprimidos Revestidos Genérico Cifarma",
       "url": "https://www.extrafarma.com.br/levonorgestrel-0-15mg-mais-etinilestradiol-0-03mg-com-21-comprimidos-generico-cifarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 8.86,
+      "preco": 8.77,
       "nome": "Ciclo 21 Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 21 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/ciclo-21-015-003mg-uniao-quimica-21-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.42,
+      "preco": 7.16,
       "nome": "Ciclo 21 Levonorgestrel 0,15mg + Etinilestradiol 0,03mg 21 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/ciclo-21-015-003mg-uniao-quimica-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.35,
+      "preco": 8.9,
       "nome": "Ciclo 21 União Química 21 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/ciclo-21-uniao-quimica-21-comprimidos/p",
       "disponivel": true
@@ -11846,13 +11936,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.99,
+      "preco": 6.59,
       "nome": "Levonorgestrel 0,15mg + Etinilestradiol 0,03mg Genérico Biolab 21 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/levonorgestrel---etinilestradiol-0-15mg---0-03mg-generico-biolab-21-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.99,
+      "preco": 4.99,
       "nome": "Levonorgestrel + Etinilestradio 0,15mg + 0,03mg Biolab 21 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/levonorgestrel-etinilestradiol-015-003mg-21com--g--biolab/p",
       "disponivel": true
@@ -11866,21 +11956,21 @@ const PRECOS_REDES = {
   },
   "med-00383": {
     "paguemenos": {
-      "preco": 16.99,
+      "preco": 16.39,
       "nome": "Etodolaco 400mg 10 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.paguemenos.com.br/etodolaco-400mg-com-10-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.99,
+      "preco": 16.39,
       "nome": "Etodolaco 400mg 10 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.extrafarma.com.br/etodolaco-400mg-com-10-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.99,
-      "nome": "Etodolaco 500mg Genérico Germed 14 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/etodolaco-500mg-generico-germed-14-comprimidos-revestidos/p",
+      "preco": 19.68,
+      "nome": "Etodolaco 400mg Genérico Germed 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/etodolaco-400mg-generico-sem-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -11898,15 +11988,15 @@ const PRECOS_REDES = {
   },
   "med-00379": {
     "paguemenos": {
-      "preco": 84.99,
-      "nome": "Exelring 11mg + 3,474mg 1 Anel Vaginal",
-      "url": "https://www.paguemenos.com.br/exelring-sache-com-1-anel-vaginal/p",
+      "preco": 77.49,
+      "nome": "Livanel 0,120mg + 0,015mg 1 Anel Vaginal",
+      "url": "https://www.paguemenos.com.br/livanel-etonogestrel-0-120mg-mais-etinilestradiol-0-015mg-sache-com-1-anel-vaginal/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 84.99,
-      "nome": "Exelring 11mg + 3,474mg 1 Anel Vaginal",
-      "url": "https://www.extrafarma.com.br/exelring-sache-com-1-anel-vaginal/p",
+      "preco": 77.49,
+      "nome": "Livanel 0,120mg + 0,015mg 1 Anel Vaginal",
+      "url": "https://www.extrafarma.com.br/livanel-etonogestrel-0-120mg-mais-etinilestradiol-0-015mg-sache-com-1-anel-vaginal/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -11916,13 +12006,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 77.99,
+      "preco": 67.9,
       "nome": "Exelring Etonogestrel 0,120mg + Etinilestradiol 0,015mg 1 Anel Vaginal",
       "url": "https://www.drogariaspacheco.com.br/exelring-0-120mg-0-015mg-exeltis-3-aneis-vaginais/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 78.48,
+      "preco": 67.22,
       "nome": "Exelring Exeltis 1 Anel Vaginal",
       "url": "https://www.drogariavenancio.com.br/exelring-exeltis-1-anel-vaginal/p",
       "disponivel": true
@@ -11930,25 +12020,25 @@ const PRECOS_REDES = {
   },
   "med-00385": {
     "paguemenos": {
-      "preco": 13.43,
+      "preco": 18.69,
       "nome": "Etoricoxibe 60mg Com 7 Comprimidos Genérico Zydus Psicotrópico P/C1",
       "url": "https://www.paguemenos.com.br/etoricoxibe-60mg-com-7-comprimidos-generico-zydus-psicotropico-p-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.43,
+      "preco": 18.69,
       "nome": "Etoricoxibe 60mg Com 7 Comprimidos Genérico Zydus Psicotrópico P/C1",
       "url": "https://www.extrafarma.com.br/etoricoxibe-60mg-com-7-comprimidos-generico-zydus-psicotropico-p-c1/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 54.7,
+      "preco": 52.78,
       "nome": "Arcoxia Etoricoxibe 60mg 7 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/arcoxia-60mg-7-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 58.01,
+      "preco": 58.97,
       "nome": "Arcoxia Etoricoxibe 60mg 7 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/arcoxia-60mg-7-comprimidos/p",
       "disponivel": true
@@ -12032,25 +12122,25 @@ const PRECOS_REDES = {
   },
   "med-00433": {
     "paguemenos": {
-      "preco": 22.59,
+      "preco": 20.59,
       "nome": "Ginkgo Catarinense 80mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/ginkgo-biloba-catarinense-comprimidos30/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.59,
+      "preco": 20.59,
       "nome": "Ginkgo Catarinense 80mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/ginkgo-biloba-catarinense-comprimidos30/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 112.99,
-      "nome": "Equitam Ginkgo biloba 120mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/equitam-120mg-momenta-30-comprimidos/p",
+      "preco": 90.63,
+      "nome": "Equitam Ginkgo biloba 80mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/equitam-80mg-momenta-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 21.99,
+      "preco": 20.59,
       "nome": "Ginkgo Catarinense 80mg 30 comprimidos revestidos",
       "url": "https://www.drogariavenancio.com.br/ginkgo-biloba-30cpr-catarinense/p",
       "disponivel": true
@@ -12070,21 +12160,21 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 44.59,
-      "nome": "Ezetimiba 10mg Genérico Althaia 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/ezetimiba-10mg-30-comprimidos-g-/p",
+      "preco": 52.73,
+      "nome": "Posicor Ezetimiba 10mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/posicor-10mg-biolab-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 44.59,
-      "nome": "Ezetimiba 10mg Genérico Althaia 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/ezetimiba-10mg-30-comprimidos-g-/p",
+      "preco": 47.42,
+      "nome": "Posicor Ezetimiba 10mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/posicor-10mg-biolab-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 38.99,
-      "nome": "Ezetimiba 10mg Biolab 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/ezetimiba-10mg-actavis-30-comprimidos/p",
+      "preco": 39.99,
+      "nome": "Ezetimiba 10mg Althaia 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/ezetimiba-10mg-althaia-30-comprimidos/p",
       "disponivel": true
     }
   },
@@ -12093,22 +12183,22 @@ const PRECOS_REDES = {
       "preco": 56.49,
       "nome": "Ezetimiba+sinvastatina 10mg + 40mg Cpd/30 Generico Germed",
       "url": "https://www.paguemenos.com.br/ezetimibamaissinvastatina-10mg-mais-40mg-cpd-30-generico-germed/p",
-      "disponivel": false
+      "disponivel": true
     },
     "extrafarma": {
       "preco": 56.49,
       "nome": "Ezetimiba+sinvastatina 10mg + 40mg Cpd/30 Generico Germed",
       "url": "https://www.extrafarma.com.br/ezetimibamaissinvastatina-10mg-mais-40mg-cpd-30-generico-germed/p",
-      "disponivel": false
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 84.89,
+      "preco": 76.81,
       "nome": "Zetsim Ezetimiba 10mg + Sinvastatina 20mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/zetsim-10-20mg-supera-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 84.89,
+      "preco": 76.81,
       "nome": "Zetsim Ezetimiba 10mg + Sinvastatina 20mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/zetsim-10-20mg-supera-30-comprimidos/p",
       "disponivel": true
@@ -12128,33 +12218,33 @@ const PRECOS_REDES = {
   },
   "med-00665": {
     "paguemenos": {
-      "preco": 4.99,
+      "preco": 5.29,
       "nome": "Sinvastatina 10mg 30 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/sinvastatina-10mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.99,
+      "preco": 5.29,
       "nome": "Sinvastatina 10mg 30 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/sinvastatina-10mg-com-30-comprimidos-generico-sandoz/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 10.59,
-      "nome": "Sinvastacor Sinvastatina 10mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/sinvastacor-10mg-sandoz-do-brasil-30-compirmidos/p",
+      "preco": 7.99,
+      "nome": "Sinvastacor Sinvastatina 20mg  30 Compirmidos",
+      "url": "https://www.drogariasaopaulo.com.br/sinvastacor-20mg-sandoz-do-brasil-30-compirmidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.99,
-      "nome": "Sinvastacor Sinvastatina 20mg  30 Compirmidos",
-      "url": "https://www.drogariaspacheco.com.br/sinvastacor-20mg-sandoz-do-brasil-30-compirmidos/p",
+      "preco": 3.99,
+      "nome": "Sinvastacor Sinvastatina 10mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/sinvastacor-10mg-sandoz-do-brasil-30-compirmidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.84,
-      "nome": "Sinvastatina 20mg Com 30 Comprimidos - Sandoz - Genérico",
-      "url": "https://www.drogariavenancio.com.br/sinvastatina-20mg-com-30-comprimidos---sandoz---generico/p",
+      "preco": 6.99,
+      "nome": "Sinvastatina 20mg Pharlab 30 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/sinvastatina-20mg-pharlab-30-comprimidos-revestidos-/p",
       "disponivel": true
     },
     "panvel": {
@@ -12166,25 +12256,25 @@ const PRECOS_REDES = {
   },
   "med-00395": {
     "paguemenos": {
-      "preco": 118.99,
+      "preco": 95.99,
       "nome": "Penvir 125mg 10 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/penvir-125mg-10-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 118.99,
+      "preco": 95.99,
       "nome": "Penvir 125mg 10 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/penvir-125mg-10-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 122.26,
+      "preco": 121.02,
       "nome": "Penvir Fanciclovir 125mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/penvir-125mg-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 104.89,
+      "preco": 102.79,
       "nome": "Penvir Fanciclovir 125mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/penvir-125mg-ems-10-comprimidos/p",
       "disponivel": true
@@ -12198,19 +12288,19 @@ const PRECOS_REDES = {
   },
   "med-00398": {
     "paguemenos": {
-      "preco": 20.59,
+      "preco": 20.29,
       "nome": "Fendizoato de Cloperastina 3,54mg/ml Xarope 120ml Genérico EMS",
       "url": "https://www.paguemenos.com.br/fendizoato-de-cloperastina-xarope-3-54-mg-ml-com-120-ml-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 20.59,
+      "preco": 20.29,
       "nome": "Fendizoato de Cloperastina 3,54mg/ml Xarope 120ml Genérico EMS",
       "url": "https://www.extrafarma.com.br/fendizoato-de-cloperastina-xarope-3-54-mg-ml-com-120-ml-generico-ems/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 25.85,
+      "preco": 30.41,
       "nome": "Clopê 3,54mg/ml Ems Xarope 120ml + Copo Dosador",
       "url": "https://www.drogariavenancio.com.br/clope-354mg-ml-xpe-120ml-copo/p",
       "disponivel": true
@@ -12218,41 +12308,47 @@ const PRECOS_REDES = {
   },
   "med-00399": {
     "paguemenos": {
-      "preco": 6.69,
+      "preco": 6.99,
       "nome": "Fenitoína 100mg 30 Comprimidos Genérico Teuto",
       "url": "https://www.paguemenos.com.br/fenitoina-100mg-comprimidos30-gn-teuto-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 6.69,
+      "preco": 6.99,
       "nome": "Fenitoína 100mg 30 Comprimidos Genérico Teuto",
       "url": "https://www.extrafarma.com.br/fenitoina-100mg-comprimidos30-gn-teuto-p/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 6.78,
+      "preco": 6.99,
       "nome": "Fenitoina 100mg Genérico Teuto 30 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/fenitoina-100mg-teuto-30-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 5.74,
+      "nome": "Fenitoina 100mg Genérico Teuto 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/fenitoina-100mg-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
       "preco": 12.46,
       "nome": "Fenitoína 100mg Teuto 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/fenitoina-100mg-teuto-30-comprimidos/p",
-      "disponivel": false
+      "disponivel": true
     }
   },
   "med-00400": {
     "paguemenos": {
-      "preco": 4.4,
-      "nome": "Fenobarbital 100mgcpd/30 Gn-uniao P",
-      "url": "https://www.paguemenos.com.br/fenobarbital-100mgcpd-30-gn-uniao-p/p",
+      "preco": 5.19,
+      "nome": "Fenobarbital 100mg 20 Comprimidos Genérico Teuto",
+      "url": "https://www.paguemenos.com.br/fenobarbital-100mg-com-20-compridos-generico-teuto/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.4,
-      "nome": "Fenobarbital 100mgcpd/30 Gn-uniao P",
-      "url": "https://www.extrafarma.com.br/fenobarbital-100mgcpd-30-gn-uniao-p/p",
+      "preco": 5.19,
+      "nome": "Fenobarbital 100mg 20 Comprimidos Genérico Teuto",
+      "url": "https://www.extrafarma.com.br/fenobarbital-100mg-com-20-compridos-generico-teuto/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -12276,25 +12372,25 @@ const PRECOS_REDES = {
   },
   "med-00401": {
     "paguemenos": {
-      "preco": 84.49,
+      "preco": 79.49,
       "nome": "Fenofibrato 200mg 30 Cápsulas Genérico EMS",
       "url": "https://www.paguemenos.com.br/fenofibrato-200mg-com-30-capsulas-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 84.49,
+      "preco": 79.49,
       "nome": "Fenofibrato 200mg 30 Cápsulas Genérico EMS",
       "url": "https://www.extrafarma.com.br/fenofibrato-200mg-com-30-capsulas-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 83.49,
+      "preco": 91.95,
       "nome": "Fenofibrato 160mg Genérico Ranbaxy 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/fenofibrato-160mg-generico-ranbaxy-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 83.59,
+      "preco": 91.95,
       "nome": "Fenofibrato 160mg Genérico Ranbaxy 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/fenofibrato-160mg-generico-ranbaxy-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -12346,7 +12442,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.79,
+      "preco": 39.97,
       "nome": "Noripurum Ferripolimaltose 50mg/ml 30ml Gotas",
       "url": "https://www.drogariaspacheco.com.br/noripurum-gotas-takeda-30ml/p",
       "disponivel": true
@@ -12366,13 +12462,13 @@ const PRECOS_REDES = {
   },
   "med-00404": {
     "paguemenos": {
-      "preco": 1115.99,
+      "preco": 1183.99,
       "nome": "Filgrastim 300mcg/ml Solução Injetável 5 Frascos-Ampola",
       "url": "https://www.paguemenos.com.br/filgrastim-300mcg-com-5-frascos-ampola-com-1ml-de-solucao-de-uso-intravenoso-ou-subcultaneo/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 1115.99,
+      "preco": 1183.99,
       "nome": "Filgrastim 300mcg/ml Solução Injetável 5 Frascos-Ampola",
       "url": "https://www.extrafarma.com.br/filgrastim-300mcg-com-5-frascos-ampola-com-1ml-de-solucao-de-uso-intravenoso-ou-subcultaneo/p",
       "disponivel": true
@@ -12398,31 +12494,31 @@ const PRECOS_REDES = {
   },
   "med-00405": {
     "paguemenos": {
-      "preco": 34.79,
+      "preco": 22.59,
       "nome": "Finasterida 1mg 30 Comprimidos Revestidos Genérico Cimed",
       "url": "https://www.paguemenos.com.br/finasterida-1mg-com-30-comprimidos-generico-cimed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 34.79,
+      "preco": 22.59,
       "nome": "Finasterida 1mg 30 Comprimidos Revestidos Genérico Cimed",
       "url": "https://www.extrafarma.com.br/finasterida-1mg-com-30-comprimidos-generico-cimed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 35.59,
+      "preco": 39.15,
       "nome": "Finasterida 1mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/finasterida-1mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.59,
+      "preco": 32.55,
       "nome": "Finasterida 1mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/finasterida-1mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 26.99,
+      "preco": 23.99,
       "nome": "Finasterida 1mg 30 Comprimidos Uniao Quimica",
       "url": "https://www.drogariavenancio.com.br/finasterida-1mg-30-comprimidos/p",
       "disponivel": true
@@ -12430,27 +12526,27 @@ const PRECOS_REDES = {
   },
   "med-00449": {
     "paguemenos": {
-      "preco": 51.49,
+      "preco": 52.49,
       "nome": "Venoxide 450mg + 50mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/venoxide-450mgmais50mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 51.49,
+      "preco": 52.49,
       "nome": "Venoxide 450mg + 50mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/venoxide-450mgmais50mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 128.68,
-      "nome": "Daflon Diosmina 450mg + Hesperidina 50mg 30 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/daflon-500mg-servier-30-comprimidos-revestidos/p",
+      "preco": 58.99,
+      "nome": "Waryz Diosmina 450mg + Hesperidina 50mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/waryz-450mg--50mg-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 59.9,
-      "nome": "Diosmina 450mg + Hesperidina 50mg 60 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/diosmina-450mg-hesperidina-50mg-60-capsulas-1a7o62u193378007/p",
+      "preco": 58.99,
+      "nome": "Waryz Diosmina 450mg + Hesperidina 50mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/waryz-450mg--50mg-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -12468,25 +12564,31 @@ const PRECOS_REDES = {
   },
   "med-00406": {
     "paguemenos": {
-      "preco": 74.99,
+      "preco": 72.99,
       "nome": "Perivasc 450mg + 50mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/perivasc-450mais50mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 74.99,
+      "preco": 72.99,
       "nome": "Perivasc 450mg + 50mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/perivasc-450mais50mg-com-30-comprimidos/p",
       "disponivel": true
     },
+    "drogariasaopaulo": {
+      "preco": 84.59,
+      "nome": "Flavenos Diosmina 450mg + Hesperidina 50mg 30 Comprimidos revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/flavenos-500mg-zurita-30-comprimidos/p",
+      "disponivel": true
+    },
     "pacheco": {
-      "preco": 82.99,
+      "preco": 81.72,
       "nome": "Flavenos Diosmina 450mg + Hesperidina 50mg 30 Comprimidos revestidos",
       "url": "https://www.drogariaspacheco.com.br/flavenos-500mg-zurita-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 145.15,
+      "preco": 135.99,
       "nome": "Dhivas 900mg + 100mg Supera 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/dhivas-900mg---100mg-supera-30-comprimidos-/p",
       "disponivel": true
@@ -12512,36 +12614,36 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 18.8,
-      "nome": "Flucovil Fluconazol 150mg  2 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/flucovil-150mg-2-capsulas-medquimica/p",
+      "preco": 5.05,
+      "nome": "Fluconazol 150mg Genérico Cimed 1 Comprimido",
+      "url": "https://www.drogariasaopaulo.com.br/fluconazol-150mg-generico-cimed-1-comprimido/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.99,
-      "nome": "Flucovil Fluconazol 150mg  2 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/flucovil-150mg-2-capsulas-medquimica/p",
+      "preco": 6.15,
+      "nome": "Fluconazol 150mg Genérico Vitamedic 1 Cápsula",
+      "url": "https://www.drogariaspacheco.com.br/fluconazol-150mg-generico-vitamedic-1-capsula/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 3.89,
-      "nome": "Fluconazol 150mg Prati Donaduzzi 2 Cápsulas",
-      "url": "https://www.drogariavenancio.com.br/fluconazol-150mg-2com/p",
+      "preco": 4.49,
+      "nome": "Fluconazol 150mg Cimed 1 Cápsula",
+      "url": "https://www.drogariavenancio.com.br/fluconazol-150mg-1cps/p",
       "disponivel": true
     }
   },
   "med-00408": {
     "paguemenos": {
-      "preco": 32.49,
-      "nome": "Rohydorm 2mg 20 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/rohydorm-2mg-comprimidos20-p/p",
-      "disponivel": false
+      "preco": 30.29,
+      "nome": "Rohypnol 1mg 30 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/rohypnol-1mg-comprimidos30-p/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 32.49,
-      "nome": "Rohydorm 2mg 20 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/rohydorm-2mg-comprimidos20-p/p",
-      "disponivel": false
+      "preco": 30.29,
+      "nome": "Rohypnol 1mg 30 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/rohypnol-1mg-comprimidos30-p/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 15.19,
@@ -12550,13 +12652,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 28.19,
-      "nome": "Rohypnol Flunitrazepam 1mg 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/rohypnol-1mg-roche-30-capsulas/p",
-      "disponivel": true
+      "preco": 17.92,
+      "nome": "Rohypnol 1mg FQM Melora 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/rohypnol-1mg-roche-20-comprimidos/p",
+      "disponivel": false
     },
     "venancio": {
-      "preco": 28.19,
+      "preco": 28,
       "nome": "Rohypnol 1mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/rohypnol-1mg-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -12564,25 +12666,25 @@ const PRECOS_REDES = {
   },
   "med-00410": {
     "paguemenos": {
-      "preco": 81.49,
-      "nome": "Hormoskin 40mg/g + 0,5mg/g + 0,1mg/g Creme Dermatológico 15g",
-      "url": "https://www.paguemenos.com.br/hormoskin-creme-dermatologico-15g/p",
+      "preco": 79.49,
+      "nome": "Suavicid 40mg/g + 0,5mg/g + 0,1mg/g Creme Dermatológico 10g",
+      "url": "https://www.paguemenos.com.br/creme-dermatologico-suavicid-10g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 81.49,
-      "nome": "Hormoskin 40mg/g + 0,5mg/g + 0,1mg/g Creme Dermatológico 15g",
-      "url": "https://www.extrafarma.com.br/hormoskin-creme-dermatologico-15g/p",
+      "preco": 79.49,
+      "nome": "Suavicid 40mg/g + 0,5mg/g + 0,1mg/g Creme Dermatológico 10g",
+      "url": "https://www.extrafarma.com.br/creme-dermatologico-suavicid-10g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 59.41,
+      "preco": 67.02,
       "nome": "Suavicid Hidroquinona 40mg + Tretinoína 0,5mg + Fluocinolona Acetonida 0,1mg 10g Creme Dermatológico",
       "url": "https://www.drogariasaopaulo.com.br/suavicid-creme-legrand-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 59.41,
+      "preco": 67.02,
       "nome": "Suavicid Hidroquinona 40mg + Tretinoína 0,5mg + Fluocinolona Acetonida 0,1mg 10g Creme Dermatológico",
       "url": "https://www.drogariaspacheco.com.br/suavicid-creme-legrand-10g/p",
       "disponivel": true
@@ -12620,10 +12722,10 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 55.08,
-      "nome": "Hidroquinona 0,5mg/g + Tretinoína 0,1mg/g + Fluocinolona Acetonida 40mg/g Genérico Legrand 30g Creme Dermatológico",
-      "url": "https://www.drogariaspacheco.com.br/creme-dermatologico-hidroquinona-tretinoina-e-fluocinolona-acetonida-40mg-generico-legrand-pharma-30g/p",
-      "disponivel": false
+      "preco": 50.58,
+      "nome": "Hidroquinona 40mg/g Genérico Legrand 30g 1 Bisnaga",
+      "url": "https://www.drogariaspacheco.com.br/hidroquinona-40mg-g-generico-legrand-1-bisnaga-com-30g/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 56.32,
@@ -12640,13 +12742,13 @@ const PRECOS_REDES = {
   },
   "med-00412": {
     "paguemenos": {
-      "preco": 14.49,
+      "preco": 13.99,
       "nome": "Pastilhas para Garganta Strepsils Sabor Mel e Limão 8 Pastilhas",
       "url": "https://www.paguemenos.com.br/pastilhas-para-garganta-strepsils-sabor-mel-e-limao-caixa-8-pastilhas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.49,
+      "preco": 13.99,
       "nome": "Pastilhas para Garganta Strepsils Sabor Mel e Limão 8 Pastilhas",
       "url": "https://www.extrafarma.com.br/pastilhas-para-garganta-strepsils-sabor-mel-e-limao-caixa-8-pastilhas/p",
       "disponivel": true
@@ -12692,19 +12794,19 @@ const PRECOS_REDES = {
   },
   "med-00686": {
     "paguemenos": {
-      "preco": 18.19,
+      "preco": 16.99,
       "nome": "Decadron 1mg/ml + 3,5mg/ml Colírio 5ml",
       "url": "https://www.paguemenos.com.br/decadron-colirio-com-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.19,
+      "preco": 16.99,
       "nome": "Decadron 1mg/ml + 3,5mg/ml Colírio 5ml",
       "url": "https://www.extrafarma.com.br/decadron-colirio-com-5ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.61,
+      "preco": 11.7,
       "nome": "Dexavison 1mg/ml + 3,5mg/ml Teuto Solução Oftálmica 5ml",
       "url": "https://www.drogariavenancio.com.br/dexavison-1mg-ml---35mg-ml-teuto-solucao-oftalmica-5ml/p",
       "disponivel": true
@@ -12718,13 +12820,13 @@ const PRECOS_REDES = {
   },
   "med-00414": {
     "paguemenos": {
-      "preco": 17.99,
+      "preco": 17.69,
       "nome": "Decadron 2mg/ml Solução Injetável 2 Ampolas 1ml",
       "url": "https://www.paguemenos.com.br/decadron-2mg-injetavel-com-2-ampolas-de-1ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.99,
+      "preco": 17.69,
       "nome": "Decadron 2mg/ml Solução Injetável 2 Ampolas 1ml",
       "url": "https://www.extrafarma.com.br/decadron-2mg-injetavel-com-2-ampolas-de-1ml/p",
       "disponivel": true
@@ -12750,13 +12852,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 48.22,
+      "preco": 47.74,
       "nome": "Facoba Moxifloxacino 5mg/ml + Fosfato de Dexametasona 1mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariasaopaulo.com.br/facoba-solucao-oftalmica-legrand-pharma-5ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.49,
+      "preco": 39.68,
       "nome": "Facoba Moxifloxacino 5mg/ml + Fosfato de Dexametasona 1mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/facoba-solucao-oftalmica-legrand-pharma-5ml/p",
       "disponivel": true
@@ -12788,7 +12890,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 16.38,
+      "preco": 20.99,
       "nome": "Fosfato Sódico de Prednisolona 3mg/ml Genérico Vitamedic 60ml",
       "url": "https://www.drogariasaopaulo.com.br/fosfato-sodico-de-prednisolona-3mg-ml-generico-vitamedic-60ml/p",
       "disponivel": true
@@ -12800,9 +12902,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.08,
-      "nome": "Fosfato Sódico de Prednisolona 3mg/ml União Química 60ml",
-      "url": "https://www.drogariavenancio.com.br/fosf-sodico-prednisolona-3mg-ml-60ml--g--uniao-quimica/p",
+      "preco": 15.72,
+      "nome": "Fosfato Sódico De Prednisolona 3mg/ml Prati Donaduzzi Solução Oral 60mg + Seringa",
+      "url": "https://www.drogariavenancio.com.br/fosfato-sodico-de-prednisolona-3mg-ml-prati-donaduzzi-solucao-oral-60mg---seringa-/p",
       "disponivel": true
     },
     "panvel": {
@@ -12826,13 +12928,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 26.39,
+      "preco": 25.65,
       "nome": "Codein Fosfato De Codeína 30mg 12 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/codein-30mg-cristalia-12-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 24.59,
+      "preco": 25.65,
       "nome": "Codein Fosfato De Codeína 30mg 12 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/codein-30mg-cristalia-12-comprimidos/p",
       "disponivel": true
@@ -12858,13 +12960,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 26.29,
+      "preco": 25.27,
       "nome": "Codex Paracetamol 500mg + Fosfato de Codeína 30mg 12 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/codex-30mg-uniao-quimica-12-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 26.29,
+      "preco": 25.79,
       "nome": "Codex 500mg + 30mg União Química 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/codex-500mg---30mg-uniao-quimica-12-comprimidos--/p",
       "disponivel": true
@@ -12878,19 +12980,19 @@ const PRECOS_REDES = {
   },
   "med-00609": {
     "paguemenos": {
-      "preco": 15.25,
-      "nome": "Paracetamol 500mg + Fosfato de Codeína 30mg 12 Comprimidos Genérico Biolab",
-      "url": "https://www.paguemenos.com.br/paracetamol-500mgmais-fosfato-de-codeina-30mg-com-12-comprimidos/p",
+      "preco": 19.79,
+      "nome": "Paracetamol 500mg + Fosfato de Codeína 30mg 24 Comprimidos Genérico Biolab",
+      "url": "https://www.paguemenos.com.br/paracetamol-500mg-mais-fosfato-de-codeina-30mg-com-24-comprimidos-generico-actavis/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.25,
-      "nome": "Paracetamol 500mg + Fosfato de Codeína 30mg 12 Comprimidos Genérico Biolab",
-      "url": "https://www.extrafarma.com.br/paracetamol-500mgmais-fosfato-de-codeina-30mg-com-12-comprimidos/p",
+      "preco": 19.79,
+      "nome": "Paracetamol 500mg + Fosfato de Codeína 30mg 24 Comprimidos Genérico Biolab",
+      "url": "https://www.extrafarma.com.br/paracetamol-500mg-mais-fosfato-de-codeina-30mg-com-24-comprimidos-generico-actavis/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 63.25,
+      "preco": 62.61,
       "nome": "Cod Par Paracetamol 500mg + Fosfato de Codeína 30mg 24 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cod-par-500mg--30mg-supera-24-comprimidos/p",
       "disponivel": true
@@ -12930,25 +13032,25 @@ const PRECOS_REDES = {
   },
   "med-00420": {
     "paguemenos": {
-      "preco": 73.49,
+      "preco": 71.49,
       "nome": "Fosfato de Oseltamivir 30mg 10 Cápsulas Duras Genérico Natcofarma",
       "url": "https://www.paguemenos.com.br/oseltamivir-30mg-com-10-capsulas-duras-generico-uniao-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 73.49,
+      "preco": 71.49,
       "nome": "Fosfato de Oseltamivir 30mg 10 Cápsulas Duras Genérico Natcofarma",
       "url": "https://www.extrafarma.com.br/oseltamivir-30mg-com-10-capsulas-duras-generico-uniao-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 74.59,
+      "preco": 82.05,
       "nome": "Fosfato de Oseltamivir 30mg Genérico Natcofarma 10 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/fosfato-de-oseltamivir-30mg-generico-uniao-quimica-10-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 74.59,
+      "preco": 82.05,
       "nome": "Fosfato de Oseltamivir 30mg Genérico Natcofarma 10 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/fosfato-de-oseltamivir-30mg-generico-uniao-quimica-10-capsulas/p",
       "disponivel": true
@@ -12994,31 +13096,31 @@ const PRECOS_REDES = {
   },
   "med-00424": {
     "paguemenos": {
-      "preco": 20.99,
+      "preco": 19.59,
       "nome": "Fumarato de Cetotifeno 0,2mg/ml Xarope 120ml Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/fumarato-cetotifeno-xarope-120ml-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 20.99,
+      "preco": 19.59,
       "nome": "Fumarato de Cetotifeno 0,2mg/ml Xarope 120ml Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/fumarato-cetotifeno-xarope-120ml-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.99,
+      "preco": 23.09,
       "nome": "Fumarato de Cetotifeno 0,2mg/ml Genérico Prati 120ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/fumarato-de-cetotifeno-xarope-0-2mg-ml-generico-prati-120ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.99,
+      "preco": 23.09,
       "nome": "Fumarato de Cetotifeno 0,2mg/ml Genérico Prati 120ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/fumarato-de-cetotifeno-xarope-0-2mg-ml-generico-prati-120ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 36.29,
+      "preco": 33.99,
       "nome": "Octifen 0,25mg/ml Genom 5ml Solução Oftálmica",
       "url": "https://www.drogariavenancio.com.br/octifen-025mg-ml-genom-5ml-solucao-oftalmica/p",
       "disponivel": true
@@ -13040,27 +13142,27 @@ const PRECOS_REDES = {
   },
   "med-00427": {
     "paguemenos": {
-      "preco": 18.19,
-      "nome": "Furoato de Mometasona 1mg/g Creme Dermatológico 20g Genérico Medley",
-      "url": "https://www.paguemenos.com.br/gen-mometasona-1mg-g-20g-creme-medley/p",
+      "preco": 17.99,
+      "nome": "Furoato de Mometasona 1mg/g Creme 20g Genérico EMS",
+      "url": "https://www.paguemenos.com.br/furoato-mometasona-creme-20g-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 18.19,
-      "nome": "Furoato de Mometasona 1mg/g Creme Dermatológico 20g Genérico Medley",
-      "url": "https://www.extrafarma.com.br/gen-mometasona-1mg-g-20g-creme-medley/p",
+      "preco": 17.99,
+      "nome": "Furoato de Mometasona 1mg/g Creme 20g Genérico EMS",
+      "url": "https://www.extrafarma.com.br/furoato-mometasona-creme-20g-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 23.99,
+      "preco": 26.39,
       "nome": "Furoato de Mometasona 1mg/g Genérico Germed 20g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/furoato-de-mometasona-pomada-1mg-g-generico-germed-20g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 23.99,
-      "nome": "Furoato de Mometasona 1mg/g Genérico Germed 20g Pomada",
-      "url": "https://www.drogariaspacheco.com.br/furoato-de-mometasona-pomada-1mg-g-generico-germed-20g/p",
+      "preco": 22.65,
+      "nome": "Furoato de Mometasona 1mg/g Genérico EMS 20g Creme",
+      "url": "https://www.drogariaspacheco.com.br/furoato-de-mometasona-creme-1-generico-ems-20g/p",
       "disponivel": true
     },
     "venancio": {
@@ -13072,19 +13174,19 @@ const PRECOS_REDES = {
   },
   "med-00428": {
     "paguemenos": {
-      "preco": 29.99,
-      "nome": "Furoato de Mometasona 50mcg Suspensão Spray Nasal 60 Doses Genérico Glenmark",
-      "url": "https://www.paguemenos.com.br/furoato-de-mometasona-spray-nasal-com-60-doses-generico-glenmark/p",
+      "preco": 31.59,
+      "nome": "Furoato de Mometasona Monoidratado 50mcg Suspensão Spray Nasal 120 Doses Genérico Glenmark",
+      "url": "https://www.paguemenos.com.br/furoato-de-mometasona-spray-nasal-120-doses-generico-glenmark/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 29.99,
-      "nome": "Furoato de Mometasona 50mcg Suspensão Spray Nasal 60 Doses Genérico Glenmark",
-      "url": "https://www.extrafarma.com.br/furoato-de-mometasona-spray-nasal-com-60-doses-generico-glenmark/p",
+      "preco": 31.59,
+      "nome": "Furoato de Mometasona Monoidratado 50mcg Suspensão Spray Nasal 120 Doses Genérico Glenmark",
+      "url": "https://www.extrafarma.com.br/furoato-de-mometasona-spray-nasal-120-doses-generico-glenmark/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 48.59,
+      "preco": 47.62,
       "nome": "Momate Furoato De Mometasona 50mcg 60 Acionamentos Spray",
       "url": "https://www.drogariasaopaulo.com.br/momate-50mcg-glenmark-spray-com-60-acionamentos/p",
       "disponivel": true
@@ -13096,7 +13198,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 46.8,
+      "preco": 43.09,
       "nome": "Monax 50mcg Momenta Suspensão Spray 60 Acionamentos",
       "url": "https://www.drogariavenancio.com.br/monax-50mcg-sus-spr-nas-9ml-60acionamentos/p",
       "disponivel": true
@@ -13128,13 +13230,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 4.99,
+      "preco": 5.49,
       "nome": "Furosemida 40mg Genérico Prati-Donaduzzi 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/furosemida-40mg-generico-prati-donaduzzi-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 4.87,
+      "preco": 4.49,
       "nome": "Furosemida 40mg 20 comprimidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/furosemida-40mg-20cpr-g-prati/p",
       "disponivel": true
@@ -13142,41 +13244,47 @@ const PRECOS_REDES = {
   },
   "med-00430": {
     "paguemenos": {
-      "preco": 12.73,
-      "nome": "Gabapentina 300mg 30 Cápsulas Duras Genérico Biolab",
-      "url": "https://www.paguemenos.com.br/gabapentina-300mg-com-30-capsulas-generico-arrow/p",
-      "disponivel": true
+      "preco": 19.69,
+      "nome": "Gabapentina 300mg Cápsulas30 Genérico Emsms P",
+      "url": "https://www.paguemenos.com.br/gabapentina-300mg-capsulas30-generico-emsms-p/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 12.73,
-      "nome": "Gabapentina 300mg 30 Cápsulas Duras Genérico Biolab",
-      "url": "https://www.extrafarma.com.br/gabapentina-300mg-com-30-capsulas-generico-arrow/p",
-      "disponivel": true
+      "preco": 19.69,
+      "nome": "Gabapentina 300mg Cápsulas30 Genérico Emsms P",
+      "url": "https://www.extrafarma.com.br/gabapentina-300mg-capsulas30-generico-emsms-p/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 39.15,
-      "nome": "Gabapentina 300mg Genérico Germed 30 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/gabapentina-300mg-generico-natures-plus-30-comprimidos/p",
+      "preco": 29.99,
+      "nome": "Gabapentina 300mg Genérico Biolab 30 Capsulas",
+      "url": "https://www.drogariasaopaulo.com.br/gabapentina-300mg-arrow-generico-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.99,
-      "nome": "Gabapentina 400mg Genérico Prati 30 Cápsulas Duras",
-      "url": "https://www.drogariaspacheco.com.br/gabapentina-400mg-generico-prati-30-comprimidos-revestidos/p",
+      "preco": 29.99,
+      "nome": "Gabapentina 300mg Genérico Biolab 30 Capsulas",
+      "url": "https://www.drogariaspacheco.com.br/gabapentina-300mg-arrow-generico-30-capsulas/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 30.99,
+      "nome": "Gabapentina Prati Donaduzzi 300mg 30 cápsulas duras",
+      "url": "https://www.drogariavenancio.com.br/gabapentina-prati-donaduzzi-300mg-30-capsulas-duras/p",
       "disponivel": true
     }
   },
   "med-00431": {
     "paguemenos": {
-      "preco": 55.49,
-      "nome": "Zymar 3mg/ml Solução Oftálmica 5ml",
-      "url": "https://www.paguemenos.com.br/zymar-colirio-5ml/p",
+      "preco": 40.59,
+      "nome": "Zymar XD 5mg/ml Solução Oftálmica 3ml",
+      "url": "https://www.paguemenos.com.br/zymar-xd-0-5porcento-solucao-oftalmica-3ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 55.49,
-      "nome": "Zymar 3mg/ml Solução Oftálmica 5ml",
-      "url": "https://www.extrafarma.com.br/zymar-colirio-5ml/p",
+      "preco": 40.59,
+      "nome": "Zymar XD 5mg/ml Solução Oftálmica 3ml",
+      "url": "https://www.extrafarma.com.br/zymar-xd-0-5porcento-solucao-oftalmica-3ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -13186,13 +13294,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 47.19,
+      "preco": 45.46,
       "nome": "Zymar Gatifloxacino 3mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/zymar-solucao-oftalmica-allergan-5ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 46,
+      "preco": 44.29,
       "nome": "Zymar Xd 0,5% Frasco Com 3ml",
       "url": "https://www.drogariavenancio.com.br/zymar-xd-05--frasco-com-3ml/p",
       "disponivel": true
@@ -13200,33 +13308,33 @@ const PRECOS_REDES = {
   },
   "med-00434": {
     "paguemenos": {
-      "preco": 3.19,
-      "nome": "Glibenclamida 5mg 30 Comprimidos Genérico Cimed",
-      "url": "https://www.paguemenos.com.br/glibenclamida-5mg-com-30-comprimidos-generico-cimed/p",
-      "disponivel": true
+      "preco": 3.29,
+      "nome": "Glibenclamida 5mg Com 30 Comprimidos Genérico Prati Donaduzzi",
+      "url": "https://www.paguemenos.com.br/glibenclamida-5mg-com-30-comprimidos-generico-prati-donaduzzi/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 3.19,
-      "nome": "Glibenclamida 5mg 30 Comprimidos Genérico Cimed",
-      "url": "https://www.extrafarma.com.br/glibenclamida-5mg-com-30-comprimidos-generico-cimed/p",
-      "disponivel": true
+      "preco": 3.29,
+      "nome": "Glibenclamida 5mg Com 30 Comprimidos Genérico Prati Donaduzzi",
+      "url": "https://www.extrafarma.com.br/glibenclamida-5mg-com-30-comprimidos-generico-prati-donaduzzi/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 2.72,
+      "preco": 2.99,
       "nome": "Glibenclamida 5mg Genérico Prati Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/glibenclamida-5mg-generico-30-comprimidos-/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 3.99,
+      "preco": 4.39,
       "nome": "Glibenclamida 5mg Genérico EMS 30 comprimidos",
       "url": "https://www.drogariaspacheco.com.br/glibenclamida-5mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 3.89,
-      "nome": "Glibenclamida 5mg Medquímica 30 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/glibenclamida-5mg-medquimica-30-comprimidos/p",
+      "preco": 3.99,
+      "nome": "Glibenclamida 5mg Neo Química 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/glibenclamida-5mg-neo-quimica-30-comprimidos/p",
       "disponivel": true
     }
   },
@@ -13250,7 +13358,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 21.29,
+      "preco": 20.47,
       "nome": "Azukon MR Gliclazida 30mg  30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/azukon-mr-30mg-torrent-30-comprimidos/p",
       "disponivel": true
@@ -13264,31 +13372,31 @@ const PRECOS_REDES = {
   },
   "med-00436": {
     "paguemenos": {
-      "preco": 10.19,
-      "nome": "Glimepirida 1mg Com 30 Comprimidos Genéricos Ems",
-      "url": "https://www.paguemenos.com.br/glimepirida-1mg-com-30-comprimidos-genericos-ems/p",
-      "disponivel": false
+      "preco": 5.29,
+      "nome": "Glimepirida 4mg 30 Comprimidos Genérico Geolab",
+      "url": "https://www.paguemenos.com.br/glimepirida-4mg-30-comprimidos-generico-geolab/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.19,
-      "nome": "Glimepirida 1mg Com 30 Comprimidos Genéricos Ems",
-      "url": "https://www.extrafarma.com.br/glimepirida-1mg-com-30-comprimidos-genericos-ems/p",
-      "disponivel": false
+      "preco": 5.29,
+      "nome": "Glimepirida 4mg 30 Comprimidos Genérico Geolab",
+      "url": "https://www.extrafarma.com.br/glimepirida-4mg-30-comprimidos-generico-geolab/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 5.73,
+      "preco": 10.55,
       "nome": "Glimepirida 4mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/glimepirida-4mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.73,
+      "preco": 8.24,
       "nome": "Glimepirida 4mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/glimepirida-4mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 11.49,
+      "preco": 9.99,
       "nome": "Glimepirida Cimed 4mg 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/glimepirida-4mg-30cpr-g-cimed/p",
       "disponivel": true
@@ -13334,15 +13442,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 35.99,
+      "preco": 43.99,
       "nome": "Hemifumarato De Bisoprolol 5mg Genérico EMS 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/hemifumarato-de-bisoprolol-5-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 23.39,
-      "nome": "Hemifumarato de Bisoprolol 1,25mg Germed Pharma 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/hemif-bisoprolol-125mg-30com--g--germed/p",
+      "preco": 29.98,
+      "nome": "Hemifumarato De Bisoprolol 2,5mg 30 comprimidos Medley",
+      "url": "https://www.drogariavenancio.com.br/hemifumar-bisoprolol-2-5mg-30cpr-ver-g-medley/p",
       "disponivel": true
     },
     "panvel": {
@@ -13354,13 +13462,13 @@ const PRECOS_REDES = {
   },
   "med-00444": {
     "paguemenos": {
-      "preco": 11.4,
+      "preco": 8.99,
       "nome": "Hemifumarato de Quetiapina 25mg 30 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.paguemenos.com.br/hemifumarato-de-quetiapina-25mg-com-30-comprimidos-psicotropicos-p-c1-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.4,
+      "preco": 8.99,
       "nome": "Hemifumarato de Quetiapina 25mg 30 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.extrafarma.com.br/hemifumarato-de-quetiapina-25mg-com-30-comprimidos-psicotropicos-p-c1-generico-geolab/p",
       "disponivel": true
@@ -13372,15 +13480,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 69.58,
+      "preco": 68.19,
       "nome": "Neotiapim Hemifumarato De Quetiapina 25mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/neotiapim-25mg-novartis-biociencias-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 14.5,
-      "nome": "Hemifumarato de Quetiapina 25mg 30 comprimidos Biolab",
-      "url": "https://www.drogariavenancio.com.br/fumar-quetiapina-25mg-30cpr-g--c1-actavis/p",
+      "preco": 12.99,
+      "nome": "Hemifumarato De Quetiapina 25mg 30 Comprimidos Revestidos Geolab",
+      "url": "https://www.drogariavenancio.com.br/hemifumarato-de-quetiapina-25mg-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -13430,13 +13538,13 @@ const PRECOS_REDES = {
   },
   "med-00446": {
     "paguemenos": {
-      "preco": 86.09,
+      "preco": 109.99,
       "nome": "Hemitartarato de Rivastigmina 1,5mg 30 Cápsulas Duras Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/hidrogenotartarato-de-rivastigmina-1-5mg-com-30-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 86.09,
+      "preco": 109.99,
       "nome": "Hemitartarato de Rivastigmina 1,5mg 30 Cápsulas Duras Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/hidrogenotartarato-de-rivastigmina-1-5mg-com-30-capsulas-generico-ranbaxy-p-c1/p",
       "disponivel": true
@@ -13454,7 +13562,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 156.61,
+      "preco": 160,
       "nome": "Hemitartarato de Rivastigmina 1,5 mg Biosintetica 30 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/hemitartarato-de-rivastigmina-15-mg-biosintetica-30-comprimidos-/p",
       "disponivel": true
@@ -13486,9 +13594,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 152.59,
-      "nome": "Rivastigmina 3mg Genérico Biosintética 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/rivastigmina-3mg-generico-biosintetica-30-comprimidos/p",
+      "preco": 145.99,
+      "nome": "Rivastigmina 4,5mg Genérico Biosintética 30 Cápsulas Duras",
+      "url": "https://www.drogariaspacheco.com.br/rivastigmina-4-5mg-generico-biosintetica-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -13506,33 +13614,33 @@ const PRECOS_REDES = {
   },
   "med-00447": {
     "paguemenos": {
-      "preco": 14.49,
+      "preco": 11.79,
       "nome": "Hemitartarato De Zolpidem 10mg 30 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.paguemenos.com.br/hemitartarato-de-zolpidem-10mg-30-comprimidos-revestidos-generico-sandoz/p",
-      "disponivel": false
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.49,
+      "preco": 11.79,
       "nome": "Hemitartarato De Zolpidem 10mg 30 Comprimidos Revestidos Genérico Sandoz",
       "url": "https://www.extrafarma.com.br/hemitartarato-de-zolpidem-10mg-30-comprimidos-revestidos-generico-sandoz/p",
-      "disponivel": false
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 21.86,
-      "nome": "Hemitartarato De Zolpidem 10mg Genérico Germed 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/hemitartarato-de-zolpidem-10mg-generico-germed-30-comprimidos/p",
+      "preco": 16.49,
+      "nome": "Hemitartarato de Zolpidem 10mg Genérico Teuto 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/hemitartarato-de-zolpidem-10mg-generico-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.59,
-      "nome": "Hemitartarato de Zolpidem 10mg Genérico EMS 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/hemitartarato-de-zolpidem-generico-ems-10mg-30-comprimidos/p",
+      "preco": 2.17,
+      "nome": "Hemitartarato De Zolpidem 10mg Genérico Novartis 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/hemitartarato-de-zolpidem-10mg-generico-novartis-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.99,
-      "nome": "Hemitartarato De Zolpidem 10mg Biolab 30 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/hemitartarato-de-zolpidem-10-mg-com-rev-x-30/p",
+      "preco": 18.99,
+      "nome": "Hemitartarato De Zolpidem 10mg Sandoz 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/hemitartarato-de-zolpidem-10mg-sandoz-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -13564,15 +13672,21 @@ const PRECOS_REDES = {
   },
   "med-00450": {
     "paguemenos": {
-      "preco": 58.99,
+      "preco": 59.99,
       "nome": "Hiluropt Max 0,2% Solução Oftálmica 10ml",
       "url": "https://www.paguemenos.com.br/hiluropt-max-0-2porcento-solucao-oftalmica-10ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 58.99,
+      "preco": 59.99,
       "nome": "Hiluropt Max 0,2% Solução Oftálmica 10ml",
       "url": "https://www.extrafarma.com.br/hiluropt-max-0-2porcento-solucao-oftalmica-10ml/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 49.99,
+      "nome": "Lunah 1mg/ml Solução De Uso Oftálmico 10ml",
+      "url": "https://www.drogariavenancio.com.br/lunah-1mg-ml-solucao-de-uso-oftalmico-10ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -13584,25 +13698,25 @@ const PRECOS_REDES = {
   },
   "med-00451": {
     "paguemenos": {
-      "preco": 1.59,
+      "preco": 1.89,
       "nome": "Hidroclorotiazida 25mg 30 Comprimidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/hidroclorotiazida-25mg-com-30-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 1.59,
+      "preco": 1.89,
       "nome": "Hidroclorotiazida 25mg 30 Comprimidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/hidroclorotiazida-25mg-com-30-comprimidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 2.59,
+      "preco": 2.85,
       "nome": "Hidroclorotiazida 25mg Genérico Medquimica 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/hidroclorotiazida-25mg-generico-medquimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 2.59,
+      "preco": 2.85,
       "nome": "Hidroclorotiazida 25mg Genérico Medquimica 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/hidroclorotiazida-25mg-generico-medquimica-30-comprimidos/p",
       "disponivel": true
@@ -13634,19 +13748,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 112.75,
+      "preco": 111.84,
       "nome": "Bramicar HCT Telmisartana 80mg + Hidroclorotiazida 25mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/bramicar-hct-80mg25mg-30-comprimidos-ems/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 112.75,
+      "preco": 100.44,
       "nome": "Bramicar HCT Telmisartana 80mg + Hidroclorotiazida 25mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/bramicar-hct-80mg25mg-30-comprimidos-ems/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 200.55,
+      "preco": 258.77,
       "nome": "Micardis Hct 80mg/12,5mg Boehringer 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/micardis-hct-80mg-125mg-boehringer-30-comprimidos/p",
       "disponivel": true
@@ -13672,21 +13786,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 84.99,
-      "nome": "Telmisartana 80mg + Hidroclorotiazida 25mg Genérico Torrent 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/telmisartana-80mg--hidroclorotiazida-25mg-generico-torrent-30-comprimidos/p",
+      "preco": 90.59,
+      "nome": "Telmisartana 40mg Genérico Althaia 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/telmisartana-40mg-althaia-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 72.59,
-      "nome": "Telmisartana 40mg Genérico Althaia 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/telmisartana-40mg-althaia-30-comprimidos/p",
+      "preco": 72.45,
+      "nome": "Bramicar Telmisartana 80mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/bramicar-80mg-sem-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 73.19,
-      "nome": "Telmisartana 40mg Althaia 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/telmisartana-40mg-althaia-30-comprimidos/p",
+      "preco": 69.99,
+      "nome": "Telmisartana 80mg 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/telmisartana-80mg-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -13716,7 +13830,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 69.19,
+      "preco": 68.69,
       "nome": "Bravan HCT Valsartana 160mg + Hidroclorotiazida 25mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/bravan-hct-160mg--25mg-30-comprimidos-revestidos-ache/p",
       "disponivel": true
@@ -13736,33 +13850,33 @@ const PRECOS_REDES = {
   },
   "med-00743": {
     "paguemenos": {
-      "preco": 37.99,
-      "nome": "Valsartana 80 Mg 30 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.paguemenos.com.br/valsartana-80-mg-30-comprimidos-revestidos-generico-cimed/p",
-      "disponivel": false
+      "preco": 31.99,
+      "nome": "Valsartana 160mg 30 Comprimidos Revestidos Genérico Neo Química",
+      "url": "https://www.paguemenos.com.br/valsartana-160mg-com-30-comprimidos-genericos-neo-quimica/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 37.99,
-      "nome": "Valsartana 80 Mg 30 Comprimidos Revestidos Genérico Cimed",
-      "url": "https://www.extrafarma.com.br/valsartana-80-mg-30-comprimidos-revestidos-generico-cimed/p",
-      "disponivel": false
+      "preco": 31.99,
+      "nome": "Valsartana 160mg 30 Comprimidos Revestidos Genérico Neo Química",
+      "url": "https://www.extrafarma.com.br/valsartana-160mg-com-30-comprimidos-genericos-neo-quimica/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 45.59,
+      "preco": 50.15,
       "nome": "Valsartana 160mg + Hidroclorotiazida 12,5mg Genérico Biosintética 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/valsartana-hidroclorotiazida-generico-biosintetica-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 46.99,
+      "preco": 39.15,
       "nome": "Valsartana 80mg Genérico Cimed 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/valsartana-80mg-generico-cimed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 29.24,
-      "nome": "Valsartana 160mg Nova Química 30 comprimidos",
-      "url": "https://www.drogariavenancio.com.br/valsartana-160mg-nova-quimica-30-comprimidos/p",
+      "preco": 22.99,
+      "nome": "Valsartana 80mg Teuto 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/valsartana-80mg-30com--g--teuto/p",
       "disponivel": true
     },
     "panvel": {
@@ -13812,13 +13926,13 @@ const PRECOS_REDES = {
   },
   "med-00460": {
     "paguemenos": {
-      "preco": 206.99,
+      "preco": 235.99,
       "nome": "Hidroxiuréia 500mg 100 Capsulas Generico Blau",
       "url": "https://www.paguemenos.com.br/hidroxiureia-500mg-100-capsulas-generico-blau/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 206.99,
+      "preco": 235.99,
       "nome": "Hidroxiuréia 500mg 100 Capsulas Generico Blau",
       "url": "https://www.extrafarma.com.br/hidroxiureia-500mg-100-capsulas-generico-blau/p",
       "disponivel": true
@@ -13827,7 +13941,13 @@ const PRECOS_REDES = {
       "preco": 218.99,
       "nome": "Hidroxiureia 500mg Blau Farmacêutica 100 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/hidroxiureia-500mg-blau-farmaceutica-100-capsulas/p",
-      "disponivel": false
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 204.59,
+      "nome": "Hidroxiureia 500mg Blau Farmacêutica 100 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/hidroxiureia-500mg-blau-farmaceutica-100-capsulas/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 281.59,
@@ -13884,19 +14004,19 @@ const PRECOS_REDES = {
   },
   "med-00463": {
     "paguemenos": {
-      "preco": 21.59,
-      "nome": "Gastrogel Fresh 37mg/ml + 40mg/ml + 5mg/ml Sabor Menta Suspensão Oral 240ml + Copo Dosador",
-      "url": "https://www.paguemenos.com.br/gastrogel-suspensao-240ml/p",
+      "preco": 25.79,
+      "nome": "Antiácido Gelmax Dim Suspensão Oral Sem Sabor 240ml",
+      "url": "https://www.paguemenos.com.br/gelmax-dimeticona-suspensao-oral-240ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.59,
-      "nome": "Gastrogel Fresh 37mg/ml + 40mg/ml + 5mg/ml Sabor Menta Suspensão Oral 240ml + Copo Dosador",
-      "url": "https://www.extrafarma.com.br/gastrogel-suspensao-240ml/p",
+      "preco": 25.79,
+      "nome": "Antiácido Gelmax Dim Suspensão Oral Sem Sabor 240ml",
+      "url": "https://www.extrafarma.com.br/gelmax-dimeticona-suspensao-oral-240ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 19.11,
+      "preco": 16.7,
       "nome": "Gastrogel Fresh Medquímica Suspensão Oral 150ml",
       "url": "https://www.drogariavenancio.com.br/gastrogel-fresh-medquimica-150ml-suspensao/p",
       "disponivel": true
@@ -13910,31 +14030,31 @@ const PRECOS_REDES = {
   },
   "med-00464": {
     "paguemenos": {
-      "preco": 28.99,
+      "preco": 25.79,
       "nome": "Afrat 150mg 1 Comprimido",
       "url": "https://www.paguemenos.com.br/afrat-150mg-com-1-comprimido/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 28.99,
+      "preco": 25.79,
       "nome": "Afrat 150mg 1 Comprimido",
       "url": "https://www.extrafarma.com.br/afrat-150mg-com-1-comprimido/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 29.1,
+      "preco": 29.39,
       "nome": "Afrat Ibandronato De Sódio 150mg 1 Comprimido",
       "url": "https://www.drogariasaopaulo.com.br/afrat-150mg-cristalia-1-comprimido/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 30.86,
+      "preco": 29.39,
       "nome": "Afrat Ibandronato De Sódio 150mg 1 Comprimido",
       "url": "https://www.drogariaspacheco.com.br/afrat-150mg-cristalia-1-comprimido/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 45.08,
+      "preco": 34.99,
       "nome": "Ibandronato de Sódio 150mg Eurofarma 1 comprimido",
       "url": "https://www.drogariavenancio.com.br/ibandronato-sodio-150mg-1com--g--eurofarma/p",
       "disponivel": true
@@ -13948,31 +14068,31 @@ const PRECOS_REDES = {
   },
   "med-00465": {
     "paguemenos": {
-      "preco": 51.99,
-      "nome": "IbanUno 150mg 1 Comprimido Revestido",
-      "url": "https://www.paguemenos.com.br/ibanuno-150mg-com-1-comprimido/p",
+      "preco": 35.99,
+      "nome": "Ibandronato de Sódio Monoidratado 150mg 1 Comprimido Revestido Genérico Eurofarma",
+      "url": "https://www.paguemenos.com.br/gen-ibandronato-sod-150mg-1cpr/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 51.99,
-      "nome": "IbanUno 150mg 1 Comprimido Revestido",
-      "url": "https://www.extrafarma.com.br/ibanuno-150mg-com-1-comprimido/p",
+      "preco": 35.99,
+      "nome": "Ibandronato de Sódio Monoidratado 150mg 1 Comprimido Revestido Genérico Eurofarma",
+      "url": "https://www.extrafarma.com.br/gen-ibandronato-sod-150mg-1cpr/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 52.34,
+      "preco": 51.81,
       "nome": "Ibanuno Ibandronato De Sódio 150mg 1 Comprimido",
       "url": "https://www.drogariasaopaulo.com.br/ibanuno-150mg-supera-1-comprimido/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.59,
-      "nome": "Ibandronato de Sódio Monoidratado 150mg Genérico Eurofarma 1 Comprimido",
-      "url": "https://www.drogariaspacheco.com.br/ibandronato-de-sodio-monoidratado-150mg-generico-eurofarma-1-comprimido/p",
+      "preco": 48.99,
+      "nome": "Ibanuno Ibandronato De Sódio 150mg 1 Comprimido",
+      "url": "https://www.drogariaspacheco.com.br/ibanuno-150mg-supera-1-comprimido/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 53.19,
+      "preco": 49.99,
       "nome": "IbanUno 150mg Supera 1 Comprimido Revestidos",
       "url": "https://www.drogariavenancio.com.br/ibanuno-150mg-1-comprimidos-revestidos/p",
       "disponivel": true
@@ -13986,27 +14106,27 @@ const PRECOS_REDES = {
   },
   "med-00466": {
     "paguemenos": {
-      "preco": 7.19,
+      "preco": 5.19,
       "nome": "Ibuprofeno 100mg/ml Sabor Morango Suspensão Oral Gotas 20ml Genérico Medquímica",
       "url": "https://www.paguemenos.com.br/ibuprofeno-100mg-ml-morango-20ml-medquimica-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.19,
+      "preco": 5.19,
       "nome": "Ibuprofeno 100mg/ml Sabor Morango Suspensão Oral Gotas 20ml Genérico Medquímica",
       "url": "https://www.extrafarma.com.br/ibuprofeno-100mg-ml-morango-20ml-medquimica-generico/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 9.76,
+      "preco": 19.99,
       "nome": "Ibuprofeno 400mg Genérico Cimed 10 Cápsulas Líquidas",
       "url": "https://www.drogariasaopaulo.com.br/ibuprofeno-400mg-generico-cimed-10-capsulas-liquidas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9.86,
-      "nome": "Ibuprofeno 400mg Genérico Cimed 10 Cápsulas Líquidas",
-      "url": "https://www.drogariaspacheco.com.br/ibuprofeno-400mg-generico-cimed-10-capsulas-liquidas/p",
+      "preco": 20.45,
+      "nome": "Ibuprofeno 600mg Genérico Pharlab 10 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/ibuprofeno-600mg-generico-pharlab-10-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -14024,25 +14144,25 @@ const PRECOS_REDES = {
   },
   "med-00468": {
     "paguemenos": {
-      "preco": 144.99,
+      "preco": 127.99,
       "nome": "Modik 50mg/g Creme Dermatológico 6 Sachês",
       "url": "https://www.paguemenos.com.br/modik-creme-dermatologico-com-6-saches-250mg/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 144.99,
+      "preco": 127.99,
       "nome": "Modik 50mg/g Creme Dermatológico 6 Sachês",
       "url": "https://www.extrafarma.com.br/modik-creme-dermatologico-com-6-saches-250mg/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 147.01,
+      "preco": 145.52,
       "nome": "Modik Imiquimode 50mg/g 6 Saches Creme",
       "url": "https://www.drogariasaopaulo.com.br/modik-50mgg-natures-plus-6-saches-creme/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 148.49,
+      "preco": 145.52,
       "nome": "Modik Imiquimode 50mg/g 6 Saches Creme",
       "url": "https://www.drogariaspacheco.com.br/modik-50mgg-natures-plus-6-saches-creme/p",
       "disponivel": true
@@ -14062,31 +14182,31 @@ const PRECOS_REDES = {
   },
   "med-00469": {
     "paguemenos": {
-      "preco": 13.19,
-      "nome": "Indapamida 1,5mg 30 Capsulas Germed",
-      "url": "https://www.paguemenos.com.br/indapamida-1-5mg-30-capsulas-germed/p",
+      "preco": 10.29,
+      "nome": "Indapamida 1,5mg 30 Comprimidos Revestidos de Liberação Prolongada Genérico Torrent",
+      "url": "https://www.paguemenos.com.br/indapamida-1-5mg-com-30-comprimidos-generico-torrent/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.19,
-      "nome": "Indapamida 1,5mg 30 Capsulas Germed",
-      "url": "https://www.extrafarma.com.br/indapamida-1-5mg-30-capsulas-germed/p",
+      "preco": 10.29,
+      "nome": "Indapamida 1,5mg 30 Comprimidos Revestidos de Liberação Prolongada Genérico Torrent",
+      "url": "https://www.extrafarma.com.br/indapamida-1-5mg-com-30-comprimidos-generico-torrent/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Indapamida 1,5mg Generico EMS 30 Comprimidos  Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/indapamida-15mg-generico-ems-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.99,
+      "preco": 23.09,
       "nome": "Indapamida 1,5mg Genérico Eurofarma 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/indapamida-1-5mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.03,
+      "preco": 12.44,
       "nome": "Indapamida 1,5mg Geolab 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/indapamida-15mg-30com--g--geolab/p",
       "disponivel": true
@@ -14132,13 +14252,13 @@ const PRECOS_REDES = {
   },
   "med-00472": {
     "paguemenos": {
-      "preco": 86.49,
+      "preco": 85.99,
       "nome": "Insulina Lantus Solostar 1 Caneta Refil 3ml",
       "url": "https://www.paguemenos.com.br/insulina-lantus-solostar-1-caneta-refil-com-3ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 86.49,
+      "preco": 85.99,
       "nome": "Insulina Lantus Solostar 1 Caneta Refil 3ml",
       "url": "https://www.extrafarma.com.br/insulina-lantus-solostar-1-caneta-refil-com-3ml/p",
       "disponivel": true
@@ -14164,13 +14284,13 @@ const PRECOS_REDES = {
   },
   "med-00473": {
     "paguemenos": {
-      "preco": 35.99,
+      "preco": 29.79,
       "nome": "Novolin N 100UI/ml Suspensão Injetável 1 Frasco-Ampola 10ml",
       "url": "https://www.paguemenos.com.br/insulina-novolin-n-10ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 35.99,
+      "preco": 29.79,
       "nome": "Novolin N 100UI/ml Suspensão Injetável 1 Frasco-Ampola 10ml",
       "url": "https://www.extrafarma.com.br/insulina-novolin-n-10ml/p",
       "disponivel": true
@@ -14206,15 +14326,15 @@ const PRECOS_REDES = {
   },
   "med-00754": {
     "paguemenos": {
-      "preco": 13.99,
-      "nome": "Estomazil Pó Efervescente Sabor Abacaxi 6 envelopes de 5g cada",
-      "url": "https://www.paguemenos.com.br/estomazil-po-abacaxi-5g-com-6-envelopes/p",
+      "preco": 1.59,
+      "nome": "Stomaliv 2,15g + 0,50g + 2,15g Sabor Abacaxi Pó Efervescente 1 Envelope 5g",
+      "url": "https://www.paguemenos.com.br/stomaliv-sabor-abacaxi-1-sache-com-5g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.99,
-      "nome": "Estomazil Pó Efervescente Sabor Abacaxi 6 envelopes de 5g cada",
-      "url": "https://www.extrafarma.com.br/estomazil-po-abacaxi-5g-com-6-envelopes/p",
+      "preco": 1.59,
+      "nome": "Stomaliv 2,15g + 0,50g + 2,15g Sabor Abacaxi Pó Efervescente 1 Envelope 5g",
+      "url": "https://www.extrafarma.com.br/stomaliv-sabor-abacaxi-1-sache-com-5g/p",
       "disponivel": true
     },
     "venancio": {
@@ -14232,25 +14352,25 @@ const PRECOS_REDES = {
   },
   "med-00477": {
     "paguemenos": {
-      "preco": 102.99,
+      "preco": 113.99,
       "nome": "Irbesartana 12,5mg + Hidroclorotiazida 150mg 30 Comprimidos Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/irbesartana-12-5mg-mais-hidroclorotiazida-150mg-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 102.99,
+      "preco": 113.99,
       "nome": "Irbesartana 12,5mg + Hidroclorotiazida 150mg 30 Comprimidos Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/irbesartana-12-5mg-mais-hidroclorotiazida-150mg-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 146.51,
+      "preco": 145.03,
       "nome": "Bart H Irbesartana 150mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/bart-h-150mg125mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 124.59,
+      "preco": 122.1,
       "nome": "Bart H Irbesartana 300mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/bart-h-300mg125mg-30-comprimidos/p",
       "disponivel": true
@@ -14282,15 +14402,15 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 61.99,
-      "nome": "Isotretinoína 10mg Genérico Nova Química 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/isotretinoina-10mg-30-comprimidos/p",
+      "preco": 41.29,
+      "nome": "Isotretinoina 20mg Genérico Nova Química 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/isotretinoina-20mg-nova-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 61.99,
-      "nome": "Isotretinoína 10mg Genérico Nova Química 30 Cápsulas Gelatinosas Moles",
-      "url": "https://www.drogariaspacheco.com.br/isotretinoina-10mg-30-comprimidos/p",
+      "preco": 56.99,
+      "nome": "Isotretinoina 20mg Genérico Nova Química 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/isotretinoina-20mg-nova-quimica-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -14326,7 +14446,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.59,
+      "preco": 19.35,
       "nome": "Itraconazol 100mg Genérico EMS 4 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/itraconazol-100mg-4-capsulas-g-ems/p",
       "disponivel": false
@@ -14346,31 +14466,31 @@ const PRECOS_REDES = {
   },
   "med-00480": {
     "paguemenos": {
-      "preco": 9.19,
-      "nome": "Ivermectina 6mg Com 2 Comprimidos Genéricos Neo Química",
-      "url": "https://www.paguemenos.com.br/ivermectina-6mg-com-2-comprimidos-genericos-neo-quimica/p",
+      "preco": 10.99,
+      "nome": "Ivermectina 6mg 2 Comprimidos Genérico Germed",
+      "url": "https://www.paguemenos.com.br/ivermectina-6mg-com-2-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 9.19,
-      "nome": "Ivermectina 6mg Com 2 Comprimidos Genéricos Neo Química",
-      "url": "https://www.extrafarma.com.br/ivermectina-6mg-com-2-comprimidos-genericos-neo-quimica/p",
+      "preco": 10.99,
+      "nome": "Ivermectina 6mg 2 Comprimidos Genérico Germed",
+      "url": "https://www.extrafarma.com.br/ivermectina-6mg-com-2-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 10.99,
+      "preco": 12.09,
       "nome": "Ivermectina 6mg Genérico Germed Pharma 2 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/ivermectina-6mg-generico-germed-pharma-2-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 10.99,
+      "preco": 12.09,
       "nome": "Ivermectina 6mg Genérico Germed Pharma 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/ivermectina-6mg-generico-germed-pharma-2-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 5.23,
+      "preco": 6.99,
       "nome": "Ivermectina 6mg 2 Comprimidos Simples Neo Quimica",
       "url": "https://www.drogariavenancio.com.br/ivermectina-6mg-2com--g--neoquimica/p",
       "disponivel": true
@@ -14434,7 +14554,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 57.69,
+      "preco": 57.39,
       "nome": "Lactulona Sabor Ameixa Xarope 120ml",
       "url": "https://www.drogariavenancio.com.br/lactulona-sabor-ameixa-daiichi-sankyo-120ml-xarope/p",
       "disponivel": true
@@ -14448,31 +14568,31 @@ const PRECOS_REDES = {
   },
   "med-00483": {
     "paguemenos": {
-      "preco": 11.89,
-      "nome": "Lamotrigina 50mg 30 Comprimidos Genérico Prati-Donaduzzi",
-      "url": "https://www.paguemenos.com.br/lamotrigina-50mg-com-30-comprimidos-generico-prati-donaduzzi/p",
+      "preco": 7.99,
+      "nome": "Lamotrigina 25mg 30 Comprimidos Genérico Ranbaxy",
+      "url": "https://www.paguemenos.com.br/gn-lamotrigina-25mg-30cp-ranba-c1/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.89,
-      "nome": "Lamotrigina 50mg 30 Comprimidos Genérico Prati-Donaduzzi",
-      "url": "https://www.extrafarma.com.br/lamotrigina-50mg-com-30-comprimidos-generico-prati-donaduzzi/p",
+      "preco": 7.99,
+      "nome": "Lamotrigina 25mg 30 Comprimidos Genérico Ranbaxy",
+      "url": "https://www.extrafarma.com.br/gn-lamotrigina-25mg-30cp-ranba-c1/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 14.99,
-      "nome": "Lamotrigina 50mg Genérico Prati-Donaduzzi 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/lamotrigina-50mg-generico-prati-donaduzzi-30-comprimidos/p",
+      "preco": 4.79,
+      "nome": "Lamotrigina 100mg Genérico Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/lamotrigina-100mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 16.99,
+      "preco": 17.59,
       "nome": "Lamotrigina 50mg Genérico Althaia 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/lamotrigina-50mg-30-comprimidos---c1-g-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 17.99,
+      "preco": 16.99,
       "nome": "Lamotrigina 25mg Biolab 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/lamotrigina-25mg-30com--c1--g--biolab/p",
       "disponivel": true
@@ -14486,16 +14606,16 @@ const PRECOS_REDES = {
   },
   "med-00484": {
     "paguemenos": {
-      "preco": 33.79,
-      "nome": "Lansoprazol 30mg 28 Cápsulas Duras de Liberação Retardada Genérico Legrand",
-      "url": "https://www.paguemenos.com.br/lansoprazol-30mg-com-28-capsulas-generico-legrand/p",
-      "disponivel": false
+      "preco": 31.99,
+      "nome": "Lansoprazol 30mg 28 Cápsulas de Liberação Retardada Genérico EMS",
+      "url": "https://www.paguemenos.com.br/lansoprazol-30mg-28-capsulas-gel-generico-ems/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.79,
-      "nome": "Lansoprazol 30mg 28 Cápsulas Duras de Liberação Retardada Genérico Legrand",
-      "url": "https://www.extrafarma.com.br/lansoprazol-30mg-com-28-capsulas-generico-legrand/p",
-      "disponivel": false
+      "preco": 31.99,
+      "nome": "Lansoprazol 30mg 28 Cápsulas de Liberação Retardada Genérico EMS",
+      "url": "https://www.extrafarma.com.br/lansoprazol-30mg-28-capsulas-gel-generico-ems/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 32.13,
@@ -14504,7 +14624,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 37.59,
+      "preco": 41.35,
       "nome": "Lansoprazol 30mg Genérico EMS  28 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/lansoprazol-30mg-generico-ems-28-capsulas/p",
       "disponivel": true
@@ -14524,25 +14644,25 @@ const PRECOS_REDES = {
   },
   "med-00485": {
     "paguemenos": {
-      "preco": 85.49,
+      "preco": 91.49,
       "nome": "Latanoprosta 50mcg/Ml Solução Oftalmológica 2,5ml Genérico Geolab",
       "url": "https://www.paguemenos.com.br/latanoprosta-50mcg-ml-solucao-oftalmologica-2-5ml-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 85.49,
+      "preco": 91.49,
       "nome": "Latanoprosta 50mcg/Ml Solução Oftalmológica 2,5ml Genérico Geolab",
       "url": "https://www.extrafarma.com.br/latanoprosta-50mcg-ml-solucao-oftalmologica-2-5ml-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 87.59,
-      "nome": "Latanoprosta 50mcg/ml Genérico EMS 2,5ml Solução Oftalmica",
-      "url": "https://www.drogariasaopaulo.com.br/latanoprosta-solucao-oftalmica-5mgml-generico-ems-25ml/p",
+      "preco": 86.96,
+      "nome": "Volata Latanoprosta 50mcg/ml 2,5ml Solução Oftálmica",
+      "url": "https://www.drogariasaopaulo.com.br/volata-latanoprosta-50mcg-ml-2-5ml-solucao-oftalmica/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 73.76,
+      "preco": 80.95,
       "nome": "Latanoprosta 50mcg/ml + Timolol 5mg/ml Genérico Geolab 2,5ml Solução Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/latanoprosta--timolol-solucao-oftalmica-25ml-g-geolab/p",
       "disponivel": true
@@ -14562,15 +14682,15 @@ const PRECOS_REDES = {
   },
   "med-00530": {
     "paguemenos": {
-      "preco": 8.19,
-      "nome": "Maleato Timolol 0,5% Solução Oftálmica 5ml Genérico Ems",
-      "url": "https://www.paguemenos.com.br/maleato-timolol-0-5porcento-solucao-oftalmica-5ml-generico-ems/p",
+      "preco": 8.39,
+      "nome": "Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Neo Química",
+      "url": "https://www.paguemenos.com.br/maleato-de-timolol-0-5porcento-solucao-oftalmico-5ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.19,
-      "nome": "Maleato Timolol 0,5% Solução Oftálmica 5ml Genérico Ems",
-      "url": "https://www.extrafarma.com.br/maleato-timolol-0-5porcento-solucao-oftalmica-5ml-generico-ems/p",
+      "preco": 8.39,
+      "nome": "Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Neo Química",
+      "url": "https://www.extrafarma.com.br/maleato-de-timolol-0-5porcento-solucao-oftalmico-5ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -14600,25 +14720,25 @@ const PRECOS_REDES = {
   },
   "med-00527": {
     "paguemenos": {
-      "preco": 100.99,
+      "preco": 83.99,
       "nome": "Latanoprosta 0,05mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 2,5ml Genérico Germed",
       "url": "https://www.paguemenos.com.br/gen-latanop-0-05mg-timol-5mg-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 100.99,
+      "preco": 83.99,
       "nome": "Latanoprosta 0,05mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 2,5ml Genérico Germed",
       "url": "https://www.extrafarma.com.br/gen-latanop-0-05mg-timol-5mg-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 276.67,
+      "preco": 279.5,
       "nome": "Xalacom Latanoprosta 50mcg/ml + Maleato de Timolol 5mg/ml 2,5ml Gotas",
       "url": "https://www.drogariasaopaulo.com.br/xalacom-pfizer-25ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 270.48,
+      "preco": 276,
       "nome": "Xalacom Latanoprosta 50mcg/ml + Maleato de Timolol 5mg/ml 2,5ml Gotas",
       "url": "https://www.drogariaspacheco.com.br/xalacom-pfizer-25ml/p",
       "disponivel": true
@@ -14653,16 +14773,16 @@ const PRECOS_REDES = {
       "preco": 279.7,
       "nome": "Leflun Leflunomida 20mg Cristalia 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/leflun-leflunomida-20mg-cristalia-30-comprimidos/p",
-      "disponivel": false
+      "disponivel": true
     },
     "pacheco": {
       "preco": 294.05,
       "nome": "Leflun Leflunomida 20mg Cristalia 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/leflun-leflunomida-20mg-cristalia-30-comprimidos/p",
-      "disponivel": false
+      "disponivel": true
     },
     "venancio": {
-      "preco": 660.89,
+      "preco": 647.69,
       "nome": "Arava 20mg Sanofi 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/arava-20mg-sanofi-30-comprimidos/p",
       "disponivel": true
@@ -14688,21 +14808,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 39.19,
+      "preco": 36.59,
       "nome": "Levetiracetam 250mg Genérico Eurofarma 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/levetiracetam-250mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.85,
+      "preco": 38.19,
       "nome": "Iludral Levetiracetam 250mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/iludral-250mg-zodiac-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 52.93,
-      "nome": "Levetiracetam 250mg 30 Comprimidos Eurofarma",
-      "url": "https://www.drogariavenancio.com.br/levetiracetam-250mg-30-comprimidos/p",
+      "preco": 40.13,
+      "nome": "Levetiracetam 250mg Ems 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/levetiracetam-250-mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -14714,25 +14834,25 @@ const PRECOS_REDES = {
   },
   "med-00491": {
     "paguemenos": {
-      "preco": 56.49,
-      "nome": "Ekson 100mg + 25mg 30 Comprimidos",
-      "url": "https://www.paguemenos.com.br/ekson-100mgmais25mg-com-30-comprimidos/p",
+      "preco": 46.99,
+      "nome": "Prolopa BD 125mg 30 Comprimidos",
+      "url": "https://www.paguemenos.com.br/prolopa-bd-125mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 56.49,
-      "nome": "Ekson 100mg + 25mg 30 Comprimidos",
-      "url": "https://www.extrafarma.com.br/ekson-100mgmais25mg-com-30-comprimidos/p",
+      "preco": 46.99,
+      "nome": "Prolopa BD 125mg 30 Comprimidos",
+      "url": "https://www.extrafarma.com.br/prolopa-bd-125mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 56.62,
+      "preco": 56.05,
       "nome": "Ekson Levodopa 100mg + Cloridrato de Benserazida 25mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/ekson-100mg--25mg-ache-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 45.79,
+      "preco": 44.87,
       "nome": "Prolopa BD Levodopa 100mg + Cloridrato de Benserazida 25mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/prolopa-bd-125mg-30-comprimidos/p",
       "disponivel": true
@@ -14752,31 +14872,31 @@ const PRECOS_REDES = {
   },
   "med-00492": {
     "paguemenos": {
-      "preco": 43.79,
-      "nome": "Percof 6mg/ml Sabor Framboesa Xarope 120ml + Copo Medida",
-      "url": "https://www.paguemenos.com.br/percof-xarope-120ml/p",
+      "preco": 42.29,
+      "nome": "Antux 30mg/5ml Xarope 120ml",
+      "url": "https://www.paguemenos.com.br/antux-xarope-120ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 43.79,
-      "nome": "Percof 6mg/ml Sabor Framboesa Xarope 120ml + Copo Medida",
-      "url": "https://www.extrafarma.com.br/percof-xarope-120ml/p",
+      "preco": 42.29,
+      "nome": "Antux 30mg/5ml Xarope 120ml",
+      "url": "https://www.extrafarma.com.br/antux-xarope-120ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 47.29,
+      "preco": 46.81,
       "nome": "Percof Levodropropizina 6mg/ml 120ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/percof-xarope-eurofarma-120ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 41.49,
+      "preco": 39.88,
       "nome": "Percof Levodropropizina 6mg/ml 120ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/percof-xarope-eurofarma-120ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 41.49,
+      "preco": 40.69,
       "nome": "Percof Eurofarma 120ml Xarope",
       "url": "https://www.drogariavenancio.com.br/percof-eurofarma-120ml-xarope/p",
       "disponivel": true
@@ -14790,34 +14910,34 @@ const PRECOS_REDES = {
   },
   "med-00493": {
     "paguemenos": {
-      "preco": 24.91,
+      "preco": 22.99,
       "nome": "Levofloxacino 500mg 7 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.paguemenos.com.br/levofloxacino-500mg-com-7-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 24.91,
+      "preco": 22.99,
       "nome": "Levofloxacino 500mg 7 Comprimidos Revestidos Genérico Geolab",
       "url": "https://www.extrafarma.com.br/levofloxacino-500mg-com-7-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 47.99,
-      "nome": "Livepax Levofloxacino Hemi-Hidratado 500mg 3 comprimidos revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/livepax-500mg-ache-3-comprimidos-revestidos/p",
+      "preco": 45.38,
+      "nome": "Levofloxacino 500mg Genérico EMS 7 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/levofloxacino-500mg-ems-7-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 30.59,
-      "nome": "Levofloxacino 500mg Genérico Eurofarma 10 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/levofloxacino-500mg-10-comprimidos-generico/p",
+      "preco": 6.53,
+      "nome": "Levofloxacino 500mg Genérico EMS 7 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/levofloxacino-500mg-ems-7-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
       "preco": 24.89,
-      "nome": "Levofloxacino 500mg 10 Comprimidos Revestidos Teuto",
-      "url": "https://www.drogariavenancio.com.br/levofloxacino-500mg-10-comprimidos-revestidos/p",
-      "disponivel": true
+      "nome": "Levofloxacino 500mg Cimed 7 Comprimidos Revestidos",
+      "url": "https://www.drogariavenancio.com.br/levofloxacino-500mg-cimed-7-comprimidos-revestidos/p",
+      "disponivel": false
     },
     "panvel": {
       "preco": 28.99,
@@ -14828,15 +14948,15 @@ const PRECOS_REDES = {
   },
   "med-00494": {
     "paguemenos": {
-      "preco": 27.85,
-      "nome": "Levofloxacino 750mg 5 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.paguemenos.com.br/gen-levofloxacino-750mg-5cp-sandoz/p",
+      "preco": 24.29,
+      "nome": "Levofloxacino 500mg Com 7 Comprimidos Genérico Prati Donaduzzi +",
+      "url": "https://www.paguemenos.com.br/levofloxacino-500mg-com-7-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 27.85,
-      "nome": "Levofloxacino 750mg 5 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.extrafarma.com.br/gen-levofloxacino-750mg-5cp-sandoz/p",
+      "preco": 24.29,
+      "nome": "Levofloxacino 500mg Com 7 Comprimidos Genérico Prati Donaduzzi +",
+      "url": "https://www.extrafarma.com.br/levofloxacino-500mg-com-7-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -14846,13 +14966,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 24.99,
-      "nome": "Levoxin Levofloxacino 250mg 3 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/levoxin-250mg-apsen-3-comprimidos/p",
+      "preco": 6.81,
+      "nome": "Levofloxacino Hemi-Hidratado 500mg Cellera 7 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/levofloxacino-hemi-hidratado-500mg-cellera-7-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 53.99,
+      "preco": 39.99,
       "nome": "Levofloxacino Hemi-hidratado 750mg 5 Comprimidos Revestidos Eurofarma Genérico",
       "url": "https://www.drogariavenancio.com.br/levofloxacino-hemi-hidratado-750mg-5-comprimidos-revestidos-eurofarma-generico/p",
       "disponivel": true
@@ -14878,19 +14998,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 45.85,
+      "preco": 45.38,
       "nome": "Tamiram Levofloxacino Hemi-Hidratado 500mg 7 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/tamiram-500mg-eurofarma-7-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 46.31,
+      "preco": 44.38,
       "nome": "Tamiram Levofloxacino Hemi-Hidratado 500mg 7 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/tamiram-500mg-eurofarma-7-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 53.49,
+      "preco": 57.49,
       "nome": "Tamiram 500mg Com 10 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/tamiram-500mg-com-10-comprimidos/p",
       "disponivel": true
@@ -14916,13 +15036,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 139.59,
+      "preco": 144.99,
       "nome": "Folavive Levomefolato de Cálcio 15mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/folavive-levomefolato-de-calcio-15mg-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 146.74,
+      "preco": 152.59,
       "nome": "Folavive Levomefolato de Cálcio 15mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/folavive-levomefolato-de-calcio-15mg-30-comprimidos/p",
       "disponivel": true
@@ -14942,19 +15062,19 @@ const PRECOS_REDES = {
   },
   "med-00499": {
     "paguemenos": {
-      "preco": 7.99,
+      "preco": 7.49,
       "nome": "Levotiroxina Sódica 100mcg 30 Comprimidos Genérico Merck",
       "url": "https://www.paguemenos.com.br/levotiroxina-sodica-100mg-com-30-comprimidos-generico-merck/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.99,
+      "preco": 7.49,
       "nome": "Levotiroxina Sódica 100mcg 30 Comprimidos Genérico Merck",
       "url": "https://www.extrafarma.com.br/levotiroxina-sodica-100mg-com-30-comprimidos-generico-merck/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.38,
+      "preco": 12.24,
       "nome": "Levoid Levotiroxina Sódica 38mcg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/levoid-38mcg-ache-30-comprimidos/p",
       "disponivel": true
@@ -14980,13 +15100,13 @@ const PRECOS_REDES = {
   },
   "med-00501": {
     "paguemenos": {
-      "preco": 84.99,
+      "preco": 82.99,
       "nome": "Meciclin 150mg 16 Cápsulas Duras",
       "url": "https://www.paguemenos.com.br/meciclin-150mg-com-16-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 84.99,
+      "preco": 82.99,
       "nome": "Meciclin 150mg 16 Cápsulas Duras",
       "url": "https://www.extrafarma.com.br/meciclin-150mg-com-16-capsulas/p",
       "disponivel": true
@@ -14998,13 +15118,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 77.69,
+      "preco": 79.17,
       "nome": "Meciclin Limeciclina 150mg 16 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/meciclin-150mg-16-capsulas-duras-natures-plus/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 77.69,
+      "preco": 80.79,
       "nome": "Meciclin 150mg 16 Capsulas",
       "url": "https://www.drogariavenancio.com.br/meciclin-150mg-16-capsulas/p",
       "disponivel": true
@@ -15030,21 +15150,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 113.99,
-      "nome": "Linagliptina 5mg Genérico Neo Química 30 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/linagliptina-5mg-generico-neo-quimica-30-comprimidos-revestidos/p",
+      "preco": 104.36,
+      "nome": "Linadib Linagliptina 5mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/linadib-5mg-ems-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 125.99,
-      "nome": "Linagliptina 5mg Genérico Neo Química 30 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/linagliptina-5mg-generico-neo-quimica-30-comprimidos-revestidos/p",
+      "preco": 100.17,
+      "nome": "Glunac Linagliptina 5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/glunac-5mg-germed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 127.06,
-      "nome": "Linagliptina 5 mg 30 comprimidos Genéricos Neo Química",
-      "url": "https://www.drogariavenancio.com.br/linagliptina-5mg-neo-quimica-30-comprimidos/p",
+      "preco": 102.21,
+      "nome": "Glunac 5mg Germed 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/glunac-5mg-30com/p",
       "disponivel": true
     },
     "panvel": {
@@ -15056,33 +15176,33 @@ const PRECOS_REDES = {
   },
   "med-00227": {
     "paguemenos": {
-      "preco": 136.4,
-      "nome": "Linadib Duo 2,5mg + 500mg 60 Comprimidos Revestidos",
-      "url": "https://www.paguemenos.com.br/linadib-duo-2-5mg-mais-500mg-60-comprimidos-revestidos/p",
+      "preco": 134.99,
+      "nome": "Glink MET 2,5mg + 1000mg 60 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/glink-met-com-60-comprimidos-2-5mgmais1000mg/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 136.4,
-      "nome": "Linadib Duo 2,5mg + 500mg 60 Comprimidos Revestidos",
-      "url": "https://www.extrafarma.com.br/linadib-duo-2-5mg-mais-500mg-60-comprimidos-revestidos/p",
+      "preco": 134.99,
+      "nome": "Glink MET 2,5mg + 1000mg 60 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/glink-met-com-60-comprimidos-2-5mgmais1000mg/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 142.38,
+      "preco": 134.16,
       "nome": "Glunac Duo Linagliptina 2,5mg + Cloridrato de Metformina 1000mg 60 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/glunac-duo-2-5mg-1000mg-brace-pharma-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 117.99,
-      "nome": "Glink Met Linagliptina 2,5mg + Cloridrato de Metformina 1000mg 60 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/glink-met-2-5mg-1000mg-libbs-60-comprimidos-revestidos/p",
+      "preco": 112.98,
+      "nome": "Glunac Duo Linagliptina 2,5mg + Cloridrato de Metformina 1000mg 60 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/glunac-duo-2-5mg-1000mg-brace-pharma-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 97.89,
-      "nome": "Glink Met 2,5mg + 1000mg Libbs 60 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/glink-met-25-1000mg-60com/p",
+      "preco": 115.29,
+      "nome": "Glunac Duo Linagliptina 2,5 +1000 Mg 60 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/glunac-duo-1000-25-mg-60com/p",
       "disponivel": true
     },
     "panvel": {
@@ -15106,7 +15226,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 350.66,
+      "preco": 354.2,
       "nome": "Olire Liraglutida 6mg 1 Caneta com 3ml Solução Injetável",
       "url": "https://www.drogariasaopaulo.com.br/olire-6mg-ems-1-caneta-3ml-solucao-injetavel/p",
       "disponivel": true
@@ -15132,13 +15252,13 @@ const PRECOS_REDES = {
   },
   "med-00505": {
     "paguemenos": {
-      "preco": 74.99,
+      "preco": 74.49,
       "nome": "Broncho-Vaxom 3,5mg Pediátrico 10 Cápsulas Duras",
       "url": "https://www.paguemenos.com.br/broncho-vaxom-3-5mg-com-10-capsulas-nv/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 74.99,
+      "preco": 74.49,
       "nome": "Broncho-Vaxom 3,5mg Pediátrico 10 Cápsulas Duras",
       "url": "https://www.extrafarma.com.br/broncho-vaxom-3-5mg-com-10-capsulas-nv/p",
       "disponivel": true
@@ -15170,31 +15290,31 @@ const PRECOS_REDES = {
   },
   "med-00506": {
     "paguemenos": {
-      "preco": 33.79,
+      "preco": 33.59,
       "nome": "Algilive 160mg 10 Cápsulas Duras de Liberação Prolongada",
       "url": "https://www.paguemenos.com.br/algilive-160mg-10-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.79,
+      "preco": 33.59,
       "nome": "Algilive 160mg 10 Cápsulas Duras de Liberação Prolongada",
       "url": "https://www.extrafarma.com.br/algilive-160mg-10-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 40.64,
+      "preco": 40.23,
       "nome": "Artrosil Lisinato De Cetoprofeno 160mg 10 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/artrosil-160mg-ache-10-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 31.99,
+      "preco": 31.35,
       "nome": "Artrosil Lisinato De Cetoprofeno 160mg 10 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/artrosil-160mg-ache-10-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 31.79,
+      "preco": 31.19,
       "nome": "Algilive 160mg Biosintética 10 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/algilive-160mg-biosintetica-10-capsulas/p",
       "disponivel": true
@@ -15208,27 +15328,27 @@ const PRECOS_REDES = {
   },
   "med-00508": {
     "paguemenos": {
-      "preco": 8.99,
-      "nome": "Loratadina Biosintética 1mg/ml Sabor Pêssego Xarope 100ml + Copo Dosador",
-      "url": "https://www.paguemenos.com.br/loratadina-xarope-100ml-gn-bi/p",
+      "preco": 6.69,
+      "nome": "Loratadina 10mg 12 Comprimidos Genérico Vitamedic",
+      "url": "https://www.paguemenos.com.br/loratadina-10mg-com-c-1x12/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.99,
-      "nome": "Loratadina Biosintética 1mg/ml Sabor Pêssego Xarope 100ml + Copo Dosador",
-      "url": "https://www.extrafarma.com.br/loratadina-xarope-100ml-gn-bi/p",
+      "preco": 6.69,
+      "nome": "Loratadina 10mg 12 Comprimidos Genérico Vitamedic",
+      "url": "https://www.extrafarma.com.br/loratadina-10mg-com-c-1x12/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.29,
-      "nome": "Loratadina 1mg/ml + Sulfato De Pseudoefedrina 12mg/ml Genérico Medley 60ml Xarope",
-      "url": "https://www.drogariasaopaulo.com.br/loratadina-sulfato-de-pseudoefedrina-generico-medley-60ml/p",
+      "preco": 19.79,
+      "nome": "Loratadina 1mg + Sulfato de Pseudoefedrina 12mg Genérico Neo Química 60ml",
+      "url": "https://www.drogariasaopaulo.com.br/loratadina-1mg-sulfato-de-pseudoefedrina-12mg-generico-neo-quimica-60ml/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 23.59,
-      "nome": "Loratadina 1mg/ml + Sulfato Pseudoefedina 12mg/ml Genérico Biosintética 60ml Xarope",
-      "url": "https://www.drogariaspacheco.com.br/loratadina-sulfato-pseudoefedina-xarope-1mg-ml-generico-biosinteti-60ml/p",
+      "preco": 24.99,
+      "nome": "Loratadina 1mg/ml + Sulfato Pseudoefedrina 12mg/ml Genérico EMS 60ml Xarope",
+      "url": "https://www.drogariaspacheco.com.br/loratadina-sulfato-pseudoefedrina-xarope-1mg-ml-generico-ems-60ml/p",
       "disponivel": true
     },
     "venancio": {
@@ -15264,9 +15384,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.59,
-      "nome": "Lorazepam 2mg Genérico EMS 20 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/lorazepam-2mg-generico-ems-20-comprimidos/p",
+      "preco": 4.99,
+      "nome": "Lorazepam 2mg Genérico Teuto 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/lorazepam-2mg-generico-teuto-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -15284,25 +15404,25 @@ const PRECOS_REDES = {
   },
   "med-00512": {
     "paguemenos": {
-      "preco": 26.79,
+      "preco": 23.29,
       "nome": "Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/losartana-potassica-maishidroclorotiazida-50mais12-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 26.79,
+      "preco": 23.29,
       "nome": "Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/losartana-potassica-maishidroclorotiazida-50mais12-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 55.99,
+      "preco": 54.75,
       "nome": "Hyzaar Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/hyzaar-50-122mg-merck-sharp-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 46.79,
+      "preco": 44.97,
       "nome": "Zart H Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/zart-h-50mg-12-5mg-eurofarma-30-comprimidos/p",
       "disponivel": true
@@ -15322,31 +15442,31 @@ const PRECOS_REDES = {
   },
   "med-00513": {
     "paguemenos": {
-      "preco": 44.29,
+      "preco": 40.79,
       "nome": "Loxonin 60mg 15 Comprimidos",
       "url": "https://www.paguemenos.com.br/loxonin-60mg-com-15-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 44.29,
+      "preco": 40.79,
       "nome": "Loxonin 60mg 15 Comprimidos",
       "url": "https://www.extrafarma.com.br/loxonin-60mg-com-15-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 44.53,
+      "preco": 43.29,
       "nome": "Loxonin Loxoprofeno Sódico Di-Hidratado 60mg 15 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/loxonin-60mg-sankyo-15-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 44.98,
+      "preco": 43.29,
       "nome": "Loxonin Loxoprofeno Sódico Di-Hidratado 60mg 15 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/loxonin-60mg-sankyo-15-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 42.29,
+      "preco": 40.79,
       "nome": "Loxonin 60mg Daiichi-Sankyo 15 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/loxonin-60mg-sankyo-15-comprimidos/p",
       "disponivel": true
@@ -15360,13 +15480,13 @@ const PRECOS_REDES = {
   },
   "med-00521": {
     "paguemenos": {
-      "preco": 5.19,
+      "preco": 4.39,
       "nome": "Maleato de Enalapril 10mg 30 Comprimidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/maleato-de-enalapril-10mg-com-30-comprimidos-generco-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.19,
+      "preco": 4.39,
       "nome": "Maleato de Enalapril 10mg 30 Comprimidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/maleato-de-enalapril-10mg-com-30-comprimidos-generco-ems/p",
       "disponivel": true
@@ -15378,15 +15498,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.09,
-      "nome": "Maleato de Enalapril 20mg Genérico Cimed 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/maleato-de-enalapril-20mg-generico-cimed-30-comprimidos/p",
+      "preco": 7.25,
+      "nome": "Maleato De Enalapril 20mg Genérico Germed 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/maleato-de-enalapril-20mg-generico-germed-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 4.54,
-      "nome": "Maleato De Enalapril 10mg Teuto 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/maleato-de-enalapril-10mg-teuto-30-comprimidos/p",
+      "preco": 5.29,
+      "nome": "Maleato De Enalapril 10mg Ems 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/maleato-de-enalapril-10mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -15448,15 +15568,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 96.62,
+      "preco": 84.99,
       "nome": "Maleato de Fluvoxamina 50mg Genérico Althaia   30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/maleato-de-fluvoxamina-50mg-generico-althaia-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 109.01,
-      "nome": "Maleato de Fluvoxamina 50mg Genérico Althaia   30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/maleato-de-fluvoxamina-50mg-generico-althaia-30-comprimidos/p",
+      "preco": 71.82,
+      "nome": "Semtri Maleato de Fluvoxamina 50mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/semtri-50mg-biolab-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -15474,13 +15594,13 @@ const PRECOS_REDES = {
   },
   "med-00525": {
     "paguemenos": {
-      "preco": 41.99,
+      "preco": 47.79,
       "nome": "Maleato de Midazolam 15mg 30 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/maleato-de-midazolam-15mg-30-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 41.99,
+      "preco": 47.79,
       "nome": "Maleato de Midazolam 15mg 30 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/maleato-de-midazolam-15mg-30-comprimidos-generico-medley/p",
       "disponivel": true
@@ -15498,7 +15618,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 76.89,
+      "preco": 49.23,
       "nome": "Maleato De Midazolam 15mg Medley Genérico 30 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/maleato-de-midazolam-15mg-30-comprimidos-revestidos-medley-generico/p",
       "disponivel": true
@@ -15512,33 +15632,33 @@ const PRECOS_REDES = {
   },
   "med-00528": {
     "paguemenos": {
-      "preco": 96.49,
-      "nome": "Combtol 2mg/Ml Tratato De Brimonidina + 5ml Maleato De Timolol 5ml",
-      "url": "https://www.paguemenos.com.br/combtol-2mg-ml-tratato-de-brimonidina-mais-5ml-maleato-de-timolol-5ml/p",
+      "preco": 94.99,
+      "nome": "Brixag 2mg/ml + 5mg/ml Solução Oftálmica Estéril 5ml",
+      "url": "https://www.paguemenos.com.br/brixag-2mgmais5mg-solucao-oftalmica-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 96.49,
-      "nome": "Combtol 2mg/Ml Tratato De Brimonidina + 5ml Maleato De Timolol 5ml",
-      "url": "https://www.extrafarma.com.br/combtol-2mg-ml-tratato-de-brimonidina-mais-5ml-maleato-de-timolol-5ml/p",
+      "preco": 94.99,
+      "nome": "Brixag 2mg/ml + 5mg/ml Solução Oftálmica Estéril 5ml",
+      "url": "https://www.extrafarma.com.br/brixag-2mgmais5mg-solucao-oftalmica-5ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 95.03,
+      "preco": 94.07,
       "nome": "Combtol Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml Solução Oftálmica Estéril",
       "url": "https://www.drogariasaopaulo.com.br/combtol-2mg-ml-5mg-ml-ache-5ml-gotas-solucao-oftalmica-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 92.89,
-      "nome": "Britens LC Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml Solução Oftálmica",
-      "url": "https://www.drogariaspacheco.com.br/britens-lc-2-mgml-5-mgml-uniao-quimica-5ml/p",
+      "preco": 92.31,
+      "nome": "Combtol Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml Solução Oftálmica Estéril",
+      "url": "https://www.drogariaspacheco.com.br/combtol-2mg-ml-5mg-ml-ache-5ml-gotas-solucao-oftalmica-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 92.89,
-      "nome": "Britens LC Solução Oftálmica 2mg/ml + 5mg/ml 5ml",
-      "url": "https://www.drogariavenancio.com.br/britens-lc--sol-oft-5-ml-uniao-quimica/p",
+      "preco": 94.19,
+      "nome": "Combtol 2mg/ml + 5mg/ml Aché Uso Oftálmico 5ml",
+      "url": "https://www.drogariavenancio.com.br/combtol-sol-oft-5ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -15562,13 +15682,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 159.37,
+      "preco": 157.76,
       "nome": "Duoglau Bimatoprosta 0,3mg/ml + Maleato de Timolol 5mg/ml 3ml Colírio",
       "url": "https://www.drogariasaopaulo.com.br/duoglau-bimatoprosta-0-3mg-ml--maleato-de-timolol-5mg-ml-3ml-colirio-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 160.98,
+      "preco": 157.76,
       "nome": "Duoglau Bimatoprosta 0,3mg/ml + Maleato de Timolol 5mg/ml 3ml Colírio",
       "url": "https://www.drogariaspacheco.com.br/duoglau-bimatoprosta-0-3mg-ml--maleato-de-timolol-5mg-ml-3ml-colirio-/p",
       "disponivel": true
@@ -15588,25 +15708,25 @@ const PRECOS_REDES = {
   },
   "med-00533": {
     "paguemenos": {
-      "preco": 51.99,
+      "preco": 76.99,
       "nome": "Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/tartarato-de-brimonidina-mais-maleato-de-timolol-2mg-ml-nqmais-5mg-ml-solucao-oftalmica-com-5ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 51.99,
+      "preco": 76.99,
       "nome": "Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml Solução Oftálmica 5ml Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/tartarato-de-brimonidina-mais-maleato-de-timolol-2mg-ml-nqmais-5mg-ml-solucao-oftalmica-com-5ml-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 129.86,
+      "preco": 123.96,
       "nome": "Britens Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariasaopaulo.com.br/britens-solucao-oftalmica-uniao-quimica-5ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 112.26,
+      "preco": 102.79,
       "nome": "Britens Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml Solução Oftálmica",
       "url": "https://www.drogariaspacheco.com.br/britens-solucao-oftalmica-uniao-quimica-5ml/p",
       "disponivel": true
@@ -15620,25 +15740,25 @@ const PRECOS_REDES = {
   },
   "med-00697": {
     "paguemenos": {
-      "preco": 44.59,
-      "nome": "Tartarato de Brimonidina 2mg/ml Solução Oftálmica 5ml Genérico Geolab",
-      "url": "https://www.paguemenos.com.br/tartarato-brimonidina-2mg-solucao-oftalmica-5ml-generico-geolab/p",
+      "preco": 35.59,
+      "nome": "Tartarato de Brimonidina 1,5mg/ml Solução Oftálmica 5ml Genérico Geolab",
+      "url": "https://www.paguemenos.com.br/tartarato-brimonidina-1-5mg-5ml-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 44.59,
-      "nome": "Tartarato de Brimonidina 2mg/ml Solução Oftálmica 5ml Genérico Geolab",
-      "url": "https://www.extrafarma.com.br/tartarato-brimonidina-2mg-solucao-oftalmica-5ml-generico-geolab/p",
+      "preco": 35.59,
+      "nome": "Tartarato de Brimonidina 1,5mg/ml Solução Oftálmica 5ml Genérico Geolab",
+      "url": "https://www.extrafarma.com.br/tartarato-brimonidina-1-5mg-5ml-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 26.08,
+      "preco": 25.81,
       "nome": "Alphabrin Tartarato de Brimonidina 1,0ml/mg 5ml",
       "url": "https://www.drogariasaopaulo.com.br/alphabrin-1-0ml-mg-geolab-5ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 25.99,
+      "preco": 24.88,
       "nome": "Alphabrin Tartarato de Brimonidina 1,0ml/mg 5ml",
       "url": "https://www.drogariaspacheco.com.br/alphabrin-1-0ml-mg-geolab-5ml/p",
       "disponivel": true
@@ -15658,13 +15778,13 @@ const PRECOS_REDES = {
   },
   "med-00529": {
     "paguemenos": {
-      "preco": 54.99,
+      "preco": 37.99,
       "nome": "Maleato de Trimebutina 200mg 30 Cápsulas Moles Genérico Althaia",
       "url": "https://www.paguemenos.com.br/maleato-de-trimebutina-200mg-com-30-capsulas-generico-althaia/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 54.99,
+      "preco": 37.99,
       "nome": "Maleato de Trimebutina 200mg 30 Cápsulas Moles Genérico Althaia",
       "url": "https://www.extrafarma.com.br/maleato-de-trimebutina-200mg-com-30-capsulas-generico-althaia/p",
       "disponivel": true
@@ -15676,9 +15796,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 68.99,
-      "nome": "Maleato de Trimebutina 200mg Genérico Legrand 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/maleato-de-trimebutina-200mg-generico-legrand-30-capsulas/p",
+      "preco": 75.16,
+      "nome": "Irritratil Maleato De Trimebutina 200mg 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/irritratil-200mg-ache-30-capsulas/p",
       "disponivel": true
     },
     "venancio": {
@@ -15748,33 +15868,33 @@ const PRECOS_REDES = {
   },
   "med-00537": {
     "paguemenos": {
-      "preco": 12.79,
+      "preco": 12.69,
       "nome": "Meloxicam 7,5mg 10 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/meloxicam-7-5mg-com-10-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 12.79,
+      "preco": 12.69,
       "nome": "Meloxicam 7,5mg 10 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/meloxicam-7-5mg-com-10-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.99,
+      "preco": 14.29,
       "nome": "Meloxicam 7,5mg Genérico Medley  10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/meloxicam-75mg-generico-medley-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 16.99,
+      "preco": 18.69,
       "nome": "Meloxicam 15mg Genérico Eurofarma 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/meloxicam-15mg-eurofarma-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.39,
-      "nome": "Meloxicam 7,5mg Medley 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/meloxicam-75mg-medley-10-comprimidos/p",
+      "preco": 8.49,
+      "nome": "Meloxicam 7,5mg Pharlab 10 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/meloxicam-75mg-10com--g--pharlab/p",
       "disponivel": true
     },
     "panvel": {
@@ -15798,7 +15918,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 186.43,
+      "preco": 186.67,
       "nome": "Merional HG 75UI Besins Pó Liofilo Injetável + Solução Diluente 1ml",
       "url": "https://www.drogariavenancio.com.br/merional-hg-75ui-1fa-dil-amp-1ml/p",
       "disponivel": true
@@ -15812,25 +15932,25 @@ const PRECOS_REDES = {
   },
   "med-00540": {
     "paguemenos": {
-      "preco": 83.49,
+      "preco": 88.99,
       "nome": "Mesalazina 800mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/mesalazina-800mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 83.49,
+      "preco": 88.99,
       "nome": "Mesalazina 800mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/mesalazina-800mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 80.18,
+      "preco": 79.37,
       "nome": "Mesacol Mesalazina 250mg 15 Supositórios",
       "url": "https://www.drogariasaopaulo.com.br/mesacol-250mg-takeda-15-supositorios/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 74.49,
+      "preco": 70.75,
       "nome": "Mesacol Mesalazina 250mg 15 Supositórios",
       "url": "https://www.drogariaspacheco.com.br/mesacol-250mg-takeda-15-supositorios/p",
       "disponivel": true
@@ -15850,13 +15970,13 @@ const PRECOS_REDES = {
   },
   "med-00549": {
     "paguemenos": {
-      "preco": 71.99,
+      "preco": 78.99,
       "nome": "Mesalazina 400mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/mesalazina-400mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 71.99,
+      "preco": 78.99,
       "nome": "Mesalazina 400mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/mesalazina-400mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
@@ -15888,19 +16008,19 @@ const PRECOS_REDES = {
   },
   "med-00542": {
     "paguemenos": {
-      "preco": 19.19,
+      "preco": 17.69,
       "nome": "Cefaliv 1mg + 100mg + 350mg 12 Comprimidos",
       "url": "https://www.paguemenos.com.br/cefaliv-com-12-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.19,
+      "preco": 17.69,
       "nome": "Cefaliv 1mg + 100mg + 350mg 12 Comprimidos",
       "url": "https://www.extrafarma.com.br/cefaliv-com-12-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 19.2,
+      "preco": 18.32,
       "nome": "Cefaliv Cafeína 100mg + Dipirona 350mg + Mesilato de Di-hidroergotamina 1mg 12 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/cefaliv-ache-12-comprimidos/p",
       "disponivel": true
@@ -15926,13 +16046,13 @@ const PRECOS_REDES = {
   },
   "med-00541": {
     "paguemenos": {
-      "preco": 21.99,
+      "preco": 20.29,
       "nome": "Migraliv 1mg + 100mg + 350mg 12 Comprimidos",
       "url": "https://www.paguemenos.com.br/migraliv-com-12-comprimidos-novo/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.99,
+      "preco": 20.29,
       "nome": "Migraliv 1mg + 100mg + 350mg 12 Comprimidos",
       "url": "https://www.extrafarma.com.br/migraliv-com-12-comprimidos-novo/p",
       "disponivel": true
@@ -15950,7 +16070,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 21.44,
+      "preco": 20.49,
       "nome": "Migraliv 1mg + 100mg + 350mg Ems 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/migraliv-12cpr/p",
       "disponivel": true
@@ -15958,31 +16078,31 @@ const PRECOS_REDES = {
   },
   "med-00543": {
     "paguemenos": {
-      "preco": 8.19,
+      "preco": 6.59,
       "nome": "Mesilato de Doxazosina 2mg 30 Comprimidos Genérico Geolab",
       "url": "https://www.paguemenos.com.br/mesilato-de-doxazosina-2mg-com-30-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.19,
+      "preco": 6.59,
       "nome": "Mesilato de Doxazosina 2mg 30 Comprimidos Genérico Geolab",
       "url": "https://www.extrafarma.com.br/mesilato-de-doxazosina-2mg-com-30-comprimidos-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.19,
+      "preco": 7.99,
       "nome": "Doxuran Mesilato De Doxazosina 2mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/doxuran-2mg-sandoz-do-brasil-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.39,
+      "preco": 7.99,
       "nome": "Doxuran Mesilato De Doxazosina 2mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/doxuran-2mg-sandoz-do-brasil-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 9.74,
+      "preco": 13.99,
       "nome": "Mesilato de Doxazosina 2mg União Química 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/mesilato-de-doxazosina-2mg-uniao-quimica-30-comprimidos/p",
       "disponivel": true
@@ -15996,31 +16116,31 @@ const PRECOS_REDES = {
   },
   "med-00544": {
     "paguemenos": {
-      "preco": 148.99,
-      "nome": "Prós HP 2mg + 5mg 30 Cápsulas Gelatinosas Duras",
-      "url": "https://www.paguemenos.com.br/pros-hp-2mgmais5mg-com-30-capsulas/p",
+      "preco": 131.99,
+      "nome": "Hominus 2mg+5mg 30 Cápsulas Duras",
+      "url": "https://www.paguemenos.com.br/hominus-2mgmais5mg-com-30-capsulas-novo/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 148.99,
-      "nome": "Prós HP 2mg + 5mg 30 Cápsulas Gelatinosas Duras",
-      "url": "https://www.extrafarma.com.br/pros-hp-2mgmais5mg-com-30-capsulas/p",
+      "preco": 131.99,
+      "nome": "Hominus 2mg+5mg 30 Cápsulas Duras",
+      "url": "https://www.extrafarma.com.br/hominus-2mgmais5mg-com-30-capsulas-novo/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 151.45,
+      "preco": 149.92,
       "nome": "Prós HP Mesilato de Doxazosina 2mg + Finasterida 5mg 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/pros-hp-supera-rx-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 139.89,
+      "preco": 134.25,
       "nome": "Duomo HP Finasterida 5mg + Mesilato de Doxazosina 2mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/duomo-hp-2mg-5mg-eurofarma-30-capsulas-gelatinosas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 139.89,
+      "preco": 136.99,
       "nome": "Duomo Hp 2mg + 5mg Eurofarma 30 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/duomo-hp-2mg---5mg-eurofarma-30-capsulas/p",
       "disponivel": true
@@ -16034,15 +16154,15 @@ const PRECOS_REDES = {
   },
   "med-00545": {
     "paguemenos": {
-      "preco": 168.99,
-      "nome": "Pradaxa 150mg 30 Cápsulas",
-      "url": "https://www.paguemenos.com.br/pradaxa-150mg-caps-30/p",
+      "preco": 190.99,
+      "nome": "Pradaxa 110mg 30 Cápsulas",
+      "url": "https://www.paguemenos.com.br/pradaxa-110mg-com-30-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 168.99,
-      "nome": "Pradaxa 150mg 30 Cápsulas",
-      "url": "https://www.extrafarma.com.br/pradaxa-150mg-caps-30/p",
+      "preco": 190.99,
+      "nome": "Pradaxa 110mg 30 Cápsulas",
+      "url": "https://www.extrafarma.com.br/pradaxa-110mg-com-30-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -16072,13 +16192,13 @@ const PRECOS_REDES = {
   },
   "med-00547": {
     "paguemenos": {
-      "preco": 105.99,
+      "preco": 104.99,
       "nome": "Mesilato de Rasagilina 1mg 30 Comprimidos Genérico Zydus Nikkho",
       "url": "https://www.paguemenos.com.br/mesilato-de-rasagilina-1mg-30-comprimidos-zydus-generico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 105.99,
+      "preco": 104.99,
       "nome": "Mesilato de Rasagilina 1mg 30 Comprimidos Genérico Zydus Nikkho",
       "url": "https://www.extrafarma.com.br/mesilato-de-rasagilina-1mg-30-comprimidos-zydus-generico/p",
       "disponivel": true
@@ -16090,9 +16210,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 91.91,
-      "nome": "Mesilato de Rasagilina 1mg Genérico Teva  30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/mesilato-de-rasagilina-1mg-generico-teva--30-comprimidos/p",
+      "preco": 106.99,
+      "nome": "Mesilato De Rasagilina 1mg Genérico Zydus 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/mesilato-de-rasagilina-1mg-generico-zydus-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -16127,8 +16247,14 @@ const PRECOS_REDES = {
       "url": "https://www.drogariasaopaulo.com.br/xadago-50mg-zambon-14-comprimidos/p",
       "disponivel": false
     },
+    "pacheco": {
+      "preco": 105.92,
+      "nome": "Xadago Mesilato de Safinamida 50mg 14 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/xadago-50mg-zambon-14-comprimidos/p",
+      "disponivel": false
+    },
     "venancio": {
-      "preco": 217.49,
+      "preco": 215.79,
       "nome": "Xadago 50mg Cartucho Com 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/xadago-50mg-cartucho-com-30-comprimidos/p",
       "disponivel": true
@@ -16186,10 +16312,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 14.27,
-      "nome": "Simeticona 80mg/ml + Metilbrometo Homatropina 2,5mg/ml Genérico EMS 20ml Emulsão De Uso Oral",
-      "url": "https://www.drogariaspacheco.com.br/simeticona-metilbrometo-homatropina-8025mgm-generico-ems-20ml/p",
-      "disponivel": true
+      "preco": 9.84,
+      "nome": "Simeticona 125mg Genérico Medley 20 Cápsulas Gelatinosas",
+      "url": "https://www.drogariaspacheco.com.br/simeticona-125mg-generico-medley-20-capsulas-gelatinosas/p",
+      "disponivel": false
     },
     "venancio": {
       "preco": 4.99,
@@ -16206,13 +16332,13 @@ const PRECOS_REDES = {
   },
   "med-00552": {
     "paguemenos": {
-      "preco": 23.79,
+      "preco": 18.99,
       "nome": "Metildopa 250mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/metildopa-250mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 23.79,
+      "preco": 18.99,
       "nome": "Metildopa 250mg 30 Comprimidos Revestidos Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/metildopa-250mg-com-30-comprimidos-generico-prati-donaduzzi/p",
       "disponivel": true
@@ -16244,7 +16370,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 30,
+      "preco": 28.99,
       "nome": "Metildopa 250mg 30 Comprimidos Revestidos Prati Donaduzzi",
       "url": "https://www.drogariavenancio.com.br/metildopa-250mg-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -16284,31 +16410,31 @@ const PRECOS_REDES = {
   },
   "med-00755": {
     "paguemenos": {
-      "preco": 35.99,
+      "preco": 33.99,
       "nome": "Folacin 5mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/folacin-5mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 35.99,
+      "preco": 33.99,
       "nome": "Folacin 5mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/folacin-5mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 9.36,
+      "preco": 9.26,
       "nome": "Neo Fólico Ácido Fólico 5mg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/neo-folico-5mg-elite-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.9,
+      "preco": 8.61,
       "nome": "Neo Fólico Ácido Fólico 5mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/neo-folico-5mg-elite-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.9,
+      "preco": 8.79,
       "nome": "Neo Fólico 5mg Neo Química 20 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/neo-folico-5mg-neo-quimica-20-comprimidos-revestidos/p",
       "disponivel": true
@@ -16316,33 +16442,33 @@ const PRECOS_REDES = {
   },
   "med-00555": {
     "paguemenos": {
-      "preco": 8.11,
-      "nome": "Metronidazol 250mg Com 20 Comprimidos Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/metronidazol-250mg-com-20-comprimidos-generico-neo-quimica/p",
+      "preco": 9.99,
+      "nome": "Metronidazol 250mg 20 Comprimidos Revestidos Genérico Prati-Donaduzzi",
+      "url": "https://www.paguemenos.com.br/metronidazol-250mg-com-20-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.11,
-      "nome": "Metronidazol 250mg Com 20 Comprimidos Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/metronidazol-250mg-com-20-comprimidos-generico-neo-quimica/p",
+      "preco": 9.99,
+      "nome": "Metronidazol 250mg 20 Comprimidos Revestidos Genérico Prati-Donaduzzi",
+      "url": "https://www.extrafarma.com.br/metronidazol-250mg-com-20-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 9.99,
-      "nome": "Metronidazol 250mg Genérico Prati  Donaduzzi  20 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/metronidazol-250mg-generico-prati-donaduzzi-20-comprimidos-revestidos/p",
+      "nome": "Metronidazol 250mg Genérico Neo Química 20 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/metronidazol-250mg-generico-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9.99,
-      "nome": "Metronidazol 250mg Genérico Prati  Donaduzzi  20 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/metronidazol-250mg-generico-prati-donaduzzi-20-comprimidos-revestidos/p",
+      "preco": 3.99,
+      "nome": "Metronidazol 250mg Genérico Neo Química 20 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/metronidazol-250mg-generico-20-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.27,
-      "nome": "Helmizol 250mg Teuto 20 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/helmizol-250mg-teuto-20-comprimidos/p",
+      "preco": 9.95,
+      "nome": "Metronidazol 250mg Prati Donaduzzi 20 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/metronidrazol-250mg-prati-donaduzzi-20-capsulas/p",
       "disponivel": true
     },
     "panvel": {
@@ -16354,15 +16480,15 @@ const PRECOS_REDES = {
   },
   "med-00574": {
     "paguemenos": {
-      "preco": 19.59,
-      "nome": "Metronidazol 100mg/g + Nistatina 20000UI/g Creme Vaginal 50g 10 Aplicadores Genérico Teuto",
-      "url": "https://www.paguemenos.com.br/metronidazol-mais-nistatina-100mg-creme-50g-generico-teuto/p",
+      "preco": 26.99,
+      "nome": "Metronidazol+nistatina Creme Vaginal 50g Genérico Prati-donaduzzi",
+      "url": "https://www.paguemenos.com.br/metronidazolmaisnistatina-creme-vaginal-50g-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.59,
-      "nome": "Metronidazol 100mg/g + Nistatina 20000UI/g Creme Vaginal 50g 10 Aplicadores Genérico Teuto",
-      "url": "https://www.extrafarma.com.br/metronidazol-mais-nistatina-100mg-creme-50g-generico-teuto/p",
+      "preco": 26.99,
+      "nome": "Metronidazol+nistatina Creme Vaginal 50g Genérico Prati-donaduzzi",
+      "url": "https://www.extrafarma.com.br/metronidazolmaisnistatina-creme-vaginal-50g-generico-prati-donaduzzi/p",
       "disponivel": true
     }
   },
@@ -16406,21 +16532,21 @@ const PRECOS_REDES = {
   },
   "med-00560": {
     "paguemenos": {
-      "preco": 36.74,
+      "preco": 52.49,
       "nome": "Mirtazapina 15mg 30 Comprimidos Genérico Globo",
       "url": "https://www.paguemenos.com.br/mirtazapina-15mg-30-comprimidos-generico-globo/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 36.74,
+      "preco": 52.49,
       "nome": "Mirtazapina 15mg 30 Comprimidos Genérico Globo",
       "url": "https://www.extrafarma.com.br/mirtazapina-15mg-30-comprimidos-generico-globo/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 103.99,
-      "nome": "Mirtazapina 45mg Genérico Prati-Dunaduzzi 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/mirtazapina-45mg-generico-prati-dunaduzzi-30-comprimidos/p",
+      "preco": 83.24,
+      "nome": "Mirtazapina 30mg Genérico Torrent Pharma 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/mirtazapina-30mg-generico-torrent-pharma-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -16430,7 +16556,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 49.49,
+      "preco": 47.89,
       "nome": "Mirtazapina Odt 15mg 30 Comprimidos Medley Genérico",
       "url": "https://www.drogariavenancio.com.br/mirtazapina-odt-15mg-30-comprimidos-medley-generico/p",
       "disponivel": true
@@ -16444,25 +16570,25 @@ const PRECOS_REDES = {
   },
   "med-00561": {
     "paguemenos": {
-      "preco": 8.99,
-      "nome": "Mononitrato de Isossorbida 20mg 30 Comprimidos Genérico Zydus",
-      "url": "https://www.paguemenos.com.br/mononitrato-de-isossorbida-20mg-com-30-comprimidos-generico-zydus/p",
+      "preco": 6.79,
+      "nome": "Mononitrato de Isossorbida 40mg 20 Comprimidos Genérico Zydus",
+      "url": "https://www.paguemenos.com.br/mononitrato-de-isossorbida-40mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.99,
-      "nome": "Mononitrato de Isossorbida 20mg 30 Comprimidos Genérico Zydus",
-      "url": "https://www.extrafarma.com.br/mononitrato-de-isossorbida-20mg-com-30-comprimidos-generico-zydus/p",
+      "preco": 6.79,
+      "nome": "Mononitrato de Isossorbida 40mg 20 Comprimidos Genérico Zydus",
+      "url": "https://www.extrafarma.com.br/mononitrato-de-isossorbida-40mg-com-20-comprimidos-generico-zydus/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 9.01,
+      "preco": 9.91,
       "nome": "Mononitrato De Isossorbida 20mg Genérico Biosintética 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/mononitrato-de-isossorbida-20mg-generico-biosintetica-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.99,
+      "preco": 9.89,
       "nome": "Mononitrato De Isossorbida 20mg Genérico Biosintética 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/mononitrato-de-isossorbida-20mg-generico-biosintetica-20-comprimidos/p",
       "disponivel": true
@@ -16482,27 +16608,27 @@ const PRECOS_REDES = {
   },
   "med-00562": {
     "paguemenos": {
-      "preco": 28.99,
+      "preco": 29.29,
       "nome": "Montelucaste de Sódio 10mg 10 Comprimidos Revestidos Genérico Achê",
       "url": "https://www.paguemenos.com.br/montelucaste-de-sodio-10mg-com-10-comprimidos-generico-biossintetica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 28.99,
+      "preco": 29.29,
       "nome": "Montelucaste de Sódio 10mg 10 Comprimidos Revestidos Genérico Achê",
       "url": "https://www.extrafarma.com.br/montelucaste-de-sodio-10mg-com-10-comprimidos-generico-biossintetica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 66.62,
-      "nome": "Montelucaste de Sódio 4mg Genérico Eurofarma 30 Envelopes",
-      "url": "https://www.drogariasaopaulo.com.br/montelucaste-de-sodio-4mg-generico-euro-farma-30-envelopes/p",
+      "preco": 56.09,
+      "nome": "Montelucaste De Sódio 10mg Genérico Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/montelucaste-de-sodio-10mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 53.49,
-      "nome": "Levolukast Montelucaste de Sódio 10mg + Dicloridrato de Levocetirizina 5mg 7 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/levolukast-glenmark-7-comprimidos-revestidos/p",
+      "preco": 41.35,
+      "nome": "Montelucaste De Sódio 10mg Genérico Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/montelucaste-de-sodio-10mg-generico-eurofarma-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -16520,13 +16646,13 @@ const PRECOS_REDES = {
   },
   "med-00564": {
     "paguemenos": {
-      "preco": 26.99,
+      "preco": 34.99,
       "nome": "Mupirocina 20mg/g Pomada 15g Genérico Prati-Donaduzzi",
       "url": "https://www.paguemenos.com.br/mupirocina-20mg-pomada-generico-prati-donaduzzimais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 26.99,
+      "preco": 34.99,
       "nome": "Mupirocina 20mg/g Pomada 15g Genérico Prati-Donaduzzi",
       "url": "https://www.extrafarma.com.br/mupirocina-20mg-pomada-generico-prati-donaduzzimais/p",
       "disponivel": true
@@ -16538,10 +16664,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 27.89,
-      "nome": "Mupirocina 20mg/g Genérico Prati Donaduzzi 15g Pomada Dermatológica",
-      "url": "https://www.drogariaspacheco.com.br/mupirocina-20mgg-15g-generico-prati-donaduzzi-pomada-dermatologica/p",
-      "disponivel": true
+      "preco": 32.94,
+      "nome": "Mupirocina 20mg/g Genérico Eurofarma 15g Pomada",
+      "url": "https://www.drogariaspacheco.com.br/mupirocina-creme-20mg-g-generico-eurofarma-15g/p",
+      "disponivel": false
     },
     "venancio": {
       "preco": 43.49,
@@ -16558,13 +16684,13 @@ const PRECOS_REDES = {
   },
   "med-00566": {
     "paguemenos": {
-      "preco": 13.29,
+      "preco": 5.19,
       "nome": "Naproxeno Sódico 550mg 10 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.paguemenos.com.br/naproxeno-sodico-550mg-com-10-comprimidos-revestidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.29,
+      "preco": 5.19,
       "nome": "Naproxeno Sódico 550mg 10 Comprimidos Revestidos Genérico Germed",
       "url": "https://www.extrafarma.com.br/naproxeno-sodico-550mg-com-10-comprimidos-revestidos-generico-germed/p",
       "disponivel": true
@@ -16584,13 +16710,13 @@ const PRECOS_REDES = {
   },
   "med-00565": {
     "paguemenos": {
-      "preco": 15.59,
+      "preco": 16.49,
       "nome": "Naproxeno 500mg 10 Comprimidos Genérico Teuto",
       "url": "https://www.paguemenos.com.br/naproxeno-500mg-com-10-comprimidos-generico-teuto/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.59,
+      "preco": 16.49,
       "nome": "Naproxeno 500mg 10 Comprimidos Genérico Teuto",
       "url": "https://www.extrafarma.com.br/naproxeno-500mg-com-10-comprimidos-generico-teuto/p",
       "disponivel": true
@@ -16622,7 +16748,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 85.39,
+      "preco": 84.99,
       "nome": "NiQuitin Adesivo 7mg 7 Adesivos De Nicotina",
       "url": "https://www.drogariavenancio.com.br/niquitin-adesivo-7mg-7-adesivos-de-nicotina/p",
       "disponivel": true
@@ -16636,25 +16762,25 @@ const PRECOS_REDES = {
   },
   "med-00568": {
     "paguemenos": {
-      "preco": 19.59,
-      "nome": "Neo Fedipina 10mg 30 Comprimidos",
-      "url": "https://www.paguemenos.com.br/neo-fedipina-10mg-com-30-comprimidos/p",
+      "preco": 19.49,
+      "nome": "Nifedipress 20mg 30 Comprimidos Revestidos de Liberação Retardada",
+      "url": "https://www.paguemenos.com.br/nifedipress-retard-20mg-comprimidos30/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.59,
-      "nome": "Neo Fedipina 10mg 30 Comprimidos",
-      "url": "https://www.extrafarma.com.br/neo-fedipina-10mg-com-30-comprimidos/p",
+      "preco": 19.49,
+      "nome": "Nifedipress 20mg 30 Comprimidos Revestidos de Liberação Retardada",
+      "url": "https://www.extrafarma.com.br/nifedipress-retard-20mg-comprimidos30/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 23.45,
+      "preco": 23.12,
       "nome": "Nifedipress Nifedipino 20mg  30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/nifedipress-20mg-30-comprimidos-medquimica/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 14.49,
+      "preco": 14,
       "nome": "Nifedipress Nifedipino 20mg  30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nifedipress-20mg-30-comprimidos-medquimica/p",
       "disponivel": true
@@ -16674,16 +16800,16 @@ const PRECOS_REDES = {
   },
   "med-00569": {
     "paguemenos": {
-      "preco": 7.19,
-      "nome": "Gn Nimesulida 100mg 12cp Legran",
-      "url": "https://www.paguemenos.com.br/gn-nimesulida-100mg-12cp-legran/p",
-      "disponivel": false
+      "preco": 5.99,
+      "nome": "Nimesulida 100mg 12 Comprimidos Genérico Globo",
+      "url": "https://www.paguemenos.com.br/nimesulida-100mg-12-comprimidos-globo-generico/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.19,
-      "nome": "Gn Nimesulida 100mg 12cp Legran",
-      "url": "https://www.extrafarma.com.br/gn-nimesulida-100mg-12cp-legran/p",
-      "disponivel": false
+      "preco": 5.99,
+      "nome": "Nimesulida 100mg 12 Comprimidos Genérico Globo",
+      "url": "https://www.extrafarma.com.br/nimesulida-100mg-12-comprimidos-globo-generico/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 3.99,
@@ -16698,9 +16824,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 4.39,
-      "nome": "Nimesulida 100mg 12 comprimidos Cimed",
-      "url": "https://www.drogariavenancio.com.br/nimesulida-100mg-24cpr-g-cimed/p",
+      "preco": 2.49,
+      "nome": "Nimesulida 100mg 12 Comprimidos Globo Pharma",
+      "url": "https://www.drogariavenancio.com.br/nimesulida-100mg-12-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -16724,15 +16850,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 37.99,
-      "nome": "Nimus Beta Nimesulida Betaciclodextrina 400mg 10 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/nimus-beta-400mg-eurofarma-10-comprimidos-revestidos/p",
+      "preco": 27.99,
+      "nome": "Nimesulida Betaciclodextrina 400mg Genérico Biolab 10 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/nimesulida-betaciclodextrina-400mg-generico-biolab-10-comprimidos/p",
       "disponivel": false
     },
     "pacheco": {
-      "preco": 43.74,
-      "nome": "Nimus Beta Nimesulida Betaciclodextrina 400mg 10 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/nimus-beta-400mg-eurofarma-10-comprimidos-revestidos/p",
+      "preco": 27.99,
+      "nome": "Nimesulida Betaciclodextrina 400mg Genérico Biolab 10 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/nimesulida-betaciclodextrina-400mg-generico-biolab-10-comprimidos/p",
       "disponivel": false
     },
     "venancio": {
@@ -16750,33 +16876,33 @@ const PRECOS_REDES = {
   },
   "med-00572": {
     "paguemenos": {
-      "preco": 15.49,
-      "nome": "Nistatina 25000UI/g Creme Vaginal 60g 14 Aplicadores Genérico Prati-Donaduzzi",
-      "url": "https://www.paguemenos.com.br/gn-nistat-25-000ui-prati/p",
-      "disponivel": true
+      "preco": 15.89,
+      "nome": "Nistatina Creme Vaginal 60g Genérico Greenpharma",
+      "url": "https://www.paguemenos.com.br/nistatina-creme-vaginal-60g-generico-greenpharma/p",
+      "disponivel": false
     },
     "extrafarma": {
-      "preco": 15.49,
-      "nome": "Nistatina 25000UI/g Creme Vaginal 60g 14 Aplicadores Genérico Prati-Donaduzzi",
-      "url": "https://www.extrafarma.com.br/gn-nistat-25-000ui-prati/p",
-      "disponivel": true
+      "preco": 15.89,
+      "nome": "Nistatina Creme Vaginal 60g Genérico Greenpharma",
+      "url": "https://www.extrafarma.com.br/nistatina-creme-vaginal-60g-generico-greenpharma/p",
+      "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 15.99,
-      "nome": "Nistatina 100.000UI/g Genérico Neo Química 60g Creme Vaginal + 14 Aplicadores",
-      "url": "https://www.drogariasaopaulo.com.br/nistatina-creme-vaginal-25000ui-g-generico-neo-quimica-60g-14-aplicadores/p",
+      "preco": 17.53,
+      "nome": "Nistatina 25.000UI/g Genérico Medley 60g 1 Bisnaga Creme Vaginal + 14 Aplicadores",
+      "url": "https://www.drogariasaopaulo.com.br/nistatina-creme-vaginal-60g-com-14-aplicacoes-medley/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.99,
+      "preco": 17.59,
       "nome": "Nistatina 100.000UI/g Genérico Neo Química 60g Creme Vaginal + 14 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/nistatina-creme-vaginal-25000ui-g-generico-hypermarcas-60g-14-aplicadores/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 11.17,
-      "nome": "Nistatina 1000.000UI/ml Teuto Suspensão Oral 50ml",
-      "url": "https://www.drogariavenancio.com.br/nistatina-100000ui-ml-sus-or-50ml--g--teuto/p",
+      "preco": 10.26,
+      "nome": "Nistatina Suspensão Oral Teuto 100.000UI/ml 1 Frasco 50mL de Suspensão de Uso Oral",
+      "url": "https://www.drogariavenancio.com.br/nistatina-suspensao-oral-teuto-100-000ui-ml-1-frasco-50ml-de-suspensao-de-uso-oral/p",
       "disponivel": true
     },
     "panvel": {
@@ -16800,7 +16926,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 19.29,
+      "preco": 32.57,
       "nome": "Nistatina + Oxido De Zinco Cimed Pomada 60g",
       "url": "https://www.drogariasaopaulo.com.br/nistatina-oxido-de-zinco-cimed-pomada--60gr-cimed/p",
       "disponivel": true
@@ -16828,33 +16954,33 @@ const PRECOS_REDES = {
   },
   "med-00577": {
     "paguemenos": {
-      "preco": 16.59,
+      "preco": 12.39,
       "nome": "Nitazoxanida 20mg/ml Pó para Suspensão Oral 45ml + Seringa Dosadora Genérico Germed",
       "url": "https://www.paguemenos.com.br/nitazoxanida-20mg-ml-po-para-suspensao-oral-frasco-com-45ml-mais-seringa-dosadora/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.59,
+      "preco": 12.39,
       "nome": "Nitazoxanida 20mg/ml Pó para Suspensão Oral 45ml + Seringa Dosadora Genérico Germed",
       "url": "https://www.extrafarma.com.br/nitazoxanida-20mg-ml-po-para-suspensao-oral-frasco-com-45ml-mais-seringa-dosadora/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 16.59,
+      "preco": 18.25,
       "nome": "Nitazoxanida 20mg/Ml Genérico Althaia 45ml Pó Suspensão Oral",
       "url": "https://www.drogariasaopaulo.com.br/nitazoxanida-20mg-ml-generico-althaia-45ml-po-suspensao-oral/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.59,
+      "preco": 22.65,
       "nome": "Nitazoxanida 20mg/ml Genérico EMS 45ml",
       "url": "https://www.drogariaspacheco.com.br/nitazoxanida-20mgml-generico-ems-45ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 16.56,
-      "nome": "Nitazoxanida 20mg/ml EMS Pó para Suspensão Oral 45ml",
-      "url": "https://www.drogariavenancio.com.br/nitazoxanida-20mgml-1-seringa-45ml/p",
+      "preco": 16.99,
+      "nome": "Nitazoxanida 20mg/ml Althaia Suspensão Oral 45ml",
+      "url": "https://www.drogariavenancio.com.br/nitazoxanida-20mg-ml-althaia-suspensao-oral-45ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -16904,27 +17030,27 @@ const PRECOS_REDES = {
   },
   "med-00580": {
     "paguemenos": {
-      "preco": 36.99,
+      "preco": 33.79,
       "nome": "Nitrato de Fenticonazol 0,02g/g Creme Vaginal 40g 7 Aplicadores Genérico Eurofarma",
       "url": "https://www.paguemenos.com.br/nitrato-de-fenticonazol-creme-vaginal-com-7-aplicadores-40g-genericos-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 36.99,
+      "preco": 33.79,
       "nome": "Nitrato de Fenticonazol 0,02g/g Creme Vaginal 40g 7 Aplicadores Genérico Eurofarma",
       "url": "https://www.extrafarma.com.br/nitrato-de-fenticonazol-creme-vaginal-com-7-aplicadores-40g-genericos-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 36.99,
+      "preco": 40.69,
       "nome": "Nitrato de Fenticonazol 0,02g/g Genérico Eurofarma 40g Creme Vaginal + 7 Aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/nitrato-de-fenticonazol-generico-eurofarma-40mg-7-aplicadores/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.99,
-      "nome": "Nitrato de Fenticonazol 0,02g/g Genérico Eurofarma 40g Creme Vaginal + 7 Aplicadores",
-      "url": "https://www.drogariaspacheco.com.br/nitrato-de-fenticonazol-generico-eurofarma-40mg-7-aplicadores/p",
+      "preco": 38.21,
+      "nome": "Fentizol Nitrato De Fenticonazol 2g 20g Creme Dermatológico",
+      "url": "https://www.drogariaspacheco.com.br/fentizol-20gr-ache-creme-dermatologico/p",
       "disponivel": true
     },
     "venancio": {
@@ -16942,13 +17068,13 @@ const PRECOS_REDES = {
   },
   "med-00581": {
     "paguemenos": {
-      "preco": 49.99,
+      "preco": 43.59,
       "nome": "Icaden 10mg/g Creme 20g",
       "url": "https://www.paguemenos.com.br/icaden-creme-20g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 49.99,
+      "preco": 43.59,
       "nome": "Icaden 10mg/g Creme 20g",
       "url": "https://www.extrafarma.com.br/icaden-creme-20g/p",
       "disponivel": true
@@ -16980,25 +17106,25 @@ const PRECOS_REDES = {
   },
   "med-00582": {
     "paguemenos": {
-      "preco": 14.69,
+      "preco": 15.29,
       "nome": "Nitrato de Miconazol Creme 28g Cimed Genérico",
       "url": "https://www.paguemenos.com.br/nitrato-de-miconazol-creme-28g-generico-cimed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 14.69,
+      "preco": 15.29,
       "nome": "Nitrato de Miconazol Creme 28g Cimed Genérico",
       "url": "https://www.extrafarma.com.br/nitrato-de-miconazol-creme-28g-generico-cimed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 14.54,
+      "preco": 10.19,
       "nome": "Nitrato De Miconazol 20mg/g Genérico Cimed 28g Creme Dermatológico",
       "url": "https://www.drogariasaopaulo.com.br/nitrato-de-miconazol-20mg-g-generico-cimed-28g-creme-dermatologico/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8,
+      "preco": 10.19,
       "nome": "Nitrato De Miconazol 20mg/g Genérico Cimed 28g Creme Dermatológico",
       "url": "https://www.drogariaspacheco.com.br/nitrato-de-miconazol-20mg-g-generico-cimed-28g-creme-dermatologico/p",
       "disponivel": true
@@ -17018,31 +17144,31 @@ const PRECOS_REDES = {
   },
   "med-00583": {
     "paguemenos": {
-      "preco": 22.99,
+      "preco": 25.29,
       "nome": "Tinidazol 30mg/g + Nitrato de Miconazol 20mg/g Creme Vaginal 40g 7 Aplicadores Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/tinidazolmaisnitrato-de-miconazol-creme-vaginal-40g-com-7-aplicadores-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.99,
+      "preco": 25.29,
       "nome": "Tinidazol 30mg/g + Nitrato de Miconazol 20mg/g Creme Vaginal 40g 7 Aplicadores Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/tinidazolmaisnitrato-de-miconazol-creme-vaginal-40g-com-7-aplicadores-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 43.36,
+      "preco": 42.06,
       "nome": "Amplium G Tinidazol 30mg/g + Nitrato de Miconazol 20mg/g 40g Creme Vaginal + 7 Aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/amplium-g-creme-vaginal-40g-com-7-aplicadores-hypermarcas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.59,
+      "preco": 35.86,
       "nome": "Amplium G Tinidazol 30mg/g + Nitrato de Miconazol 20mg/g 40g Creme Vaginal + 7 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/amplium-g-creme-vaginal-40g-com-7-aplicadores-hypermarcas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 28.27,
+      "preco": 25.99,
       "nome": "Tinidazol + Nitrato de Miconazol 30mg/g + 20mg/g Neo Quimica Creme Vaginal 20g + 7 Aplicadores",
       "url": "https://www.drogariavenancio.com.br/tinidazol---nitrato-de-miconazol-30mg-g---20mg-g-neo-quimica-creme-vaginal-20g---7-aplicadores/p",
       "disponivel": true
@@ -17076,25 +17202,25 @@ const PRECOS_REDES = {
   },
   "med-00586": {
     "paguemenos": {
-      "preco": 11.69,
+      "preco": 11.99,
       "nome": "Nitrazepam 5mg 20 Comprimidos Genérico Germed",
       "url": "https://www.paguemenos.com.br/nitrazepam-5mg-com-20-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.69,
+      "preco": 11.99,
       "nome": "Nitrazepam 5mg 20 Comprimidos Genérico Germed",
       "url": "https://www.extrafarma.com.br/nitrazepam-5mg-com-20-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 16.83,
+      "preco": 16.65,
       "nome": "Sonebon Nitrazepam 5mg 20 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/sonebon-natures-plus-20-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17,
+      "preco": 16.65,
       "nome": "Sonebon Nitrazepam 5mg 20 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/sonebon-natures-plus-20-comprimidos/p",
       "disponivel": true
@@ -17114,13 +17240,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 29.59,
+      "preco": 32.55,
       "nome": "Nitrendipino 10mg Genérico Biosintética 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/nitrendipino-10mg-generico-biosinteti-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.59,
+      "preco": 32.55,
       "nome": "Nitrendipino 10mg Genérico Biosintética 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nitrendipino-10mg-generico-biosinteti-30-comprimidos/p",
       "disponivel": true
@@ -17129,7 +17255,7 @@ const PRECOS_REDES = {
       "preco": 24.99,
       "nome": "Nitrendipino 10mg Aché 30 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/nitrendipino-10mg-30cpr-g-biosintetica/p",
-      "disponivel": true
+      "disponivel": false
     },
     "panvel": {
       "preco": 33.99,
@@ -17158,13 +17284,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.65,
+      "preco": 8.99,
       "nome": "Nitrofurantoína 100mg Genérico Teuto 28 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/nitrofurantoina-100mg-teuto-28-capsulas-generico/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.56,
+      "preco": 14.99,
       "nome": "Macrodantina 100mg Com 28 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/macrodantina-100mg-com-28-capsulas/p",
       "disponivel": true
@@ -17190,13 +17316,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 9.19,
+      "preco": 10.11,
       "nome": "Noretisterona 0,35mg Genérico Biolab 35 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/noretisterona-0-35mg-generico-biolab-35-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9.19,
+      "preco": 10.55,
       "nome": "Noretisterona 0,35mg Genérico Biolab 35 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/noretisterona-0-35mg-generico-biolab-35-comprimidos/p",
       "disponivel": true
@@ -17216,13 +17342,13 @@ const PRECOS_REDES = {
   },
   "med-00590": {
     "paguemenos": {
-      "preco": 8.95,
+      "preco": 12.79,
       "nome": "Norfloxacino 400mg 6 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/norfloxacino-400mg-comprimidos6-generico-medleydley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 8.95,
+      "preco": 12.79,
       "nome": "Norfloxacino 400mg 6 Comprimidos Revestidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/norfloxacino-400mg-comprimidos6-generico-medleydley/p",
       "disponivel": true
@@ -17234,10 +17360,10 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 10.32,
-      "nome": "Norfloxacino 400mg Genérico União Química 6 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/norfloxacino-400mg-generico-uniao-quimica-6-comprimidos/p",
-      "disponivel": false
+      "preco": 1.99,
+      "nome": "Norfloxacino 400mg Genérico Cimed 14 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/norfloxacino-400mg-generico-cimed-14-comprimidos/p",
+      "disponivel": true
     },
     "venancio": {
       "preco": 20.99,
@@ -17274,31 +17400,31 @@ const PRECOS_REDES = {
   },
   "med-00592": {
     "paguemenos": {
-      "preco": 25.05,
-      "nome": "Olanzapina 2,5mg 30 Comprimidos Revestidos Genérico Biolab",
-      "url": "https://www.paguemenos.com.br/olanzapina-2-5mg-com-30-comprimidos-generico-biolab/p",
+      "preco": 18.49,
+      "nome": "Olanzapina 5mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.paguemenos.com.br/olanzapina-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.05,
-      "nome": "Olanzapina 2,5mg 30 Comprimidos Revestidos Genérico Biolab",
-      "url": "https://www.extrafarma.com.br/olanzapina-2-5mg-com-30-comprimidos-generico-biolab/p",
+      "preco": 18.49,
+      "nome": "Olanzapina 5mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.extrafarma.com.br/olanzapina-5mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 36.59,
+      "preco": 28.59,
       "nome": "Olanzapina 5mg Genérico Prati-Donaduzzi 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/olanzapina-5mg-generico-prati-donaduzzi-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 53.99,
+      "preco": 14.99,
       "nome": "Olanzapina 5mg Genérico Biolab 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/olanzapina-5mg-generico-biolab-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 20.14,
+      "preco": 25.99,
       "nome": "Olanzapina 2,5mg Aché 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/olanzapina-25mg-ache-30-comprimidos/p",
       "disponivel": true
@@ -17312,21 +17438,21 @@ const PRECOS_REDES = {
   },
   "med-00594": {
     "paguemenos": {
-      "preco": 11.49,
-      "nome": "Omeprazol 20mg 7 Cápsulas Duras de Liberação Retardada Genérico Medley",
-      "url": "https://www.paguemenos.com.br/omeprazol-20mg-com-7-capsulas-generico-medley/p",
+      "preco": 8.89,
+      "nome": "Omeprazol 20mg 56 Cápsulas Genérico Geolab",
+      "url": "https://www.paguemenos.com.br/omeprazol-20mg-56-capsulas-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.49,
-      "nome": "Omeprazol 20mg 7 Cápsulas Duras de Liberação Retardada Genérico Medley",
-      "url": "https://www.extrafarma.com.br/omeprazol-20mg-com-7-capsulas-generico-medley/p",
+      "preco": 8.89,
+      "nome": "Omeprazol 20mg 56 Cápsulas Genérico Geolab",
+      "url": "https://www.extrafarma.com.br/omeprazol-20mg-56-capsulas-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 15.19,
-      "nome": "Novoprazol Omeprazol 20mg 28 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/novoprazol-20mg-bonifik-28-comprimidos/p",
+      "preco": 8.27,
+      "nome": "Eupept Omeprazol 20mg 30 Cápsulas",
+      "url": "https://www.drogariasaopaulo.com.br/eupept-20mg-cifarma-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
@@ -17336,9 +17462,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.19,
-      "nome": "Omeprazol 20mg Medley 7 Cápsulas",
-      "url": "https://www.drogariavenancio.com.br/omeprazol-20mg-medley-7-capsulas/p",
+      "preco": 7.99,
+      "nome": "Omeprazol 20mg Geolab 28 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/omeprazol-20mg-geolab-28-capsulas-/p",
       "disponivel": true
     },
     "panvel": {
@@ -17350,25 +17476,25 @@ const PRECOS_REDES = {
   },
   "med-00595": {
     "paguemenos": {
-      "preco": 102.99,
+      "preco": 87.99,
       "nome": "Ondansetrona 8mg 30 Comprimidos Orodispersíveis Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/ondansetrona-8mg-30-comprimidos-orodispersiveis-generico-ranbaxy/p",
-      "disponivel": false
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 102.99,
+      "preco": 87.99,
       "nome": "Ondansetrona 8mg 30 Comprimidos Orodispersíveis Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/ondansetrona-8mg-30-comprimidos-orodispersiveis-generico-ranbaxy/p",
-      "disponivel": false
+      "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 21.88,
+      "preco": 24.08,
       "nome": "Ondansetrona 4mg Genérico Biolab 10 Comprimidos de Desintegração Oral",
       "url": "https://www.drogariasaopaulo.com.br/ondansetrona-4mg-generico-biolab-10-comprimidos-de-desintegracao-oral/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.59,
+      "preco": 19.35,
       "nome": "Ondansetrona 4mg Genérico Biolab 10 Comprimidos de Desintegração Oral",
       "url": "https://www.drogariaspacheco.com.br/ondansetrona-4mg-generico-biolab-10-comprimidos-de-desintegracao-oral/p",
       "disponivel": true
@@ -17382,27 +17508,27 @@ const PRECOS_REDES = {
   },
   "med-00597": {
     "paguemenos": {
-      "preco": 61.79,
-      "nome": "Orlistate 120mg Neo Química 42 Cápsulas Genérico",
-      "url": "https://www.paguemenos.com.br/orlistate-120mg-com-42-capsulas-generico-neo-quimica/p",
+      "preco": 72.49,
+      "nome": "Orlistate 120mg 21 Cápsulas Duras Genérico Prati-Donaduzzi",
+      "url": "https://www.paguemenos.com.br/orlistate-120mg-com-21-capsulas-generico-prati-donaduzzi/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 61.79,
-      "nome": "Orlistate 120mg Neo Química 42 Cápsulas Genérico",
-      "url": "https://www.extrafarma.com.br/orlistate-120mg-com-42-capsulas-generico-neo-quimica/p",
+      "preco": 72.49,
+      "nome": "Orlistate 120mg 21 Cápsulas Duras Genérico Prati-Donaduzzi",
+      "url": "https://www.extrafarma.com.br/orlistate-120mg-com-21-capsulas-generico-prati-donaduzzi/p",
       "disponivel": true
     }
   },
   "med-00596": {
     "paguemenos": {
-      "preco": 73.99,
+      "preco": 74.49,
       "nome": "Orlistate 120mg Com 30 Cápsulas Genérico Neoquimica",
       "url": "https://www.paguemenos.com.br/orlistate-120mg-com-30-capsulas-generico-neoquimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 73.99,
+      "preco": 74.49,
       "nome": "Orlistate 120mg Com 30 Cápsulas Genérico Neoquimica",
       "url": "https://www.extrafarma.com.br/orlistate-120mg-com-30-capsulas-generico-neoquimica/p",
       "disponivel": true
@@ -17414,15 +17540,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.99,
+      "preco": 54.99,
       "nome": "Orlistate 120mg Genérico Prati-Donaduzzi 21 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/orlistate-120mg-generico-prati-donaduzzi-21-capsulas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 77.99,
-      "nome": "Orlistate 120mg Ems 42 Cápsulas",
-      "url": "https://www.drogariavenancio.com.br/orlistate-120mg-ems-42-capsulas/p",
+      "preco": 75.99,
+      "nome": "Orlistate 120mg Neo Química 30 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/orlistate-120mg-neo-quimica-30-capsulas/p",
       "disponivel": true
     },
     "panvel": {
@@ -17434,13 +17560,13 @@ const PRECOS_REDES = {
   },
   "med-00598": {
     "paguemenos": {
-      "preco": 17.35,
+      "preco": 16.29,
       "nome": "Oxalato de Escitalopram 20mg 30 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.paguemenos.com.br/oxalato-de-escitalopram-20mg-com-30-comprimidos-generico-ache-psicotropico/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 17.35,
+      "preco": 16.29,
       "nome": "Oxalato de Escitalopram 20mg 30 Comprimidos Revestidos Genérico Aché",
       "url": "https://www.extrafarma.com.br/oxalato-de-escitalopram-20mg-com-30-comprimidos-generico-ache-psicotropico/p",
       "disponivel": true
@@ -17452,15 +17578,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 103.99,
+      "preco": 101.91,
       "nome": "Escena Oxalato De Escitalopram 20mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/escena-20mg-cristalia-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 15.99,
-      "nome": "Oxalato De Escitalopram 10mg Com 30 Comprimidos Medley",
-      "url": "https://www.drogariavenancio.com.br/oxalato-de-escitalopram-10mg-com-30-comprimidos/p",
+      "preco": 18.99,
+      "nome": "Oxalato De Escitalopram 10mg Eurofarma 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/oxal-escitalopram-10mg-30cpr-g--c1-eurofarma/p",
       "disponivel": true
     },
     "panvel": {
@@ -17472,31 +17598,31 @@ const PRECOS_REDES = {
   },
   "med-00599": {
     "paguemenos": {
-      "preco": 15.11,
+      "preco": 23.59,
       "nome": "Oxcarbazepina 300mg Com 30 Comprimidos Genérico Ranbaxy",
       "url": "https://www.paguemenos.com.br/oxcarbazepina-300mg-com-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.11,
+      "preco": 23.59,
       "nome": "Oxcarbazepina 300mg Com 30 Comprimidos Genérico Ranbaxy",
       "url": "https://www.extrafarma.com.br/oxcarbazepina-300mg-com-30-comprimidos-generico-ranbaxy/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 28.59,
-      "nome": "Oxcarbazepina 300mg Genérico Medley 30 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/oxcarbazepina-300mg-generico-medley-30-comprimidos-revestidos/p",
+      "preco": 27.59,
+      "nome": "Oxcarbazepina 300mg Genérico Ranbaxy 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/oxcarbazepina-300mg-generico-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 68.59,
-      "nome": "Oxcarbazepina 600mg Genérico Medley 30 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/oxcarbazepina-600mg-generico-medley-30-comprimidos-revestidos/p",
+      "preco": 34.9,
+      "nome": "Oxcarbazepina 300mg Genérico Sanofi 60 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/oxcarbazepina-300mg-generico-sanofi-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 44.29,
+      "preco": 36.99,
       "nome": "Oxcarbazepina 300mg 30 Comprimidos Revestidos Medley Genérico",
       "url": "https://www.drogariavenancio.com.br/oxcarbazepina-300mg-30-comprimidos-revestidos-medley-generico/p",
       "disponivel": true
@@ -17534,7 +17660,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 1384.28,
+      "preco": 1437.03,
       "nome": "Vegapali 100mg/ml Suspensão Injetável de Liberação Prolongada Seringa Preenchida 0,50ml + 2 Agulhas",
       "url": "https://www.drogariavenancio.com.br/vegapali-100mg-ml-1sering-075ml--2agulhas--c1-/p",
       "disponivel": false
@@ -17566,7 +17692,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 64.19,
+      "preco": 62.91,
       "nome": "Divena Pantoprazol Magnésico 40mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/divena-40mg-ache-30-comprimidos/p",
       "disponivel": true
@@ -17586,25 +17712,25 @@ const PRECOS_REDES = {
   },
   "med-00603": {
     "paguemenos": {
-      "preco": 57.49,
+      "preco": 57.99,
       "nome": "Restitue 40mg 30 Comprimidos Revestidos de Liberação Retardada",
       "url": "https://www.paguemenos.com.br/restitue-40mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 57.49,
+      "preco": 57.99,
       "nome": "Restitue 40mg 30 Comprimidos Revestidos de Liberação Retardada",
       "url": "https://www.extrafarma.com.br/restitue-40mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 57.71,
+      "preco": 58.29,
       "nome": "Restitue Pantoprazol 40mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/restitue-40mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 61.28,
+      "preco": 58.29,
       "nome": "Restitue Pantoprazol 40mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/restitue-40mg-ems-30-comprimidos/p",
       "disponivel": true
@@ -17662,7 +17788,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 73.39,
+      "preco": 69.49,
       "nome": "Pasalix PI 500mg Marjan 20 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/pasalix-pi-500mg-20com/p",
       "disponivel": true
@@ -17676,31 +17802,31 @@ const PRECOS_REDES = {
   },
   "med-00613": {
     "paguemenos": {
-      "preco": 79.49,
+      "preco": 70.49,
       "nome": "Acertil 5mg 30 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/acertil-5mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 79.49,
+      "preco": 70.49,
       "nome": "Acertil 5mg 30 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/acertil-5mg-com-30-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 81.17,
+      "preco": 71.53,
       "nome": "Acertil Perindopril Arginina 5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/acertil-5mg-servier-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 78,
+      "preco": 71.53,
       "nome": "Acertil Perindopril Arginina 5mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/acertil-5mg-servier-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 78,
+      "preco": 76.49,
       "nome": "Acertil 5mg Servier 30 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/acertil-5mg-servier-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -17790,7 +17916,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 45.39,
+      "preco": 44.48,
       "nome": "Picoprep Picossulfato de Sódio 10mg + Óxido de Magnésio 3,5g + Ácido Cítrico 12g 2 Sachês",
       "url": "https://www.drogariaspacheco.com.br/picoprep-ferring-2-saches/p",
       "disponivel": true
@@ -17810,25 +17936,25 @@ const PRECOS_REDES = {
   },
   "med-00618": {
     "paguemenos": {
-      "preco": 10.99,
-      "nome": "Piroxicam 20mg 15 Cápsulas Duras Genérico EMS",
-      "url": "https://www.paguemenos.com.br/piroxicam-20mg-com-15-capsulas-generico-ems/p",
+      "preco": 10.89,
+      "nome": "Piroxicam 20mg 10 Cápsulas Duras Genérico Neo Química",
+      "url": "https://www.paguemenos.com.br/piroxicam-20mg-com-10-capsulas-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.99,
-      "nome": "Piroxicam 20mg 15 Cápsulas Duras Genérico EMS",
-      "url": "https://www.extrafarma.com.br/piroxicam-20mg-com-15-capsulas-generico-ems/p",
+      "preco": 10.89,
+      "nome": "Piroxicam 20mg 10 Cápsulas Duras Genérico Neo Química",
+      "url": "https://www.extrafarma.com.br/piroxicam-20mg-com-10-capsulas-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 13.99,
+      "preco": 15.39,
       "nome": "Piroxicam 20mg Genérico Germed 15 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/piroxicam-20mg-15-capsulas-g-natures-plus/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 13.99,
+      "preco": 15.39,
       "nome": "Piroxicam 20mg Genérico Germed 10 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/piroxicam-20mg-10-capsulas-g-natures-plus/p",
       "disponivel": true
@@ -17862,19 +17988,19 @@ const PRECOS_REDES = {
   },
   "med-00620": {
     "paguemenos": {
-      "preco": 69.99,
+      "preco": 71.49,
       "nome": "Pitavastatina Calcica 2mg 30 Comprimidos Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/pitavastatina-calcica-2mg-30-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 69.99,
+      "preco": 71.49,
       "nome": "Pitavastatina Calcica 2mg 30 Comprimidos Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/pitavastatina-calcica-2mg-30-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 83.99,
+      "preco": 81.39,
       "nome": "Pitavastatina Cálcica 2mg Genérico Biolab 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/pitavastatina-calcica-2mg-generico-biolab-30-comprimidos/p",
       "disponivel": true
@@ -17886,9 +18012,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 70.47,
-      "nome": "Pitavastatina Cálcica 2mg Biolab 30 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/pitavastatina-cal-2mg-30com--g--biolab/p",
+      "preco": 91.99,
+      "nome": "Pivastatina Calcica 2mg 30 Comprimidos Revestidos Pharlab",
+      "url": "https://www.drogariavenancio.com.br/pitavastatina-calcica-2mg-30com--g--pharlab/p",
       "disponivel": true
     },
     "panvel": {
@@ -17900,13 +18026,13 @@ const PRECOS_REDES = {
   },
   "med-00624": {
     "paguemenos": {
-      "preco": 33.99,
+      "preco": 34.99,
       "nome": "Fledoid 500 5mg/g Gel 40g",
       "url": "https://www.paguemenos.com.br/fledoid-500-gel-40g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 33.99,
+      "preco": 34.99,
       "nome": "Fledoid 500 5mg/g Gel 40g",
       "url": "https://www.extrafarma.com.br/fledoid-500-gel-40g/p",
       "disponivel": true
@@ -17926,31 +18052,31 @@ const PRECOS_REDES = {
   },
   "med-00625": {
     "paguemenos": {
-      "preco": 4.99,
+      "preco": 5.79,
       "nome": "Prednisolona 5mg 10 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/prednisolona-5mg-10-comprimidos-revestidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 4.99,
+      "preco": 5.79,
       "nome": "Prednisolona 5mg 10 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/prednisolona-5mg-10-comprimidos-revestidos-generico-neo-quimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 5.24,
+      "preco": 6.99,
       "nome": "Prednisolona 5mg Genérico Eurofarma 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/prednisolona-5mg-generico-eurofarma-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 5.08,
+      "preco": 6.99,
       "nome": "Prednisolona 5mg Genérico Eurofarma 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/prednisolona-5mg-generico-eurofarma-10-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 6.45,
+      "preco": 5.99,
       "nome": "Prednisolona 5mg Eurofarma 10 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/prednisolona-5mg-eurofarma-10-comprimidos/p",
       "disponivel": true
@@ -17988,9 +18114,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.29,
-      "nome": "Prednisona 5mg Medley 20 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/prednisona-5mg-20com--g--medley/p",
+      "preco": 7.99,
+      "nome": "Prednisona 5mg Neo Química 20 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/prednisona-5mg-neo-quimica-20-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -18002,21 +18128,21 @@ const PRECOS_REDES = {
   },
   "med-00627": {
     "paguemenos": {
-      "preco": 16.79,
-      "nome": "Pregabalina 75mg 30 Cápsulas Genérico Medley",
-      "url": "https://www.paguemenos.com.br/pregabalina-75mg-com-30-capsulas-genericos-medley/p",
+      "preco": 20.59,
+      "nome": "Pregabalina 75mg 30 Cápsulas Genérico EMS",
+      "url": "https://www.paguemenos.com.br/pregabalina-75mg-com-30-capsulas-psicotropico-p-c1-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.79,
-      "nome": "Pregabalina 75mg 30 Cápsulas Genérico Medley",
-      "url": "https://www.extrafarma.com.br/pregabalina-75mg-com-30-capsulas-genericos-medley/p",
+      "preco": 20.59,
+      "nome": "Pregabalina 75mg 30 Cápsulas Genérico EMS",
+      "url": "https://www.extrafarma.com.br/pregabalina-75mg-com-30-capsulas-psicotropico-p-c1-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 29.99,
-      "nome": "Pregabalina 75mg Genérico Medley 30 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/pregabalina-75mg-generico-medley-30-capsulas/p",
+      "preco": 24.99,
+      "nome": "Pregabalina 150mg Genérico Eurofarma 30 Cápsulas",
+      "url": "https://www.drogariasaopaulo.com.br/pregabalina-150-mg-generico-eurofarma-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
@@ -18026,7 +18152,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 22.89,
+      "preco": 15.99,
       "nome": "Pregabalina 75mg Teuto 30 Cápsulas Duras",
       "url": "https://www.drogariavenancio.com.br/pregabalina-75mg-teuto-30-capsulas-duras/p",
       "disponivel": true
@@ -18040,25 +18166,25 @@ const PRECOS_REDES = {
   },
   "med-00629": {
     "paguemenos": {
-      "preco": 62.99,
-      "nome": "Gynpro 100mg 30 Cápsulas Moles",
-      "url": "https://www.paguemenos.com.br/gynpro-100mg-com-30-capsulas-moles/p",
+      "preco": 61.99,
+      "nome": "Utrogestan 200mg 14 Cápsulas Gelatinosas Moles",
+      "url": "https://www.paguemenos.com.br/utrogestan-200mg-com-14-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 62.99,
-      "nome": "Gynpro 100mg 30 Cápsulas Moles",
-      "url": "https://www.extrafarma.com.br/gynpro-100mg-com-30-capsulas-moles/p",
+      "preco": 61.99,
+      "nome": "Utrogestan 200mg 14 Cápsulas Gelatinosas Moles",
+      "url": "https://www.extrafarma.com.br/utrogestan-200mg-com-14-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 61.73,
-      "nome": "GynPro Progesterona 100mg 30 Cápsulas",
-      "url": "https://www.drogariasaopaulo.com.br/gynpro-100mg-exeltis-30-capsulas/p",
+      "preco": 66.99,
+      "nome": "Utrogestan Progesterona 200mg 14 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/utrogestan-200mg-besins-healthcare-14-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 61.73,
+      "preco": 60.55,
       "nome": "GynPro Progesterona 100mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/gynpro-100mg-exeltis-30-capsulas/p",
       "disponivel": true
@@ -18078,31 +18204,31 @@ const PRECOS_REDES = {
   },
   "med-00630": {
     "paguemenos": {
-      "preco": 62.99,
+      "preco": 54.49,
       "nome": "Promestrieno 10mg/g Creme Vaginal 30g Com 20 Aplicadores Eurofarma Genérico",
       "url": "https://www.paguemenos.com.br/promestrieno-creme-vaginal-30gmais-20-aplicadores-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 62.99,
+      "preco": 54.49,
       "nome": "Promestrieno 10mg/g Creme Vaginal 30g Com 20 Aplicadores Eurofarma Genérico",
       "url": "https://www.extrafarma.com.br/promestrieno-creme-vaginal-30gmais-20-aplicadores-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 63.99,
+      "preco": 70.39,
       "nome": "Promestrieno 10mg/g Genérico Eurofarma 30g + 20 aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/promestrieno-10mg-g-generico-eurofarma-30g-20-aplicadores/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 63.99,
+      "preco": 70.39,
       "nome": "Promestrieno 10mg/g Genérico Eurofarma 30g + 20 aplicadores",
       "url": "https://www.drogariaspacheco.com.br/promestrieno-10mg-g-generico-eurofarma-30g-20-aplicadores/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 64.55,
+      "preco": 69.99,
       "nome": "Promestrieno 10mg/g Eurofarma 30g Creme Vaginal",
       "url": "https://www.drogariavenancio.com.br/promestrieno-10mg-g-eurofarma-30g-creme-vaginal/p",
       "disponivel": true
@@ -18128,13 +18254,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 16.59,
+      "preco": 18.25,
       "nome": "Propionato de Clobetasol 0,5mg/g Genérico Germed 30g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/propionato-de-clobetasol-0-5mg-g-generico-germed-pomada-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 10.59,
+      "preco": 11.65,
       "nome": "Propionato de Clobetasol 0,5mg/g Genérico Germed 30g Pomada",
       "url": "https://www.drogariaspacheco.com.br/propionato-de-clobetasol-0-5mg-g-generico-germed-pomada-30g/p",
       "disponivel": true
@@ -18166,13 +18292,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 99.77,
+      "preco": 106.22,
       "nome": "Combiwave Xinafoato de Salmeterol 25mcg + Propionato de Fluticasona 50mcg 120 Doses Suspensão Aerossol",
       "url": "https://www.drogariasaopaulo.com.br/combiwave-25mcg-50mcg-glenmark-120-doses-suspensao-aerossol-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 100.78,
+      "preco": 88.48,
       "nome": "Combiwave Xinafoato de Salmeterol 25mcg + Propionato de Fluticasona 50mcg 120 Doses Suspensão Aerossol",
       "url": "https://www.drogariaspacheco.com.br/combiwave-25mcg-50mcg-glenmark-120-doses-suspensao-aerossol-/p",
       "disponivel": true
@@ -18204,13 +18330,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 65.59,
+      "preco": 64.92,
       "nome": "Flutivate Propionato De Fluticasona 0,5mg/g 15g Creme",
       "url": "https://www.drogariasaopaulo.com.br/flutivate-gsk-creme-15g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 54.79,
+      "preco": 53.69,
       "nome": "Flutivate Propionato De Fluticasona 0,5mg/g 15g Creme",
       "url": "https://www.drogariaspacheco.com.br/flutivate-gsk-creme-15g/p",
       "disponivel": true
@@ -18230,25 +18356,25 @@ const PRECOS_REDES = {
   },
   "med-00635": {
     "paguemenos": {
-      "preco": 96.29,
+      "preco": 96.99,
       "nome": "Pantogar 20mg + 20mg + 20mg + 100mg + 60mg + 60mg 30 Cápsulas Duras",
       "url": "https://www.paguemenos.com.br/pantogar-com-30-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 96.29,
+      "preco": 96.99,
       "nome": "Pantogar 20mg + 20mg + 20mg + 100mg + 60mg + 60mg 30 Cápsulas Duras",
       "url": "https://www.extrafarma.com.br/pantogar-com-30-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 108.89,
+      "preco": 107.79,
       "nome": "Pantogar 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/pantogar-biolab--30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 94.99,
+      "preco": 93.09,
       "nome": "Pantogar 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/pantogar-biolab--30-capsulas/p",
       "disponivel": true
@@ -18268,15 +18394,15 @@ const PRECOS_REDES = {
   },
   "med-00636": {
     "paguemenos": {
-      "preco": 46.59,
-      "nome": "Avide 100mg 9 Cápsulas",
-      "url": "https://www.paguemenos.com.br/avide-100mg-com-9-capsulas/p",
+      "preco": 44.59,
+      "nome": "Tiorfan 100mg 9 Cápsulas",
+      "url": "https://www.paguemenos.com.br/tiorfan-100mg-com-9-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 46.59,
-      "nome": "Avide 100mg 9 Cápsulas",
-      "url": "https://www.extrafarma.com.br/avide-100mg-com-9-capsulas/p",
+      "preco": 44.59,
+      "nome": "Tiorfan 100mg 9 Cápsulas",
+      "url": "https://www.extrafarma.com.br/tiorfan-100mg-com-9-capsulas/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
@@ -18292,7 +18418,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 46.49,
+      "preco": 46.29,
       "nome": "Tiorfan 100mg Bagó 9 Cápsulas",
       "url": "https://www.drogariavenancio.com.br/tiorfan-100mg-bago-9-capsulas/p",
       "disponivel": true
@@ -18307,14 +18433,14 @@ const PRECOS_REDES = {
   "med-00637": {
     "paguemenos": {
       "preco": 3.99,
-      "nome": "Epocler Sabor Abacaxi Solução Oral 1 Flaconete de 10ml",
-      "url": "https://www.paguemenos.com.br/epocler-flaconete-10ml/p",
+      "nome": "Epocler Sabor Morango 10ml",
+      "url": "https://www.paguemenos.com.br/epocler-sabor-morango-30-flaconete-10ml-cada/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 3.99,
-      "nome": "Epocler Sabor Abacaxi Solução Oral 1 Flaconete de 10ml",
-      "url": "https://www.extrafarma.com.br/epocler-flaconete-10ml/p",
+      "nome": "Epocler Sabor Morango 10ml",
+      "url": "https://www.extrafarma.com.br/epocler-sabor-morango-30-flaconete-10ml-cada/p",
       "disponivel": true
     },
     "venancio": {
@@ -18344,7 +18470,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 3.89,
+      "preco": 4.25,
       "nome": "Xantinon Complex União Química 1 Flaconete 10ml",
       "url": "https://www.drogariavenancio.com.br/xantinon-complex-flaconete-10ml/p",
       "disponivel": true
@@ -18414,9 +18540,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 60.09,
-      "nome": "Ramipril 5,0mg Genérico Medley 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/ramipril-5-0mg-generico-medley-30-comprimidos/p",
+      "preco": 62.61,
+      "nome": "Naprix A Ramipril 10mg + Besilato de Anlodipino 5mg 30 Cápsulas",
+      "url": "https://www.drogariaspacheco.com.br/naprix-a-1005mg-libbs-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -18474,25 +18600,25 @@ const PRECOS_REDES = {
   },
   "med-00646": {
     "paguemenos": {
-      "preco": 20.49,
+      "preco": 24.29,
       "nome": "Rifaldin 300mg 6 Cápsulas Duras",
       "url": "https://www.paguemenos.com.br/rifaldin-300mg-com-6-capsulas-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 20.49,
+      "preco": 24.29,
       "nome": "Rifaldin 300mg 6 Cápsulas Duras",
       "url": "https://www.extrafarma.com.br/rifaldin-300mg-com-6-capsulas-mais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.49,
+      "preco": 26.2,
       "nome": "Rifaldin Rifampicina 300mg 6 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/rifaldin-300mg-6-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 22.69,
+      "preco": 21.45,
       "nome": "Rifaldin Rifampicina 300mg 6 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/rifaldin-300mg-6-capsulas/p",
       "disponivel": true
@@ -18512,33 +18638,33 @@ const PRECOS_REDES = {
   },
   "med-00648": {
     "paguemenos": {
-      "preco": 43.99,
-      "nome": "Risedronato Sodico 150mg Com 1 Comprimido Genérico Eurofarma",
-      "url": "https://www.paguemenos.com.br/risedronato-sodico-150mg-com-1-comprimido-generico-eurofarma/p",
+      "preco": 36.29,
+      "nome": "Risedronato Sódico 150mg 1 Comprimido Revestido Genérico Germed",
+      "url": "https://www.paguemenos.com.br/risedronato-sodico-150mg-com-1-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 43.99,
-      "nome": "Risedronato Sodico 150mg Com 1 Comprimido Genérico Eurofarma",
-      "url": "https://www.extrafarma.com.br/risedronato-sodico-150mg-com-1-comprimido-generico-eurofarma/p",
+      "preco": 36.29,
+      "nome": "Risedronato Sódico 150mg 1 Comprimido Revestido Genérico Germed",
+      "url": "https://www.extrafarma.com.br/risedronato-sodico-150mg-com-1-comprimidos-generico-germed/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 34.59,
+      "preco": 38.05,
       "nome": "Risedronato Sódico 150mg Genérico EMS 1 Comprimido",
       "url": "https://www.drogariasaopaulo.com.br/risedronato-sodico-150mg-generico-ems-1-comprimido/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 34.59,
+      "preco": 38.05,
       "nome": "Risedronato Sódico 150mg Genérico EMS 1 Comprimido",
       "url": "https://www.drogariaspacheco.com.br/risedronato-sodico-150mg-generico-ems-1-comprimido/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 35.74,
-      "nome": "Risedronato Sódico 150mg Ems 1 Comprimido",
-      "url": "https://www.drogariavenancio.com.br/risedronato-sod-150mg-1com--g--ems/p",
+      "preco": 41.99,
+      "nome": "Risedronato Sodico 150mg Eurofarma 1 Comprimido Revestido",
+      "url": "https://www.drogariavenancio.com.br/risedronato-sodico-150mg-eurofarma-1-comprimido-revestido/p",
       "disponivel": true
     },
     "panvel": {
@@ -18550,25 +18676,31 @@ const PRECOS_REDES = {
   },
   "med-00649": {
     "paguemenos": {
-      "preco": 7.48,
-      "nome": "Risperidona 1mg 30 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.paguemenos.com.br/risperidona-1mg-com-30-comprimidos-generico-sandoz/p",
+      "preco": 9.79,
+      "nome": "Risperidona 2mg 30 Comprimidos Revestidos Genérico Biolab",
+      "url": "https://www.paguemenos.com.br/risperidona-2mg-com-30-comprimidos-generico-actavis/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 7.48,
-      "nome": "Risperidona 1mg 30 Comprimidos Revestidos Genérico Sandoz",
-      "url": "https://www.extrafarma.com.br/risperidona-1mg-com-30-comprimidos-generico-sandoz/p",
+      "preco": 9.79,
+      "nome": "Risperidona 2mg 30 Comprimidos Revestidos Genérico Biolab",
+      "url": "https://www.extrafarma.com.br/risperidona-2mg-com-30-comprimidos-generico-actavis/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 56.88,
+      "preco": 56.3,
       "nome": "Zargus Risperidona 2mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/zargus-2mg-biosinteti-30-comprimidos/p",
       "disponivel": true
     },
+    "pacheco": {
+      "preco": 32.72,
+      "nome": "Perlid Risperidona 2mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/perlid-2mg-prati-donaduzzi-30-comprimidos/p",
+      "disponivel": true
+    },
     "venancio": {
-      "preco": 7.77,
+      "preco": 6.99,
       "nome": "Risperidona 1mg Geolab 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/risperidona-1mg-30com--c1--g--geolab/p",
       "disponivel": true
@@ -18594,13 +18726,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 55.8,
+      "preco": 55.36,
       "nome": "Vynaxa Rivaroxabana 10mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/vynaxa-10mg-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 18.59,
+      "preco": 16.26,
       "nome": "Vynaxa Rivaroxabana 10mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/vynaxa-10mg-ems-10-comprimidos/p",
       "disponivel": true
@@ -18632,15 +18764,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 33.33,
+      "preco": 33,
       "nome": "Runner Rosuvastatina Cálcica 10mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/runner-10mg-ache-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 54.99,
-      "nome": "Runner Rosuvastatina Cálcica 20mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/runner-20mg-ache-30-comprimidos/p",
+      "preco": 30.17,
+      "nome": "Rosucor Rosuvastatina Cálcica 5mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/rosucor-5mg-torrent-30-comprimidos/p",
       "disponivel": true
     }
   },
@@ -18658,15 +18790,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 75.23,
-      "nome": "Runner Eze Rosuvastatina Cálcica 5mg + Ezetimiba 10mg 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/runner-eze-rosuvastatina-calcica-5mg-ezetimiba-10mg-30-comprimidos/p",
+      "preco": 70.55,
+      "nome": "Rosucor EZE Rosuvastatina Cálcica 5mg + Ezetimiba 10mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/rosucor-eze-5mg-10mg-torrent-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 63.69,
-      "nome": "Rosucor EZE Rosuvastatina Cálcica 5mg + Ezetimiba 10mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/rosucor-eze-5mg-10mg-torrent-30-comprimidos/p",
+      "preco": 47.39,
+      "nome": "Runner Eze Rosuvastatina Cálcica 5mg + Ezetimiba 10mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/runner-eze-rosuvastatina-calcica-5mg-ezetimiba-10mg-30-comprimidos/p",
       "disponivel": true
     },
     "panvel": {
@@ -18678,13 +18810,13 @@ const PRECOS_REDES = {
   },
   "med-00654": {
     "paguemenos": {
-      "preco": 73.49,
+      "preco": 70.49,
       "nome": "Ferropurum 20mg/ml Solução Injetável 5 Ampolas 5ml",
       "url": "https://www.paguemenos.com.br/ferropurum-20mg-ml-solucao-injetavel-com-5-ampolas-de-5ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 73.49,
+      "preco": 70.49,
       "nome": "Ferropurum 20mg/ml Solução Injetável 5 Ampolas 5ml",
       "url": "https://www.extrafarma.com.br/ferropurum-20mg-ml-solucao-injetavel-com-5-ampolas-de-5ml/p",
       "disponivel": true
@@ -18696,13 +18828,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "pacheco": {
-      "preco": 73.49,
+      "preco": 70.65,
       "nome": "Ferropurum Sacarato De Óxido Férrico 20mg/ml 5 Ampolas De 5ml Solução Injetável",
       "url": "https://www.drogariaspacheco.com.br/ferropurum-20mg-ml-blau-farmaceutica-5-ampolas-de-5ml-solucao-injetavel/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 73.49,
+      "preco": 72.09,
       "nome": "Ferropurum 20mg/ml Blau Solução Injetável 5 Ampolas De 5ml",
       "url": "https://www.drogariavenancio.com.br/ferropurum-20mg-ml-blau-solucao-injetavel-5-ampolas-de-5ml-/p",
       "disponivel": true
@@ -18728,9 +18860,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 23.99,
-      "nome": "Florent 100mg Cifarma 12 Cápsulas",
-      "url": "https://www.drogariavenancio.com.br/florent-100mg-12cap/p",
+      "preco": 26.49,
+      "nome": "Florent 200mg Cifarma 6 Cápsulas",
+      "url": "https://www.drogariavenancio.com.br/florent-200mg-6cap/p",
       "disponivel": false
     },
     "panvel": {
@@ -18794,33 +18926,33 @@ const PRECOS_REDES = {
   },
   "med-00658": {
     "paguemenos": {
-      "preco": 15.19,
+      "preco": 14.39,
       "nome": "Secnidazol 1000mg 2 Comprimidos Genérico Pharlab",
       "url": "https://www.paguemenos.com.br/secnidazol-1000mg-com-2-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 15.19,
+      "preco": 14.39,
       "nome": "Secnidazol 1000mg 2 Comprimidos Genérico Pharlab",
       "url": "https://www.extrafarma.com.br/secnidazol-1000mg-com-2-comprimidos-generico-pharlab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 20.59,
-      "nome": "Secnidazol 1000mg Genérico Sandoz 2 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/secnidazol-100mg-generico-sandoz-2-comprimidos/p",
+      "preco": 19.99,
+      "nome": "Secnidazol 1000mg Genérico Pharlab 2 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/secnidazol-1000mg-generico-pharlab-2-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 8.59,
+      "preco": 9.45,
       "nome": "Secnidazol 1000mg Genérico Sandoz 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/secnidazol-100mg-generico-sandoz-2-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 8.39,
-      "nome": "Secnidazol 1000mg Medley 2 Comprimidos Revestidos",
-      "url": "https://www.drogariavenancio.com.br/secnidazol-1000mg-medley-2-comprimidos-revestidos/p",
+      "preco": 8.99,
+      "nome": "Secnidazol 1000mg Pharlab 2 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/secnidazol-1000mg-2com--g--pharlab/p",
       "disponivel": true
     },
     "panvel": {
@@ -18844,21 +18976,21 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 808.47,
+      "preco": 841.9,
       "nome": "Poviztra Semaglutida 0,25mg 1 Sistema de Aplicação + 4 Agulhas",
       "url": "https://www.drogariasaopaulo.com.br/poviztra-semaglutida-0-25mg-1-sistema-aplicacao-4-agulhas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 796.56,
+      "preco": 841.9,
       "nome": "Poviztra Semaglutida 0,25mg 1 Sistema de Aplicação + 4 Agulhas",
       "url": "https://www.drogariaspacheco.com.br/poviztra-semaglutida-0-25mg-1-sistema-aplicacao-4-agulhas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 1256.54,
-      "nome": "Ozivy 1mg Semaglutida 3ml 2 Canetas Injetáveis + 8 Agulhas Descartáveis",
-      "url": "https://www.drogariavenancio.com.br/ozivy-solucao-injetavel-134mgml-com-2-canetas-8-agulhas/p",
+      "preco": 1223.85,
+      "nome": "Rybelsus Semaglutida 14mg 30 Comprimidos Novo Nordisk",
+      "url": "https://www.drogariavenancio.com.br/semaglutida-14mg-rybelsus-via-oral-com-30-comprimidos-/p",
       "disponivel": true
     },
     "panvel": {
@@ -18882,19 +19014,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 83.9,
+      "preco": 77.19,
       "nome": "Tamarine Fibras Kids Morango 240ml",
       "url": "https://www.drogariasaopaulo.com.br/fibra-infantil-tamarine-kids-120ml-hypermarcas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 83.9,
+      "preco": 77.19,
       "nome": "Tamarine Fibras Kids Morango 240ml",
       "url": "https://www.drogariaspacheco.com.br/fibra-infantil-tamarine-kids-120ml-hypermarcas/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 56.79,
+      "preco": 65.49,
       "nome": "Naturetti Laxante Fitoterápico 16 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/regulad-menstrual-saude-mulher-150ml/p",
       "disponivel": true
@@ -18920,9 +19052,9 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 773,
-      "nome": "Genotropin 12mg 36UI Pó Liofilo Injetável 1 Caneta Aplicadora + 1 Frasco de Ampola + 1ml Diluente",
-      "url": "https://www.drogariavenancio.com.br/genotropin-36ui-x-1-caneta-x-1fa/p",
+      "preco": 691.5,
+      "nome": "Omnitrope 15mg Somatropina Solução Injetável Com 1,5ml",
+      "url": "https://www.drogariavenancio.com.br/omnitrope-15mg-solucao-injetavel-com-15ml/p",
       "disponivel": true
     },
     "panvel": {
@@ -18934,13 +19066,13 @@ const PRECOS_REDES = {
   },
   "med-00673": {
     "paguemenos": {
-      "preco": 19.99,
+      "preco": 18.39,
       "nome": "Succinato de Sumatriptana 50mg 2 Comprimidos Revestidos Genérico Biolab",
       "url": "https://www.paguemenos.com.br/succinato-de-sumatriptana-50mg-com-2-comprimidos-generico-actavis/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 19.99,
+      "preco": 18.39,
       "nome": "Succinato de Sumatriptana 50mg 2 Comprimidos Revestidos Genérico Biolab",
       "url": "https://www.extrafarma.com.br/succinato-de-sumatriptana-50mg-com-2-comprimidos-generico-actavis/p",
       "disponivel": true
@@ -18952,7 +19084,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 20.99,
+      "preco": 23.09,
       "nome": "Succinato de Sumatriptana 50mg Genérico Biolab 2 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/succinato-de-sumatriptana-50mg-c-02-comprimidos/p",
       "disponivel": true
@@ -18972,16 +19104,16 @@ const PRECOS_REDES = {
   },
   "med-00671": {
     "paguemenos": {
-      "preco": 20.49,
-      "nome": "Succinato Metoprolol 100mg Com 30 Comprimidos Biolab Genébico",
-      "url": "https://www.paguemenos.com.br/succinato-metoprolol-100mg-com-30-comprimidos-biolab-genebico/p",
-      "disponivel": false
+      "preco": 15.49,
+      "nome": "Succinato De Metoprolol 25mg 30 Comprimidos Revestidos Genérico Cimed",
+      "url": "https://www.paguemenos.com.br/succinato-de-metoprolol-25mg-30-comprimidos-revestidos-generico-cimed/p",
+      "disponivel": true
     },
     "extrafarma": {
-      "preco": 20.49,
-      "nome": "Succinato Metoprolol 100mg Com 30 Comprimidos Biolab Genébico",
-      "url": "https://www.extrafarma.com.br/succinato-metoprolol-100mg-com-30-comprimidos-biolab-genebico/p",
-      "disponivel": false
+      "preco": 15.49,
+      "nome": "Succinato De Metoprolol 25mg 30 Comprimidos Revestidos Genérico Cimed",
+      "url": "https://www.extrafarma.com.br/succinato-de-metoprolol-25mg-30-comprimidos-revestidos-generico-cimed/p",
+      "disponivel": true
     },
     "drogariasaopaulo": {
       "preco": 23.49,
@@ -18990,7 +19122,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 34.69,
+      "preco": 29,
       "nome": "Dozoito Succinato De Metoprolol 25mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/dozoito-25mg-biolab-30-comprimidos/p",
       "disponivel": true
@@ -19028,7 +19160,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 120.99,
+      "preco": 113.97,
       "nome": "Involu Succinato de Solifenacina 10mg 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/involu-10mg-eurofarma-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -19048,31 +19180,31 @@ const PRECOS_REDES = {
   },
   "med-00674": {
     "paguemenos": {
-      "preco": 10.43,
+      "preco": 11.59,
       "nome": "Dermazine 1% Creme Dermatológico 15g",
       "url": "https://www.paguemenos.com.br/creme-dermatologico-dermazine-1porcento-15g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.43,
+      "preco": 11.59,
       "nome": "Dermazine 1% Creme Dermatológico 15g",
       "url": "https://www.extrafarma.com.br/creme-dermatologico-dermazine-1porcento-15g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.76,
+      "preco": 12.63,
       "nome": "Dermazine 1% Sulfadiazina de Prata 10mg/g 15g Creme Dermatológico",
       "url": "https://www.drogariasaopaulo.com.br/dermazine-1-cristalia-15g-creme-dermatologico/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 10.89,
+      "preco": 11.65,
       "nome": "Dermazine 1% Sulfadiazina de Prata 10mg/g 15g Creme Dermatológico",
       "url": "https://www.drogariaspacheco.com.br/dermazine-1-cristalia-15g-creme-dermatologico/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.89,
+      "preco": 11.89,
       "nome": "Dermazine 1% Cristália Creme Dermatológico 15g",
       "url": "https://www.drogariavenancio.com.br/dermazine-1--cr-derm-15g--ab-/p",
       "disponivel": true
@@ -19086,13 +19218,13 @@ const PRECOS_REDES = {
   },
   "med-00675": {
     "paguemenos": {
-      "preco": 136.99,
+      "preco": 128.99,
       "nome": "Azulfin 500mg 60 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/azulfin-500mg-com-60-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 136.99,
+      "preco": 128.99,
       "nome": "Azulfin 500mg 60 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/azulfin-500mg-com-60-comprimidos/p",
       "disponivel": true
@@ -19132,25 +19264,25 @@ const PRECOS_REDES = {
   },
   "med-00678": {
     "paguemenos": {
-      "preco": 103.99,
+      "preco": 111.99,
       "nome": "Sulfato de Glicosamina 1,5g Pó para Solução 30 Sachês Genérico Nova Química",
       "url": "https://www.paguemenos.com.br/sulfato-de-glicosamina-1-5g-com-30-saches-generico-novaquimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 103.99,
+      "preco": 111.99,
       "nome": "Sulfato de Glicosamina 1,5g Pó para Solução 30 Sachês Genérico Nova Química",
       "url": "https://www.extrafarma.com.br/sulfato-de-glicosamina-1-5g-com-30-saches-generico-novaquimica/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 103.99,
+      "preco": 114.39,
       "nome": "Sulfato de Glicosamina 1,5g Genérico Nova Química 30 Sachês Pó Para Solução De Uso Oral",
       "url": "https://www.drogariasaopaulo.com.br/sulfato-de-glicosamina-generico-mepha-1-5g-30-saches/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 103.99,
+      "preco": 113.29,
       "nome": "Sulfato de Glicosamina 1,5g Genérico Nova Química 30 Sachês Pó Para Solução De Uso Oral",
       "url": "https://www.drogariaspacheco.com.br/sulfato-de-glicosamina-generico-mepha-1-5g-30-saches/p",
       "disponivel": true
@@ -19170,13 +19302,13 @@ const PRECOS_REDES = {
   },
   "med-00680": {
     "paguemenos": {
-      "preco": 118.99,
+      "preco": 108.99,
       "nome": "Ártico Caps 500mg + 400mg 30 Cápsulas Moles",
       "url": "https://www.paguemenos.com.br/artico-500mgmais400mg-com-30-capsulas/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 118.99,
+      "preco": 108.99,
       "nome": "Ártico Caps 500mg + 400mg 30 Cápsulas Moles",
       "url": "https://www.extrafarma.com.br/artico-500mgmais400mg-com-30-capsulas/p",
       "disponivel": true
@@ -19188,9 +19320,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 121.99,
-      "nome": "Artrolive Sulfato de Glicosamina 500mg + Sulfato de Condroitina 400mg 30 Cápsulas",
-      "url": "https://www.drogariaspacheco.com.br/artrolive-ache-30-capsulas/p",
+      "preco": 106.17,
+      "nome": "Condroflex Sulfato de Glicosamina 1,5g + Sulfato Sódico de Condroitina 1,2g 30 Sachês Sabor Abacaxi",
+      "url": "https://www.drogariaspacheco.com.br/condroflex-zodiac-sabor-abacaxi-30-saches/p",
       "disponivel": true
     },
     "venancio": {
@@ -19208,39 +19340,39 @@ const PRECOS_REDES = {
   },
   "med-00679": {
     "paguemenos": {
-      "preco": 240.99,
-      "nome": "Ártico 1,5g + 1,2g Sabor Maracujá Granulado 30 Sachês",
-      "url": "https://www.paguemenos.com.br/artico-1-5gmais1-2g-sabor-maracuja-com-30-saches/p",
+      "preco": 224.99,
+      "nome": "Ártico 1,5g + 1,2g Sabor Laranja Granulado 30 Sachês",
+      "url": "https://www.paguemenos.com.br/artico-1-5gmais1-2g-laranja-com-30-saches/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 240.99,
-      "nome": "Ártico 1,5g + 1,2g Sabor Maracujá Granulado 30 Sachês",
-      "url": "https://www.extrafarma.com.br/artico-1-5gmais1-2g-sabor-maracuja-com-30-saches/p",
+      "preco": 224.99,
+      "nome": "Ártico 1,5g + 1,2g Sabor Laranja Granulado 30 Sachês",
+      "url": "https://www.extrafarma.com.br/artico-1-5gmais1-2g-laranja-com-30-saches/p",
       "disponivel": true
     }
   },
   "med-00682": {
     "paguemenos": {
-      "preco": 5.89,
+      "preco": 6.19,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico EMS",
       "url": "https://www.paguemenos.com.br/sulfato-neomicina-maisbacitracina-pomada-15g-generico-ems-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.89,
+      "preco": 6.19,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico EMS",
       "url": "https://www.extrafarma.com.br/sulfato-neomicina-maisbacitracina-pomada-15g-generico-ems-mais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 12.66,
+      "preco": 18.16,
       "nome": "Sulfato de Neomicina Genérico Prati Donaduzzi 20gr Pomada",
       "url": "https://www.drogariasaopaulo.com.br/sulfato-de-neomicina-generico-prati-donaduzzi-20g-pomada/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 12.79,
+      "preco": 18.34,
       "nome": "Sulfato de Neomicina Genérico Prati Donaduzzi 20gr Pomada",
       "url": "https://www.drogariaspacheco.com.br/sulfato-de-neomicina-generico-prati-donaduzzi-20g-pomada/p",
       "disponivel": true
@@ -19249,24 +19381,24 @@ const PRECOS_REDES = {
   "med-00681": {
     "paguemenos": {
       "preco": 54.99,
-      "nome": "Sulfato de Hidroxicloroquina 400mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.paguemenos.com.br/sulfato-de-hidroxicloroquina-400mg-com-30-comprimidos-genericos-neo-quimica/p",
+      "nome": "Sulfato de Hidroxicloroquina 400mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.paguemenos.com.br/sulfato-de-hidroxicloroquina-400mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 54.99,
-      "nome": "Sulfato de Hidroxicloroquina 400mg 30 Comprimidos Revestidos Genérico Neo Química",
-      "url": "https://www.extrafarma.com.br/sulfato-de-hidroxicloroquina-400mg-com-30-comprimidos-genericos-neo-quimica/p",
+      "nome": "Sulfato de Hidroxicloroquina 400mg 30 Comprimidos Revestidos Genérico EMS",
+      "url": "https://www.extrafarma.com.br/sulfato-de-hidroxicloroquina-400mg-com-30-comprimidos-generico-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 61.59,
+      "preco": 67.75,
       "nome": "Sulfato de Hidroxicloroquina 400mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/sulfato-de-hidroxicloroquina-400mg-generico-medley-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 61.59,
+      "preco": 67.75,
       "nome": "Sulfato de Hidroxicloroquina 400mg Genérico Medley 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/sulfato-de-hidroxicloroquina-400mg-generico-medley-30-comprimidos/p",
       "disponivel": true
@@ -19324,19 +19456,19 @@ const PRECOS_REDES = {
   },
   "med-00684": {
     "paguemenos": {
-      "preco": 5.59,
+      "preco": 5.79,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico Cimed",
       "url": "https://www.paguemenos.com.br/sulfato-de-neomicinamaisbacitracina-pomada-15g-generico-cimed/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.59,
+      "preco": 5.79,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico Cimed",
       "url": "https://www.extrafarma.com.br/sulfato-de-neomicinamaisbacitracina-pomada-15g-generico-cimed/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 26.59,
+      "preco": 26.89,
       "nome": "Nebacetin 15g Pomada",
       "url": "https://www.drogariavenancio.com.br/nebacetin-15g-pomada/p",
       "disponivel": true
@@ -19350,19 +19482,19 @@ const PRECOS_REDES = {
   },
   "med-00683": {
     "paguemenos": {
-      "preco": 5.59,
+      "preco": 5.79,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico Medley",
       "url": "https://www.paguemenos.com.br/neomicinamaisbacit-pomada-15g-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 5.59,
+      "preco": 5.79,
       "nome": "Sulfato de Neomicina 5mg/g + Bacitracina Zíncica 250UI/g Pomada Dermatológica 15g Genérico Medley",
       "url": "https://www.extrafarma.com.br/neomicinamaisbacit-pomada-15g-generico-medley/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 7.57,
+      "preco": 7.99,
       "nome": "Sulfato De Neomicina + Bacitracina Ems 15g Pomada",
       "url": "https://www.drogariavenancio.com.br/sulfato-de-neomicina---bacitracina-ems-15g-pomada/p",
       "disponivel": true
@@ -19370,13 +19502,13 @@ const PRECOS_REDES = {
   },
   "med-00689": {
     "paguemenos": {
-      "preco": 22.99,
+      "preco": 25.29,
       "nome": "Sulfato de Salbutamol 100mcg Suspensão Aerossol 200 Doses Genérico Glenmark",
       "url": "https://www.paguemenos.com.br/sulfato-de-salbutamol-com-100mcg-dose-generico-glenmark/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 22.99,
+      "preco": 25.29,
       "nome": "Sulfato de Salbutamol 100mcg Suspensão Aerossol 200 Doses Genérico Glenmark",
       "url": "https://www.extrafarma.com.br/sulfato-de-salbutamol-com-100mcg-dose-generico-glenmark/p",
       "disponivel": true
@@ -19388,7 +19520,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 33.02,
+      "preco": 33.11,
       "nome": "Aerogold Sulfato de Salbutamol 100mcg/dose 1 Frasco com 19ml + Dispositivo Inalatório",
       "url": "https://www.drogariaspacheco.com.br/aerogold-100mcg-dose-glenmark-1-frasco-com-19ml---dispositivo-inalatorio/p",
       "disponivel": true
@@ -19396,25 +19528,25 @@ const PRECOS_REDES = {
   },
   "med-00690": {
     "paguemenos": {
-      "preco": 66.49,
+      "preco": 56.99,
       "nome": "Clenil Compositum HFA 50mcg + 100mcg Spray 200 Doses",
       "url": "https://www.paguemenos.com.br/clenil-compositum-hfa-15-5g-spray-com-200-doses/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 66.49,
+      "preco": 56.99,
       "nome": "Clenil Compositum HFA 50mcg + 100mcg Spray 200 Doses",
       "url": "https://www.extrafarma.com.br/clenil-compositum-hfa-15-5g-spray-com-200-doses/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 66.66,
+      "preco": 65.98,
       "nome": "Clenil Compositum HFA Dipropionato de Beclometasona 50mcg/dose + Salbutamol 100mcg/dose 200 Doses Suspensão Aerossol",
       "url": "https://www.drogariasaopaulo.com.br/clenil-compositum-spray-hfa-200-doses/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 40.94,
+      "preco": 41.67,
       "nome": "Clenil Compositum HFA Dipropionato de Beclometasona 50mcg/dose + Salbutamol 100mcg/dose 200 Doses Suspensão Aerossol",
       "url": "https://www.drogariaspacheco.com.br/clenil-compositum-spray-hfa-200-doses/p",
       "disponivel": true
@@ -19434,13 +19566,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 52.79,
+      "preco": 52.99,
       "nome": "Tacrolimo 0,1% Genérico Leo Pharma 10g Pomada Dermatológica",
       "url": "https://www.drogariasaopaulo.com.br/tacrolimo-0-1-leo-pharma-10g-pomada-dermatologica/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 80.49,
+      "preco": 78.88,
       "nome": "Tarfic Tacrolimo 1mg/g 10g Pomada",
       "url": "https://www.drogariaspacheco.com.br/tarfic-01mg-pomada-libbs-10g/p",
       "disponivel": true
@@ -19460,25 +19592,25 @@ const PRECOS_REDES = {
   },
   "med-00695": {
     "paguemenos": {
-      "preco": 73.99,
+      "preco": 59.49,
       "nome": "Atobach 1mg/g Pomada Dermatológica 10g",
       "url": "https://www.paguemenos.com.br/atobach-0-1porcento-pomada-dermatologica-10g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 73.99,
+      "preco": 59.49,
       "nome": "Atobach 1mg/g Pomada Dermatológica 10g",
       "url": "https://www.extrafarma.com.br/atobach-0-1porcento-pomada-dermatologica-10g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 74.55,
+      "preco": 73.79,
       "nome": "Atobach Tacrolimo 1mg/g 10g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/atobach-pomada-dermatologica-1mg-g-germed-pharma-10g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 68.49,
+      "preco": 65.85,
       "nome": "Atobach Tacrolimo 1mg/g 10g Pomada",
       "url": "https://www.drogariaspacheco.com.br/atobach-pomada-dermatologica-1mg-g-germed-pharma-10g/p",
       "disponivel": true
@@ -19498,25 +19630,25 @@ const PRECOS_REDES = {
   },
   "med-00696": {
     "paguemenos": {
-      "preco": 11.49,
-      "nome": "Tadalafila 20mg 2 Comprimidos Revestidos Genérico Prati-Donaduzzi",
-      "url": "https://www.paguemenos.com.br/tadalafila-20mg-com-2-comprimidos-genericos-prati-donaduzzi/p",
+      "preco": 5.59,
+      "nome": "Tadalafila 20mg 4 Comprimidos Revestidos Genérico Medley",
+      "url": "https://www.paguemenos.com.br/tadalafila-20mg-com-4-comprimidos-genericos-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 11.49,
-      "nome": "Tadalafila 20mg 2 Comprimidos Revestidos Genérico Prati-Donaduzzi",
-      "url": "https://www.extrafarma.com.br/tadalafila-20mg-com-2-comprimidos-genericos-prati-donaduzzi/p",
+      "preco": 5.59,
+      "nome": "Tadalafila 20mg 4 Comprimidos Revestidos Genérico Medley",
+      "url": "https://www.extrafarma.com.br/tadalafila-20mg-com-4-comprimidos-genericos-medley/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 18.99,
-      "nome": "Tadalafila 20mg Genérico Eurofarma 4 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/tadalafila-20mg-generico-eurofarma-4-comprimidos/p",
+      "preco": 18.69,
+      "nome": "Tadalafila 20mg Genérico Prati-Donaduzzi 4 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/tadalafila-20mg-generico-prati-donaduzzi-4-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 17.03,
+      "preco": 18.73,
       "nome": "Tadalafila 20mg Genérico Eurofarma 4 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/tadalafila-20mg-generico-eurofarma-4-comprimidos/p",
       "disponivel": true
@@ -19612,13 +19744,13 @@ const PRECOS_REDES = {
   },
   "med-00703": {
     "paguemenos": {
-      "preco": 25.79,
+      "preco": 28.49,
       "nome": "Tenoxicam 20mg 10 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.paguemenos.com.br/tenoxicam-20mg-com-10-comprimidos-genericos-neo-quimica/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 25.79,
+      "preco": 28.49,
       "nome": "Tenoxicam 20mg 10 Comprimidos Revestidos Genérico Neo Química",
       "url": "https://www.extrafarma.com.br/tenoxicam-20mg-com-10-comprimidos-genericos-neo-quimica/p",
       "disponivel": true
@@ -19636,7 +19768,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 49.59,
+      "preco": 48.69,
       "nome": "Teflan 20mg Genom 10 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/teflan-20mg-genom-10-comprimidos-revestidos/p",
       "disponivel": true
@@ -19676,31 +19808,31 @@ const PRECOS_REDES = {
   },
   "med-00727": {
     "paguemenos": {
-      "preco": 330.99,
+      "preco": 342.99,
       "nome": "Undecilato de Testosterona 250mg/ml 1 Ampola 4ml Eurofarma Genérico",
       "url": "https://www.paguemenos.com.br/undecilato-de-testosterona-250mg-ml-com-1-ampola-com-4ml-generico-eurofarma/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 330.99,
+      "preco": 342.99,
       "nome": "Undecilato de Testosterona 250mg/ml 1 Ampola 4ml Eurofarma Genérico",
       "url": "https://www.extrafarma.com.br/undecilato-de-testosterona-250mg-ml-com-1-ampola-com-4ml-generico-eurofarma/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 379.25,
-      "nome": "Hormus Undecilato De Testosterona 250mg/ml 1 Ampola de 4ml",
-      "url": "https://www.drogariasaopaulo.com.br/hormus-250mgml-1-ampola-x-4ml---c5-eurofarma-labs/p",
+      "preco": 390.38,
+      "nome": "Undecilato de Testosterona 250mg/ml Genérico Neo Química 1 ampola 4ml",
+      "url": "https://www.drogariasaopaulo.com.br/undecilato-de-testosterona-250mg-ml-generico-neo-quimica-1-ampola-4ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 390.37,
+      "preco": 379.99,
       "nome": "Undecilato de Testosterona 250mg/ml Genérico Neo Química 1 ampola 4ml",
       "url": "https://www.drogariaspacheco.com.br/undecilato-de-testosterona-250mg-ml-generico-neo-quimica-1-ampola-4ml/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 350,
+      "preco": 400,
       "nome": "Undecilato de Testosterona 250mg/ml Eurofarma Solução Injetável 4ml",
       "url": "https://www.drogariavenancio.com.br/testosterona-250mg-ml-injetavel-ampola-4ml/p",
       "disponivel": true
@@ -19740,25 +19872,25 @@ const PRECOS_REDES = {
   },
   "med-00708": {
     "paguemenos": {
-      "preco": 48.29,
+      "preco": 37.29,
       "nome": "Tibolona 2,5mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/tibolona-2-5mg-com-30-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 48.29,
+      "preco": 37.29,
       "nome": "Tibolona 2,5mg 30 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/tibolona-2-5mg-com-30-comprimidos-genericos-ems/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 38.54,
+      "preco": 42.89,
       "nome": "Tibolona 2,5mg Genérico Neo Química 28 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/tibolona-2-5mg-generico-neo-quimica-28-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 29.59,
+      "preco": 32.55,
       "nome": "Tibolona 2,5mg Genérico EMS 30 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/tibolona-2-5mg-ems-generico-30-comprimidos-revestidos/p",
       "disponivel": true
@@ -19778,13 +19910,13 @@ const PRECOS_REDES = {
   },
   "med-00709": {
     "paguemenos": {
-      "preco": 230.99,
+      "preco": 219.99,
       "nome": "Tiag 90mg 60 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/tiag-90mg-com-60-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 230.99,
+      "preco": 219.99,
       "nome": "Tiag 90mg 60 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/tiag-90mg-com-60-comprimidos/p",
       "disponivel": true
@@ -19866,13 +19998,13 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "drogariasaopaulo": {
-      "preco": 102.95,
+      "preco": 101.91,
       "nome": "Takil Tioconazol 100mg/5g + Tinidazol 150mg/5g 35g Creme Vaginal + 7 Aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/takil-creme-vaginal-7-aplicadores-marjan-35g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 91.99,
+      "preco": 90.15,
       "nome": "Takil Tioconazol 100mg/5g + Tinidazol 150mg/5g 35g Creme Vaginal + 7 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/takil-creme-vaginal-7-aplicadores-marjan-35g/p",
       "disponivel": true
@@ -19904,20 +20036,20 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 1909.55,
+      "preco": 1928.84,
       "nome": "Mounjaro Tirzepatida 2,5mg/0,5ml 4 Canetas Preenchidas Solução Injetável Subcutânea",
       "url": "https://www.drogariasaopaulo.com.br/mounjaro-2-5mg-eli-lilly-4-seringa-preenchidas-0-5ml-solucao-injetavel-subcutaneo---4-canetas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 1926.37,
+      "preco": 1928.84,
       "nome": "Mounjaro Tirzepatida 2,5mg/0,5ml 4 Canetas Preenchidas Solução Injetável Subcutânea",
       "url": "https://www.drogariaspacheco.com.br/mounjaro-25mg-solucao-injetavel--subcutanea-4-seringa-pree-eli-lilly/p",
       "disponivel": true
     },
     "venancio": {
       "preco": 1926.37,
-      "nome": "Mounjaro 2,5mg Solução Injetável 4 Seringas Preenchidas 0,5ml + 4 Canetas Aplicadoras",
+      "nome": "Mounjaro 2,5mg Eli Lilly Solução Injetável 4 Seringas Preenchidas 0,5ml + 4 Canetas Aplicadoras",
       "url": "https://www.drogariavenancio.com.br/mounjaro-25mg-sol-inj-4ser-preenc-05ml---4can-aplic/p",
       "disponivel": true
     },
@@ -19930,21 +20062,21 @@ const PRECOS_REDES = {
   },
   "med-00715": {
     "paguemenos": {
-      "preco": 38.59,
+      "preco": 18.69,
       "nome": "Topiramato 25mg 60 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.paguemenos.com.br/topiramato-25mg-comprimidos60-generico-emsms-p/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 38.59,
+      "preco": 18.69,
       "nome": "Topiramato 25mg 60 Comprimidos Revestidos Genérico EMS",
       "url": "https://www.extrafarma.com.br/topiramato-25mg-comprimidos60-generico-emsms-p/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 49.99,
-      "nome": "Topiramato 50mg Genérico Nova Química 60 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/topiramato-50mg-generico-nova-quimica-60-comprimidos-revestidos/p",
+      "preco": 29.49,
+      "nome": "Topiramato 50mg Genérico Zydus Brasil 60 Comprimidos Revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/topiramato-50mg-generico-zydus-brasil-60-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
@@ -19954,7 +20086,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 32.17,
+      "preco": 22.99,
       "nome": "Topiramato 25mg Eurofarma 60 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/topiramato-25mg-eurofarma-60-comprimidos/p",
       "disponivel": true
@@ -19983,7 +20115,7 @@ const PRECOS_REDES = {
       "preco": 92.45,
       "nome": "Tosilato de Edoxabana Monoidratado 30mg Genérico Althaia 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/tosilato-de-edoxabana-monoidratado-30mg-generico-althaia-30-comprimidos/p",
-      "disponivel": false
+      "disponivel": true
     },
     "pacheco": {
       "preco": 104.31,
@@ -19993,7 +20125,7 @@ const PRECOS_REDES = {
     },
     "venancio": {
       "preco": 100.99,
-      "nome": "Tosilato de Edoxabana Mono 60mg 30 Comprimidos Althaia",
+      "nome": "Tosilato de Edoxabana Mono 30mg 30 Comprimidos Althaia",
       "url": "https://www.drogariavenancio.com.br/tosilato-de-edoxabana-mono-60mg-30-comprimidos/p",
       "disponivel": true
     },
@@ -20020,19 +20152,19 @@ const PRECOS_REDES = {
   },
   "med-00719": {
     "paguemenos": {
-      "preco": 73.49,
+      "preco": 40.59,
       "nome": "Travoprosta 0,04mg/ml Solução Oftálmica 2,5ml Genérico Geolab",
       "url": "https://www.paguemenos.com.br/travoprosta-solucao-oftalmica-0-04mg-ml-frasco-com-2-5ml-generico-geolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 73.49,
+      "preco": 40.59,
       "nome": "Travoprosta 0,04mg/ml Solução Oftálmica 2,5ml Genérico Geolab",
       "url": "https://www.extrafarma.com.br/travoprosta-solucao-oftalmica-0-04mg-ml-frasco-com-2-5ml-generico-geolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 66.3,
+      "preco": 72.51,
       "nome": "Travoptic Travoprosta 0,04mg/ml 2,5ml",
       "url": "https://www.drogariasaopaulo.com.br/travoptic-0-04mg-ml-geolab-2-5ml/p",
       "disponivel": true
@@ -20058,25 +20190,25 @@ const PRECOS_REDES = {
   },
   "med-00723": {
     "paguemenos": {
-      "preco": 13.59,
-      "nome": "Bacfar 200mg + 40mg Suspensão Oral 50ml + Copo Dosador",
-      "url": "https://www.paguemenos.com.br/bacfar-suspensao-com-50ml/p",
+      "preco": 9.99,
+      "nome": "Sulfametoxazol 400mg + Trimetoprima 80mg 20 Comprimidos Genérico Prati-Donaduzzi",
+      "url": "https://www.paguemenos.com.br/sulfametoxazol-400mgmaistrimetoprima-80mg-com-20-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 13.59,
-      "nome": "Bacfar 200mg + 40mg Suspensão Oral 50ml + Copo Dosador",
-      "url": "https://www.extrafarma.com.br/bacfar-suspensao-com-50ml/p",
+      "preco": 9.99,
+      "nome": "Sulfametoxazol 400mg + Trimetoprima 80mg 20 Comprimidos Genérico Prati-Donaduzzi",
+      "url": "https://www.extrafarma.com.br/sulfametoxazol-400mgmaistrimetoprima-80mg-com-20-comprimidos-generico-prati-donaduzzi-mais/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 31.46,
+      "preco": 31.14,
       "nome": "Bactrim Sulfametoxazol 40mg/ml + Trimetoprima 8mg/ml 100ml Suspensão Oral",
       "url": "https://www.drogariasaopaulo.com.br/bactrim-pediatrico-100ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 25.89,
+      "preco": 25.37,
       "nome": "Bactrim Sulfametoxazol 40mg/ml + Trimetoprima 8mg/ml 100ml Suspensão Oral",
       "url": "https://www.drogariaspacheco.com.br/bactrim-pediatrico-100ml/p",
       "disponivel": true
@@ -20172,9 +20304,9 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 15300.69,
-      "nome": "Stelara 45mg Frasco Ampola X 0,5 Ml Ustekinumabe - Janssen Cilag Ustequinumabe",
-      "url": "https://www.drogariavenancio.com.br/stelara-45mg-frasco-ampola-x-05-ml-ustekinumabe---janssen-cilag-ustequinumabe/p",
+      "preco": 12825.88,
+      "nome": "Epyztek 90mg/mL Solução Injetável SC 0,5mL 1 Seringa Preenchida",
+      "url": "https://www.drogariavenancio.com.br/epyztek-90mg-ml-solucao-injetavel-sc-0-5ml-1-seringa-preenchida/p",
       "disponivel": false
     },
     "panvel": {
@@ -20212,25 +20344,25 @@ const PRECOS_REDES = {
   },
   "med-00735": {
     "paguemenos": {
-      "preco": 120.99,
+      "preco": 110.99,
       "nome": "Postec 2,5mg/g + 150utr/g Pomada 20g",
       "url": "https://www.paguemenos.com.br/postec-pomada-20g/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 120.99,
+      "preco": 110.99,
       "nome": "Postec 2,5mg/g + 150utr/g Pomada 20g",
       "url": "https://www.extrafarma.com.br/postec-pomada-20g/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 122.25,
+      "preco": 111.14,
       "nome": "Postec Valerato de Betametasona 2,5mg/g + Hialuronidase 150 UTR/g 20g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/postec-topico-apsen-20g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 120.14,
+      "preco": 114.65,
       "nome": "Postec Valerato de Betametasona 2,5mg/g + Hialuronidase 150 UTR/g 20g Pomada",
       "url": "https://www.drogariaspacheco.com.br/postec-topico-apsen-20g/p",
       "disponivel": true
@@ -20268,7 +20400,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 89.89,
+      "preco": 88.09,
       "nome": "Verutex B Ácido Fusídico 20mg/g + Valerato de Betametasona 1mg/g 15g Creme",
       "url": "https://www.drogariaspacheco.com.br/verutex-b-creme-leo-pharma-15g/p",
       "disponivel": true
@@ -20288,31 +20420,31 @@ const PRECOS_REDES = {
   },
   "med-00738": {
     "paguemenos": {
-      "preco": 58.49,
+      "preco": 53.49,
       "nome": "Primogyna 1mg 28 Comprimidos Revestidos",
       "url": "https://www.paguemenos.com.br/primogyna-1mg-drageas-28-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 58.49,
+      "preco": 53.49,
       "nome": "Primogyna 1mg 28 Comprimidos Revestidos",
       "url": "https://www.extrafarma.com.br/primogyna-1mg-drageas-28-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 58.76,
+      "preco": 58.16,
       "nome": "Primogyna Valerato De Estradiol 1mg 28 Drágeas",
       "url": "https://www.drogariasaopaulo.com.br/primogyna-1mg-bayer-28-drageas-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 90,
-      "nome": "Primogyna Valerato De Estradiol 2mg 28 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/primogyna-2mg-bayer-c-28-comprimidos/p",
+      "preco": 53.5,
+      "nome": "Primogyna Valerato De Estradiol 1mg 28 Drágeas",
+      "url": "https://www.drogariaspacheco.com.br/primogyna-1mg-bayer-28-drageas-/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 49.99,
+      "preco": 54.59,
       "nome": "Primogyna 1mg Bayer 28 Drágeas",
       "url": "https://www.drogariavenancio.com.br/primogyna-1mg-bayer-28-drageas/p",
       "disponivel": true
@@ -20326,13 +20458,13 @@ const PRECOS_REDES = {
   },
   "med-00739": {
     "paguemenos": {
-      "preco": 61.99,
+      "preco": 62.49,
       "nome": "Qlaira 28 Comprimidos",
       "url": "https://www.paguemenos.com.br/qlaira-com-28-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 61.99,
+      "preco": 62.49,
       "nome": "Qlaira 28 Comprimidos",
       "url": "https://www.extrafarma.com.br/qlaira-com-28-comprimidos/p",
       "disponivel": true
@@ -20350,7 +20482,7 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "venancio": {
-      "preco": 62.55,
+      "preco": 62.87,
       "nome": "Qlaira Bayer 28 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/qlaira-bayer-28-comprimidos-revestidos/p",
       "disponivel": true
@@ -20364,25 +20496,25 @@ const PRECOS_REDES = {
   },
   "med-00742": {
     "paguemenos": {
-      "preco": 16.19,
-      "nome": "Valproato de Sódio 50mg/ml Xarope 100ml + Copo Medidor Genérico Prati-Donaduzzi",
-      "url": "https://www.paguemenos.com.br/valproato-de-sodio-50ml-xarope-com-100ml-generico-prati-donaduzzi/p",
+      "preco": 15.49,
+      "nome": "Lavie 50mg/ml Sabor Cereja Xarope 100ml + Copo Dosador",
+      "url": "https://www.paguemenos.com.br/lavie-50mg-ml-xarope-100ml/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 16.19,
-      "nome": "Valproato de Sódio 50mg/ml Xarope 100ml + Copo Medidor Genérico Prati-Donaduzzi",
-      "url": "https://www.extrafarma.com.br/valproato-de-sodio-50ml-xarope-com-100ml-generico-prati-donaduzzi/p",
+      "preco": 15.49,
+      "nome": "Lavie 50mg/ml Sabor Cereja Xarope 100ml + Copo Dosador",
+      "url": "https://www.extrafarma.com.br/lavie-50mg-ml-xarope-100ml/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 16.51,
-      "nome": "Valproato de Sódio 50mg/ml Genérico Prati Donaduzzi 100ml Xarope Cereja + Copo Medidor",
-      "url": "https://www.drogariasaopaulo.com.br/valproato-de-sodio-50mg-ml-generico-prati-donaduzzi-cereja-100ml-xarope-copo-medidor-/p",
+      "preco": 16.03,
+      "nome": "Lavie Valproato De Sódio 50 Mg/Ml 100ml",
+      "url": "https://www.drogariasaopaulo.com.br/lavie-50-mg-ml-prati-donaduzzi-100ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 15.06,
+      "preco": 14.76,
       "nome": "Lavie Valproato De Sódio 50 Mg/Ml 100ml",
       "url": "https://www.drogariaspacheco.com.br/lavie-50-mg-ml-prati-donaduzzi-100ml/p",
       "disponivel": true
@@ -20402,25 +20534,25 @@ const PRECOS_REDES = {
   },
   "med-00759": {
     "paguemenos": {
-      "preco": 21.59,
+      "preco": 19.59,
       "nome": "Ácido Valproico 250mg 25 Cápsulas Moles Genérico Biolab",
       "url": "https://www.paguemenos.com.br/acido-valproico-250mg-com-25-capsulas-generico-biolab/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 21.59,
+      "preco": 19.59,
       "nome": "Ácido Valproico 250mg 25 Cápsulas Moles Genérico Biolab",
       "url": "https://www.extrafarma.com.br/acido-valproico-250mg-com-25-capsulas-generico-biolab/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 29.23,
+      "preco": 28.94,
       "nome": "Depakene Ácido Valproico 50mg/ml 100ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/depakene-xarope-250mg5ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 24.32,
+      "preco": 23.83,
       "nome": "Depakene Ácido Valproico 50mg/ml 100ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/depakene-xarope-250mg5ml/p",
       "disponivel": true
@@ -20440,25 +20572,25 @@ const PRECOS_REDES = {
   },
   "med-00744": {
     "paguemenos": {
-      "preco": 10.19,
+      "preco": 10.49,
       "nome": "Marevan 5mg 10 Comprimidos",
       "url": "https://www.paguemenos.com.br/marevan-5mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.19,
+      "preco": 10.49,
       "nome": "Marevan 5mg 10 Comprimidos",
       "url": "https://www.extrafarma.com.br/marevan-5mg-com-10-comprimidos/p",
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 11.8,
+      "preco": 11.68,
       "nome": "Marevan Varfarina Sódica 5mg 10 comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/marevan-50mg-farmoquimica-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 9.89,
+      "preco": 9.69,
       "nome": "Marevan Varfarina Sódica 5mg 10 comprimidos",
       "url": "https://www.drogariaspacheco.com.br/marevan-50mg-farmoquimica-10-comprimidos/p",
       "disponivel": true
@@ -20490,19 +20622,19 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 58.59,
+      "preco": 64.45,
       "nome": "Vildagliptina 50mg Genérico Althaia 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/vildagliptina-50mg-generico-althaia-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 57.59,
+      "preco": 63.35,
       "nome": "Vildagliptina 50mg Genérico Natcofarma Brasil 28 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/vildagliptina-50mg-generico-natcofarma-brasil-28-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 81.13,
+      "preco": 48.19,
       "nome": "Vildagliptina Althaia 50mg 30 comprimidos",
       "url": "https://www.drogariavenancio.com.br/vildagliptina-althaia-50mg-30-comprimidos/p",
       "disponivel": true
@@ -20517,13 +20649,13 @@ const PRECOS_REDES = {
   "med-00733": {
     "paguemenos": {
       "preco": 1094.99,
-      "nome": "Vacina Abrysvo ( Vírus Sincicial Respiratório) Pfizer",
+      "nome": "Vacina Abrysvo Contra VSR Vírus Sincicial Respiratório",
       "url": "https://www.paguemenos.com.br/vacina-abrysvo-virus-sincicial-respiratorio-pfizer/p",
       "disponivel": true
     },
     "extrafarma": {
       "preco": 1094.99,
-      "nome": "Vacina Abrysvo ( Vírus Sincicial Respiratório) Pfizer",
+      "nome": "Vacina Abrysvo Contra VSR Vírus Sincicial Respiratório",
       "url": "https://www.extrafarma.com.br/vacina-abrysvo-virus-sincicial-respiratorio-pfizer/p",
       "disponivel": true
     }
@@ -20572,13 +20704,13 @@ const PRECOS_REDES = {
   },
   "med-00756": {
     "paguemenos": {
-      "preco": 10.99,
+      "preco": 10.19,
       "nome": "Ácido Mefenâmico 500mg 12 Comprimidos Genérico Medley",
       "url": "https://www.paguemenos.com.br/acido-mefenamico-500mg-com-12-comprimidos-generico-medley/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 10.99,
+      "preco": 10.19,
       "nome": "Ácido Mefenâmico 500mg 12 Comprimidos Genérico Medley",
       "url": "https://www.extrafarma.com.br/acido-mefenamico-500mg-com-12-comprimidos-generico-medley/p",
       "disponivel": true
@@ -20587,16 +20719,16 @@ const PRECOS_REDES = {
       "preco": 11.59,
       "nome": "Ácido Mefenâmico 500mg Genérico Medley 12 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/acido-mefenamico-500mg-generico-medley-12-comprimidos/p",
-      "disponivel": true
+      "disponivel": false
     },
     "pacheco": {
-      "preco": 10.99,
+      "preco": 12.09,
       "nome": "Ácido Mefenâmico 500mg Genérico Medley 12 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/acido-mefenamico-500mg-generico-medley-12-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 10.89,
+      "preco": 10.32,
       "nome": "Ácido Mefenamico 500mg Medley 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/acido-mefenamico-500mg-medley-12-comprimidos/p",
       "disponivel": true
@@ -20648,13 +20780,13 @@ const PRECOS_REDES = {
   },
   "med-00758": {
     "paguemenos": {
-      "preco": 67.49,
+      "preco": 57.99,
       "nome": "Ursacol 50mg 30 Comprimidos",
       "url": "https://www.paguemenos.com.br/ursacol-50mg-cpd-30/p",
       "disponivel": true
     },
     "extrafarma": {
-      "preco": 67.49,
+      "preco": 57.99,
       "nome": "Ursacol 50mg 30 Comprimidos",
       "url": "https://www.extrafarma.com.br/ursacol-50mg-cpd-30/p",
       "disponivel": true
@@ -20672,7 +20804,7 @@ const PRECOS_REDES = {
       "disponivel": false
     },
     "venancio": {
-      "preco": 62.39,
+      "preco": 56.89,
       "nome": "Ursacol 50mg Zambon 30 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/ursacol-50mg-zambon-30-comprimidos/p",
       "disponivel": true
@@ -20684,7 +20816,161 @@ const PRECOS_REDES = {
       "disponivel": true
     }
   },
+  "med-00030": {
+    "paguemenos": {
+      "preco": 75.99,
+      "nome": "Adapaleno + Peróxido De Benzoíla 30g Genérico Nova Química",
+      "url": "https://www.paguemenos.com.br/adapaleno-mais-peroxido-de-benzoila-30g-generico-nova-quimica/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 75.99,
+      "nome": "Adapaleno + Peróxido De Benzoíla 30g Genérico Nova Química",
+      "url": "https://www.extrafarma.com.br/adapaleno-mais-peroxido-de-benzoila-30g-generico-nova-quimica/p",
+      "disponivel": true
+    }
+  },
+  "med-00223": {
+    "paguemenos": {
+      "preco": 176.44,
+      "nome": "Dapagliflozina 10mg + Cloridrato De Metformina 1g 30 Comprimidos Revestidos De Liberação Prolongada Genérico Eurofarma",
+      "url": "https://www.paguemenos.com.br/dapagliflozina-10mg-mais-cloridrato-de-metformina-1g-30-comprimidos-revestidos-de-liberacao-prolongada-generico-eurofarma/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 176.44,
+      "nome": "Dapagliflozina 10mg + Cloridrato De Metformina 1g 30 Comprimidos Revestidos De Liberação Prolongada Genérico Eurofarma",
+      "url": "https://www.extrafarma.com.br/dapagliflozina-10mg-mais-cloridrato-de-metformina-1g-30-comprimidos-revestidos-de-liberacao-prolongada-generico-eurofarma/p",
+      "disponivel": true
+    },
+    "drogariasaopaulo": {
+      "preco": 177.65,
+      "nome": "Xigduo XR Dapagliflozina 10mg + Cloridrato de Metformina 1000mg 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/xigduo-xr-10mg-1000mg-astrazeneca-30-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 183.26,
+      "nome": "Xigduo XR Dapagliflozina 10mg + Cloridrato de Metformina 1000mg 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/xigduo-xr-10mg-1000mg-astrazeneca-30-comprimidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 188.9,
+      "nome": "Xigduo Xr 10mg + 1000mg Astrazeneca 30 Comprimidos De Liberação Prolongada",
+      "url": "https://www.drogariavenancio.com.br/xigduo-xr-10mg---1000mg-astrazeneca-30-comprimidos-de-liberacao-prolongada/p",
+      "disponivel": true
+    },
+    "panvel": {
+      "preco": 229.99,
+      "nome": "Xigduo Xr Dapagliflozina 5mg + Cloridrato De Metformina 1000mg 60 Comprimidos",
+      "url": "https://www.panvel.com/panvel/xigduo-xr-dapagliflozina-5mg-cloridrato-de-metformina-1000mg-60-comprimidos/p-460570",
+      "disponivel": true
+    }
+  },
+  "med-00320": {
+    "paguemenos": {
+      "preco": 12.99,
+      "nome": "Dicloridrato de Flunarizina 10mg 50 Comprimidos Genérico Vitamedic",
+      "url": "https://www.paguemenos.com.br/dicloridrato-de-flunarizina-10mg-com-50-comprimidos-generico-vitamedic/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 12.99,
+      "nome": "Dicloridrato de Flunarizina 10mg 50 Comprimidos Genérico Vitamedic",
+      "url": "https://www.extrafarma.com.br/dicloridrato-de-flunarizina-10mg-com-50-comprimidos-generico-vitamedic/p",
+      "disponivel": true
+    },
+    "drogariasaopaulo": {
+      "preco": 11.36,
+      "nome": "Vertigium Dicloridrato De Flunarizina 10mg 50 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/vertigium-10mg-elite-50-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 11.36,
+      "nome": "Vertigium Dicloridrato De Flunarizina 10mg 50 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/vertigium-10mg-elite-50-comprimidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 12.39,
+      "nome": "Vertigium 10mg Neo Química 50 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/vertigium-10mg-neo-quimica-50-comprimidos/p",
+      "disponivel": true
+    }
+  },
+  "med-00323": {
+    "paguemenos": {
+      "preco": 110.99,
+      "nome": "Dicloridrato de Manidipino 10mg 30 Comprimidos Genérico Pharlab",
+      "url": "https://www.paguemenos.com.br/dicloridrato-de-manidipino-10mg-com-30-comprimidos-generico-pharlab/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 110.99,
+      "nome": "Dicloridrato de Manidipino 10mg 30 Comprimidos Genérico Pharlab",
+      "url": "https://www.extrafarma.com.br/dicloridrato-de-manidipino-10mg-com-30-comprimidos-generico-pharlab/p",
+      "disponivel": true
+    },
+    "drogariasaopaulo": {
+      "preco": 97.59,
+      "nome": "Manivasc Dicloridrato De Manidipino 10mg 14 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/manivasc-10mg-chiesi-14-comprimidos/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 92.99,
+      "nome": "Manivasc Dicloridrato De Manidipino 10mg 14 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/manivasc-10mg-chiesi-14-comprimidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 121.34,
+      "nome": "Dicloridrato De Manidipino 10mg Pharlab 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/dicloridrato-de-manidipino-10mg-pharlab-30-comprimidos/p",
+      "disponivel": true
+    }
+  },
+  "med-00324": {
+    "paguemenos": {
+      "preco": 8.99,
+      "nome": "Meclin Move 25mg 5 Comprimidos",
+      "url": "https://www.paguemenos.com.br/meclin-move-25mg-5-comprimidos/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 8.99,
+      "nome": "Meclin Move 25mg 5 Comprimidos",
+      "url": "https://www.extrafarma.com.br/meclin-move-25mg-5-comprimidos/p",
+      "disponivel": true
+    },
+    "drogariasaopaulo": {
+      "preco": 17.74,
+      "nome": "Meclin JET Dicloridrato De Meclozina 25mg 10 Comprimidos Mastigáveis",
+      "url": "https://www.drogariasaopaulo.com.br/meclin-jet-25mg-tangerina-apsen-10-comprimidos-mastigaveis/p",
+      "disponivel": true
+    },
+    "pacheco": {
+      "preco": 17.63,
+      "nome": "Naucloz Dicloridrato de Meclozina Monoidratado + Cloridrato de Meclizina 25mg 10 Comprimidos Orodispersíveis",
+      "url": "https://www.drogariaspacheco.com.br/naucloz-25mg-ache-10-comprimidos-orodispersiveis/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 11.69,
+      "nome": "Meclin Move 25mg 5 comprimidos",
+      "url": "https://www.drogariavenancio.com.br/meclin-25mg-5com/p",
+      "disponivel": true
+    }
+  },
   "med-00358": {
+    "paguemenos": {
+      "preco": 99.9,
+      "nome": "Empagliflozina 25mg 30 Comprimidos Revestidos Genérico Ems",
+      "url": "https://www.paguemenos.com.br/empagliflozina-25mg-30-comprimidos-revestidos-generico-ems/p",
+      "disponivel": true
+    },
     "extrafarma": {
       "preco": 99.9,
       "nome": "Empagliflozina 25mg 30 Comprimidos Revestidos Genérico Ems",
@@ -20692,15 +20978,15 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "drogariasaopaulo": {
-      "preco": 95.5,
-      "nome": "Empagliflozina 25mg Genérico Ems 30 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/empagliflozina-25mg-generico-ems-30-comprimidos/p",
+      "preco": 105.59,
+      "nome": "Empagliflozina 10mg Genérico Ems 30 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/empagliflozina-10mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 95.5,
-      "nome": "Empagliflozina 25mg Genérico Ems 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/empagliflozina-25mg-generico-ems-30-comprimidos/p",
+      "preco": 105.59,
+      "nome": "Empagliflozina 10mg Genérico Ems 30 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/empagliflozina-10mg-generico-ems-30-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
@@ -20713,6 +20999,38 @@ const PRECOS_REDES = {
       "preco": 338.42,
       "nome": "Jardiance Duo Empagliflozina 12,5mg + Cloridrato De Metformina 850mg 60 Comprimidos Revestidos",
       "url": "https://www.panvel.com/panvel/jardiance-duo-empagliflozina-125mg-cloridrato-de-metformina-850mg-60-comprimidos-revestidos/p-99238",
+      "disponivel": true
+    }
+  },
+  "med-00647": {
+    "paguemenos": {
+      "preco": 2525.51,
+      "nome": "Riluzol 50mg 56 Comprimidos Revestidos",
+      "url": "https://www.paguemenos.com.br/riluzol-50mg-56-comprimidos-revestidos/p",
+      "disponivel": true
+    },
+    "extrafarma": {
+      "preco": 2525.51,
+      "nome": "Riluzol 50mg 56 Comprimidos Revestidos",
+      "url": "https://www.extrafarma.com.br/riluzol-50mg-56-comprimidos-revestidos/p",
+      "disponivel": true
+    },
+    "drogariasaopaulo": {
+      "preco": 1253.59,
+      "nome": "Riluzol 50mg Genérico Cristália 56 Comprimidos",
+      "url": "https://www.drogariasaopaulo.com.br/riluzol-50mg-generico-cristalia-56-comprimidos/p",
+      "disponivel": false
+    },
+    "pacheco": {
+      "preco": 1168.59,
+      "nome": "Riluzol 50mg Genérico Cristália 56 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/riluzol-50mg-generico-cristalia-56-comprimidos/p",
+      "disponivel": false
+    },
+    "panvel": {
+      "preco": 2434.23,
+      "nome": "Riluzol 50mg 56comprimidos Revestidosestidos Cristalia Genérico",
+      "url": "https://www.panvel.com/panvel/riluzol-50mg-56comprimidos-revestidosestidos-cristalia-generico/p-693940",
       "disponivel": true
     }
   },
@@ -20738,13 +21056,13 @@ const PRECOS_REDES = {
   },
   "med-00051": {
     "drogariasaopaulo": {
-      "preco": 82.88,
+      "preco": 82.05,
       "nome": "Tericin AT Cloridrato de Tetraciclina 25mg/g + Anfotericina B 12,5mg/g 45g Creme Vaginal + 10 Aplicadores",
       "url": "https://www.drogariasaopaulo.com.br/tericin-at-creme-vaginal-apsen-45g-10-aplicadores/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 64.79,
+      "preco": 63.49,
       "nome": "Tericin AT Cloridrato de Tetraciclina 25mg/g + Anfotericina B 12,5mg/g 45g Creme Vaginal + 10 Aplicadores",
       "url": "https://www.drogariaspacheco.com.br/tericin-at-creme-vaginal-apsen-45g-10-aplicadores/p",
       "disponivel": true
@@ -20784,13 +21102,13 @@ const PRECOS_REDES = {
   },
   "med-00075": {
     "drogariasaopaulo": {
-      "preco": 84.46,
+      "preco": 83.6,
       "nome": "Betalor Besilato de Anlodipino 5mg + Atenolol 25mg 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/betalor-525mg-biosintetica-30-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 77.19,
+      "preco": 75.65,
       "nome": "Betalor Besilato de Anlodipino 5mg + Atenolol 50mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/betalor-550mg-biosintetica-30-capsulas/p",
       "disponivel": true
@@ -20804,27 +21122,27 @@ const PRECOS_REDES = {
   },
   "med-00076": {
     "drogariasaopaulo": {
-      "preco": 148.59,
-      "nome": "Olmecor Triplo Olmesartana Medoxomila 40mg + Besilato de Anlodipino 10mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
-      "url": "https://www.drogariasaopaulo.com.br/olmecor-triplo-12-5mg-torrent-30-comprimidos-revestidos/p",
+      "preco": 131.67,
+      "nome": "Olmecor Triplo Olmesartana Medoxomila 20mg + Besilato de Anlodipino 5mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariasaopaulo.com.br/olmecor-triplo-20mg-torrent-30-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 143.54,
-      "nome": "Olmecor Triplo Olmesartana Medoxomila 40mg + Besilato de Anlodipino 10mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/olmecor-triplo-12-5mg-torrent-30-comprimidos-revestidos/p",
+      "preco": 129.68,
+      "nome": "Olmecor Triplo Olmesartana Medoxomila 20mg + Besilato de Anlodipino 5mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/olmecor-triplo-20mg-torrent-30-comprimidos-revestidos/p",
       "disponivel": true
     }
   },
   "med-00077": {
     "drogariasaopaulo": {
-      "preco": 87.98,
+      "preco": 87.09,
       "nome": "Lotar Besilato de Anlodipino 5mg + Losartana Potássica 50mg 30 Cápsulas",
       "url": "https://www.drogariasaopaulo.com.br/lotar-5-50mg-biosintetica-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 70.49,
+      "preco": 67.71,
       "nome": "Lotar Besilato de Anlodipino 5mg + Losartana Potássica 50mg 30 Cápsulas",
       "url": "https://www.drogariaspacheco.com.br/lotar-5-50mg-biosintetica-30-comprimidos/p",
       "disponivel": true
@@ -20838,13 +21156,13 @@ const PRECOS_REDES = {
   },
   "med-00123": {
     "drogariasaopaulo": {
-      "preco": 7.67,
+      "preco": 7.6,
       "nome": "Beserol Paracetamol 300mg + Carisoprodol 125mg + Diclofenaco Sódico 50mg + Cafeína 30mg 4 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/beserol-daudt-4-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 7.69,
+      "preco": 7.54,
       "nome": "Beserol Paracetamol 300mg + Carisoprodol 125mg + Diclofenaco Sódico 50mg + Cafeína 30mg 4 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/beserol-daudt-4-comprimidos/p",
       "disponivel": true
@@ -20864,13 +21182,13 @@ const PRECOS_REDES = {
   },
   "med-00507": {
     "drogariasaopaulo": {
-      "preco": 23.69,
+      "preco": 26.39,
       "nome": "Clonixinato de Lisina 125mg + Cloridrato de Ciclobenzaprin 5mg Genérico EMS 15 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/clonixinato-de-lisina-cloridrato-de-ciclobenzaprin-generico-ems-15-comprimidos-revestidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 23.69,
+      "preco": 26.39,
       "nome": "Clonixinato de Lisina 125mg + Cloridrato de Ciclobenzaprin 5mg Genérico EMS 15 Comprimidos Revestidos",
       "url": "https://www.drogariaspacheco.com.br/clonixinato-de-lisina-cloridrato-de-ciclobenzaprin-generico-ems-15-comprimidos-revestidos/p",
       "disponivel": true
@@ -20884,15 +21202,15 @@ const PRECOS_REDES = {
   },
   "med-00182": {
     "drogariasaopaulo": {
-      "preco": 36.62,
+      "preco": 36.25,
       "nome": "Benziflex Lis Cloridrato de Ciclobenzaprina 5mg + Clonixinato de Lisina 125mg 15 Comprimidos Revestidos",
       "url": "https://www.drogariasaopaulo.com.br/benziflex-liz-5mg125mg-15cp-/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 36.99,
-      "nome": "Benziflex Lis Cloridrato de Ciclobenzaprina 5mg + Clonixinato de Lisina 125mg 15 Comprimidos Revestidos",
-      "url": "https://www.drogariaspacheco.com.br/benziflex-liz-5mg125mg-15cp-/p",
+      "preco": 33.68,
+      "nome": "Miogesic Lis Clonixinato de Lisina 125mg + Cloridrato de Ciclobenzaprina 5mg 15 Comprimidos Revestidos",
+      "url": "https://www.drogariaspacheco.com.br/miogesic-lis-125mg-caixa-15-comprimidos-revestidos-ems/p",
       "disponivel": true
     },
     "venancio": {
@@ -20908,35 +21226,15 @@ const PRECOS_REDES = {
       "disponivel": true
     }
   },
-  "med-00324": {
-    "drogariasaopaulo": {
-      "preco": 18.56,
-      "nome": "Naucloz Dicloridrato de Meclozina Monoidratado + Cloridrato de Meclizina 25mg 10 Comprimidos Orodispersíveis",
-      "url": "https://www.drogariasaopaulo.com.br/naucloz-25mg-ache-10-comprimidos-orodispersiveis/p",
-      "disponivel": true
-    },
-    "pacheco": {
-      "preco": 14.53,
-      "nome": "Naucloz Dicloridrato de Meclozina Monoidratado + Cloridrato de Meclizina 25mg 10 Comprimidos Orodispersíveis",
-      "url": "https://www.drogariaspacheco.com.br/naucloz-25mg-ache-10-comprimidos-orodispersiveis/p",
-      "disponivel": true
-    },
-    "venancio": {
-      "preco": 11.59,
-      "nome": "Naucloz 25mg Aché 10 Comprimidos",
-      "url": "https://www.drogariavenancio.com.br/naucloz-25mg-10com/p",
-      "disponivel": true
-    }
-  },
   "med-00207": {
     "drogariasaopaulo": {
-      "preco": 51.47,
+      "preco": 48.21,
       "nome": "Allexofedrin D Cloridrato de Fexofenadina 60mg + Cloridrato de Pseudoefedrina 120mg 10 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/allexofedrin-d-60-120mg-ems-10-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 49.16,
+      "preco": 48.21,
       "nome": "Allexofedrin D Cloridrato de Fexofenadina 60mg + Cloridrato de Pseudoefedrina 120mg 10 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/allexofedrin-d-60-120mg-ems-10-comprimidos/p",
       "disponivel": true
@@ -20948,41 +21246,15 @@ const PRECOS_REDES = {
       "disponivel": true
     }
   },
-  "med-00223": {
-    "drogariasaopaulo": {
-      "preco": 212.65,
-      "nome": "Xigduo XR Dapagliflozina 5mg + Cloridrato de Metformina 1000mg 60 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/xigduo-xr-5mg-1000mg-astrazeneca-60-comprimidos/p",
-      "disponivel": true
-    },
-    "pacheco": {
-      "preco": 206.99,
-      "nome": "Xigduo XR Dapagliflozina 10mg + Cloridrato de Metformina 1000mg 30 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/xigduo-xr-10mg-1000mg-astrazeneca-30-comprimidos/p",
-      "disponivel": true
-    },
-    "venancio": {
-      "preco": 213.19,
-      "nome": "Xigduo Xr 10mg + 1000mg Astrazeneca 30 Comprimidos De Liberação Prolongada",
-      "url": "https://www.drogariavenancio.com.br/xigduo-xr-10mg---1000mg-astrazeneca-30-comprimidos-de-liberacao-prolongada/p",
-      "disponivel": true
-    },
-    "panvel": {
-      "preco": 229.99,
-      "nome": "Xigduo Xr Dapagliflozina 5mg + Cloridrato De Metformina 1000mg 60 Comprimidos",
-      "url": "https://www.panvel.com/panvel/xigduo-xr-dapagliflozina-5mg-cloridrato-de-metformina-1000mg-60-comprimidos/p-460570",
-      "disponivel": true
-    }
-  },
   "med-00226": {
     "drogariasaopaulo": {
-      "preco": 67.07,
+      "preco": 66.4,
       "nome": "Meritor Glimepirida 2mg + Metformina 1000mg 30 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/meritor-2-1000mg-ache-30-comprimidos/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 56.09,
+      "preco": 54.97,
       "nome": "Meritor Glimepirida 2mg + Metformina 1000mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/meritor-2-1000mg-ache-30-comprimidos/p",
       "disponivel": true
@@ -21062,19 +21334,19 @@ const PRECOS_REDES = {
   },
   "med-00307": {
     "drogariasaopaulo": {
-      "preco": 45.25,
+      "preco": 44.8,
       "nome": "Tobracort Dexametasona 3mg/g + Tobramicina 1mg/g 3,5g Pomada",
       "url": "https://www.drogariasaopaulo.com.br/tobracort-pomada-uniao-quimica-3-5g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 42.69,
-      "nome": "Tobradex Tobramicina 3mg/ml + Dexametasona 1mg/ml 5ml Solução Oftálmica",
-      "url": "https://www.drogariaspacheco.com.br/tobradex-solucao-oftalmologica-0-3-0-1-novartis-biociencias-5ml/p",
+      "preco": 40.37,
+      "nome": "Tobracort Dexametasona 3mg/g + Tobramicina 1mg/g 3,5g Pomada",
+      "url": "https://www.drogariaspacheco.com.br/tobracort-pomada-uniao-quimica-3-5g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 36.09,
+      "preco": 35.39,
       "nome": "Tobracort Sol Oftalmico Frasco 5 Ml",
       "url": "https://www.drogariavenancio.com.br/tobracort-sol-oftalmico-frasco-5-ml/p",
       "disponivel": true
@@ -21092,17 +21364,23 @@ const PRECOS_REDES = {
       "nome": "Slinda Drospirenona 4mg 28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/slinda-24mg-exeltis-28-comprimidos/p",
       "disponivel": true
+    },
+    "pacheco": {
+      "preco": 101.4,
+      "nome": "Slinda Drospirenona 4mg 28 Comprimidos",
+      "url": "https://www.drogariaspacheco.com.br/slinda-24mg-exeltis-28-comprimidos/p",
+      "disponivel": true
     }
   },
   "med-00441": {
     "drogariasaopaulo": {
-      "preco": 38.8,
+      "preco": 46.99,
       "nome": "Abrilar Hedera Helix L. 7mg/ml 100ml Xarope",
       "url": "https://www.drogariasaopaulo.com.br/abrilar-xarope-farmoquimica-100ml/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 38.8,
+      "preco": 46.99,
       "nome": "Abrilar Hedera Helix L. 7mg/ml 100ml Xarope",
       "url": "https://www.drogariaspacheco.com.br/abrilar-xarope-farmoquimica-100ml/p",
       "disponivel": true
@@ -21122,19 +21400,19 @@ const PRECOS_REDES = {
   },
   "med-00411": {
     "drogariasaopaulo": {
-      "preco": 26.44,
+      "preco": 26.18,
       "nome": "Efurix Fluoruracila 50mg/g  15g Creme",
       "url": "https://www.drogariasaopaulo.com.br/efurix-creme-icn-15g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 26.71,
+      "preco": 26.18,
       "nome": "Efurix Fluoruracila 50mg/g  15g Creme",
       "url": "https://www.drogariaspacheco.com.br/efurix-creme-icn-15g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 12.3,
+      "preco": 12.87,
       "nome": "Fluoruracila 50mg/ml Solução Injetável 10ml Accord Farmaceutica",
       "url": "https://www.drogariavenancio.com.br/fluoruracila-50mg-ml-accord-solucao-injetavel-10ml/p",
       "disponivel": false
@@ -21234,13 +21512,13 @@ const PRECOS_REDES = {
       "disponivel": true
     },
     "pacheco": {
-      "preco": 54.29,
+      "preco": 48.96,
       "nome": "Nidue Nimesulida 100mg + Pantoprazol Sódico Sesqui-hidratado 20mg 12 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/nidue-100mg---20mg-germed-pharma-12-comprimidos/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 57.09,
+      "preco": 57.9,
       "nome": "Nivux 100mg + 20mg Ems 12 Comprimidos",
       "url": "https://www.drogariavenancio.com.br/nivux-12-comprimidos/p",
       "disponivel": true
@@ -21254,13 +21532,13 @@ const PRECOS_REDES = {
   },
   "med-00602": {
     "drogariasaopaulo": {
-      "preco": 17.99,
+      "preco": 17.59,
       "nome": "Pantoprazol Sódico 40mg Genérico Cimed 28 Comprimidos",
       "url": "https://www.drogariasaopaulo.com.br/pantoprazol-sodico-40mg-generico-cimed-28-capsulas/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 16.99,
+      "preco": 17.59,
       "nome": "Pantoprazol Sódico 40mg Genérico Cimed 28 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/pantoprazol-sodico-40mg-generico-cimed-28-capsulas/p",
       "disponivel": true
@@ -21324,26 +21602,6 @@ const PRECOS_REDES = {
       "disponivel": true
     }
   },
-  "med-00647": {
-    "drogariasaopaulo": {
-      "preco": 1253.59,
-      "nome": "Riluzol 50mg Genérico Cristália 56 Comprimidos",
-      "url": "https://www.drogariasaopaulo.com.br/riluzol-50mg-generico-cristalia-56-comprimidos/p",
-      "disponivel": false
-    },
-    "pacheco": {
-      "preco": 1168.59,
-      "nome": "Riluzol 50mg Genérico Cristália 56 Comprimidos",
-      "url": "https://www.drogariaspacheco.com.br/riluzol-50mg-generico-cristalia-56-comprimidos/p",
-      "disponivel": false
-    },
-    "panvel": {
-      "preco": 2434.23,
-      "nome": "Riluzol 50mg 56comprimidos Revestidosestidos Cristalia Genérico",
-      "url": "https://www.panvel.com/panvel/riluzol-50mg-56comprimidos-revestidosestidos-cristalia-generico/p-693940",
-      "disponivel": true
-    }
-  },
   "med-00670": {
     "drogariasaopaulo": {
       "preco": 70.28,
@@ -21355,6 +21613,12 @@ const PRECOS_REDES = {
       "preco": 70.99,
       "nome": "Desenvo Succinato de Desvenlafaxina Monoidratado 50mg 30 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/desenvo-50mg-biosintetica-30-comprimidos-revestidos/p",
+      "disponivel": true
+    },
+    "venancio": {
+      "preco": 45.99,
+      "nome": "Desvenlafaxina HCL 50mg Teuto 28 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/succin-desvenlafaxina-50mg-28com--c1--g--teuto/p",
       "disponivel": true
     },
     "panvel": {
@@ -21386,13 +21650,13 @@ const PRECOS_REDES = {
   },
   "med-00706": {
     "drogariasaopaulo": {
-      "preco": 313.05,
+      "preco": 296.4,
       "nome": "Androgel Testosterona 50mg 30 Envelopes de 5g Gel Transdérmico",
       "url": "https://www.drogariasaopaulo.com.br/androgel-50mg-besins-healthcare-30x5g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 329.09,
+      "preco": 299.87,
       "nome": "Androgel Testosterona 50mg 30 Envelopes de 5g Gel Transdérmico",
       "url": "https://www.drogariaspacheco.com.br/androgel-50mg-besins-healthcare-30x5g/p",
       "disponivel": true
@@ -21412,19 +21676,19 @@ const PRECOS_REDES = {
   },
   "med-00753": {
     "drogariasaopaulo": {
-      "preco": 66.32,
+      "preco": 72.25,
       "nome": "Azelan Gel 150mg/g LEO Pharma 1 Bisnaga com 30g",
       "url": "https://www.drogariasaopaulo.com.br/azelan-gel-30g/p",
       "disponivel": true
     },
     "pacheco": {
-      "preco": 70.54,
+      "preco": 71.52,
       "nome": "Azelan Gel 150mg/g LEO Pharma 1 Bisnaga com 30g",
       "url": "https://www.drogariaspacheco.com.br/azelan-gel-30g/p",
       "disponivel": true
     },
     "venancio": {
-      "preco": 73.59,
+      "preco": 92.31,
       "nome": "Zella 150mg/g Mantecorp Gel 30g",
       "url": "https://www.drogariavenancio.com.br/zella-gel-30g/p",
       "disponivel": true
@@ -21438,7 +21702,7 @@ const PRECOS_REDES = {
   },
   "med-00287": {
     "pacheco": {
-      "preco": 34.99,
+      "preco": 37.9,
       "nome": "OsteoFix Carbonato de Cálcio 1250mg 200UI 60 Comprimidos",
       "url": "https://www.drogariaspacheco.com.br/osteofix-carbonato-de-calcio-1250mg-200ui-60-comprimidos-935193484/p",
       "disponivel": true
@@ -21468,7 +21732,7 @@ const PRECOS_REDES = {
   },
   "med-00082": {
     "venancio": {
-      "preco": 12390.18,
+      "preco": 12682.39,
       "nome": "REBIF 44MCG 0,5ML 12SER(H)",
       "url": "https://www.drogariavenancio.com.br/rebif-44mcg-05ml-12ser-h-/p",
       "disponivel": false
@@ -21506,7 +21770,7 @@ const PRECOS_REDES = {
   },
   "med-00142": {
     "venancio": {
-      "preco": 180.99,
+      "preco": 173.89,
       "nome": "Citoneurin 5000 Procter & Gamble 60 Comprimidos Revestidos",
       "url": "https://www.drogariavenancio.com.br/citoneurin-5000-5mg-100mg-100mg-60com/p",
       "disponivel": true
@@ -21638,9 +21902,9 @@ const PRECOS_REDES = {
   },
   "med-00374": {
     "venancio": {
-      "preco": 29.89,
-      "nome": "Drospirenona + Etinilestradiol  3 + 0,02mg  28 Comprimidos Ems",
-      "url": "https://www.drogariavenancio.com.br/drospirenona---etinilestradiol--3---002mg--28-comprimidos-/p",
+      "preco": 23.99,
+      "nome": "Drospirenona + Etinilestradiol 3 + 0,02mg Eurofarma 24 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/drospirenona-etinilestradiol--3-002-mg-24com--g--eurofarma/p",
       "disponivel": true
     }
   },
@@ -21654,7 +21918,7 @@ const PRECOS_REDES = {
   },
   "med-00384": {
     "venancio": {
-      "preco": 980.59,
+      "preco": 969.59,
       "nome": "Implanon 68mg Organon Caixa Com 1 Seringa Implante",
       "url": "https://www.drogariavenancio.com.br/implanon-68mg-caixa-com-1-seringa-implante/p",
       "disponivel": true
@@ -21670,7 +21934,7 @@ const PRECOS_REDES = {
   },
   "med-00394": {
     "venancio": {
-      "preco": 737.67,
+      "preco": 764.89,
       "nome": "Fampridina 10mg 28 Comprimidos Accord Farmaceutica",
       "url": "https://www.drogariavenancio.com.br/fampridina-10mg-accord-28-comprimidos/p",
       "disponivel": false
@@ -21692,9 +21956,9 @@ const PRECOS_REDES = {
   },
   "med-00487": {
     "venancio": {
-      "preco": 24096.89,
-      "nome": "Nuvyor 25mg Eurofarma 14 Cápsulas Duras",
-      "url": "https://www.drogariavenancio.com.br/nuvyor-25mg-eurofarma-14-capsulas-duras/p",
+      "preco": 15562.88,
+      "nome": "Lenalidomida 25mg 14 Cápsulas Duras Sun Pharma",
+      "url": "https://www.drogariavenancio.com.br/lenalidomida-25mg-14-capsulas-duras/p",
       "disponivel": false
     }
   },
@@ -21730,7 +21994,7 @@ const PRECOS_REDES = {
   },
   "med-00553": {
     "venancio": {
-      "preco": 17.48,
+      "preco": 18.89,
       "nome": "Hytas 25mg/ml Solução injetável Frasco-ampola 2ml",
       "url": "https://www.drogariavenancio.com.br/hytas-25mg-ml-solucao-injetavel-frasco-ampola-2ml/p",
       "disponivel": false
@@ -21782,7 +22046,7 @@ const PRECOS_REDES = {
   },
   "med-00705": {
     "venancio": {
-      "preco": 1969.79,
+      "preco": 2010.34,
       "nome": "Sondelbay 250mcg/ml Accord Solução Injetável 2,4ml + Caneta aplicadora",
       "url": "https://www.drogariavenancio.com.br/sondelbay-250mcgml-accord-solucao-injetavel-24ml-caneta-aplicadora/p",
       "disponivel": false
@@ -21834,6 +22098,14 @@ const PRECOS_REDES = {
       "nome": "Voriconazol 50mg 14 Comprimidos Revestidos Accord Genérico",
       "url": "https://www.panvel.com/panvel/voriconazol-50mg-14-comprimidos-revestidos-accord-generico/p-486220",
       "disponivel": true
+    }
+  },
+  "med-00639": {
+    "venancio": {
+      "preco": 111,
+      "nome": "Silimalon Vita E 215mg + 200mg 30 Comprimidos",
+      "url": "https://www.drogariavenancio.com.br/silimalon-vita-e-215mg-200mg-30-comprimidos/p",
+      "disponivel": false
     }
   },
   "med-00026": {
@@ -21939,5 +22211,2849 @@ const PRECOS_REDES = {
       "url": "https://www.panvel.com/panvel/climatrix-100mg-30-comprimidos-revestidos/p-57030",
       "disponivel": true
     }
+  }
+};
+
+
+/**
+ * Programas de desconto de laboratório (PBM) - preço menor com cadastro de CPF
+ * no programa do fabricante. Vem dos campos de PBM que as próprias redes VTEX
+ * publicam em cada produto (ver extrair_pbm em scrape_precos_vtex.py).
+ * medicamentoId -> { descontoMax (% ou null), programas: [nomes], redes: {rede: % ou null}, produtos: [nomes] }
+ * Só informativo: não altera preço nem ordenação no app.
+ */
+const PBM_MEDICAMENTOS = {
+  "med-00002": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Aceclofenaco 100mg  Com 12 Comprimidos Genérico-Ranbax"
+    ]
+  },
+  "med-00012": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Eligard 45mg Pó + Diluente (Solução Injetável)",
+      "Eligard 22,5mg Pó Liofilizado para Suspensão Injetável de Liberação Prolongada 1 Seringa com Pó + 1 Seringa com Diluente",
+      "Eligard 45mg Susp Injetável - Zodiac Acetato De Leuprorrelina",
+      "Eligard DS 22,5mg Adium Pó Liofilizado para Suspensão Injetável Inj+Ser(h)"
+    ]
+  },
+  "med-00045": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Novamox 2x 400mg + 57mg Sabor Cereja Pó para Suspensão Oral 70ml",
+      "Novamox 2x 875mg + 125mg 20 Comprimidos Revestidos",
+      "Novamox 2x 875mg + 125mg 14 Comprimidos Revestidos",
+      "Novamox 2x Amoxicilina Tri-hidratada 875mg + Clavulanato de Potássio 125mg 14 comprimidos"
+    ]
+  },
+  "med-00044": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Amoxil 500mg 21 Cápsulas Duras",
+      "Novocilin 875mg 20 Comprimidos",
+      "Amoxil Amoxicilina 500mg 21 Comprimidos"
+    ]
+  },
+  "med-00068": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Nesina 25mg 60 Comprimidos Revestidos",
+      "Nesina 12,5mg 30 Comprimidos Revestidos",
+      "Nesina Met 12,5mg + 850mg 60 Comprimidos Revestidos",
+      "Nesina Benzoato De Alogliptina 12,5mg 30 Comprimidos",
+      "Nesina Benzoato De Alogliptina 25mg 30 Comprimidos"
+    ]
+  },
+  "med-00081": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Persur 2,5mg 60 Comprimidos",
+      "Persur 5mg 30 Comprimidos"
+    ]
+  },
+  "med-00091": {
+    "descontoMax": 45,
+    "programas": [
+      "Cuidados pela vida",
+      "Vale mais saúde"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 45
+    },
+    "produtos": [
+      "Bissulfato de Clopidogrel 75mg 28 Comprimidos Revestidos Genérico Ranbaxy",
+      "Clopin Bissulfato De Clopidogrel 75mg 30 Comprimidos",
+      "Plagrel Bissulfato De Clopidogrel 75mg  28 Comprimidos"
+    ]
+  },
+  "med-00098": {
+    "descontoMax": null,
+    "programas": [
+      "PROGRAMA VIVER ADIUM"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Fenazic 7,5mg 30 Comprimidos Revestidos de Liberação Prolongada",
+      "Fenazic 15mg 30 Comprimidos Revestidos de Liberação Prolongada",
+      "Fenazic Bromidrato De Darifenacina 15mg 30 Comprimidos Revestidos",
+      "Fenazic Bromidrato De Darifenacina 7,5mg 30 Comprimidos",
+      "Fenazic 7,5mg Zodiac 30 Comprimidos"
+    ]
+  },
+  "med-00100": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Evortia 5mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00103": {
+    "descontoMax": 41,
+    "programas": [
+      "Faz bem",
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "paguemenos": 40,
+      "extrafarma": 40,
+      "drogariasaopaulo": 41,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Alenia Fumarato de Formoterol 12mcg + Budesonida 400mcg 60 cápsulas + Inalador",
+      "Symbicort Turbuhaler 12mcg + 400mcg Pó Inalante 60 Doses",
+      "Symbicort Spray 6/200mcg 120 Doses",
+      "Symbicort Spray Fumarato de Formoterol di-hidratado 6mcg + Budesonida 200mcg 120 Doses",
+      "Symbicort Spray Fumarato de Formoterol di-hidratado 6mcg + Budesonida 100mcg 120 Doses"
+    ]
+  },
+  "med-00104": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Alenia Fumarato de Formoterol 6mcg + Budesonida 200mcg 60 cápsulas para inalação Refil"
+    ]
+  },
+  "med-00105": {
+    "descontoMax": null,
+    "programas": [
+      "PROGRAMA CUIDAR - MUNDIPHARMA"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Restiva 5mg 4 Adesivos Transdérmicos",
+      "Restiva 10mg 2 Adesivos Transdérmicos",
+      "Restiva 10mg 4 Adesivos Transdérmicos",
+      "Restiva Buprenorfina 5mcg/h 2 Adesivos Transdérmicos",
+      "Restiva Buprenorfina 10mcg/h 4 Adesivos Transdérmicos"
+    ]
+  },
+  "med-00146": {
+    "descontoMax": 33,
+    "programas": [
+      "Viver mais",
+      "Programas Comerciais Abbvie"
+    ],
+    "redes": {
+      "paguemenos": 33,
+      "extrafarma": 33,
+      "drogariasaopaulo": 33,
+      "pacheco": 33,
+      "venancio": null
+    },
+    "produtos": [
+      "Restasis 0,05% Emulsão Oftálmica 30 Flaconetes",
+      "Restasis Ciclosporina 0,5mg/ml 30 Flaconetes 0,4ml Emulsão",
+      "Restasis 0,05% Allergan 30 Flaconetes"
+    ]
+  },
+  "med-00148": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Cinarizina 75mg 30 Comprimidos Genérico Ranbaxy",
+      "Cinarizina 25mg 30 Comprimidos Genérico Ranbaxy"
+    ]
+  },
+  "med-00196": {
+    "descontoMax": 41,
+    "programas": [
+      "Melhor idade"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 41
+    },
+    "produtos": [
+      "Cloridrato de Donepezila 10mg 30 Comprimidos Revestidos Genérico Ranbaxy",
+      "Eranz Cloridrato De Donepezila 5mg 28 Comprimidos",
+      "Donila Cloridrato De Donepezila 10mg 30 Comprimidos",
+      "Donila Cloridrato De Donepezila 5mg 30 Comprimidos"
+    ]
+  },
+  "med-00199": {
+    "descontoMax": 25,
+    "programas": [],
+    "redes": {
+      "paguemenos": 20,
+      "extrafarma": 20,
+      "drogariasaopaulo": 25,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Dorzal 20mg/ml Solução Oftálmica 5ml",
+      "Dorzal Cloridrato De Dorzolamida 20mg/ml 5ml",
+      "Dorzal 20mg/ml Legrand 5ml Solução Oftálmica"
+    ]
+  },
+  "med-00217": {
+    "descontoMax": 25,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": 25,
+      "venancio": null
+    },
+    "produtos": [
+      "Lutab 80mg 30 Comprimidos Revestidos",
+      "Lutab 20mg 30 Comprimidos Revestidos",
+      "Lutab 40mg 30 Comprimidos Revestidos",
+      "Lutab Cloridrato De Lurasidona 20mg 30 Comprimidos",
+      "Lutab Cloridrato De Lurasidona 40mg 30 Comprimidos"
+    ]
+  },
+  "med-00225": {
+    "descontoMax": 30,
+    "programas": [
+      "RECEITA DE VIDA - MSD",
+      "PROGRAMA RECEITA DE VIDA - MSD"
+    ],
+    "redes": {
+      "paguemenos": 30,
+      "extrafarma": 30,
+      "drogariasaopaulo": null,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Nimegon Met 50mg + 500mg 56 Comprimidos Revestidos",
+      "Nimegon Met 50mg + 850mg 56 Comprimidos Revestidos",
+      "Nimegon Met 50mg + 1000mg 56 Comprimidos Revestidos",
+      "Janumet 50mg + 500mg 56 Comprimidos Revestidos",
+      "Janumet Fosfato de Sitagliptina 50mg + Cloridrato de Metformina 1000mg 56 Comprimidos"
+    ]
+  },
+  "med-00268": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Cloridrato de Tizanidina 2mg 30 Comprimidos Genérico Ranbaxy"
+    ]
+  },
+  "med-00322": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Dicloridrato De Levocetirizina 5mg Com 10 Comprimidos Genérico Ranbaxy"
+    ]
+  },
+  "med-00347": {
+    "descontoMax": 30,
+    "programas": [
+      "Abrace a vida",
+      "Abbott - Abrace a Vida"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 30,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Depakote Er 500mg 60 Comprimidos",
+      "Depakote ER Divalproato De Sódio 250mg 60 Comprimidos",
+      "Depakote Divalproato De Sódio 500mg 30 Comprimidos ER",
+      "Depakote ER Divalproato De Sódio 500mg 60 Comprimidos",
+      "Depakote Er 250mg 30 Comprimidos"
+    ]
+  },
+  "med-00355": {
+    "descontoMax": 25,
+    "programas": [
+      "Viver mais",
+      "Viver Zodiac",
+      "PROGRAMA SOU MAIS VIDA - APSEN",
+      "PROGRAMA VIVER ADIUM"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 25,
+      "pacheco": 25,
+      "venancio": null
+    },
+    "produtos": [
+      "Tanduo 0,5mg + 0,4mg 90 Cápsulas",
+      "Combodart Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 90 Cápsulas",
+      "Combodart Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 30 Cápsulas",
+      "Dutam Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 30 Cápsulas",
+      "Dutam Dutasterida 0,5mg + Cloridrato de Tansulosina 0,4mg 90 Cápsulas"
+    ]
+  },
+  "med-00395": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Penvir 500mg 21 Comprimidos Revestidos",
+      "Penvir Fanciclovir 500mg 21 Comprimidos",
+      "Penvir 500mg Ems 21 Comprimidos Revestidos"
+    ]
+  },
+  "med-00410": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Hormoskin 40mg/g + 0,5mg/g + 0,1mg/g Creme Dermatológico 15g",
+      "Hormoskin Hidroquinona 40mg/g + Tretinoína 0,5mg/g + Fluocinolona Acetonida 0,1mg/g 15g Creme",
+      "Hormoskin Germed 15g Creme Dermatológico"
+    ]
+  },
+  "med-00360": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "paguemenos": 30,
+      "extrafarma": 30,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Volare 40mg/0,4ml Solução Injetável 2 Seringas Preenchidas",
+      "Volare 20mg Solução Injetável 10 Seringas 0,2ml",
+      "Volare 60mg/0,6ml Solução Injetável 2 Seringas",
+      "Volare Enoxaparina Sódica 20mg 6 Seringas com 0,2ml + Sistema de Segurança",
+      "Volare Enoxaparina Sódica 40mg 6 Seringas com 0,4ml + Sistema de Segurança"
+    ]
+  },
+  "med-00449": {
+    "descontoMax": 29,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 29,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Diosmin SDU Diosmina 900mg + Hesperidina 100mg Sabor Laranja e Limão 30 sachês de 5g cada",
+      "Diosmin 450mg/50mg 60 Comprimidos",
+      "Daflon Diosmina 900mg + Hesperidina 100mg 60 Comprimidos",
+      "Diosmin Diosmina 450mg + Hesperidina 50mg 60 Comprimidos",
+      "Diosmin Diosmina 450mg + Hesperidina 50mg 30 Comprimidos"
+    ]
+  },
+  "med-00456": {
+    "descontoMax": 10,
+    "programas": [
+      "EMS Saúde",
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 10,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Brasart HCT Valsartana 160mg + 25mg 30 Comprimidos Revestidos",
+      "Brasart HCT Valsartana 160mg + 12,5mg 90 Comprimidos Revestidos",
+      "Brasart HCT Valsartana 160mg + 12,5mg 30 Comprimidos Revestidos",
+      "Brasart HCT Valsartana 80mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
+      "Diovan HCT Valsartana 320mg + Hidroclorotiazida 12,5mg 28 Comprimidos Revestidos"
+    ]
+  },
+  "med-00651": {
+    "descontoMax": 31.07,
+    "programas": [
+      "Vale mais saúde",
+      "PROGRAMA CAMINHANDO JUNTOS - KNIGHT"
+    ],
+    "redes": {
+      "paguemenos": 31,
+      "extrafarma": 31,
+      "drogariasaopaulo": 31.07,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Exelon Patch 9,5mg/24h 30 Adesivos Transdérmicos",
+      "Exelon Patch 5 4,6mg/24h 30 Adesivos Transdérmicos",
+      "Exelon Rivastigmina 6mg 28 cápsulas",
+      "Exelon Rivastigmina 1,5mg 28 Cápsulas",
+      "Exelon Rivastigmina 3,0mg 28 Cápsulas"
+    ]
+  },
+  "med-00468": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Modik 50mg/g Creme Dermatológico 12 Sachês",
+      "Ixium 50mg/g Creme Dermatológico 12 Sachês 0,25g",
+      "Ixium Imiquimode 50mg 12 Sachês",
+      "Modik Imiquimode 50mg/g 12 Saches Creme Dermatológico",
+      "Ixium 50mg/g Farmoquímica 12 Sachês"
+    ]
+  },
+  "med-00471": {
+    "descontoMax": 24.23,
+    "programas": [],
+    "redes": {
+      "paguemenos": 24.23,
+      "extrafarma": 24.23,
+      "venancio": null
+    },
+    "produtos": [
+      "Fiasp Flextouch 100UI/ml Solução Injetável 3ml 1 Sistema de Aplicação",
+      "Fiasp FlexTouch Solução Injetável 100U/ml 3ml",
+      "Fiasp Penfill 100u/ml 5x3ml"
+    ]
+  },
+  "med-00496": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Folavive 15mg 30 Comprimidos Revestidos",
+      "Folavive Levomefolato de Cálcio 15mg 30 Comprimidos",
+      "Folavive 15mg 30 comprimidos revestidos"
+    ]
+  },
+  "med-00501": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Meciclin 300mg 32 Cápsulas",
+      "Tetralysal 300mg 28 Cápsulas",
+      "Meciclin Limeciclina 300mg 32 Cápsulas",
+      "Tetralysal Limeciclina 300mg 28 cápsulas",
+      "Meciclin 300mg Germed 32 Cápsulas Duras"
+    ]
+  },
+  "med-00502": {
+    "descontoMax": 20,
+    "programas": [
+      "Abraçar a Vida - Boehringer"
+    ],
+    "redes": {
+      "paguemenos": 20,
+      "extrafarma": 20,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Trayenta 5mg 30 Comprimidos",
+      "Trayenta Linagliptina 5mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00504": {
+    "descontoMax": null,
+    "programas": [
+      "Novo dia"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Lirux 6 Mg/Ml Solução Injetável 3 Ml + 1 Caneta",
+      "Victoza Liraglutida 6mg/ml 3ml 2 Canetas Descartáveis",
+      "Olire Liraglutida 6mg 1 Caneta com 3ml Solução Injetável",
+      "Lirux Liraglutida 6mg 1 Caneta com 3ml Solução Injetável",
+      "Lirux Liraglutida 6mg/ml 6ml Solução Injetável 2 Canetas"
+    ]
+  },
+  "med-00531": {
+    "descontoMax": 25,
+    "programas": [
+      "PROGRAMA CUIDAR - MUNDIPHARMA"
+    ],
+    "redes": {
+      "paguemenos": 25,
+      "extrafarma": 25,
+      "drogariasaopaulo": 25,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Dorzal MT 20mg/ml + 5mg/ml Solução Oftálmica 5ml",
+      "Cosopt 2% + 0,5% Solução Oftálmica 10ml",
+      "Dorzal MT Cloridrato de Dorzolamida 20mg/ml + Maleato de Timolol 5mg/ml 5ml",
+      "Cosopt Dorzolamida 2% + Maleato de Timolol 0,5% 10ml Solução Oftálmica",
+      "Dorzal Mt 20mg + 5mg Legrand 5ml Solução Oftálmica"
+    ]
+  },
+  "med-00528": {
+    "descontoMax": 20,
+    "programas": [
+      "Viver mais",
+      "Programas Comerciais Abbvie"
+    ],
+    "redes": {
+      "paguemenos": 20,
+      "extrafarma": 20,
+      "drogariasaopaulo": 20,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Combigan 2mg/ml + 5mg/ml Solução Oftálmica Estéril 5ml",
+      "Combigan 2mg/ml + 5mg/ml Colírio 10ml",
+      "Combigan Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 10ml Gotas",
+      "Combigan Tartarato de Brimonidina 2mg/ml + Maleato de Timolol 5mg/ml 5ml solução",
+      "Combigan Allergan Solução Oftálmica Estéril 5ml"
+    ]
+  },
+  "med-00540": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Pentasa 2g Granulado de Liberação Prolongada 30 Sachês"
+    ]
+  },
+  "med-00590": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Norfloxacino Comprimidos14 Gn-Rambax"
+    ]
+  },
+  "med-00599": {
+    "descontoMax": 40,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 40,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Oxcarbazepina 300mg Com 30 Comprimidos Genérico Ranbaxy",
+      "Trileptal Oxcarbazepina 300mg 20 Comprimidos",
+      "Trileptal Oxcarbazepina 600mg 60 Comprimidos",
+      "Trileptal Oxcarbazepina 600mg 20 Comprimidos",
+      "Oleptal Oxcarbazepina 300mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00601": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Vegapali 150mg Injetavel 1 Seringa 1,5ml + 2 Agulhas",
+      "Vegapali 100mg Injetavel 1 Seringa 1ml + 2 Agulhas",
+      "Vegapali 50mg Injetavel 1 Seringa 0,5ml + 2 Agulhas",
+      "Vegapali 75mg Injetavel 1 Seringa 0,75ml + 2 Agulhas"
+    ]
+  },
+  "med-00500": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "paguemenos": 30,
+      "extrafarma": 30,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Dermomax 40mg/g Creme Dermatológico 5g",
+      "Dermomax Cloridrato de Lidocaína 40mg/g 30g Creme Dermatológico",
+      "Dermomax Cloridrato de Lidocaína 40mg/g 5g Creme Dermatológico",
+      "Dermomax Cloridrato de Lidocaina 40mg Creme Dermatológico 30g",
+      "Dermomax Cloridrato de Lidocaina 40mg Creme Dermatológico em Bisnaga 5g"
+    ]
+  },
+  "med-00633": {
+    "descontoMax": 25,
+    "programas": [],
+    "redes": {
+      "paguemenos": 25,
+      "extrafarma": 25,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Flixotide 250mcg Spray 60 Doses",
+      "Flutivate 0,5mg/g Creme 30g",
+      "Flutivate Propionato De Fluticasona 0,5mg 30g Creme Dermatológico",
+      "Flixotide 50mcg Gsk 120 Doses Spray",
+      "Flixotide 250mcg Gsk 60 Doses Spray"
+    ]
+  },
+  "med-00635": {
+    "descontoMax": 35,
+    "programas": [
+      "Saúde em evolução"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 35,
+      "pacheco": 35,
+      "venancio": null
+    },
+    "produtos": [
+      "Pantogar 20mg + 20mg + 20mg + 100mg + 60mg + 60mg 60 Cápsulas Duras",
+      "Pantogar 90 Cápsulas",
+      "Pantogar Biolab 60 Cápsulas",
+      "Pantogar Biolab 90 Cápsulas"
+    ]
+  },
+  "med-00659": {
+    "descontoMax": null,
+    "programas": [
+      "NOVO NORDISK - NOVO DIA"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Wegovy 1mg Semaglutida 4 Doses Injetáveis",
+      "Extensior Semaglutida 1mg Solução Injetavel 3ml",
+      "Poviztra 1mg Semaglutida 4 Doses Injetáveis",
+      "Wegovy 0,5mg Semaglutida Com 4 Doses Injetáveis",
+      "Poviztra 0,5mg Semaglutida 4 Doses Injetáveis"
+    ]
+  },
+  "med-00661": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Tamarine Geleia Zero Açúcar Laxante Fitoterápico 250g",
+      "Laxante Tamarine 12mg 20 Cápsulas Duras",
+      "Laxante Tamarine Geleia Fitoterápico Sabor Ameixa Zero Açúcar 150g",
+      "Tamarine Fibras Kids Morango 240ml"
+    ]
+  },
+  "med-00667": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Norditropin FlexPro 5mg/1,5ml Novo Nordisk 1 Dose Injetável",
+      "Norditropin FlexPro 10mg/1,5ml Novo Nordisk 1 Dose Injetável",
+      "Norditropin FlexPro 15mg/1,5ml Novo Nordisk 1 Dose Injetável"
+    ]
+  },
+  "med-00694": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Tacroz 1,0mg/g Pomada Dermatológica 10g",
+      "Tacroz 0,3mg/g Pomada Dermatológica 10g",
+      "Tacroz Tacrolimo 0,3mg/g 10g Pomada",
+      "Tacroz Tacrolimo 1,0mg/g 10g Pomada",
+      "Tacroz 10g"
+    ]
+  },
+  "med-00671": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Selozok 50mg 30 Comprimidos Revestidos de Liberação Controlada",
+      "Selozok Succinato De Metoprolol 25mg 30 Comprimidos",
+      "Selozok Succinato De Metoprolol 50mg 30 Comprimidos",
+      "Selozok Succinato De Metoprolol 100mg 30 Comprimidos"
+    ]
+  },
+  "med-00712": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Mounjaro 12.5mg Tirzepatida 4 Doses Injetáveis",
+      "Mounjaro 5mg Tirzepatida 4 Doses Injetáveis",
+      "Mounjaro 10mg Tirzepatida 4 Doses Injetáveis",
+      "Mounjaro 15mg Tirzepatida 4 Doses Injetáveis",
+      "Mounjaro 7.5mg Tirzepatida 4 Doses Injetáveis"
+    ]
+  },
+  "med-00716": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Roteas 30mg 30 Comprimidos Revestidos",
+      "Roteas 60mg 30 Comprimidos Revestidos",
+      "Roteas Tosilato De Edoxabana 30mg 30 Comprimidos Revestidos",
+      "Roteas Tosilato De Edoxabana 60mg 30 Comprimidos Revestidos",
+      "Roteas 30mg Daiichi Sankyo 30 Comprimidos"
+    ]
+  },
+  "med-00718": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null
+    },
+    "produtos": [
+      "Prosigne 100UI Pó Liofilizado para Solução Injetável 1 Frasco-Ampola"
+    ]
+  },
+  "med-00734": {
+    "descontoMax": 40,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "paguemenos": 40,
+      "extrafarma": 40,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Betnovate 1mg/g Creme 30g",
+      "Betnovate-N Valerato de Betametasona 1mg/g + Sulfato de Neomicina 5mg/g 30g Creme",
+      "Betnovate Valerato de Betametasona 1mg/g 30g Creme",
+      "Betnovate Valerato de Betametasona 1mg/g 30g Pomada",
+      "Betnovate 1mg Gsk Creme 30g"
+    ]
+  },
+  "med-00228": {
+    "descontoMax": 15.51,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 15.51,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Galvus Met 50mg + 500mg 56 Comprimidos Revestidos",
+      "Galvus Met Vildagliptina 50mg + Cloridrato de Metformina 500mg 56 Comprimidos",
+      "Galvus Met Vildagliptina 50mg + Cloridrato de Metformina 850mg 56 Comprimidos",
+      "Galvus Met Vildagliptina 50mg + Cloridrato de Metformina 1000mg 56 Comprimidos",
+      "Galvus Met 50mg/1000mg Novartis 56 Comprimidos Revestidos"
+    ]
+  },
+  "med-00745": {
+    "descontoMax": 15.51,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 15.51,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Galvus 50mg 56 Comprimidos",
+      "Galvus Vildagliptina 50mg 56 Comprimidos",
+      "Galvus 50mg Novartis 56 Comprimidos"
+    ]
+  },
+  "med-00758": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Ursacol 150mg 30 Comprimidos",
+      "Ursacol 300mg 30 Comprimidos",
+      "Ursacol Ácido Ursodesoxicólico 150mg 30 Comprimidos",
+      "Ursacol Ácido Ursodesoxicólico 300mg 30 Comprimidos",
+      "Ursacol 300mg Zambon 30 Comprimidos"
+    ]
+  },
+  "med-00358": {
+    "descontoMax": 30,
+    "programas": [
+      "Abraçar a Vida - Boehringer"
+    ],
+    "redes": {
+      "paguemenos": 30,
+      "extrafarma": 30,
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Jardiance 10mg 30 Comprimidos",
+      "Jardiance 25mg 30 Comprimidos",
+      "Jardiance Empagliflozina 25mg 30 Comprimidos Revestidos",
+      "Jardiance Empagliflozina 10mg 30 Comprimidos Revestidos",
+      "Jardiance Empagliflozina 10mg 30 comprimidos Boehringer"
+    ]
+  },
+  "med-00435": {
+    "descontoMax": 40,
+    "programas": [
+      "SERVIER SEMPRE CUIDANDO"
+    ],
+    "redes": {
+      "paguemenos": null,
+      "extrafarma": null,
+      "drogariasaopaulo": 40,
+      "pacheco": null
+    },
+    "produtos": [
+      "Gliclazida 30mg Com 30 Comprimidos Genérico Ranbaxy",
+      "Gliclazida 30mg Com 60 Comprimidos Genérico Ranbaxy",
+      "Diamicron MR Gliclazida 60mg 60 Comprimidos",
+      "Azukon MR Gliclazida 30mg 30 Comprimidos",
+      "Clazi XR Gliclazida 60mg 30 Cápsulas"
+    ]
+  },
+  "med-00303": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Decadron Dexametasona 2mg/ml 1ml 2 Ampolas Injetáveis",
+      "Decadron Fosfato Dissódico de Dexametasona 4mg/ml 1 Ampola 2,5ml Injetável",
+      "Decadron Fosfato Dissódico de Dexametasona 0,5mg/ml + Sulfato de Neomicina 3,5mg/ml + Fenilefrina 5mg/ml 20ml Solução Nasal",
+      "Decadron Dexametasona 4mg 10 Comprimidos",
+      "Decadron Dexametasona 0,5mg 20 Comprimidos"
+    ]
+  },
+  "med-00041": {
+    "descontoMax": null,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Frontal Alprazolam 2mg 30 Comprimidos"
+    ]
+  },
+  "med-00042": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Amoxicilina 875mg + Clavulanato de Potássio 125mg Genérico Germed 14 Comprimidos",
+      "Amoxicilina 250mg/5ml + Clavulanato de Potássio 62,5mg/5ml Genérico Sandoz 75ml Suspensão"
+    ]
+  },
+  "med-00161": {
+    "descontoMax": 52,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 52,
+      "pacheco": 52,
+      "venancio": null
+    },
+    "produtos": [
+      "Clavulin Amoxicilina 500mg + Clavulanato de Potássio 125mg 30 Comprimidos",
+      "Clavulin Amoxicilina 500mg + Clavulanato de Potássio 125mg 21 Comprimidos",
+      "Clavulin BD amoxicilina + clavulanato de potássio 875mg GSK"
+    ]
+  },
+  "med-00054": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Arpejo Aripiprazol 20mg 15ml"
+    ]
+  },
+  "med-00058": {
+    "descontoMax": null,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Citalor Atorvastatina Cálcica 40mg 30 Comprimidos",
+      "Citalor Atorvastatina Cálcica 10mg 30 Comprimidos Revestidos",
+      "Citalor Atorvastatina Cálcica 20mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00060": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Mefex Axetilcefuroxima 500mg 14 Comprimidos",
+      "Mefex Axetilcefuroxima 500mg 10 Comprimidos",
+      "Mefex Axetilcefuroxima 250mg 10 Comprimidos",
+      "Mefex Axetilcefuroxima 250mg 14 Comprimidos"
+    ]
+  },
+  "med-00074": {
+    "descontoMax": 25,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": 25
+    },
+    "produtos": [
+      "Norvasc Besilato De Anlodipino 10mg 30 Comprimidos",
+      "Norvasc Besilato De Anlodipino 5mg 30 Comprimidos"
+    ]
+  },
+  "med-00075": {
+    "descontoMax": 34,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": 34
+    },
+    "produtos": [
+      "Betalor Besilato de Anlodipino 5mg + Atenolol 25mg 30 Cápsulas",
+      "Betalor Besilato de Anlodipino 5mg + Atenolol 50mg 30 Cápsulas"
+    ]
+  },
+  "med-00078": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Olzicar Anlo Olmesartana Medoxomila 20mg + Besilato de Anlodipino 5mg 30 Comprimidos",
+      "Olzicar Anlo Olmesartana Medoxomila 40mg + Besilato de Anlodipino 10mg 30 Comprimidos"
+    ]
+  },
+  "med-00077": {
+    "descontoMax": 30,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30
+    },
+    "produtos": [
+      "Lotar Besilato de Anlodipino 5mg + Losartana Potássica 50mg 30 Cápsulas",
+      "Lotar Besilato de Anlodipino 5mg + Losartana Potássica 100mg 30 Cápsulas"
+    ]
+  },
+  "med-00079": {
+    "descontoMax": 22,
+    "programas": [
+      "EMS Saúde",
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "drogariasaopaulo": 22,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Brasart BCC Valsartana 320mg + Besilato de Anlodipino 10mg 30 Comprimidos Revestidos",
+      "Brasart BCC Valsartana 160mg + Besilato de Anlodipino 5mg 60 Comprimidos Revestidos",
+      "Brasart BCC Valsartana 320mg + Besilato de Anlodipino 5mg 30 Comprimidos Revestidos",
+      "Brasart BCC Valsartana 160mg + Besilato de Anlodipino 5mg 30 Comprimidos Revestidos",
+      "Diovan Amlo Fix Valsartana 320mg + Besilato de Anlodipino 10mg 28 Comprimidos Revestidos"
+    ]
+  },
+  "med-00113": {
+    "descontoMax": 20,
+    "programas": [
+      "Faz bem"
+    ],
+    "redes": {
+      "drogariasaopaulo": 20,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Atacand Candesartana Cilexetila 8mg 30 Comprimidos",
+      "Atacand Candesartana Cilexetila 16mg 30 Comprimidos",
+      "Atacand 8mg Astrazeneca 30 Comprimidos"
+    ]
+  },
+  "med-00117": {
+    "descontoMax": 19.7,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "drogariasaopaulo": 19.7,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Tegretol Carbamazepina 200mg 20 Comprimidos",
+      "Tegretol CR Carbamazepina 200mg 60 Comprimidos",
+      "Tegretol CR Carbamazepina 400mg 20 comprimidos",
+      "Tegretol Cr 400mg Com 60 Comprimidos",
+      "Tegretol Cr 200mg Com 60 Comprimidos"
+    ]
+  },
+  "med-00129": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Ceclor BD Cefaclor 750mg 14 Comprimidos",
+      "Ceclor BD Cefaclor 500mg 10 Comprimidos",
+      "Ceclor Cefaclor 375mg/5ml 100ml Suspensão Oral"
+    ]
+  },
+  "med-00137": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Celebra Celecoxibe 200mg 10 Cápsulas",
+      "Celebra Celecoxibe 100mg 20 Cápsulas"
+    ]
+  },
+  "med-00141": {
+    "descontoMax": 35,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 35,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Toragesic 20mg/ml EMS 10ml Gotas",
+      "Toragesic 10mg EMS 10 Comprimidos",
+      "Deocil 10mg Diffucap-Chemobras 30 Comprimidos Sub-lingual"
+    ]
+  },
+  "med-00150": {
+    "descontoMax": 30,
+    "programas": [
+      "Saúde em evolução"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Lipless Ciprofibrato 100mg 90 Comprimidos",
+      "Lipless Ciprofibrato 100mg 30 Comprimidos",
+      "Lipless Ciprofibrato 100mg 60 Comprimidos",
+      "Lipless 100mg Biolab 60 Comprimidos",
+      "Lipless 100mg Biolab 30 Comprimidos"
+    ]
+  },
+  "med-00151": {
+    "descontoMax": 31,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 31
+    },
+    "produtos": [
+      "Maxapran Citalopram 20mg 28 Comprimidos"
+    ]
+  },
+  "med-00155": {
+    "descontoMax": null,
+    "programas": [
+      "Melhor idade",
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Viagra Citrato De Sildenafila 25mg 4 Comprimidos",
+      "Viagra Citrato De Sildenafila 50mg 4 Comprimidos"
+    ]
+  },
+  "med-00163": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Rivotril Clonazepam 2mg 30 Comprimidos"
+    ]
+  },
+  "med-00175": {
+    "descontoMax": null,
+    "programas": [
+      "Abrace a vida",
+      "Sou mais vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Betaserc Dicloridrato De Betaistina 24mg 60 Comprimidos",
+      "Labirin Dicloridrato De Betaistina 24mg 30 comprimidos",
+      "Betaserc Dicloridrato De Betaistina 24mg 30 Comprimidos"
+    ]
+  },
+  "med-00183": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Dolamin Flex Clonixinato de Lisina 125mg + Cloridrato de Ciclobenzaprina 5mg 12 Comprimidos Revestidos",
+      "Dolamin Flex Clonixinato de Lisina 125mg + Cloridrato de Ciclobenzaprina 5mg 15 Comprimidos Revestidos"
+    ]
+  },
+  "med-00187": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Cipro Cloridrato De Ciprofloxacino 500mg 6 Comprimidos",
+      "Ciprofloxacino 500mg Genérico Cimed 14 Comprimidos"
+    ]
+  },
+  "med-00198": {
+    "descontoMax": 25,
+    "programas": [
+      "PROGRAMA SOU MAIS VIDA - APSEN"
+    ],
+    "redes": {
+      "drogariasaopaulo": 25,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Alois Duo Cloridrato de Memantina 20mg + Cloridrato de Donepezila 10mg 30 Comprimidos",
+      "Donila Duo Cloridrato de Donepezila 10mg + Cloridrato de Memantina 20mg 30 Comprimidos Revestidos",
+      "Donila Duo Cloridrato de Donepezila 10mg + Cloridrato de Memantina 5mg 7 Comprimidos Revestidos",
+      "Donila Duo Cloridrato de Donepezila 10mg + Cloridrato de Memantina 15mg 7 Comprimidos Revestidos",
+      "Donila Duo Cloridrato de Donepezila 10mg + Cloridrato de Memantina 10mg 7 Comprimidos Revestidos"
+    ]
+  },
+  "med-00203": {
+    "descontoMax": null,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Talerc 10mg Aché 10 Comprimidos"
+    ]
+  },
+  "med-00207": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Allexofedrin D Cloridrato de Fexofenadina 60mg + Cloridrato de Pseudoefedrina 120mg 10 Comprimidos"
+    ]
+  },
+  "med-00209": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Cloridrato de Fluoxetina 20mg Genérico Legrand 30 Comprimidos",
+      "Daforin Cloridrato De Fluoxetina 20mg 30 Comprimidos"
+    ]
+  },
+  "med-00213": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Zanidip Cloridrato De Lercanidipino 10mg 30 Comprimidos"
+    ]
+  },
+  "med-00218": {
+    "descontoMax": 40,
+    "programas": [
+      "a:care"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40
+    },
+    "produtos": [
+      "Duspatalin Cloridrato De Mebeverina 200mg 60 Comprimidos",
+      "Duspatalin Cloridrato De Mebeverina 200mg 30 Cápsulas"
+    ]
+  },
+  "med-00221": {
+    "descontoMax": null,
+    "programas": [
+      "Merck cuida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Glifage XR Cloridrato De Metformina 500mg 30 comprimidos",
+      "Glifage XR Cloridrato De Metformina 750mg 30 Comprimidos",
+      "Glifage XR Cloridrato De Metformina 1g 30 Comprimidos"
+    ]
+  },
+  "med-00422": {
+    "descontoMax": 30,
+    "programas": [
+      "RECEITA DE VIDA - MSD",
+      "Receita de vida",
+      "PROGRAMA RECEITA DE VIDA - MSD"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Januvia Fosfato De Sitagliptina Monoidratado 100mg 28 Comprimidos",
+      "Januvia Fosfato De Sitagliptina Monoidratado 25mg 28 Comprimidos",
+      "Januvia Fosfato De Sitagliptina Monoidratado 50mg 28 Comprimidos",
+      "Nimegon Fosfato De Sitagliptina 50mg Schering 28 Comprimidos",
+      "Nimegon Fosfato De Sitagliptina 100mg Schering 28 Comprimidos"
+    ]
+  },
+  "med-00226": {
+    "descontoMax": null,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Meritor Glimepirida 4mg + Metformina 1000mg 30 Comprimidos",
+      "Meritor Glimepirida 2mg + Metformina 1000mg 30 Comprimidos"
+    ]
+  },
+  "med-00229": {
+    "descontoMax": null,
+    "programas": [
+      "Saúde completa"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Concerta Cloridrato De Metilfenidato 54mg 30 comprimidos",
+      "Attenze 10mg 30 Comprimidos",
+      "Ritalina La 40mg Com 30 Cápsulas",
+      "Ritalina La 30mg Com 30 Cápsulas",
+      "Ritalina La 10mg Com 30 Cápsulas"
+    ]
+  },
+  "med-00239": {
+    "descontoMax": null,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Naramig Cloridrato De Naratriptana 2,5mg 4 Comprimidos"
+    ]
+  },
+  "med-00240": {
+    "descontoMax": 40,
+    "programas": [
+      "Saúde em evolução",
+      "DIFFUCARE SITE",
+      "Longevidade"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Nebilet Cloridrato De Nebivolol 5mg 60 Comprimidos",
+      "Nyteb Cloridrato De Nebivolol 5mg 60 Comprimidos",
+      "Neblock Cloridrato De Nebivolol 5mg 60 comprimidos",
+      "Neblock Cloridrato De Nebivolol 5mg 30 Comprimidos",
+      "Nebilet Cloridrato De Nebivolol 5mg 90 Comprimidos"
+    ]
+  },
+  "med-00242": {
+    "descontoMax": 20,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "drogariasaopaulo": 20,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Patanol S Cloridrato De Olopatadina 2,22 mg/ml 2,5ml Solução Oftalmológica",
+      "Patanol S Alcon Solução Oftálmica Estéril 2,5ml"
+    ]
+  },
+  "med-00251": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Piomi Cloridrato De Pioglitazona 30mg 30 Comprimidos",
+      "Piomi Cloridrato De Pioglitazona 30mg 60 Comprimidos"
+    ]
+  },
+  "med-00253": {
+    "descontoMax": 30,
+    "programas": [
+      "a:care"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Ritmonorm Cloridrato De Propafenona 300mg 30 Comprimidos",
+      "Ritmonorm 300mg Abbott 60 Comprimidos Revestidos"
+    ]
+  },
+  "med-00261": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Tansudart Cloridrato De Tansulosina 0,4mg 30 Cápsulas"
+    ]
+  },
+  "med-00273": {
+    "descontoMax": 60.6,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 60.6,
+      "pacheco": 60.6,
+      "venancio": null
+    },
+    "produtos": [
+      "Valtrex Cloridrato De Valaciclovir 500mg 42 Comprimidos",
+      "Cloridrato de Valaciclovir 500mg Ranbaxy 10 comprimidos",
+      "Herpstal 500mg Germed 42 Comprimidos Revestidos"
+    ]
+  },
+  "med-00278": {
+    "descontoMax": 30,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30
+    },
+    "produtos": [
+      "Geodon Cloridrato De Ziprasidona 40mg 30 Cápsulas",
+      "Geodon Cloridrato De Ziprasidona 80mg 30 Cápsulas"
+    ]
+  },
+  "med-00282": {
+    "descontoMax": 20.1,
+    "programas": [
+      "Vale mais saúde"
+    ],
+    "redes": {
+      "drogariasaopaulo": 20.1
+    },
+    "produtos": [
+      "Lepónex Clozapina 100mg 30 Comprimidos"
+    ]
+  },
+  "med-00290": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Edistride Dapagliflozina 10mg 30 Comprimidos",
+      "Forxiga Dapagliflozina 10mg 30 Comprimidos Revestidos",
+      "Edistride 10mg Dapagliflozina 30 comprimidos",
+      "Forxiga 10mg Astrazeneca 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00301": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Cerazette Desogestrel 75mcg 28 comprimidos"
+    ]
+  },
+  "med-00302": {
+    "descontoMax": 10,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 10
+    },
+    "produtos": [
+      "Adinos Desonida 0,5mg 15g Gel",
+      "Adinos Desonida 0,5mg/g 30g Gel",
+      "Adinos Gen Desonida 0,5mg/g + Sulfato de Gentamicina 1mg/g 30g Gel"
+    ]
+  },
+  "med-00319": {
+    "descontoMax": null,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Zyrtec Dicloridrato De Cetirizina 10mg 12 Comprimidos"
+    ]
+  },
+  "med-00562": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Levolukast Montelucaste de Sódio 10mg + Dicloridrato de Levocetirizina 5mg 14 Comprimidos Revestidos",
+      "Levolukast Montelucaste de Sódio 10mg + Dicloridrato de Levocetirizina 5mg 7 Comprimidos Revestidos"
+    ]
+  },
+  "med-00328": {
+    "descontoMax": 19,
+    "programas": [
+      "Bayer pra você"
+    ],
+    "redes": {
+      "drogariasaopaulo": 19,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Allurene Dienogeste 2mg 28 Comprimidos",
+      "Diost Dienogeste 2mg 30 Comprimidos",
+      "Diost 2mg 30 Comprimidos"
+    ]
+  },
+  "med-00329": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Dramin Capsgel Dimenidrinato 25mg 10 Cápsulas"
+    ]
+  },
+  "med-00330": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Dramin B6 Dimenidrinato 25mg/ml + Vitamina B6 5mg/ml 30ml"
+    ]
+  },
+  "med-00331": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Lidexor Dimesilato De Lisdexanfetamina 70mg 30 Cápsulas",
+      "Lidexor Dimesilato De Lisdexanfetamina 30mg 30 Cápsulas",
+      "Lidexor Dimesilato De Lisdexanfetamina 50mg 30 Cápsulas",
+      "Lidexor Dimesilato de Lisdexanfetamina 30 Mg 30 Cápsulas"
+    ]
+  },
+  "med-00542": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 30
+    },
+    "produtos": [
+      "Cefaliv Cafeína 100mg + Dipirona 350mg + Mesilato de Di-hidroergotamina 1mg 12 Comprimidos"
+    ]
+  },
+  "med-00354": {
+    "descontoMax": 47.51,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 44.31,
+      "pacheco": 47.51,
+      "venancio": null
+    },
+    "produtos": [
+      "Avodart Dutasterida 0,5mg 30 comprimidos",
+      "Avodart Dutasterida 0,5mg 90 Cápsulas",
+      "Avodart 0,5mg Gsk 30 Cápsulas",
+      "Avodart 0,5mg Gsk 90 Cápsulas"
+    ]
+  },
+  "med-00366": {
+    "descontoMax": 20,
+    "programas": [
+      "Faz bem"
+    ],
+    "redes": {
+      "drogariasaopaulo": 20,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Nexium Esomeprazol Magnésico 20mg 28 Comprimidos",
+      "Nexium Esomeprazol Magnésico 40mg 28 Comprimidos",
+      "Esogastro Ibp 500mg + 500mg + 20mg Ems 14 Dias"
+    ]
+  },
+  "med-00365": {
+    "descontoMax": 35,
+    "programas": [
+      "EMS Saúde"
+    ],
+    "redes": {
+      "drogariasaopaulo": 35,
+      "pacheco": 25
+    },
+    "produtos": [
+      "Esomex Esomeprazol Magnésico 20mg 28 Comprimidos Revestidos",
+      "Esomex Esomeprazol Magnésico 40mg 56 Comprimidos Revestidos",
+      "Esomex Esomeprazol Magnésico 40mg 28 Comprimidos Revestidos"
+    ]
+  },
+  "med-00368": {
+    "descontoMax": null,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Aldactone Espironolactona 25mg 30 Comprimidos",
+      "Aldactone Espironolactona 100mg 16 comprimidos",
+      "Aldactone Espironolactona 50mg 30 Comprimidos"
+    ]
+  },
+  "med-00375": {
+    "descontoMax": null,
+    "programas": [
+      "EMS Saúde"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Artemidis 35 Etinilestradiol 0,035mg + Acetato de Ciproterona 2mg 21 Comprimidos"
+    ]
+  },
+  "med-00379": {
+    "descontoMax": null,
+    "programas": [
+      "Receita de vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Nuvaring Etonogestrel 11,7mg + Etinilestradiol 2,7mg 1 Anel Vaginal",
+      "Exelring Exeltis 1 Anel Vaginal",
+      "Nuvaring 11,7mg/2,7mg Organon Anel Vaginal + 1 Aplicador"
+    ]
+  },
+  "med-00392": {
+    "descontoMax": 50,
+    "programas": [
+      "RECEITA DE VIDA - MSD"
+    ],
+    "redes": {
+      "drogariasaopaulo": 50,
+      "pacheco": 50,
+      "venancio": null
+    },
+    "produtos": [
+      "Ezetrol Ezetimiba 10mg 30 Comprimidos",
+      "Coledue Ezetimiba 10Mg 30 Comprimidos"
+    ]
+  },
+  "med-00393": {
+    "descontoMax": 40,
+    "programas": [
+      "RECEITA DE VIDA - MSD"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40,
+      "pacheco": 40
+    },
+    "produtos": [
+      "Vytorin Ezetimiba 10mg + Sinvastatina 20mg 30 Comprimidos",
+      "Vytorin Ezetimiba 10mg + Sinvastatina 40mg 30 Comprimidos Revestidos",
+      "Vytorin Ezetimiba 10mg + Sinvastatina 10mg 30 Comprimidos"
+    ]
+  },
+  "med-00401": {
+    "descontoMax": 30,
+    "programas": [
+      "Abbott - Abrace a Vida",
+      "a:care"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Lipidil Fenofibrato 160mg 60 Comprimidos",
+      "Lipidil Fenofibrato 160mg 90 Comprimidos",
+      "Lipidil Fenofibrato 160mg 30 Comprimidos",
+      "Lipidil 160mg 60 Comprimidos Revestidos",
+      "Lipidil 160mg Abbott 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00403": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Myrafer Ferripolimaltose 400mg 30 Comprimidos",
+      "Myrafer 100mg/ml Myralis Solução Gotas 30ml"
+    ]
+  },
+  "med-00416": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Prelone Fosfato Sódico De Prednisolona 11mg/ml 20ml Gotas",
+      "Prelone Prednisolona 20mg 10 Comprimidos",
+      "Prelone Prednisolona 5mg 20 Comprimidos"
+    ]
+  },
+  "med-00443": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Concardio Hemifumarato De Bisoprolol 5mg 100 Comprimidos"
+    ]
+  },
+  "med-00444": {
+    "descontoMax": 54.7,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 54.7
+    },
+    "produtos": [
+      "Neotiapim Hemifumarato De Quetiapina 25mg 30 Comprimidos",
+      "Neotiapim Hemifumarato De Quetiapina 100mg 30 Comprimidos"
+    ]
+  },
+  "med-00455": {
+    "descontoMax": 39.82,
+    "programas": [
+      "Saúde fácil"
+    ],
+    "redes": {
+      "drogariasaopaulo": 39.82,
+      "venancio": null
+    },
+    "produtos": [
+      "Micardis HCT Telmisartana 80mg + Hidroclorotiazida 25mg 30 Comprimidos Revestidos",
+      "Micardis Hct 80mg/12,5mg Boehringer 30 Comprimidos"
+    ]
+  },
+  "med-00459": {
+    "descontoMax": 15,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 15
+    },
+    "produtos": [
+      "Solaquin Hidroquinona 40mg 30g Creme"
+    ]
+  },
+  "med-00469": {
+    "descontoMax": 25.64,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 24.2,
+      "pacheco": 25.64
+    },
+    "produtos": [
+      "Natrilix SR Indapamida 1,5mg 60 comprimidos",
+      "Natrilix Indapamida 1,5mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00478": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Acnova Isotretinoína 20mg 30 Cápsulas",
+      "Isoac Isotretinoína 20mg 30 Cápsulas",
+      "Amalfi 20mg Eurofarma 30 Cápsulas",
+      "Acnova 20mg 30 Cápsulas",
+      "Isoac 20mg 30 cápsulas moles"
+    ]
+  },
+  "med-00483": {
+    "descontoMax": 45,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 45,
+      "pacheco": 45
+    },
+    "produtos": [
+      "Lamictal Lamotrigina 200mg 30 Comprimidos",
+      "Lamictal Lamotrigina 50mg 30 Comprimidos"
+    ]
+  },
+  "med-00485": {
+    "descontoMax": 20,
+    "programas": [
+      "Saúde em foco",
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": 20,
+      "pacheco": 20,
+      "venancio": null
+    },
+    "produtos": [
+      "Arulatan Latanoprosta 50mcg/ml 2,5ml Solução Oftálmica",
+      "Xalatan Latanoprosta 50mcg/ml 2,5ml Solução Oftálmica",
+      "Xalatan 50mcg/ml Viatris Solução Oftálmica 2,5ml",
+      "Drenatan 50mcg/ml Legrand Pharma Solução Oftálmica Colírio 2,5ml"
+    ]
+  },
+  "med-00527": {
+    "descontoMax": 25,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": 25,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Xalacom Latanoprosta 50mcg/ml + Maleato de Timolol 5mg/ml 2,5ml Gotas",
+      "Xalacom Viatris 2,5ml"
+    ]
+  },
+  "med-00494": {
+    "descontoMax": null,
+    "programas": [
+      "Sou mais vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Levoxin Levofloxacino 500mg 14 Comprimidos",
+      "Levoxin Levofloxacino 500mg  3 Comprimidos"
+    ]
+  },
+  "med-00493": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Livepax Levofloxacino Hemi-Hidratado 750mg 5 Comprimidos",
+      "Livepax Levofloxacino Hemi-Hidratado 500mg 10 comprimidos revestidos",
+      "Livepax Levofloxacino Hemi-Hidratado 500mg 7 comprimidos revestidos"
+    ]
+  },
+  "med-00499": {
+    "descontoMax": null,
+    "programas": [
+      "a:care",
+      "Abbott - Abrace a Vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Synthroid Levotiroxina Sódica 50mcg 30 Cápsulas",
+      "Synthroid Levotiroxina Sódica 75mcg 30 Cápsulas",
+      "Synthroid Levotiroxina Sódica 125mcg 30 Comprimidos",
+      "Synthroid Levotiroxina Sódica 137mg 30 Comprimidos",
+      "Synthroid Levotiroxina Sódica 150mcg 30 Cápsulas"
+    ]
+  },
+  "med-00227": {
+    "descontoMax": null,
+    "programas": [
+      "Abraçar a Vida - Boehringer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Trayenta Duo Linagliptina 2,5mg/1000mg 60 comprimidos revestidos",
+      "Trayenta Duo Linagliptina 2,5mg/850mg 60 comprimidos revestidos",
+      "Trayenta Duo Boehringer 60 Comprimidos Revestidos"
+    ]
+  },
+  "med-00512": {
+    "descontoMax": 31,
+    "programas": [
+      "Saúde em evolução",
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": 31,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Aradois H Losartana Potássica 100mg + Hidroclorotiazida 25mg 60 Comprimidos",
+      "Corus H Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 Comprimidos Revestidos",
+      "Aradois H Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 60 Comprimidos revestidos",
+      "Aradois H Losartana Potássica 100mg + Hidroclorotiazida 25mg 90 Comprimidos",
+      "Corus H Losartana Potássica 50mg + Hidroclorotiazida 12,5mg 30 comprimidos"
+    ]
+  },
+  "med-00523": {
+    "descontoMax": 30,
+    "programas": [
+      "Abrace a vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": 30
+    },
+    "produtos": [
+      "Luvox Maleato De Fluvoxamina 50mg 30 Comprimidos",
+      "Luvox Maleato De Fluvoxamina 100mg 30 Comprimidos",
+      "Luvox Maleato De Fluvoxamina 100mg 60 Comprimidos"
+    ]
+  },
+  "med-00532": {
+    "descontoMax": 25,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 25,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Latonan Latanoprosta 0,05mg/ml + Timolol 5mg/ml 2,5ml Solução Oftálmica",
+      "Latonan Solução Oftálmica Legrand 2,5ml"
+    ]
+  },
+  "med-00529": {
+    "descontoMax": 45,
+    "programas": [
+      "Vida mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 45
+    },
+    "produtos": [
+      "Digedrat Maleato De Trimebutina 200mg 30 Cápsulas",
+      "Digedrat Maleato De Trimebutina 200mg 60 cápsulas",
+      "Digedrat Maleato De Trimebutina 200mg 20 Cápsulas"
+    ]
+  },
+  "med-00530": {
+    "descontoMax": null,
+    "programas": [
+      "PROGRAMA CUIDAR - MUNDIPHARMA"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Timoptol XE Maleato De Timolol 5mg/ml 5ml Solução Oftálmica Gel"
+    ]
+  },
+  "med-00536": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Mecobe Mecobalamina 500mcg 30 Comprimidos Sublinguais",
+      "Mecobe Mecobalamina 1000mcg 30 Comprimidos sublinguais",
+      "Mecobe Mecobalamina 1000mcg 90 Comprimidos Sublinguais",
+      "Dozemast Mecobalamina 1000mcg 30 Comprimidos Marjan"
+    ]
+  },
+  "med-00549": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Pentasa Mesalazina 2g 30 Sachês",
+      "Pentasa Mesalazina 500mg 50 Comprimidos",
+      "Pentasa 1g Ferring 28 Supositórios",
+      "Pentasa 1g 50 Sachês",
+      "Pentasa 2g Ferring 30 Sachês"
+    ]
+  },
+  "med-00543": {
+    "descontoMax": 60,
+    "programas": [
+      "Sou mais vida"
+    ],
+    "redes": {
+      "drogariasaopaulo": 60
+    },
+    "produtos": [
+      "Unoprost Mesilato De Doxazosina 2mg 30 Comprimidos",
+      "Unoprost Mesilato De Doxazosina 4mg 30 Comprimidos"
+    ]
+  },
+  "med-00545": {
+    "descontoMax": null,
+    "programas": [
+      "Abraçar a Vida - Boehringer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Pradaxa Etexilato De Dabigatrana 110mg 30 Comprimidos",
+      "Pradaxa Etexilato De Dabigatrana 110mg 60 Cápsulas",
+      "Pradaxa Etexilato De Dabigatrana 150mg 60 Cápsulas",
+      "Pradaxa Etexilato De Dabigatrana 150mg 30 Cápsulas",
+      "Pradaxa Etexilato De Dabigatrana 75mg 30 Comprimidos"
+    ]
+  },
+  "med-00559": {
+    "descontoMax": null,
+    "programas": [
+      "Piloto Myrbetric"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Myrbetric Mirabegrona 50mg 30 Comprimidos",
+      "Myrbetric 50mg Astellas 30 Comprimidos"
+    ]
+  },
+  "med-00560": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 30
+    },
+    "produtos": [
+      "Menelat Mirtazapina 30mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00564": {
+    "descontoMax": 30,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": 30,
+      "venancio": null
+    },
+    "produtos": [
+      "Bactroban Mupirocina 20mg/g 10g Pomada",
+      "Bactroban Gsk Pomada 10g"
+    ]
+  },
+  "med-00569": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Nisulid Nimesulida 100mg 12 Comprimidos"
+    ]
+  },
+  "med-00570": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Maxsulid Betaciclodextrina 400mg 10 Comprimidos"
+    ]
+  },
+  "med-00580": {
+    "descontoMax": 10,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 10
+    },
+    "produtos": [
+      "Fentizol Nitrato De Fenticonazol 20mg 30ml Spray",
+      "Fentizol Nitrato De Fenticonazol 2g 20g Creme Dermatológico"
+    ]
+  },
+  "med-00593": {
+    "descontoMax": 28,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": 28
+    },
+    "produtos": [
+      "Olmetec Olmesartana Medoxomila 20mg 30 Comprimidos"
+    ]
+  },
+  "med-00596": {
+    "descontoMax": 53,
+    "programas": [
+      "Siga"
+    ],
+    "redes": {
+      "drogariasaopaulo": 53,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Lipiblock Orlistate 60 Cápsulas",
+      "Lipiblock Orlistate 120mg 84 Comprimidos",
+      "Lipiblock Orlistate 120mg 42 Comprimidos",
+      "Lipiblock Orlistate 120 Mg com 42 Cápsulas",
+      "Lipiblock 120mg 60 cápsulas"
+    ]
+  },
+  "med-00613": {
+    "descontoMax": 24,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 24,
+      "pacheco": 24
+    },
+    "produtos": [
+      "Acertil Perindopril 10mg 30 comprimidos revestidos",
+      "Acertil Perindopril Arginina 5mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00627": {
+    "descontoMax": null,
+    "programas": [
+      "Mais Pfizer"
+    ],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Lyrica Pregabalina 75mg 28 Cápsulas"
+    ]
+  },
+  "med-00630": {
+    "descontoMax": null,
+    "programas": [
+      "Intimamente bem"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Coltrieno Promestrieno 10mg/g 30g Creme Vaginal + 20 Aplicadores",
+      "Colpotrofine 10mg/g Farma Vision 30g Creme Vaginal + 20 Aplicadores",
+      "Coltrieno Creme Vaginal 30g + 20 Aplicadores"
+    ]
+  },
+  "med-00632": {
+    "descontoMax": 40,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40,
+      "pacheco": 40,
+      "venancio": null
+    },
+    "produtos": [
+      "Psorex Propionato De Clobetasol 0,5mg/g 50g Loção",
+      "Psorex Propionato De Clobetasol 0,5mg/g 30g Creme",
+      "Psorex 0,5mg Gsk 30g Creme",
+      "Psorex Loção Capilar 0 5mg/g 50g",
+      "Psorex 0,5mg Gsk 30g Pomada"
+    ]
+  },
+  "med-00648": {
+    "descontoMax": 30,
+    "programas": [
+      "Cuidados pela vida",
+      "EMS Saúde"
+    ],
+    "redes": {
+      "drogariasaopaulo": 30,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Osteotrat Risedronato Sódico 35mg 4 Comprimidos",
+      "Osteotrat Risedronato Sódico 35mg 12 Comprimidos",
+      "Risedross Risedronato Sódico 35mg 12 Comprimidos",
+      "Risedross Risedronato Sódico 35mg 4 Comprimidos Revestidos",
+      "Osteotrat 35mg Aché 4 Comprimidos Revestidos"
+    ]
+  },
+  "med-00650": {
+    "descontoMax": 17,
+    "programas": [
+      "Bayer pra você"
+    ],
+    "redes": {
+      "drogariasaopaulo": 17
+    },
+    "produtos": [
+      "Xarelto Rivaroxabana 20mg 28 Comprimidos",
+      "Xarelto Rivaroxabana 10mg 30 Comprimidos",
+      "Xarelto Rivaroxabana 10mg 10 Comprimidos",
+      "Xarelto Rivaroxabana 15mg 28 Comprimidos"
+    ]
+  },
+  "med-00672": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Impere Succinato De Solifenacina 10mg 30 Comprimidos",
+      "Impere Succinato De Solifenacina 5mg 30 Comprimidos",
+      "Impere 10mg 30 Comprimidos Revestidos",
+      "Impere 5mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00680": {
+    "descontoMax": 50,
+    "programas": [
+      "Cuidados pela vida",
+      "Viver Zodiac"
+    ],
+    "redes": {
+      "drogariasaopaulo": 50,
+      "pacheco": 50,
+      "venancio": null
+    },
+    "produtos": [
+      "Artrolive Sulfato de Glicosamina 500mg + Sulfato de Condroitina 400mg 30 Cápsulas",
+      "Artrolive Sulfato de Glicosamina 500mg + Sulfato de Condroitina 400mg 90 Cápsulas",
+      "Condroflex Sulfato de Condroitina Sódico 400mg + Sulfato de Glicosamina 500mg 90 Cápsulas",
+      "Condroflex Sulfato de Glicosamina 500mg + Sulfato de Condroitina Sódico 400mg 60 Cápsulas",
+      "Artrolive 400mg + 500mg Aché 90 Cápsulas"
+    ]
+  },
+  "med-00688": {
+    "descontoMax": 40.32,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40.32,
+      "pacheco": 40.32
+    },
+    "produtos": [
+      "Aerolin Sulfato De Salbutamol 100mcg/dose 200 Doses Spray"
+    ]
+  },
+  "med-00693": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Unizinco Zinco 17,60mg/ml 100ml Solução Oral + Copo Medidor",
+      "Unizinco 20mg 14 comprimidos",
+      "Unizinco 17,60mg Solução 100ml"
+    ]
+  },
+  "med-00696": {
+    "descontoMax": 24,
+    "programas": [
+      "Lilly melhor para você"
+    ],
+    "redes": {
+      "drogariasaopaulo": 24
+    },
+    "produtos": [
+      "Cialis Diário Tadalafila 5mg 30 Comprimidos"
+    ]
+  },
+  "med-00697": {
+    "descontoMax": null,
+    "programas": [
+      "Programas Comerciais Abbvie"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Alphagan Tartarato De Brimonidina 2mg/ml 5ml Solução Oftálmica",
+      "Alphagan-Z Tartarato De Brimonidina 1mg/ml 5ml Solução Oftálmica Estéril",
+      "Alphagan P Tartarato De Brimonidina 1,5mg/ml 5ml Solução Oftálmica Estéril",
+      "Alphagan Z Allergan Solução Oftálmica Estéril 5ml"
+    ]
+  },
+  "med-00727": {
+    "descontoMax": null,
+    "programas": [
+      "Bayer pra você"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Nebido Undecilato De Testosterona 250mg/ml 4ml Solução Intramuscular",
+      "Nebido 250mg/ml Grünenthal Solução Injetável 4ml"
+    ]
+  },
+  "med-00709": {
+    "descontoMax": 35,
+    "programas": [
+      "Faz bem"
+    ],
+    "redes": {
+      "drogariasaopaulo": 35
+    },
+    "produtos": [
+      "Brilinta Ticagrelor 90mg 60 Comprimidos Revestidos"
+    ]
+  },
+  "med-00719": {
+    "descontoMax": 55,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "drogariasaopaulo": 55,
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Travatan Travoprosta 0,04mg/mL 5ml",
+      "Travatan Travoprosta 0,04mg/ml 2,5ml Frasco Conta-Gotas Solução Oftálmica",
+      "Travatan Bak Free Novartis Solução Oftálmica 5ml",
+      "Travatan 0,04mg/ml Alcon 2,5ml Solução Oftálmica"
+    ]
+  },
+  "med-00724": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Mytro Trometamol Cetorolaco 10mg 10 Comprimidos Sublinguais",
+      "Mytro Trometamol Cetorolaco 10mg 20 Comprimidos Sublinguais"
+    ]
+  },
+  "med-00743": {
+    "descontoMax": 25,
+    "programas": [
+      "Vale mais saúde",
+      "VMS"
+    ],
+    "redes": {
+      "drogariasaopaulo": 25,
+      "pacheco": null
+    },
+    "produtos": [
+      "Diovan Valsartana 80mg 28 Comprimidos",
+      "Diovan Valsartana 320mg 28 comprimidos",
+      "Diovan Valsartana 160mg 28 Comprimidos"
+    ]
+  },
+  "med-00057": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null
+    },
+    "produtos": [
+      "Atenolol 100mg Genérico Legrand 30 Comprimidos"
+    ]
+  },
+  "med-00179": {
+    "descontoMax": 25,
+    "programas": [
+      "Viver mais"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": 25
+    },
+    "produtos": [
+      "Wellbutrin XL Cloridrato De Bupropiona 300mg 30 Comprimidos",
+      "Wellbutrin XL Cloridrato De Bupropiona 150mg 30 Comprimidos"
+    ]
+  },
+  "med-00272": {
+    "descontoMax": null,
+    "programas": [
+      "PROGRAMA SOU MAIS VIDA - APSEN"
+    ],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Donaren Retard Cloridrato de Trazodona 150mg 60 Comprimidos",
+      "Donaren Retard Cloridrato De Trazodona 150mg 30 Comprimidos"
+    ]
+  },
+  "med-00323": {
+    "descontoMax": 40,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": 40,
+      "pacheco": 40
+    },
+    "produtos": [
+      "Manivasc Dicloridrato De Manidipino 10mg 28 Comprimidos"
+    ]
+  },
+  "med-00452": {
+    "descontoMax": 40,
+    "programas": [
+      "Faz bem"
+    ],
+    "redes": {
+      "drogariasaopaulo": 40,
+      "pacheco": null
+    },
+    "produtos": [
+      "Atacand HCT Candesartana Cilexetila 16mg + Hidroclorotiazida 12,5mg 30 Comprimidos",
+      "Atacand HCT Candesartana Cilexetila 8mg + Hidroclorotiazida 12,5mg 30 Comprimidos"
+    ]
+  },
+  "med-00598": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "drogariasaopaulo": null,
+      "pacheco": null
+    },
+    "produtos": [
+      "Eudok Oxalato De Escitalopram 15mg 30 Cápsulas",
+      "Eudok Oxalato De Escitalopram 20mg 30 Cápsulas"
+    ]
+  },
+  "med-00094": {
+    "descontoMax": null,
+    "programas": [
+      "DIFFUCARE SITE"
+    ],
+    "redes": {
+      "pacheco": null,
+      "venancio": null
+    },
+    "produtos": [
+      "Fluxtar SR Bromazepam 6mg 30 Cápsulas",
+      "Fluxtar Sr 6mg Com 30 Cápsulas",
+      "Fluxtar Sr 3mg Com 30 Cápsulas"
+    ]
+  },
+  "med-00219": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Alois Cloridrato De Memantina 10mg 60 Comprimidos",
+      "Alois Cloridrato De Memantina 10mg  30 Comprimidos"
+    ]
+  },
+  "med-00276": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Efexor XR Cloridrato De Venlafaxina 75mg 30 Cápsulas",
+      "Efexor XR Cloridrato De Venlafaxina 150mg 30 Cápsulas"
+    ]
+  },
+  "med-00603": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Restitue Pantoprazol 40mg 30 Comprimidos"
+    ]
+  },
+  "med-00511": {
+    "descontoMax": null,
+    "programas": [
+      "Cuidados pela vida"
+    ],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Corus Losartana Potássica 25mg 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00652": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Crestor Rosuvastatina Cálcica 10mg  30 Comprimidos"
+    ]
+  },
+  "med-00653": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "pacheco": null
+    },
+    "produtos": [
+      "Coledue R Ezetimiba 10mg + Rosuvastatina Cálcica 10mg 30 Cápsulas"
+    ]
+  },
+  "med-00343": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Candicort Cetoconazol 20mg + Betametasona 0,64mg Creme 30g"
+    ]
+  },
+  "med-00312": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Diclofenaco Sódico 50mg Medley 20 Comprimidos Revestidos"
+    ]
+  },
+  "med-00238": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Reduxalt 90+8mg 70 Comprimidos Revestidos de Liberação Prolongada"
+    ]
+  },
+  "med-00248": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Paxil Cr 25mg Com 30 Comprimidos",
+      "Paxil Cr 12,5mg Com 30 Comprimidos"
+    ]
+  },
+  "med-00608": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Gésico Duo 37,5mg + 325mg 10 Comprimidos"
+    ]
+  },
+  "med-00327": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Vastarel Caps Lp 80mg 30 Capsulas",
+      "Neovangy MR 35mg com 30 Comprimidos",
+      "Neovangy MR 35mg com 60 Comprimidos"
+    ]
+  },
+  "med-00372": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Ezonia 1mg Eurofarma 30 Comprimidos",
+      "Ezonia 3mg Eurofarma 30 Comprimidos",
+      "Ezonia 2mg Eurofarma 30 Comprimidos",
+      "Prysma 3mg Eurofarma 30 comprimidos",
+      "Prysma 2mg Eurofarma 30 comprimidos"
+    ]
+  },
+  "med-00405": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Finalop Libbs 30 Comprimidos Revestidos"
+    ]
+  },
+  "med-00481": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Vimpat 200mg Com 28 Comprimidos",
+      "Vimpat Meizler 150mg 28 comprimidos",
+      "Vimpat 100mg Com 28 Comprimidos"
+    ]
+  },
+  "med-00548": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Xadago 100mg Cartucho Com 30 Comprimidos"
+    ]
+  },
+  "med-00567": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "NiQuitin Adesivo 21mg 7 Adesivos De Nicotina",
+      "NiQuitin Adesivo 14mg 7 Adesivos De Nicotina",
+      "NiQuitin Adesivo 7mg 7 Adesivos De Nicotina"
+    ]
+  },
+  "med-00571": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Nivux 100mg + 20mg Ems 12 Comprimidos"
+    ]
+  },
+  "med-00701": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Bramicar 40mg 60 Comprimidos",
+      "Bramicar 80mg 60 Comprimidos"
+    ]
+  },
+  "med-00705": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Forteo 250mcg/ml Eli Lilly Caneta Injetável 2,4ml"
+    ]
+  },
+  "med-00753": {
+    "descontoMax": null,
+    "programas": [],
+    "redes": {
+      "venancio": null
+    },
+    "produtos": [
+      "Zella 150mg/g Mantecorp Gel 30g"
+    ]
   }
 };

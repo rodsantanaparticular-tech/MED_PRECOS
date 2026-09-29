@@ -71,6 +71,23 @@ const entriesPorNome = Object.entries(porNome).sort((a, b) => b[0].length - a[0]
 
 // Resultado: medicamentoId -> rede -> {preco, nome, url, disponivel}
 const resultado = {};
+// Programas de desconto de laboratório (PBM): medicamentoId -> resumo.
+// Só informativo - o desconto exige cadastro de CPF no programa, então NÃO
+// entra no preço nem na ordenação (ver renderizarPbm em app.js).
+const pbm = {};
+
+function registrarPbm(medicamentoId, rede, produto) {
+    if (!produto.pbm) return;
+    const r = pbm[medicamentoId] = pbm[medicamentoId] || { descontoMax: null, programas: [], redes: {}, produtos: [] };
+    const d = produto.pbm.desconto;
+    if (d && (r.descontoMax === null || d > r.descontoMax)) r.descontoMax = d;
+    if (!(rede in r.redes)) r.redes[rede] = null;
+    if (d && (r.redes[rede] === null || d > r.redes[rede])) r.redes[rede] = d;
+    const programa = (produto.pbm.programa || '').trim();
+    if (programa && !r.programas.some(x => normalizarTexto(x) === normalizarTexto(programa))) r.programas.push(programa);
+    if (produto.nome && r.produtos.length < 5 && !r.produtos.includes(produto.nome)) r.produtos.push(produto.nome);
+}
+
 let porRegistroHits = 0;
 let porNomeHits = 0;
 let semMatch = 0;
@@ -109,6 +126,8 @@ function processarProduto(rede, produto) {
         return;
     }
 
+    registrarPbm(medicamentoId, rede, produto);
+
     resultado[medicamentoId] = resultado[medicamentoId] || {};
     const atual = resultado[medicamentoId][rede];
     if (!atual || produto.preco < atual.preco) {
@@ -142,6 +161,7 @@ for (const fonte of FONTES) {
 
 console.log('Matches por registro:', porRegistroHits, '| por nome:', porNomeHits, '| sem match:', semMatch);
 console.log('Medicamentos com pelo menos 1 preço real:', Object.keys(resultado).length);
+console.log('Medicamentos com programa de desconto de laboratório (PBM):', Object.keys(pbm).length);
 
 const header = `/**
  * MED_PRECOS - Preços REAIS por rede de farmácia (raspagem periódica)
@@ -164,5 +184,16 @@ const header = `/**
 
 const PRECOS_REDES = `;
 
-fs.writeFileSync(OUT, header + JSON.stringify(resultado, null, 2) + ';\n', 'utf8');
+const headerPbm = `
+
+/**
+ * Programas de desconto de laboratório (PBM) - preço menor com cadastro de CPF
+ * no programa do fabricante. Vem dos campos de PBM que as próprias redes VTEX
+ * publicam em cada produto (ver extrair_pbm em scrape_precos_vtex.py).
+ * medicamentoId -> { descontoMax (% ou null), programas: [nomes], redes: {rede: % ou null}, produtos: [nomes] }
+ * Só informativo: não altera preço nem ordenação no app.
+ */
+const PBM_MEDICAMENTOS = `;
+
+fs.writeFileSync(OUT, header + JSON.stringify(resultado, null, 2) + ';\n' + headerPbm + JSON.stringify(pbm, null, 2) + ';\n', 'utf8');
 console.log('Escrito em', OUT);

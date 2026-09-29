@@ -79,6 +79,25 @@ const REDES_COM_PRECO_REAL = [
     { trecho: 'panvel', rede: 'panvel' }
 ];
 
+// Nome de exibição das redes (chaves de PRECOS_REDES / PBM_MEDICAMENTOS)
+const NOMES_REDES = {
+    paguemenos: 'Pague Menos',
+    extrafarma: 'Extrafarma',
+    drogariasaopaulo: 'Drogaria São Paulo',
+    pacheco: 'Drogarias Pacheco',
+    venancio: 'Drogaria Venancio',
+    panvel: 'Panvel'
+};
+
+/**
+ * Programa de desconto de laboratório (PBM) do medicamento, se alguma rede
+ * raspada o marca (ver PBM_MEDICAMENTOS em js/precos-redes.js). null se não há.
+ */
+function obterPbm(medicamento) {
+    if (typeof PBM_MEDICAMENTOS === 'undefined') return null;
+    return PBM_MEDICAMENTOS[medicamento.id] || null;
+}
+
 /**
  * Identifica a que rede (com preço real raspado) uma farmácia pertence,
  * pelo nome/marca normalizados. Retorna null se não for uma rede raspada
@@ -130,6 +149,7 @@ const elementos = {
     medicamentoPrincipio: document.getElementById('medicamento-principio'),
     medicamentoDescricao: document.getElementById('medicamento-descricao'),
     medicamentoClasse: document.getElementById('medicamento-classe'),
+    medicamentoPbm: document.getElementById('medicamento-pbm'),
     
     // Genéricos
     secaoGenericos: document.getElementById('secao-genericos'),
@@ -763,6 +783,39 @@ function renderizarMedicamento(medicamento) {
     if (classe) {
         elementos.medicamentoClasse.textContent = 'Classe terapêutica: ' + classe;
     }
+
+    renderizarPbm(medicamento);
+}
+
+/**
+ * Aviso de programa de desconto do laboratório (PBM). Só informativo: o
+ * desconto depende de cadastro do CPF no programa do fabricante, então os
+ * preços da tabela continuam sendo os de prateleira (sem o desconto).
+ */
+function renderizarPbm(medicamento) {
+    const el = elementos.medicamentoPbm;
+    const pbm = obterPbm(medicamento);
+    el.innerHTML = '';
+    el.hidden = !pbm;
+    if (!pbm) return;
+
+    const titulo = document.createElement('p');
+    titulo.className = 'medicamento-pbm-titulo';
+    titulo.textContent = '💊 Tem desconto do laboratório' +
+        (pbm.descontoMax ? ' (até ' + pbm.descontoMax + '%)' : '') + ' com cadastro do CPF';
+    el.appendChild(titulo);
+
+    const detalhes = [];
+    if (pbm.programas.length) detalhes.push('Programa: ' + pbm.programas.join(', ') + '.');
+    const redes = Object.keys(pbm.redes).map(r => NOMES_REDES[r] || r);
+    if (redes.length) detalhes.push('Visto em: ' + redes.join(', ') + '.');
+    if (pbm.produtos.length) detalhes.push('Ex.: ' + pbm.produtos.slice(0, 2).join('; ') + '.');
+    detalhes.push('Os preços abaixo são sem esse desconto. Informe o CPF no caixa ou cadastre-se no site do laboratório.');
+
+    const texto = document.createElement('p');
+    texto.className = 'medicamento-pbm-texto';
+    texto.textContent = detalhes.join(' ');
+    el.appendChild(texto);
 }
 
 /**
@@ -820,7 +873,8 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
     // Ordena por preço (menor primeiro)
     const ordenados = [...precosFarmas].sort((a, b) => a.preco - b.preco);
     const menorPreco = ordenados.length > 0 ? ordenados[0].preco : 0;
-    
+    const pbm = obterPbm(medicamento);
+
     ordenados.forEach(farmacia => {
         const dados = farmacia.dados;
         const aberta = farmaciaEstaAberta(dados.horario);
@@ -873,6 +927,15 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
         precoOrigemEl.className = 'preco-real';
         precoOrigemEl.textContent = farmacia.precoReal ? '✅ preço real do site da rede' : '≈ preço estimado';
         celulaPreco.appendChild(precoOrigemEl);
+
+        const redeFarmacia = identificarRedeComPrecoReal(dados);
+        if (pbm && redeFarmacia && redeFarmacia in pbm.redes) {
+            const descontoRede = pbm.redes[redeFarmacia];
+            const pbmEl = document.createElement('span');
+            pbmEl.className = 'preco-pbm';
+            pbmEl.textContent = '💊 desconto do laboratório com CPF' + (descontoRede ? ' (até ' + descontoRede + '%)' : '');
+            celulaPreco.appendChild(pbmEl);
+        }
 
         if (eMenorPreco) {
             const badge = document.createElement('span');

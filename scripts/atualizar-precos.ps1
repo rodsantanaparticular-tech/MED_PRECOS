@@ -35,9 +35,15 @@
 
 .NOTES
     Requer: python (openpyxl), node, e Playwright instalado globalmente (npm i -g playwright).
-    Agendamento mensal no Windows (rodar uma vez, terminal comum):
-      schtasks /create /tn "MED_PRECOS - atualizar precos" /sc monthly /d 1 /st 03:00 ^
-        /tr "powershell -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\OneDrive\Documentos\MED_PRECOS\scripts\atualizar-precos.ps1\""
+    Agendamento mensal no Windows -- JA CRIADO em 2026-09-29 (tarefa "MED_PRECOS - atualizar precos",
+    dia 1 as 03:00, roda assim que possivel se o PC estava desligado, roda na bateria, limite 4h).
+    Para recriar (PowerShell):
+      schtasks /create /tn "MED_PRECOS - atualizar precos" /sc monthly /d 1 /st 03:00 /f `
+        /tr "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$env:USERPROFILE\OneDrive\Documentos\MED_PRECOS\scripts\atualizar-precos.ps1`""
+      Set-ScheduledTask -TaskName "MED_PRECOS - atualizar precos" -Settings (New-ScheduledTaskSettingsSet `
+        -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
+        -ExecutionTimeLimit (New-TimeSpan -Hours 4) -MultipleInstances IgnoreNew)
+    Ver/rodar agora: Get-ScheduledTaskInfo / Start-ScheduledTask -TaskName "MED_PRECOS - atualizar precos"
 #>
 [CmdletBinding()]
 param(
@@ -133,8 +139,12 @@ try {
     if ($hashAntes -eq $hashDepois) {
         Log "js/precos-redes.js NAO mudou nesta rodada."
     } else {
-        $qtd = (Select-String -Path $saidaJs -Pattern '"med-\d+":' -AllMatches | Measure-Object).Count
-        Log ("js/precos-redes.js atualizado. Medicamentos com preco real: ~{0}" -f $qtd)
+        # O arquivo tem dois blocos (PRECOS_REDES e depois PBM_MEDICAMENTOS) - conta cada um separado
+        $conteudo = Get-Content $saidaJs -Raw -Encoding utf8
+        $partes = $conteudo -split 'const PBM_MEDICAMENTOS'
+        $qtd = ([regex]::Matches($partes[0], '"med-\d+":')).Count
+        $qtdPbm = if ($partes.Count -gt 1) { ([regex]::Matches($partes[1], '"med-\d+":')).Count } else { 0 }
+        Log ("js/precos-redes.js atualizado. Medicamentos com preco real: {0} | com desconto de laboratorio (PBM): {1}" -f $qtd, $qtdPbm)
         Log "Lembrete: revisar o diff e commitar js/precos-redes.js."
     }
     Log "CONCLUIDO."
