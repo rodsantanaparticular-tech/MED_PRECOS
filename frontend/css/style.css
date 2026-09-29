@@ -606,6 +606,47 @@ a:focus {
     margin-bottom: var(--espacamento-medio);
 }
 
+/* Preços sendo atualizados em segundo plano pela API */
+.aviso-atualizacao {
+    background: var(--cor-primaria-clara);
+    border-left: 4px solid var(--cor-primaria);
+    color: var(--cor-texto);
+    padding: var(--espacamento-medio);
+    border-radius: var(--raio-borda-pequeno);
+    margin-bottom: var(--espacamento-medio);
+    font-size: 0.9rem;
+}
+
+/* Seletor da apresentação comparada (dose + quantidade) */
+.seletor-apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: var(--espacamento-medio);
+}
+
+.seletor-apresentacao label {
+    font-weight: 600;
+    color: var(--cor-texto);
+}
+
+.seletor-apresentacao select {
+    flex: 1 1 16rem;
+    max-width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--cor-borda);
+    border-radius: var(--raio-borda-pequeno);
+    background: var(--cor-fundo-claro);
+    color: var(--cor-texto);
+    font: inherit;
+}
+
+.seletor-apresentacao select:focus {
+    outline: 3px solid var(--cor-secundaria);
+    border-color: var(--cor-primaria);
+}
+
 .tabela-container {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -670,6 +711,20 @@ a:focus {
     font-size: 0.75rem;
     color: var(--cor-texto-claro);
     margin-top: 0.15rem;
+}
+
+/* Produto (marca/genérico) a que o preço real se refere */
+.tabela-precos .preco-produto {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--cor-texto);
+    margin-top: 0.15rem;
+    max-width: 16rem;
+}
+
+.tabela-precos a.preco-produto {
+    color: var(--cor-primaria);
+    text-decoration: underline;
 }
 
 .tabela-precos .preco-pbm {

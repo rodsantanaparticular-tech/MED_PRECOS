@@ -25,41 +25,39 @@ escopo do MED_PRECOS mas descreva a causa de forma genérica — sem nome nem de
 projeto. Diga só o necessário para justificar a ação.
 
 ## O que é
-**MED_PRECOS** — comparador de preços de medicamentos (front-end puro, sem backend ainda): busca por
-nome/voz, localização por GPS/CEP, sugestão de alternativas genéricas, comparação entre farmácias,
-roteiro de compras (funcionalidade Premium).
+**MED_PRECOS** ("MedPreços: cuide da sua saúde e do seu bolso") — comparador de preços de
+medicamentos: busca por nome/voz, localização por GPS/CEP, sugestão de alternativas genéricas,
+comparação entre farmácias por apresentação, roteiro de compras (funcionalidade Premium).
+Desde 29/09/2026: **backend FastAPI + banco relacional + fila**, conteinerizado (ver `README.md`).
 
-## Estrutura
-- `index.html`, `css/style.css`
-- `js/app.js` — UI, busca/pontuação/fuzzy-match, geocodificação (ViaCEP+Nominatim), busca de
-  farmácias reais próximas ao vivo (Overpass/OpenStreetMap, com fallback pré-carregado) e preço
-  real por farmácia (`PRECOS_REDES`, com fallback pra estimativa CMED)
-- `js/data.js` — `BANCO_MEDICAMENTOS` **real** (760 medicamentos, preços CMED/ANVISA oficiais +
-  registro ANVISA por produto, gerado por `scripts/build_data_cmed.py`; `descricao` amigável,
-  `classeTerapeutica` e `sinonimias` acrescentados por `scripts/enriquecimento-medicamentos.js` via
-  `scripts/aplicar-enriquecimento.js`). `BANCO_FARMACIAS` **real**
-  (54 farmácias pré-carregadas via OpenStreetMap, gerado por `scripts/build_farmacias_overpass.py`
-  — usado só como fallback quando a busca ao vivo falha).
-- `js/precos-redes.js` — `PRECOS_REDES`, preços **reais raspados** de 6 redes de farmácia (Pague
-  Menos, Extrafarma, Panvel, Drogaria São Paulo, Pacheco, Venancio), gerado por
-  `scripts/build_precos_redes.js`. Cobre 93% dos 760 medicamentos. Raspagem completa via
-  `scripts/atualizar-precos.ps1` (orquestra os 3 passos; ver `STATUS.md`).
-  Nissei e Big Ben foram avaliados e **ficam de fora** da raspagem (ver `STATUS.md`).
-- `js/speech.js` — Web Speech API nativa do navegador (já real, não mock)
-- Ver `STATUS.md` para como reproduzir/atualizar cada fonte de dado.
+## Estrutura (detalhes em `README.md`)
+- `frontend/` — site estático (`index.html`, `css/`, `js/app.js` = UI + cliente da API,
+  `js/speech.js` = Web Speech API). Não tem mais dados embutidos: tudo vem de `/api`.
+- `backend/app/` — dividido pelas 4 frentes:
+  - `catalogo/` (Frente 1): importação da lista CMED/ANVISA (âncora `produtos_cmed`, 1 linha por
+    apresentação/GGREM, com EAN e registro) + enriquecimento (descrição/sinônimos, regras em
+    `catalogo/dados/enriquecimento.json`)
+  - `coleta/` (Frente 2): `redes.py` (política de coleta por rede — fonte da verdade), `vtex.py`,
+    `sitemaps.py` (Camada A), `sob_demanda.py` (Camada B), `cache.py` (Camada C), `lote.py`,
+    `geo.py` (ViaCEP/Nominatim/Overpass), `importar_legado.py`
+  - `matching/` (Frente 3): normalização, chave de apresentação `dose|quantidade`, casamento
+    EAN > registro > nome (prefixo) > nome aproximado
+  - `api/`, `servicos/`, `workers/` (Frente 4): endpoints, busca/comparação, Celery/thread + agenda
+- `backend/migracoes/` (Alembic), `backend/tests/` (pytest, sem rede)
+- `docker-compose.yml` — db (Postgres), redis, preparar, api (porta **8731** no host), worker, agenda
+- `scripts/legado/` — scripts anteriores ao backend, só referência (ver `LEIAME.md` lá)
 
 ## Estado
-- Projeto sob Git local (sem remoto). Commit inicial `19d515c`: "Estado inicial: MED_PRECOS com
-  dados mock (pré integração API real)".
-- **Preços de medicamentos (referência CMED):** resolvido em 18/08/2026 — `data.js` usa a lista
-  oficial de preços CMED (ANVISA), gratuita e sem limite de requisição.
-- **Geo-referenciamento de farmácias:** resolvido em 18/08/2026 — busca ao vivo via Overpass
-  (OpenStreetMap) com escalonamento de raio, fallback pré-carregado real (54 farmácias, 9 capitais).
-- **Preço real por farmácia:** resolvido em 18/08/2026 para 6 redes (raspagem periódica, ToS/robots.txt
-  checados rede por rede antes de implementar — Droga Raia/Drogasil/Ultrafarma/Araújo ficam de fora
-  por proibição contratual ou bloqueio ativo, essas duas primeiras têm rascunho de e-mail pra via
-  oficial em `outreach/contatos-parcerias.md`). Demais farmácias continuam com preço estimado a
-  partir do teto CMED. Detalhes completos em `STATUS.md`.
+- Projeto sob Git local (sem remoto).
+- **Catálogo:** lista CMED completa (26 mil apresentações, ~2,25 mil princípios ativos), importada
+  automaticamente todo dia 12.
+- **Farmácias:** OpenStreetMap ao vivo pela API (cache 24h compartilhado; reserva de 54 farmácias).
+- **Preço real:** 5 redes VTEX coletadas (Pague Menos, Extrafarma, Drogaria São Paulo, Pacheco,
+  Venancio) — sob demanda quando o preço passa de 24h + lote semanal. **Panvel saiu da coleta em
+  29/09/2026** (passou a bloquear acesso automatizado; preços antigos ficam como histórico).
+  Droga Raia/Drogasil/Ultrafarma/Araújo/Nissei ficam de fora (ToS/bloqueio; via oficial em
+  `outreach/contatos-parcerias.md`). Demais farmácias: preço estimado a partir do teto CMED.
+- Detalhes, números e decisões em `STATUS.md`.
 
 ## Convenção de acompanhamento
 Manter o `STATUS.md` na raiz atualizado ao final de cada sessão de trabalho ou marco relevante, com:

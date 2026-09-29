@@ -1,0 +1,1167 @@
+{
+ "regras_descricao": [
+  {
+   "regex": "associacoes ofta?l?mologicas corticoster|(ofta?l?molog|oftalmic).*(antiinfeccios|antibacterian|antibiotic)|(antiinfeccios|antibacterian|antibiotic).*(ofta?l?molog|oftalmic)",
+   "flags": "",
+   "texto": "Colírio ou pomada oftálmica que combina anti-inflamatório (corticoide) com antibiótico."
+  },
+  {
+   "regex": "(otolog|otic).*(corticoster|antiinfeccios|antibacterian)",
+   "flags": "",
+   "texto": "Medicamento para o ouvido que combina anti-inflamatório com antibiótico."
+  },
+  {
+   "regex": "corticoster.*ofta?l?molog|ofta?l?molog.*corticoster|corticosteroides ofta?l?molog",
+   "flags": "",
+   "texto": "Colírio com corticoide, para inflamação e alergia mais intensas nos olhos."
+  },
+  {
+   "regex": "(dermatolog|topic).*corticoster.*(antibacterian|antimicotic|antiinfeccios)|corticoesteroides.*(antibacterian|antimicotic|antiinfeccios)|corticoster.*associad.*(antibacterian|antimicotic)",
+   "flags": "",
+   "texto": "Pomada que combina corticoide (anti-inflamatório) com antibiótico e/ou antifúngico, para lesões de pele infectadas."
+  },
+  {
+   "regex": "corticoster.*nasa|nasa.*corticoster",
+   "flags": "",
+   "texto": "Corticoide de uso nasal. Usado para rinite alérgica e congestão persistente."
+  },
+  {
+   "regex": "descongestionantes ofta?l?molog",
+   "flags": "",
+   "texto": "Colírio que alivia a vermelhidão e a irritação dos olhos."
+  },
+  {
+   "regex": "antineovascularizacao ocular|antiangiogenico ocular|degeneracao macular|antineovascular",
+   "flags": "",
+   "texto": "Injeção no olho para doenças da retina, como a degeneração macular."
+  },
+  {
+   "regex": "lagrimas artificiais|lubrificantes oftamolog|lubrificantes ofta?l?molog",
+   "flags": "",
+   "texto": "Lágrima artificial. Lubrifica e alivia o ressecamento dos olhos."
+  },
+  {
+   "regex": "midriatic|cicloplegic",
+   "flags": "",
+   "texto": "Colírio que dilata a pupila para exames ou procedimentos oftalmológicos."
+  },
+  {
+   "regex": "preparacoes antiglaucoma|miotic",
+   "flags": "",
+   "texto": "Colírio que reduz a pressão dentro do olho (glaucoma)."
+  },
+  {
+   "regex": "antialergic.*ofta?l?molog|antiinflamatorios ofta?l?molog",
+   "flags": "",
+   "texto": "Colírio para aliviar alergia e inflamação nos olhos."
+  },
+  {
+   "regex": "ofta?l?molog|oftalmic|conjuntivit",
+   "flags": "",
+   "texto": "Medicamento de uso nos olhos (colírio ou pomada oftálmica)."
+  },
+  {
+   "regex": "inibidores da bomba de prot|antiulceros|protetor.*(gastric|estomag)",
+   "flags": "",
+   "texto": "Reduz a produção de ácido no estômago. Usado para gastrite, refluxo e úlcera."
+  },
+  {
+   "regex": "antagonistas h2|bloqueadores h2",
+   "flags": "",
+   "texto": "Reduz a acidez do estômago. Usado para gastrite e refluxo."
+  },
+  {
+   "regex": "antiacid",
+   "flags": "",
+   "texto": "Neutraliza a acidez do estômago, aliviando azia e má digestão."
+  },
+  {
+   "regex": "antiflatulent|carminativ|antiespumante",
+   "flags": "",
+   "texto": "Reduz os gases e a sensação de estufamento."
+  },
+  {
+   "regex": "gastroprocinetic|antiemetic|antinauseant",
+   "flags": "",
+   "texto": "Combate náuseas e vômitos e ajuda o estômago a esvaziar."
+  },
+  {
+   "regex": "antidiarreic|inibidores da motilidade",
+   "flags": "",
+   "texto": "Reduz a diarreia."
+  },
+  {
+   "regex": "aminosalicilat|doenca inflamatoria intestinal|retocolite|crohn",
+   "flags": "",
+   "texto": "Anti-inflamatório intestinal. Usado para retocolite ulcerativa e doença de Crohn."
+  },
+  {
+   "regex": "\\blaxativ|\\blaxante|\\bcatartic|limpeza intestinal|agentes osmoticos|drogas para constipac|para constipac",
+   "flags": "",
+   "texto": "Laxante. Usado para constipação (prisão de ventre)."
+  },
+  {
+   "regex": "antiespasmodic|associacoes de antiespasmodicos|anticolinergic.*(gastro|intestin|digest)",
+   "flags": "",
+   "texto": "Alivia cólicas e espasmos do aparelho digestivo."
+  },
+  {
+   "regex": "hepatoprotetor|lipotropic|colagog|coleretic|colecinetic",
+   "flags": "",
+   "texto": "Auxiliar da função do fígado e da vesícula."
+  },
+  {
+   "regex": "antirreumaticos e analgesicos topicos|antirreumaticos.*topic|antiinflamator.*topic",
+   "flags": "",
+   "texto": "Anti-inflamatório de uso na pele, para dores musculares e nas articulações."
+  },
+  {
+   "regex": "antirreumaticos nao esteroidais|anti-?inflamatori.*nao esteroid|\\baine\\b|coxib|inibidores.*cox-?2",
+   "flags": "",
+   "texto": "Anti-inflamatório não esteroidal (AINE). Usado para dor, inflamação e febre."
+  },
+  {
+   "regex": "analgesicos narcoticos|opioid",
+   "flags": "",
+   "texto": "Analgésico opioide para dores intensas. Uso controlado e sob prescrição."
+  },
+  {
+   "regex": "analgesic.*antipiretic|antipiretic.*analgesic|associacoes de analgesicos",
+   "flags": "",
+   "texto": "Analgésico e antitérmico. Usado para dor leve a moderada e febre."
+  },
+  {
+   "regex": "relaxante muscular|miorrelaxante",
+   "flags": "",
+   "texto": "Relaxante muscular. Usado para contraturas e dores musculares."
+  },
+  {
+   "regex": "antigotos|antigotoso|\\bgota\\b|uricosuric|hiperuricemia|xantina oxidase",
+   "flags": "",
+   "texto": "Usado para tratar ou prevenir crises de gota (ácido úrico alto)."
+  },
+  {
+   "regex": "anti-?histaminic|antialergic.*sistemic|antipruriginos",
+   "flags": "",
+   "texto": "Antialérgico (anti-histamínico). Usado para rinite, urticária, coceira e alergias."
+  },
+  {
+   "regex": "antiasmatic|\\bdpoc\\b|agonistas b2|broncodilatador|antileucotrien",
+   "flags": "",
+   "texto": "Abre as vias respiratórias, facilitando a respiração na asma e na DPOC."
+  },
+  {
+   "regex": "expectorante|mucolitic",
+   "flags": "",
+   "texto": "Ajuda a fluidificar e eliminar o catarro das vias respiratórias."
+  },
+  {
+   "regex": "antitussig",
+   "flags": "",
+   "texto": "Reduz a tosse seca."
+  },
+  {
+   "regex": "antigripai|descongestionante.*sistemic|preparacoes sistemicas nasais",
+   "flags": "",
+   "texto": "Alivia sintomas de gripes e resfriados, como congestão nasal e dores."
+  },
+  {
+   "regex": "corticoster.*inalant|inalant.*corticoster",
+   "flags": "",
+   "texto": "Corticoide inalatório. Usado para controlar a inflamação das vias aéreas na asma e na DPOC."
+  },
+  {
+   "regex": "antineoplasic|citostatic|citotoxic|proteina kinase|quimioterap|alquilante|antimetabolit|camptotecin|inibidores da aromatase|lidomida|anti-?tnf|fator de necrose tumoral|interleucin",
+   "flags": "",
+   "texto": "Usado no tratamento de câncer ou de doenças imunológicas graves (quimioterapia, terapia-alvo ou biológico)."
+  },
+  {
+   "regex": "estatina|redutase hmg-?coa",
+   "flags": "",
+   "texto": "Reduz o colesterol no sangue, diminuindo o risco de infarto e AVC."
+  },
+  {
+   "regex": "fibrato|acido fibrico|reguladores de gordura",
+   "flags": "",
+   "texto": "Reduz os triglicérides (e um pouco o colesterol) no sangue."
+  },
+  {
+   "regex": "ezetimiba|sequestrante.*acidos biliares|hipolipemiante|reguladores de lipidi",
+   "flags": "",
+   "texto": "Reduz o colesterol no sangue."
+  },
+  {
+   "regex": "terapia coronaria|trimetazidina|antianginos",
+   "flags": "",
+   "texto": "Melhora o aproveitamento de oxigênio pelo coração, aliviando a angina (dor no peito)."
+  },
+  {
+   "regex": "betabloqueador",
+   "flags": "",
+   "texto": "Reduz o esforço do coração. Usado para pressão alta, arritmia e angina."
+  },
+  {
+   "regex": "antagonistas do calcio",
+   "flags": "",
+   "texto": "Relaxa os vasos sanguíneos. Usado para pressão alta e angina."
+  },
+  {
+   "regex": "inibidores da eca",
+   "flags": "",
+   "texto": "Relaxa os vasos e reduz a pressão arterial; também protege coração e rins."
+  },
+  {
+   "regex": "antagonistas da angiotensina ii",
+   "flags": "",
+   "texto": "Reduz a pressão arterial relaxando os vasos sanguíneos (linha das \"sartanas\")."
+  },
+  {
+   "regex": "hormonios antidiuretic|desmopressin|vasopressin|diabetes insipido",
+   "flags": "",
+   "texto": "Reduz a produção de urina. Usado para diabetes insípido e enurese (xixi na cama)."
+  },
+  {
+   "regex": "\\bdiuretic",
+   "flags": "",
+   "texto": "Aumenta a eliminação de líquido e sal pela urina. Usado para pressão alta e inchaço."
+  },
+  {
+   "regex": "agentes cardiacos|inotropic|glicosideos cardiac|digitalic|insuficiencia cardiaca",
+   "flags": "",
+   "texto": "Fortalece os batimentos do coração. Usado na insuficiência cardíaca."
+  },
+  {
+   "regex": "antiarritmic",
+   "flags": "",
+   "texto": "Controla batimentos cardíacos irregulares (arritmia)."
+  },
+  {
+   "regex": "antianginos|terapia coronaria|vasodilatadores.*coronari|\\bnitrit|\\bnitrat",
+   "flags": "",
+   "texto": "Melhora o fluxo de sangue para o coração, aliviando a angina (dor no peito)."
+  },
+  {
+   "regex": "hipertensao (arterial )?pulmonar|antagonistas receptores de endotelina",
+   "flags": "",
+   "texto": "Usado para hipertensão nos vasos dos pulmões (hipertensão arterial pulmonar)."
+  },
+  {
+   "regex": "anti-?hipertensivos|simpaticolitic",
+   "flags": "",
+   "texto": "Reduz a pressão arterial."
+  },
+  {
+   "regex": "vasoterapeutic|vasodilatadores perifericos|vasculoterap.*cerebrai|acao cerebral",
+   "flags": "",
+   "texto": "Melhora a circulação do sangue no cérebro e nas extremidades."
+  },
+  {
+   "regex": "antagonistas da vitamina k|anticoagulante",
+   "flags": "",
+   "texto": "Deixa o sangue mais \"fino\", prevenindo a formação de coágulos."
+  },
+  {
+   "regex": "antiagregante|antiplaquetari|agr[ae]gacao plaquetari|adenosina difosfato|fator xa|inibidores diretos da trombina",
+   "flags": "",
+   "texto": "Reduz a formação de coágulos no sangue. Usado para prevenir infarto, AVC e trombose."
+  },
+  {
+   "regex": "antitrombotic|heparin|fibrinolitic|trombolitic|antifibrinolitic",
+   "flags": "",
+   "texto": "Age sobre a coagulação do sangue (previne ou dissolve coágulos, ou controla sangramentos)."
+  },
+  {
+   "regex": "vasoprotetor|venotonico|hemorroid|vasculoprotetor|antivaricos",
+   "flags": "",
+   "texto": "Melhora a circulação venosa. Usado para varizes, hemorroidas e pernas pesadas."
+  },
+  {
+   "regex": "antidiabetic|biguanida|dpp-?iv|glp-?1|sglt2|sulfoniloure|glitazona|insulin",
+   "flags": "",
+   "texto": "Ajuda a controlar a glicose (açúcar) no sangue no diabetes."
+  },
+  {
+   "regex": "paratireoid|paratireoideano|paratormonio|teriparatid",
+   "flags": "",
+   "texto": "Regula o cálcio do organismo. Usado em osteoporose grave ou em distúrbios da paratireoide."
+  },
+  {
+   "regex": "hormonios tireoid|levotiroxin|\\btireoid|tireostatic|preparacoes para tireoide",
+   "flags": "",
+   "texto": "Regula o hormônio da tireoide."
+  },
+  {
+   "regex": "bisfosfonato|osteoporose",
+   "flags": "",
+   "texto": "Fortalece os ossos e reduz o risco de fraturas na osteoporose."
+  },
+  {
+   "regex": "eritropoietin|eritropoetin|epoetin|darbepoetin",
+   "flags": "",
+   "texto": "Estimula a produção de glóbulos vermelhos. Usado para anemia (por exemplo, na doença renal)."
+  },
+  {
+   "regex": "fatores estimulantes de colonias|filgrastim|estimulantes.*colonia",
+   "flags": "",
+   "texto": "Estimula a produção de glóbulos brancos, geralmente após quimioterapia."
+  },
+  {
+   "regex": "hormonio.*crescimento|somatropin",
+   "flags": "",
+   "texto": "Hormônio do crescimento."
+  },
+  {
+   "regex": "hiperfosfatemia|quelante.*fosfato",
+   "flags": "",
+   "texto": "Reduz o fósforo no sangue (usado na doença renal crônica)."
+  },
+  {
+   "regex": "contracep",
+   "flags": "",
+   "texto": "Contraceptivo hormonal (anticoncepcional)."
+  },
+  {
+   "regex": "gonadotrofina|estimulantes para ovulacao|inducao da ovulacao",
+   "flags": "",
+   "texto": "Estimula os ovários. Usado em tratamentos de fertilidade."
+  },
+  {
+   "regex": "inibidores da prolactina|hiperprolactinemia|cabergolina|bromocriptina|inibicao.*lactacao",
+   "flags": "",
+   "texto": "Reduz a prolactina. Usado em distúrbios hormonais e para inibir a produção de leite."
+  },
+  {
+   "regex": "moduladores seletivos do receptor de estrogenio|\\bserm\\b|raloxifeno",
+   "flags": "",
+   "texto": "Atua nos receptores de estrogênio. Usado em osteoporose e em câncer de mama."
+  },
+  {
+   "regex": "estrogen|reposicao hormonal|climaterio|menopaus",
+   "flags": "",
+   "texto": "Reposição de estrogênio. Usada em sintomas da menopausa e outras indicações."
+  },
+  {
+   "regex": "progestagen|progesteron|progestogen",
+   "flags": "",
+   "texto": "Hormônio progestagênio, usado em saúde da mulher e contracepção."
+  },
+  {
+   "regex": "\\bbph\\b|hiperplasia prostatica|prostat|5-?alfa|antagonistas alfa-adrenergic",
+   "flags": "",
+   "texto": "Usado para sintomas do aumento benigno da próstata."
+  },
+  {
+   "regex": "androgen|testosteron",
+   "flags": "",
+   "texto": "Reposição de testosterona (hormônio masculino)."
+  },
+  {
+   "regex": "disfuncao eretil|fosfodiesterase 5",
+   "flags": "",
+   "texto": "Usado para disfunção erétil."
+  },
+  {
+   "regex": "incontinencia urinaria|bexiga hiperativ",
+   "flags": "",
+   "texto": "Usado para controlar a bexiga hiperativa e a incontinência urinária."
+  },
+  {
+   "regex": "penicilina|cefalosporina|macrolide|fluorquinolona|quinolona|tetraciclina|aminoglicosid|sulfonamida|trimetoprima|carbapenem|peneme|glicopeptid|glucopeptid|nitrofuran|rifampicin|rifamicin|tuberculostatic|antituberculos|antibiotic|antibacterian",
+   "flags": "",
+   "texto": "Antibiótico. Usado para tratar infecções causadas por bactérias."
+  },
+  {
+   "regex": "antifungic|antimicotic|infeccoes fungicas|\\bmicose",
+   "flags": "",
+   "texto": "Antifúngico. Usado para tratar micoses e infecções por fungos."
+  },
+  {
+   "regex": "antivira|antiretrovira|herpes|hepatite [bc]|\\bhiv\\b|influenza.*antivira|transcriptase reversa|integrase",
+   "flags": "",
+   "texto": "Antiviral. Usado para tratar ou controlar infecções causadas por vírus."
+  },
+  {
+   "regex": "anti-?helmintic|vermifug|antiprotozo|antiparasitari|esquistossomicida",
+   "flags": "",
+   "texto": "Usado para eliminar vermes ou parasitas intestinais."
+  },
+  {
+   "regex": "amebicida|giardia|tricomonicida|metronidazol",
+   "flags": "",
+   "texto": "Usado para tratar infecções por amebas, giárdia ou tricomonas."
+  },
+  {
+   "regex": "malari|antimalaric|leishman",
+   "flags": "",
+   "texto": "Usado para prevenir ou tratar malária e doenças parasitárias semelhantes."
+  },
+  {
+   "regex": "escabicida|pediculicida|antipediculos",
+   "flags": "",
+   "texto": "Usado no tratamento de sarna (escabiose) e piolho."
+  },
+  {
+   "regex": "vacina",
+   "flags": "",
+   "texto": "Vacina. Estimula o organismo a se defender contra uma doença específica."
+  },
+  {
+   "regex": "antidepressiv",
+   "flags": "",
+   "texto": "Antidepressivo. Usado para depressão e transtornos de ansiedade."
+  },
+  {
+   "regex": "estabilizador.*humor|carbonato de litio|\\blitio\\b",
+   "flags": "",
+   "texto": "Estabilizador de humor. Usado no transtorno bipolar."
+  },
+  {
+   "regex": "antipsicotic|neurolept",
+   "flags": "",
+   "texto": "Antipsicótico. Usado para esquizofrenia, transtorno bipolar e quadros relacionados."
+  },
+  {
+   "regex": "tranquilizante|ansiolitic|benzodiazepin",
+   "flags": "",
+   "texto": "Reduz a ansiedade e a tensão. Uso de curto prazo e sob prescrição."
+  },
+  {
+   "regex": "hipnotic|sedativ|indutor do sono",
+   "flags": "",
+   "texto": "Indutor do sono. Usado para insônia por período limitado."
+  },
+  {
+   "regex": "antiepileptic|anticonvulsivante|gabapentinoide",
+   "flags": "",
+   "texto": "Previne crises convulsivas; também usado para dor neuropática e estabilização do humor."
+  },
+  {
+   "regex": "antiparkinsonian|levodopa|agonistas dopaminergic|dopaminergic.*(central|cerebral)|antidiscinetic",
+   "flags": "",
+   "texto": "Controla os sintomas da doença de Parkinson (tremor, rigidez, lentidão)."
+  },
+  {
+   "regex": "antialzheimer|inibidores da colinesterase|anticolinesterasic|antidemenc",
+   "flags": "",
+   "texto": "Usado para retardar a progressão dos sintomas da doença de Alzheimer."
+  },
+  {
+   "regex": "esclerose multipla",
+   "flags": "",
+   "texto": "Usado para reduzir surtos e a progressão da esclerose múltipla."
+  },
+  {
+   "regex": "enxaqueca|triptan|antienxaque",
+   "flags": "",
+   "texto": "Usado para tratar ou prevenir crises de enxaqueca."
+  },
+  {
+   "regex": "vertigem|antivertiginos|labirintit|antivertigo",
+   "flags": "",
+   "texto": "Usado para tontura e vertigem (labirintite)."
+  },
+  {
+   "regex": "psicoestimulante|deficit de atencao|\\btdah\\b|nootropic|psicoanaleptic",
+   "flags": "",
+   "texto": "Estimulante do sistema nervoso central. Usado no TDAH e condições relacionadas."
+  },
+  {
+   "regex": "anestesicos locais|anestesico local",
+   "flags": "",
+   "texto": "Anestésico local. Dessensibiliza temporariamente uma região do corpo."
+  },
+  {
+   "regex": "antitabaco|dependencia.*(tabaco|nicotin)|cessacao.*tabagismo|reposicao de nicotina",
+   "flags": "",
+   "texto": "Auxilia a parar de fumar."
+  },
+  {
+   "regex": "dependencia alcoolica|dissulfiram|alcoolismo|dependencia de alcool",
+   "flags": "",
+   "texto": "Auxiliar no tratamento da dependência de álcool."
+  },
+  {
+   "regex": "orexigen|estimulante.*apetite",
+   "flags": "",
+   "texto": "Estimula o apetite."
+  },
+  {
+   "regex": "imunossupressor|imunomodulador|imunossupress|inibidores de jak|\\bjak\\b",
+   "flags": "",
+   "texto": "Reduz a atividade do sistema imunológico. Usado em doenças autoimunes e transplantes."
+  },
+  {
+   "regex": "terapia dos calculos biliares|calculos biliares|acido ursodesoxicolic|ursodiol",
+   "flags": "",
+   "texto": "Ajuda a dissolver cálculos (pedras) na vesícula."
+  },
+  {
+   "regex": "fitoterapic|origem herbacea|planta medicinal",
+   "flags": "",
+   "texto": "Medicamento fitoterápico (à base de plantas)."
+  },
+  {
+   "regex": "anti-?reumaticos especific|antirreumaticos modificadores|agentes anti-?reumaticos",
+   "flags": "",
+   "texto": "Modifica o curso de doenças reumáticas autoimunes, como a artrite reumatoide."
+  },
+  {
+   "regex": "fator viii|fator ix|hemofilia|fatores de coagulacao",
+   "flags": "",
+   "texto": "Repõe um fator de coagulação do sangue. Usado na hemofilia."
+  },
+  {
+   "regex": "angiodema hereditario|angioedema hereditario",
+   "flags": "",
+   "texto": "Usado para prevenir ou tratar crises de angioedema hereditário (inchaços graves)."
+  },
+  {
+   "regex": "corticoster|corticoesteroid|glicocorticoid",
+   "flags": "",
+   "texto": "Corticoide. Reduz inflamação e reações alérgicas."
+  },
+  {
+   "regex": "antiacneic",
+   "flags": "",
+   "texto": "Usado no tratamento da acne."
+  },
+  {
+   "regex": "psorias|antipsoriatic",
+   "flags": "",
+   "texto": "Usado no tratamento da psoríase."
+  },
+  {
+   "regex": "antibioticos topicos|antibacterianos topicos",
+   "flags": "",
+   "texto": "Antibiótico de uso na pele, para infecções cutâneas."
+  },
+  {
+   "regex": "antisseptic|desinfetante",
+   "flags": "",
+   "texto": "Antisséptico. Usado para limpar e prevenir infecção em ferimentos."
+  },
+  {
+   "regex": "cicatrizante|reparador (tecidual|da pele)|emoliente|hidratante|protetores dermatolog|tratamento de ferida|\\bcurativ|escara",
+   "flags": "",
+   "texto": "Protege e ajuda na recuperação da pele (assaduras, ressecamento, feridas)."
+  },
+  {
+   "regex": "fibrose pulmonar",
+   "flags": "",
+   "texto": "Usado para retardar a progressão da fibrose pulmonar idiopática."
+  },
+  {
+   "regex": "dermatolog|topic.*pele|preparacoes dermatolog",
+   "flags": "",
+   "texto": "Medicamento de uso na pele."
+  },
+  {
+   "regex": "ferro-?quelante|quelante de ferro",
+   "flags": "",
+   "texto": "Remove o excesso de ferro do organismo."
+  },
+  {
+   "regex": "probiotic|flora intestinal|lactobacil|micro-?organismos",
+   "flags": "",
+   "texto": "Repõe a flora intestinal (bactérias \"do bem\")."
+  },
+  {
+   "regex": "rehidratante|reidratante|eletrolit|solucao oral de reidrat|sais para reidrat",
+   "flags": "",
+   "texto": "Repõe água e sais minerais perdidos (por exemplo, em diarreia)."
+  },
+  {
+   "regex": "produtos a base de calcio|sais de calcio|calcio \\+ vitamina d",
+   "flags": "",
+   "texto": "Suplemento de cálcio (e às vezes vitamina D) para a saúde dos ossos."
+  },
+  {
+   "regex": "vitamin|suplemento|complexo b|acido fol|antianemic|ferroso|sais de ferro|ferro puro|calcio \\+ |polivitaminic|\\bminerai?s\\b|multimineral|\\btonico",
+   "flags": "",
+   "texto": "Suplemento de vitaminas e/ou minerais."
+  },
+  {
+   "regex": "descongestionante.*nasa|nasa.*descongestionante",
+   "flags": "",
+   "texto": "Descongestionante nasal. Desentope o nariz."
+  },
+  {
+   "regex": "nasal|rinite",
+   "flags": "",
+   "texto": "Medicamento de uso nasal, para congestão e rinite."
+  },
+  {
+   "regex": "preparacoes para garganta|pastilha|\\bgarganta",
+   "flags": "",
+   "texto": "Alívio local para dor de garganta e irritação na boca."
+  },
+  {
+   "regex": "\\botolog|\\botic\\b|ouvido|otite",
+   "flags": "",
+   "texto": "Medicamento de uso no ouvido."
+  },
+  {
+   "regex": "antiobesidade|antiobesitas",
+   "flags": "",
+   "texto": "Auxiliar no tratamento da obesidade."
+  },
+  {
+   "regex": "agonistas da trombopoetina|estimulante.*plaquet|trombopoetina",
+   "flags": "",
+   "texto": "Estimula a produção de plaquetas no sangue."
+  },
+  {
+   "regex": "anti-?sept.*urinari|urinari.*anti-?sept",
+   "flags": "",
+   "texto": "Antisséptico das vias urinárias. Usado em infecções urinárias."
+  }
+ ],
+ "sinonimos_curados": {
+  "paracetamol": [
+   "acetaminofeno",
+   "tylenol"
+  ],
+  "dipirona": [
+   "metamizol",
+   "novalgina",
+   "anador"
+  ],
+  "dipirona monoidratada": [
+   "dipirona",
+   "metamizol",
+   "novalgina"
+  ],
+  "dipirona sodica": [
+   "dipirona",
+   "metamizol",
+   "novalgina"
+  ],
+  "ibuprofeno": [
+   "advil",
+   "alivium",
+   "ibupril"
+  ],
+  "acido acetilsalicilico": [
+   "aspirina",
+   "aas",
+   "melhoral"
+  ],
+  "diclofenaco": [
+   "voltaren",
+   "cataflam",
+   "biofenac"
+  ],
+  "diclofenaco sodico": [
+   "voltaren",
+   "cataflam"
+  ],
+  "diclofenaco potassico": [
+   "cataflam"
+  ],
+  "naproxeno": [
+   "flanax",
+   "naprosyn"
+  ],
+  "nimesulida": [
+   "nisulid",
+   "scaflam",
+   "arflex"
+  ],
+  "cetoprofeno": [
+   "profenid",
+   "bi-profenid"
+  ],
+  "omeprazol": [
+   "losec",
+   "peprazol"
+  ],
+  "pantoprazol": [
+   "pantozol"
+  ],
+  "esomeprazol": [
+   "nexium"
+  ],
+  "ranitidina": [
+   "antak",
+   "label"
+  ],
+  "loratadina": [
+   "claritin",
+   "histadin"
+  ],
+  "desloratadina": [
+   "desalex"
+  ],
+  "cetirizina": [
+   "zyrtec",
+   "reactine"
+  ],
+  "fexofenadina": [
+   "allegra",
+   "allexofedrin"
+  ],
+  "dexclorfeniramina": [
+   "polaramine"
+  ],
+  "prometazina": [
+   "fenergan"
+  ],
+  "amoxicilina": [
+   "amoxil",
+   "novocilin"
+  ],
+  "amoxicilina + clavulanato de potassio": [
+   "clavulin",
+   "amoxil bd"
+  ],
+  "azitromicina": [
+   "zitromax",
+   "azi"
+  ],
+  "cefalexina": [
+   "keflex",
+   "cefalexina generico"
+  ],
+  "ciprofloxacino": [
+   "cipro"
+  ],
+  "sulfametoxazol + trimetoprima": [
+   "bactrim",
+   "bactrim f",
+   "infectrin"
+  ],
+  "metronidazol": [
+   "flagyl"
+  ],
+  "nistatina": [
+   "micostatin"
+  ],
+  "fluconazol": [
+   "zoltec",
+   "flucazol"
+  ],
+  "cetoconazol": [
+   "nizoral"
+  ],
+  "aciclovir": [
+   "zovirax"
+  ],
+  "losartana potassica": [
+   "cozaar",
+   "aradois",
+   "losartana"
+  ],
+  "valsartana": [
+   "diovan"
+  ],
+  "enalapril": [
+   "renitec",
+   "maleato de enalapril"
+  ],
+  "captopril": [
+   "capoten"
+  ],
+  "atenolol": [
+   "atenol",
+   "ablok"
+  ],
+  "propranolol": [
+   "inderal"
+  ],
+  "metoprolol": [
+   "selozok",
+   "seloken",
+   "lopressor"
+  ],
+  "anlodipino": [
+   "norvasc",
+   "amlodipino",
+   "besilato de anlodipino"
+  ],
+  "nifedipino": [
+   "adalat"
+  ],
+  "hidroclorotiazida": [
+   "clorana"
+  ],
+  "furosemida": [
+   "lasix"
+  ],
+  "espironolactona": [
+   "aldactone"
+  ],
+  "sinvastatina": [
+   "zocor",
+   "sinvascor"
+  ],
+  "atorvastatina": [
+   "lipitor",
+   "citalor"
+  ],
+  "rosuvastatina": [
+   "crestor"
+  ],
+  "metformina": [
+   "glifage",
+   "glifage xr",
+   "cloridrato de metformina"
+  ],
+  "glibenclamida": [
+   "daonil"
+  ],
+  "gliclazida": [
+   "diamicron"
+  ],
+  "levotiroxina sodica": [
+   "puran t4",
+   "synthroid",
+   "euthyrox"
+  ],
+  "sertralina": [
+   "zoloft",
+   "assert"
+  ],
+  "fluoxetina": [
+   "prozac",
+   "daforin"
+  ],
+  "escitalopram": [
+   "lexapro"
+  ],
+  "citalopram": [
+   "cipramil"
+  ],
+  "paroxetina": [
+   "aropax",
+   "pondera"
+  ],
+  "venlafaxina": [
+   "efexor",
+   "venlift"
+  ],
+  "amitriptilina": [
+   "amytril",
+   "tryptanol"
+  ],
+  "clonazepam": [
+   "rivotril"
+  ],
+  "alprazolam": [
+   "frontal",
+   "xanax"
+  ],
+  "diazepam": [
+   "valium"
+  ],
+  "bromazepam": [
+   "lexotan"
+  ],
+  "zolpidem": [
+   "stilnox",
+   "lioram"
+  ],
+  "quetiapina": [
+   "seroquel"
+  ],
+  "risperidona": [
+   "risperdal"
+  ],
+  "olanzapina": [
+   "zyprexa"
+  ],
+  "carbamazepina": [
+   "tegretol"
+  ],
+  "acido valproico": [
+   "depakene",
+   "valproato de sodio"
+  ],
+  "divalproato de sodio": [
+   "depakote"
+  ],
+  "fenitoina": [
+   "hidantal"
+  ],
+  "gabapentina": [
+   "neurontin"
+  ],
+  "pregabalina": [
+   "lyrica"
+  ],
+  "carbonato de litio": [
+   "carbolitium"
+  ],
+  "cloridrato de metilfenidato": [
+   "ritalina",
+   "concerta",
+   "metilfenidato"
+  ],
+  "metilfenidato": [
+   "ritalina",
+   "concerta"
+  ],
+  "prednisona": [
+   "meticorten"
+  ],
+  "prednisolona": [
+   "prelone",
+   "predsim"
+  ],
+  "dexametasona": [
+   "decadron"
+  ],
+  "betametasona": [
+   "diprospan",
+   "celestone"
+  ],
+  "budesonida": [
+   "busonid",
+   "noex"
+  ],
+  "salbutamol": [
+   "aerolin",
+   "albuterol"
+  ],
+  "formoterol + budesonida": [
+   "alenia",
+   "symbicort",
+   "foraseq"
+  ],
+  "salmeterol + fluticasona": [
+   "seretide"
+  ],
+  "ambroxol": [
+   "mucosolvan"
+  ],
+  "acetilcisteina": [
+   "fluimucil"
+  ],
+  "bromoprida": [
+   "digesan",
+   "plamet"
+  ],
+  "metoclopramida": [
+   "plasil"
+  ],
+  "domperidona": [
+   "motilium"
+  ],
+  "ondansetrona": [
+   "zofran",
+   "vonau",
+   "nausedron"
+  ],
+  "escopolamina + dipirona": [
+   "buscopan composto",
+   "buscoduo"
+  ],
+  "butilbrometo de escopolamina": [
+   "buscopan"
+  ],
+  "hioscina": [
+   "buscopan"
+  ],
+  "simeticona": [
+   "luftal",
+   "flatex"
+  ],
+  "hidroxido de aluminio + hidroxido de magnesio": [
+   "maalox",
+   "mylanta",
+   "pepsamar"
+  ],
+  "loperamida": [
+   "imosec",
+   "diasec"
+  ],
+  "racecadotrila": [
+   "tiorfan",
+   "avide"
+  ],
+  "sais para reidratacao oral": [
+   "soro caseiro",
+   "soro de reidratacao",
+   "floralyte"
+  ],
+  "dimeticona": [
+   "luftal"
+  ],
+  "polietilenoglicol": [
+   "muvinlax",
+   "peg"
+  ],
+  "lactulose": [
+   "lactulona"
+  ],
+  "bisacodil": [
+   "dulcolax",
+   "lacto-purga"
+  ],
+  "sildenafila": [
+   "viagra",
+   "citrato de sildenafila"
+  ],
+  "tadalafila": [
+   "cialis"
+  ],
+  "tansulosina": [
+   "secotex"
+  ],
+  "finasterida": [
+   "proscar",
+   "propecia"
+  ],
+  "alopurinol": [
+   "zyloric"
+  ],
+  "colchicina": [
+   "colchis"
+  ],
+  "varfarina": [
+   "marevan",
+   "coumadin",
+   "varfarina sodica"
+  ],
+  "rivaroxabana": [
+   "xarelto"
+  ],
+  "clopidogrel": [
+   "plavix",
+   "iscover"
+  ],
+  "ciclobenzaprina": [
+   "miosan",
+   "benziflex"
+  ],
+  "carisoprodol + associacoes": [
+   "mioflex",
+   "tandrilax",
+   "torsilax"
+  ],
+  "orfenadrina + dipirona + cafeina": [
+   "dorflex"
+  ],
+  "cafeina + carisoprodol + diclofenaco + paracetamol": [
+   "tandrilax",
+   "torsilax"
+  ],
+  "alendronato de sodio": [
+   "fosamax"
+  ],
+  "cloridrato de sibutramina": [
+   "reductil",
+   "sibutramina"
+  ],
+  "orlistate": [
+   "xenical",
+   "lipiblock"
+  ],
+  "levonorgestrel": [
+   "pilula do dia seguinte",
+   "postinor",
+   "pozato"
+  ],
+  "etinilestradiol + levonorgestrel": [
+   "microvlar",
+   "level",
+   "ciclo 21"
+  ],
+  "etinilestradiol + gestodeno": [
+   "tamisa",
+   "gestinol",
+   "minulet"
+  ],
+  "drospirenona + etinilestradiol": [
+   "yasmin",
+   "yaz",
+   "elani"
+  ],
+  "sulfato ferroso": [
+   "neutrofer",
+   "combiron"
+  ],
+  "cianocobalamina": [
+   "vitamina b12"
+  ],
+  "colecalciferol": [
+   "vitamina d",
+   "vitamina d3",
+   "depura",
+   "addera d3"
+  ],
+  "complexo b": [
+   "vitamina b"
+  ],
+  "acido ascorbico": [
+   "vitamina c",
+   "cebion",
+   "cewin",
+   "redoxon"
+  ],
+  "cloridrato de tramadol": [
+   "tramal",
+   "tramadol"
+  ],
+  "codeina + paracetamol": [
+   "tylex",
+   "codex"
+  ],
+  "morfina": [
+   "dimorf"
+  ],
+  "oxido de zinco;colecalciferol;palmitato de retinol": [
+   "hipoglos",
+   "pomada para assadura"
+  ],
+  "oxido de zinco": [
+   "pomada para assadura",
+   "hipoglos",
+   "desitin"
+  ]
+ },
+ "stopwords_sinonimo": [
+  "de",
+  "do",
+  "da",
+  "com",
+  "sem",
+  "associacoes",
+  "associacao",
+  "outros",
+  "outras",
+  "sodico",
+  "sodica",
+  "potassico",
+  "potassica",
+  "calcico",
+  "calcica",
+  "monoidratada",
+  "monoidratado",
+  "cloridrato",
+  "sulfato",
+  "maleato",
+  "besilato",
+  "succinato",
+  "fumarato",
+  "mesilato",
+  "dinitrato",
+  "nitrato",
+  "fosfato",
+  "acetato",
+  "bromidrato",
+  "citrato",
+  "hemifumarato",
+  "trihidratado",
+  "dicloridrato",
+  "pamoato",
+  "valerato",
+  "trihidratada",
+  "triidratada",
+  "tri-hidratada",
+  "anidra",
+  "anidro",
+  "cafeina",
+  "cafeina anidra"
+ ],
+ "descricao_fallback_js": "`Medicamento da classe \"${classe}\". Consulte a bula e um profissional de saúde para o uso correto.`"
+}

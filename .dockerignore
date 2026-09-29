@@ -1,0 +1,12 @@
+# Contexto do build = raiz do projeto; só backend/ e frontend/ entram na imagem
+.git
+.claude
+**/__pycache__
+**/*.pyc
+backend/.venv
+backend/.env
+backend/dados
+backend/.pytest_cache
+scripts
+outreach
+*.log

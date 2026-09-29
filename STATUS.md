@@ -3,33 +3,79 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
-2026-09-29 — **Atualização de preços agora é automática, todo mês.** Criada a tarefa agendada do
-Windows "MED_PRECOS - atualizar precos": roda `scripts/atualizar-precos.ps1` (completo) no **dia 1 às
-03:00**. Se o PC estiver desligado no horário, roda assim que ligar; também roda na bateria; limite de
-4h. Validado que no contexto do agendador python/node/npm/Playwright são encontrados. Primeira execução:
-01/10/2026. Log em `scripts/logs/atualizacao-<data>.log`. **Não commita sozinho**: o app já usa o
-`js/precos-redes.js` novo direto, mas o commit continua manual. A lista CMED (`data.js`) **continua
-manual** (ainda não automatizada).
-**Descontos de laboratório (PBM) agora aparecem no app** (solução interina, ver seção "Programas de
-desconto de laboratório (PBM)" abaixo).
+2026-09-29 (tarde) — **Backend + banco + fila + Docker.** O MedPreços deixou de ser front-end puro:
+a pedido do usuário (especificação "Triangulação Inteligente por Demanda com Catálogo Canônico", 4
+frentes), foi criado `backend/` (FastAPI, SQLAlchemy/Alembic, Celery/Redis) e o site passou a consultar
+a API (decisão do usuário: subir tudo junto, sem manter os arquivos estáticos como reserva, já que o site
+não está publicado). Tudo validado: 26 testes pytest, Docker completo de pé (Postgres/Redis/API/worker/
+agenda) e teste de ponta a ponta no navegador. Detalhes na seção "Arquitetura" abaixo.
+- **Panvel saiu da coleta**: passou a responder 403 (Akamai) a qualquer acesso não-navegador, inclusive
+  ao robots.txt — mesmo critério de Ultrafarma/Araújo, bloqueio ativo não é contornado. Os preços de
+  30/08 ficam no histórico e aparecem como "⚠️ preço de 30/08 (pode ter mudado)".
+- **Tarefa do Windows removida** (criada mais cedo no mesmo dia): substituída pela agenda do Celery
+  dentro do Docker. ⚠️ Consequência: a atualização automática só roda com o `docker compose` de pé.
 
-2026-08-30 — **Enriquecimento do banco de medicamentos + orquestração da raspagem + avaliação
-Nissei/Big Ben.** Sessão focada nos itens que não dependiam de resposta de e-mail (contatos RD/Araújo
-seguem sem retorno — usuário vai tentar telefone em dia útil). Detalhes nas seções abaixo.
+2026-09-29 (manhã) — Atualização mensal via tarefa do Windows (depois substituída, ver acima) +
+**descontos de laboratório (PBM)** no app (ver seção PBM).
 
-2026-08-18 — **Preço real por farmácia implementado** (raspagem em 6 redes) e funcionando de ponta a
-ponta. Os três blocos de dados do app (medicamentos, farmácias, preço por farmácia) agora são reais
-ou têm caminho oficial de dado real — só falta preencher as redes fora do escopo de raspagem via
-parceria (RD/Araújo, aguardando resposta).
+2026-08-30 — Enriquecimento do banco de medicamentos + orquestração da raspagem + avaliação Nissei/Big Ben.
+
+2026-08-18 — Preço real por farmácia implementado (raspagem em 6 redes).
 
 ## Estado atual
-- Projeto **agora sob git** (local, sem remoto). Commit inicial `19d515c`.
-- Estrutura: `index.html`, `css/style.css`, `js/app.js`, `js/data.js`, `js/precos-redes.js`, `js/speech.js`, `scripts/*`.
-- App é um comparador de preços de medicamentos (front-end puro): busca por nome/voz, localização por GPS/CEP, alternativas genéricas, comparação entre farmácias, roteiro de compras (Premium).
-- **`BANCO_MEDICAMENTOS`** — real, 760 medicamentos da lista oficial CMED/ANVISA (preço PMC, classe terapêutica, registro ANVISA por produto). Gerado por `scripts/build_data_cmed.py`.
-- **`BANCO_FARMACIAS`** — real, duas camadas (busca ao vivo via Overpass com escalonamento de raio 10→60km, fallback pré-carregado de 54 farmácias em 9 capitais). Ver detalhes na seção de farmácias abaixo.
-- **Preço por farmácia** — real quando disponível, estimado como fallback. Ver seção de raspagem abaixo.
-- `speech.js` usa Web Speech API nativa do navegador (já real, não mock).
+- Rodar: `docker compose up -d --build` → site + API em **http://localhost:8731** (docs em `/docs`).
+  Sem Docker: ver `README.md`. As portas 8000/8080/8010 do host já estavam ocupadas por outros processos
+  locais; por isso 8731, e Postgres/Redis não são expostos no host.
+- **Catálogo (Frente 1):** lista CMED de **09/09/2026**, 26.242 apresentações (todas com EAN), 2.251
+  princípios ativos (antes: 760, só os que tinham genérico mais barato). Tabela âncora `produtos_cmed`
+  por código GGREM; importação mensal automática (dia 12) que atualiza preço, cria novas e **inativa**
+  (nunca apaga) as que saem da lista.
+- **Preço real (Frente 2):** 970 princípios ativos com preço real (antes 704). 5 redes VTEX ativas.
+- **Casamento (Frente 3):** ~81% dos SKUs das redes casados com o catálogo (antes ~75%); 17,4 mil com a
+  apresentação CMED exata.
+- **API/infra (Frente 4):** endpoints em `backend/app/api/rotas.py`; fila Celery testada de verdade.
+
+## Arquitetura (backend, desde 29/09/2026)
+Esquema: `medicamentos` (grupo por princípio ativo, id = slug estável) → `produtos_cmed` (âncora,
+apresentação) → `mapeamento_sku_redes` (produto da rede casado com o catálogo, com último preço e PBM)
+→ `historico_precos` (todo preço coletado, com `praca` e `fonte`). Mais `redes`, `cache_consultas`,
+`execucoes_tarefas`.
+
+**Coleta em 3 camadas:**
+- **A — sitemaps** (`coleta/sitemaps.py`): lê o sitemap de produtos que a própria loja publica pra robôs
+  e casa o slug da URL com o catálogo, sem abrir página nenhuma. Testado na Venancio: 41.253 URLs →
+  **4.663 SKUs novos casados** em 3m44s (mais que dobrou a cobertura da rede). Só grava o que casa. Semanal.
+- **B — sob demanda** (`coleta/sob_demanda.py`): ao consultar um medicamento, redes com preço > 24h são
+  atualizadas na hora (princípio ativo + nome da marca de referência, 50 itens por busca, + SKUs vindos do
+  sitemap ainda sem preço), em paralelo, com orçamento de 6s; se estourar, termina na fila e a tela avisa.
+- **C — cache** (`coleta/cache.py`, no banco): farmácias por região 24h, geocodificação 30 dias; se o
+  Overpass cair, usa o resultado vencido da região antes de cair nas 54 farmácias de reserva.
+- **Lote** semanal (`coleta/lote.py`) mantém o histórico de todo o catálogo vendido em farmácia.
+
+**Achados que mudaram o desenho:**
+- **Preço é nacional nas 5 redes** (testado com 5 CEPs de regiões diferentes): o CEP só muda
+  disponibilidade de entrega. Por isso nada de simular carrinho/checkout; `praca='online-nacional'`
+  fica como coluna pronta pra preço regional futuro.
+- **Comparação por apresentação** (dose + quantidade): o front antigo comparava "o rivaroxabana mais
+  barato de qualquer tamanho" em cada rede (10 comprimidos numa, 28 noutra — era daí o Xarelto a
+  R$ 45,49). Agora a chave `dose|quantidade` sai tanto da CMED ("(20 + 12,5) MG COM REV ... X 30")
+  quanto do título da rede ("20mg + 12,5mg 30 Comprimidos") e o usuário escolhe a apresentação num
+  seletor (padrão: a vendida por mais redes).
+- **Casamento por EAN** (código de barras, que a CMED e a VTEX têm): apresentação exata. Ordem:
+  EAN > registro ANVISA > nome por prefixo (com dose/quantidade/laboratório) > nome aproximado
+  (Levenshtein >= 0,92 nas primeiras palavras). Título de combinação não casa com substância única.
+- **Referência do grupo**: o produto Novo/Biológico com mais apresentações em farmácia (Tylenol pro
+  paracetamol; antes era o "Novo mais caro" = Sonridor). Sem Novo, a marca não genérica mais presente.
+- **Falso positivo de PBM corrigido**: na Drogaria São Paulo o campo `PBM` às vezes só lista nomes de
+  especificação; o raspador antigo contava isso como "tem programa".
+- **Postgres pegou dois bugs que o SQLite escondia**: substâncias com >1.000 caracteres e ids cortados
+  em 150 caracteres que juntavam 10 grupos diferentes (agora slug + hash quando longo).
+- **UX**: preços reais aparecem antes das estimativas e o selo MENOR PREÇO só vai pra preço real — a
+  estimativa (teto CMED x 0,85 x fator da farmácia) às vezes ficava "mais barata" que o preço de verdade.
+- **Overpass (OpenStreetMap) público instável** (504/timeout frequentes): orçamento total de 18s por
+  busca de farmácias, não escala o raio após falha, 2ª tentativa no servidor principal, cache vencido.
+
+# Histórico (antes do backend — referência; os scripts citados agora estão em `scripts/legado/`)
 
 ## Farmácias (Overpass/OpenStreetMap)
 1. **Busca ao vivo** (`buscarFarmaciasReaisProximas()` em `app.js`): consulta a Overpass API a cada busca, com escalonamento de raio — começa em 10km (rápido, leve pra API pública) e só amplia (20→35→60km) se não achar pelo menos `META_LOJAS=15` farmácias ou `META_REDES_DISTINTAS=5` redes diferentes, nunca ultrapassando o raio escolhido pelo usuário. Cache de 24h no navegador por região+raio.
@@ -169,14 +215,14 @@ Mesmo critério das outras redes (robots.txt + ToS antes de qualquer coisa):
 
 ## Próximos passos sugeridos
 - [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.
-- [ ] Registrar respostas de todos os 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md` assim que chegarem.
-- [x] ~~Reavaliar Nissei/Big Ben pra raspagem~~ — feito 2026-08-30, ambos ficam de fora (ver seção acima).
-- [x] ~~Repetir a raspagem periodicamente~~ — `scripts/atualizar-precos.ps1` + **tarefa agendada mensal criada em 2026-09-29** (dia 1, 03:00). Conferir o log após 01/10 e commitar `js/precos-redes.js`.
-- [ ] Automatizar também a atualização mensal da lista CMED (`data.js`). Cuidado: se o `data.js` for regenerado, o build de preços precisa rodar **depois** dele (casamento por id/registro).
-- [x] ~~Programas de desconto de laboratório (PBM) — interino~~ — feito 2026-09-29: aviso no card + etiqueta por farmácia (ver seção PBM). **Pendente o caminho oficial** (preço exato com desconto, todas as redes): Funcional/Orizon, já contatadas.
-- [x] ~~`descricao` mais amigável e `sinonimias` pra busca por voz~~ — feito 2026-08-30 (`scripts/enriquecimento-medicamentos.js`, ver seção "Medicamentos" acima). Refino futuro possível: aumentar o dicionário curado de sinônimos e criar regra pras ~24 classes "Todos os outros...".
-- [ ] Cobertura do pré-carregado de farmácias é só 9 capitais — fora delas, sem internet/Overpass fora do ar, busca fica sem resultado (limitação conhecida, comportamento correto).
-- [ ] **Conector Gmail** — ainda preso na conta pessoal. Passo a passo de reconexão passado ao usuário nesta sessão (desconectar em claude.ai → Conectores, logar `med.precosbr@gmail.com` no navegador, reconectar escolhendo essa conta, reiniciar sessão). Validar quando o usuário fizer.
+- [ ] Registrar respostas dos 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md`. **Funcional/Orizon = caminho oficial do PBM** (preço exato com desconto).
+- [ ] Rodar a Camada A (sitemaps) nas outras 4 redes (`python -m app.cli tarefa descobrir_sitemaps`, ~4 min por rede; Pacheco tem ~94 mil URLs) — só a Venancio foi testada. A agenda roda todo domingo com o Docker de pé.
+- [ ] Rodar um lote de preços completo pelo worker (`atualizar_precos_lote`, ~30 min com as redes em paralelo) pra renovar os preços legados e trazer EAN de todos os SKUs.
+- [ ] Hospedagem 24x7: a agenda só roda com o Docker de pé. Pra nuvem, o mesmo `docker-compose.yml` serve de base (trocar senha em `.env`, colocar HTTPS/proxy na frente da `api`, Postgres gerenciado opcional). Decidir provedor.
+- [ ] Estimativa de preço pras redes sem coleta é fraca (teto CMED x 0,85 x fator fixo). Avaliar trocar pela mediana dos preços reais da mesma apresentação.
+- [ ] Refinos de casamento: ~19% dos SKUs das redes seguem sem casar (muitos são não-medicamentos: suplementos, correlatos); "Dipirona" x "Dipirona Monoidratada" continuam grupos separados (nuance CMED).
+- [ ] Cobertura da reserva de farmácias é só 9 capitais (usada só com Overpass fora do ar e sem cache da região).
+- [ ] **Conector Gmail** — ainda preso na conta pessoal (passo a passo de reconexão já passado ao usuário).
 
 ## Notas / decisões pendentes
 - **Conector Gmail nunca migrou para `med.precosbr@gmail.com` nesta sessão** (ficou preso na conta pessoal em várias tentativas). Contornado enviando os e-mails manualmente pelo usuário, copiando o texto dos rascunhos.

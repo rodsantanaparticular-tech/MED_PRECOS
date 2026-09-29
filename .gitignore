@@ -12,3 +12,11 @@ scripts/logs/
 
 # Log de erro do Chromium/Playwright (crashpad) - lixo local
 debug.log
+
+# Backend (Python)
+backend/.venv/
+backend/.env
+backend/.pytest_cache/
+# Banco SQLite local, planilhas CMED baixadas e dumps legados: regeneráveis
+backend/dados/
+.env

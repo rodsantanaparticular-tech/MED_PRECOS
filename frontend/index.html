@@ -174,8 +174,13 @@
                 <!-- Pharmacy Price Comparison -->
                 <div id="secao-farmacias" class="secao-farmacias" hidden>
                     <h3 class="subtitulo-secao">🏪 Farmácias Próximas com Melhores Preços</h3>
-                    <p class="texto-ajuda">💡 Farmácias e endereços são reais (OpenStreetMap). Preços são estimados a partir da tabela oficial de preços máximos CMED/ANVISA — o valor exato pode variar por farmácia.</p>
+                    <p class="texto-ajuda">💡 Farmácias e endereços são reais (OpenStreetMap). Onde aparece "✅ preço real", o valor vem do site da rede; nas demais, é estimado a partir do teto oficial CMED/ANVISA.</p>
                     <p id="localizacao-busca" class="localizacao-busca"></p>
+                    <div id="seletor-apresentacao-grupo" class="seletor-apresentacao" hidden>
+                        <label for="seletor-apresentacao">Comparar a apresentação:</label>
+                        <select id="seletor-apresentacao"></select>
+                    </div>
+                    <p id="aviso-atualizacao" class="aviso-atualizacao" role="status" hidden></p>
                     <p id="aviso-farmacias-distantes" class="aviso-farmacias-distantes" role="status" hidden></p>
                     <div class="tabela-container">
                         <table class="tabela-precos" role="table" aria-label="Comparação de preços entre farmácias">
@@ -320,8 +325,6 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="js/data.js"></script>
-    <script src="js/precos-redes.js"></script>
     <script src="js/speech.js"></script>
     <script src="js/app.js"></script>
 </body>

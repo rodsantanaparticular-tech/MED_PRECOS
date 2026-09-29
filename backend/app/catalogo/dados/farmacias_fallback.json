@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "osm-745723014",
+  "nome": "Drogaria São Paulo",
+  "endereco": "Avenida da Liberdade, 840",
+  "cidade": "São Paulo",
+  "cep": "01502-001",
+  "bairro": "",
+  "telefone": "+55 11 3207-4168",
+  "latitude": -23.5599368,
+  "longitude": -46.6381129,
+  "horario": {
+   "abertura": 0,
+   "fechamento": 24,
+   "domingoAberto": true,
+   "domingoAbertura": 0,
+   "domingoFechamento": 24
+  },
+  "fatorPreco": 0.9335,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-840709498",
+  "nome": "Drogaria São Paulo",
+  "endereco": "Rua Pedro de Toledo, 763",
+  "cidade": "São Paulo",
+  "cep": "04039-032",
+  "bairro": "",
+  "telefone": "+55 11 5549-9647;+55 11 5571-5663;0800 779 8767",
+  "latitude": -23.5984324,
+  "longitude": -46.6442291,
+  "horario": {
+   "abertura": 0,
+   "fechamento": 24,
+   "domingoAberto": true,
+   "domingoAbertura": 0,
+   "domingoFechamento": 24
+  },
+  "fatorPreco": 0.9882,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-884742670",
+  "nome": "Drogasil",
+  "endereco": "Avenida Sumaré, 1152",
+  "cidade": "São Paulo",
+  "cep": "05016-110",
+  "bairro": "",
+  "telefone": "+55 11 3672-3885;+55 11 3862-3089",
+  "latitude": -23.5392935,
+  "longitude": -46.6752459,
+  "horario": {
+   "abertura": 0,
+   "fechamento": 24,
+   "domingoAberto": true,
+   "domingoAbertura": 0,
+   "domingoFechamento": 24
+  },
+  "fatorPreco": 0.9573,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1065872138",
+  "nome": "Drogaria Tio Luiz",
+  "endereco": "Rua José Maria Lisboa, 261",
+  "cidade": "São Paulo",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -23.5704075,
+  "longitude": -46.6554145,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9599,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1066859189",
+  "nome": "Farmácio Orthomolecular",
+  "endereco": "Rua José Maria Lisboa, 77",
+  "cidade": "São Paulo",
+  "cep": "01423-000",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -23.5718417,
+  "longitude": -46.6539957,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0396,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1671277694",
+  "nome": "Drogasil",
+  "endereco": "Avenida Prefeito Fábio Prado, 32;38;42",
+  "cidade": "São Paulo",
+  "cep": "04116-000",
+  "bairro": "",
+  "telefone": "+55 11 5081-4417;+55 11 5081-3579",
+  "latitude": -23.5903205,
+  "longitude": -46.630429,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9016,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-332153100",
+  "nome": "Drogaria Venâncio",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Rio de Janeiro",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -22.9311959,
+  "longitude": -43.1783233,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.1162,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-332516627",
+  "nome": "Pacheco",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Rio de Janeiro",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -22.929342,
+  "longitude": -43.1775384,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0602,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-340473535",
+  "nome": "Drogaria Riofarma",
+  "endereco": "Rua do Catete",
+  "cidade": "Rio de Janeiro",
+  "cep": "22220-000",
+  "bairro": "Catete",
+  "telefone": null,
+  "latitude": -22.9263853,
+  "longitude": -43.1767601,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9746,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-345947047",
+  "nome": "Cristal",
+  "endereco": "Rua das Laranjeiras, 387A",
+  "cidade": "Rio de Janeiro",
+  "cep": "",
+  "bairro": "Laranjeiras",
+  "telefone": "+55 21 2265 9780",
+  "latitude": -22.9367668,
+  "longitude": -43.1900586,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9009,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-346243972",
+  "nome": "Droga Raia",
+  "endereco": "Rua das Laranjeiras, 211",
+  "cidade": "Rio de Janeiro",
+  "cep": "",
+  "bairro": "Laranjeiras",
+  "telefone": null,
+  "latitude": -22.9335801,
+  "longitude": -43.1857341,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9482,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-346245038",
+  "nome": "Venâncio",
+  "endereco": "Rua das Laranjeiras, 183A",
+  "cidade": "Rio de Janeiro",
+  "cep": "",
+  "bairro": "Laranjeiras",
+  "telefone": null,
+  "latitude": -22.9334589,
+  "longitude": -43.1852616,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9038,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-319258498",
+  "nome": "Araújo",
+  "endereco": "Rua do Ouro, 870",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "Serra",
+  "telefone": null,
+  "latitude": -19.9388039,
+  "longitude": -43.9202123,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9657,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-324384209",
+  "nome": "Araújo",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -19.9351301,
+  "longitude": -43.9288871,
+  "horario": {
+   "abertura": 0,
+   "fechamento": 24,
+   "domingoAberto": true,
+   "domingoAbertura": 0,
+   "domingoFechamento": 24
+  },
+  "fatorPreco": 1.0329,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-357661389",
+  "nome": "Araújo",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -19.9426767,
+  "longitude": -43.9219772,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0326,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-456322669",
+  "nome": "Droga Raia",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -19.9331331,
+  "longitude": -43.9568003,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0161,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-456322674",
+  "nome": "Drogaria Araújo",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -19.9362522,
+  "longitude": -43.9593672,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0223,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-504709867",
+  "nome": "Araújo",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Belo Horizonte",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -19.9490255,
+  "longitude": -43.9204779,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.1138,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-270357431",
+  "nome": "Farmácia Jardim Botânico",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.4387527,
+  "longitude": -49.2377298,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0173,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-603015490",
+  "nome": "Mais Popular",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.42207,
+  "longitude": -49.2915988,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0403,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-603015496",
+  "nome": "Callfarma",
+  "endereco": "Avenida Manoel Ribas",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.4223268,
+  "longitude": -49.2912716,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0418,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-668990430",
+  "nome": "Farmacia Minerva",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.4586537,
+  "longitude": -49.270667,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9484,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-994602741",
+  "nome": "Nissei Shopping Palladium",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.4776887,
+  "longitude": -49.2914231,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0787,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1148140455",
+  "nome": "Callfarma",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Curitiba",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -25.4373511,
+  "longitude": -49.2744888,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.947,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-442752778",
+  "nome": "Panvel",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0287749,
+  "longitude": -51.2087253,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.1109,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-606189116",
+  "nome": "Panvel",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0447715,
+  "longitude": -51.1975225,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9405,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-606189341",
+  "nome": "Panvel",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0437287,
+  "longitude": -51.2022464,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9429,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-747463971",
+  "nome": "Farmácia Forum",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0441728,
+  "longitude": -51.2297549,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.8915,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-853556541",
+  "nome": "São João",
+  "endereco": "Rua dos Andradas",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0309994,
+  "longitude": -51.2324354,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9429,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-853556633",
+  "nome": "Panvel",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Porto Alegre",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -30.0316022,
+  "longitude": -51.2342804,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9266,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-566435510",
+  "nome": "Pague Menos",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -13.006095,
+  "longitude": -38.5270823,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9662,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-612570303",
+  "nome": "Ida Linnah",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -13.0093037,
+  "longitude": -38.5293746,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0516,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-619006493",
+  "nome": "DPM Bahia",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -13.0118229,
+  "longitude": -38.4720392,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0648,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-626795989",
+  "nome": "Manu",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -12.9793817,
+  "longitude": -38.499896,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0713,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-740234371",
+  "nome": "Pague Menos",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -13.0083381,
+  "longitude": -38.4641641,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0569,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-898928145",
+  "nome": "Multimais",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Salvador",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -12.9855821,
+  "longitude": -38.4611895,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9275,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-479233880",
+  "nome": "Pague Menos",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Fortaleza",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -3.7392969,
+  "longitude": -38.5479362,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9088,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-482168663",
+  "nome": "Extrafarma",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Fortaleza",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -3.7311626,
+  "longitude": -38.5145948,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9688,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-482168667",
+  "nome": "Pague Menos",
+  "endereco": "Avenida Santos Dumont, 1256",
+  "cidade": "Fortaleza",
+  "cep": "60150-161",
+  "bairro": "Aldeota",
+  "telefone": "+55 85 3454 1929",
+  "latitude": -3.7318221,
+  "longitude": -38.5125263,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9698,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-571728169",
+  "nome": "Pague Menos",
+  "endereco": "Avenida Antônio Sales, 3700",
+  "cidade": "Fortaleza",
+  "cep": "60192-165",
+  "bairro": "",
+  "telefone": "4002 8282",
+  "latitude": -3.7498967,
+  "longitude": -38.4906255,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9304,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-571728171",
+  "nome": "Pague Menos",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Fortaleza",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -3.743632,
+  "longitude": -38.4951641,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9359,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-623732998",
+  "nome": "Pague Menos",
+  "endereco": "Rua Pereira Filgueiras, 1931",
+  "cidade": "Fortaleza",
+  "cep": "60160-045",
+  "bairro": "Meireles",
+  "telefone": "4002 8282",
+  "latitude": -3.7306677,
+  "longitude": -38.5054737,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0194,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1655878223",
+  "nome": "Farmácia Pague Menos",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -8.0475359,
+  "longitude": -34.9063983,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.067,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2380713967",
+  "nome": "Farmácia Parceria",
+  "endereco": "Avenida Caxangá",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "Madalena",
+  "telefone": "+55 81 3227.9498",
+  "latitude": -8.0566505,
+  "longitude": -34.9095907,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0216,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2380713977",
+  "nome": "Farmácia Popular do Brasil",
+  "endereco": "Avenida Caxangá, 188",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -8.055914,
+  "longitude": -34.9108202,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.029,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2418401653",
+  "nome": "Drogaria Madalena",
+  "endereco": "Avenida Visconde de Albuquerque",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -8.0515076,
+  "longitude": -34.9064762,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.8925,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2532661494",
+  "nome": "Extrafarma",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -8.0531943,
+  "longitude": -34.9069681,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.904,
+  "possuiDelivery": true,
+  "entregaEm": "40 min",
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2532661495",
+  "nome": "Farmácia do Trabalhador",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Recife",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -8.0531894,
+  "longitude": -34.9070475,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9042,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-1166810570",
+  "nome": "Drogaria Popular",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -15.8182465,
+  "longitude": -47.8957528,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0727,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2103033867",
+  "nome": "Fuji",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -15.8267762,
+  "longitude": -47.929132,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9988,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2306638198",
+  "nome": "Drogaria Brasil",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -15.8082009,
+  "longitude": -47.935243,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0816,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2461631879",
+  "nome": "Drogaria Brasil",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": null,
+  "latitude": -15.8097181,
+  "longitude": -47.9428853,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0756,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2678905976",
+  "nome": "Drogaria Rosário",
+  "endereco": "QI 31 Bloco A, 14",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": "+55 61 33837828",
+  "latitude": -15.840314,
+  "longitude": -47.9757538,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 1.0497,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ },
+ {
+  "id": "osm-2691215106",
+  "nome": "Drogaria Candanga",
+  "endereco": "Endereço não informado pelo OpenStreetMap",
+  "cidade": "Brasília",
+  "cep": "",
+  "bairro": "",
+  "telefone": "+55 61 3301 1116",
+  "latitude": -15.8562792,
+  "longitude": -47.9526238,
+  "horario": {
+   "abertura": 8,
+   "fechamento": 20,
+   "domingoAberto": false
+  },
+  "fatorPreco": 0.9206,
+  "possuiDelivery": false,
+  "entregaEm": null,
+  "dadosEstimados": true
+ }
+]
