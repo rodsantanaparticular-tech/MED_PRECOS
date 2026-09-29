@@ -37,6 +37,8 @@ app.conf.beat_schedule = {
     # A CMED publica a lista nova por volta do dia 9-10 de cada mês
     'cmed-mensal': {**_agendada('importar_cmed'), 'schedule': crontab(day_of_month='12', hour=2, minute=0)},
     'sitemaps-semanal': {**_agendada('descobrir_sitemaps'), 'schedule': crontab(day_of_week='sun', hour=3, minute=0)},
-    'precos-lote-semanal': {**_agendada('atualizar_precos_lote'), 'schedule': crontab(day_of_week='mon', hour=3, minute=0)},
+    # Diário, de madrugada (menos tráfego nas lojas): ~3 mil buscas por rede, uma de
+    # cada vez com pausa, redes em paralelo -> ~1h. Só redes com coleta_ativa=True.
+    'precos-lote-diario': {**_agendada('atualizar_precos_lote'), 'schedule': crontab(hour=2, minute=30)},
     'limpar-cache-diario': {**_agendada('limpar_cache'), 'schedule': crontab(hour=4, minute=30)},
 }

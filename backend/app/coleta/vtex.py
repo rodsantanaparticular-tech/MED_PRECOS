@@ -127,15 +127,49 @@ async def buscar_produto(cliente: httpx.AsyncClient, base_url: str, sku_rede: st
     return extrair_ofertas(r.json()) if r.status_code in (200, 206) else []
 
 
+STATUS_PEDINDO_PAUSA = (429, 503)
+MAX_RECUSAS_SEGUIDAS = 5      # a loja recusou 5 vezes seguidas: para essa rede até a próxima rodada
+ATRASO_MAXIMO_S = 5.0
+ESPERA_PADRAO_S = 30.0        # quando a loja pede pausa sem dizer quanto (sem Retry-After)
+
+
+def _espera_pedida(e: httpx.HTTPStatusError, tentativa: int) -> float:
+    try:
+        return min(float(e.response.headers.get('Retry-After', '')), 600.0)
+    except ValueError:
+        return ESPERA_PADRAO_S * 2 ** (tentativa - 1)
+
+
 async def buscar_varios_termos(base_url: str, termos: list[str], atraso_s: float | None = None) -> list[Oferta]:
-    """Busca sequencial (educada com a loja), com atraso entre requisições."""
+    """Busca sequencial (educada com a loja), com atraso entre requisições.
+
+    Respeita a loja: se ela responder 429/503 ("vá mais devagar"), espera o
+    tempo pedido (Retry-After), dobra o intervalo entre requisições e, se
+    continuar recusando, encerra essa rede nesta rodada - o que já foi coletado
+    é gravado e o resto fica pra próxima (a Camada B cobre o que for consultado)."""
     atraso_s = obter_config().delay_entre_requisicoes_s if atraso_s is None else atraso_s
     resultado: dict[str, Oferta] = {}
+    recusas = 0
     async with novo_cliente() as cliente:
-        for termo in termos:
+        for i, termo in enumerate(termos):
             try:
                 for o in await buscar_termo(cliente, base_url, termo):
                     resultado[o.sku_rede] = o
+                recusas = 0
+            except httpx.HTTPStatusError as e:
+                if e.response is None or e.response.status_code not in STATUS_PEDINDO_PAUSA:
+                    log.warning('VTEX %s termo %r: %s', base_url, termo, e)
+                else:
+                    recusas += 1
+                    if recusas >= MAX_RECUSAS_SEGUIDAS:
+                        log.warning('VTEX %s pediu pausa %d vezes seguidas: encerrando esta rede na rodada '
+                                    '(%d de %d termos feitos)', base_url, recusas, i, len(termos))
+                        break
+                    espera = _espera_pedida(e, recusas)
+                    atraso_s = min(atraso_s * 2, ATRASO_MAXIMO_S)
+                    log.info('VTEX %s pediu pausa (%s): esperando %.0fs, novo intervalo %.1fs',
+                             base_url, e.response.status_code, espera, atraso_s)
+                    await asyncio.sleep(espera)
             except Exception as e:  # uma busca ruim não derruba o lote
                 log.warning('VTEX %s termo %r: %s', base_url, termo, e)
             await asyncio.sleep(atraso_s)
