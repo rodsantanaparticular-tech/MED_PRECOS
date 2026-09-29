@@ -273,9 +273,9 @@ Nissei (robots.txt). Achados (C = confirmado em fonte oficial; I = inferência):
   - tirar os biológicos da comparação.
 
 ## Próximos passos sugeridos
-- [ ] **E-mail à SEFAZ-AL (api@sefaz.al.gov.br) pedindo token da API Economiza Alagoas + autorização escrita de uso** (utilidade pública, sem fins lucrativos). Com o token: integrar em `backend/app/coleta/` casando por EAN (Frente 3 já pronta).
+- [ ] **ENVIAR (rascunho pronto em `outreach/contatos-parcerias.md`, item 6): e-mail à SEFAZ-AL (api@sefaz.al.gov.br) pedindo token da API Economiza Alagoas + autorização escrita de uso** — falta só preencher o CPF. Com o token: integrar em `backend/app/coleta/` casando por EAN (Frente 3 já pronta).
 - [ ] Decidir sobre a seção "Alternativas Genéricas" x RDC 96/2008 (similares/biológicos) — ver seção "Acesso às redes que bloqueiam". Ideal: consulta a advogado antes de publicar.
-- [ ] Ofício/LAI de cooperação à SEFAZ-RS/Procergs + Encat (Menor Preço Brasil), SEFA-PR e SEFAZ-BA pedindo acesso a preços de farmácia por EAN pra uso sem fins lucrativos (citar a API de AL como precedente). Mais forte com âncora institucional (universidade/Idec).
+- [ ] **ENVIAR (texto pronto em `outreach/contatos-parcerias.md`, item 7): pedido LAI à SEFAZ-RS** pelo portal da Ouvidoria-Geral do RS (precisa de Login Cidadão). Depois: mesmo pedido a SEFA-PR e SEFAZ-BA. Ofício/LAI de cooperação à SEFAZ-RS/Procergs + Encat (Menor Preço Brasil), SEFA-PR e SEFAZ-BA pedindo acesso a preços de farmácia por EAN pra uso sem fins lucrativos (citar a API de AL como precedente). Mais forte com âncora institucional (universidade/Idec).
 - [ ] Cadastro na Lomadee (Droga Raia/Drogasil) e chamado perguntando se há feed com preço/EAN e se o uso em comparador sem fins lucrativos é aceito.
 - [ ] Avaliar o botão "Enviar meu cupom" (QR da NFC-e) — cobre qualquer rede com dado trazido pelo próprio consumidor; descartar CPF.
 - [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.

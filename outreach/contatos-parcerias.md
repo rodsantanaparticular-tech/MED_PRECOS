@@ -164,7 +164,111 @@ med.precosbr@gmail.com
 
 ---
 
+## 6. SEFAZ Alagoas — API Economiza Alagoas (preço real de venda por nota fiscal)
+
+> Adicionado em 29/09/2026. Única fonte oficial com API pública encontrada (ver `STATUS.md`, seção
+> "Acesso às redes que bloqueiam"). Traz o preço de venda por loja a partir da NFC-e, inclusive
+> farmácias, com busca por código de barras (GTIN). Gratuita. O token é pedido por e-mail com
+> **nome completo, CPF e nome do projeto** (página oficial:
+> https://economizaalagoas.sefaz.al.gov.br/desenvolvedor.htm). Não há termo de uso publicado, por
+> isso o e-mail já pede autorização por escrito para exibir os dados.
+
+**Contato:** api@sefaz.al.gov.br (token/API). Dúvidas gerais: economizaalagoas@sefaz.al.gov.br.
+
+**Rascunho de e-mail** (preencher o CPF antes de enviar):
+
+```
+Para: api@sefaz.al.gov.br
+Assunto: Solicitação de token da API Economiza Alagoas — projeto MedPreços (utilidade pública)
+
+Prezados,
+
+Solicito um token de acesso à API do Economiza Alagoas.
+
+Nome completo: Rodrigo Santana
+CPF: [preencher]
+Projeto: MedPreços — comparador gratuito de preços de medicamentos
+
+O MedPreços é um projeto de utilidade pública, gratuito e sem fins lucrativos: ajuda o cidadão a
+encontrar o medicamento mais barato perto de casa, compara com o preço máximo oficial da CMED/ANVISA
+e sugere alternativas genéricas. O projeto não vende nada nem cobra do usuário.
+
+Além do token, gostaria de pedir:
+
+1. O Manual de Orientação do Desenvolvedor (o link da página não abriu para mim).
+2. Autorização para exibir no MedPreços os preços de medicamentos vendidos em farmácias de
+   Alagoas obtidos pela API, sempre com crédito ao Economiza Alagoas / SEFAZ-AL como fonte.
+   Se houver condições ou limites de uso (volume de consultas, frequência, forma de citação),
+   seguiremos integralmente.
+3. A confirmação de que a API retorna, para medicamentos, o código de barras (GTIN), o valor
+   unitário, a data da venda e o CNPJ e endereço do estabelecimento.
+
+Compromissos do projeto: uso sem fins comerciais, citação da fonte, nenhum dado de consumidor
+armazenado ou exibido, e respeito aos limites técnicos que a SEFAZ indicar.
+
+Fico à disposição para apresentar o projeto.
+
+Atenciosamente,
+Rodrigo Santana
+Fundador — MedPreços
+med.precosbr@gmail.com
+```
+
+---
+
+## 7. SEFAZ Rio Grande do Sul / Procergs — Menor Preço Nota Gaúcha e Menor Preço Brasil (~15 UFs)
+
+> Adicionado em 29/09/2026. Maior cobertura de preço real por nota fiscal (RS + cerca de 15 UFs,
+> incl. RJ, DF, CE, PE, ES, PI, PA), inclusive farmácias. **Não tem API pública nem canal de
+> parceria de dados** (páginas oficiais: https://atendimento.receita.rs.gov.br/menor-preco-nota-gaucha
+> e https://procergs.rs.gov.br/estado-lanca-app-menor-preco). Caminho formal: **pedido pela Lei de
+> Acesso à Informação (LAI)**, com resposta por escrito obrigatória em até 20 dias (prorrogáveis por
+> mais 10). Serve para descobrir oficialmente se há API/dados abertos e qual o setor e o procedimento
+> para um acordo de cooperação técnica.
+
+**Canal:** SIC/LAI do Estado do RS, pela Ouvidoria-Geral: https://ouvidoriageral.rs.gov.br/informacoes
+(formulário eletrônico; no primeiro acesso é preciso criar o **Login Cidadão**). Órgão destinatário:
+**Secretaria da Fazenda — Receita Estadual**. Guardar o número do protocolo.
+
+**Texto para colar no formulário da LAI:**
+
+```
+Órgão: Secretaria da Fazenda do Estado do Rio Grande do Sul — Receita Estadual
+
+Pedido de informação sobre acesso aos dados de preços do aplicativo Menor Preço Nota Gaúcha /
+Menor Preço Brasil.
+
+Contexto: desenvolvo o MedPreços, projeto de utilidade pública, gratuito e sem fins lucrativos,
+que ajuda o cidadão a encontrar o medicamento mais barato perto de casa e a comparar com o preço
+máximo oficial da CMED/ANVISA.
+
+Solicito as seguintes informações:
+
+1. Existe API, serviço web ou conjunto de dados abertos que disponibilize os preços praticados
+   exibidos no aplicativo Menor Preço Nota Gaúcha / Menor Preço Brasil? Se sim, como obter acesso
+   e quais são os termos de uso.
+2. Caso não exista, qual é o setor responsável e o procedimento para firmar acordo de cooperação
+   técnica (ou instrumento equivalente) que permita a um projeto sem fins lucrativos acessar esses
+   dados, restritos a medicamentos vendidos em farmácias: código de barras (GTIN), descrição,
+   valor unitário, data da venda e CNPJ/endereço do estabelecimento — sem nenhum dado do
+   consumidor.
+3. Os dados das demais Unidades da Federação participantes do Menor Preço Brasil podem ser
+   acessados pelo mesmo canal, ou o acesso depende de cada UF?
+4. Existem termos de uso do aplicativo que regulem a reprodução, por terceiros, dos preços nele
+   exibidos? Se sim, solicito cópia.
+
+Como referência, a SEFAZ de Alagoas disponibiliza API pública e gratuita com dados equivalentes
+(Economiza Alagoas).
+
+Rodrigo Santana — MedPreços — med.precosbr@gmail.com
+```
+
+---
+
 ## Próximo passo
+- [ ] **NOVOS 29/09/2026 — enviar os itens 6 e 7:** e-mail à SEFAZ-AL (preencher o CPF) e pedido
+      LAI à SEFAZ-RS (criar Login Cidadão). Registrar aqui a data de envio, o número do protocolo
+      da LAI (prazo de resposta: 20 dias + 10) e a resposta.
 - [x] Revisar e personalizar os rascunhos antes de enviar.
 - [x] ~~Reconectar Gmail do conector claude.ai~~ — não foi possível nesta sessão (ficou preso na
       conta pessoal em várias tentativas). Contornado: usuário copiou os textos manualmente e
