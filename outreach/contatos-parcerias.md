@@ -228,7 +228,11 @@ med.precosbr@gmail.com
 
 **Canal:** SIC/LAI do Estado do RS, pela Ouvidoria-Geral: https://ouvidoriageral.rs.gov.br/informacoes
 (formulário eletrônico; no primeiro acesso é preciso criar o **Login Cidadão**). Órgão destinatário:
-**Secretaria da Fazenda — Receita Estadual**. Guardar o número do protocolo.
+**Secretaria da Fazenda — Receita Estadual**.
+
+> **✅ ENVIADO em 29/09/2026 — PROTOCOLO LAI (governo do RS): `200773045/0168`**
+> Prazo legal de resposta: **19/10/2026** (20 dias), prorrogável até **29/10/2026** (+10 dias).
+> Acompanhar pelo portal da Ouvidoria-Geral do RS com o Login Cidadão.
 
 **Texto para colar no formulário da LAI:**
 
@@ -266,9 +270,9 @@ Rodrigo Santana — MedPreços — med.precosbr@gmail.com
 ---
 
 ## Próximo passo
-- [ ] **NOVOS 29/09/2026 — enviar os itens 6 e 7:** e-mail à SEFAZ-AL (preencher o CPF) e pedido
-      LAI à SEFAZ-RS (criar Login Cidadão). Registrar aqui a data de envio, o número do protocolo
-      da LAI (prazo de resposta: 20 dias + 10) e a resposta.
+- [x] **Item 7 (SEFAZ-RS, LAI) enviado em 29/09/2026 — protocolo `200773045/0168`.** Resposta até
+      19/10/2026 (prorrogável até 29/10/2026). [ ] Registrar a resposta aqui quando chegar.
+- [ ] **Item 6 (SEFAZ-AL, token da API):** enviar (preencher o CPF) e registrar a data aqui.
 - [x] Revisar e personalizar os rascunhos antes de enviar.
 - [x] ~~Reconectar Gmail do conector claude.ai~~ — não foi possível nesta sessão (ficou preso na
       conta pessoal em várias tentativas). Contornado: usuário copiou os textos manualmente e
