@@ -3,6 +3,15 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-09-29 (noite) — **Pesquisa de acesso às redes que bloqueiam + lote diário.** O usuário perguntou
+como viabilizar o produto se as grandes redes bloqueiam coleta (e se dava pra "pausar/disfarçar" pra não
+ser bloqueado). Decisão mantida: **não contornar bloqueio nem Termos de Uso** (mesmo sendo de utilidade
+pública e sem venda — os termos da RD proíbem raspagem pra qualquer fim, e o produto depende da boa
+vontade dessas redes). Três pesquisas em paralelo mapearam vias legítimas — ver seção "Acesso às redes
+que bloqueiam". Feito no código: lote de preços das 5 redes permitidas passou de **semanal pra diário
+(02:30)** e o coletor agora respeita pedido de pausa da loja (429/503 + Retry-After; desiste da rede na
+rodada após 5 recusas). Usuário informou: **o produto é de utilidade pública e não é vendido.**
+
 2026-09-29 (tarde) — **Backend + banco + fila + Docker.** O MedPreços deixou de ser front-end puro:
 a pedido do usuário (especificação "Triangulação Inteligente por Demanda com Catálogo Canônico", 4
 frentes), foi criado `backend/` (FastAPI, SQLAlchemy/Alembic, Celery/Redis) e o site passou a consultar
@@ -213,7 +222,62 @@ Mesmo critério das outras redes (robots.txt + ToS antes de qualquer coisa):
   próprio / WhatsApp. `bigben.com.br` é uma joalheria, sem relação. Nada a raspar; app-only ficaria
   para engenharia reversa de API mobile (mais invasivo/cinza, fora de escopo agora).
 
+## Acesso às redes que bloqueiam — vias legítimas (pesquisa 29/09/2026)
+Redes sem coleta: Droga Raia/Drogasil (Termos de Uso proíbem), Ultrafarma/Araújo/Panvel (bloqueio ativo),
+Nissei (robots.txt). Achados (C = confirmado em fonte oficial; I = inferência):
+- **Economiza Alagoas (SEFAZ-AL) — API pública e gratuita (C, confirmado por 2 pesquisas independentes).**
+  Preço REAL de venda por loja a partir da NFC-e, inclusive farmácias, busca por EAN, atualiza a cada 3h,
+  guarda 10 dias. Token por e-mail a api@sefaz.al.gov.br (nome, CPF, nome do app, URL). Base:
+  `api.sefaz.al.gov.br/sfz-economiza-alagoas-api/api/public/`, token no cabeçalho `AppToken`. Termo de
+  uso não publicado: pedir autorização escrita junto. Só cobre AL. Docs:
+  https://economizaalagoas.sefaz.al.gov.br/desenvolvedor.htm
+- **Outros apps de SEFAZ com preço de NFC-e** (sem API pública): Menor Preço Brasil (Procergs/SEFAZ-RS +
+  Encat, ~15 UFs incl. RJ, DF, CE, PE, PI, PA, ES), Menor Preço PR (Nota Paraná), Preço da Hora BA
+  (termos PROÍBEM uso não pessoal/cópia — só com convênio), Busca Preço AM. Caminho: ofício/convênio
+  (acordo de cooperação técnica) ou pedido via LAI, citando a API de AL como precedente. Precedentes de
+  cooperação: SEFAZ-PI com universidade, SEFAZ-PB com TCE-PB (C).
+- **Programas de afiliados** (feed com EAN/preço só aparece depois de aprovado):
+  - Lomadee: Droga Raia, Drogasil (C), Drogaria São Paulo, Pacheco. Aceita pessoa física.
+  - Awin: Araújo (C; inclui medicamentos), Pague Menos, Venancio. Araújo e Pague Menos recusam PF (exigem CNPJ).
+  - Panvel, Ultrafarma, Nissei: nenhum programa encontrado.
+  - Cuidado: "comparador" não aparece como mídia permitida nos perfis da Awin, então o uso teria de ser
+    aprovado pela rede. Os links geram comissão automaticamente (pode ser doada, mas há efeito fiscal).
+- **Crowdsourcing do cupom fiscal:** o usuário escaneia o QR da NFC-e dele e o app lê a página pública
+  da SEFAZ (itens, preço, CNPJ, data) (C).
+  - O EAN não aparece de forma confirmada, só o código interno da loja.
+  - Descartar o CPF do comprador (LGPD).
+  - Já existem apps que fazem isso (Anotadíssimo, Economiza Club).
+  - Cobre QUALQUER rede, inclusive as que bloqueiam, porque é o próprio consumidor que traz o dado.
+- **Fornecedores pagos/institucionais:**
+  - InfoPrice tem preço praticado por loja, com plano Free só de faixas (API só nos planos pagos).
+  - IQVIA, Close-Up, Brasíndice, Guia da Farmácia, Abcfarma, Kairos: preço de lista ou só para a indústria. Pouco útil.
+  - PBMs (Funcional, ePharma, Orizon, Vidalink, Interplayers): nenhuma API para apps de terceiros (C).
+  - Comparadores existentes (Consulta Remédios, CliqueFarma, Zoom): recebem o catálogo das farmácias,
+    que pagam por clique ou integram o ERP (Trier, Linx, Plugg.To).
+- **Parceiros de interesse público:**
+  - Idec: campanha "Remédio a Preço Justo", pesquisa anual nas 5 maiores redes.
+  - Procon-SP: pesquisa anual de preço por drogaria.
+  - Inova SUS Digital (MS): edital fechado; acompanhar a próxima chamada.
+  - Parceria com universidade pública dá legitimidade aos pedidos às SEFAZ.
+
+**⚠️ Ponto regulatório levantado (verificar com advogado antes de publicar):**
+- RDC 96/2008 (Anvisa), art. 11: comparação de preço dirigida ao consumidor só entre medicamentos
+  **intercambiáveis**, e proibida para **biológicos**. Se houver desconto, é obrigatório mostrar o preço cheio.
+- Art. 18: preço ao público em lista, com nome, DCB, apresentação, registro e detentor.
+- RDC 44/2009: proíbe propaganda de medicamento de tarja em sites.
+- Não está claro se um comparador sem fins lucrativos é "propaganda" pela RDC.
+- No catálogo atual, a seção "Alternativas Genéricas" sugere **similares em 406 grupos** e envolve
+  **biológicos em 24 grupos**, e o texto da seção diz "o genérico..." mesmo quando lista similar.
+  Correção proposta (NÃO feita ainda, aguarda decisão):
+  - mostrar só Genérico (e similar intercambiável, se houver lista oficial);
+  - tirar os biológicos da comparação.
+
 ## Próximos passos sugeridos
+- [ ] **E-mail à SEFAZ-AL (api@sefaz.al.gov.br) pedindo token da API Economiza Alagoas + autorização escrita de uso** (utilidade pública, sem fins lucrativos). Com o token: integrar em `backend/app/coleta/` casando por EAN (Frente 3 já pronta).
+- [ ] Decidir sobre a seção "Alternativas Genéricas" x RDC 96/2008 (similares/biológicos) — ver seção "Acesso às redes que bloqueiam". Ideal: consulta a advogado antes de publicar.
+- [ ] Ofício/LAI de cooperação à SEFAZ-RS/Procergs + Encat (Menor Preço Brasil), SEFA-PR e SEFAZ-BA pedindo acesso a preços de farmácia por EAN pra uso sem fins lucrativos (citar a API de AL como precedente). Mais forte com âncora institucional (universidade/Idec).
+- [ ] Cadastro na Lomadee (Droga Raia/Drogasil) e chamado perguntando se há feed com preço/EAN e se o uso em comparador sem fins lucrativos é aceito.
+- [ ] Avaliar o botão "Enviar meu cupom" (QR da NFC-e) — cobre qualquer rede com dado trazido pelo próprio consumidor; descartar CPF.
 - [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.
 - [ ] Registrar respostas dos 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md`. **Funcional/Orizon = caminho oficial do PBM** (preço exato com desconto).
 - [ ] Rodar a Camada A (sitemaps) nas outras 4 redes (`python -m app.cli tarefa descobrir_sitemaps`, ~4 min por rede; Pacheco tem ~94 mil URLs) — só a Venancio foi testada. A agenda roda todo domingo com o Docker de pé.
