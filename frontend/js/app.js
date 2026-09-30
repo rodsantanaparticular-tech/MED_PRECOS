@@ -15,6 +15,7 @@ const estado = {
     resultadosFarmas: [],
     rotaCalculada: null,
     comparacao: null,        // última resposta de /api/comparar
+    marcaBuscada: null,      // marca que a busca reconheceu (ex.: "Wellbutrin"); null = buscou o princípio ativo
     raioComparacao: null,
     buscaAtiva: false
 };
@@ -101,13 +102,14 @@ async function resolverPontoReferencia(termoLocalizacao) {
  * apresentação (dose + quantidade). Sem `apresentacao`, a API escolhe a
  * mais vendida. `atualizar` deixa a API buscar na hora preços vencidos.
  */
-async function compararPrecos(medicamentoId, localizacao, raioKm, apresentacao, atualizar = true) {
+async function compararPrecos(medicamentoId, localizacao, raioKm, apresentacao, atualizar = true, marca = null) {
     return chamarApi('/comparar', {
         medicamento: medicamentoId,
         lat: localizacao.latitude,
         lon: localizacao.longitude,
         raio: raioKm,
         apresentacao: apresentacao || null,
+        marca: marca,   // marca que o usuário buscou (ex.: "Wellbutrin"): as ofertas dela vêm à parte
         atualizar: atualizar ? 'true' : 'false'
     });
 }
@@ -680,7 +682,7 @@ function descricaoAmigavel(texto) {
  */
 function textoOferta(oferta) {
     if (oferta.tipo === 'programa_laboratorio') {
-        return '💊 ' + oferta.descricao + (oferta.percentual ? ' — até ' + oferta.percentual + '%' : '');
+        return '💊 ' + oferta.descricao + (oferta.percentual ? ' — até ' + Math.round(oferta.percentual) + '%' : '');
     }
     let texto = '🏷️ ' + descricaoAmigavel(oferta.descricao);
     if (oferta.precoEfetivoUnitario && oferta.quantidadeMinima) {
@@ -692,38 +694,96 @@ function textoOferta(oferta) {
     return texto;
 }
 
+function adicionarParagrafo(pai, classe, texto) {
+    const p = document.createElement('p');
+    p.className = classe;
+    p.textContent = texto;
+    pai.appendChild(p);
+    return p;
+}
+
 /**
- * Resumo, no card do medicamento, das promoções que compensam na apresentação
- * escolhida (uma por rede, da mais barata por unidade pra mais cara)
+ * Linha de uma rede no bloco da marca: "Pague Menos: R$ 198,99 → R$ 134,93 com o
+ * desconto do laboratório (32%, cadastro do CPF)"
+ */
+function textoOfertaMarca(itemRede) {
+    const partes = itemRede.ofertas.map(oferta => {
+        if (oferta.tipo === 'programa_laboratorio') {
+            return oferta.precoEfetivoUnitario
+                ? formatarMoeda(oferta.precoEfetivoUnitario) + ' com o desconto do laboratório (' +
+                  Math.round(oferta.percentual) + '%, cadastro do CPF)'
+                : 'tem desconto do laboratório com cadastro do CPF (a loja não informa o valor)';
+        }
+        return textoOferta(oferta).replace(/^🏷️ /, '');
+    });
+    return (itemRede.redeNome || NOMES_REDES[itemRede.rede] || itemRede.rede) + ': avulso ' +
+           formatarMoeda(itemRede.preco) + ' → ' + partes.join(' · ');
+}
+
+/**
+ * Bloco de ofertas no card, em duas partes: a MARCA buscada (ex.: Wellbutrin, com
+ * o programa do laboratório, mesmo que o genérico seja mais barato) e os genéricos/
+ * similares (promoções que compensam, uma por rede). Tudo na apresentação escolhida.
  */
 function renderizarOfertasApresentacao(comparacao) {
     const el = elementos.medicamentoOfertas;
-    const ofertas = comparacao.ofertasApresentacao || [];
+    const marca = comparacao.ofertasMarca || { redes: [], programas: [] };
+    const outras = comparacao.ofertasApresentacao || [];
     el.innerHTML = '';
-    el.hidden = ofertas.length === 0;
-    if (!ofertas.length) return;
+    el.hidden = !marca.redes.length && !outras.length;
+    if (el.hidden) return;
+
+    // O bloco da marca já mostra o programa do laboratório com preço por rede: o aviso
+    // genérico de PBM do card ficaria repetido (e menos preciso)
+    const marcaTemPrograma = marca.redes.some(r => r.ofertas.some(o => o.tipo === 'programa_laboratorio'));
+    if (marcaTemPrograma) elementos.medicamentoPbm.hidden = true;
 
     const apresentacao = comparacao.apresentacoes.find(a => a.chave === comparacao.apresentacaoSelecionada);
-    const titulo = document.createElement('p');
-    titulo.className = 'medicamento-ofertas-titulo';
-    titulo.textContent = '🏷️ Ofertas levando mais de uma unidade' + (apresentacao ? ' (' + apresentacao.rotulo + ')' : '');
-    el.appendChild(titulo);
+    adicionarParagrafo(el, 'medicamento-ofertas-titulo',
+        '🏷️ Ofertas' + (apresentacao ? ' para ' + apresentacao.rotulo : ''));
 
-    const lista = document.createElement('ul');
-    lista.className = 'medicamento-ofertas-lista';
-    ofertas.forEach(oferta => {
-        const item = document.createElement('li');
-        item.textContent = (oferta.redeNome || NOMES_REDES[oferta.rede] || oferta.rede) + ': ' +
-                           textoOferta(oferta).replace(/^🏷️ /, '');
-        lista.appendChild(item);
-    });
-    el.appendChild(lista);
+    if (marca.redes.length) {
+        adicionarParagrafo(el, 'medicamento-ofertas-subtitulo', marca.marca + ' (marca)');
+        const lista = document.createElement('ul');
+        lista.className = 'medicamento-ofertas-lista';
+        marca.redes.forEach(itemRede => {
+            const item = document.createElement('li');
+            item.textContent = textoOfertaMarca(itemRede);
+            lista.appendChild(item);
+        });
+        el.appendChild(lista);
 
-    const nota = document.createElement('p');
-    nota.className = 'medicamento-ofertas-nota';
-    nota.textContent = 'Promoções informadas pelo site de cada rede (válidas na compra online; confirme na loja). ' +
-                       'Os preços da tabela abaixo são sempre da unidade avulsa.';
-    el.appendChild(nota);
+        // Programa oficial do laboratório: vale em farmácias credenciadas, inclusive
+        // redes que o MedPreços não consegue consultar
+        marca.programas.filter(programa => programa.url).forEach(programa => {
+            const p = adicionarParagrafo(el, 'medicamento-ofertas-programa',
+                '💊 Programa ' + programa.nome + (programa.laboratorio ? ' (' + programa.laboratorio + ')' : '') +
+                ': cadastro e farmácias credenciadas, inclusive outras redes, em ');
+            const link = document.createElement('a');
+            link.href = programa.url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = 'site oficial do programa';
+            p.appendChild(link);
+        });
+    }
+
+    if (outras.length) {
+        adicionarParagrafo(el, 'medicamento-ofertas-subtitulo', 'Genéricos e similares, levando mais de uma unidade');
+        const lista = document.createElement('ul');
+        lista.className = 'medicamento-ofertas-lista';
+        outras.forEach(oferta => {
+            const item = document.createElement('li');
+            item.textContent = (oferta.redeNome || NOMES_REDES[oferta.rede] || oferta.rede) + ': ' +
+                               textoOferta(oferta).replace(/^🏷️ /, '');
+            lista.appendChild(item);
+        });
+        el.appendChild(lista);
+    }
+
+    adicionarParagrafo(el, 'medicamento-ofertas-nota',
+        'Ofertas informadas pelo site de cada rede (válidas na compra online; confirme na loja). ' +
+        'Os preços da tabela abaixo são sempre da unidade avulsa, sem desconto.');
 }
 
 /**
@@ -807,7 +867,9 @@ async function executarBusca() {
         };
 
         const raioSelecionadoKm = obterRaioSelecionado();
-        const comparacao = await compararPrecos(encontrado.id, estado.localizacaoUsuario, raioSelecionadoKm);
+        estado.marcaBuscada = encontrado.marca || null;
+        const comparacao = await compararPrecos(encontrado.id, estado.localizacaoUsuario, raioSelecionadoKm,
+                                                null, true, estado.marcaBuscada);
         estado.raioComparacao = raioSelecionadoKm;
         mostrarComparacao(comparacao, raioSelecionadoKm, true);
     } catch (erro) {
@@ -829,7 +891,7 @@ async function trocarApresentacao() {
     try {
         const comparacao = await compararPrecos(
             estado.comparacao.medicamento.id, estado.localizacaoUsuario, estado.raioComparacao,
-            elementos.seletorApresentacao.value, false
+            elementos.seletorApresentacao.value, false, estado.marcaBuscada
         );
         mostrarComparacao(comparacao, estado.raioComparacao, false);
     } catch (erro) {

@@ -28,6 +28,10 @@ def pontuar(termo: str, candidato: str) -> float:
         return 100
     if candidato.startswith(termo):
         return 90
+    # O usuário digitou MAIS que o nome cadastrado ("wellbutrin xl", "losartana 50mg"):
+    # o nome inteiro no começo do termo também é correspondência forte
+    if len(candidato) >= 4 and termo.startswith(candidato + ' '):
+        return 85
     if termo in candidato:
         return 80
     sim_total = Levenshtein.normalized_similarity(termo, candidato)
@@ -44,20 +48,22 @@ class _Entrada:
     principio_ativo: str
     principais: list[str]
     secundarios: list[str] = field(default_factory=list)
+    marcas: dict[str, str] = field(default_factory=dict)   # nome normalizado -> nome de exibição
 
 
 class IndiceBusca:
     def __init__(self, s: Session):
-        marcas: dict[str, set[str]] = {}
+        marcas: dict[str, dict[str, str]] = {}
         for med_id, produto in s.execute(select(ProdutoCmed.medicamento_id, ProdutoCmed.produto)
                                          .where(ProdutoCmed.ativo.is_(True)).distinct()):
-            marcas.setdefault(med_id, set()).add(normalizar(produto))
+            marcas.setdefault(med_id, {})[normalizar(produto)] = _titulo(produto)
         self.entradas = []
         for m in s.scalars(select(Medicamento).where(Medicamento.so_hospitalar.is_(False))):
             principais = [normalizar(m.nome), normalizar(m.principio_ativo)]
-            secundarios = {normalizar(x) for x in (m.sinonimias or [])} | marcas.get(m.id, set())
+            marcas_med = marcas.get(m.id, {})
+            secundarios = {normalizar(x) for x in (m.sinonimias or [])} | set(marcas_med)
             self.entradas.append(_Entrada(m.id, m.nome, m.principio_ativo, principais,
-                                          [x for x in secundarios if x and x not in principais]))
+                                          [x for x in secundarios if x and x not in principais], marcas_med))
         self.criado_em = datetime.utcnow()
 
     def buscar(self, termo: str, limite: int = 5) -> list[dict]:
@@ -66,11 +72,20 @@ class IndiceBusca:
             return []
         resultados = []
         for e in self.entradas:
-            p = max([pontuar(t, c) for c in e.principais] + [pontuar(t, c) * PESO_SINONIMO for c in e.secundarios])
+            # (pontuação, marca que casou): nome de referência e marcas da CMED contam como
+            # "marca buscada"; princípio ativo e sinônimos genéricos não (marca = None)
+            candidatos = [(pontuar(t, e.principais[0]), e.nome), (pontuar(t, e.principais[1]), None)]
+            candidatos += [(pontuar(t, c) * PESO_SINONIMO, e.marcas.get(c)) for c in e.secundarios]
+            p, marca = max(candidatos, key=lambda pc: pc[0])
             if p >= PONTUACAO_MINIMA:
-                resultados.append({'id': e.id, 'nome': e.nome, 'principioAtivo': e.principio_ativo, 'pontuacao': round(p, 1)})
+                resultados.append({'id': e.id, 'nome': e.nome, 'principioAtivo': e.principio_ativo,
+                                   'marca': marca, 'pontuacao': round(p, 1)})
         resultados.sort(key=lambda r: (-r['pontuacao'], len(r['principioAtivo'])))
         return resultados[:limite]
+
+
+def _titulo(s: str) -> str:
+    return ' '.join(w.capitalize() if len(w) > 2 else w.lower() for w in (s or '').split())
 
 
 _indice: IndiceBusca | None = None

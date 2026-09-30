@@ -544,6 +544,24 @@ a:focus {
     color: var(--cor-primaria-escura);
 }
 
+.medicamento-ofertas-subtitulo {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--cor-texto);
+}
+
+.medicamento-ofertas-programa {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--cor-texto);
+}
+
+.medicamento-ofertas-programa a {
+    color: var(--cor-primaria);
+    text-decoration: underline;
+}
+
 .medicamento-ofertas-lista {
     margin: 0.3rem 0 0 1.1rem;
     font-size: 0.85rem;

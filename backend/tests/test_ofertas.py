@@ -47,3 +47,16 @@ def test_de_por_e_programa_de_laboratorio():
     pbm = oferta_programa_laboratorio({'programa': 'Bayer pra você', 'desconto': 17.0}, 100.0)
     assert pbm['exige_cpf'] is True and pbm['preco_efetivo_unitario'] == 83.0
     assert oferta_programa_laboratorio(None, 100.0) is None
+
+
+def test_programa_sem_percentual_usa_o_preco_minimo_informado():
+    """Pague Menos/Extrafarma: não dizem o %, mas dizem o preço com o programa (Wellbutrin: 198,99 -> 134,93)."""
+    o = oferta_programa_laboratorio({'programa': None, 'desconto': None, 'precoMin': 134.93}, 198.99)
+    assert (o['preco_efetivo_unitario'], o['percentual']) == (134.93, 32.2)
+
+
+def test_programa_conhecido_ganha_nome_oficial_e_link():
+    o = oferta_programa_laboratorio({'programa': 'Viver mais', 'desconto': None, 'precoMin': None}, 209.09)
+    assert o['descricao'] == 'Programa Viver Mais (com cadastro do CPF)'
+    assert o['detalhes']['laboratorio'] == 'GSK' and o['detalhes']['url'].startswith('https://www.vivermaisgsk.com.br')
+    assert o['preco_efetivo_unitario'] is None   # sem % nem preço mínimo: não inventa número

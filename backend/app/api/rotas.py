@@ -79,6 +79,7 @@ async def farmacias(lat: float, lon: float, raio: float | None = Query(None, des
 async def comparar_precos(medicamento: str, lat: float, lon: float,
                           raio: float | None = Query(None, description='km; vazio = qualquer distância'),
                           apresentacao: str | None = Query(None, description='chave "dose|quantidade"; vazio = a mais vendida'),
+                          marca: str | None = Query(None, description='marca buscada (campo "marca" da busca); vazio = a de referência'),
                           atualizar: bool = Query(True, description='atualiza na hora redes com preço vencido (Camada B)'),
                           s: Session = Depends(sessao_api)):
     med = _medicamento_ou_404(s, medicamento)
@@ -100,7 +101,7 @@ async def comparar_precos(medicamento: str, lat: float, lon: float,
     # Preço (Camada B) e farmácias (Overpass) são independentes: em paralelo
     _, (lista, reserva) = await asyncio.gather(_atualizar_precos(), geo.farmacias_proximas(lat, lon, _raio(raio)))
     s.expire_all()
-    resultado = comparar(s, med, lista, lat, lon, _raio(raio), apresentacao, reserva)
+    resultado = comparar(s, med, lista, lat, lon, _raio(raio), apresentacao, reserva, marca)
     return {**resultado, 'atualizacao': atualizacao}
 
 

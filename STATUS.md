@@ -112,10 +112,27 @@ apresentação) → `mapeamento_sku_redes` (produto da rede casado com o catálo
 - **Validado:** 44 testes; Docker/Postgres com dado real ("bupropiona" em SP: Venancio "leve 3 pague 2" a
   R$ 18,46/un. contra R$ 27,69 avulso; Drogaria São Paulo R$ 74,39/un.; a apresentação 300mg não mostra
   oferta nenhuma).
-- **Comportamento a saber:** buscar "Wellbutrin" leva ao grupo da bupropiona e mostra promoções dos
-  GENÉRICOS (o Wellbutrin de marca não tem promoção hoje). É coerente com a comparação por princípio
-  ativo + apresentação, e cada oferta mostra o nome do produto. Se o usuário preferir filtrar pela marca
-  buscada, é decisão de produto em aberto.
+- **Marca x genéricos (decisão do usuário, 29/09):** o bloco de ofertas do card tem duas partes:
+  - **a marca buscada** (a busca agora devolve `marca`: "Wellbutrin", "Deradop XL"...; buscando o
+    princípio ativo, vale a marca de referência): as ofertas dela em cada rede, mesmo quando o genérico
+    sai mais barato;
+  - **genéricos e similares**: promoções que compensam, uma por rede.
+  - Parâmetro `marca` em `/api/comparar`; resposta `ofertasMarca` {marca, redes[], programas[]}.
+- **Wellbutrin — achado:** a oferta do Wellbutrin de marca é o **programa GSK "Viver Mais"** (desconto do
+  laboratório com CPF, 20 a 70%, vale em farmácias credenciadas; localizador oficial em
+  https://www.vivermaisgsk.com.br/Localizador). Aparece nas 5 redes coletadas. 150mg x 30:
+  - Pague Menos e Extrafarma: R$ 198,99 -> **R$ 134,93** com o programa (a loja informa o preço mínimo,
+    agora usado para calcular o %);
+  - Pacheco: 25% -> R$ 140,25;
+  - Drogaria São Paulo e Venancio: informam que tem o programa, sem valor.
+  - O usuário diz que Araújo e Droga Raia têm oferta de Wellbutrin: muito provavelmente é esse mesmo
+    programa, que é do laboratório e não da rede. Não dá pra confirmar: essas redes não são coletadas.
+- `PROGRAMAS_CONHECIDOS` em `coleta/ofertas.py`: programas de laboratório com página oficial CONFERIDA
+  (hoje só o Viver Mais/GSK), com nome oficial e link. Acrescentar outros só depois de conferir a fonte.
+- Busca: termo mais longo que o nome cadastrado passou a funcionar ("wellbutrin xl", "xarelto 20mg";
+  antes não achava nada).
+- O aviso antigo de PBM do card some quando o bloco da marca já mostra o programa (evita "até 25%"
+  contra "32%"); quando aparece, o % também considera o preço mínimo informado.
 
 # Histórico (antes do backend — referência; os scripts citados agora estão em `scripts/legado/`)
 

@@ -87,14 +87,37 @@ def oferta_de_por(preco: float, preco_lista: float | None) -> dict | None:
             'detalhes': {'precoLista': preco_lista}}
 
 
+# Programas de laboratório com página oficial CONFERIDA (nome como as redes informam, normalizado).
+# O programa é do fabricante e vale em farmácias credenciadas de várias redes - inclusive as que
+# não coletamos -, por isso o link oficial (com localizador de farmácias) vale mais que a rede.
+PROGRAMAS_CONHECIDOS = {
+    'viver mais': {'nome': 'Viver Mais', 'laboratorio': 'GSK', 'url': 'https://www.vivermaisgsk.com.br/Localizador'},
+}
+
+
+def programa_conhecido(nome: str | None) -> dict | None:
+    from ..matching.normalizacao import normalizar
+    return PROGRAMAS_CONHECIDOS.get(normalizar(nome)) if nome else None
+
+
 def oferta_programa_laboratorio(pbm: dict | None, preco: float) -> dict | None:
     if not pbm:
         return None
     desconto = pbm.get('desconto')
+    preco_min = pbm.get('precoMin')
     nome = pbm.get('programa')
-    descricao = f'Programa {nome}' if nome else 'Desconto do laboratório'
+    if desconto and preco:
+        efetivo = round(preco * (1 - desconto / 100), 2)
+    elif preco_min and preco and preco_min < preco:
+        # Pague Menos/Extrafarma não dizem o %, mas dizem o preço mínimo com o programa
+        efetivo, desconto = round(preco_min, 2), round((1 - preco_min / preco) * 100, 1)
+    else:
+        efetivo = None
+    conhecido = programa_conhecido(nome)
+    descricao = f"Programa {conhecido['nome'] if conhecido else nome}" if nome else 'Desconto do laboratório'
     return {'tipo': 'programa_laboratorio', 'descricao': descricao + ' (com cadastro do CPF)',
-            'quantidade_minima': None, 'percentual': desconto,
-            'preco_efetivo_unitario': round(preco * (1 - desconto / 100), 2) if desconto and preco else None,
+            'quantidade_minima': None, 'percentual': desconto, 'preco_efetivo_unitario': efetivo,
             'exige_cpf': True, 'exige_cupom': False,
-            'detalhes': {k: v for k, v in {'programa': nome, 'precoMinimoInformado': pbm.get('precoMin')}.items() if v}}
+            'detalhes': {k: v for k, v in {'programa': nome, 'precoMinimoInformado': preco_min,
+                                           'laboratorio': conhecido and conhecido['laboratorio'],
+                                           'url': conhecido and conhecido['url']}.items() if v}}

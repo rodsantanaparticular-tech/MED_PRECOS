@@ -27,6 +27,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from ..config import obter_config
 from ..coleta.geo import distancia_km
+from ..coleta.ofertas import programa_conhecido
 from ..matching.normalizacao import normalizar, rotulo_chave
 from ..models import MapeamentoSkuRede, Medicamento, OfertaSku, ProdutoCmed, Rede
 
@@ -53,6 +54,9 @@ def resumo_pbm(ofertas: list[MapeamentoSkuRede]) -> dict | None:
     r = {'descontoMax': None, 'programas': [], 'redes': {}, 'produtos': []}
     for o in com_pbm:
         d = o.pbm.get('desconto')
+        preco_min = o.pbm.get('precoMin')
+        if not d and preco_min and o.ultimo_preco and preco_min < o.ultimo_preco:
+            d = round((1 - preco_min / o.ultimo_preco) * 100)   # loja informou o preço, não o %
         if d and (r['descontoMax'] is None or d > r['descontoMax']):
             r['descontoMax'] = d
         atual = r['redes'].get(o.rede_id)
@@ -151,8 +155,57 @@ def apresentacoes(s: Session, med: Medicamento, ofertas: list[MapeamentoSkuRede]
     return lista
 
 
+def _ofertas_da_marca(s: Session, med: Medicamento, marca: str, ofertas: list[MapeamentoSkuRede], chave: str | None,
+                      agora: datetime, nomes_redes: dict[str, str]) -> tuple[dict, set[int]]:
+    """Ofertas da MARCA buscada (ex.: Wellbutrin) em cada rede, na apresentação escolhida -
+    mostradas mesmo quando um genérico sai mais barato: quem quer a marca (receita sem
+    intercambialidade, preferência) precisa ver o programa do laboratório e as promoções dela.
+    Devolve o bloco e os ids dos SKUs da marca (que saem do bloco de genéricos/similares)."""
+    marca_n = normalizar(marca)
+    produto_por_ggrem = dict(s.execute(select(ProdutoCmed.ggrem, ProdutoCmed.produto)
+                                       .where(ProdutoCmed.medicamento_id == med.id)).all())
+
+    def e_da_marca(m: MapeamentoSkuRede) -> bool:
+        if f' {marca_n} ' in f' {normalizar(m.titulo)} ':
+            return True
+        produto = produto_por_ggrem.get(m.produto_cmed_ggrem or '')
+        return bool(produto) and normalizar(produto).startswith(marca_n)
+
+    skus_marca = [m for m in ofertas if m.chave_apresentacao == chave and m.disponivel and e_da_marca(m)]
+    por_rede: dict[str, list[MapeamentoSkuRede]] = {}
+    for m in skus_marca:
+        por_rede.setdefault(m.rede_id, []).append(m)
+
+    redes_saida, programas = [], {}
+    for rede_id, skus in por_rede.items():
+        mais_barato = min(skus, key=lambda m: m.ultimo_preco)
+        pares = [(o, m) for m in skus for o in ofertas_vigentes(m, agora)]
+        promocao = _melhor_promocao(pares, mais_barato)
+        programa = max(((o, m) for o, m in pares if o.tipo == 'programa_laboratorio'),
+                       key=lambda om: (om[0].preco_efetivo_unitario is not None, om[0].percentual or 0), default=None)
+        if not (promocao or programa):
+            continue
+        if programa:
+            detalhes = programa[0].detalhes or {}
+            nome = detalhes.get('programa')
+            conhecido = programa_conhecido(nome)
+            nome = conhecido['nome'] if conhecido else nome
+            if nome or detalhes.get('url'):
+                programas[normalizar(nome or detalhes['url'])] = {
+                    'nome': nome, 'laboratorio': detalhes.get('laboratorio'), 'url': detalhes.get('url')}
+        itens = [_oferta_para_front(*om, nomes_redes.get(rede_id), mais_barato) for om in (promocao, programa) if om]
+        redes_saida.append({'rede': rede_id, 'redeNome': nomes_redes.get(rede_id), 'produto': mais_barato.titulo,
+                            'url': mais_barato.url, 'preco': mais_barato.ultimo_preco, 'ofertas': itens,
+                            'melhorPreco': min([o['precoEfetivoUnitario'] for o in itens if o['precoEfetivoUnitario']]
+                                               or [mais_barato.ultimo_preco])})
+    redes_saida.sort(key=lambda r: r['melhorPreco'])
+    # Com o nome oficial conhecido, o programa sem nome das outras redes é o mesmo: fica só o oficial
+    lista_programas = sorted(programas.values(), key=lambda p: p['url'] is None)
+    return {'marca': marca, 'redes': redes_saida, 'programas': lista_programas}, {m.id for m in skus_marca}
+
+
 def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lon: float, raio_km: float,
-             chave: str | None, usou_reserva: bool) -> dict:
+             chave: str | None, usou_reserva: bool, marca: str | None = None) -> dict:
     ofertas = ofertas_do_medicamento(s, med.id)
     lista_apresentacoes = apresentacoes(s, med, ofertas)
     chaves = {a['chave'] for a in lista_apresentacoes}
@@ -174,8 +227,11 @@ def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lo
         if m.chave_apresentacao == chave and m.disponivel:
             ofertas_por_rede.setdefault(m.rede_id, []).extend((o, m) for o in ofertas_vigentes(m, agora))
     nomes_redes = {r.id: r.nome for r in redes}
-    resumo_ofertas = []
+    # Sem marca na busca (buscou pelo princípio ativo), a marca de referência faz o papel
+    ofertas_marca, ids_marca = _ofertas_da_marca(s, med, marca or med.nome, ofertas, chave, agora, nomes_redes)
+    resumo_ofertas = []   # genéricos e similares: tudo que não é a marca
     for rede_id, pares in ofertas_por_rede.items():
+        pares = [(o, m) for o, m in pares if m.id not in ids_marca]
         melhor = _melhor_promocao(pares, melhor_por_rede.get(rede_id))
         if melhor:
             resumo_ofertas.append(_oferta_para_front(*melhor, nomes_redes.get(rede_id)))
@@ -224,6 +280,7 @@ def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lo
         'apresentacaoSelecionada': chave,
         'tetoCmedApresentacao': teto_cmed,
         'ofertasApresentacao': resumo_ofertas,
+        'ofertasMarca': ofertas_marca,
         # Reais primeiro (menor -> maior), estimativas depois: a estimativa sobre o
         # teto CMED não deve aparecer como "mais barata" que um preço de verdade
         'farmacias': sorted(selecionadas, key=lambda i: (not i['precoReal'], i['preco'])),

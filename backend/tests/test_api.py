@@ -81,5 +81,29 @@ def test_ofertas_proativas_na_comparacao(cliente):
     assert por_nome['Pague Menos']['preco'] == 55.49
 
 
+def test_busca_informa_a_marca_e_aceita_termo_mais_longo(cliente):
+    r = cliente.get('/api/medicamentos/busca', params={'q': 'xarelto 20mg'}).json()['resultados'][0]
+    assert (r['id'], r['marca']) == ('rivaroxabana', 'Xarelto')
+    r = cliente.get('/api/medicamentos/busca', params={'q': 'rivaroxabana'}).json()['resultados'][0]
+    assert r['marca'] is None   # buscou o princípio ativo, não uma marca
+
+
+def test_ofertas_da_marca_separadas_dos_genericos(cliente):
+    r = cliente.get('/api/comparar', params={'medicamento': 'rivaroxabana', 'lat': -23.5505, 'lon': -46.6333,
+                                             'raio': 10, 'atualizar': 'false', 'marca': 'Xarelto'}).json()
+    marca = r['ofertasMarca']
+    assert marca['marca'] == 'Xarelto'
+    # A promoção do Xarelto aparece no bloco da marca (compensa frente ao Xarelto avulso),
+    # mesmo não compensando frente ao genérico; e o programa do laboratório da DSP também
+    por_rede = {x['rede']: x for x in marca['redes']}
+    assert [o['descricao'] for o in por_rede['paguemenos']['ofertas']] == ['LEVE 3 PAGUE 2']
+    assert por_rede['paguemenos']['preco'] == 274.99
+    assert [(o['tipo'], o['precoEfetivoUnitario']) for o in por_rede['drogariasaopaulo']['ofertas']] == \
+        [('programa_laboratorio', 232.72)]
+    assert [x['rede'] for x in marca['redes']] == ['paguemenos', 'drogariasaopaulo']  # melhor preço primeiro
+    # O bloco de genéricos/similares não repete a marca
+    assert [(o['rede'], o['descricao']) for o in r['ofertasApresentacao']] == [('paguemenos', 'LEVE 2 PAGUE 1')]
+
+
 def test_tarefas_exigem_token(cliente):
     assert cliente.post('/api/tarefas/limpar_cache').status_code == 403
