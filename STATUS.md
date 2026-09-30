@@ -3,6 +3,11 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-09-29 (noite, 2) — **Ofertas proativas.** A pedido do usuário (prompt enxuto revisado junto com ele),
+o MedPreços mostra sem o usuário digitar quantidade as promoções das redes ("Leve 3 pague 2: R$ 18,46/un.
+levando 3 (avulso R$ 27,69)"), o preço "de/por" e o programa do laboratório. Detalhes na seção
+"Ofertas proativas". Pedido LAI à SEFAZ-RS enviado (protocolo `200773045/0168`).
+
 2026-09-29 (noite) — **Pesquisa de acesso às redes que bloqueiam + lote diário.** O usuário perguntou
 como viabilizar o produto se as grandes redes bloqueiam coleta (e se dava pra "pausar/disfarçar" pra não
 ser bloqueado). Decisão mantida: **não contornar bloqueio nem Termos de Uso** (mesmo sendo de utilidade
@@ -83,6 +88,34 @@ apresentação) → `mapeamento_sku_redes` (produto da rede casado com o catálo
   estimativa (teto CMED x 0,85 x fator da farmácia) às vezes ficava "mais barata" que o preço de verdade.
 - **Overpass (OpenStreetMap) público instável** (504/timeout frequentes): orçamento total de 18s por
   busca de farmácias, não escala o raio após falha, 2ª tentativa no servidor principal, cache vencido.
+
+## Ofertas proativas (desde 29/09/2026)
+- **Fonte:** `commertialOffer.PromotionTeasers` da mesma API de vitrine VTEX (sem checkout). Amostra de
+  20 princípios ativos: 35 a 45% dos produtos têm promoção, sempre com quantidade mínima. Só 3 formatos:
+  "LEVE X PAGUE Y" (Venancio acrescenta "- <contrato>"), "N% OFF NA Kª UNIDADE" e (Pague Menos/Extrafarma)
+  "COMPRE4 GANHE DESCONTO [Compre 4 com 30% OFF]". Nenhuma traz validade.
+- **Nomes de coleção (`productClusters`) NÃO são usados:** cheios de campanhas vencidas.
+- **Tabela `ofertas_sku`** (migração `dc0fb9ff2382`): tipo `promocao_rede` | `de_por` | `programa_laboratorio`,
+  quantidade mínima, % efetivo, preço efetivo por unidade, exige CPF/cupom. **Substituída a cada coleta**
+  (oferta que a loja tirou some); promoção e de/por só aparecem com coleta de até 48h.
+- **Interpretação** em `backend/app/coleta/ofertas.py`; nome desconhecido fica só com o texto original
+  (não inventa número).
+- **Regras de exibição** (`servicos/comparacao.py`):
+  - só mostra a promoção que **compensa**: preço por unidade menor que o avulso mais barato da rede, ou
+    promoção do próprio produto da linha;
+  - o programa de laboratório só aparece na linha do próprio produto; o aviso geral fica no card;
+  - a ordenação e o selo MENOR PREÇO continuam pelo preço avulso, e o preço avulso é sempre exibido
+    junto (Anvisa).
+- **API:** `farmacias[].ofertas`, `farmacias[].precoLista` ("de"), `ofertasApresentacao` (resumo por rede)
+  e `apresentacoes[].redesComPromocao`. Front: bloco "🏷️ Ofertas levando mais de uma unidade" no card,
+  etiqueta por farmácia e aviso no seletor de apresentação.
+- **Validado:** 44 testes; Docker/Postgres com dado real ("bupropiona" em SP: Venancio "leve 3 pague 2" a
+  R$ 18,46/un. contra R$ 27,69 avulso; Drogaria São Paulo R$ 74,39/un.; a apresentação 300mg não mostra
+  oferta nenhuma).
+- **Comportamento a saber:** buscar "Wellbutrin" leva ao grupo da bupropiona e mostra promoções dos
+  GENÉRICOS (o Wellbutrin de marca não tem promoção hoje). É coerente com a comparação por princípio
+  ativo + apresentação, e cada oferta mostra o nome do produto. Se o usuário preferir filtrar pela marca
+  buscada, é decisão de produto em aberto.
 
 # Histórico (antes do backend — referência; os scripts citados agora estão em `scripts/legado/`)
 

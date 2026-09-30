@@ -530,6 +530,32 @@ a:focus {
     color: var(--cor-primaria-escura);
 }
 
+/* Ofertas levando mais de uma unidade (promoções das redes) */
+.medicamento-ofertas {
+    margin-top: 0.75rem;
+    padding: 0.6rem 0.8rem;
+    background: var(--cor-fundo-claro);
+    border-left: 4px solid var(--cor-primaria);
+    border-radius: var(--raio-borda-pequeno);
+}
+
+.medicamento-ofertas-titulo {
+    font-weight: 600;
+    color: var(--cor-primaria-escura);
+}
+
+.medicamento-ofertas-lista {
+    margin: 0.3rem 0 0 1.1rem;
+    font-size: 0.85rem;
+    color: var(--cor-texto);
+}
+
+.medicamento-ofertas-nota {
+    margin-top: 0.3rem;
+    font-size: 0.75rem;
+    color: var(--cor-texto-claro);
+}
+
 .medicamento-pbm-texto {
     margin-top: 0.2rem;
     font-size: 0.85rem;
@@ -711,6 +737,24 @@ a:focus {
     font-size: 0.75rem;
     color: var(--cor-texto-claro);
     margin-top: 0.15rem;
+}
+
+/* Preço "de" da loja (o "por" é o preço em destaque) */
+.tabela-precos .preco-de {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--cor-texto-claro);
+    text-decoration: line-through;
+}
+
+/* Promoção da rede ("Leve 3 pague 2: R$ X/un.") */
+.tabela-precos .preco-oferta {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    margin-top: 0.15rem;
+    max-width: 16rem;
 }
 
 /* Produto (marca/genérico) a que o preço real se refere */

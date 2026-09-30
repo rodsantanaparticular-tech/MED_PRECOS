@@ -113,6 +113,32 @@ class MapeamentoSkuRede(Base):
     atualizado_em: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     rede: Mapped[Rede] = relationship()
+    ofertas: Mapped[list['OfertaSku']] = relationship(back_populates='mapeamento', cascade='all, delete-orphan')
+
+
+class OfertaSku(Base):
+    """Oferta vigente de um SKU numa rede, capturada junto com o preço e substituída
+    a cada coleta (oferta que sumiu da loja some daqui também). Tipos:
+      promocao_rede        "LEVE 3 PAGUE 2", "50% OFF NA 2ª UNIDADE"... (sem cadastro)
+      de_por               preço "de" (ListPrice) maior que o "por" já aplicado
+      programa_laboratorio desconto do fabricante com cadastro do CPF (PBM)
+    Só informativo: não entra na ordenação nem no selo de menor preço."""
+    __tablename__ = 'ofertas_sku'
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
+    mapeamento_id: Mapped[int] = mapped_column(ForeignKey('mapeamento_sku_redes.id', ondelete='CASCADE'), index=True)
+    tipo: Mapped[str] = mapped_column(String(30))
+    descricao: Mapped[str] = mapped_column(Text)                         # texto original da loja (limpo)
+    quantidade_minima: Mapped[int | None] = mapped_column(Integer)
+    percentual: Mapped[float | None] = mapped_column(Float)              # desconto efetivo sobre o conjunto
+    preco_efetivo_unitario: Mapped[float | None] = mapped_column(Float)  # quando dá pra calcular
+    exige_cpf: Mapped[bool] = mapped_column(Boolean, default=False)
+    exige_cupom: Mapped[bool] = mapped_column(Boolean, default=False)
+    detalhes: Mapped[dict] = mapped_column(JSON, default=dict)            # dados crus úteis (tipo VTEX, preço "de"...)
+    coletado_em: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    valido_ate: Mapped[datetime | None] = mapped_column(DateTime)        # as lojas não informam hoje
+
+    mapeamento: Mapped[MapeamentoSkuRede] = relationship(back_populates='ofertas')
 
 
 class HistoricoPreco(Base):

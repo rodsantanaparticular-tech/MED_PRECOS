@@ -4,7 +4,7 @@ banco precisa estar no ambiente ANTES de importar `app` (o engine é criado no i
 """
 import os
 import tempfile
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 _pasta = Path(tempfile.mkdtemp(prefix='medprecos-testes-'))
@@ -16,7 +16,7 @@ import pytest  # noqa: E402
 
 from app.coleta.redes import semear_redes  # noqa: E402
 from app.db import Base, engine, sessao  # noqa: E402
-from app.models import MapeamentoSkuRede, Medicamento, ProdutoCmed  # noqa: E402
+from app.models import MapeamentoSkuRede, Medicamento, OfertaSku, ProdutoCmed  # noqa: E402
 
 
 def _produto(ggrem, med, produto, apresentacao, chave, pmc, ean=None, registro='', tipo='Similar', lab='LAB X'):
@@ -52,17 +52,33 @@ def catalogo():
         ])
         s.flush()
         agora = datetime.utcnow()
-        for rede, titulo, preco, chave in [
-            ('paguemenos', 'Xarelto 20mg 28 Comprimidos', 274.99, '20mg|28'),
-            ('paguemenos', 'Rivaroxabana 20mg 28 Comprimidos Genérico', 55.49, '20mg|28'),
-            ('drogariasaopaulo', 'Xarelto Rivaroxabana 20mg 28 Comprimidos', 280.38, '20mg|28'),
-            ('drogariasaopaulo', 'Xarelto Rivaroxabana 10mg 10 Comprimidos', 100.15, '10mg|10'),
+        tres_dias = agora - timedelta(days=3)
+        # (rede, título, preço, chave, coletado em, ofertas vigentes do SKU)
+        for rede, titulo, preco, chave, quando, ofertas in [
+            # Promoção que NÃO compensa: 183,33/un. > avulso mais barato da rede (55,49) -> não aparece
+            ('paguemenos', 'Xarelto 20mg 28 Comprimidos', 274.99, '20mg|28', agora,
+             [dict(tipo='promocao_rede', descricao='LEVE 3 PAGUE 2', quantidade_minima=3, percentual=33.3,
+                   preco_efetivo_unitario=183.33)]),
+            # Promoção do próprio produto mais barato -> aparece na linha, sem repetir o nome do produto
+            ('paguemenos', 'Rivaroxabana 20mg 28 Comprimidos Genérico', 55.49, '20mg|28', agora,
+             [dict(tipo='promocao_rede', descricao='LEVE 2 PAGUE 1', quantidade_minima=2, percentual=50.0,
+                   preco_efetivo_unitario=27.75)]),
+            ('drogariasaopaulo', 'Xarelto Rivaroxabana 20mg 28 Comprimidos', 280.38, '20mg|28', agora,
+             [dict(tipo='programa_laboratorio', descricao='Programa Bayer pra você (com cadastro do CPF)',
+                   percentual=17.0, preco_efetivo_unitario=232.72, exige_cpf=True),
+              dict(tipo='de_por', descricao='De R$ 300,00 por R$ 280,38', percentual=6.5,
+                   preco_efetivo_unitario=280.38, detalhes={'precoLista': 300.0})]),
+            # Coleta velha (3 dias): a promoção não é mais exibida
+            ('drogariasaopaulo', 'Xarelto Rivaroxabana 10mg 10 Comprimidos', 100.15, '10mg|10', tres_dias,
+             [dict(tipo='promocao_rede', descricao='LEVE 2 PAGUE 1', quantidade_minima=2, percentual=50.0,
+                   preco_efetivo_unitario=50.08)]),
         ]:
             s.add(MapeamentoSkuRede(rede_id=rede, sku_rede=titulo.lower().replace(' ', '-'), titulo=titulo,
                                     medicamento_id='rivaroxabana', chave_apresentacao=chave, metodo_match='nome',
-                                    ultimo_preco=preco, ultimo_preco_em=agora, disponivel=True,
+                                    ultimo_preco=preco, ultimo_preco_em=quando, disponivel=True,
                                     pbm={'programa': 'Bayer pra você', 'desconto': 17.0, 'precoMin': None}
-                                    if rede == 'drogariasaopaulo' else None))
+                                    if rede == 'drogariasaopaulo' else None,
+                                    ofertas=[OfertaSku(coletado_em=quando, **o) for o in ofertas]))
     yield
 
 

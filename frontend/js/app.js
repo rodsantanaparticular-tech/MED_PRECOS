@@ -138,6 +138,7 @@ const elementos = {
     medicamentoDescricao: document.getElementById('medicamento-descricao'),
     medicamentoClasse: document.getElementById('medicamento-classe'),
     medicamentoPbm: document.getElementById('medicamento-pbm'),
+    medicamentoOfertas: document.getElementById('medicamento-ofertas'),
     
     // Genéricos
     secaoGenericos: document.getElementById('secao-genericos'),
@@ -454,13 +455,21 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
             celulaPreco.appendChild(produtoEl);
         }
 
-        if (farmacia.pbm) {
-            const pbmEl = document.createElement('span');
-            pbmEl.className = 'preco-pbm';
-            pbmEl.textContent = '💊 desconto do laboratório com CPF' +
-                (farmacia.pbm.desconto ? ' (até ' + farmacia.pbm.desconto + '%)' : '');
-            celulaPreco.appendChild(pbmEl);
+        // Preço "de" da própria loja (o desconto já está no preço acima)
+        if (farmacia.precoLista) {
+            const deEl = document.createElement('span');
+            deEl.className = 'preco-de';
+            deEl.textContent = 'de ' + formatarMoeda(farmacia.precoLista);
+            celulaPreco.appendChild(deEl);
         }
+
+        // Ofertas proativas: promoção da rede que compensa + programa do laboratório
+        (farmacia.ofertas || []).forEach(oferta => {
+            const ofertaEl = document.createElement('span');
+            ofertaEl.className = oferta.tipo === 'programa_laboratorio' ? 'preco-pbm' : 'preco-oferta';
+            ofertaEl.textContent = textoOferta(oferta);
+            celulaPreco.appendChild(ofertaEl);
+        });
 
         if (eMenorPreco) {
             const badge = document.createElement('span');
@@ -647,11 +656,74 @@ function renderizarSeletorApresentacao(comparacao) {
             ? ' — ' + apresentacao.redes + (apresentacao.redes === 1 ? ' rede' : ' redes') +
               (apresentacao.menorPreco ? ', a partir de ' + formatarMoeda(apresentacao.menorPreco) : '')
             : ' — só preço estimado';
-        opcao.textContent = apresentacao.rotulo + detalhe;
+        const promocao = apresentacao.redesComPromocao
+            ? ' · 🏷️ oferta em ' + apresentacao.redesComPromocao + (apresentacao.redesComPromocao === 1 ? ' rede' : ' redes')
+            : '';
+        opcao.textContent = apresentacao.rotulo + detalhe + promocao;
         opcao.selected = apresentacao.chave === comparacao.apresentacaoSelecionada;
         seletor.appendChild(opcao);
     });
     elementos.seletorApresentacaoGrupo.hidden = comparacao.apresentacoes.length < 2;
+}
+
+/**
+ * "LEVE 3 PAGUE 2" -> "Leve 3 pague 2" (as lojas mandam tudo em maiúsculas)
+ */
+function descricaoAmigavel(texto) {
+    const minusculo = (texto || '').toLowerCase();
+    return minusculo.charAt(0).toUpperCase() + minusculo.slice(1);
+}
+
+/**
+ * Texto de uma oferta, sempre com o preço normal por unidade ao lado
+ * (a Anvisa exige mostrar o preço sem desconto junto do preço com desconto)
+ */
+function textoOferta(oferta) {
+    if (oferta.tipo === 'programa_laboratorio') {
+        return '💊 ' + oferta.descricao + (oferta.percentual ? ' — até ' + oferta.percentual + '%' : '');
+    }
+    let texto = '🏷️ ' + descricaoAmigavel(oferta.descricao);
+    if (oferta.precoEfetivoUnitario && oferta.quantidadeMinima) {
+        texto += ': ' + formatarMoeda(oferta.precoEfetivoUnitario) + '/un. levando ' + oferta.quantidadeMinima +
+                 ' (avulso ' + formatarMoeda(oferta.precoUnitario) + ')';
+    }
+    if (oferta.produto) texto += ' — ' + oferta.produto;
+    if (oferta.exigeCupom) texto += ' · precisa de cupom';
+    return texto;
+}
+
+/**
+ * Resumo, no card do medicamento, das promoções que compensam na apresentação
+ * escolhida (uma por rede, da mais barata por unidade pra mais cara)
+ */
+function renderizarOfertasApresentacao(comparacao) {
+    const el = elementos.medicamentoOfertas;
+    const ofertas = comparacao.ofertasApresentacao || [];
+    el.innerHTML = '';
+    el.hidden = ofertas.length === 0;
+    if (!ofertas.length) return;
+
+    const apresentacao = comparacao.apresentacoes.find(a => a.chave === comparacao.apresentacaoSelecionada);
+    const titulo = document.createElement('p');
+    titulo.className = 'medicamento-ofertas-titulo';
+    titulo.textContent = '🏷️ Ofertas levando mais de uma unidade' + (apresentacao ? ' (' + apresentacao.rotulo + ')' : '');
+    el.appendChild(titulo);
+
+    const lista = document.createElement('ul');
+    lista.className = 'medicamento-ofertas-lista';
+    ofertas.forEach(oferta => {
+        const item = document.createElement('li');
+        item.textContent = (oferta.redeNome || NOMES_REDES[oferta.rede] || oferta.rede) + ': ' +
+                           textoOferta(oferta).replace(/^🏷️ /, '');
+        lista.appendChild(item);
+    });
+    el.appendChild(lista);
+
+    const nota = document.createElement('p');
+    nota.className = 'medicamento-ofertas-nota';
+    nota.textContent = 'Promoções informadas pelo site de cada rede (válidas na compra online; confirme na loja). ' +
+                       'Os preços da tabela abaixo são sempre da unidade avulsa.';
+    el.appendChild(nota);
 }
 
 /**
@@ -685,6 +757,7 @@ function mostrarComparacao(comparacao, raioSelecionadoKm, rolar) {
     renderizarMedicamento(medicamento);
     renderizarGenericos(medicamento);
     renderizarSeletorApresentacao(comparacao);
+    renderizarOfertasApresentacao(comparacao);
     renderizarAvisoAtualizacao(comparacao);
     renderizarFarmacias(medicamento, estado.localizacaoUsuario, precosFarmas, comparacao.mostrandoFallback, raioSelecionadoKm);
 

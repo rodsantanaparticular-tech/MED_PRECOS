@@ -39,8 +39,8 @@ def test_comparar_por_apresentacao(cliente):
     # Pague Menos: o MAIS BARATO da rede nessa apresentação (genérico), com o produto
     assert por_nome['Pague Menos']['preco'] == 55.49 and por_nome['Pague Menos']['precoReal']
     assert 'Genérico' in por_nome['Pague Menos']['produto']['titulo']
-    # "Drogaria SP" (abreviação no OSM) é reconhecida como Drogaria São Paulo, com PBM
-    assert por_nome['Drogaria SP']['preco'] == 280.38 and por_nome['Drogaria SP']['pbm'] == {'desconto': 17.0}
+    # "Drogaria SP" (abreviação no OSM) é reconhecida como Drogaria São Paulo
+    assert por_nome['Drogaria SP']['preco'] == 280.38
     # Rede sem coleta: estimativa = menor PMC da apresentação x 0,85 x fator da farmácia
     assert por_nome['Droga Raia']['precoReal'] is False
     assert por_nome['Droga Raia']['preco'] == round(150.0 * 0.85 * 1.1, 2)
@@ -55,6 +55,30 @@ def test_comparar_outra_apresentacao(cliente):
     assert r['apresentacaoSelecionada'] == '10mg|10'
     reais = [f for f in r['farmacias'] if f['precoReal']]
     assert [f['preco'] for f in reais] == [100.15]
+    # Promoção de coleta com mais de 48h não é exibida (as lojas não informam validade)
+    assert r['ofertasApresentacao'] == [] and all(f['ofertas'] == [] for f in reais)
+
+
+def test_ofertas_proativas_na_comparacao(cliente):
+    r = cliente.get('/api/comparar', params={'medicamento': 'rivaroxabana', 'lat': -23.5505, 'lon': -46.6333,
+                                             'raio': 10, 'atualizar': 'false'}).json()
+    por_nome = {f['dados']['nome']: f for f in r['farmacias']}
+    # Pague Menos: a promoção do próprio produto da linha aparece, sem repetir o nome do produto;
+    # a do Xarelto (183,33/un.) não compensa frente ao genérico avulso (55,49) e fica de fora
+    pm = por_nome['Pague Menos']['ofertas']
+    assert [(o['descricao'], o['quantidadeMinima'], o['precoEfetivoUnitario'], o['produto']) for o in pm] == \
+        [('LEVE 2 PAGUE 1', 2, 27.75, None)]
+    assert pm[0]['precoUnitario'] == 55.49            # preço cheio sempre junto (Anvisa)
+    # Drogaria São Paulo: programa do laboratório do produto da linha + preço "de"
+    dsp = por_nome['Drogaria SP']
+    assert [(o['tipo'], o['exigeCpf'], o['percentual']) for o in dsp['ofertas']] == \
+        [('programa_laboratorio', True, 17.0)]
+    assert dsp['precoLista'] == 300.0
+    # Resumo do medicamento: só promoções que compensam, uma por rede
+    assert [(o['rede'], o['descricao']) for o in r['ofertasApresentacao']] == [('paguemenos', 'LEVE 2 PAGUE 1')]
+    assert next(a for a in r['apresentacoes'] if a['chave'] == '20mg|28')['redesComPromocao'] == 1
+    # Ordenação e selo continuam pelo preço unitário avulso
+    assert por_nome['Pague Menos']['preco'] == 55.49
 
 
 def test_tarefas_exigem_token(cliente):

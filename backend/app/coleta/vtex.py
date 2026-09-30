@@ -14,6 +14,7 @@ import httpx
 
 from ..config import obter_config
 from ..matching.normalizacao import so_digitos
+from .ofertas import promocoes_do_teaser
 
 log = logging.getLogger(__name__)
 
@@ -34,6 +35,7 @@ class Oferta:
     ean: str | None = None
     registros: list[str] = field(default_factory=list)
     pbm: dict | None = None
+    promocoes: list[dict] = field(default_factory=list)   # ver coleta/ofertas.py (PromotionTeasers)
 
 
 def slug_da_url(url: str | None) -> str | None:
@@ -102,7 +104,8 @@ def extrair_ofertas(produtos: list[dict]) -> list[Oferta]:
             preco=float(melhor['Price']), preco_lista=float(lista) if lista and lista > melhor['Price'] else None,
             disponivel=bool(melhor.get('IsAvailable', False)), ean=ean,
             registros=[r for r in (so_digitos(x) for x in (p.get('NumeroRegistroMS') or [])) if r],
-            pbm=extrair_pbm(p)))
+            pbm=extrair_pbm(p),
+            promocoes=promocoes_do_teaser(melhor.get('PromotionTeasers'), float(melhor['Price']))))
     return ofertas
 
 

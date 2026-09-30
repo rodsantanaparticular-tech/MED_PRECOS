@@ -39,6 +39,7 @@ Desde 29/09/2026: **backend FastAPI + banco relacional + fila**, conteinerizado 
     `catalogo/dados/enriquecimento.json`)
   - `coleta/` (Frente 2): `redes.py` (política de coleta por rede — fonte da verdade), `vtex.py`,
     `sitemaps.py` (Camada A), `sob_demanda.py` (Camada B), `cache.py` (Camada C), `lote.py`,
+    `ofertas.py` (promoções das redes/de-por/programa de laboratório -> tabela `ofertas_sku`),
     `geo.py` (ViaCEP/Nominatim/Overpass), `importar_legado.py`
   - `matching/` (Frente 3): normalização, chave de apresentação `dose|quantidade`, casamento
     EAN > registro > nome (prefixo) > nome aproximado
