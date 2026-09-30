@@ -27,6 +27,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from ..config import obter_config
 from ..coleta.geo import distancia_km
+from ..catalogo.enriquecimento import laboratorio_amigavel
 from ..coleta.ofertas import programa_conhecido
 from ..matching.normalizacao import normalizar, rotulo_chave
 from ..models import MapeamentoSkuRede, Medicamento, OfertaSku, ProdutoCmed, Rede
@@ -71,7 +72,8 @@ def resumo_pbm(ofertas: list[MapeamentoSkuRede]) -> dict | None:
 
 def medicamento_para_front(med: Medicamento, pbm: dict | None) -> dict:
     return {
-        'id': med.id, 'nome': med.nome, 'principioAtivo': med.principio_ativo, 'descricao': med.descricao,
+        'id': med.id, 'nome': med.nome, 'laboratorio': med.laboratorio or None,
+        'principioAtivo': med.principio_ativo, 'descricao': med.descricao,
         'classeTerapeutica': med.classe_terapeutica, 'sinonimias': med.sinonimias,
         'genericos': med.alternativas, 'precoReferencia': med.preco_referencia, 'pbm': pbm,
     }
@@ -242,6 +244,16 @@ def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lo
         ProdutoCmed.ativo.is_(True), ProdutoCmed.pmc_referencia.is_not(None))
         .order_by(ProdutoCmed.pmc_referencia).limit(1)) if chave else None
 
+    # Laboratório de cada apresentação (pelo casamento com a CMED) - mostrado junto do produto
+    lab_por_ggrem = {g: laboratorio_amigavel(lab) for g, lab in s.execute(
+        select(ProdutoCmed.ggrem, ProdutoCmed.laboratorio).where(ProdutoCmed.medicamento_id == med.id))}
+
+    def produto_da_oferta(oferta: MapeamentoSkuRede | None) -> dict | None:
+        if not oferta:
+            return None
+        return {'titulo': oferta.titulo, 'url': oferta.url,
+                'laboratorio': lab_por_ggrem.get(oferta.produto_cmed_ggrem or '') or None}
+
     itens = []
     for f in farmacias:
         rede = identificar_rede(f, redes)
@@ -259,7 +271,7 @@ def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lo
         itens.append({
             'dados': f, 'preco': preco, 'precoReal': real,
             'rede': {'id': rede.id, 'nome': rede.nome, 'coletaAtiva': rede.coleta_ativa} if rede else None,
-            'produto': {'titulo': oferta.titulo, 'url': oferta.url} if oferta else None,
+            'produto': produto_da_oferta(oferta),
             'coletadoEm': oferta.ultimo_preco_em.isoformat() + 'Z' if oferta else None,
             'precoDesatualizado': bool(oferta and agora - oferta.ultimo_preco_em > ttl),
             'precoLista': de_por.detalhes.get('precoLista') if de_por else None,
@@ -273,6 +285,32 @@ def comparar(s: Session, med: Medicamento, farmacias: list[dict], lat: float, lo
         selecionadas = sorted(itens, key=lambda i: i['distanciaKm'])[:5]
     else:
         selecionadas = sorted(no_raio, key=lambda i: i['distanciaKm'])[:MAX_FARMACIAS_EXIBIDAS]
+
+    # Lojas só online (sem farmácia física no mapa, ex.: PromoFarma): uma linha própria,
+    # fora do filtro de distância, quando vendem a apresentação escolhida
+    for rede in redes:
+        oferta = melhor_por_rede.get(rede.id) if rede.somente_online else None
+        if not oferta:
+            continue
+        pares = ofertas_por_rede.get(rede.id, [])
+        de_por = next((o for o in ofertas_vigentes(oferta, agora) if o.tipo == 'de_por'), None)
+        selecionadas.append({
+            'dados': {'id': f'online-{rede.id}', 'nome': f'{rede.nome} (loja online)', 'online': True,
+                      'site': rede.base_url, 'endereco': 'Compra pelo site, com entrega em casa', 'bairro': '',
+                      'cep': '', 'latitude': lat, 'longitude': lon, 'possuiDelivery': False, 'entregaEm': None,
+                      'fatorPreco': 1.0,
+                      'horario': {'abertura': 0, 'fechamento': 24, 'domingoAberto': True,
+                                  'domingoAbertura': 0, 'domingoFechamento': 24}},
+            'preco': oferta.ultimo_preco, 'precoReal': True,
+            'rede': {'id': rede.id, 'nome': rede.nome, 'coletaAtiva': rede.coleta_ativa},
+            'produto': produto_da_oferta(oferta),
+            'coletadoEm': oferta.ultimo_preco_em.isoformat() + 'Z',
+            'precoDesatualizado': agora - oferta.ultimo_preco_em > ttl,
+            'precoLista': de_por.detalhes.get('precoLista') if de_por else None,
+            'ofertas': [_oferta_para_front(*om, rede.nome, oferta)
+                        for om in (_melhor_promocao(pares, oferta), _programa_do_produto(pares, oferta)) if om],
+            'distanciaKm': 0.0,
+        })
 
     return {
         'medicamento': medicamento_para_front(med, resumo_pbm(ofertas)),

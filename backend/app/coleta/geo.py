@@ -86,7 +86,8 @@ async def geocodificar(termo: str) -> dict:
         return {**SAO_PAULO, 'aproximada': True}
     cep = so_digitos(termo)
     eh_cep = len(cep) == 8 and len(termo.replace('-', '').replace('.', '').strip()) == 8
-    chave = f'geo:cep:{cep}' if eh_cep else f'geo:txt:{normalizar(termo)}'
+    # "v2": desde 30/09/2026 o resultado de CEP traz também a rua (logradouro)
+    chave = f'geo2:cep:{cep}' if eh_cep else f'geo:txt:{normalizar(termo)}'
     if (em_cache := cache.ler(chave)) is not None:
         return em_cache
 
@@ -104,6 +105,7 @@ async def geocodificar(termo: str) -> dict:
                                                                                    end.get('uf'), 'Brasil'])))
                     if coord:
                         loc = {**coord, 'nome': f"{end['localidade']} - {end['uf']}", 'bairro': end.get('bairro') or None,
+                               'endereco': end.get('logradouro') or None, 'cep': f'{cep[:5]}-{cep[5:]}',
                                'aproximada': False}
                         cache.gravar(chave, loc, ttl)
                         return loc
@@ -125,6 +127,83 @@ async def geocodificar(termo: str) -> dict:
             return {'latitude': loc['latitude'], 'longitude': loc['longitude'], 'nome': f"{loc['cidade']} - {loc['uf']}",
                     'aproximada': True}
     return {**SAO_PAULO, 'aproximada': True}
+
+
+# ---------------------------------------------------------------------------
+# Endereço das farmácias (o OSM não informa rua/bairro/CEP de muitas delas)
+# ---------------------------------------------------------------------------
+ENDERECO_AUSENTE = 'Endereço não informado pelo OpenStreetMap'
+TTL_ENDERECO = timedelta(days=90)
+ORCAMENTO_ENDERECOS_S = 5.0   # por requisição do usuário; o resto é completado em segundo plano
+
+
+def _falta_endereco(f: dict) -> bool:
+    return not f.get('online') and (not f.get('endereco') or f['endereco'] == ENDERECO_AUSENTE
+                                    or not f.get('bairro') or not f.get('cep'))
+
+
+def _chave_endereco(lat: float, lon: float) -> str:
+    return f'rev:{lat:.5f},{lon:.5f}'
+
+
+async def endereco_por_coordenada(cliente: httpx.AsyncClient, lat: float, lon: float) -> dict:
+    """Nominatim reverso (1 req/s, com cache de 90 dias). É a rua mais próxima do ponto: aproximado."""
+    chave = _chave_endereco(lat, lon)
+    if (em_cache := cache.ler(chave)) is not None:
+        return em_cache
+    async with _trava_nominatim:
+        r = await cliente.get('https://nominatim.openstreetmap.org/reverse',
+                              params={'format': 'jsonv2', 'lat': lat, 'lon': lon, 'zoom': 18, 'addressdetails': 1})
+        await asyncio.sleep(1)
+    a = (r.json() if r.status_code == 200 else {}).get('address') or {}
+    endereco = {
+        'endereco': ', '.join(filter(None, [a.get('road') or a.get('pedestrian') or a.get('footway'), a.get('house_number')])),
+        'bairro': a.get('suburb') or a.get('neighbourhood') or a.get('quarter') or a.get('city_district') or '',
+        'cep': a.get('postcode') or '',
+        'cidade': a.get('city') or a.get('town') or a.get('village') or a.get('municipality') or '',
+    }
+    cache.gravar(chave, endereco, TTL_ENDERECO)
+    return endereco
+
+
+def _aplicar_endereco(f: dict, e: dict) -> None:
+    if (not f.get('endereco') or f['endereco'] == ENDERECO_AUSENTE) and e.get('endereco'):
+        f['endereco'], f['enderecoAproximado'] = e['endereco'], True
+    for campo in ('bairro', 'cep', 'cidade'):
+        if not f.get(campo) and e.get(campo):
+            f[campo] = e[campo]
+
+
+async def completar_enderecos(farmacias: list[dict], orcamento_s: float = ORCAMENTO_ENDERECOS_S) -> list[tuple]:
+    """Preenche rua/bairro/CEP que o OSM não trouxe, dentro de um orçamento de tempo.
+    Devolve as coordenadas que ficaram pendentes (pra completar em segundo plano)."""
+    pendentes, prazo = [], time.monotonic() + orcamento_s
+    async with _cliente() as cliente:
+        for f in farmacias:
+            if not _falta_endereco(f):
+                continue
+            em_cache = cache.ler(_chave_endereco(f['latitude'], f['longitude']))
+            if em_cache is None and time.monotonic() > prazo:
+                pendentes.append((f['latitude'], f['longitude']))
+                continue
+            try:
+                _aplicar_endereco(f, em_cache or await endereco_por_coordenada(cliente, f['latitude'], f['longitude']))
+            except (httpx.HTTPError, ValueError) as e:
+                log.warning('Endereço reverso falhou (%s, %s): %s', f['latitude'], f['longitude'], e)
+    return pendentes
+
+
+async def aquecer_enderecos(coordenadas: list[list[float]]) -> int:
+    """Tarefa de fundo: resolve e guarda em cache os endereços pendentes."""
+    feitos = 0
+    async with _cliente() as cliente:
+        for lat, lon in coordenadas:
+            try:
+                await endereco_por_coordenada(cliente, lat, lon)
+                feitos += 1
+            except (httpx.HTTPError, ValueError) as e:
+                log.warning('Endereço reverso falhou (%s, %s): %s', lat, lon, e)
+    return feitos
 
 
 def cidade_mais_proxima(lat: float, lon: float) -> dict:

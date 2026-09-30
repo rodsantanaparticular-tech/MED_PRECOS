@@ -12,7 +12,7 @@ Matriz de preços:  Princípio ativo (medicamentos)
 """
 from datetime import date, datetime
 
-from sqlalchemy import (JSON, Boolean, Date, DateTime, Float, ForeignKey, Index, Integer, String, Text,
+from sqlalchemy import (JSON, Boolean, Date, DateTime, Float, ForeignKey, Index, Integer, String, Text, false,
                         UniqueConstraint)
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -27,6 +27,7 @@ class Medicamento(Base):
     id: Mapped[str] = mapped_column(String(160), primary_key=True)
     principio_ativo: Mapped[str] = mapped_column(Text)  # combinações chegam a >1.000 caracteres
     nome: Mapped[str] = mapped_column(String(200))                 # produto de referência, p/ exibição
+    laboratorio: Mapped[str] = mapped_column(String(200), default='', server_default='')  # do produto de referência
     descricao: Mapped[str] = mapped_column(Text, default='')
     classe_terapeutica: Mapped[str] = mapped_column(String(300), default='')
     sinonimias: Mapped[list] = mapped_column(JSON, default=list)
@@ -83,6 +84,8 @@ class Rede(Base):
     coleta_ativa: Mapped[bool] = mapped_column(Boolean, default=False)
     motivo: Mapped[str] = mapped_column(Text, default='')
     trechos_nome: Mapped[list] = mapped_column(JSON, default=list)  # p/ reconhecer a rede pelo nome da farmácia no OSM
+    # Loja só virtual (sem farmácia física no mapa): entra na comparação como "loja online, com entrega"
+    somente_online: Mapped[bool] = mapped_column(Boolean, default=False, server_default=false())
 
 
 class MapeamentoSkuRede(Base):

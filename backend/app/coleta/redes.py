@@ -25,6 +25,20 @@ REDES = [
          coleta_ativa=True, motivo='robots.txt permite produto e libera crawlers', trechos_nome=['pacheco']),
     dict(id='venancio', nome='Drogaria Venancio', plataforma='vtex', base_url='https://www.drogariavenancio.com.br',
          coleta_ativa=True, motivo='robots.txt permite produto', trechos_nome=['venancio']),
+    # Via programa de afiliados Lomadee (API oficial, catálogo publicado pela própria rede). Só são
+    # coletadas com LOMADEE_API_KEY configurada. Uso: comparação de preço, sem venda (decisão do usuário).
+    dict(id='rosario', nome='Drogaria Rosário', plataforma='lomadee', base_url='https://www.drogariarosario.com.br',
+         coleta_ativa=True, motivo='Programa de afiliados Lomadee (API oficial). Catálogo no feed pequeno (~200 '
+                                    'produtos em 30/09/2026). Canais permitidos pelo programa: redes sociais e '
+                                    'site de cupons (comparador não listado - risco aceito pelo usuário).',
+         trechos_nome=['drogaria rosario', 'drogarias rosario']),
+    dict(id='drogasmil', nome='Drogasmil', plataforma='lomadee', base_url='https://www.drogasmil.com.br',
+         coleta_ativa=True, motivo='Programa de afiliados Lomadee (API oficial), ~2 mil produtos com EAN.',
+         trechos_nome=['drogasmil']),
+    dict(id='promofarma', nome='PromoFarma', plataforma='lomadee', base_url='https://www.promofarma.com.br',
+         coleta_ativa=True, somente_online=True,
+         motivo='Farmácia só online. Programa de afiliados Lomadee (API oficial), ~2 mil produtos com EAN.',
+         trechos_nome=['promofarma']),
     dict(id='panvel', nome='Panvel', plataforma='propria', base_url='https://www.panvel.com', coleta_ativa=False,
          motivo='Coletada até 30/08/2026 via navegador automatizado. Em 29/09/2026 passou a responder 403 '
                 '(Akamai "Access Denied") a qualquer acesso não-navegador, inclusive ao robots.txt - mesmo '

@@ -32,6 +32,34 @@ def _dados() -> dict:
     return d
 
 
+_SUFIXOS_EMPRESA = re.compile(
+    r'\b(S\.?\s?/?\s?A\.?|LTDA\.?|EIRELI|ME|EPP|& CIA\.?|CIA\.?|IND[UÚ]STRIA E COM[EÉ]RCIO|IND\.? E COM\.?|'
+    r'IND[UÚ]STRIA|COM[EÉ]RCIO|FARMAC[EÊ]UTICA|FARMAC[EÊ]UTICOS?|LABORAT[OÓ]RIOS?|PRODUTOS)\b\.?', re.I)
+_SIGLAS = {'ems', 'gsk', 'msd', 'cimed', 'sem', 'ucb', 'furp'}
+_CONECTORES = {'de', 'do', 'da', 'dos', 'das', 'e', 'para', 'o', 'a'}
+
+
+def laboratorio_amigavel(nome_cmed: str | None) -> str:
+    """ "PRATI DONADUZZI & CIA LTDA" -> "Prati Donaduzzi"; "EMS S/A" -> "EMS";
+    "SANDOZ DO BRASIL INDÚSTRIA FARMACÊUTICA LTDA" -> "Sandoz do Brasil". Só pra exibição."""
+    if not nome_cmed:
+        return ''
+    texto = _SUFIXOS_EMPRESA.sub(' ', nome_cmed)
+    palavras = re.sub(r'\s+', ' ', texto).strip(' ,.-&/').split()
+    while palavras and palavras[-1].lower().strip(',.') in _CONECTORES:   # "Multilab De" -> "Multilab"
+        palavras.pop()
+    saida = []
+    for i, p in enumerate(palavras):
+        baixa = p.lower()
+        if baixa in _SIGLAS:
+            saida.append(p.upper())
+        elif i > 0 and baixa in _CONECTORES:
+            saida.append(baixa)
+        else:
+            saida.append(p.capitalize())
+    return ' '.join(saida) or nome_cmed.strip()
+
+
 def classe_limpa(classe_cmed: str | None) -> str:
     """ "D7B2 - CORTICOESTERÓIDES ASSOCIADOS" -> "Corticoesteróides associados" """
     if not classe_cmed:

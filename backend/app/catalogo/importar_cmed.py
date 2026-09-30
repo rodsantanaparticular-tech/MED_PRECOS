@@ -27,30 +27,49 @@ from sqlalchemy.orm import Session
 from ..config import obter_config
 from ..matching.normalizacao import chave_cmed, normalizar, slug, so_digitos
 from ..models import Medicamento, ProdutoCmed
-from .enriquecimento import classe_limpa, derivar_sinonimias, descricao_amigavel
+from .enriquecimento import classe_limpa, derivar_sinonimias, descricao_amigavel, laboratorio_amigavel
 
 log = logging.getLogger(__name__)
 
 URL_API_CMED = 'https://www.gov.br/anvisa/++api++/pt-br/assuntos/medicamentos/cmed/precos'
+# O nome do arquivo com PMC (preço máximo ao consumidor) muda de tempos em tempos:
+# "xls_conformidade_site_AAAAMMDD_..." até 09/2026, "lista_PMC_AAAAMMDD_..." desde 23/09/2026.
+# (O arquivo "PMVG"/"gov" é o de compras públicas - não é este.)
 RE_ARQUIVO_SITE = re.compile(
     r'https://www\.gov\.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/'
-    r'xls_conformidade_site_(\d{8})_\d+\.xlsx/@@download/file')
+    r'(?:xls_conformidade_site|lista_PMC)_(\d{8})_\d+\.xlsx/@@download/file')
 MAX_ALTERNATIVAS = 6
 TIPOS_REFERENCIA = ('Novo', 'Biológico')
 
 
-def url_arquivo_mais_recente() -> str:
-    """O site da CMED é renderizado em JS; a API do Plone devolve o JSON da página com os links."""
+# PDF da mesma publicação: dele dá pra deduzir o nome da planilha quando a página só lista o PDF
+RE_PDF_SITE = re.compile(
+    r'https://www\.gov\.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/'
+    r'pdf_conformidade_site_(\d{8}_\d+)\.pdf/@@download/file')
+
+
+def urls_candidatas() -> list[str]:
+    """Links de planilha PMC na página oficial, do mais recente pro mais antigo.
+    O site da CMED é renderizado em JS; a API do Plone devolve o JSON da página com os links.
+    Em 30/09/2026 a página passou a apontar pra "lista_PMC_20260923..." QUEBRADO (404) e deixou
+    de listar a planilha de 09/09 (só o PDF dela) - por isso a lista de candidatas + dedução."""
     r = httpx.get(URL_API_CMED, headers={'Accept': 'application/json'}, timeout=30, follow_redirects=True)
     r.raise_for_status()
     links = {m.group(0): m.group(1) for m in RE_ARQUIVO_SITE.finditer(r.text)}
-    if not links:
-        raise RuntimeError('Não achei o link do arquivo "site" da CMED na página oficial')
-    return max(links, key=links.get)  # a data no nome do arquivo = mais recente
+    base = 'https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos/arquivos/'
+    for m in RE_PDF_SITE.finditer(r.text):
+        links.setdefault(f'{base}xls_conformidade_site_{m.group(1)}.xlsx/@@download/file', m.group(1)[:8])
+    return sorted(links, key=links.get, reverse=True)
 
 
-def baixar_planilha(url: str | None = None) -> Path:
-    url = url or url_arquivo_mais_recente()
+def url_arquivo_mais_recente() -> str:
+    candidatas = urls_candidatas()
+    if not candidatas:
+        raise RuntimeError('Não achei o link da planilha de preços (PMC) na página oficial da CMED')
+    return candidatas[0]
+
+
+def _baixar(url: str) -> Path:
     nome = url.split('/arquivos/')[1].split('/@@')[0]
     destino = obter_config().dados_dir / 'cmed' / nome
     if destino.exists():
@@ -65,6 +84,30 @@ def baixar_planilha(url: str | None = None) -> Path:
                 f.write(bloco)
     destino.with_suffix('.parcial').rename(destino)
     return destino
+
+
+def baixar_planilha(url: str | None = None) -> Path:
+    """Baixa a planilha mais recente que de fato existe. Link quebrado no site do governo
+    (acontece) é pulado; sem nenhum link válido, usa a última planilha já baixada."""
+    if url:
+        return _baixar(url)
+    erros = []
+    try:
+        candidatas = urls_candidatas()
+    except httpx.HTTPError as e:
+        candidatas, erros = [], [f'página da CMED: {e}']
+    for candidata in candidatas:
+        try:
+            return _baixar(candidata)
+        except httpx.HTTPStatusError as e:
+            erros.append(f'{candidata.split("/arquivos/")[1]}: HTTP {e.response.status_code}')
+            log.warning('Link da CMED quebrado, tentando o anterior: %s', erros[-1])
+    locais = sorted((obter_config().dados_dir / 'cmed').glob('*.xlsx'),
+                    key=lambda p: re.search(r'_(\d{8})_', p.name).group(1) if re.search(r'_(\d{8})_', p.name) else '')
+    if locais:
+        log.warning('Nenhum link da CMED baixou (%s); usando a última planilha local: %s', erros, locais[-1].name)
+        return locais[-1]
+    raise RuntimeError(f'Nenhuma planilha da CMED disponível: {erros}')
 
 
 def _float_br(v) -> float | None:
@@ -205,14 +248,16 @@ def _reconstruir_grupo(med: Medicamento, produtos: list[ProdutoCmed]) -> None:
             continue
         chave = normalizar(p.produto)  # a CMED grafa o mesmo produto com/sem acento
         info = por_produto.setdefault(chave, {'nome': p.produto, 'tipo': p.tipo_produto, 'preco': p.pmc_referencia,
-                                              'classe': p.classe_terapeutica, 'n': 0})
-        info['preco'] = min(info['preco'], p.pmc_referencia)
+                                              'classe': p.classe_terapeutica, 'n': 0, 'laboratorio': p.laboratorio})
+        if p.pmc_referencia <= info['preco']:   # laboratório da apresentação mais barata do produto
+            info['preco'], info['laboratorio'] = p.pmc_referencia, p.laboratorio
         info['n'] += 1
 
     classe = next((p.classe_terapeutica for p in produtos if p.classe_terapeutica), '')
     itens = list(por_produto.values())
     if not itens:
         med.nome = _titulo(produtos[0].produto)
+        med.laboratorio = laboratorio_amigavel(produtos[0].laboratorio)
         med.preco_referencia, med.alternativas = None, []
     else:
         # Sem Novo/Biológico (ex.: omeprazol), a marca não genérica mais presente
@@ -223,8 +268,10 @@ def _reconstruir_grupo(med: Medicamento, produtos: list[ProdutoCmed]) -> None:
         alternativas = sorted((i for i in itens if i is not referencia and i['preco'] < referencia['preco']),
                               key=lambda i: i['preco'])
         med.nome = _titulo(referencia['nome'])
+        med.laboratorio = laboratorio_amigavel(referencia['laboratorio'])
         med.preco_referencia = round(referencia['preco'], 2)
-        med.alternativas = [{'nome': _titulo(a['nome']), 'precoBase': round(a['preco'], 2)}
+        med.alternativas = [{'nome': _titulo(a['nome']), 'precoBase': round(a['preco'], 2),
+                             'laboratorio': laboratorio_amigavel(a['laboratorio'])}
                             for a in alternativas[:MAX_ALTERNATIVAS]]
         classe = referencia['classe'] or classe
 

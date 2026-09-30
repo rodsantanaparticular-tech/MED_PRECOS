@@ -11,8 +11,15 @@ from .conftest import FARMACIAS_FIXAS
 @pytest.fixture
 def cliente(monkeypatch):
     async def farmacias_fixas(lat, lon, raio):
-        return FARMACIAS_FIXAS, False
+        return [dict(f) for f in FARMACIAS_FIXAS], False
+
+    async def enderecos_sem_rede(farmacias, orcamento_s=0):
+        for f in farmacias:   # simula o Nominatim reverso: completa só o que falta
+            if not f.get('online'):
+                geo._aplicar_endereco(f, {'endereco': 'Rua Simulada, 10', 'bairro': 'Centro', 'cep': '01001-000'})
+        return []
     monkeypatch.setattr(geo, 'farmacias_proximas', farmacias_fixas)
+    monkeypatch.setattr(geo, 'completar_enderecos', enderecos_sem_rede)
     return TestClient(app)
 
 
@@ -103,6 +110,24 @@ def test_ofertas_da_marca_separadas_dos_genericos(cliente):
     assert [x['rede'] for x in marca['redes']] == ['paguemenos', 'drogariasaopaulo']  # melhor preço primeiro
     # O bloco de genéricos/similares não repete a marca
     assert [(o['rede'], o['descricao']) for o in r['ofertasApresentacao']] == [('paguemenos', 'LEVE 2 PAGUE 1')]
+
+
+def test_endereco_completado_so_onde_falta(cliente):
+    r = cliente.get('/api/comparar', params={'medicamento': 'rivaroxabana', 'lat': -23.5505, 'lon': -46.6333,
+                                             'raio': 10, 'atualizar': 'false'}).json()
+    por_nome = {f['dados']['nome']: f['dados'] for f in r['farmacias']}
+    # Tinha rua (do OSM): mantém a rua, completa bairro/CEP; não marca como aproximado
+    assert por_nome['Pague Menos']['endereco'] == 'Rua A' and por_nome['Pague Menos']['cep'] == '01001-000'
+    assert not por_nome['Pague Menos'].get('enderecoAproximado')
+
+
+def test_laboratorio_do_produto_e_do_medicamento(cliente):
+    r = cliente.get('/api/comparar', params={'medicamento': 'rivaroxabana', 'lat': -23.5505, 'lon': -46.6333,
+                                             'raio': 10, 'atualizar': 'false', 'apresentacao': '20mg|28'}).json()
+    por_nome = {f['dados']['nome']: f for f in r['farmacias']}
+    # O genérico casado não tem ggrem na fixture -> sem laboratório (não inventa)
+    assert por_nome['Pague Menos']['produto']['laboratorio'] is None
+    assert 'laboratorio' in r['medicamento']
 
 
 def test_tarefas_exigem_token(cliente):

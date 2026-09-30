@@ -3,6 +3,20 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-09-30 (tarde) — **3 redes novas via Lomadee + laboratório + endereço das farmácias.**
+- **Drogaria Rosário, Drogasmil e PromoFarma integradas** pela API oficial da Lomadee:
+  - catálogo inteiro no lote diário (~2 min, ~4,2 mil produtos, casamento quase todo por EAN);
+  - busca por termo no sob demanda;
+  - PromoFarma (só online) entra na tabela como "loja online, com entrega".
+- **Laboratório** exibido no card (marca de referência), em cada alternativa genérica (laboratório da
+  opção mais barata) e no produto de cada farmácia (pela CMED). Pedido do usuário.
+- **Endereço das farmácias**: rua/bairro/CEP que o OpenStreetMap não informa são completados pelo
+  Nominatim reverso (cache 90 dias, 1 req/s, até ~5s por busca, resto em segundo plano), marcados como
+  "endereço aproximado". O título dos resultados mostra a rua e o bairro do CEP pesquisado. Pedido do usuário.
+- **CMED mudou o nome do arquivo** ("lista_PMC_..." desde 23/09) e publicou link QUEBRADO (404). A
+  importação agora aceita os dois nomes, pula link quebrado, deduz a planilha pelo PDF e, em último
+  caso, usa a última baixada. Segue valendo a lista de 09/09 até o governo consertar o link.
+
 2026-09-30 — **Lomadee validada.** Conta de afiliado (em nome de Izabela Nascimento; usuário decidiu
 manter nessa conta, uso só para comparar, sem venda). Resultado na seção "Lomadee" abaixo: **Droga
 Raia/Drogasil estão INATIVAS na Lomadee** (não resolve); a API dá acesso autorizado a 3 redes que o
@@ -346,13 +360,18 @@ Nissei (robots.txt). Achados (C = confirmado em fonte oficial; I = inferência):
     `d855f505-7e26-4961-a182-c2139aeadd2c`; PromoFarma `6d69265c-6b83-4ff4-916f-95a75057947d`.
 - **Regra a observar:** na Rosário, os canais de divulgação permitidos são "Redes Sociais" e "Site de
   Cupons"; comparador não está listado. O usuário optou por NÃO consultar o suporte da Lomadee.
-- Não integrado ao backend ainda (aguarda decisão do usuário).
+- **Integrado em 30/09/2026** (`backend/app/coleta/lomadee.py`; redes `rosario`, `drogasmil`, `promofarma` em `redes.py`; campo `redes.somente_online`). Casados na 1ª carga: Drogasmil 613 de 1.971, PromoFarma 1.021 de 2.016, Rosário 64 de 206; o que não casa é quase tudo não-medicamento. O feed da Rosário é pequeno (~200 produtos).
 
 ## Próximos passos sugeridos
+- [ ] **Unificar "Dipirona" e "Dipirona Monoidratada"** (e casos parecidos da CMED): hoje são grupos
+  separados. A busca "dipirona" cai no grupo "Dipirona" (nome de referência estranho: "Cafilisador") e
+  perde as ofertas do outro grupo (ex.: Drogasmil).
+- [ ] A 1ª busca numa região nova leva ~20-30s (atualização de preços + Overpass + endereços). As
+  seguintes usam cache. Avaliar pré-aquecer as capitais.
 - [ ] **ENVIAR (rascunho pronto em `outreach/contatos-parcerias.md`, item 6): e-mail à SEFAZ-AL (api@sefaz.al.gov.br) pedindo token da API Economiza Alagoas + autorização escrita de uso** — falta só preencher o CPF. Com o token: integrar em `backend/app/coleta/` casando por EAN (Frente 3 já pronta).
 - [ ] Decidir sobre a seção "Alternativas Genéricas" x RDC 96/2008 (similares/biológicos) — ver seção "Acesso às redes que bloqueiam". Ideal: consulta a advogado antes de publicar.
 - [x] **Pedido LAI à SEFAZ-RS ENVIADO em 29/09/2026 — PROTOCOLO (governo do RS): `200773045/0168`.** Prazo de resposta: **19/10/2026**, prorrogável até **29/10/2026**. [ ] Registrar a resposta em `outreach/contatos-parcerias.md` (item 7). Depois: mesmo pedido a SEFA-PR e SEFAZ-BA. Ofício/LAI de cooperação à SEFAZ-RS/Procergs + Encat (Menor Preço Brasil), SEFA-PR e SEFAZ-BA pedindo acesso a preços de farmácia por EAN pra uso sem fins lucrativos (citar a API de AL como precedente). Mais forte com âncora institucional (universidade/Idec).
-- [x] ~~Cadastro na Lomadee (Droga Raia/Drogasil)~~ — validado 30/09: Raia/Drogasil INATIVAS lá. [ ] Decidir se integra Rosário/Drogasmil/PromoFarma pela API (ver seção Lomadee).
+- [x] ~~Cadastro na Lomadee (Droga Raia/Drogasil)~~ — validado 30/09: Raia/Drogasil INATIVAS lá. Rosário/Drogasmil/PromoFarma integradas pela API (30/09).
 - [ ] Avaliar o botão "Enviar meu cupom" (QR da NFC-e) — cobre qualquer rede com dado trazido pelo próprio consumidor; descartar CPF.
 - [ ] **AGUARDANDO O USUÁRIO: revisar e enviar os 2 rascunhos** (RD e Araújo) em `outreach/contatos-parcerias.md`. Sem retorno por e-mail dos 3 primeiros — usuário vai tentar **telefone em dia útil**.
 - [ ] Registrar respostas dos 5 contatos (Brasíndice, Funcional, Orizon, RD, Araújo) em `outreach/contatos-parcerias.md`. **Funcional/Orizon = caminho oficial do PBM** (preço exato com desconto).

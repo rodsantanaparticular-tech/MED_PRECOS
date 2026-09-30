@@ -56,6 +56,12 @@ def atualizar_medicamento(medicamento_id: str) -> dict:
     return asyncio.run(atualizar(medicamento_id))
 
 
+def aquecer_enderecos(coordenadas: list[list[float]]) -> dict:
+    """Completa em segundo plano o endereço (rua/bairro/CEP) de farmácias que o OSM não informa."""
+    from ..coleta.geo import aquecer_enderecos as aquecer
+    return {'enderecos': asyncio.run(aquecer(coordenadas))}
+
+
 def limpar_cache() -> dict:
     from ..coleta.cache import limpar_expirados
     with sessao() as s:
@@ -78,7 +84,7 @@ def carga_inicial(se_vazio: bool = True) -> dict:
 
 
 TAREFAS = {f.__name__: f for f in (importar_cmed, recasar, descobrir_sitemaps, atualizar_precos_lote,
-                                   atualizar_medicamento, limpar_cache, carga_inicial)}
+                                   atualizar_medicamento, aquecer_enderecos, limpar_cache, carga_inicial)}
 
 
 def executar(nome: str, **parametros) -> dict:

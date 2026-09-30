@@ -775,6 +775,25 @@ a:focus {
     max-width: 16rem;
 }
 
+/* Laboratório (fabricante) do produto e das alternativas */
+.tabela-precos .preco-laboratorio {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--cor-texto-claro);
+}
+
+.card-generico-laboratorio {
+    font-size: 0.8rem;
+    color: var(--cor-texto-claro);
+    margin-bottom: 0.25rem;
+}
+
+.farmacia-endereco-aproximado {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: var(--cor-texto-claro);
+}
+
 /* Produto (marca/genérico) a que o preço real se refere */
 .tabela-precos .preco-produto {
     display: block;

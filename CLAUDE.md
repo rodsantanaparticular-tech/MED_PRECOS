@@ -54,7 +54,8 @@ Desde 29/09/2026: **backend FastAPI + banco relacional + fila**, conteinerizado 
   automaticamente todo dia 12.
 - **Farmácias:** OpenStreetMap ao vivo pela API (cache 24h compartilhado; reserva de 54 farmácias).
 - **Preço real:** 5 redes VTEX coletadas (Pague Menos, Extrafarma, Drogaria São Paulo, Pacheco,
-  Venancio) — sob demanda quando o preço passa de 24h + lote semanal. **Panvel saiu da coleta em
+  Venancio) + 3 via API oficial da Lomadee (Drogaria Rosário, Drogasmil, PromoFarma/online; exige
+  `LOMADEE_API_KEY` em `backend/.env`) — sob demanda quando o preço passa de 24h + lote diário. **Panvel saiu da coleta em
   29/09/2026** (passou a bloquear acesso automatizado; preços antigos ficam como histórico).
   Droga Raia/Drogasil/Ultrafarma/Araújo/Nissei ficam de fora (ToS/bloqueio; via oficial em
   `outreach/contatos-parcerias.md`). Demais farmácias: preço estimado a partir do teto CMED.

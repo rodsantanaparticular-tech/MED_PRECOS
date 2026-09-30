@@ -39,6 +39,11 @@ class Configuracao(BaseSettings):
     delay_entre_requisicoes_s: float = 0.4
     itens_por_busca_vtex: int = 50       # VTEX aceita até 50 por página (_from/_to)
 
+    # Lomadee Affiliate API (programa de afiliados; chave só leitura - ver STATUS.md).
+    # Vazia = as redes da Lomadee (Rosário, Drogasmil, PromoFarma) não são coletadas.
+    lomadee_api_key: str = ''
+    lomadee_base_url: str = 'https://api.lomadee.com.br'
+
     # Protege os endpoints que disparam tarefas pesadas (vazio = desabilitados)
     admin_token: str = ''
 

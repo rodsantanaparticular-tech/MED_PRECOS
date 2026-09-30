@@ -124,14 +124,14 @@ const elementos = {
     buscaLocalizacao: document.getElementById('busca-localizacao'),
     btnVoz: document.getElementById('btn-voz'),
     btnLocalizar: document.getElementById('btn-localizar'),
-    
+
     // Status de voz
     statusVoz: document.getElementById('status-voz'),
     statusVozTexto: document.getElementById('status-voz-texto'),
-    
+
     // Loading
     carregando: document.getElementById('carregando'),
-    
+
     // Resultados
     resultados: document.getElementById('resultados'),
     cardMedicamento: document.getElementById('card-medicamento'),
@@ -141,23 +141,23 @@ const elementos = {
     medicamentoClasse: document.getElementById('medicamento-classe'),
     medicamentoPbm: document.getElementById('medicamento-pbm'),
     medicamentoOfertas: document.getElementById('medicamento-ofertas'),
-    
+
     // Genéricos
     secaoGenericos: document.getElementById('secao-genericos'),
     listaGenericos: document.getElementById('lista-genericos'),
-    
+
     // Farmácias
     secaoFarmacias: document.getElementById('secao-farmacias'),
     localizacaoBusca: document.getElementById('localizacao-busca'),
     corpoTabelaPrecos: document.getElementById('corpo-tabela-precos'),
-    
+
     // Rota Premium
     secaoRota: document.getElementById('secao-rota'),
     listaRota: document.getElementById('lista-rota'),
     rotaEconomia: document.getElementById('rota-economia'),
     rotaTempo: document.getElementById('rota-tempo'),
     btnRoteiroVoz: document.getElementById('btn-roteiro-voz'),
-    
+
     // Raio de busca
     raioBusca: document.getElementById('raio-busca'),
     raioPersonalizado: document.getElementById('raio-personalizado'),
@@ -240,12 +240,12 @@ function farmaciaEstaAberta(horario) {
  */
 function formatarHorario(horario) {
     const formato = (hora) => hora.toString().padStart(2, '0') + 'h';
-    
+
     if (horario.domingoAberto) {
         return formato(horario.abertura) + ' às ' + formato(horario.fechamento) + ' • Dom: ' +
                formato(horario.domingoAbertura) + ' às ' + formato(horario.domingoFechamento);
     }
-    
+
     return formato(horario.abertura) + ' às ' + formato(horario.fechamento) + ' • Fechado aos domingos';
 }
 
@@ -269,7 +269,8 @@ function calcularEconomia(medicamento, generico) {
 function renderizarMedicamento(medicamento) {
     elementos.cardMedicamento.hidden = false;
     elementos.medicamentoNome.textContent = medicamento.nome;
-    elementos.medicamentoPrincipio.textContent = 'Princípio ativo: ' + medicamento.principioAtivo;
+    elementos.medicamentoPrincipio.textContent = 'Princípio ativo: ' + medicamento.principioAtivo +
+        (medicamento.laboratorio ? ' · Laboratório: ' + medicamento.laboratorio : '');
     elementos.medicamentoDescricao.textContent = medicamento.descricao;
 
     // Classe terapêutica oficial (CMED) - informação secundária, escondida quando ausente
@@ -320,32 +321,38 @@ function renderizarGenericos(medicamento) {
     elementos.listaGenericos.innerHTML = '';
     // Sem alternativa mais barata no catálogo CMED (ex.: só existe a marca) - esconde a seção
     elementos.secaoGenericos.hidden = !medicamento.genericos.length;
-    
+
     const genericosOrdenados = [...medicamento.genericos].sort((a, b) => a.precoBase - b.precoBase);
-    
+
     genericosOrdenados.forEach(generico => {
         const economia = calcularEconomia(medicamento, generico);
-        
+
         const card = document.createElement('article');
         card.className = 'card-generico';
         card.setAttribute('role', 'article');
-        
+
         const nomeEl = document.createElement('p');
         nomeEl.className = 'card-generico-nome';
         nomeEl.textContent = generico.nome;
-        
+
         const precoEl = document.createElement('p');
         precoEl.className = 'card-generico-preco';
         precoEl.textContent = formatarMoeda(generico.precoBase);
-        
+
         const economiaEl = document.createElement('p');
         economiaEl.className = 'card-generico-economia';
         economiaEl.textContent = 'Economia de até ' + economia + '%';
-        
+
         card.appendChild(nomeEl);
+        if (generico.laboratorio) {
+            const laboratorioEl = document.createElement('p');
+            laboratorioEl.className = 'card-generico-laboratorio';
+            laboratorioEl.textContent = 'Laboratório: ' + generico.laboratorio;
+            card.appendChild(laboratorioEl);
+        }
         card.appendChild(precoEl);
         card.appendChild(economiaEl);
-        
+
         elementos.listaGenericos.appendChild(card);
     });
 }
@@ -366,11 +373,20 @@ function textoOrigemPreco(farmacia) {
 }
 
 /**
+ * "Praça da Sé, Sé — São Paulo - SP (CEP 01001-000)": o endereço do CEP pesquisado quando
+ * a API o conhece; senão só o nome do lugar
+ */
+function descreverLocal(localizacao) {
+    const rua = [localizacao.endereco, localizacao.bairro].filter(Boolean).join(', ');
+    return (rua ? rua + ' — ' : '') + localizacao.nome + (localizacao.cep ? ' (CEP ' + localizacao.cep + ')' : '');
+}
+
+/**
  * Exibe a tabela de farmácias com preços
  */
 function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFallback, raioSelecionadoKm) {
     elementos.secaoFarmacias.hidden = false;
-    elementos.localizacaoBusca.textContent = '📍 Resultados para ' + medicamento.nome + ' em ' + localizacao.nome;
+    elementos.localizacaoBusca.textContent = '📍 Resultados para ' + medicamento.nome + ' perto de ' + descreverLocal(localizacao);
     elementos.corpoTabelaPrecos.innerHTML = '';
 
     elementos.avisoFarmaciasDistantes.hidden = !mostrandoFallback;
@@ -380,7 +396,7 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
             '⚠️ Não encontramos farmácias cadastradas ' + raioTexto + ' da localização informada. ' +
             'Mostrando as mais próximas disponíveis, que podem estar longe.';
     }
-    
+
     // Preços reais primeiro (do menor pro maior), estimativas depois. O selo de
     // MENOR PREÇO também vai pro menor preço REAL quando existe algum: uma
     // estimativa não deve "ganhar" de um preço de verdade só porque a conta
@@ -400,39 +416,49 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
             dados.latitude,
             dados.longitude
         );
-        
+
         const eMenorPreco = farmacia.preco === menorPreco && (farmacia.precoReal || !somenteReaisDisputam);
-        const linkMapa = 'https://www.google.com/maps/search/?api=1&query=' + 
+        const linkMapa = 'https://www.google.com/maps/search/?api=1&query=' +
                          dados.latitude + ',' + dados.longitude;
-        
+
         const linha = document.createElement('tr');
-        
+
         const celulaFarmacia = document.createElement('td');
         const nomeFarmacia = document.createElement('p');
         nomeFarmacia.className = 'farmacia-nome';
         nomeFarmacia.textContent = dados.nome;
         celulaFarmacia.appendChild(nomeFarmacia);
-        
+
         if (dados.possuiDelivery) {
             const entrega = document.createElement('p');
             entrega.className = 'farmacia-endereco';
             entrega.textContent = '🚚 Entrega em ' + dados.entregaEm;
             celulaFarmacia.appendChild(entrega);
         }
-        
+
         const celulaEndereco = document.createElement('td');
         const endereco1 = document.createElement('p');
         endereco1.className = 'farmacia-endereco';
         endereco1.textContent = dados.endereco;
-        const endereco2 = document.createElement('p');
-        endereco2.className = 'farmacia-endereco';
-        endereco2.textContent = dados.bairro + ' • ' + dados.cep;
         celulaEndereco.appendChild(endereco1);
-        celulaEndereco.appendChild(endereco2);
-        
+        const complemento = [dados.bairro, dados.cep].filter(Boolean).join(' • ');
+        if (complemento) {
+            const endereco2 = document.createElement('p');
+            endereco2.className = 'farmacia-endereco';
+            endereco2.textContent = complemento;
+            celulaEndereco.appendChild(endereco2);
+        }
+        if (dados.enderecoAproximado) {
+            // Rua obtida pela posição no mapa (o OpenStreetMap não informava): pode ter pequena diferença
+            const aproximado = document.createElement('p');
+            aproximado.className = 'farmacia-endereco-aproximado';
+            aproximado.textContent = 'endereço aproximado, pela posição no mapa';
+            celulaEndereco.appendChild(aproximado);
+        }
+
         const celulaDistancia = document.createElement('td');
-        celulaDistancia.textContent = formatarDistancia(distancia);
-        
+        celulaDistancia.textContent = dados.online ? '🌐 online' : formatarDistancia(distancia);
+
         const celulaPreco = document.createElement('td');
         const precoSpan = document.createElement('span');
         precoSpan.className = 'preco-destaque';
@@ -455,6 +481,12 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
                 produtoEl.rel = 'noopener noreferrer';
             }
             celulaPreco.appendChild(produtoEl);
+            if (farmacia.produto.laboratorio) {
+                const laboratorioEl = document.createElement('span');
+                laboratorioEl.className = 'preco-laboratorio';
+                laboratorioEl.textContent = 'Laboratório: ' + farmacia.produto.laboratorio;
+                celulaPreco.appendChild(laboratorioEl);
+            }
         }
 
         // Preço "de" da própria loja (o desconto já está no preço acima)
@@ -479,33 +511,33 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
             badge.textContent = 'MENOR PREÇO';
             celulaPreco.appendChild(badge);
         }
-        
+
         const celulaHorario = document.createElement('td');
         const statusEl = document.createElement('p');
         statusEl.className = 'farmacia-horario ' + (aberta ? 'aberta' : 'fechada');
-        statusEl.textContent = aberta ? '🟢 Aberta agora' : '🔴 Fechada agora';
+        statusEl.textContent = dados.online ? '🌐 Site 24 horas' : (aberta ? '🟢 Aberta agora' : '🔴 Fechada agora');
         const horarioEl = document.createElement('p');
         horarioEl.className = 'farmacia-horario';
-        horarioEl.textContent = formatarHorario(dados.horario);
+        horarioEl.textContent = dados.online ? 'Entrega em casa' : formatarHorario(dados.horario);
         celulaHorario.appendChild(statusEl);
         celulaHorario.appendChild(horarioEl);
-        
+
         const celulaAcao = document.createElement('td');
         const linkMapaEl = document.createElement('a');
-        linkMapaEl.href = linkMapa;
+        linkMapaEl.href = dados.online ? ((farmacia.produto && farmacia.produto.url) || dados.site) : linkMapa;
         linkMapaEl.target = '_blank';
         linkMapaEl.rel = 'noopener noreferrer';
         linkMapaEl.className = 'btn-ver-mapa';
-        linkMapaEl.textContent = 'Ver no Mapa';
+        linkMapaEl.textContent = dados.online ? 'Ir ao site' : 'Ver no Mapa';
         celulaAcao.appendChild(linkMapaEl);
-        
+
         linha.appendChild(celulaFarmacia);
         linha.appendChild(celulaEndereco);
         linha.appendChild(celulaDistancia);
         linha.appendChild(celulaPreco);
         linha.appendChild(celulaHorario);
         linha.appendChild(celulaAcao);
-        
+
         elementos.corpoTabelaPrecos.appendChild(linha);
     });
 }
@@ -513,19 +545,20 @@ function renderizarFarmacias(medicamento, localizacao, precosFarmas, mostrandoFa
 /**
  * Calcula o roteiro de compras otimizado
  */
-function calcularRota(precosFarmas, medicamento) {
+function calcularRota(todasFarmas, medicamento) {
+    const precosFarmas = todasFarmas.filter(f => !f.dados.online);
     if (precosFarmas.length === 0) {
         return null;
     }
-    
+
     // Encontra a farmácia com o menor preço
-    const melhorOpcao = precosFarmas.reduce((melhor, atual) => 
+    const melhorOpcao = precosFarmas.reduce((melhor, atual) =>
         atual.preco < melhor.preco ? atual : melhor
     );
-    
+
     const precoReferencia = medicamento.precoReferencia || melhorOpcao.preco;
     const economia = Math.max(0, precoReferencia - melhorOpcao.preco);
-    
+
     // Calcula tempo estimado (30km/h médio + 10min por parada)
     const distancia = calcularDistanciaKm(
         estado.coordenadasUsuario.latitude,
@@ -534,7 +567,7 @@ function calcularRota(precosFarmas, medicamento) {
         melhorOpcao.dados.longitude
     );
     const tempoMinutos = Math.round((distancia / 30) * 60 + 10);
-    
+
     return {
         passos: [
             {
@@ -556,46 +589,46 @@ function calcularRota(precosFarmas, medicamento) {
  */
 function renderizarRota(rota) {
     if (!rota) return;
-    
+
     elementos.secaoRota.hidden = false;
     elementos.listaRota.innerHTML = '';
-    
+
     rota.passos.forEach(passo => {
         const item = document.createElement('div');
         item.className = 'item-rota';
-        
+
         const numeroEl = document.createElement('div');
         numeroEl.className = 'item-rota-numero';
         numeroEl.setAttribute('aria-hidden', 'true');
         numeroEl.textContent = passo.numero;
-        
+
         const infoEl = document.createElement('div');
         infoEl.className = 'item-rota-info';
-        
+
         const farmaciaEl = document.createElement('p');
         farmaciaEl.className = 'item-rota-farmacia';
         farmaciaEl.textContent = passo.farmacia.nome;
-        
+
         const medicamentoEl = document.createElement('p');
         medicamentoEl.className = 'item-rota-medicamento';
         medicamentoEl.textContent = passo.medicamento + ' • ' + passo.farmacia.endereco;
-        
+
         infoEl.appendChild(farmaciaEl);
         infoEl.appendChild(medicamentoEl);
-        
+
         const precoEl = document.createElement('div');
         precoEl.className = 'item-rota-preco';
         precoEl.textContent = formatarMoeda(passo.preco);
-        
+
         item.appendChild(numeroEl);
         item.appendChild(infoEl);
         item.appendChild(precoEl);
-        
+
         elementos.listaRota.appendChild(item);
     });
-    
+
     elementos.rotaEconomia.textContent = '💰 Economia total: ' + formatarMoeda(rota.economia);
-    elementos.rotaTempo.textContent = '⏱️ Tempo estimado: ' + rota.tempoEstimado + ' min • Distância: ' + 
+    elementos.rotaTempo.textContent = '⏱️ Tempo estimado: ' + rota.tempoEstimado + ' min • Distância: ' +
                                       formatarDistancia(rota.distanciaTotal);
 }
 
@@ -912,7 +945,7 @@ async function trocarApresentacao() {
  */
 function mostrarNotificacao(mensagem) {
     let notificacao = document.getElementById('notificacao');
-    
+
     if (!notificacao) {
         notificacao = document.createElement('div');
         notificacao.id = 'notificacao';
@@ -920,10 +953,10 @@ function mostrarNotificacao(mensagem) {
         notificacao.className = 'notificacao';
         document.body.appendChild(notificacao);
     }
-    
+
     notificacao.textContent = mensagem;
     notificacao.classList.add('visivel');
-    
+
     clearTimeout(mostrarNotificacao.timeoutId);
     mostrarNotificacao.timeoutId = setTimeout(() => {
         notificacao.classList.remove('visivel');
@@ -943,35 +976,35 @@ function configurarBuscaVoz() {
             reconhecimentoVoz.parar();
             return;
         }
-        
+
         // Mostra status de escuta
         elementos.statusVoz.hidden = false;
         elementos.statusVozTexto.textContent = 'Ouvindo... Fale o nome do medicamento';
         elementos.btnVoz.classList.add('ativo');
-        
+
         // Configura callbacks
         reconhecimentoVoz.callbacks.onResult = (alternativas) => {
             const texto = reconhecimentoVoz.normalizarTranscricao(alternativas);
             elementos.buscaMedicamento.value = texto;
             elementos.statusVozTexto.textContent = 'Você disse: "' + texto + '"';
-            
+
             // Executa a busca após pequena pausa
             setTimeout(() => {
                 executarBusca();
             }, 500);
         };
-        
+
         reconhecimentoVoz.callbacks.onError = (mensagem) => {
             elementos.statusVoz.hidden = true;
             elementos.btnVoz.classList.remove('ativo');
             mostrarNotificacao(mensagem);
         };
-        
+
         reconhecimentoVoz.callbacks.onEnd = () => {
             elementos.statusVoz.hidden = true;
             elementos.btnVoz.classList.remove('ativo');
         };
-        
+
         // Inicia o reconhecimento
         const iniciado = reconhecimentoVoz.iniciar();
         if (!iniciado && !reconhecimentoVoz.suportado) {
@@ -1000,10 +1033,10 @@ function configurarLocalizacao() {
             mostrarNotificacao('Seu navegador não suporta geolocalização.');
             return;
         }
-        
+
         elementos.btnLocalizar.disabled = true;
         elementos.btnLocalizar.textContent = '⏳';
-        
+
         navigator.geolocation.getCurrentPosition(
             async (posicao) => {
                 const latitude = posicao.coords.latitude;
@@ -1022,9 +1055,9 @@ function configurarLocalizacao() {
                     console.warn('Não foi possível identificar a cidade:', erro);
                 }
                 elementos.buscaLocalizacao.value = rotulo;
-                
+
                 mostrarNotificacao('📍 Localização identificada com sucesso!');
-                
+
                 elementos.btnLocalizar.disabled = false;
                 elementos.btnLocalizar.textContent = '';
                 elementos.btnLocalizar.innerHTML = ICONE_SVG_LOCALIZACAO;
@@ -1033,9 +1066,9 @@ function configurarLocalizacao() {
                 elementos.btnLocalizar.disabled = false;
                 elementos.btnLocalizar.textContent = '';
                 elementos.btnLocalizar.innerHTML = ICONE_SVG_LOCALIZACAO;
-                
+
                 let mensagem = 'Não foi possível obter sua localização.';
-                
+
                 switch (erro.code) {
                     case erro.PERMISSION_DENIED:
                         mensagem = 'Permissão de localização negada. Digite sua cidade ou CEP.';
@@ -1047,7 +1080,7 @@ function configurarLocalizacao() {
                         mensagem = 'Tempo esgotado. Digite sua cidade ou CEP.';
                         break;
                 }
-                
+
                 mostrarNotificacao(mensagem);
             },
             { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
@@ -1068,33 +1101,33 @@ function configurarRoteiroVoz() {
             mostrarNotificacao('Realize uma busca primeiro para ouvir o roteiro.');
             return;
         }
-        
+
         // Se já está falando, para
         if (sintetizadorVoz.estaFalando()) {
             sintetizadorVoz.parar();
             elementos.btnRoteiroVoz.innerHTML = ICONE_SVG_MICROFONE + ' Ouvir Roteiro';
             return;
         }
-        
+
         // Monta o texto do roteiro
         const medicamento = estado.medicamentoSelecionado;
         const rota = estado.rotaCalculada;
-        
+
         let texto = 'Roteiro de compras para ' + medicamento.nome + '. ';
-        
+
         rota.passos.forEach(passo => {
-            texto += 'Passo ' + passo.numero + ': vá até ' + passo.farmacia.nome + 
+            texto += 'Passo ' + passo.numero + ': vá até ' + passo.farmacia.nome +
                      ', em ' + passo.farmacia.endereco + '. ';
             texto += 'Compre ' + passo.medicamento + ' por ' + formatarMoeda(passo.preco) + '. ';
         });
-        
+
         texto += 'Economia total de ' + formatarMoeda(rota.economia) + '. ';
         texto += 'Tempo estimado de ' + rota.tempoEstimado + ' minutos. ';
         texto += 'Boa compra e boa economia!';
-        
+
         // Altera o botão para indicar que está falando
         elementos.btnRoteiroVoz.textContent = '⏹️ Parar';
-        
+
         // Fala o roteiro
         sintetizadorVoz.falar(texto, {
             velocidade: 0.85,
@@ -1122,10 +1155,10 @@ function inicializar() {
         evento.preventDefault();
         executarBusca();
     });
-    
+
     // Busca por voz
     configurarBuscaVoz();
-    
+
     // Geolocalização
     configurarLocalizacao();
 
@@ -1137,7 +1170,7 @@ function inicializar() {
 
     // Roteiro por voz
     configurarRoteiroVoz();
-    
+
     // Enter no campo de localização também busca
     elementos.buscaLocalizacao.addEventListener('keydown', (evento) => {
         if (evento.key === 'Enter') {
@@ -1145,7 +1178,7 @@ function inicializar() {
             executarBusca();
         }
     });
-    
+
     // Lê parâmetros da URL para SEO (?busca=medicamento)
     const params = new URLSearchParams(window.location.search);
     const termoUrl = params.get('busca');
@@ -1153,7 +1186,7 @@ function inicializar() {
         elementos.buscaMedicamento.value = termoUrl;
         setTimeout(() => executarBusca(), 100);
     }
-    
+
     console.log('💊 MED_PRECOS inicializado com sucesso!');
 }
 

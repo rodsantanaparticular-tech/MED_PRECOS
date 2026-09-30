@@ -102,6 +102,10 @@ async def comparar_precos(medicamento: str, lat: float, lon: float,
     _, (lista, reserva) = await asyncio.gather(_atualizar_precos(), geo.farmacias_proximas(lat, lon, _raio(raio)))
     s.expire_all()
     resultado = comparar(s, med, lista, lat, lon, _raio(raio), apresentacao, reserva, marca)
+    # Rua/bairro/CEP que o OSM não informa: completa o que der em ~5s, o resto em segundo plano
+    pendentes = await geo.completar_enderecos([f['dados'] for f in resultado['farmacias']])
+    if pendentes:
+        fila.enfileirar('aquecer_enderecos', coordenadas=[list(c) for c in pendentes])
     return {**resultado, 'atualizacao': atualizacao}
 
 

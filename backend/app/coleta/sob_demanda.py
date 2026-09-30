@@ -24,7 +24,7 @@ from ..db import sessao
 from ..matching.casamento import IndiceCatalogo
 from ..matching.normalizacao import normalizar
 from ..models import MapeamentoSkuRede, Medicamento, Rede
-from . import vtex
+from . import lomadee, vtex
 from .persistencia import registrar_ofertas
 
 log = logging.getLogger(__name__)
@@ -46,14 +46,22 @@ def invalidar_indice() -> None:
     _indice = None
 
 
+def redes_coletaveis(s: Session, rede_ids: list[str] | None = None) -> list[Rede]:
+    """Redes com coleta ativa e coletor disponível: VTEX sempre; Lomadee só com a chave configurada."""
+    plataformas = ['vtex'] + (['lomadee'] if lomadee.configurada() else [])
+    consulta = select(Rede).where(Rede.coleta_ativa.is_(True), Rede.plataforma.in_(plataformas))
+    if rede_ids:
+        consulta = consulta.where(Rede.id.in_(rede_ids))
+    return list(s.scalars(consulta))
+
+
 def redes_desatualizadas(s: Session, medicamento_id: str) -> list[Rede]:
     limite = datetime.utcnow() - timedelta(hours=obter_config().ttl_preco_horas)
     ultima = dict(s.execute(
         select(MapeamentoSkuRede.rede_id, func.max(MapeamentoSkuRede.ultimo_preco_em))
         .where(MapeamentoSkuRede.medicamento_id == medicamento_id)
         .group_by(MapeamentoSkuRede.rede_id)).all())
-    ativas = s.scalars(select(Rede).where(Rede.coleta_ativa.is_(True), Rede.plataforma == 'vtex')).all()
-    return [r for r in ativas if ultima.get(r.id) is None or ultima[r.id] < limite]
+    return [r for r in redes_coletaveis(s) if ultima.get(r.id) is None or ultima[r.id] < limite]
 
 
 def termos_de_busca(med: Medicamento) -> list[str]:
@@ -90,9 +98,7 @@ async def atualizar_medicamento(medicamento_id: str, redes_ids: list[str] | None
         med = s.get(Medicamento, medicamento_id)
         if med is None:
             return {}
-        redes = (s.scalars(select(Rede).where(Rede.id.in_(redes_ids), Rede.coleta_ativa.is_(True),
-                                              Rede.plataforma == 'vtex')).all()
-                 if redes_ids else redes_desatualizadas(s, medicamento_id))
+        redes = redes_coletaveis(s, redes_ids) if redes_ids else redes_desatualizadas(s, medicamento_id)
         termos = termos_de_busca(med)
         # SKUs conhecidos (ex.: vindos do sitemap) sem preço ou com preço vencido
         limite = datetime.utcnow() - timedelta(hours=obter_config().ttl_preco_horas)
@@ -104,7 +110,15 @@ async def atualizar_medicamento(medicamento_id: str, redes_ids: list[str] | None
     if not redes:
         return {}
 
-    resultados = await asyncio.gather(*(_coletar_rede(r, termos, diretos[r.id]) for r in redes))
+    redes_vtex = [r for r in redes if r.plataforma == 'vtex']
+    redes_lomadee = [r.id for r in redes if r.plataforma == 'lomadee']
+    # VTEX: uma loja por vez em paralelo; Lomadee: uma busca por termo cobre todas as redes dela
+    vtex_res, lomadee_res = await asyncio.gather(
+        asyncio.gather(*(_coletar_rede(r, termos, diretos[r.id]) for r in redes_vtex)),
+        lomadee.buscar_termos(termos, redes_lomadee, timeout_s=obter_config().timeout_sob_demanda_s))
+    por_rede = dict(zip((r.id for r in redes_vtex), vtex_res))
+    por_rede.update({r: lomadee_res.get(r, []) for r in redes_lomadee})
+    resultados = [por_rede[r.id] for r in redes]
 
     def _gravar():
         with sessao() as s:
