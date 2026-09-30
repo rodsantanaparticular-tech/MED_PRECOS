@@ -25,8 +25,8 @@ from sqlalchemy import select, update
 from sqlalchemy.orm import Session
 
 from ..config import obter_config
-from ..matching.normalizacao import chave_cmed, normalizar, slug, so_digitos
-from ..models import Medicamento, ProdutoCmed
+from ..matching.normalizacao import chave_cmed, normalizar, slug, so_digitos, substancia_canonica
+from ..models import MapeamentoSkuRede, Medicamento, ProdutoCmed
 from .enriquecimento import classe_limpa, derivar_sinonimias, descricao_amigavel, laboratorio_amigavel
 
 log = logging.getLogger(__name__)
@@ -191,6 +191,7 @@ def importar(s: Session, caminho: Path | None = None) -> dict:
     existentes = {p.ggrem: p for p in s.scalars(select(ProdutoCmed))}
     medicamentos = {m.id: m for m in s.scalars(select(Medicamento))}
     vistos, novos, atualizados = set(), 0, 0
+    mudou_grupo: dict[str, str] = {}   # id antigo -> id novo (regra de agrupamento mudou)
     por_substancia: dict[str, list[ProdutoCmed]] = defaultdict(list)
 
     for l in linhas:
@@ -199,7 +200,7 @@ def importar(s: Session, caminho: Path | None = None) -> dict:
             continue
         vistos.add(ggrem)
         campos = _linha_para_campos(l, publicada_em)
-        med_id = slug(campos['substancia'])
+        med_id = slug(substancia_canonica(campos['substancia']))
         if med_id not in medicamentos:
             medicamentos[med_id] = Medicamento(id=med_id, principio_ativo=_titulo(campos['substancia']), nome='')
             s.add(medicamentos[med_id])
@@ -212,6 +213,8 @@ def importar(s: Session, caminho: Path | None = None) -> dict:
             mudou = any(getattr(p, k) != v for k, v in campos.items()) or not p.ativo or p.medicamento_id != med_id
             for k, v in campos.items():
                 setattr(p, k, v)
+            if p.medicamento_id != med_id:
+                mudou_grupo[p.medicamento_id] = med_id
             p.medicamento_id, p.ativo = med_id, True
             atualizados += mudou
         por_substancia[med_id].append(p)
@@ -220,14 +223,51 @@ def importar(s: Session, caminho: Path | None = None) -> dict:
     saiu = [g for g in existentes if g not in vistos]
     if saiu:
         s.execute(update(ProdutoCmed).where(ProdutoCmed.ggrem.in_(saiu)).values(ativo=False))
+        for g in saiu:   # inativas acompanham a regra de agrupamento, se o grupo novo existe
+            p = existentes[g]
+            novo = slug(substancia_canonica(p.substancia))
+            if novo != p.medicamento_id and novo in medicamentos:
+                mudou_grupo[p.medicamento_id] = novo
+                p.medicamento_id = novo
 
     for med_id, produtos in por_substancia.items():
         _reconstruir_grupo(medicamentos[med_id], produtos)
 
+    fundidos = _fundir_grupos(s, mudou_grupo)
     resumo = dict(arquivo=caminho.name, publicada_em=str(publicada_em), apresentacoes=len(vistos),
-                  novas=novos, atualizadas=atualizados, inativadas=len(saiu), medicamentos=len(por_substancia))
+                  novas=novos, atualizadas=atualizados, inativadas=len(saiu), medicamentos=len(por_substancia),
+                  grupos_fundidos=fundidos)
     log.info('Importação CMED: %s', resumo)
     return resumo
+
+
+def _fundir_grupos(s: Session, mudou_grupo: dict[str, str]) -> int:
+    """Quando a regra de agrupamento junta grupos (ex.: "dipirona-monoidratada" -> "dipirona"),
+    os SKUs das redes passam pro grupo novo e o grupo antigo, se ficou sem nenhuma
+    apresentação, é apagado (senão apareceria vazio na busca)."""
+    removidos = 0
+    for antigo, novo in mudou_grupo.items():
+        s.execute(update(MapeamentoSkuRede).where(MapeamentoSkuRede.medicamento_id == antigo)
+                  .values(medicamento_id=novo))
+    s.flush()
+    for antigo in mudou_grupo:
+        if s.scalar(select(ProdutoCmed.ggrem).where(ProdutoCmed.medicamento_id == antigo).limit(1)) is None:
+            med = s.get(Medicamento, antigo)
+            if med is not None:
+                s.delete(med)
+                removidos += 1
+    if mudou_grupo:
+        log.info('Grupos fundidos: %s', mudou_grupo)
+    return removidos
+
+
+def _principio_ativo(produtos: list[ProdutoCmed]) -> str:
+    """Nome de exibição do grupo: a grafia mais curta da CMED ("Dipirona", e não
+    "Dipirona Monoidratada"), desempate pela mais frequente."""
+    contagem: dict[str, int] = defaultdict(int)
+    for p in produtos:
+        contagem[p.substancia.strip()] += 1
+    return _titulo(min(contagem, key=lambda sub: (len(sub), -contagem[sub], sub)))
 
 
 def _reconstruir_grupo(med: Medicamento, produtos: list[ProdutoCmed]) -> None:
@@ -239,6 +279,7 @@ def _reconstruir_grupo(med: Medicamento, produtos: list[ProdutoCmed]) -> None:
     preço. A regra antiga ("o Novo mais caro") escolhia coisas como Sonridor
     (1 apresentação efervescente de R$ 99) como a cara do paracetamol.
     Apresentações de uso só hospitalar são ignoradas quando o grupo tem outras."""
+    med.principio_ativo = _principio_ativo(produtos)
     med.so_hospitalar = all(p.restricao_hospitalar for p in produtos)
     vendaveis = [p for p in produtos if not p.restricao_hospitalar] or produtos
 

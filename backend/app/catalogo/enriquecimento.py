@@ -14,6 +14,8 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+from ..matching.normalizacao import substancia_canonica
+
 _ARQUIVO = Path(__file__).resolve().parent / 'dados' / 'enriquecimento.json'
 MAX_SINONIMOS = 12
 
@@ -90,9 +92,12 @@ def derivar_sinonimias(nome: str, principio_ativo: str, nomes_alternativas: list
             return
         vistos.setdefault(vn, v)
 
-    # 1) curados (igualdade ou prefixo do princípio ativo)
+    # 1) curados (igualdade ou prefixo do princípio ativo), sem grau de hidratação dos dois lados:
+    #    "dipirona monoidratada" vale pro grupo "Dipirona"
+    pa_c = substancia_canonica(principio_ativo)
     for chave, lista in d['sinonimos_curados'].items():
-        if pa_n == chave or pa_n.startswith(chave + ' ') or pa_n.startswith(chave + ';'):
+        chave = substancia_canonica(chave)
+        if pa_c == chave or pa_c.startswith(chave + ' '):
             for s in lista:
                 add(s)
 

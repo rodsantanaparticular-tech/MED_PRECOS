@@ -3,6 +3,19 @@
 > Este arquivo é atualizado no fim de cada sessão de trabalho para registrar o que foi feito e o que falta.
 
 ## Última atualização
+2026-09-30 (noite) — **Grupos da CMED unificados por hidratação.**
+- Id do grupo (`medicamentos.id`) passa a sair de `substancia_canonica()` (`matching/normalizacao.py`):
+  remove mono/di/tri/hemi/sesqui/…-hidratado e anidro, componente a componente; "dipirona sódica" = "dipirona".
+  **Sal diferente continua separado de propósito** (diclofenaco sódico x potássico, dipirona magnésica).
+  Substância sem hidratação no nome mantém o mesmo id (nada muda pra elas).
+- Reimportação migra sozinha: apresentações (inclusive inativas) e SKUs das redes passam pro grupo novo;
+  grupo antigo sem apresentação é apagado (`grupos_fundidos` no resumo). Nome exibido = grafia mais curta
+  da CMED ("Dipirona"). Sinônimos curados ignoram hidratação ("dipirona monoidratada" vale pra "Dipirona").
+- **Não validado com dados reais** (sessão na nuvem sem acesso ao gov.br): só testes (63 ok, novo
+  `tests/test_importar_cmed.py`). Efeitos colaterais conhecidos: link antigo `/medicamento/dipirona-monoidratada`
+  dá 404; índice de busca da API guarda o id velho por até 6h depois da importação.
+- Não feito (avaliar com a planilha): ordem dos componentes em combinações ("A;B" x "B;A").
+
 2026-09-30 (tarde) — **3 redes novas via Lomadee + laboratório + endereço das farmácias.**
 - **Drogaria Rosário, Drogasmil e PromoFarma integradas** pela API oficial da Lomadee:
   - catálogo inteiro no lote diário (~2 min, ~4,2 mil produtos, casamento quase todo por EAN);
@@ -363,9 +376,9 @@ Nissei (robots.txt). Achados (C = confirmado em fonte oficial; I = inferência):
 - **Integrado em 30/09/2026** (`backend/app/coleta/lomadee.py`; redes `rosario`, `drogasmil`, `promofarma` em `redes.py`; campo `redes.somente_online`). Casados na 1ª carga: Drogasmil 613 de 1.971, PromoFarma 1.021 de 2.016, Rosário 64 de 206; o que não casa é quase tudo não-medicamento. O feed da Rosário é pequeno (~200 produtos).
 
 ## Próximos passos sugeridos
-- [ ] **Unificar "Dipirona" e "Dipirona Monoidratada"** (e casos parecidos da CMED): hoje são grupos
-  separados. A busca "dipirona" cai no grupo "Dipirona" (nome de referência estranho: "Cafilisador") e
-  perde as ofertas do outro grupo (ex.: Drogasmil).
+- [x] **Unificar "Dipirona" e "Dipirona Monoidratada"** (30/09, noite) — grupo = substância SEM grau de
+  hidratação (`substancia_canonica`). [ ] **Validar com a planilha real** (`python -m app.cli tarefa importar_cmed`):
+  conferir `grupos_fundidos` no resumo e se a referência da dipirona virou Novalgina.
 - [ ] A 1ª busca numa região nova leva ~20-30s (atualização de preços + Overpass + endereços). As
   seguintes usam cache. Avaliar pré-aquecer as capitais.
 - [ ] **ENVIAR (rascunho pronto em `outreach/contatos-parcerias.md`, item 6): e-mail à SEFAZ-AL (api@sefaz.al.gov.br) pedindo token da API Economiza Alagoas + autorização escrita de uso** — falta só preencher o CPF. Com o token: integrar em `backend/app/coleta/` casando por EAN (Frente 3 já pronta).
@@ -379,7 +392,7 @@ Nissei (robots.txt). Achados (C = confirmado em fonte oficial; I = inferência):
 - [ ] Rodar um lote de preços completo pelo worker (`atualizar_precos_lote`, ~30 min com as redes em paralelo) pra renovar os preços legados e trazer EAN de todos os SKUs.
 - [ ] Hospedagem 24x7: a agenda só roda com o Docker de pé. Pra nuvem, o mesmo `docker-compose.yml` serve de base (trocar senha em `.env`, colocar HTTPS/proxy na frente da `api`, Postgres gerenciado opcional). Decidir provedor.
 - [ ] Estimativa de preço pras redes sem coleta é fraca (teto CMED x 0,85 x fator fixo). Avaliar trocar pela mediana dos preços reais da mesma apresentação.
-- [ ] Refinos de casamento: ~19% dos SKUs das redes seguem sem casar (muitos são não-medicamentos: suplementos, correlatos); "Dipirona" x "Dipirona Monoidratada" continuam grupos separados (nuance CMED).
+- [ ] Refinos de casamento: ~19% dos SKUs das redes seguem sem casar (muitos são não-medicamentos: suplementos, correlatos); (dipirona x monoidratada resolvido em 30/09 — falta validar com a planilha).
 - [ ] Cobertura da reserva de farmácias é só 9 capitais (usada só com Overpass fora do ar e sem cache da região).
 - [ ] **Conector Gmail** — ainda preso na conta pessoal (passo a passo de reconexão já passado ao usuário).
 

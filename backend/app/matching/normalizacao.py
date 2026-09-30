@@ -35,6 +35,28 @@ def slug(texto: str, limite: int = 150) -> str:
     return s[:limite - 9].strip('-') + '-' + hashlib.sha1(s.encode()).hexdigest()[:8]
 
 
+# Grau de hidratação não muda o fármaco (a dose é declarada igual): a CMED grafa a mesma
+# substância como "DIPIRONA" e "DIPIRONA MONOIDRATADA", "AMOXICILINA TRI-HIDRATADA"...
+# Sal diferente (diclofenaco sódico x potássico) NÃO entra aqui: é outro produto.
+_RE_HIDRATACAO = re.compile(
+    r'\b(?:(?:mono|di|tri|tetra|penta|hexa|hepta|octa|hemi|sesqui)\s?)?h?idratad[oa]s?\b|\banidr[oa]s?\b')
+# Equivalências explícitas (DCB): "dipirona" já é o sal sódico do metamizol
+_SUBSTANCIA_EQUIVALENTE = {'dipirona sodica': 'dipirona'}
+
+
+def substancia_canonica(substancia: str | None) -> str:
+    """Substância CMED sem o grau de hidratação, componente a componente (combinações vêm
+    separadas por ";"). Define o grupo (id do medicamento): "DIPIRONA MONOIDRATADA" e
+    "DIPIRONA" caem no mesmo. Sem hidratação no nome, o resultado é o de normalizar()."""
+    partes = []
+    for parte in str(substancia or '').split(';'):
+        p = re.sub(r'\s+', ' ', _RE_HIDRATACAO.sub(' ', normalizar(parte))).strip()
+        p = _SUBSTANCIA_EQUIVALENTE.get(p, p)
+        if p:
+            partes.append(p)
+    return ' '.join(partes)
+
+
 def so_digitos(valor) -> str:
     return re.sub(r'\D', '', str(valor or ''))
 
