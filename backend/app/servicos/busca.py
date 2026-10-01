@@ -5,15 +5,15 @@ front antigo, com as mesmas regras de pontuação, mas agora considerando TODAS
 as marcas de cada princípio ativo (não só as 12 guardadas como sinônimo).
 
 O índice fica em memória (≈2 mil princípios ativos) e é recarregado quando o
-catálogo muda.
+catálogo muda (conferido a cada minuto - ver catalogo/versao.py).
 """
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta
 
 from rapidfuzz.distance import Levenshtein
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from ..catalogo.versao import IndiceComVersao
 from ..matching.normalizacao import normalizar
 from ..models import Medicamento, ProdutoCmed
 
@@ -64,7 +64,6 @@ class IndiceBusca:
             secundarios = {normalizar(x) for x in (m.sinonimias or [])} | set(marcas_med)
             self.entradas.append(_Entrada(m.id, m.nome, m.principio_ativo, principais,
                                           [x for x in secundarios if x and x not in principais], marcas_med))
-        self.criado_em = datetime.utcnow()
 
     def buscar(self, termo: str, limite: int = 5) -> list[dict]:
         t = normalizar(termo)
@@ -88,11 +87,8 @@ def _titulo(s: str) -> str:
     return ' '.join(w.capitalize() if len(w) > 2 else w.lower() for w in (s or '').split())
 
 
-_indice: IndiceBusca | None = None
+_indice = IndiceComVersao(IndiceBusca)
 
 
 def indice_busca(s: Session) -> IndiceBusca:
-    global _indice
-    if _indice is None or datetime.utcnow() - _indice.criado_em > timedelta(hours=6):
-        _indice = IndiceBusca(s)
-    return _indice
+    return _indice.obter(s)

@@ -12,8 +12,11 @@
   grupo antigo sem apresentação é apagado (`grupos_fundidos` no resumo). Nome exibido = grafia mais curta
   da CMED ("Dipirona"). Sinônimos curados ignoram hidratação ("dipirona monoidratada" vale pra "Dipirona").
 - **Não validado com dados reais** (sessão na nuvem sem acesso ao gov.br): só testes (63 ok, novo
-  `tests/test_importar_cmed.py`). Efeitos colaterais conhecidos: link antigo `/medicamento/dipirona-monoidratada`
-  dá 404; índice de busca da API guarda o id velho por até 6h depois da importação.
+  `tests/test_importar_cmed.py`). Efeito colateral conhecido: link antigo `/medicamento/dipirona-monoidratada`
+  dá 404.
+- (01/10) Índices em memória (busca na API, casamento no worker) agora conferem a cada 60s se o catálogo
+  mudou (`catalogo/versao.py`: contagem de grupos + última atualização) e se recriam. Antes a API, que é
+  outro processo, ficava até 6h com o índice velho depois da importação.
 - Não feito (avaliar com a planilha): ordem dos componentes em combinações ("A;B" x "B;A").
 
 2026-09-30 (tarde) — **3 redes novas via Lomadee + laboratório + endereço das farmácias.**

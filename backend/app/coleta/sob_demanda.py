@@ -19,6 +19,7 @@ from datetime import datetime, timedelta
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from ..catalogo.versao import IndiceComVersao
 from ..config import obter_config
 from ..db import sessao
 from ..matching.casamento import IndiceCatalogo
@@ -29,21 +30,16 @@ from .persistencia import registrar_ofertas
 
 log = logging.getLogger(__name__)
 MAX_SKUS_DIRETOS_POR_REDE = 6
-_indice: IndiceCatalogo | None = None
-_indice_criado_em: datetime | None = None
+_indice = IndiceComVersao(IndiceCatalogo)
 
 
 def indice_catalogo(s: Session) -> IndiceCatalogo:
-    """Índice em memória, recriado a cada 6h (o catálogo muda uma vez por mês)."""
-    global _indice, _indice_criado_em
-    if _indice is None or datetime.utcnow() - _indice_criado_em > timedelta(hours=6):
-        _indice, _indice_criado_em = IndiceCatalogo(s), datetime.utcnow()
-    return _indice
+    """Índice em memória, recriado quando o catálogo muda (ver catalogo/versao.py)."""
+    return _indice.obter(s)
 
 
 def invalidar_indice() -> None:
-    global _indice
-    _indice = None
+    _indice.invalidar()
 
 
 def redes_coletaveis(s: Session, rede_ids: list[str] | None = None) -> list[Rede]:
